@@ -1,0 +1,216 @@
+# Ethereum Data Repository
+
+A comprehensive dataset containing EVM-compatible blockchain networks, token assets, and verified smart contracts.
+
+## Directory Structure
+
+```
+ethereum-data/
+├── chains/          # Network/chain definitions (2500+ chains)
+├── assets/          # Token information organized by chain (12500+ tokens)
+└── contracts/       # Verified smart contract data
+```
+
+## Data Formats
+
+### Chains (`chains/`)
+
+Chain files follow the EIP-155 naming convention: `eip155-{chainId}.json`
+
+**Example:** `eip155-1.json` (Ethereum Mainnet), `eip155-137.json` (Polygon)
+
+```json
+{
+  "name": "Ethereum Mainnet",
+  "chain": "ETH",
+  "icon": "ethereum",
+  "rpc": [
+    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
+    "https://cloudflare-eth.com"
+  ],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://ethereum.org",
+  "shortName": "eth",
+  "chainId": 1,
+  "networkId": 1,
+  "slip44": 60,
+  "ens": {
+    "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+  },
+  "explorers": [
+    {
+      "name": "etherscan",
+      "url": "https://etherscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `name` | string | Full network name |
+| `chain` | string | Short chain identifier |
+| `icon` | string | Icon reference name |
+| `rpc` | string[] | List of RPC endpoint URLs |
+| `features` | object[] | Supported EIPs and features |
+| `faucets` | string[] | Testnet faucet URLs (if applicable) |
+| `nativeCurrency` | object | Native token info (name, symbol, decimals) |
+| `infoURL` | string | Official website |
+| `shortName` | string | Short name for display |
+| `chainId` | number | EIP-155 chain ID |
+| `networkId` | number | Network ID |
+| `slip44` | number | SLIP-44 coin type |
+| `ens` | object | ENS registry address (if supported) |
+| `explorers` | object[] | Block explorer information |
+
+---
+
+### Assets (`assets/`)
+
+Assets are organized by chain using the EIP-155 format:
+
+```
+assets/
+├── eip155-1/           # Ethereum Mainnet tokens
+│   ├── 0x00000.../
+│   │   ├── info.json   # Token metadata
+│   │   └── logo.png    # Token logo (optional)
+│   └── ...
+├── eip155-137/         # Polygon tokens
+└── ...
+```
+
+**Asset Directory Contents:**
+
+| File | Required | Description |
+|------|----------|-------------|
+| `info.json` | Yes | Token metadata and information |
+| `logo.png` | No | Token logo image (PNG format) |
+
+**Asset info.json Format:**
+
+```json
+{
+  "name": "TrueUSD",
+  "website": "https://www.trueusd.com/",
+  "description": "TrueUSD is the first independently-verified digital asset redeemable 1-for-1 for US Dollars.",
+  "explorer": "https://etherscan.io/token/0x0000000000085d4780B73119b644AE5ecd22b376",
+  "type": "ERC20",
+  "symbol": "TUSD",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x0000000000085d4780B73119b644AE5ecd22b376",
+  "tags": ["stablecoin"],
+  "links": [
+    { "name": "github", "url": "https://github.com/trusttoken/TrueUSD" },
+    { "name": "x", "url": "https://x.com/tusd_official" },
+    { "name": "telegram", "url": "https://t.me/TUSDofficial_EN" },
+    { "name": "coingecko", "url": "https://coingecko.com/en/coins/true-usd/" }
+  ]
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `name` | string | Token name |
+| `website` | string | Official website URL |
+| `description` | string | Token description |
+| `explorer` | string | Block explorer URL for the token |
+| `type` | string | Token standard (ERC20, ERC721, etc.) |
+| `symbol` | string | Token symbol |
+| `decimals` | number | Token decimals |
+| `status` | string | Token status (active/inactive) |
+| `id` | string | Contract address |
+| `tags` | string[] | Categorization tags |
+| `links` | object[] | Social and info links |
+
+---
+
+### Contracts (`contracts/`)
+
+Verified smart contracts organized by chain:
+
+```
+contracts/
+└── eip155-137/
+    └── 0x1b04e723.../
+        ├── info.json      # Contract metadata
+        └── payload.json   # ABI and bytecode
+```
+
+**Contract info.json Format:**
+
+```json
+{
+  "id": "137:0x1b04e723170Dfd23E99b086dDB7C17962890aFe8",
+  "chainId": 137,
+  "name": "BiuBiuPremium",
+  "address": "0x1b04e723170Dfd23E99b086dDB7C17962890aFe8",
+  "explorer": "https://polygonscan.com/address/0x1b04e723170dfd23e99b086ddb7c17962890afe8#code",
+  "sourceCode": {
+    "url": "https://github.com/atshelchin/biubiu-contracts",
+    "commitId": "cc04f15",
+    "compilerVersion": "0.8.28+commit.7893614a",
+    "optimization": { "enabled": true, "runs": 200 },
+    "evmVersion": "cancun"
+  },
+  "proxy": {
+    "isProxy": false,
+    "proxyType": "",
+    "implementation": ""
+  }
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `id` | string | Unique identifier (chainId:address) |
+| `chainId` | number | Chain ID where contract is deployed |
+| `name` | string | Contract name |
+| `address` | string | Contract address |
+| `explorer` | string | Block explorer URL |
+| `sourceCode.url` | string | Source code repository |
+| `sourceCode.commitId` | string | Git commit hash |
+| `sourceCode.compilerVersion` | string | Solidity compiler version |
+| `sourceCode.optimization` | object | Compiler optimization settings |
+| `sourceCode.evmVersion` | string | Target EVM version |
+| `proxy.isProxy` | boolean | Whether contract is a proxy |
+| `proxy.proxyType` | string | Proxy pattern type (if applicable) |
+| `proxy.implementation` | string | Implementation address (if proxy) |
+
+**Contract payload.json Format:**
+
+```json
+{
+  "abi": [...],       // Contract ABI (Application Binary Interface)
+  "bytecode": "0x..." // Compiled contract bytecode
+}
+```
+
+---
+
+## Naming Conventions
+
+All chain-related identifiers follow the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) standard:
+
+- Format: `eip155-{chainId}`
+- Examples:
+  - `eip155-1` - Ethereum Mainnet
+  - `eip155-137` - Polygon
+  - `eip155-10` - Optimism
+  - `eip155-42161` - Arbitrum One
+
+## Statistics
+
+| Category | Count |
+|----------|-------|
+| Chains | 2,505 |
+| Assets | 12,524 |
+| Supported Asset Chains | 49 |

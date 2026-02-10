@@ -1,0 +1,19 @@
+{
+    "id": "137:0x1b04e723170Dfd23E99b086dDB7C17962890aFe8",
+    "chainId": 137,
+    "name": "BiuBiuPremium",
+    "address": "0x1b04e723170Dfd23E99b086dDB7C17962890aFe8",
+    "explorer": "https://polygonscan.com/address/0x1b04e723170dfd23e99b086ddb7c17962890afe8#code",
+    "sourceCode": {
+        "url": "https://github.com/atshelchin/biubiu-contracts",
+        "commitId": "cc04f15",
+        "compilerVersion": "0.8.28+commit.7893614a",
+        "optimization": { "enabled": true, "runs": 200 },
+        "evmVersion": "cancun"
+    },
+    "proxy": {
+        "isProxy": false,
+        "proxyType": "",
+        "implementation": ""
+    }
+}
