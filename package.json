@@ -2,7 +2,9 @@
   "name": "ethereum-data",
   "version": "1.0.0",
   "scripts": {
-    "build": "bun run scripts/generate-index.ts"
+    "build": "bun run scripts/generate-index.ts",
+    "dev": "bun run scripts/server.ts",
+    "build:server": "bun run scripts/generate-index.ts && bun build scripts/server.ts --compile --outfile dist/ethereum-data"
   },
   "dependencies": {
     "fuse.js": "^7.1.0"

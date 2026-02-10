@@ -1,2 +1,4 @@
 index
 node_modules
+dist
+.env
