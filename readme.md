@@ -2,6 +2,8 @@
 
 A comprehensive dataset containing EVM-compatible blockchain networks, token assets, and verified smart contracts.
 
+**Live Demo:** [ethereum-data.pages.dev](https://ethereum-data.pages.dev) (or your deployed URL)
+
 ## Directory Structure
 
 ```
@@ -22,6 +24,7 @@ ethereum-data/
 This repository is designed for static hosting on Cloudflare Pages (or similar platforms).
 
 **Cloudflare Pages Build Settings:**
+
 - Build command: `bun run build`
 - Build output directory: `/` (root)
 
@@ -31,11 +34,11 @@ The build script generates Fuse.js search indexes from the original data directo
 
 Pre-built [Fuse.js](https://fusejs.io/) indexes for fuzzy search. Each index file contains both data and the Fuse.js index.
 
-| File | Description | Size |
-|------|-------------|------|
-| `fuse-chains.json` | Chain data + index | ~500 KB |
-| `fuse-assets.json` | Asset data + index | ~2.5 MB |
-| `fuse-contracts.json` | Contract data + index | ~1 KB |
+| File                    | Description           | Size    |
+| ----------------------- | --------------------- | ------- |
+| `fuse-chains.json`    | Chain data + index    | ~500 KB |
+| `fuse-assets.json`    | Asset data + index    | ~2.5 MB |
+| `fuse-contracts.json` | Contract data + index | ~1 KB   |
 
 **Usage Example:**
 
@@ -115,22 +118,22 @@ Chain files follow the EIP-155 naming convention: `eip155-{chainId}.json`
 }
 ```
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `name` | string | Full network name |
-| `chain` | string | Short chain identifier |
-| `icon` | string | Icon reference name |
-| `rpc` | string[] | List of RPC endpoint URLs |
-| `features` | object[] | Supported EIPs and features |
-| `faucets` | string[] | Testnet faucet URLs (if applicable) |
-| `nativeCurrency` | object | Native token info (name, symbol, decimals) |
-| `infoURL` | string | Official website |
-| `shortName` | string | Short name for display |
-| `chainId` | number | EIP-155 chain ID |
-| `networkId` | number | Network ID |
-| `slip44` | number | SLIP-44 coin type |
-| `ens` | object | ENS registry address (if supported) |
-| `explorers` | object[] | Block explorer information |
+| Field              | Type     | Description                                |
+| ------------------ | -------- | ------------------------------------------ |
+| `name`           | string   | Full network name                          |
+| `chain`          | string   | Short chain identifier                     |
+| `icon`           | string   | Icon reference name                        |
+| `rpc`            | string[] | List of RPC endpoint URLs                  |
+| `features`       | object[] | Supported EIPs and features                |
+| `faucets`        | string[] | Testnet faucet URLs (if applicable)        |
+| `nativeCurrency` | object   | Native token info (name, symbol, decimals) |
+| `infoURL`        | string   | Official website                           |
+| `shortName`      | string   | Short name for display                     |
+| `chainId`        | number   | EIP-155 chain ID                           |
+| `networkId`      | number   | Network ID                                 |
+| `slip44`         | number   | SLIP-44 coin type                          |
+| `ens`            | object   | ENS registry address (if supported)        |
+| `explorers`      | object[] | Block explorer information                 |
 
 ---
 
@@ -148,10 +151,10 @@ chainlogos/
 └── ...
 ```
 
-| Format | Description |
-|--------|-------------|
-| File naming | `eip155-{chainId}.png` |
-| Image format | PNG |
+| Format       | Description              |
+| ------------ | ------------------------ |
+| File naming  | `eip155-{chainId}.png` |
+| Image format | PNG                      |
 
 ---
 
@@ -172,10 +175,10 @@ assets/
 
 **Asset Directory Contents:**
 
-| File | Required | Description |
-|------|----------|-------------|
-| `info.json` | Yes | Token metadata and information |
-| `logo.png` | No | Token logo image (PNG format) |
+| File          | Required | Description                    |
+| ------------- | -------- | ------------------------------ |
+| `info.json` | Yes      | Token metadata and information |
+| `logo.png`  | No       | Token logo image (PNG format)  |
 
 **Asset info.json Format:**
 
@@ -200,19 +203,19 @@ assets/
 }
 ```
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `name` | string | Token name |
-| `website` | string | Official website URL |
-| `description` | string | Token description |
-| `explorer` | string | Block explorer URL for the token |
-| `type` | string | Token standard (ERC20, ERC721, etc.) |
-| `symbol` | string | Token symbol |
-| `decimals` | number | Token decimals |
-| `status` | string | Token status (active/inactive) |
-| `id` | string | Contract address |
-| `tags` | string[] | Categorization tags |
-| `links` | object[] | Social and info links |
+| Field           | Type     | Description                          |
+| --------------- | -------- | ------------------------------------ |
+| `name`        | string   | Token name                           |
+| `website`     | string   | Official website URL                 |
+| `description` | string   | Token description                    |
+| `explorer`    | string   | Block explorer URL for the token     |
+| `type`        | string   | Token standard (ERC20, ERC721, etc.) |
+| `symbol`      | string   | Token symbol                         |
+| `decimals`    | number   | Token decimals                       |
+| `status`      | string   | Token status (active/inactive)       |
+| `id`          | string   | Contract address                     |
+| `tags`        | string[] | Categorization tags                  |
+| `links`       | object[] | Social and info links                |
 
 ---
 
@@ -252,21 +255,21 @@ contracts/
 }
 ```
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `id` | string | Unique identifier (chainId:address) |
-| `chainId` | number | Chain ID where contract is deployed |
-| `name` | string | Contract name |
-| `address` | string | Contract address |
-| `explorer` | string | Block explorer URL |
-| `sourceCode.url` | string | Source code repository |
-| `sourceCode.commitId` | string | Git commit hash |
-| `sourceCode.compilerVersion` | string | Solidity compiler version |
-| `sourceCode.optimization` | object | Compiler optimization settings |
-| `sourceCode.evmVersion` | string | Target EVM version |
-| `proxy.isProxy` | boolean | Whether contract is a proxy |
-| `proxy.proxyType` | string | Proxy pattern type (if applicable) |
-| `proxy.implementation` | string | Implementation address (if proxy) |
+| Field                          | Type    | Description                         |
+| ------------------------------ | ------- | ----------------------------------- |
+| `id`                         | string  | Unique identifier (chainId:address) |
+| `chainId`                    | number  | Chain ID where contract is deployed |
+| `name`                       | string  | Contract name                       |
+| `address`                    | string  | Contract address                    |
+| `explorer`                   | string  | Block explorer URL                  |
+| `sourceCode.url`             | string  | Source code repository              |
+| `sourceCode.commitId`        | string  | Git commit hash                     |
+| `sourceCode.compilerVersion` | string  | Solidity compiler version           |
+| `sourceCode.optimization`    | object  | Compiler optimization settings      |
+| `sourceCode.evmVersion`      | string  | Target EVM version                  |
+| `proxy.isProxy`              | boolean | Whether contract is a proxy         |
+| `proxy.proxyType`            | string  | Proxy pattern type (if applicable)  |
+| `proxy.implementation`       | string  | Implementation address (if proxy)   |
 
 **Contract payload.json Format:**
 
@@ -292,9 +295,43 @@ All chain-related identifiers follow the [CAIP-2](https://github.com/ChainAgnost
 
 ## Statistics
 
-| Category | Count |
-|----------|-------|
-| Chains | 2,505 |
-| Assets | 12,524 |
-| Supported Asset Chains | 49 |
-| Fuse.js Index Total | ~3 MB |
+| Category               | Count  |
+| ---------------------- | ------ |
+| Chains                 | 2,505  |
+| Assets                 | 12,524 |
+| Supported Asset Chains | 49     |
+| Fuse.js Index Total    | ~3 MB  |
+
+---
+
+## Contributing
+
+Contributions are welcome! Feel free to:
+
+- Add new chains, assets, or contracts
+- Fix incorrect data
+- Improve documentation
+- Report issues
+
+### How to Contribute
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/add-new-chain`)
+3. Add or update data following the formats above
+4. Commit your changes (`git commit -m 'Add new chain data'`)
+5. Push to the branch (`git push origin feature/add-new-chain`)
+6. Open a Pull Request
+
+### Data Quality Guidelines
+
+- Ensure all JSON files are valid
+- Use checksummed addresses (EIP-55)
+- Include logo images in PNG format when available
+- Verify RPC endpoints are functional
+- Link to official sources when possible
+
+---
+
+## License
+
+This project is open source. Data is aggregated from various public sources.
