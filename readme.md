@@ -2,7 +2,7 @@
 
 A comprehensive dataset containing EVM-compatible blockchain networks, token assets, and verified smart contracts.
 
-**Live Demo:** [ethereum-data.pages.dev](https://ethereum-data.pages.dev) (or your deployed URL)
+**Live Demo:** [ethereum-data.awesometools.dev](https://ethereum-data.awesometools.dev)
 
 ## Directory Structure
 
