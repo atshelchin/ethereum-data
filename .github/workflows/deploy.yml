@@ -52,7 +52,7 @@ jobs:
         if: ${{ github.event.inputs.rollback_to == '' }}
         run: |
           bun install
-          bun run build:server
+          bun run build:server:linux
 
       - name: Verify build output
         if: ${{ github.event.inputs.rollback_to == '' }}
@@ -111,7 +111,7 @@ jobs:
 
             [Service]
             ExecStart=${{ env.BASE_PATH }}/current/${{ env.EXE_NAME }}
-            WorkingDirectory=${{ env.BASE_PATH }}/shared/data
+            WorkingDirectory=${{ env.BASE_PATH }}/current
             Restart=always
             User=${{ env.SSH_USER }}
             EnvironmentFile=${{ env.BASE_PATH }}/current/.env
@@ -149,31 +149,6 @@ jobs:
           source: ${{ env.SOURCE_PATH }}
           target: ${{ env.BASE_PATH }}/releases/${{ steps.release_info.outputs.release_name }}
           strip_components: 1
-
-      - name: Sync Static Data Files
-        if: ${{ steps.release_info.outputs.is_rollback == 'false' }}
-        run: |
-          # Setup SSH key
-          mkdir -p ~/.ssh
-          echo "${{ env.SSH_KEY }}" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -H ${{ env.SSH_HOST }} >> ~/.ssh/known_hosts 2>/dev/null
-
-          # Sync static files to shared data directory
-          rsync -avz --delete \
-            -e "ssh -i ~/.ssh/deploy_key" \
-            --exclude 'node_modules' \
-            --exclude 'dist' \
-            --exclude '.git' \
-            --exclude 'scripts' \
-            --exclude '.github' \
-            --exclude '.claude' \
-            --exclude 'bun.lock' \
-            --exclude 'package.json' \
-            --exclude '.gitignore' \
-            ./ ${{ env.SSH_USER }}@${{ env.SSH_HOST }}:${{ env.BASE_PATH }}/shared/data/
-
-          echo "Static files synced successfully"
 
       - name: Deploy & Activate Release
         id: deploy
