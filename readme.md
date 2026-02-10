@@ -334,4 +334,4 @@ Contributions are welcome! Feel free to:
 
 ## License
 
-This project is open source. Data is aggregated from various public sources.
+MIT License - see [LICENSE](LICENSE) for details.
