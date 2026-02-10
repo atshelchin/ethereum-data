@@ -7,6 +7,7 @@ A comprehensive dataset containing EVM-compatible blockchain networks, token ass
 ```
 ethereum-data/
 ├── chains/          # Network/chain definitions (2500+ chains)
+├── chainlogos/      # Chain/network logo images
 ├── assets/          # Token information organized by chain (12500+ tokens)
 └── contracts/       # Verified smart contract data
 ```
@@ -69,6 +70,27 @@ Chain files follow the EIP-155 naming convention: `eip155-{chainId}.json`
 | `slip44` | number | SLIP-44 coin type |
 | `ens` | object | ENS registry address (if supported) |
 | `explorers` | object[] | Block explorer information |
+
+---
+
+### Chain Logos (`chainlogos/`)
+
+Chain logo images following the EIP-155 naming convention: `eip155-{chainId}.png`
+
+```
+chainlogos/
+├── eip155-1.png      # Ethereum Mainnet
+├── eip155-10.png     # Optimism
+├── eip155-56.png     # BNB Smart Chain
+├── eip155-137.png    # Polygon
+├── eip155-42161.png  # Arbitrum One
+└── ...
+```
+
+| Format | Description |
+|--------|-------------|
+| File naming | `eip155-{chainId}.png` |
+| Image format | PNG |
 
 ---
 
