@@ -9,8 +9,69 @@ ethereum-data/
 ├── chains/          # Network/chain definitions (2500+ chains)
 ├── chainlogos/      # Chain/network logo images
 ├── assets/          # Token information organized by chain (12500+ tokens)
-└── contracts/       # Verified smart contract data
+├── contracts/       # Verified smart contract data
+├── index/           # Fuse.js search indexes (auto-generated)
+│   ├── fuse-chains.json
+│   ├── fuse-assets.json
+│   └── fuse-contracts.json
+└── index.html       # Landing page with live search demo
 ```
+
+## Deployment
+
+This repository is designed for static hosting on Cloudflare Pages (or similar platforms).
+
+**Cloudflare Pages Build Settings:**
+- Build command: `bun run build`
+- Build output directory: `/` (root)
+
+The build script generates Fuse.js search indexes from the original data directories.
+
+## Search Index
+
+Pre-built [Fuse.js](https://fusejs.io/) indexes for fuzzy search. Each index file contains both data and the Fuse.js index.
+
+| File | Description | Size |
+|------|-------------|------|
+| `fuse-chains.json` | Chain data + index | ~500 KB |
+| `fuse-assets.json` | Asset data + index | ~2.5 MB |
+| `fuse-contracts.json` | Contract data + index | ~1 KB |
+
+**Usage Example:**
+
+```javascript
+import Fuse from 'fuse.js';
+
+// Load data and index
+const res = await fetch('./index/fuse-assets.json');
+const { data, index } = await res.json();
+
+// Create Fuse instance with pre-built index
+const fuseIndex = Fuse.parseIndex(index);
+const fuse = new Fuse(data, {
+  keys: ['name', 'symbol'],
+  threshold: 0.3
+}, fuseIndex);
+
+// Fuzzy search
+const results = fuse.search('usdt');
+console.log(results[0].item); // { chainId: 1, address: "0x...", name: "Tether USD", symbol: "USDT", ... }
+```
+
+**Data Structure:**
+
+```javascript
+// Chain
+{ chainId: 1, name: "Ethereum Mainnet", shortName: "eth", nativeCurrencySymbol: "ETH", hasLogo: true }
+
+// Asset
+{ chainId: 1, address: "0x...", name: "Tether USD", symbol: "USDT", decimals: 6, hasLogo: true }
+
+// Contract
+{ chainId: 137, address: "0x...", name: "MyContract" }
+```
+
+---
 
 ## Data Formats
 
@@ -236,3 +297,4 @@ All chain-related identifiers follow the [CAIP-2](https://github.com/ChainAgnost
 | Chains | 2,505 |
 | Assets | 12,524 |
 | Supported Asset Chains | 49 |
+| Fuse.js Index Total | ~3 MB |

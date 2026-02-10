@@ -1,0 +1,10 @@
+{
+  "name": "ethereum-data",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "bun run scripts/generate-index.ts"
+  },
+  "dependencies": {
+    "fuse.js": "^7.1.0"
+  }
+}
