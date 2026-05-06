@@ -44,5 +44,13 @@
       "contract": "0x66e428c3f67a68878562e79A0234c1F83c208770"
     }
   ],
-  "wrappedNativeToken": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
+  "wrappedNativeToken": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+  "dex": {
+    "dex": "VVS Finance",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x3B44B2a187a7b3824131F8db5a74194D0a42Fc15",
+      "router": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+    }
+  }
 }

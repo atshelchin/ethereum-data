@@ -46,5 +46,13 @@
       "contract": "0x754288077d0ff82af7a5317c7cb8c444d421d103"
     }
   ],
-  "wrappedNativeToken": "0x19Aac5f612f524B754CA7e7c41cbFa2E981A4432"
+  "wrappedNativeToken": "0x19Aac5f612f524B754CA7e7c41cbFa2E981A4432",
+  "dex": {
+    "dex": "KlaySwap",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0xEf71750C100f7918d6Ded239Ff1CF09E81dEA92C",
+      "router": "0xe0fbB27D0E7F3a397A67a9d4864D4f4DD7cF8cB9"
+    }
+  }
 }

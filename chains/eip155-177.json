@@ -33,5 +33,14 @@
     "type": "L2",
     "chain": "eip155-1"
   },
-  "wrappedNativeToken": "0x0000000000000000000000000000000000000804"
+  "wrappedNativeToken": "0x0000000000000000000000000000000000000804",
+  "dex": {
+    "dex": "HSKSwap",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x",
+      "router": "0x"
+    },
+    "verified": false
+  }
 }

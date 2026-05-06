@@ -53,5 +53,13 @@
       "contract": "0x6047828dc181963ba44974801ff68e538da5eaf9"
     }
   ],
-  "wrappedNativeToken": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38"
+  "wrappedNativeToken": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+  "dex": {
+    "dex": "Aster",
+    "protocol": "solidly",
+    "contracts": {
+      "factory": "0xAAA20D08e59F6561f242b08513D36266C5A29415",
+      "router": "0xAAA45c8F5ef92a000a121d102F4e89278a711Faa"
+    }
+  }
 }

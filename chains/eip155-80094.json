@@ -46,5 +46,14 @@
       "contract": "0x3Dc96399109df5ceb2C226664A086140bD0379cB"
     }
   ],
-  "wrappedNativeToken": "0x6969696969696969696969696969696969696969"
+  "wrappedNativeToken": "0x6969696969696969696969696969696969696969",
+  "dex": {
+    "dex": "Kodiak",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0x6a80d5D44Bb5e38D3C2b1304a27a28189d2DB764",
+      "quoterV2": "0x"
+    },
+    "verified": false
+  }
 }

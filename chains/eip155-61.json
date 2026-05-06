@@ -65,5 +65,13 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x82A618305706B14e7bcf2592D4B9324A366b6dAd"
+  "wrappedNativeToken": "0x82A618305706B14e7bcf2592D4B9324A366b6dAd",
+  "dex": {
+    "dex": "ETCswap",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x7F8D7095f2b2B17a927A6735D9AfB6dBCBe3Ba4c",
+      "router": "0x5F2EE81D4F3b3a413cE3F4C33C4D8e1eC5e00e7d"
+    }
+  }
 }

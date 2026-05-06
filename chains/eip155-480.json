@@ -54,5 +54,13 @@
       "contract": "0x79A02482A880bCe3F13E09da970dC34dB4cD24D1"
     }
   ],
-  "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
+  "dex": {
+    "dex": "Uniswap",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "quoterV2": "0x61fFE014bA17989E743c5F6cB21bF9697530B21e"
+    }
+  }
 }

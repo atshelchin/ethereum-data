@@ -52,5 +52,13 @@
       "contract": "0xf55bec9cafdbe8730f096aa55dad6d22d44099df"
     }
   ],
-  "wrappedNativeToken": "0x5300000000000000000000000000000000000004"
+  "wrappedNativeToken": "0x5300000000000000000000000000000000000004",
+  "dex": {
+    "dex": "Ambient",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0xaaaaAAAACB71BF2C8CaE522EA5fa455571A74106",
+      "quoterV2": "0x62223e90605845Cf5CC6DAE6E0de4CDA130d6DDf"
+    }
+  }
 }

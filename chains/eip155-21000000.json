@@ -44,5 +44,14 @@
       "type": "bridge",
       "contract": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
     }
-  ]
+  ],
+  "dex": {
+    "dex": "CornSwap",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x",
+      "router": "0x"
+    },
+    "verified": false
+  }
 }

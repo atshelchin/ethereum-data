@@ -53,5 +53,13 @@
       "contract": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73"
     }
   ],
-  "wrappedNativeToken": "0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720"
+  "wrappedNativeToken": "0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720",
+  "dex": {
+    "dex": "ArthSwap",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0xA9473608514457b4bF083f9045fA63ae5810A03E",
+      "router": "0xE915D2393a08a00c5A463053edD31bAe2199b9e7"
+    }
+  }
 }

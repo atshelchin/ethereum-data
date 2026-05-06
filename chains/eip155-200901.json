@@ -40,5 +40,14 @@
       "contract": "0xfe9f969faf8ad72a83b761138bf25de87eff9dd2"
     }
   ],
-  "wrappedNativeToken": "0x3e57d6946f893314324C975AA9CEBBdF3232967E"
+  "wrappedNativeToken": "0x3e57d6946f893314324C975AA9CEBBdF3232967E",
+  "dex": {
+    "dex": "Macaron",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x",
+      "router": "0x"
+    },
+    "verified": false
+  }
 }

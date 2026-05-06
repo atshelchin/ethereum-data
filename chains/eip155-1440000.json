@@ -2,9 +2,21 @@
   "name": "XRPL EVM Sidechain",
   "chain": "XRPL EVM",
   "icon": "xrplevm",
-  "rpc": ["https://rpc.xrplevm.org", "wss://ws.xrplevm.org"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": ["https://faucet.xrplevm.org"],
+  "rpc": [
+    "https://rpc.xrplevm.org",
+    "wss://ws.xrplevm.org"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [
+    "https://faucet.xrplevm.org"
+  ],
   "nativeCurrency": {
     "name": "XRP",
     "symbol": "XRP",
@@ -21,5 +33,14 @@
       "icon": "xrplevm",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "dex": {
+    "dex": "XRPLSwap",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x",
+      "router": "0x"
+    },
+    "verified": false
+  }
 }

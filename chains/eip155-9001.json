@@ -40,5 +40,13 @@
       "contract": "0xb72A7567847abA28A2819B855D7fE679D4f59846"
     }
   ],
-  "wrappedNativeToken": "0xD4949664cD82660AaE99bEdc034a0deA8A0bd517"
+  "wrappedNativeToken": "0xD4949664cD82660AaE99bEdc034a0deA8A0bd517",
+  "dex": {
+    "dex": "EvmoSwap",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0xF24E36e53628C3086fc66BF109cDB1eDfB1770b0",
+      "router": "0x56b0736BFCe0e9411c5F703EEf9B65A86217AbAB"
+    }
+  }
 }

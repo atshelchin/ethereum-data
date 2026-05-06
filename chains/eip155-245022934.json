@@ -41,5 +41,14 @@
       "contract": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a"
     }
   ],
-  "wrappedNativeToken": "0x202C35e517Fa803B537565c40F0a6965D7204609"
+  "wrappedNativeToken": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+  "dex": {
+    "dex": "Moraswap",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x",
+      "router": "0x"
+    },
+    "verified": false
+  }
 }

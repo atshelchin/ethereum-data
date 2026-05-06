@@ -59,5 +59,13 @@
       "contract": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7"
     }
   ],
-  "wrappedNativeToken": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7"
+  "wrappedNativeToken": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+  "dex": {
+    "dex": "LFJ (Trader Joe)",
+    "protocol": "liquidity-book",
+    "contracts": {
+      "lbFactory": "0x8e42f2F4101563bF679975178e880FD87d3eFd4e",
+      "lbRouter": "0xb4315e873dBcf96Ffd0acd8EA43f689D8c20fB30"
+    }
+  }
 }

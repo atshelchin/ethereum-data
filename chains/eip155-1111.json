@@ -30,5 +30,14 @@
       "contract": "0xcdf764933b9a9ebb2c5da904b9715f3cf981572a"
     }
   ],
-  "wrappedNativeToken": "0x7D72b22a74A216Af4a002a1095C8C707d6eC1C5f"
+  "wrappedNativeToken": "0x7D72b22a74A216Af4a002a1095C8C707d6eC1C5f",
+  "dex": {
+    "dex": "WEMIX.Fi",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x0000000000000000000000000000000000000000",
+      "router": "0x0000000000000000000000000000000000000000"
+    },
+    "verified": false
+  }
 }

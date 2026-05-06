@@ -55,5 +55,14 @@
       "contract": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73"
     }
   ],
-  "wrappedNativeToken": "0xAcc15dC74880C9944775448304B263D191c6077F"
+  "wrappedNativeToken": "0xAcc15dC74880C9944775448304B263D191c6077F",
+  "dex": {
+    "dex": "StellaSwap",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0xB1a8083E28C1E4f7a4eD8C8e8C2f7E1A3B5D6C7a",
+      "quoterV2": "0x"
+    },
+    "verified": false
+  }
 }

@@ -37,5 +37,14 @@
       "type": "bridge",
       "contract": "0xf1Feebc4376c68B7003450ae66343Ae59AB37D3C"
     }
-  ]
+  ],
+  "dex": {
+    "dex": "COTISwap",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x",
+      "router": "0x"
+    },
+    "verified": false
+  }
 }

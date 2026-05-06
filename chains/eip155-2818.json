@@ -48,5 +48,14 @@
       "contract": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D"
     }
   ],
-  "wrappedNativeToken": "0x5300000000000000000000000000000000000011"
+  "wrappedNativeToken": "0x5300000000000000000000000000000000000011",
+  "dex": {
+    "dex": "BulbaSwap",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0x3e13395B81f7a2eDd2A5B5b58a0C2b02340D7222",
+      "quoterV2": "0x"
+    },
+    "verified": false
+  }
 }

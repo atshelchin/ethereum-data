@@ -23,5 +23,14 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x21C718C22D52d0F3a789b752D4c2fD5908a8A733"
+  "wrappedNativeToken": "0x21C718C22D52d0F3a789b752D4c2fD5908a8A733",
+  "dex": {
+    "dex": "OasisSwap",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x",
+      "router": "0x"
+    },
+    "verified": false
+  }
 }

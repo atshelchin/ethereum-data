@@ -35,5 +35,14 @@
       "type": "bridge",
       "contract": "0xD648529D4803d3467bA8850577BEd4e4b8Ae583C"
     }
-  ]
+  ],
+  "dex": {
+    "dex": "Common",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x",
+      "router": "0x"
+    },
+    "verified": false
+  }
 }

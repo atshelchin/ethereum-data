@@ -38,5 +38,14 @@
       "type": "bridge",
       "contract": "0x9Aa0F72392B5784Ad86c6f3E899bCc053D00Db4F"
     }
-  ]
+  ],
+  "dex": {
+    "dex": "SyncSwap",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x",
+      "router": "0x"
+    },
+    "verified": false
+  }
 }

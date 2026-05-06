@@ -42,5 +42,13 @@
     "type": "L2",
     "chain": "eip155-1"
   },
-  "wrappedNativeToken": "0x4300000000000000000000000000000000000004"
+  "wrappedNativeToken": "0x4300000000000000000000000000000000000004",
+  "dex": {
+    "dex": "Uniswap",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "quoterV2": "0x61fFE014bA17989E743c5F6cB21bF9697530B21e"
+    }
+  }
 }

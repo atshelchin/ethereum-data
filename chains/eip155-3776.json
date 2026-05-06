@@ -38,5 +38,13 @@
       "type": "bridge",
       "contract": "0xA8CE8aee21bC2A48a5EF670afCc9274C7bbbC035"
     }
-  ]
+  ],
+  "dex": {
+    "dex": "QuickSwap",
+    "protocol": "algebra-v3",
+    "contracts": {
+      "factory": "0x411b0fAcC3489691f28ad58c47006AF5E3Ab3A28",
+      "quoter": "0xa15F0D7377B2A0C0c10db057f641beD21028FC89"
+    }
+  }
 }

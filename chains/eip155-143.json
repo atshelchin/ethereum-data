@@ -43,5 +43,13 @@
       "contract": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603"
     }
   ],
-  "wrappedNativeToken": "0x760AfE86e5DE5fa0Ee542fc7B7b713e1c5425701"
+  "wrappedNativeToken": "0x760AfE86e5DE5fa0Ee542fc7B7b713e1c5425701",
+  "dex": {
+    "dex": "Uniswap",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "quoterV2": "0x61fFE014bA17989E743c5F6cB21bF9697530B21e"
+    }
+  }
 }

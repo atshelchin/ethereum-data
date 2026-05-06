@@ -66,5 +66,13 @@
       "contract": "0x4ECaBa5870353805a9F068101A40E0f32ed605C6"
     }
   ],
-  "wrappedNativeToken": "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d"
+  "wrappedNativeToken": "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d",
+  "dex": {
+    "dex": "Curve",
+    "protocol": "curve",
+    "contracts": {
+      "addressProvider": "0x0000000022D53366457F9d5E68Ec105046FC4383",
+      "routerNG": "0xF0d4c12A5768D806021F80a262B4d39d26C58b8D"
+    }
+  }
 }

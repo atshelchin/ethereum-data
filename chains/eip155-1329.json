@@ -41,5 +41,13 @@
       "contract": "0x9151434b16b9763660705744891fa906f660ecc5"
     }
   ],
-  "wrappedNativeToken": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7"
+  "wrappedNativeToken": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7",
+  "dex": {
+    "dex": "DragonSwap",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0x0b7007c13325c48911f73a2dad5fa5dcbf808adc",
+      "quoterV2": "0x5db0e4D1C0424D4C2b9e6b62F4a37Bf3d9D3C4D7"
+    }
+  }
 }

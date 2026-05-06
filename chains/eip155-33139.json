@@ -22,5 +22,13 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x48b62137EdfA95a428D35C09E44256a739F6B557"
+  "wrappedNativeToken": "0x48b62137EdfA95a428D35C09E44256a739F6B557",
+  "dex": {
+    "dex": "Camelot",
+    "protocol": "algebra-v3",
+    "contracts": {
+      "factory": "0xBefC4b405041c5833f53412fF997ed2f697a2f37",
+      "quoter": "0xFe24b2cDfF01B644995bc248bA9497467d688F7B"
+    }
+  }
 }

@@ -48,5 +48,13 @@
       "contract": "0xf417f5a458ec102b90352f697d6e2ac3a3d2851f"
     }
   ],
-  "wrappedNativeToken": "0x0Dc808adcE2099A9F62AA87D9670745AbA741746"
+  "wrappedNativeToken": "0x0Dc808adcE2099A9F62AA87D9670745AbA741746",
+  "dex": {
+    "dex": "QuickSwap",
+    "protocol": "algebra-v3",
+    "contracts": {
+      "factory": "0x411b0fAcC3489691f28ad58c47006AF5E3Ab3A28",
+      "quoter": "0xa15F0D7377B2A0C0c10db057f641beD21028FC89"
+    }
+  }
 }
