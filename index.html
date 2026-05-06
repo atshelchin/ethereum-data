@@ -857,17 +857,36 @@
     // Populate endpoints with full URLs
     function populateEndpoints() {
       const base = window.location.origin;
-      const endpoints = [
-        { path: '/index/fuse-chains.json', desc: 'Chain data with Fuse.js index' },
-        { path: '/index/fuse-assets.json', desc: 'Asset data with Fuse.js index' },
-        { path: '/index/fuse-contracts.json', desc: 'Contract data with Fuse.js index' },
+      const groups = [
+        {
+          title: 'Direct Access',
+          endpoints: [
+            { path: '/chains/eip155-{chainId}.json', desc: 'Chain data by chain ID', example: '/chains/eip155-1.json' },
+            { path: '/chainlogos/eip155-{chainId}.png', desc: 'Chain logo by chain ID', example: '/chainlogos/eip155-1.png' },
+            { path: '/assets/eip155-{chainId}/{address}/info.json', desc: 'Asset metadata', example: '/assets/eip155-1/0xdAC17F958D2ee523a2206206994597C13D831ec7/info.json' },
+            { path: '/assets/eip155-{chainId}/{address}/logo.png', desc: 'Asset logo', example: '/assets/eip155-1/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png' },
+            { path: '/contracts/eip155-{chainId}/{address}/info.json', desc: 'Contract metadata' },
+            { path: '/contracts/eip155-{chainId}/{address}/payload.json', desc: 'Contract ABI & bytecode' },
+          ]
+        },
+        {
+          title: 'Search Indexes',
+          endpoints: [
+            { path: '/index/fuse-chains.json', desc: 'Chain data with Fuse.js index' },
+            { path: '/index/fuse-assets.json', desc: 'Asset data with Fuse.js index' },
+            { path: '/index/fuse-contracts.json', desc: 'Contract data with Fuse.js index' },
+          ]
+        }
       ];
       const container = document.getElementById('endpoints');
-      container.innerHTML = endpoints.map(e => `
-        <div class="endpoint">
-          <a href="${e.path}">${base}${e.path}</a>
-          <span>${e.desc}</span>
-        </div>
+      container.innerHTML = groups.map(g => `
+        <div style="margin-bottom: 8px; color: #a3a3a3; font-size: 13px; text-transform: uppercase; font-weight: 500;${g !== groups[0] ? ' margin-top: 20px;' : ''}">${g.title}</div>
+        ${g.endpoints.map(e => `
+          <div class="endpoint">
+            <a href="${e.example || e.path}" ${e.example ? '' : 'style="pointer-events:none;color:#737373;"'}>${base}${e.path}</a>
+            <span>${e.desc}</span>
+          </div>
+        `).join('')}
       `).join('');
     }
 
