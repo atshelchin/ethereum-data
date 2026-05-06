@@ -22,14 +22,5 @@
       "type": "bridge",
       "contract": "0x0829F361A05D993d5CEb035cA6DF3446b060970b"
     }
-  ],
-  "dex": {
-    "dex": "NibiSwap",
-    "protocol": "uniswap-v2",
-    "contracts": {
-      "factory": "0x",
-      "router": "0x"
-    },
-    "verified": false
-  }
+  ]
 }

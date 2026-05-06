@@ -44,14 +44,5 @@
       "contract": "0x2C03058C8AFC06713be23e58D2febC8337dbfE6A"
     }
   ],
-  "wrappedNativeToken": "0xc9B53AB2679f573e480d01e0f49e2B5CFB7a3EAb",
-  "dex": {
-    "dex": "Plenty",
-    "protocol": "uniswap-v2",
-    "contracts": {
-      "factory": "0x",
-      "router": "0x"
-    },
-    "verified": false
-  }
+  "wrappedNativeToken": "0xc9B53AB2679f573e480d01e0f49e2B5CFB7a3EAb"
 }

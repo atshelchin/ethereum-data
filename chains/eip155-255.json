@@ -46,14 +46,5 @@
       "contract": "0x0Cf7C2A584988871b654Bd79f96899e4cd6c41C0"
     }
   ],
-  "wrappedNativeToken": "0x4200000000000000000000000000000000000001",
-  "dex": {
-    "dex": "KromaSwap",
-    "protocol": "uniswap-v3",
-    "contracts": {
-      "factory": "0x3Dd0E0E58e0e9cD0c56D7E3D95b123c67F1D7C44",
-      "quoterV2": "0x"
-    },
-    "verified": false
-  }
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000001"
 }

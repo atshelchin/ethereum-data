@@ -43,14 +43,5 @@
       "contract": "0xef213441a85df4d7acbdae0cf78004e1e486bb96"
     }
   ],
-  "wrappedNativeToken": "0x967f8799aF07DF1534d48A95a5C9FEBE92c53ae0",
-  "dex": {
-    "dex": "Sovryn",
-    "protocol": "uniswap-v2",
-    "contracts": {
-      "factory": "0x",
-      "router": "0x"
-    },
-    "verified": false
-  }
+  "wrappedNativeToken": "0x967f8799aF07DF1534d48A95a5C9FEBE92c53ae0"
 }

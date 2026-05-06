@@ -30,5 +30,12 @@
       "factory": "0xBefC4b405041c5833f53412fF997ed2f697a2f37",
       "quoter": "0xFe24b2cDfF01B644995bc248bA9497467d688F7B"
     }
-  }
+  },
+  "stables": [
+    {
+      "symbol": "ApeUSD",
+      "type": "native",
+      "contract": "0xA2235d059F80e176D931Ef76b6C51953EB3fBDf4"
+    }
+  ]
 }

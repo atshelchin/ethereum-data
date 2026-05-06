@@ -46,5 +46,6 @@
       "factory": "0x411b0fAcC3489691f28ad58c47006AF5E3Ab3A28",
       "quoter": "0xa15F0D7377B2A0C0c10db057f641beD21028FC89"
     }
-  }
+  },
+  "wrappedNativeToken": "0x4F9A0e7FD2Bf6067db6994CF12E4495Df938E6e9"
 }

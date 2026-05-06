@@ -23,14 +23,5 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ],
-  "dex": {
-    "dex": "ArtheraSwap",
-    "protocol": "uniswap-v2",
-    "contracts": {
-      "factory": "0x",
-      "router": "0x"
-    },
-    "verified": false
-  }
+  ]
 }

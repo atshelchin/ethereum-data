@@ -44,14 +44,5 @@
       "contract": "0x0ffa63502f957b66e61F87761cc240e51C74cee5"
     }
   ],
-  "wrappedNativeToken": "0x721EF6871f1c4Efe730Dce047D40D1743B886946",
-  "dex": {
-    "dex": "Kayen",
-    "protocol": "uniswap-v2",
-    "contracts": {
-      "factory": "0x",
-      "router": "0x"
-    },
-    "verified": false
-  }
+  "wrappedNativeToken": "0x721EF6871f1c4Efe730Dce047D40D1743B886946"
 }

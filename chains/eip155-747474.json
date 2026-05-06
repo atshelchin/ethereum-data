@@ -65,14 +65,5 @@
       "type": "bridge",
       "contract": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
     }
-  ],
-  "dex": {
-    "dex": "KatanaDEX",
-    "protocol": "uniswap-v2",
-    "contracts": {
-      "factory": "0x",
-      "router": "0x"
-    },
-    "verified": false
-  }
+  ]
 }

@@ -53,9 +53,8 @@
     "dex": "BulbaSwap",
     "protocol": "uniswap-v3",
     "contracts": {
-      "factory": "0x3e13395B81f7a2eDd2A5B5b58a0C2b02340D7222",
-      "quoterV2": "0x"
-    },
-    "verified": false
+      "factory": "0xFf8578C2949148A6F19b7958aE86CAAb2779CDDD",
+      "quoterV2": "0xc312e6417D07Ae7Ba73FeF0832B1811194A7BbEf"
+    }
   }
 }

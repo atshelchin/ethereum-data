@@ -36,14 +36,5 @@
       "contract": "0x46dDa6a5a559d861c06EC9a95Fb395f5C3Db0742"
     }
   ],
-  "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
-  "dex": {
-    "dex": "Ocelex",
-    "protocol": "uniswap-v2",
-    "contracts": {
-      "factory": "0x",
-      "router": "0x"
-    },
-    "verified": false
-  }
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
 }

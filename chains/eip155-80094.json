@@ -51,9 +51,8 @@
     "dex": "Kodiak",
     "protocol": "uniswap-v3",
     "contracts": {
-      "factory": "0x6a80d5D44Bb5e38D3C2b1304a27a28189d2DB764",
-      "quoterV2": "0x"
-    },
-    "verified": false
+      "factory": "0xD84CBf0B02636E7f53dB9E5e45A616E05d710990",
+      "quoterV2": "0x644C8D6E501f7C994B74F5ceA96abe65d0BA662B"
+    }
   }
 }

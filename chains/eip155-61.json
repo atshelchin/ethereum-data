@@ -73,5 +73,12 @@
       "factory": "0x7F8D7095f2b2B17a927A6735D9AfB6dBCBe3Ba4c",
       "router": "0x5F2EE81D4F3b3a413cE3F4C33C4D8e1eC5e00e7d"
     }
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0xC1Be9a4D5D45BeeACAE296a7BD5fADBfc14602C4"
+    }
+  ]
 }

@@ -55,5 +55,6 @@
       "factory": "0xC5a16DC20117349a90f09B23A2B5f3C10e79C3e2",
       "router": "0xa6230FFC5C9CA17ae4D37EEF1bCb963c2f125C02"
     }
-  }
+  },
+  "wrappedNativeToken": "0x90c6E93849E06EC7478ba24522329d14A5954Df4"
 }

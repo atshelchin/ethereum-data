@@ -65,14 +65,5 @@
       "type": "bridge",
       "contract": "0x816E810f9F787d669FB71932DeabF6c83781Cd48"
     }
-  ],
-  "dex": {
-    "dex": "Gravity",
-    "protocol": "uniswap-v2",
-    "contracts": {
-      "factory": "0x",
-      "router": "0x"
-    },
-    "verified": false
-  }
+  ]
 }

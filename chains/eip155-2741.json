@@ -51,14 +51,5 @@
       "contract": "0x0709f39376deee2a2dfc94a58edeb2eb9df012bd"
     }
   ],
-  "wrappedNativeToken": "0x3439153EB7AF838Ad19d56E1571FBD09333C2809",
-  "dex": {
-    "dex": "SakuraSwap",
-    "protocol": "uniswap-v2",
-    "contracts": {
-      "factory": "0x",
-      "router": "0x"
-    },
-    "verified": false
-  }
+  "wrappedNativeToken": "0x3439153EB7AF838Ad19d56E1571FBD09333C2809"
 }

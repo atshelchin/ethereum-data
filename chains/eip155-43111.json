@@ -37,14 +37,5 @@
       "contract": "0xad11a8BEb98bbf61dbb1aa0F6d6F2ECD87b35afA"
     }
   ],
-  "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
-  "dex": {
-    "dex": "HemiSwap",
-    "protocol": "uniswap-v2",
-    "contracts": {
-      "factory": "0x",
-      "router": "0x"
-    },
-    "verified": false
-  }
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
 }

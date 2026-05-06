@@ -41,14 +41,5 @@
       "type": "bridge",
       "contract": "0x3a2213CaEbcf1727D7b3422B8Ef8Dd5654877f42"
     }
-  ],
-  "dex": {
-    "dex": "OolongSwap",
-    "protocol": "uniswap-v2",
-    "contracts": {
-      "factory": "0x",
-      "router": "0x"
-    },
-    "verified": false
-  }
+  ]
 }

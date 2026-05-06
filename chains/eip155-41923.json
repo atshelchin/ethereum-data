@@ -36,14 +36,5 @@
       "type": "bridge",
       "contract": "0x7277Cc818e3F3FfBb169c6Da9CC77Fc2d2a34895"
     }
-  ],
-  "dex": {
-    "dex": "OpenCampus",
-    "protocol": "uniswap-v2",
-    "contracts": {
-      "factory": "0x",
-      "router": "0x"
-    },
-    "verified": false
-  }
+  ]
 }

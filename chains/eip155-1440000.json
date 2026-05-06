@@ -33,14 +33,5 @@
       "icon": "xrplevm",
       "standard": "EIP3091"
     }
-  ],
-  "dex": {
-    "dex": "XRPLSwap",
-    "protocol": "uniswap-v2",
-    "contracts": {
-      "factory": "0x",
-      "router": "0x"
-    },
-    "verified": false
-  }
+  ]
 }

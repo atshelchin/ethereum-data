@@ -23,14 +23,5 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "active",
-  "dex": {
-    "dex": "FlameDEX",
-    "protocol": "uniswap-v2",
-    "contracts": {
-      "factory": "0x",
-      "router": "0x"
-    },
-    "verified": false
-  }
+  "status": "active"
 }
