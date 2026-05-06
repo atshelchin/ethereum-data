@@ -30,6 +30,52 @@ This repository is designed for static hosting on Cloudflare Pages (or similar p
 
 The build script generates Fuse.js search indexes from the original data directories.
 
+## Direct Access API
+
+All data files can be accessed directly via URL. Base URL: `https://ethereum-data.awesometools.dev`
+
+### Chains
+
+```
+GET /chains/eip155-{chainId}.json
+```
+
+Example: [`/chains/eip155-1.json`](https://ethereum-data.awesometools.dev/chains/eip155-1.json) (Ethereum Mainnet)
+
+### Chain Logos
+
+```
+GET /chainlogos/eip155-{chainId}.png
+```
+
+Example: [`/chainlogos/eip155-1.png`](https://ethereum-data.awesometools.dev/chainlogos/eip155-1.png)
+
+### Assets
+
+```
+GET /assets/eip155-{chainId}/{contractAddress}/info.json
+GET /assets/eip155-{chainId}/{contractAddress}/logo.png
+```
+
+Example: [`/assets/eip155-1/0xdAC17F958D2ee523a2206206994597C13D831ec7/info.json`](https://ethereum-data.awesometools.dev/assets/eip155-1/0xdAC17F958D2ee523a2206206994597C13D831ec7/info.json) (USDT)
+
+### Contracts
+
+```
+GET /contracts/eip155-{chainId}/{contractAddress}/info.json
+GET /contracts/eip155-{chainId}/{contractAddress}/payload.json
+```
+
+### Search Indexes
+
+```
+GET /index/fuse-chains.json
+GET /index/fuse-assets.json
+GET /index/fuse-contracts.json
+```
+
+---
+
 ## Search Index
 
 Pre-built [Fuse.js](https://fusejs.io/) indexes for fuzzy search. Each index file contains both data and the Fuse.js index.
