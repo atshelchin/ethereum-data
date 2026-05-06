@@ -706,7 +706,7 @@
             <div>
               <div style="color: #a3a3a3; font-size: 12px; margin-bottom: 8px;">DEX</div>
               <div class="dex-card">
-                <div class="dex-name">${data.dex.dex}</div>
+                <div class="dex-name">${data.dex.url ? `<a href="${data.dex.url}" target="_blank" style="color:#e5e5e5;text-decoration:none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${data.dex.dex}</a>` : data.dex.dex}</div>
                 <div class="dex-protocol">${data.dex.protocol}</div>
                 ${data.dex.contracts ? `
                   <div class="dex-contracts">
