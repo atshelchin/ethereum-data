@@ -2,8 +2,18 @@
   "name": "Hedera Mainnet",
   "chain": "Hedera",
   "icon": "hedera",
-  "rpc": ["https://mainnet.hashio.io/api", "https://hedera.linkpool.pro"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://mainnet.hashio.io/api",
+    "https://hedera.linkpool.pro"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "hbar",
@@ -31,5 +41,6 @@
       "url": "https://hederaexplorer.io",
       "standard": "none"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x0000000000000000000000000000000000163b5a"
 }

@@ -2,7 +2,9 @@
   "name": "HashKey Chain",
   "title": "HashKey Chain",
   "chain": "HashKey Chain",
-  "rpc": ["https://mainnet.hsk.xyz"],
+  "rpc": [
+    "https://mainnet.hsk.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "HashKey EcoPoints",
@@ -30,5 +32,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1"
-  }
+  },
+  "wrappedNativeToken": "0x0000000000000000000000000000000000000804"
 }

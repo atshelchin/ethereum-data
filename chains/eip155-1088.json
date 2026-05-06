@@ -50,5 +50,6 @@
       "type": "bridge",
       "contract": "0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x75cb093E4D61d2A2e65D8e0BBb01DE8d89b53481"
 }

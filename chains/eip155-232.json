@@ -2,7 +2,9 @@
   "name": "Lens",
   "title": "Lens mainnet",
   "chain": "Lens",
-  "rpc": ["https://rpc.lens.xyz"],
+  "rpc": [
+    "https://rpc.lens.xyz"
+  ],
   "faucets": [],
   "chainId": 232,
   "networkId": 232,
@@ -18,7 +20,9 @@
     "type": "L2",
     "chain": "eip155-1",
     "bridges": [
-      { "url": "https://app.across.to/bridge?destinationChainId=232" }
+      {
+        "url": "https://app.across.to/bridge?destinationChainId=232"
+      }
     ]
   },
   "explorers": [
@@ -28,5 +32,6 @@
       "icon": "lens",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x6bDc36E20D267Ff0dd6097799f82E78907105e2F"
 }

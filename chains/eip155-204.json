@@ -32,5 +32,6 @@
       "url": "https://mainnet.opbnbscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
 }

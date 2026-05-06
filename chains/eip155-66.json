@@ -22,5 +22,6 @@
       "url": "https://www.oklink.com/en/okc",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x8F8526dbfd6E38E3D8307702cA8469Bae6C56C15"
 }

@@ -1,7 +1,9 @@
 {
   "name": "Metal L2",
   "chain": "Metal L2",
-  "rpc": ["https://rpc.metall2.com"],
+  "rpc": [
+    "https://rpc.metall2.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",
@@ -20,5 +22,6 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
 }

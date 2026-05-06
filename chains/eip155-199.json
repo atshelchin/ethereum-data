@@ -23,5 +23,6 @@
       "url": "https://bttcscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x23181F21DEa5936e24163FFABa4Ea3B316B57f3c"
 }

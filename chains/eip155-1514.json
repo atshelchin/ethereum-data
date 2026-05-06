@@ -25,5 +25,6 @@
       "url": "https://mainnet.storyscan.xyz",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x1514000000000000000000000000000000000000"
 }

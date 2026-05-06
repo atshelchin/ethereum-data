@@ -42,5 +42,6 @@
       "type": "bridge",
       "contract": "0xef213441a85df4d7acbdae0cf78004e1e486bb96"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x967f8799aF07DF1534d48A95a5C9FEBE92c53ae0"
 }

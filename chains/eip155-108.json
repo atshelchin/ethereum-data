@@ -17,12 +17,12 @@
   "chainId": 108,
   "networkId": 108,
   "slip44": 1001,
-
   "explorers": [
     {
       "name": "thundercore-viewblock",
       "url": "https://viewblock.io/thundercore",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x413cEFeA29F2d07B8F2acFA69d92466B9535f717"
 }

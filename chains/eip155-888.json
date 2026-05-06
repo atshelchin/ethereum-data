@@ -1,7 +1,9 @@
 {
   "name": "Wanchain",
   "chain": "WAN",
-  "rpc": ["https://gwan-ssl.wandevs.org:56891/"],
+  "rpc": [
+    "https://gwan-ssl.wandevs.org:56891/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Wancoin",
@@ -21,5 +23,6 @@
       "url": "https://wanscan.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0xdabd997ae5e4799be47d6e69d9431615cba28f48"
 }

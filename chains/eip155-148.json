@@ -2,7 +2,9 @@
   "name": "ShimmerEVM",
   "title": "ShimmerEVM",
   "chain": "ShimmerEVM",
-  "rpc": ["https://json-rpc.evm.shimmer.network"],
+  "rpc": [
+    "https://json-rpc.evm.shimmer.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "SMR",
@@ -21,5 +23,6 @@
       "icon": "shimmerevm",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x16bb40487386d83e042968fddf2e72475eddf837"
 }

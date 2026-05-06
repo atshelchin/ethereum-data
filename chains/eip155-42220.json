@@ -55,5 +55,6 @@
       "type": "native",
       "contract": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x471EcE3750Da237f93B8E339c536989b8978a438"
 }

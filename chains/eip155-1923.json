@@ -23,5 +23,6 @@
       "url": "https://explorer.swellnetwork.io",
       "standard": "none"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
 }

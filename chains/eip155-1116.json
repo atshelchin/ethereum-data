@@ -35,5 +35,6 @@
       "icon": "core",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x191E94fa59739e188dcE837F7f6978d77727D988"
 }

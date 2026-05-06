@@ -22,5 +22,6 @@
       "url": "https://explorer.oasys.games",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x5200000000000000000000000000000000000001"
 }

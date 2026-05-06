@@ -2,7 +2,10 @@
   "name": "Oasis Sapphire",
   "chain": "Sapphire",
   "icon": "oasis",
-  "rpc": ["https://sapphire.oasis.io", "wss://sapphire.oasis.io/ws"],
+  "rpc": [
+    "https://sapphire.oasis.io",
+    "wss://sapphire.oasis.io/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sapphire Rose",
@@ -19,5 +22,6 @@
       "url": "https://explorer.oasis.io/mainnet/sapphire",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x21C718C22D52d0F3a789b752D4c2fD5908a8A733"
 }

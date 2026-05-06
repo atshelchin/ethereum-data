@@ -1,7 +1,9 @@
 {
   "name": "SnaxChain",
   "chain": "ETH",
-  "rpc": ["https://mainnet.snaxchain.io"],
+  "rpc": [
+    "https://mainnet.snaxchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -20,5 +22,6 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
 }

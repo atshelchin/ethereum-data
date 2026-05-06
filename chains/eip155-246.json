@@ -1,7 +1,10 @@
 {
   "name": "Energy Web Chain",
   "chain": "Energy Web Chain",
-  "rpc": ["https://rpc.energyweb.org", "wss://rpc.energyweb.org/ws"],
+  "rpc": [
+    "https://rpc.energyweb.org",
+    "wss://rpc.energyweb.org/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Energy Web Token",
@@ -13,12 +16,12 @@
   "chainId": 246,
   "networkId": 246,
   "slip44": 246,
-
   "explorers": [
     {
       "name": "blockscout",
       "url": "https://explorer.energyweb.org",
       "standard": "none"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x6b3bd0478DF0eC4984b168Db0E12A539Cc0c83cd"
 }

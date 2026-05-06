@@ -6,7 +6,9 @@
     "wss://rpc.rollux.com/wss",
     "https://rpc.ankr.com/rollux"
   ],
-  "faucets": ["https://rollux.id/faucet"],
+  "faucets": [
+    "https://rollux.id/faucet"
+  ],
   "nativeCurrency": {
     "name": "Syscoin",
     "symbol": "SYS",
@@ -22,5 +24,6 @@
       "url": "https://explorer.rollux.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
 }

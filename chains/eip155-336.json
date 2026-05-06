@@ -33,5 +33,6 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x0f933Dc137D21cA519ae4C7E93f87a4C8EF365Ef"
 }

@@ -21,5 +21,6 @@
       "url": "https://apescan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x48b62137EdfA95a428D35C09E44256a739F6B557"
 }

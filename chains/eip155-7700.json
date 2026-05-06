@@ -34,5 +34,6 @@
       "icon": "dexguru",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x826551890Dc65655a0Aceca109aB11AbDbD7a07B"
 }

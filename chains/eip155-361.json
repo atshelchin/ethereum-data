@@ -1,7 +1,9 @@
 {
   "name": "Theta Mainnet",
   "chain": "Theta",
-  "rpc": ["https://eth-rpc-api.thetatoken.org/rpc"],
+  "rpc": [
+    "https://eth-rpc-api.thetatoken.org/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Theta Fuel",
@@ -18,5 +20,6 @@
       "url": "https://explorer.thetatoken.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x4dc08b15ea0e10b96c41aec22fab934ba15c983e"
 }

@@ -28,6 +28,11 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://cyber.co/bridge" }]
-  }
+    "bridges": [
+      {
+        "url": "https://cyber.co/bridge"
+      }
+    ]
+  },
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
 }
