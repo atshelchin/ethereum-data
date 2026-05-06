@@ -1,7 +1,11 @@
 {
   "name": "Hemi",
   "chain": "ETH",
-  "rpc": ["https://rpc.hemi.network/rpc"],
+  "rpc": [
+    "https://rpc.hemi.network/rpc",
+    "https://hemi.drpc.org",
+    "https://hemi.blockpi.network/v1/rpc/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

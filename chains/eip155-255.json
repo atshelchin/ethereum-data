@@ -1,7 +1,11 @@
 {
   "name": "Kroma",
   "chain": "ETH",
-  "rpc": ["https://api.kroma.network", "https://rpc-kroma.rockx.com"],
+  "rpc": [
+    "https://api.kroma.network",
+    "https://rpc-kroma.rockx.com",
+    "https://kroma.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -24,6 +28,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://kroma.network/bridge" }]
+    "bridges": [
+      {
+        "url": "https://kroma.network/bridge"
+      }
+    ]
   }
 }

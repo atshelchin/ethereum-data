@@ -7,7 +7,16 @@
     "https://base.gateway.tenderly.co",
     "wss://base.gateway.tenderly.co",
     "https://base-rpc.publicnode.com",
-    "wss://base-rpc.publicnode.com"
+    "wss://base-rpc.publicnode.com",
+    "https://rpc.ankr.com/base",
+    "https://base.drpc.org",
+    "https://1rpc.io/base",
+    "https://base.api.pocket.network",
+    "https://base.llamarpc.com",
+    "wss://base.llamarpc.com",
+    "https://base.blockpi.network/v1/rpc/public",
+    "https://base.api.onfinality.io/public",
+    "https://rpcfree.com/base"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -5,7 +5,9 @@
   "rpc": [
     "https://rpc.merlinchain.io",
     "https://merlin-mainnet-enterprise.unifra.io",
-    "https://rpc-merlin.rockx.com"
+    "https://rpc-merlin.rockx.com",
+    "https://merlin.drpc.org",
+    "https://merlin.blockpi.network/v1/rpc/public"
   ],
   "faucets": [],
   "nativeCurrency": {

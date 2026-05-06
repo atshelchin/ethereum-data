@@ -1,7 +1,13 @@
 {
   "name": "Story",
   "chain": "STORY",
-  "rpc": ["https://mainnet.storyrpc.io"],
+  "rpc": [
+    "https://mainnet.storyrpc.io",
+    "https://story-rpc.publicnode.com",
+    "wss://story-rpc.publicnode.com",
+    "https://rpc.ankr.com/story_mainnet",
+    "https://story.blockpi.network/v1/rpc/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "IP Token",

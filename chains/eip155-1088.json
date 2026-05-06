@@ -6,7 +6,12 @@
     "https://metis.drpc.org",
     "wss://metis.drpc.org",
     "https://metis-rpc.publicnode.com",
-    "wss://metis-rpc.publicnode.com"
+    "wss://metis-rpc.publicnode.com",
+    "https://rpc.ankr.com/metis",
+    "https://metis.api.pocket.network",
+    "https://metis.blockpi.network/v1/rpc/public",
+    "https://metis-pokt.nodies.app",
+    "https://metis.api.onfinality.io/public"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -28,6 +33,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.metis.io" }]
+    "bridges": [
+      {
+        "url": "https://bridge.metis.io"
+      }
+    ]
   }
 }

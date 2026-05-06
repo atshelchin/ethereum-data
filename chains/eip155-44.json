@@ -1,7 +1,11 @@
 {
   "name": "Crab Network",
   "chain": "crab",
-  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.dcdao.box"],
+  "rpc": [
+    "https://crab-rpc.darwinia.network",
+    "https://crab-rpc.dcdao.box",
+    "https://crab.api.onfinality.io/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Crab Network Native Token",

@@ -1,7 +1,11 @@
 {
   "name": "Xpla Mainnet",
   "chain": "XPLA",
-  "rpc": ["https://dimension-evm-rpc.xpla.dev"],
+  "rpc": [
+    "https://dimension-evm-rpc.xpla.dev",
+    "https://xpla-evm-rpc.publicnode.com",
+    "wss://xpla-evm-rpc.publicnode.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "XPLA",
@@ -20,5 +24,7 @@
       "standard": "EIP3091"
     }
   ],
-  "redFlags": ["reusedChainId"]
+  "redFlags": [
+    "reusedChainId"
+  ]
 }

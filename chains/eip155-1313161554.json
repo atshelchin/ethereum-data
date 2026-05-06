@@ -4,7 +4,8 @@
   "rpc": [
     "https://mainnet.aurora.dev",
     "https://aurora.drpc.org",
-    "wss://aurora.drpc.org"
+    "wss://aurora.drpc.org",
+    "https://1rpc.io/aurora"
   ],
   "faucets": [],
   "nativeCurrency": {

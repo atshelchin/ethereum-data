@@ -14,7 +14,11 @@
     "https://gnosis.oat.farm",
     "wss://rpc.gnosischain.com/wss",
     "https://gnosis-rpc.publicnode.com",
-    "wss://gnosis-rpc.publicnode.com"
+    "wss://gnosis-rpc.publicnode.com",
+    "https://gnosis.drpc.org",
+    "https://1rpc.io/gnosis",
+    "https://gnosis.api.pocket.network",
+    "https://gnosis-pokt.nodies.app"
   ],
   "faucets": [
     "https://gnosisfaucet.com",

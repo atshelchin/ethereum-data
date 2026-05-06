@@ -5,7 +5,10 @@
   "rpc": [
     "https://quicknode1.peaq.xyz",
     "https://quicknode2.peaq.xyz",
-    "https://quicknode3.peaq.xyz"
+    "https://quicknode3.peaq.xyz",
+    "https://peaq-rpc.publicnode.com",
+    "wss://peaq-rpc.publicnode.com",
+    "https://peaq.api.onfinality.io/public"
   ],
   "faucets": [],
   "nativeCurrency": {

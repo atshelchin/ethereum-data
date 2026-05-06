@@ -1,7 +1,11 @@
 {
   "name": "Gravity Alpha Mainnet",
   "chain": "Gravity",
-  "rpc": ["https://rpc.gravity.xyz", "https://rpc.ankr.com/gravity"],
+  "rpc": [
+    "https://rpc.gravity.xyz",
+    "https://rpc.ankr.com/gravity",
+    "https://gravity-alpha.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gravity",
@@ -9,9 +13,15 @@
     "decimals": 18
   },
   "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" },
-    { "name": "EIP1108" }
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "EIP1108"
+    }
   ],
   "infoURL": "https://gravity.xyz",
   "shortName": "gravity",
@@ -38,6 +48,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.gravity.xyz" }]
+    "bridges": [
+      {
+        "url": "https://bridge.gravity.xyz"
+      }
+    ]
   }
 }

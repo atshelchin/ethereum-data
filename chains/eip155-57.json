@@ -8,9 +8,14 @@
     "https://57.rpc.thirdweb.com",
     "wss://rpc.syscoin.org/wss",
     "https://syscoin-evm.publicnode.com",
-    "wss://syscoin-evm.publicnode.com"
+    "wss://syscoin-evm.publicnode.com",
+    "https://syscoin-evm-rpc.publicnode.com",
+    "wss://syscoin-evm-rpc.publicnode.com",
+    "https://rpc.ankr.com/syscoin"
   ],
-  "faucets": ["https://faucet.syscoin.org"],
+  "faucets": [
+    "https://faucet.syscoin.org"
+  ],
   "nativeCurrency": {
     "name": "Syscoin",
     "symbol": "SYS",

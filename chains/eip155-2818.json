@@ -6,7 +6,8 @@
     "https://rpc.morphl2.io",
     "wss://rpc.morphl2.io:8443",
     "https://rpc-quicknode.morphl2.io",
-    "wss://rpc-quicknode.morphl2.io"
+    "wss://rpc-quicknode.morphl2.io",
+    "https://morph.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,6 +30,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.morphl2.io/" }]
+    "bridges": [
+      {
+        "url": "https://bridge.morphl2.io/"
+      }
+    ]
   }
 }

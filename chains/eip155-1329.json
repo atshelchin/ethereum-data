@@ -1,7 +1,15 @@
 {
   "name": "Sei Network",
   "chain": "Sei",
-  "rpc": ["https://evm-rpc.sei-apis.com", "wss://evm-ws.sei-apis.com"],
+  "rpc": [
+    "https://evm-rpc.sei-apis.com",
+    "wss://evm-ws.sei-apis.com",
+    "https://sei-evm-rpc.publicnode.com",
+    "wss://sei-evm-rpc.publicnode.com",
+    "https://rpc.ankr.com/sei_evm",
+    "https://sei.drpc.org",
+    "https://sei.api.pocket.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sei",

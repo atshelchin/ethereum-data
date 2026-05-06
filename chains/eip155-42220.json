@@ -9,13 +9,28 @@
     "symbol": "CELO",
     "decimals": 18
   },
-  "rpc": ["https://forno.celo.org", "wss://forno.celo.org/ws"],
+  "rpc": [
+    "https://forno.celo.org",
+    "wss://forno.celo.org/ws",
+    "https://celo-rpc.publicnode.com",
+    "wss://celo-rpc.publicnode.com",
+    "https://rpc.ankr.com/celo",
+    "https://celo.drpc.org",
+    "https://1rpc.io/celo",
+    "https://celo.api.pocket.network",
+    "https://celo.blockpi.network/v1/rpc/public",
+    "https://celo.api.onfinality.io/public"
+  ],
   "faucets": [],
   "infoURL": "https://docs.celo.org/",
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://superbridge.app/celo" }]
+    "bridges": [
+      {
+        "url": "https://superbridge.app/celo"
+      }
+    ]
   },
   "explorers": [
     {

@@ -2,7 +2,10 @@
   "name": "Oasys Mainnet",
   "chain": "Oasys",
   "icon": "oasys",
-  "rpc": ["https://rpc.mainnet.oasys.games"],
+  "rpc": [
+    "https://rpc.mainnet.oasys.games",
+    "https://oasys.api.pocket.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",

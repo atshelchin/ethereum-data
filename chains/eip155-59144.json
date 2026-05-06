@@ -8,7 +8,13 @@
     "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}",
     "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
     "https://linea-rpc.publicnode.com",
-    "wss://linea-rpc.publicnode.com"
+    "wss://linea-rpc.publicnode.com",
+    "https://rpc.ankr.com/linea",
+    "https://linea.drpc.org",
+    "https://1rpc.io/linea",
+    "https://linea.api.pocket.network",
+    "https://linea.blockpi.network/v1/rpc/public",
+    "https://linea.api.onfinality.io/public"
   ],
   "faucets": [],
   "nativeCurrency": {

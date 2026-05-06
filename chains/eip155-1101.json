@@ -5,7 +5,11 @@
   "rpc": [
     "https://zkevm-rpc.com",
     "https://polygon-zkevm.drpc.org",
-    "wss://polygon-zkevm.drpc.org"
+    "wss://polygon-zkevm.drpc.org",
+    "https://rpc.ankr.com/polygon_zkevm",
+    "https://1rpc.io/polygon/zkevm",
+    "https://poly-zkevm.api.pocket.network",
+    "https://polygon-zkevm.blockpi.network/v1/rpc/public"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,6 +33,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.zkevm-rpc.com" }]
+    "bridges": [
+      {
+        "url": "https://bridge.zkevm-rpc.com"
+      }
+    ]
   }
 }

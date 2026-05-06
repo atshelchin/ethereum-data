@@ -9,7 +9,9 @@
     "wss://boba-ethereum.gateway.tenderly.co/",
     "wss://gateway.tenderly.co/public/boba-ethereum",
     "https://boba-eth.drpc.org",
-    "wss://boba-eth.drpc.org"
+    "wss://boba-eth.drpc.org",
+    "https://1rpc.io/boba/eth",
+    "https://boba.api.pocket.network"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,7 +23,6 @@
   "shortName": "Boba",
   "chainId": 288,
   "networkId": 288,
-
   "explorers": [
     {
       "name": "Bobascan",
@@ -32,6 +33,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://gateway.boba.network" }]
+    "bridges": [
+      {
+        "url": "https://gateway.boba.network"
+      }
+    ]
   }
 }

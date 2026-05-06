@@ -3,7 +3,8 @@
   "chain": "Heco",
   "rpc": [
     "https://http-mainnet.hecochain.com",
-    "wss://ws-mainnet.hecochain.com"
+    "wss://ws-mainnet.hecochain.com",
+    "https://rpc.ankr.com/heco"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -1,7 +1,16 @@
 {
   "name": "Kaia Mainnet",
   "chain": "KAIA",
-  "rpc": ["https://public-en.node.kaia.io"],
+  "rpc": [
+    "https://public-en.node.kaia.io",
+    "https://rpc.ankr.com/kaia",
+    "https://klaytn.drpc.org",
+    "https://1rpc.io/klay",
+    "https://kaia.api.pocket.network",
+    "https://kaia.blockpi.network/v1/rpc/public",
+    "https://klaytn-pokt.nodies.app",
+    "https://klaytn.api.onfinality.io/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "KAIA",

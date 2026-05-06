@@ -1,8 +1,13 @@
 {
   "name": "Meter Mainnet",
   "chain": "METER",
-  "rpc": ["https://rpc.meter.io"],
-  "faucets": ["https://faucet.meter.io"],
+  "rpc": [
+    "https://rpc.meter.io",
+    "https://meter.blockpi.network/v1/rpc/public"
+  ],
+  "faucets": [
+    "https://faucet.meter.io"
+  ],
   "nativeCurrency": {
     "name": "Meter",
     "symbol": "MTR",

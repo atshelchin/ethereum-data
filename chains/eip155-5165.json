@@ -11,9 +11,17 @@
     "wss://ws1.sahara.bahamutchain.com",
     "wss://ws2.sahara.bahamutchain.com",
     "https://bahamut-rpc.publicnode.com",
-    "wss://bahamut-rpc.publicnode.com"
+    "wss://bahamut-rpc.publicnode.com",
+    "https://rpc.ankr.com/bahamut"
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FTN",

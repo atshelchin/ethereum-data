@@ -6,9 +6,18 @@
     "https://rpc.coredao.org/",
     "https://rpc-core.icecreamswap.com",
     "https://core.drpc.org",
-    "wss://core.drpc.org"
+    "wss://core.drpc.org",
+    "https://rpc.ankr.com/core",
+    "https://1rpc.io/core"
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Core Blockchain Native Token",

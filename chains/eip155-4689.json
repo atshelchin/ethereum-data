@@ -1,7 +1,12 @@
 {
   "name": "IoTeX Network Mainnet",
   "chain": "iotex.io",
-  "rpc": ["https://babel-api.mainnet.iotex.io"],
+  "rpc": [
+    "https://babel-api.mainnet.iotex.io",
+    "https://rpc.ankr.com/iotex",
+    "https://iotex.api.pocket.network",
+    "https://iotex.api.onfinality.io/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "IoTeX",

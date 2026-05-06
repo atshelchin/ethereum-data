@@ -12,7 +12,10 @@
     "https://rpc.ankr.com/kava_evm",
     "wss://wevm.kava-rpc.com",
     "https://kava.drpc.org",
-    "wss://kava.drpc.org"
+    "wss://kava.drpc.org",
+    "https://kava.api.pocket.network",
+    "https://kava-pokt.nodies.app",
+    "https://kava.api.onfinality.io/public"
   ],
   "faucets": [],
   "nativeCurrency": {

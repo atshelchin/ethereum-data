@@ -1,7 +1,12 @@
 {
   "name": "Abstract",
   "chain": "Abstract",
-  "rpc": ["https://api.mainnet.abs.xyz"],
+  "rpc": [
+    "https://api.mainnet.abs.xyz",
+    "https://abstract.drpc.org",
+    "https://abstract.blockpi.network/v1/rpc/public",
+    "https://abstract.api.onfinality.io/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

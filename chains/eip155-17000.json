@@ -8,7 +8,9 @@
     "wss://ethereum-holesky-rpc.publicnode.com",
     "https://holesky.drpc.org",
     "wss://holesky.drpc.org",
-    "https://rpc-holesky.rockx.com"
+    "https://rpc-holesky.rockx.com",
+    "https://1rpc.io/holesky",
+    "https://ethereum-holesky.blockpi.network/v1/rpc/public"
   ],
   "faucets": [
     "https://faucet.holesky.ethpandaops.io",

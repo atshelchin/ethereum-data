@@ -1,7 +1,10 @@
 {
   "name": "Flow EVM Mainnet",
   "chain": "Flow",
-  "rpc": ["https://mainnet.evm.nodes.onflow.org"],
+  "rpc": [
+    "https://mainnet.evm.nodes.onflow.org",
+    "https://flow-evm.blockpi.network/v1/rpc/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FLOW",

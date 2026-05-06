@@ -4,7 +4,11 @@
   "rpc": [
     "https://pacific-rpc.manta.network/http",
     "https://manta-pacific.drpc.org",
-    "wss://manta-pacific.drpc.org"
+    "wss://manta-pacific.drpc.org",
+    "https://manta-atlantic-rpc.publicnode.com",
+    "wss://manta-atlantic-rpc.publicnode.com",
+    "https://1rpc.io/manta",
+    "https://manta.api.onfinality.io/public"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -12,7 +16,14 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://pacific-info.manta.network",
   "shortName": "manta",
   "chainId": 169,

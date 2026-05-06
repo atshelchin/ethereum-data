@@ -3,7 +3,8 @@
   "chain": "Kinto Mainnet",
   "rpc": [
     "https://rpc.kinto.xyz/http",
-    "https://kinto-mainnet.calderachain.xyz/http"
+    "https://kinto-mainnet.calderachain.xyz/http",
+    "https://rpc.ankr.com/kinto"
   ],
   "faucets": [],
   "nativeCurrency": {

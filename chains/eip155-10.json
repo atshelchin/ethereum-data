@@ -8,7 +8,13 @@
     "https://optimism.gateway.tenderly.co",
     "wss://optimism.gateway.tenderly.co",
     "https://optimism.drpc.org",
-    "wss://optimism.drpc.org"
+    "wss://optimism.drpc.org",
+    "https://rpc.ankr.com/optimism",
+    "https://1rpc.io/op",
+    "https://op.api.pocket.network",
+    "https://optimism.blockpi.network/v1/rpc/public",
+    "https://op-pokt.nodies.app",
+    "https://optimism.api.onfinality.io/public"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,7 +26,6 @@
   "shortName": "oeth",
   "chainId": 10,
   "networkId": 10,
-
   "explorers": [
     {
       "name": "etherscan",

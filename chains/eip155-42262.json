@@ -2,7 +2,11 @@
   "name": "Oasis Emerald",
   "chain": "Emerald",
   "icon": "oasis",
-  "rpc": ["https://emerald.oasis.io", "wss://emerald.oasis.io/ws"],
+  "rpc": [
+    "https://emerald.oasis.io",
+    "wss://emerald.oasis.io/ws",
+    "https://1rpc.io/oasis/emerald"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Emerald Rose",

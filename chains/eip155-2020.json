@@ -2,7 +2,10 @@
   "name": "Ronin Mainnet",
   "title": "Ronin",
   "chain": "ronin",
-  "rpc": ["https://api.roninchain.com/rpc"],
+  "rpc": [
+    "https://api.roninchain.com/rpc",
+    "https://ronin.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "RON",
@@ -13,7 +16,9 @@
   "shortName": "ron",
   "chainId": 2020,
   "networkId": 2020,
-  "redFlags": ["reusedChainId"],
+  "redFlags": [
+    "reusedChainId"
+  ],
   "explorers": [
     {
       "name": "Ronin Block Explorer",

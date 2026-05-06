@@ -5,7 +5,9 @@
     "https://evmos.lava.build",
     "wss://evmos.lava.build/websocket",
     "https://evmos-evm-rpc.publicnode.com",
-    "wss://evmos-evm-rpc.publicnode.com"
+    "wss://evmos-evm-rpc.publicnode.com",
+    "https://evmos.drpc.org",
+    "https://evmos-pokt.nodies.app"
   ],
   "faucets": [],
   "nativeCurrency": {

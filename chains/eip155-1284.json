@@ -16,7 +16,10 @@
     "https://moonbeam-rpc.publicnode.com",
     "wss://moonbeam-rpc.publicnode.com",
     "https://moonbeam.drpc.org",
-    "wss://moonbeam.drpc.org"
+    "wss://moonbeam.drpc.org",
+    "https://rpc.ankr.com/moonbeam",
+    "https://1rpc.io/glmr",
+    "https://moonbeam.api.pocket.network"
   ],
   "faucets": [],
   "nativeCurrency": {

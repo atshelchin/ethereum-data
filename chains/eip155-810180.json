@@ -1,7 +1,11 @@
 {
   "name": "zkLink Nova Mainnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.zklink.io", "wss://rpc.zklink.io"],
+  "rpc": [
+    "https://rpc.zklink.io",
+    "wss://rpc.zklink.io",
+    "https://zklink-nova.api.pocket.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -25,6 +29,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-59144",
-    "bridges": [{ "url": "https://portal.zklink.io" }]
+    "bridges": [
+      {
+        "url": "https://portal.zklink.io"
+      }
+    ]
   }
 }

@@ -4,7 +4,9 @@
   "rpc": [
     "https://rpc.telos.net",
     "https://telos.drpc.org",
-    "wss://telos.drpc.org"
+    "wss://telos.drpc.org",
+    "https://rpc.ankr.com/telos",
+    "https://1rpc.io/telos/evm"
   ],
   "faucets": [],
   "nativeCurrency": {
