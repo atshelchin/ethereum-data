@@ -37,5 +37,17 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "status": "active",
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "native",
+      "contract": "0x2D270e6886d130D724215A266106e6832161EAEd"
+    },
+    {
+      "symbol": "USDT0",
+      "type": "bridge",
+      "contract": "0x0200C29006150606B650577BBE7B6248F58470c1"
+    }
+  ]
 }

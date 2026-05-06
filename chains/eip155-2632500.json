@@ -9,7 +9,9 @@
     "symbol": "COTI",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.coti.io/rpc"],
+  "rpc": [
+    "https://mainnet.coti.io/rpc"
+  ],
   "faucets": [],
   "explorers": [
     {
@@ -21,5 +23,19 @@
   ],
   "infoURL": "https://coti.io/",
   "icon": "coti",
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }]
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0xf1Feebc4376c68B7003450ae66343Ae59AB37D3C"
+    }
+  ]
 }

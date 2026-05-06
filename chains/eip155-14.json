@@ -13,7 +13,14 @@
     "https://flare.enosys.global/ext/C/rpc",
     "https://flare.solidifi.app/ext/C/rpc"
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Flare",
@@ -34,6 +41,13 @@
       "name": "Routescan",
       "url": "https://mainnet.flarescan.com",
       "standard": "EIP3091"
+    }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6"
     }
   ]
 }

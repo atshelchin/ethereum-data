@@ -56,5 +56,17 @@
       "icon": "linea"
     }
   ],
-  "status": "active"
+  "status": "active",
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "native",
+      "contract": "0x176211869ca2b568f2a7d4ee941e073a821ee1ff"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+    }
+  ]
 }

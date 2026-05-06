@@ -2,7 +2,10 @@
   "name": "Plume Mainnet",
   "title": "Plume Ethereum L2 Rollup Mainnet",
   "chain": "PLUME",
-  "rpc": ["https://rpc.plume.org", "wss://rpc.plume.org"],
+  "rpc": [
+    "https://rpc.plume.org",
+    "wss://rpc.plume.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Plume",
@@ -27,6 +30,17 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.plume.org" }]
-  }
+    "bridges": [
+      {
+        "url": "https://bridge.plume.org"
+      }
+    ]
+  },
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "native",
+      "contract": "0x222365EF19F7947e5484218551B56bb3965Aa7aF"
+    }
+  ]
 }

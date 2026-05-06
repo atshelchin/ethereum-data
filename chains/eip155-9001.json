@@ -27,5 +27,17 @@
       "standard": "none",
       "icon": "evmos"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "ceUSDC",
+      "type": "bridge",
+      "contract": "0xE46910336479F254723710D57e7b683F3315b22B"
+    },
+    {
+      "symbol": "ceUSDT",
+      "type": "bridge",
+      "contract": "0xb72A7567847abA28A2819B855D7fE679D4f59846"
+    }
   ]
 }

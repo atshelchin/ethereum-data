@@ -33,5 +33,17 @@
       "url": "https://unichain.blockscout.com",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "native",
+      "contract": "0x078d782b760474a361dda0af3839290b0ef57ad6"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x588ce4f028d8e7b53b687865d6a67b3a54c75518"
+    }
   ]
 }

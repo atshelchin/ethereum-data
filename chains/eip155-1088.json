@@ -38,5 +38,17 @@
         "url": "https://bridge.metis.io"
       }
     ]
-  }
+  },
+  "stables": [
+    {
+      "symbol": "m.USDC",
+      "type": "bridge",
+      "contract": "0xea32a96608495e54156ae48931a7c20f0dcc1a21"
+    },
+    {
+      "symbol": "m.USDT",
+      "type": "bridge",
+      "contract": "0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC"
+    }
+  ]
 }

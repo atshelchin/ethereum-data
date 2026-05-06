@@ -1,7 +1,10 @@
 {
   "name": "Superseed",
   "chain": "ETH",
-  "rpc": ["https://mainnet.superseed.xyz", "wss://mainnet.superseed.xyz"],
+  "rpc": [
+    "https://mainnet.superseed.xyz",
+    "wss://mainnet.superseed.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -21,5 +24,12 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "status": "active",
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0xC316C8252B5F2176d0135Ebb0999E99296998F2e"
+    }
+  ]
 }

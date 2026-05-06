@@ -35,5 +35,17 @@
         "url": "https://bridge.morphl2.io/"
       }
     ]
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "native",
+      "contract": "0xCfb1186F4e93D60E60a8bDd997427D1F33bc372B"
+    },
+    {
+      "symbol": "USDT0",
+      "type": "bridge",
+      "contract": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D"
+    }
+  ]
 }

@@ -1,7 +1,9 @@
 {
   "name": "Nibiru cataclysm-1",
   "chain": "Nibiru",
-  "rpc": ["https://evm-rpc.nibiru.fi"],
+  "rpc": [
+    "https://evm-rpc.nibiru.fi"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "NIBI",
@@ -13,5 +15,12 @@
   "chainId": 6900,
   "networkId": 6900,
   "icon": "nibiru",
-  "explorers": []
+  "explorers": [],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x0829F361A05D993d5CEb035cA6DF3446b060970b"
+    }
+  ]
 }

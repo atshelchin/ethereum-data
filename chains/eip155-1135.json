@@ -24,5 +24,12 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0xF242275d3a6527d877f2c927a82D9b057609cc71"
+    }
   ]
 }

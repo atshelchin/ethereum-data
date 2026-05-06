@@ -52,5 +52,12 @@
       "url": "https://filscout.io/en",
       "standard": "none"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x2421db204968A367CC2C866CD057fA754Cb84EdF"
+    }
   ]
 }

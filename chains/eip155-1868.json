@@ -45,5 +45,17 @@
         "url": "https://superbridge.app/soneium"
       }
     ]
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0xbA9986D2381edf1DA03B0B9c1f8b00dc4AacC369"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x102d758f688a4C1C5a80b116bD945d4455460282"
+    }
+  ]
 }

@@ -33,5 +33,17 @@
       "url": "https://explorer.harmony.one",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "1USDC",
+      "type": "bridge",
+      "contract": "0x985458e523db3d53125813ed68c274899e9dfab4"
+    },
+    {
+      "symbol": "1USDT",
+      "type": "bridge",
+      "contract": "0x3c2b8be99c50593081eaa2a724f0b8285f5aba8f"
+    }
   ]
 }

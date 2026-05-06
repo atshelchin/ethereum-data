@@ -30,5 +30,27 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "ceUSDC",
+      "type": "bridge",
+      "contract": "0x6a2d262D56735DbA19Dd70682B39F6bE9a931D98"
+    },
+    {
+      "symbol": "multiUSDC",
+      "type": "bridge",
+      "contract": "0xfa9343c3897324496a05fc75abed6bac29f8a40f"
+    },
+    {
+      "symbol": "ceUSDT",
+      "type": "bridge",
+      "contract": "0x3795C36e7D12A8c252A20C5a7B455f7c57b60283"
+    },
+    {
+      "symbol": "multiUSDT",
+      "type": "bridge",
+      "contract": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73"
+    }
   ]
 }

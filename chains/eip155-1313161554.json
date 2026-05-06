@@ -23,5 +23,17 @@
       "url": "https://explorer.aurora.dev",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0xB12BFcA5A55806AaF64E99521918A4bf0fC40802"
+    },
+    {
+      "symbol": "USDT.e",
+      "type": "bridge",
+      "contract": "0x4988a896b1227218e4a686fde5eabdcabd91571f"
+    }
   ]
 }

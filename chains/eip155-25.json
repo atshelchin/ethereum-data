@@ -31,5 +31,17 @@
       "url": "https://explorer.cronos.org",
       "standard": "none"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0xc21223249ca28397b4b6541dffaecc539bff0c59"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x66e428c3f67a68878562e79A0234c1F83c208770"
+    }
   ]
 }

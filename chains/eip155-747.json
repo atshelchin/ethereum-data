@@ -22,5 +22,17 @@
       "url": "https://evm.flowscan.io",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0xF1815bd50389c46847f0Bda824eC8da914045D14"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8"
+    }
   ]
 }

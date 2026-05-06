@@ -40,5 +40,17 @@
       "icon": "sonic",
       "standard": "none"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "native",
+      "contract": "0x29219dd400f2bf60e5a23d13be72b486d4038894"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x6047828dc181963ba44974801ff68e538da5eaf9"
+    }
   ]
 }

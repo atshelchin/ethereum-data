@@ -32,5 +32,17 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1"
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0xDF0B24095e15044538866576754F3C964e902Ee6"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
+    }
+  ]
 }

@@ -38,5 +38,17 @@
         "url": "https://bridge.zkevm-rpc.com"
       }
     ]
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0xa8ce8aee21bc2a48a5ef670afcc9274c7bbbc035"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x1E4a5963aBFD975d8c9021ce480b42188849D41d"
+    }
+  ]
 }

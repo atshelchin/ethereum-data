@@ -23,5 +23,17 @@
       "icon": "aleph-zero",
       "standard": "none"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x18d25B4e18165c97e1285212e5d1f80eDD6d3Aa7"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0xD648529D4803d3467bA8850577BEd4e4b8Ae583C"
+    }
   ]
 }

@@ -4,7 +4,9 @@
   "title": "Astar zkEVM Mainnet",
   "chain": "ETH",
   "icon": "astar",
-  "rpc": ["https://rpc.startale.com/astar-zkevm"],
+  "rpc": [
+    "https://rpc.startale.com/astar-zkevm"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -29,5 +31,12 @@
         "url": "https://portal.astar.network"
       }
     ]
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0xA8CE8aee21bC2A48a5EF670afCc9274C7bbbC035"
+    }
+  ]
 }

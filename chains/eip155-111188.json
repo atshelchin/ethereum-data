@@ -33,8 +33,19 @@
     "type": "L2",
     "chain": "eip155-1",
     "bridges": [
-      { "url": "https://re.al/bridge" },
-      { "url": "https://bridge.gelato.network/bridge/real" }
+      {
+        "url": "https://re.al/bridge"
+      },
+      {
+        "url": "https://bridge.gelato.network/bridge/real"
+      }
     ]
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0xc518A88c67CECA8B3f24c4562CB71deeB2AF86B7"
+    }
+  ]
 }

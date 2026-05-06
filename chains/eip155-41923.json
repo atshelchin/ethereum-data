@@ -2,8 +2,12 @@
   "name": "EDU Chain",
   "chain": "EDU Chain",
   "icon": "occ-mainnet",
-  "rpc": ["https://rpc.edu-chain.raas.gelato.cloud"],
-  "faucets": ["https://bridge.gelato.network/bridge/edu-chain"],
+  "rpc": [
+    "https://rpc.edu-chain.raas.gelato.cloud"
+  ],
+  "faucets": [
+    "https://bridge.gelato.network/bridge/edu-chain"
+  ],
   "nativeCurrency": {
     "name": "EDU",
     "symbol": "EDU",
@@ -19,6 +23,18 @@
       "url": "https://educhain.blockscout.com",
       "icon": "occ-mainnet",
       "standard": "none"
+    }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x836d275563bAb5E93Fd6Ca62a95dB7065Da94342"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x7277Cc818e3F3FfBb169c6Da9CC77Fc2d2a34895"
     }
   ]
 }

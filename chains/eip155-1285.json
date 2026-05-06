@@ -35,5 +35,17 @@
       "url": "https://moonriver.moonscan.io",
       "standard": "none"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "multiUSDC",
+      "type": "bridge",
+      "contract": "0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d"
+    },
+    {
+      "symbol": "multiUSDT",
+      "type": "bridge",
+      "contract": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C"
+    }
   ]
 }

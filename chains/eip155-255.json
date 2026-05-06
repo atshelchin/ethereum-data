@@ -33,5 +33,17 @@
         "url": "https://kroma.network/bridge"
       }
     ]
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x0257e4d92c00c9efcca1d641b224d7d09cfa4522"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x0Cf7C2A584988871b654Bd79f96899e4cd6c41C0"
+    }
+  ]
 }

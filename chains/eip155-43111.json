@@ -29,5 +29,12 @@
     "type": "L2",
     "chain": "eip155-1"
   },
-  "status": "active"
+  "status": "active",
+  "stables": [
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0xad11a8BEb98bbf61dbb1aa0F6d6F2ECD87b35afA"
+    }
+  ]
 }

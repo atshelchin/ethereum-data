@@ -38,5 +38,22 @@
       "icon": "dexguru",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "multiUSDC",
+      "type": "bridge",
+      "contract": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75"
+    },
+    {
+      "symbol": "axlUSDC",
+      "type": "bridge",
+      "contract": "0x1b6382dbdea11d97f24495c9a90b7c88469134a4"
+    },
+    {
+      "symbol": "fUSDT",
+      "type": "bridge",
+      "contract": "0x049d68029688eAbF473097a2fC38ef61633A3C7A"
+    }
   ]
 }

@@ -23,5 +23,17 @@
       "url": "https://explorer.dogechain.dog",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "multiUSDC",
+      "type": "bridge",
+      "contract": "0x765277EebeCA2e31912C9946eAe1021199B39C61"
+    },
+    {
+      "symbol": "multiUSDT",
+      "type": "bridge",
+      "contract": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D"
+    }
   ]
 }

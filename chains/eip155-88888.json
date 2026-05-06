@@ -36,5 +36,12 @@
       "url": "https://scan.chiliz.com",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x0ffa63502f957b66e61F87761cc240e51C74cee5"
+    }
   ]
 }

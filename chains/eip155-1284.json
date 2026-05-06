@@ -37,5 +37,22 @@
       "url": "https://moonbeam.moonscan.io",
       "standard": "none"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "multiUSDC",
+      "type": "bridge",
+      "contract": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b"
+    },
+    {
+      "symbol": "axlUSDC",
+      "type": "bridge",
+      "contract": "0xca01a1d0993565291051daff390892518acfad3a"
+    },
+    {
+      "symbol": "multiUSDT",
+      "type": "bridge",
+      "contract": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73"
+    }
   ]
 }

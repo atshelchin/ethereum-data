@@ -16,5 +16,17 @@
   "shortName": "vic",
   "chainId": 88,
   "networkId": 88,
-  "slip44": 889
+  "slip44": 889,
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0xcca4e6302510d555b654b3eab9c0fcb223bcfdf0"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x381b31409e4d220919b2cff012ed94d70135a59e"
+    }
+  ]
 }

@@ -31,5 +31,17 @@
       "url": "https://explorer.etherlink.com",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x796Ea11Fa2dD751eD01b53C372fFDB4AAa8f00F9"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x2C03058C8AFC06713be23e58D2febC8337dbfE6A"
+    }
   ]
 }

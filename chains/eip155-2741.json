@@ -38,5 +38,17 @@
         "url": "https://portal.mainnet.abs.xyz/bridge"
       }
     ]
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0x84A71ccD554Cc1b02749b35d22f684CC8ec987e1"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x0709f39376deee2a2dfc94a58edeb2eb9df012bd"
+    }
+  ]
 }

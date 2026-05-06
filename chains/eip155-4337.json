@@ -12,7 +12,9 @@
       "name": "EIP1559"
     }
   ],
-  "faucets": ["https://faucet.onbeam.com"],
+  "faucets": [
+    "https://faucet.onbeam.com"
+  ],
   "nativeCurrency": {
     "name": "Beam",
     "symbol": "BEAM",
@@ -28,6 +30,18 @@
       "name": "Beam Explorer",
       "url": "https://subnets.avax.network/beam",
       "standard": "EIP3091"
+    }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x76BF5E7d2Bcb06b1444C0a2742780051D8D0E304"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x999f90f25a2922ae1b21A06066F7EDEbedad42a9"
     }
   ]
 }

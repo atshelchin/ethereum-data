@@ -28,5 +28,17 @@
       "url": "https://seitrace.com",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "native",
+      "contract": "0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392"
+    },
+    {
+      "symbol": "USDT0",
+      "type": "bridge",
+      "contract": "0x9151434b16b9763660705744891fa906f660ecc5"
+    }
   ]
 }

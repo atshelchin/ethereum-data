@@ -6,7 +6,9 @@
     "https://immutable-zkevm.drpc.org",
     "wss://immutable-zkevm.drpc.org"
   ],
-  "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
+  "faucets": [
+    "https://docs.immutable.com/docs/zkEVM/guides/faucet"
+  ],
   "nativeCurrency": {
     "name": "IMX",
     "symbol": "IMX",
@@ -23,6 +25,18 @@
       "url": "https://explorer.immutable.com",
       "standard": "EIP3091",
       "icon": "immutable"
+    }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x6de8aCC0D406837030CE4dd28e7c08C5a96a30d2"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x68bcc7F1190AF20e7b572BCfb431c3Ac10A936Ab"
     }
   ]
 }

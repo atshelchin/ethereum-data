@@ -33,5 +33,17 @@
       "url": "https://kaiascan.io",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDT",
+      "type": "native",
+      "contract": "0xd077a400968890eacc75cdc901f0356c943e4fdb"
+    },
+    {
+      "symbol": "oUSDC",
+      "type": "bridge",
+      "contract": "0x754288077d0ff82af7a5317c7cb8c444d421d103"
+    }
   ]
 }

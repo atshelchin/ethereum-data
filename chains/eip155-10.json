@@ -49,5 +49,22 @@
       "url": "https://mainnet.superscan.network",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "native",
+      "contract": "0x0b2c639c533813f4aa9d7837caf62653d097ff85"
+    },
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58"
+    }
   ]
 }

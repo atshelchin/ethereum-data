@@ -1,7 +1,10 @@
 {
   "name": "Sophon",
   "chain": "Sophon",
-  "rpc": ["https://rpc.sophon.xyz", "wss://rpc.sophon.xyz/ws"],
+  "rpc": [
+    "https://rpc.sophon.xyz",
+    "wss://rpc.sophon.xyz/ws"
+  ],
   "nativeCurrency": {
     "name": "Sophon",
     "symbol": "SOPH",
@@ -28,5 +31,12 @@
         "url": "https://portal.sophon.xyz/bridge"
       }
     ]
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x9Aa0F72392B5784Ad86c6f3E899bCc053D00Db4F"
+    }
+  ]
 }

@@ -34,5 +34,12 @@
       "icon": "blocksscan",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "native",
+      "contract": "0xfA2958CB79b0491CC627c1557F441eF849Ca8eb1"
+    }
   ]
 }

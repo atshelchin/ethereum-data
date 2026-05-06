@@ -1,7 +1,10 @@
 {
   "name": "Codex",
   "chain": "ETH",
-  "rpc": ["https://rpc.codex.xyz", "wss://rpc.codex.xyz"],
+  "rpc": [
+    "https://rpc.codex.xyz",
+    "wss://rpc.codex.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -23,5 +26,12 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1"
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "native",
+      "contract": "0xd996633a415985DBd7D6D12f4A4343E31f5037cf"
+    }
+  ]
 }

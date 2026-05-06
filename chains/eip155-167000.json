@@ -33,5 +33,17 @@
       "url": "https://taikoexplorer.com",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x07d83526730c7438048D55A4fc0b850e2aaB6f0b"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x2DEF195713CF4a606B49D07E520e22C17899a736"
+    }
   ]
 }

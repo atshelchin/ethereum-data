@@ -35,5 +35,22 @@
       "standard": "EIP3091",
       "icon": "kava"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDT",
+      "type": "native",
+      "contract": "0x919C1c267BC06a7039e03fcc2eF738525769109c"
+    },
+    {
+      "symbol": "axlUSDC",
+      "type": "bridge",
+      "contract": "0xEB466342C4d449BC9f53A865D5Cb90586f405215"
+    },
+    {
+      "symbol": "multiUSDC",
+      "type": "bridge",
+      "contract": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f"
+    }
   ]
 }

@@ -33,5 +33,17 @@
       "url": "https://beratrail.io",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0x549943e04f40284185054145c6E4e9568C1d3241"
+    },
+    {
+      "symbol": "USDT0",
+      "type": "bridge",
+      "contract": "0x3Dc96399109df5ceb2C226664A086140bD0379cB"
+    }
   ]
 }

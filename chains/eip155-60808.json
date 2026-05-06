@@ -36,5 +36,17 @@
         "url": "https://app.gobob.xyz"
       }
     ]
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0xe75D0fB2C24A55cA1e3F96781a2bCC7bdba058F0"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x05d032ac25d322df992303dCa074EE7392C117b9"
+    }
+  ]
 }

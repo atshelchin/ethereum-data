@@ -2,8 +2,17 @@
   "name": "Monad",
   "chain": "MON",
   "icon": "monad",
-  "rpc": ["https://rpc.monad.xyz"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://rpc.monad.xyz"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Monad",
@@ -25,6 +34,13 @@
       "name": "Monadscan",
       "url": "https://monadscan.com",
       "standard": "EIP3091"
+    }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "native",
+      "contract": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603"
     }
   ]
 }

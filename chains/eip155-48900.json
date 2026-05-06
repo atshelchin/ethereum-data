@@ -23,5 +23,17 @@
       "icon": "zircuit",
       "standard": "none"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x3b952c8C9C44e8Fe201e2b26F6B2200203214cfF"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x46dDa6a5a559d861c06EC9a95Fb395f5C3Db0742"
+    }
   ]
 }

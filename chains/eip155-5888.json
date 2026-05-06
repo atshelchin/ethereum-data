@@ -1,7 +1,10 @@
 {
   "name": "MANTRACHAIN Mainnet",
   "chain": "MANTRACHAIN",
-  "rpc": ["https://evm.mantrachain.io", "wss://evm.mantrachain.io/ws"],
+  "rpc": [
+    "https://evm.mantrachain.io",
+    "wss://evm.mantrachain.io/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OM",
@@ -20,6 +23,18 @@
       "url": "http://mantrascan.io",
       "standard": "none",
       "icon": "om"
+    }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x5E76be0F4e09057D75140216F70fd4cE3365bb29"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x3806640578b710d8480910bF51510bc538d2F51A"
     }
   ]
 }

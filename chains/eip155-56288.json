@@ -34,5 +34,12 @@
         "url": "https://gateway.boba.network"
       }
     ]
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x3a2213CaEbcf1727D7b3422B8Ef8Dd5654877f42"
+    }
+  ]
 }

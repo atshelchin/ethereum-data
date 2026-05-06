@@ -38,5 +38,22 @@
         "url": "https://bridge.zksync.io/"
       }
     ]
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "native",
+      "contract": "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4"
+    },
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x493257fd37edb34451f62edf8d2a0c418852ba4c"
+    }
+  ]
 }

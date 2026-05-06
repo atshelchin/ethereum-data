@@ -30,5 +30,17 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "rUSDC",
+      "type": "bridge",
+      "contract": "0x1bda44fda023f2af8280a16fd1b01d1a493ba6c4"
+    },
+    {
+      "symbol": "rUSDT",
+      "type": "bridge",
+      "contract": "0xef213441a85df4d7acbdae0cf78004e1e486bb96"
+    }
   ]
 }
