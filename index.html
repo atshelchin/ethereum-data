@@ -342,6 +342,103 @@
     .fn-name { color: #e5e5e5; }
     .fn-returns { color: #525252; margin-left: auto; }
     .param-type { color: #60a5fa; }
+
+    /* DeFi Info Cards */
+    .defi-section {
+      margin-top: 10px;
+      padding: 15px;
+      background: #1a1a1a;
+      border: 1px solid #262626;
+      border-radius: 10px;
+    }
+    .defi-section-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: #a3a3a3;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+    }
+    .stables-grid {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .stable-card {
+      background: #0a0a0a;
+      border: 1px solid #262626;
+      border-radius: 8px;
+      padding: 12px 16px;
+      min-width: 200px;
+      flex: 1;
+    }
+    .stable-symbol {
+      font-weight: 600;
+      font-size: 15px;
+      color: #e5e5e5;
+      margin-bottom: 4px;
+    }
+    .stable-type {
+      font-size: 11px;
+      color: #525252;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .stable-contract {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 11px;
+      color: #a3a3a3;
+      word-break: break-all;
+    }
+    .wrapped-token-card {
+      background: #0a0a0a;
+      border: 1px solid #262626;
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 13px;
+      color: #a3a3a3;
+      word-break: break-all;
+    }
+    .dex-card {
+      background: #0a0a0a;
+      border: 1px solid #262626;
+      border-radius: 8px;
+      padding: 12px 16px;
+    }
+    .dex-name {
+      font-weight: 600;
+      font-size: 15px;
+      color: #e5e5e5;
+      margin-bottom: 4px;
+    }
+    .dex-protocol {
+      font-size: 12px;
+      color: #737373;
+      margin-bottom: 10px;
+    }
+    .dex-contracts {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .dex-contract-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+    }
+    .dex-contract-label {
+      color: #737373;
+      min-width: 90px;
+      font-weight: 500;
+    }
+    .dex-contract-addr {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 11px;
+      color: #a3a3a3;
+      word-break: break-all;
+    }
   </style>
 </head>
 <body>
@@ -563,6 +660,69 @@
           <span class="detail-label">Website</span>
           <span class="detail-value"><a href="${data.infoURL}" target="_blank">${data.infoURL}</a></span>
         </div>` : ''}
+
+        ${data.stables?.length || data.wrappedNativeToken || data.dex ? `
+        <div class="defi-section" style="margin-top: 15px;">
+          <div class="defi-section-title">DeFi Info</div>
+
+          ${data.stables?.length ? `
+            <div style="margin-bottom: 12px;">
+              <div style="color: #a3a3a3; font-size: 12px; margin-bottom: 8px;">Stablecoins</div>
+              <div class="stables-grid">
+                ${data.stables.map(s => {
+                  const explorerUrl = data.explorers?.[0]?.url || '';
+                  const link = explorerUrl
+                    ? `<a href="${explorerUrl}/address/${s.contract}" target="_blank" style="color:#a3a3a3;text-decoration:none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${s.contract}</a>`
+                    : s.contract;
+                  return `
+                  <div class="stable-card">
+                    <div class="stable-symbol">${s.symbol}</div>
+                    <div class="stable-type">${s.type || ''}</div>
+                    <div class="stable-contract">${link}</div>
+                  </div>`;
+                }).join('')}
+              </div>
+            </div>
+          ` : ''}
+
+          ${data.wrappedNativeToken ? (() => {
+            const explorerUrl = data.explorers?.[0]?.url || '';
+            const link = explorerUrl
+              ? `<a href="${explorerUrl}/address/${data.wrappedNativeToken}" target="_blank" style="color:#a3a3a3;text-decoration:none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${data.wrappedNativeToken}</a>`
+              : data.wrappedNativeToken;
+            return `
+            <div style="margin-bottom: 12px;">
+              <div style="color: #a3a3a3; font-size: 12px; margin-bottom: 8px;">Wrapped Native Token</div>
+              <div class="wrapped-token-card">${link}</div>
+            </div>`;
+          })() : ''}
+
+          ${data.dex ? (() => {
+            const explorerUrl = data.explorers?.[0]?.url || '';
+            const addrLink = (addr) => explorerUrl
+              ? `<a href="${explorerUrl}/address/${addr}" target="_blank" style="color:#a3a3a3;text-decoration:none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${addr}</a>`
+              : addr;
+            return `
+            <div>
+              <div style="color: #a3a3a3; font-size: 12px; margin-bottom: 8px;">DEX</div>
+              <div class="dex-card">
+                <div class="dex-name">${data.dex.dex}</div>
+                <div class="dex-protocol">${data.dex.protocol}</div>
+                ${data.dex.contracts ? `
+                  <div class="dex-contracts">
+                    ${Object.entries(data.dex.contracts).map(([k, v]) => `
+                      <div class="dex-contract-row">
+                        <span class="dex-contract-label">${k}</span>
+                        <span class="dex-contract-addr">${addrLink(v)}</span>
+                      </div>
+                    `).join('')}
+                  </div>
+                ` : ''}
+              </div>
+            </div>`;
+          })() : ''}
+        </div>
+        ` : ''}
       `;
     }
 
