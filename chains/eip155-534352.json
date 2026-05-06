@@ -59,6 +59,7 @@
     "contracts": {
       "factory": "0xaaaaAAAACB71BF2C8CaE522EA5fa455571A74106",
       "quoterV2": "0x62223e90605845Cf5CC6DAE6E0de4CDA130d6DDf"
-    }
+    },
+    "url": "https://ambient.finance"
   }
 }

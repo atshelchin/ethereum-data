@@ -60,6 +60,7 @@
     "contracts": {
       "factory": "0xAAA20D08e59F6561f242b08513D36266C5A29415",
       "router": "0xAAA45c8F5ef92a000a121d102F4e89278a711Faa"
-    }
+    },
+    "url": "https://aster.finance"
   }
 }

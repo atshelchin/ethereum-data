@@ -29,7 +29,8 @@
     "contracts": {
       "factory": "0xBefC4b405041c5833f53412fF997ed2f697a2f37",
       "quoter": "0xFe24b2cDfF01B644995bc248bA9497467d688F7B"
-    }
+    },
+    "url": "https://app.camelot.exchange"
   },
   "stables": [
     {

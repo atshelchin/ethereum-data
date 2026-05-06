@@ -57,6 +57,7 @@
     "contracts": {
       "factory": "0xCe54D0A3fBB11495dC2Ecfd9C2BFCB4FC0F59221",
       "router": "0x0B45B05A1EF0F76D7e8D84Fb6F1ebB1c3D2010a5"
-    }
+    },
+    "url": "https://sparkdex.ai"
   }
 }

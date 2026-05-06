@@ -63,6 +63,7 @@
     "contracts": {
       "factory": "0x29eA7545DEf87022BAdc76323F373EA1e707C523",
       "router": "0x165C3410fC91EF562C50559f7d2289fEbed552d9"
-    }
+    },
+    "url": "https://9mm.pro"
   }
 }

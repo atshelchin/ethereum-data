@@ -51,6 +51,7 @@
     "contracts": {
       "factory": "0x3B44B2a187a7b3824131F8db5a74194D0a42Fc15",
       "router": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
-    }
+    },
+    "url": "https://vvs.finance"
   }
 }

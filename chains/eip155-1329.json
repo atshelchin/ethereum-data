@@ -48,6 +48,7 @@
     "contracts": {
       "factory": "0x0b7007c13325c48911f73a2dad5fa5dcbf808adc",
       "quoterV2": "0x5db0e4D1C0424D4C2b9e6b62F4a37Bf3d9D3C4D7"
-    }
+    },
+    "url": "https://dragonswap.app"
   }
 }

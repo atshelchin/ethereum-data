@@ -43,6 +43,7 @@
     "contracts": {
       "factory": "0x06E0A71BFc23D5d0Eb6a1e8d5a0F22B340233443",
       "router": "0xAEbCDBae00dD30a07Bef77Da3bdc99Dd56b5F3b4"
-    }
+    },
+    "url": "https://quickswap.exchange"
   }
 }

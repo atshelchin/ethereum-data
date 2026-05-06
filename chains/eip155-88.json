@@ -36,6 +36,7 @@
     "contracts": {
       "factory": "0x79ea4FD7665e9D20f91e4325F5B422C7584cD724",
       "router": "0xE68FcD362b19c78f8e1C14295ef96e3a0caEB022"
-    }
+    },
+    "url": "https://vinuswap.org"
   }
 }

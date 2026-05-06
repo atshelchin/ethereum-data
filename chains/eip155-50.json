@@ -50,6 +50,7 @@
       "factory": "0x0000000000000000000000000000000000000000",
       "quoterV2": "0x0000000000000000000000000000000000000000"
     },
-    "verified": false
+    "verified": false,
+    "url": "https://xswap.com"
   }
 }

@@ -63,6 +63,7 @@
     "contracts": {
       "factory": "0x152eE697f2E276fA89E96742e9bB9aB1F2E61bE3",
       "router": "0xF491e7B69E4244ad4002BC14e878a34207E38c29"
-    }
+    },
+    "url": "https://spooky.fi"
   }
 }

@@ -45,7 +45,8 @@
     "contracts": {
       "factory": "0x4eC9F0460da736435Ab686ab867c0B527778FD44",
       "quoterV2": "0x97b30B1d4F0E08934d59b292934110dd387D63ef"
-    }
+    },
+    "url": "https://syncswap.xyz"
   },
   "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
 }

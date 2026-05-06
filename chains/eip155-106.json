@@ -37,6 +37,7 @@
     "contracts": {
       "factory": "0x3C9F5a5BAD2443f00EEaFD2cB08f91a5d9bBb6b3",
       "router": "0x3D1c58B6d4501E34DF37Cf0f664A58059a188F00"
-    }
+    },
+    "url": "https://wagyuswap.app"
   }
 }

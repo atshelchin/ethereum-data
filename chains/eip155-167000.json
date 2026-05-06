@@ -53,6 +53,7 @@
     "contracts": {
       "factory": "0xB8CD97fC1542Aae929b32D16399fC83F269E1488",
       "quoterV2": "0x49c3efF8ee0E24F1F4d0E4D2C4B97F12E6D7cA34"
-    }
+    },
+    "url": "https://panko.finance"
   }
 }

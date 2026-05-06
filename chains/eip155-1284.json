@@ -62,6 +62,7 @@
     "contracts": {
       "factory": "0x68A384D826D3678f78BB9FB1533c7E9577dACc0E",
       "router": "0xd0A01ec574D1fC6652eDF79cb2F880fd47D34Ab1"
-    }
+    },
+    "url": "https://stellaswap.com"
   }
 }

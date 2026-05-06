@@ -47,6 +47,7 @@
     "contracts": {
       "factory": "0xF24E36e53628C3086fc66BF109cDB1eDfB1770b0",
       "router": "0x56b0736BFCe0e9411c5F703EEf9B65A86217AbAB"
-    }
+    },
+    "url": "https://app.evmoswap.org"
   }
 }

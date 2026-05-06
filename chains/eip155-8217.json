@@ -53,6 +53,7 @@
     "contracts": {
       "factory": "0xEf71750C100f7918d6Ded239Ff1CF09E81dEA92C",
       "router": "0xe0fbB27D0E7F3a397A67a9d4864D4f4DD7cF8cB9"
-    }
+    },
+    "url": "https://klayswap.com"
   }
 }

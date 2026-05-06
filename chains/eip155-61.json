@@ -72,7 +72,8 @@
     "contracts": {
       "factory": "0x7F8D7095f2b2B17a927A6735D9AfB6dBCBe3Ba4c",
       "router": "0x5F2EE81D4F3b3a413cE3F4C33C4D8e1eC5e00e7d"
-    }
+    },
+    "url": "https://etcswap.org"
   },
   "stables": [
     {

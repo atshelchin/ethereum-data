@@ -60,6 +60,7 @@
     "contracts": {
       "factory": "0xA9473608514457b4bF083f9045fA63ae5810A03E",
       "router": "0xE915D2393a08a00c5A463053edD31bAe2199b9e7"
-    }
+    },
+    "url": "https://app.arthswap.org"
   }
 }
