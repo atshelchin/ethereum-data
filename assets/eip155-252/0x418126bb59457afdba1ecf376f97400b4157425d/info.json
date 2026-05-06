@@ -1,0 +1,20 @@
+{
+    "name": "VNX Swiss Franc",
+    "symbol": "VCHF",
+    "type": "FRAXTAL",
+    "decimals": 18,
+    "description": "What is the project about?\nVNX Swiss Franc (VCHF) is a token referencing Swiss Franc from a token generator licensed under the Blockchain act in Liechtenstein. \n\nWhat makes your project unique?\nBeing referenced to traditional currency, VNX Swiss Franc offers a traditional asset in the digital form.",
+    "website": "https://vnx.li/vchf/",
+    "explorer": "https://fraxscan.com/token/0x418126bb59457afdba1ecf376f97400b4157425d",
+    "status": "active",
+    "id": "0x418126bb59457afdba1ecf376f97400b4157425d",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/vnx-swiss-franc"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

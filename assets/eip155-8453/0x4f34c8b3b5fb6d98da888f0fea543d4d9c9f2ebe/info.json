@@ -1,0 +1,20 @@
+{
+    "name": "Peruvian Sol",
+    "symbol": "WPEN",
+    "type": "BASE",
+    "decimals": 18,
+    "description": "wPEN is a fully collateralized stablecoin pegged 1:1 to the Peruvian sol (PEN). Issued and governed by a Ripio subsidiary, it brings PEN on-chain so Peruvians and global users can transact, save, and build on decentralized networks in their local currency.",
+    "website": "https://ripio.com/es/criptos/stablecoins-locales",
+    "explorer": "https://basescan.org/token/0x4f34c8b3b5fb6d98da888f0fea543d4d9c9f2ebe",
+    "status": "active",
+    "id": "0x4f34c8b3b5fb6d98da888f0fea543d4d9c9f2ebe",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/peruvian-sol"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Chilean Peso",
+    "symbol": "WCLP",
+    "type": "BEP20",
+    "decimals": 18,
+    "description": "wCLP is a fully collateralized stablecoin pegged 1:1 to the Chilean peso (CLP). Issued and governed by a Ripio subsidiary, it brings CLP on-chain so Chileans and global users can transact, save, and build on decentralized networks in their local currency.",
+    "website": "https://ripio.com/es/criptos/stablecoins-locales",
+    "explorer": "https://bscscan.com/token/0x61d450a098b6a7f69fc4b98ce68198fe59768651",
+    "status": "active",
+    "id": "0x61d450a098b6a7f69fc4b98ce68198fe59768651",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/chilean-peso"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

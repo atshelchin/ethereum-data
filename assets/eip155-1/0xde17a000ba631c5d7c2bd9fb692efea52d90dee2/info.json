@@ -1,0 +1,20 @@
+{
+    "name": "SMARDEX USDN",
+    "symbol": "USDN",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "USDN is a pioneering synthetic U.S. dollar token developed within the SmarDex ecosystem.",
+    "website": "https://smardex.io/usdn",
+    "explorer": "https://etherscan.io/token/0xde17a000ba631c5d7c2bd9fb692efea52d90dee2",
+    "status": "active",
+    "id": "0xde17a000ba631c5d7c2bd9fb692efea52d90dee2",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/smardex-usdn"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

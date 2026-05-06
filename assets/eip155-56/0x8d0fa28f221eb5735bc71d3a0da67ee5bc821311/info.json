@@ -1,0 +1,20 @@
+{
+    "name": "Circle USYC",
+    "symbol": "USYC",
+    "type": "BEP20",
+    "decimals": 6,
+    "description": "USYC: Tokenized Money Market Fund\n\nHashnote International Short Duration Yield Fund Ltd. invests in short-term U.S.",
+    "website": "https://usyc.hashnote.com/",
+    "explorer": "https://bscscan.com/token/0x8d0fa28f221eb5735bc71d3a0da67ee5bc821311",
+    "status": "active",
+    "id": "0x8d0fa28f221eb5735bc71d3a0da67ee5bc821311",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/hashnote-usyc"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

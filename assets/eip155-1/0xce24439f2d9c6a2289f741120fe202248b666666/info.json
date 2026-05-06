@@ -1,0 +1,20 @@
+{
+    "name": "United Stables",
+    "symbol": "U",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://u.tech/",
+    "explorer": "https://etherscan.io/token/0xce24439f2d9c6a2289f741120fe202248b666666",
+    "status": "active",
+    "id": "0xce24439f2d9c6a2289f741120fe202248b666666",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/united-stables"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

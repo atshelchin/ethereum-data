@@ -1,0 +1,20 @@
+{
+    "name": "Ethos Reserve Note",
+    "symbol": "ERN",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://ethos.finance",
+    "explorer": "https://etherscan.io/token/0x91a69021b0baef3445e51726458a0ce601471846",
+    "status": "active",
+    "id": "0x91a69021b0baef3445e51726458a0ce601471846",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/ethos-reserve-note"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

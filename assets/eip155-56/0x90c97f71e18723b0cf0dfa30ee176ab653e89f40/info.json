@@ -1,0 +1,20 @@
+{
+    "name": "Frax",
+    "symbol": "FRAX",
+    "type": "BEP20",
+    "decimals": 18,
+    "description": "The first fractional-algorithmic stablecoin.",
+    "website": "https://frax.finance",
+    "explorer": "https://bscscan.com/token/0x90c97f71e18723b0cf0dfa30ee176ab653e89f40",
+    "status": "active",
+    "id": "0x90c97f71e18723b0cf0dfa30ee176ab653e89f40",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/frax"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "dForce USD",
+    "symbol": "USX",
+    "type": "ARBITRUM",
+    "decimals": 18,
+    "description": "Synthetic Stablecoin.",
+    "website": "https://dforce.network/",
+    "explorer": "https://arbiscan.io/token/0x641441c631e2f909700d2f41fd87f0aa6a6b4edb",
+    "status": "active",
+    "id": "0x641441c631e2f909700d2f41fd87f0aa6a6b4edb",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/token-dforce-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

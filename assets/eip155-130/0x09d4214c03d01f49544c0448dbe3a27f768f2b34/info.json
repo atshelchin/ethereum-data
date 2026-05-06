@@ -1,0 +1,20 @@
+{
+    "name": "Reservoir Stablecoin",
+    "symbol": "rUSD",
+    "type": "UNICHAIN",
+    "decimals": 18,
+    "description": "Reservoir Protocol was created to offer users the most trusted and scalable decentralized, next-gen stablecoin protocol as part of a broader effort to address the market’s demand for a decentralized, scalable, efficient, and yield-bearing stablecoin. As a permissionless protocol on Ethereum with native integration on top-tier networks, Reservoir offers users globally access to a next-gen stablecoin, a liquid yielding asset, a term-based yielding asset, and a permissionless lending market.",
+    "website": "https://www.reservoir.xyz/",
+    "explorer": "https://uniscan.xyz/token/0x09d4214c03d01f49544c0448dbe3a27f768f2b34",
+    "status": "active",
+    "id": "0x09d4214c03d01f49544c0448dbe3a27f768f2b34",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/reservoir-rusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

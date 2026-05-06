@@ -1,0 +1,20 @@
+{
+    "name": "dForce USD",
+    "symbol": "USX",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Synthetic Stablecoin.",
+    "website": "https://dforce.network/",
+    "explorer": "https://etherscan.io/token/0x0a5e677a6a24b2f1a2bf4f3bffc443231d2fdec8",
+    "status": "active",
+    "id": "0x0a5e677a6a24b2f1a2bf4f3bffc443231d2fdec8",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/token-dforce-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

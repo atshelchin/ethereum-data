@@ -1,0 +1,20 @@
+{
+    "name": "HYDT",
+    "symbol": "HYDT",
+    "type": "BEP20",
+    "decimals": 18,
+    "description": "HYDT Stablecoin is HYDT Protocol's BNB chain-based, USD-pegged stablecoin backed by BNB collateral, aiming at providing high return for HYDT holders and keeping 1:1 peg against United States dollars at the same time. \n\nThese are the key unique features of HYDT protocol:\n\n1.",
+    "website": "https://hydtprotocol.com",
+    "explorer": "https://bscscan.com/token/0x9810512be701801954449408966c630595d0cd51",
+    "status": "active",
+    "id": "0x9810512be701801954449408966c630595d0cd51",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/hydt-protocol-hydt"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "GHO",
+    "symbol": "GHO",
+    "type": "ARBITRUM",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://gho.xyz/",
+    "explorer": "https://arbiscan.io/token/0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33",
+    "status": "active",
+    "id": "0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/gho"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

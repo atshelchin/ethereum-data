@@ -1,0 +1,20 @@
+{
+    "name": "PHT Stablecoin",
+    "symbol": "PHT",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "PHT Stablecoin is a multi-chain, overcollateralized stablecoin pegged to the Philippine peso. It is designed to facilitate fast, low-cost remittances, on-chain payments, and programmable settlements across the Philippines and Southeast Asia.\n\nPHT adopts the time-tested overcollateralization model pioneered by MakerDAO’s DAI.",
+    "website": "https://www.apacx.io/PHT",
+    "explorer": "https://etherscan.io/token/0xbe370ad45d44eb45174c4ec60b88839fef32c077",
+    "status": "active",
+    "id": "0xbe370ad45d44eb45174c4ec60b88839fef32c077",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/pht-stablecoin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

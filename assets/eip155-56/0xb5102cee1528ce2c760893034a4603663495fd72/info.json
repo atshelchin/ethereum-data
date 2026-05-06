@@ -1,0 +1,20 @@
+{
+    "name": "dForce USD",
+    "symbol": "USX",
+    "type": "BEP20",
+    "decimals": 18,
+    "description": "Synthetic Stablecoin.",
+    "website": "https://dforce.network/",
+    "explorer": "https://bscscan.com/token/0xb5102cee1528ce2c760893034a4603663495fd72",
+    "status": "active",
+    "id": "0xb5102cee1528ce2c760893034a4603663495fd72",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/token-dforce-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

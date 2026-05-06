@@ -1,0 +1,20 @@
+{
+    "name": "Glo Dollar",
+    "symbol": "USDGLO",
+    "type": "CELO",
+    "decimals": 18,
+    "description": "Glo Dollar (ticker: USDGLO) is the stablecoin that funds public goods. Stablecoin companies generate $7.4 billion annually from their stablecoin reserves.",
+    "website": "https://www.glodollar.org/",
+    "explorer": "https://celoscan.io/token/0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+    "status": "active",
+    "id": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/glo-dollar"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

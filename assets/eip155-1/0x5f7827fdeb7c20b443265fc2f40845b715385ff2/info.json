@@ -1,0 +1,20 @@
+{
+    "name": "EUR CoinVertible",
+    "symbol": "EURCV",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://www.sgforge.com/product/coinvertible/",
+    "explorer": "https://etherscan.io/token/0x5f7827fdeb7c20b443265fc2f40845b715385ff2",
+    "status": "active",
+    "id": "0x5f7827fdeb7c20b443265fc2f40845b715385ff2",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/societe-generale-forge-eurcv"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

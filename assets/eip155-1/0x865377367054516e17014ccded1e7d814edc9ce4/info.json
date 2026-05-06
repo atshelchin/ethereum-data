@@ -1,0 +1,20 @@
+{
+    "name": "Dola",
+    "symbol": "DOLA",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "DOLA is the asset and debt backed decentralized stablecoin of Inverse Finance.",
+    "website": "https://www.inverse.finance/",
+    "explorer": "https://etherscan.io/token/0x865377367054516e17014ccded1e7d814edc9ce4",
+    "status": "active",
+    "id": "0x865377367054516e17014ccded1e7d814edc9ce4",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/dola-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

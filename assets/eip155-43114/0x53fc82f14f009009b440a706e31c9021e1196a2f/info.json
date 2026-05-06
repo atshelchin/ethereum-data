@@ -1,0 +1,20 @@
+{
+    "name": "BlackRock USD",
+    "symbol": "BUIDL",
+    "type": "AVALANCHE",
+    "decimals": 6,
+    "description": ".",
+    "website": "https://www.blackrock.com/corporate",
+    "explorer": "https://snowtrace.io/token/0x53fc82f14f009009b440a706e31c9021e1196a2f",
+    "status": "active",
+    "id": "0x53fc82f14f009009b440a706e31c9021e1196a2f",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/blackrock-usd-institutional-digital-liquidity-fund"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

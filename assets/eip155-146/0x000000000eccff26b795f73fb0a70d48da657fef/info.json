@@ -1,0 +1,20 @@
+{
+    "name": "US Sonic Dollar",
+    "symbol": "USSD",
+    "type": "SONIC",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://www.soniclabs.com/",
+    "explorer": "https://sonicscan.org/token/0x000000000eccff26b795f73fb0a70d48da657fef",
+    "status": "active",
+    "id": "0x000000000eccff26b795f73fb0a70d48da657fef",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/us-sonic-dollar"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

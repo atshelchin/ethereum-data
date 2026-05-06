@@ -1,0 +1,20 @@
+{
+    "name": "Metamask USD",
+    "symbol": "MUSD",
+    "type": "ERC20",
+    "decimals": 6,
+    "description": "MetaMask USD (mUSD) is a stablecoin issued by MetaMask, designed to maintain a 1:1 peg with the US dollar. It is built for use within the MetaMask ecosystem, enabling seamless on- and off-ramping between crypto and fiat, as well as spending through MetaMask products, including the MetaMask Card.",
+    "website": "https://metamask.io/",
+    "explorer": "https://etherscan.io/token/0xaca92e438df0b2401ff60da7e4337b687a2435da",
+    "status": "active",
+    "id": "0xaca92e438df0b2401ff60da7e4337b687a2435da",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/metamask-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

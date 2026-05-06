@@ -1,0 +1,20 @@
+{
+    "name": "CJPY",
+    "symbol": "CJPY",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "What is the project about?\n\nCJPY represents a collateral debt position issued on Yamato Protocol, a decentralized and non-custodial platform on Ethereum developed by DeFiGeek Community Japan. CJPY serves as an ETH overcollateralized stablecoin designed to maintain a peg to the Japanese Yen.",
+    "website": "https://app.yamato.fi/",
+    "explorer": "https://etherscan.io/token/0x1cfa5641c01406ab8ac350ded7d735ec41298372",
+    "status": "active",
+    "id": "0x1cfa5641c01406ab8ac350ded7d735ec41298372",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/convertible-jpy-token"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

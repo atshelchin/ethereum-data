@@ -1,0 +1,20 @@
+{
+    "name": "NXUSD",
+    "symbol": "NXUSD",
+    "type": "AVALANCHE",
+    "decimals": 18,
+    "description": "Nereus is a decentralised, non-custodial liquidity market protocol in which users can participate as depositors or borrowers. Depositors provide liquidity to the market to earn a passive income, while borrowers can borrow in an over-collateralised (perpetually) or undercollateralised (one-block liquidity) fashion.",
+    "website": "https://nereus.finance/",
+    "explorer": "https://snowtrace.io/token/0xf14f4ce569cb3679e99d5059909e23b07bd2f387",
+    "status": "active",
+    "id": "0xf14f4ce569cb3679e99d5059909e23b07bd2f387",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/nxusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

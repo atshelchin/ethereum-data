@@ -1,0 +1,20 @@
+{
+    "name": "Real USD",
+    "symbol": "USDR",
+    "type": "POLYGON",
+    "decimals": 9,
+    "description": "USDR is the world’s first stablecoin collateralized by tokenized, yield-producing real estate. USDR has its own value accrual system built into its design, differentiating it from other currencies.",
+    "website": "https://www.tangible.store/usdr",
+    "explorer": "https://polygonscan.com/token/0x40379a439d4f6795b6fc9aa5687db461677a2dba",
+    "status": "active",
+    "id": "0x40379a439d4f6795b6fc9aa5687db461677a2dba",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/real-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

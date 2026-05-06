@@ -1,0 +1,20 @@
+{
+    "name": "Ethos Reserve Note",
+    "symbol": "ERN",
+    "type": "FANTOM",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://ethos.finance",
+    "explorer": "https://ftmscan.com/token/0xce1e3cc1950d2aaeb47de04de2dec2dc86380e0a",
+    "status": "active",
+    "id": "0xce1e3cc1950d2aaeb47de04de2dec2dc86380e0a",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/ethos-reserve-note"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Worldwide USD",
+    "symbol": "WUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "WUSD is a fiat-collateralized stablecoin that is pegged to the U.S. Dollar at a 1:1 ratio.",
+    "website": "https://wspn.io/",
+    "explorer": "https://etherscan.io/token/0x7cd017ca5ddb86861fa983a34b5f495c6f898c41",
+    "status": "active",
+    "id": "0x7cd017ca5ddb86861fa983a34b5f495c6f898c41",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/worldwide-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

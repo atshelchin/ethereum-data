@@ -1,0 +1,20 @@
+{
+    "name": "USD.AI",
+    "symbol": "USDai",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "USD.AI is a yield-bearing synthetic dollar backed by loans against AI hardware, compute, and DePIN assets. Targeting 15–25% APR, it functions like a high-yield bond index tied to income-generating infrastructure equipment, paired with additional mechanisms that allow arbitrageurs to bring back USDai back to a peg.",
+    "website": "https://usd.ai",
+    "explorer": "https://etherscan.io/token/0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
+    "status": "active",
+    "id": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/usdai"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Alto DUSD",
+    "symbol": "DUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Alto is a decentralized credit and incentives protocol built around its own collateral-backed stablecoin, DUSD, which serves as the sole borrowable asset across all isolated markets. Users can borrow, lend, mint, and leverage DUSD using assets like ETH, LSTs, and tBTC as collateral, while ALTO token stakers govern the protocol and receive a share of protocol fees.",
+    "website": "https://altofoundation.org/",
+    "explorer": "https://etherscan.io/token/0x63d74d22e689c715a04f2c13962b1f77f443d35b",
+    "status": "active",
+    "id": "0x63d74d22e689c715a04f2c13962b1f77f443d35b",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/alto-dusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

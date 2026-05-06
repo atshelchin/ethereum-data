@@ -1,0 +1,20 @@
+{
+    "name": "Ethena USDe",
+    "symbol": "USDe",
+    "type": "ZKSYNC",
+    "decimals": 18,
+    "description": "Ethena is a delta-hedged synthetic dollar with native crypto yield derived from staking and perpetual funding rate.",
+    "website": "https://app.ethena.fi/",
+    "explorer": "https://explorer.zksync.io/address/0x39fe7a0dacce31bd90418e3e659fb0b5f0b3db0d",
+    "status": "active",
+    "id": "0x39fe7a0dacce31bd90418e3e659fb0b5f0b3db0d",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/ethena-usde"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

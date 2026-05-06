@@ -1,0 +1,20 @@
+{
+    "name": "Dola",
+    "symbol": "DOLA",
+    "type": "FANTOM",
+    "decimals": 18,
+    "description": "DOLA is the asset and debt backed decentralized stablecoin of Inverse Finance.",
+    "website": "https://www.inverse.finance/",
+    "explorer": "https://ftmscan.com/token/0x3129662808bec728a27ab6a6b9afd3cbaca8a43c",
+    "status": "active",
+    "id": "0x3129662808bec728a27ab6a6b9afd3cbaca8a43c",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/dola-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

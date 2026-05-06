@@ -1,0 +1,20 @@
+{
+    "name": "WEUSD",
+    "symbol": "WEUSD",
+    "type": "BASE",
+    "decimals": 6,
+    "description": "PicWe is a decentralized cross-chain DeFi and RWA (Real-World Asset) platform that enables seamless swapping and investment without the need for traditional bridges. Our stablecoin, $WEUSD, is pegged 1:1 to the U.S.",
+    "website": "https://www.picwe.org",
+    "explorer": "https://basescan.org/token/0xdd73ea766b80417c0607a3f08e34a0c415d89d56",
+    "status": "active",
+    "id": "0xdd73ea766b80417c0607a3f08e34a0c415d89d56",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/weusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

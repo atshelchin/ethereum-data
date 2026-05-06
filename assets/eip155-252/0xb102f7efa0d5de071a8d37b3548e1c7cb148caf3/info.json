@@ -1,0 +1,20 @@
+{
+    "name": "crvUSD",
+    "symbol": "crvUSD",
+    "type": "FRAXTAL",
+    "decimals": 18,
+    "description": "crvUSD is a collateralized-debt-position (CDP) stablecoin pegged to the US Dollar.",
+    "website": "https://curve.finance",
+    "explorer": "https://fraxscan.com/token/0xb102f7efa0d5de071a8d37b3548e1c7cb148caf3",
+    "status": "active",
+    "id": "0xb102f7efa0d5de071a8d37b3548e1c7cb148caf3",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/crvusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

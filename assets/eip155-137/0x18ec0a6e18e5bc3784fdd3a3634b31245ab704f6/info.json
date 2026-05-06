@@ -1,0 +1,20 @@
+{
+    "name": "Monerium EUR emoney",
+    "symbol": "EURE",
+    "type": "POLYGON",
+    "decimals": 18,
+    "description": "Monerium is the first and, to date, only company authorized to issue money on blockchains under current European financial regulation and proposed Market in Crypto-Assets regulation. We have issued EUR, USD, GBP, and ISK as e-money tokens on Ethereum and EUR on Algorand.",
+    "website": "https://monerium.com/tokens/",
+    "explorer": "https://polygonscan.com/token/0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6",
+    "status": "active",
+    "id": "0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/monerium-eur-money"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

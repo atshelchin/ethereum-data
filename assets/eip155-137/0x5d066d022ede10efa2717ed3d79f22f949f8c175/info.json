@@ -1,0 +1,20 @@
+{
+    "name": "Stabl.fi Cash",
+    "symbol": "CASH",
+    "type": "POLYGON",
+    "decimals": 18,
+    "description": "Stabl.fi is a cross-chain fully collateralized organic yield generating stable indexcoin protocol. Users mint $CASH by depositing stables into the Stabl protocol.",
+    "website": "https://stabl.fi/",
+    "explorer": "https://polygonscan.com/token/0x5d066d022ede10efa2717ed3d79f22f949f8c175",
+    "status": "active",
+    "id": "0x5d066d022ede10efa2717ed3d79f22f949f8c175",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/stabl-fi"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "USDM",
+    "symbol": "USDM",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "The USDM token is a rebasing ERC20 token, redeemable at a pegged 1:1 USD value by primary users. USDM is a fully backed stablecoin, backed by \"USDM Reserves\", which are held under custody with regulated financial institutions in bankruptcy-remote accounts, segregated from the Company's operating accounts, on behalf of, and for the benefit of, Users.\nUSDM rebases daily, allowing users to receive rewards.",
+    "website": "https://mountainprotocol.com/",
+    "explorer": "https://etherscan.io/token/0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
+    "status": "active",
+    "id": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/mountain-protocol-usdm"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

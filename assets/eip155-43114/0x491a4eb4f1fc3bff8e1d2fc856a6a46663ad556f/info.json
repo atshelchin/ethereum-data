@@ -1,0 +1,20 @@
+{
+    "name": "Brazilian Digital",
+    "symbol": "BRZ",
+    "type": "AVALANCHE",
+    "decimals": 4,
+    "description": "BRZ is the first stable coin backed by Brazilian Reais (BRL). It'll allow Brazilian residents to directly ramp up in international exchanges and actively trade the Brazilian currency against pairs of different classes, including Bitcoin, other stable coins, utility and security tokens.",
+    "website": "https://transfero.com/stablecoins/brz/",
+    "explorer": "https://snowtrace.io/token/0x491a4eb4f1fc3bff8e1d2fc856a6a46663ad556f",
+    "status": "active",
+    "id": "0x491a4eb4f1fc3bff8e1d2fc856a6a46663ad556f",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/brz"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

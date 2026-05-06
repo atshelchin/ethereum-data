@@ -1,0 +1,20 @@
+{
+    "name": "EBUSD",
+    "symbol": "EBUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Ebisu Money is a Stablecoin Credit Market that will be deployed on Ethereum. Using a CDP model, users are able to borrow ebUSD against BTC, ETH, and USD pegged assets at competitive, market-set interest rates.",
+    "website": "https://ebisu.money/",
+    "explorer": "https://etherscan.io/token/0x09fd37d9aa613789c517e76df1c53aece2b60df4",
+    "status": "active",
+    "id": "0x09fd37d9aa613789c517e76df1c53aece2b60df4",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/ebusd-stablecoin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

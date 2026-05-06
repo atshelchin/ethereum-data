@@ -1,0 +1,20 @@
+{
+    "name": "Usual USD",
+    "symbol": "USD0",
+    "type": "ARBITRUM",
+    "decimals": 18,
+    "description": "USD0 is a stablecoin fully backed 1:1 by Real-World Assets (RWA) like US Treasury Bills. It provides users with a stable, secure asset that is independent of traditional banking systems, fully transferable, and accessible within the DeFi ecosystem.",
+    "website": "https://usual.money",
+    "explorer": "https://arbiscan.io/token/0x35f1c5cb7fb977e669fd244c567da99d8a3a6850",
+    "status": "active",
+    "id": "0x35f1c5cb7fb977e669fd244c567da99d8a3a6850",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/usual-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

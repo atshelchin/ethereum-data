@@ -1,0 +1,20 @@
+{
+    "name": "StandX DUSD",
+    "symbol": "DUSD",
+    "type": "BEP20",
+    "decimals": 6,
+    "description": "StandX is a Perps DEX that enables users to trade with yield-earning margins. DUSD is StandX’s first product - a yield-bearing stablecoin.",
+    "website": "https://standx.com/",
+    "explorer": "https://bscscan.com/token/0xaf44a1e76f56ee12adbb7ba8acd3cbd474888122",
+    "status": "active",
+    "id": "0xaf44a1e76f56ee12adbb7ba8acd3cbd474888122",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/standx-dusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

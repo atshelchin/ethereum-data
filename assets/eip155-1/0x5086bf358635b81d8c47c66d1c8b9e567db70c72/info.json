@@ -1,0 +1,20 @@
+{
+    "name": "Re Protocol reUSD",
+    "symbol": "reUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Re Protocol (RE) is a blockchain-based platform that democratizes access to reinsurance risk by tokenizing exposure to insurance contracts. The protocol’s two deposit tokens—reUSD and reUSDe—let users choose between a principal-protected, fixed-yield product (reUSD, RF + 250 bps) or a risk-bearing, variable-yield option (reUSDe, up to ~23 % APR).",
+    "website": "https://re.xyz",
+    "explorer": "https://etherscan.io/token/0x5086bf358635b81d8c47c66d1c8b9e567db70c72",
+    "status": "active",
+    "id": "0x5086bf358635b81d8c47c66d1c8b9e567db70c72",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/re-protocol-reusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

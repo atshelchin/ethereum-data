@@ -1,0 +1,20 @@
+{
+    "name": "XSGD",
+    "symbol": "XSGD",
+    "type": "HEDERA",
+    "decimals": 6,
+    "description": "XSGD is the world's first Travel Rule compliant stablecoin - backed by the Singapore-Dollar. XSGD is part of the StraitsX stablecoin initiative for SEA by Xfers..",
+    "website": "https://www.straitsx.com/sg/xsgd",
+    "explorer": "https://hashscan.io/mainnet/token/0x00000000000000000000000000000000001e4d82",
+    "status": "active",
+    "id": "0x00000000000000000000000000000000001e4d82",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/xsgd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

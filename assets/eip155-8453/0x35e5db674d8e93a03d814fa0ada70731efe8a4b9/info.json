@@ -1,0 +1,20 @@
+{
+    "name": "Resolv USD",
+    "symbol": "USR",
+    "type": "BASE",
+    "decimals": 18,
+    "description": "Resolv is a protocol that maintains USR, an overcollateralized stablecoin natively backed by Ether (ETH). USR achieves its peg by hedging its collateral pool and maintaining a tokenized insurance fund called RLP.",
+    "website": "https://www.resolv.xyz/",
+    "explorer": "https://basescan.org/token/0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+    "status": "active",
+    "id": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/resolv-usr"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

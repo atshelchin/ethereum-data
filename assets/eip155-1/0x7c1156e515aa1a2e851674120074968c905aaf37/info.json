@@ -1,0 +1,20 @@
+{
+    "name": "Level USD",
+    "symbol": "LVLUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Level USD (lvlUSD) is a liquid restaked dollar: a yield-bearing, cross-chain dollar token that's fully collateralized by restaked stablecoins.\n\nBefore, stablecoin users couldn't earn restaking yields. lvlUSD offers a solution for those who want to earn restaking yields without being exposed to the price of ETH or BTC.\n\nIn addition to earning multiple yields from decentralized networks at the same time, lvlUSD can be used across DeFi for trading, lending, collateral, and speculation..",
+    "website": "https://level.money/",
+    "explorer": "https://etherscan.io/token/0x7c1156e515aa1a2e851674120074968c905aaf37",
+    "status": "active",
+    "id": "0x7c1156e515aa1a2e851674120074968c905aaf37",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/level-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

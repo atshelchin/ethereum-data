@@ -1,0 +1,20 @@
+{
+    "name": "OpenEden TBILL",
+    "symbol": "TBILL",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "The OpenEden TBILL Vault is a smart-contract vault for U.S. Treasury Bills.",
+    "website": "https://openeden.com/",
+    "explorer": "https://etherscan.io/token/0xdd50c053c096cb04a3e3362e2b622529ec5f2e8a",
+    "status": "active",
+    "id": "0xdd50c053c096cb04a3e3362e2b622529ec5f2e8a",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/openeden-tbill"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

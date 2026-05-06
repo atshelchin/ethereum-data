@@ -1,0 +1,20 @@
+{
+    "name": "dForce USD",
+    "symbol": "USX",
+    "type": "POLYGON",
+    "decimals": 18,
+    "description": "Synthetic Stablecoin.",
+    "website": "https://dforce.network/",
+    "explorer": "https://polygonscan.com/token/0xcf66eb3d546f0415b368d98a95eaf56ded7aa752",
+    "status": "active",
+    "id": "0xcf66eb3d546f0415b368d98a95eaf56ded7aa752",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/token-dforce-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

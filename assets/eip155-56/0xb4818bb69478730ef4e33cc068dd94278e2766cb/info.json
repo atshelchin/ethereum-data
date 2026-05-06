@@ -1,0 +1,20 @@
+{
+    "name": "River Stablecoin",
+    "symbol": "satUSD",
+    "type": "BEP20",
+    "decimals": 18,
+    "description": "River is building a chain-abstraction stablecoin system that enables cross-chain collateral, yield, and liquidity—all without bridging. \n\nPowered by the omni-CDP stablecoin satUSD, users can earn, leverage, and scale across different ecosystems natively.",
+    "website": "https://river.inc",
+    "explorer": "https://bscscan.com/token/0xb4818bb69478730ef4e33cc068dd94278e2766cb",
+    "status": "active",
+    "id": "0xb4818bb69478730ef4e33cc068dd94278e2766cb",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/satoshi-stablecoin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Re Protocol reUSD",
+    "symbol": "reUSD",
+    "type": "AVALANCHE",
+    "decimals": 18,
+    "description": "Re Protocol (RE) is a blockchain-based platform that democratizes access to reinsurance risk by tokenizing exposure to insurance contracts. The protocol’s two deposit tokens—reUSD and reUSDe—let users choose between a principal-protected, fixed-yield product (reUSD, RF + 250 bps) or a risk-bearing, variable-yield option (reUSDe, up to ~23 % APR).",
+    "website": "https://re.xyz",
+    "explorer": "https://snowtrace.io/token/0x180af87b47bf272b2df59dccf2d76a6eafa625bf",
+    "status": "active",
+    "id": "0x180af87b47bf272b2df59dccf2d76a6eafa625bf",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/re-protocol-reusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

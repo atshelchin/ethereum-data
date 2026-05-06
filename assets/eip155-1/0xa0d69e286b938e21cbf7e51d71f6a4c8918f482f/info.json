@@ -1,0 +1,20 @@
+{
+    "name": "Electronic USD",
+    "symbol": "EUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://register.app/",
+    "explorer": "https://etherscan.io/token/0xa0d69e286b938e21cbf7e51d71f6a4c8918f482f",
+    "status": "active",
+    "id": "0xa0d69e286b938e21cbf7e51d71f6a4c8918f482f",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/electronic-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

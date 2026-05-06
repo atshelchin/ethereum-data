@@ -1,0 +1,20 @@
+{
+    "name": "Brazilian Real",
+    "symbol": "WBRL",
+    "type": "WORLDCHAIN",
+    "decimals": 18,
+    "description": "wBRL is a fully collateralized stablecoin pegged 1:1 to the Brazilian real (BRL). Issued and governed by a Ripio subsidiary, it brings BRL on-chain so Brazilians and global users can transact, save, and build on decentralized networks in their local currency.",
+    "website": "https://ripio.com/es/criptos/stablecoins-locales",
+    "explorer": "https://worldscan.org/token/0xd76f5faf6888e24d9f04bf92a0c8b921fe4390e0",
+    "status": "active",
+    "id": "0xd76f5faf6888e24d9f04bf92a0c8b921fe4390e0",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/brazilian-real"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

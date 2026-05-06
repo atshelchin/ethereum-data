@@ -1,0 +1,20 @@
+{
+    "name": "RIF US Dollar",
+    "symbol": "USDRIF",
+    "type": "ROOTSTOCK",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://rif.technology/content-hub/usdrif-v2/",
+    "explorer": "https://rootstock.blockscout.com/token/0x3a15461d8ae0f0fb5fa2629e9da7d66a794a6e37",
+    "status": "active",
+    "id": "0x3a15461d8ae0f0fb5fa2629e9da7d66a794a6e37",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/rif-us-dollar"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

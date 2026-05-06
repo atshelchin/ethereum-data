@@ -1,0 +1,20 @@
+{
+    "name": "Pareto USP",
+    "symbol": "USP",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Pareto USP is a synthetic dollar protocol soft-pegged to stablecoins backed by real-world institutional-grade private credit, alongside a globally accessible savings asset, sUSP. Users mint USP by depositing stablecoins, e.g.",
+    "website": "https://pareto.credit/",
+    "explorer": "https://etherscan.io/token/0x97ccc1c046d067ab945d3cf3cc6920d3b1e54c88",
+    "status": "active",
+    "id": "0x97ccc1c046d067ab945d3cf3cc6920d3b1e54c88",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/pareto-usp"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

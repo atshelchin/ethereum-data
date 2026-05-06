@@ -1,0 +1,20 @@
+{
+    "name": "Plume USD",
+    "symbol": "pUSD",
+    "type": "ERC20",
+    "decimals": 6,
+    "description": "Plume USD is the premier stablecoin of the Plume ecosystem, designed to support seamless financial operations within Real World Asset Finance (RWAfi). Fully backed and deeply liquid, Plume USD plays a critical role in enabling secure payments, efficient trading, and robust collateralization across onchain apps on Plume.",
+    "website": "https://pusd.plume.org/",
+    "explorer": "https://etherscan.io/token/0xdddd73f5df1f0dc31373357beac77545dc5a6f3f",
+    "status": "active",
+    "id": "0xdddd73f5df1f0dc31373357beac77545dc5a6f3f",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/plume-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

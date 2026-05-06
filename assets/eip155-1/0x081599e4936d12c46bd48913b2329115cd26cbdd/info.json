@@ -1,0 +1,20 @@
+{
+    "name": "Macropod",
+    "symbol": "AUDM",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "AUDM is a stablecoin pegged 1:1 to the Australian dollar, issued by Macropod, a platform designed to enable seamless digital transactions. Each AUDM token is backed by one Australian dollar held in segregated trust accounts at a major Australian bank.",
+    "website": "https://www.macropod.com/",
+    "explorer": "https://etherscan.io/token/0x081599e4936d12c46bd48913b2329115cd26cbdd",
+    "status": "active",
+    "id": "0x081599e4936d12c46bd48913b2329115cd26cbdd",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/macropod"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "crvUSD",
+    "symbol": "crvUSD",
+    "type": "TAIKO",
+    "decimals": 18,
+    "description": "crvUSD is a collateralized-debt-position (CDP) stablecoin pegged to the US Dollar.",
+    "website": "https://curve.finance",
+    "explorer": "https://taikoscan.io/token/0xc8f4518ed4bab9a972808a493107926ce8237068",
+    "status": "active",
+    "id": "0xc8f4518ed4bab9a972808a493107926ce8237068",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/crvusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

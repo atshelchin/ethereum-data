@@ -1,0 +1,20 @@
+{
+    "name": "Tokenised GBP",
+    "symbol": "tGBP",
+    "type": "AVALANCHE",
+    "decimals": 18,
+    "description": "tGBP is the first and only British Pound pegged stablecoin issued by a UK FCA-registered firm. tGBP maintains a 1:1 peg to the British Pound Sterling through a robust, transparent backing mechanism designed for stability, redeemability, and regulatory compliance.",
+    "website": "https://www.tokenisedgbp.com",
+    "explorer": "https://snowtrace.io/token/0x27f6c8289550fce67f6b50bed1f519966afe5287",
+    "status": "active",
+    "id": "0x27f6c8289550fce67f6b50bed1f519966afe5287",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/tokenised-gbp"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

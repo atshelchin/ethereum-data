@@ -1,0 +1,20 @@
+{
+    "name": "GHO",
+    "symbol": "GHO",
+    "type": "BASE",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://gho.xyz/",
+    "explorer": "https://basescan.org/token/0x6bb7a212910682dcfdbd5bcbb3e28fb4e8da10ee",
+    "status": "active",
+    "id": "0x6bb7a212910682dcfdbd5bcbb3e28fb4e8da10ee",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/gho"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

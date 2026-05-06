@@ -1,0 +1,20 @@
+{
+    "name": "Bean",
+    "symbol": "BEAN",
+    "type": "ARBITRUM",
+    "decimals": 6,
+    "description": "The practicality of using Decentralized Finance is limited by the lack of a decentralized, collateral-free stablecoin. Borrowing rates on USD stablecoins remain excessively high, even as supply increases rapidly.",
+    "website": "https://bean.money/",
+    "explorer": "https://arbiscan.io/token/0xbea0005b8599265d41256905a9b3073d397812e4",
+    "status": "active",
+    "id": "0xbea0005b8599265d41256905a9b3073d397812e4",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/bean"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

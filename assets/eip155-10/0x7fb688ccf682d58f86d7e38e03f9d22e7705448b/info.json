@@ -1,0 +1,20 @@
+{
+    "name": "Rai Reflex Index",
+    "symbol": "RAI",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": ".",
+    "website": "http://reflexer.finance/",
+    "explorer": "https://optimistic.etherscan.io/token/0x7fb688ccf682d58f86d7e38e03f9d22e7705448b",
+    "status": "active",
+    "id": "0x7fb688ccf682d58f86d7e38e03f9d22e7705448b",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/rai"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "ARYZE eUSD",
+    "symbol": "eUSD",
+    "type": "BEP20",
+    "decimals": 18,
+    "description": "Digital Cash by ARYZE are full-reserve stablecoins issued as eEUR, eGBP &amp; eUSD. All variants of Digital Cash are backed one-to-one with government-issued assets..",
+    "website": "https://www.aryze.io/",
+    "explorer": "https://bscscan.com/token/0xa4335da338ec4c07c391fc1a9bf75f306adadc08",
+    "status": "active",
+    "id": "0xa4335da338ec4c07c391fc1a9bf75f306adadc08",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/aryze-eusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

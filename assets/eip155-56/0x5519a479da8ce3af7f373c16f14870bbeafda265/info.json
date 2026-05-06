@@ -1,0 +1,20 @@
+{
+    "name": "Sigma Money bnbUSD",
+    "symbol": "BNBUSD",
+    "type": "BEP20",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://sigma.money/",
+    "explorer": "https://bscscan.com/token/0x5519a479da8ce3af7f373c16f14870bbeafda265",
+    "status": "active",
+    "id": "0x5519a479da8ce3af7f373c16f14870bbeafda265",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/sigma-bnb-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

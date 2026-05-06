@@ -1,0 +1,20 @@
+{
+    "name": "MNEE USD",
+    "symbol": "MNEE",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://www.mnee.io/",
+    "explorer": "https://etherscan.io/token/0x8ccedbae4916b79da7f3f612efb2eb93a2bfd6cf",
+    "status": "active",
+    "id": "0x8ccedbae4916b79da7f3f612efb2eb93a2bfd6cf",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/mnee-usd-stablecoin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

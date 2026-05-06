@@ -1,0 +1,20 @@
+{
+    "name": "Frax",
+    "symbol": "FRAX",
+    "type": "BOBA",
+    "decimals": 18,
+    "description": "The first fractional-algorithmic stablecoin.",
+    "website": "https://frax.finance",
+    "explorer": "https://bobascan.com/token/0x7562f525106f5d54e891e005867bf489b5988cd9",
+    "status": "active",
+    "id": "0x7562f525106f5d54e891e005867bf489b5988cd9",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/frax"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

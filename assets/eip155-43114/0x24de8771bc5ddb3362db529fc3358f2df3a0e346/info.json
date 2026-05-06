@@ -1,0 +1,20 @@
+{
+    "name": "Avant USD",
+    "symbol": "avUSD",
+    "type": "AVALANCHE",
+    "decimals": 18,
+    "description": "Avant is a DeFi platform established in June 2024 with the mission to create a more inclusive financial system through a DeFi-powered stable-value token. The platform introduces avUSD, a stable-value token, and savUSD, its staked, yield-bearing counterpart.",
+    "website": "https://www.avantprotocol.com/",
+    "explorer": "https://snowtrace.io/token/0x24de8771bc5ddb3362db529fc3358f2df3a0e346",
+    "status": "active",
+    "id": "0x24de8771bc5ddb3362db529fc3358f2df3a0e346",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/avant-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

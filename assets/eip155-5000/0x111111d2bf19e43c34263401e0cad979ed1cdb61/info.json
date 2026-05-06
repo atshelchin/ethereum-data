@@ -1,0 +1,20 @@
+{
+    "name": "World Liberty Financial USD",
+    "symbol": "USD1",
+    "type": "MANTLE",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://www.worldlibertyfinancial.com/",
+    "explorer": "https://mantlescan.xyz/token/0x111111d2bf19e43c34263401e0cad979ed1cdb61",
+    "status": "active",
+    "id": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/usd1-wlfi"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

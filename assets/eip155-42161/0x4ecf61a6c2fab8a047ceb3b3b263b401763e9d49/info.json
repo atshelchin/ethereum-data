@@ -1,0 +1,20 @@
+{
+    "name": "Nerite USND",
+    "symbol": "USND",
+    "type": "ARBITRUM",
+    "decimals": 18,
+    "description": "USND is a Streamable and Redeemable stablecoin pegged to $1.00 issued by the Nerite protocol, a friendly fork of Liquity on Arbitrum. It allows users to borrow against ETH, wstETH, rETH, tBTC, plus some LRTs and Defi tokens.",
+    "website": "https://www.nerite.org/",
+    "explorer": "https://arbiscan.io/token/0x4ecf61a6c2fab8a047ceb3b3b263b401763e9d49",
+    "status": "active",
+    "id": "0x4ecf61a6c2fab8a047ceb3b3b263b401763e9d49",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/us-nerite-dollar"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Unitas",
+    "symbol": "USDU",
+    "type": "BEP20",
+    "decimals": 18,
+    "description": "USDu is a yield bearing stablecoin that tracks the value of one U.S. dollar.",
+    "website": "https://unitas.so",
+    "explorer": "https://bscscan.com/token/0xea953ea6634d55dac6697c436b1e81a679db5882",
+    "status": "active",
+    "id": "0xea953ea6634d55dac6697c436b1e81a679db5882",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/usdu"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

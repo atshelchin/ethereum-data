@@ -1,0 +1,20 @@
+{
+    "name": "Quantoz USDQ",
+    "symbol": "USDQ",
+    "type": "ERC20",
+    "decimals": 6,
+    "description": "The Quantoz USDQ is a stablecoin pegged 1:1 to the US dollar. The USDQ is issued by Quantoz Payments BV, an Electronic Money Institution under supervision by the Dutch Central Bank (DNB).",
+    "website": "https://quantozpay.com",
+    "explorer": "https://etherscan.io/token/0xc83e27f270cce0a3a3a29521173a83f402c1768b",
+    "status": "active",
+    "id": "0xc83e27f270cce0a3a3a29521173a83f402c1768b",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/quantoz-usdq"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

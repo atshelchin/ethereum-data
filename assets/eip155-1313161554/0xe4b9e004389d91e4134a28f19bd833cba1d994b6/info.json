@@ -1,0 +1,20 @@
+{
+    "name": "Frax",
+    "symbol": "FRAX",
+    "type": "AURORA",
+    "decimals": 18,
+    "description": "The first fractional-algorithmic stablecoin.",
+    "website": "https://frax.finance",
+    "explorer": "https://explorer.aurora.dev/token/0xe4b9e004389d91e4134a28f19bd833cba1d994b6",
+    "status": "active",
+    "id": "0xe4b9e004389d91e4134a28f19bd833cba1d994b6",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/frax"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

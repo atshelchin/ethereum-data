@@ -1,0 +1,20 @@
+{
+    "name": "USDT+",
+    "symbol": "USDT+",
+    "type": "LINEA",
+    "decimals": 6,
+    "description": "Overnight Finance is an asset management protocol offering passive yield products based on delta-neutral strategies, primarily for conservative stablecoin investors.\n\nThe pegging mechanism is based on the ‘NAV of 1’ policy (“Net Asset Value”), i.e. market value of assets equals the amount of USDT+ in circulation.",
+    "website": "https://overnight.fi/",
+    "explorer": "https://lineascan.build/token/0x1e1f509963a6d33e169d9497b11c7dbfe73b7f13",
+    "status": "active",
+    "id": "0x1e1f509963a6d33e169d9497b11c7dbfe73b7f13",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/usdtplus"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

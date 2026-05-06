@@ -1,0 +1,20 @@
+{
+    "name": "Aegis YUSD",
+    "symbol": "YUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Aegis YUSD is a decentralized, Bitcoin-backed stablecoin designed to maintain a 1:1 peg to the US dollar while generating yield for its holders. YUSD is backed 1:1 by Bitcoin reserves held in custodial vaults and secured through smart contracts.",
+    "website": "https://app.aegis.im",
+    "explorer": "https://etherscan.io/token/0x4274cd7277c7bb0806bd5fe84b9adae466a8da0a",
+    "status": "active",
+    "id": "0x4274cd7277c7bb0806bd5fe84b9adae466a8da0a",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/aegis-yusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

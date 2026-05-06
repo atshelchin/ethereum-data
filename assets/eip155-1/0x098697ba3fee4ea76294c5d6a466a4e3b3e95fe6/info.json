@@ -1,0 +1,20 @@
+{
+    "name": "USP",
+    "symbol": "USP",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "The Piku ecosystem encompasses essential components required to cultivate the ideal yield-optimized stablecoin, ranging from transparent yield backings to a DAO led decision-making process. Below is an introductory overview of Piku's products.\n\nThe USP token is classified as a yield-optimized stablecoin that uniquely combines the stability of a traditional stablecoin with the growth potential of yield-generating assets.",
+    "website": "https://www.piku.co/",
+    "explorer": "https://etherscan.io/token/0x098697ba3fee4ea76294c5d6a466a4e3b3e95fe6",
+    "status": "active",
+    "id": "0x098697ba3fee4ea76294c5d6a466a4e3b3e95fe6",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/usp-yield-optimized-stablecoin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

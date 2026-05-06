@@ -1,0 +1,20 @@
+{
+    "name": "Mexican Peso",
+    "symbol": "WMXN",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "wMXN is a fully collateralized stablecoin pegged 1:1 to the Mexican peso (MXN). Issued and governed by a Ripio subsidiary, it brings MXN on-chain so Mexicans and global users can transact, save, and build on decentralized networks in their local currency.",
+    "website": "https://ripio.com/es/criptos/stablecoins-locales",
+    "explorer": "https://etherscan.io/token/0x337e7456b420bd3481e7fa61fa9850343d610d34",
+    "status": "active",
+    "id": "0x337e7456b420bd3481e7fa61fa9850343d610d34",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/mexican-peso"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

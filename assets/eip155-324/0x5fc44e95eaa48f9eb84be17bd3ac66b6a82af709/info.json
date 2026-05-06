@@ -1,0 +1,20 @@
+{
+    "name": "GRAI",
+    "symbol": "GRAI",
+    "type": "ZKSYNC",
+    "decimals": 18,
+    "description": "Gravita Protocol is an ETH-centric Borrowing Protocol for LSTs and Yield-Generating assets. \n\nGRAI is the debt token of the platform.\n\nOur motto is: fuelling decentralization.",
+    "website": "https://www.gravitaprotocol.com/",
+    "explorer": "https://explorer.zksync.io/address/0x5fc44e95eaa48f9eb84be17bd3ac66b6a82af709",
+    "status": "active",
+    "id": "0x5fc44e95eaa48f9eb84be17bd3ac66b6a82af709",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/grai"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "HEX Dollar Coin",
+    "symbol": "HEXDC",
+    "type": "PULSECHAIN",
+    "decimals": 8,
+    "description": "HEXDC: HEX Dollar Coin is the stablecoin that may be issued from a user's collateralized debt position and freely transferred/traded to any wallet address. Intended to maintain parity with the US dollar, and can always be redeemed directly with the system.",
+    "website": "https://powercity.io",
+    "explorer": "https://scan.pulsechain.com/token/0x1fe0319440a672526916c232eaee4808254bdb00",
+    "status": "active",
+    "id": "0x1fe0319440a672526916c232eaee4808254bdb00",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/hex-dollar-coin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

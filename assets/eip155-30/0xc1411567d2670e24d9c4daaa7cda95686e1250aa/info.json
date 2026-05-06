@@ -1,0 +1,20 @@
+{
+    "name": "Sovryn Dollar",
+    "symbol": "DLLR",
+    "type": "ROOTSTOCK",
+    "decimals": 18,
+    "description": "Bitcoin-backed dollar-pegged stablecoin, forked from Liquity, with RBTC (rootstock bitcoin peg) as the collateral. Currently overcollateralized 300% by bitcoin.",
+    "website": "https://sovryn.app",
+    "explorer": "https://rootstock.blockscout.com/token/0xc1411567d2670e24d9c4daaa7cda95686e1250aa",
+    "status": "active",
+    "id": "0xc1411567d2670e24d9c4daaa7cda95686e1250aa",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/sovryn-dollar"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

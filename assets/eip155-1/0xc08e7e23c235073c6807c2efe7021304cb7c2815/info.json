@@ -1,0 +1,20 @@
+{
+    "name": "StraitsX XUSD",
+    "symbol": "XUSD",
+    "type": "ERC20",
+    "decimals": 6,
+    "description": "The smart contract for XUSD on Ethereum was first deployed in February 2024 by StraitsX. Designed to facilitate swift, global, and 24/7 payments, XUSD serves to bridge ASEAN’s financial ecosystem with the stability of the world’s primary reserve currency.",
+    "website": "https://www.straitsx.com/xusd",
+    "explorer": "https://etherscan.io/token/0xc08e7e23c235073c6807c2efe7021304cb7c2815",
+    "status": "active",
+    "id": "0xc08e7e23c235073c6807c2efe7021304cb7c2815",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/straitsx-xusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

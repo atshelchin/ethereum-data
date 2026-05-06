@@ -1,0 +1,20 @@
+{
+    "name": "apxUSD",
+    "symbol": "apxUSD",
+    "type": "BASE",
+    "decimals": 18,
+    "description": "Apyx is the first Dividend-Backed Stablecoin protocol. It acquires preferred equity issued by Digital Asset Treasuries (DATs), which are publicly-listed companies that hold digital assets on their balance sheets and issue preferred shares paying monthly cash dividends.",
+    "website": "https://apyx.fi",
+    "explorer": "https://basescan.org/token/0xd993935e13851dd7517af10687ec7e5022127228",
+    "status": "active",
+    "id": "0xd993935e13851dd7517af10687ec7e5022127228",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/apxusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

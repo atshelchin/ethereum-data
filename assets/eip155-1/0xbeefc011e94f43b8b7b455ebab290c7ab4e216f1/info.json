@@ -1,0 +1,20 @@
+{
+    "name": "Coinshift",
+    "symbol": "csUSDL",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Steakhouse vaults aims to optimize yields by lending deposited assets against blue chip crypto and real world asset (RWA) collateral markets, depending on market conditions. We call this the \"dual engine.\" \nMorpho Vaults are curated lending vaults that can allocate deposits to any number of Morpho Markets.",
+    "website": "https://www.steakhouse.financial/",
+    "explorer": "https://etherscan.io/token/0xbeefc011e94f43b8b7b455ebab290c7ab4e216f1",
+    "status": "active",
+    "id": "0xbeefc011e94f43b8b7b455ebab290c7ab4e216f1",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/coinshift-usdl-morpho-vault"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

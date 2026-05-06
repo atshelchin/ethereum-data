@@ -1,0 +1,20 @@
+{
+    "name": "Alchemix USD",
+    "symbol": "ALUSD",
+    "type": "METIS",
+    "decimals": 18,
+    "description": "alUSD is a yield-backed synthetic stablecoin powered by the Alchemix protocol.",
+    "website": "https://alchemix.fi/",
+    "explorer": "https://andromeda-explorer.metis.io/token/0x303241e2b3b4aed0bb0f8623e7442368fed8faf3",
+    "status": "active",
+    "id": "0x303241e2b3b4aed0bb0f8623e7442368fed8faf3",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/alchemix-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

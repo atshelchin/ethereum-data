@@ -1,0 +1,20 @@
+{
+    "name": "Pleasing USD",
+    "symbol": "PUSD",
+    "type": "ARBITRUM",
+    "decimals": 18,
+    "description": "Pleasing Golden is an RWA platform that transforms precious metals into liquid, yield-generating tokens accessible to anyone, anywhere. Pleasing Golden’s vision is to make gold ownership open, liquid, and collaborative.",
+    "website": "https://www.pleasinggold.com/",
+    "explorer": "https://arbiscan.io/token/0xc8fb643d18f1e53698cfda5c8fdf0cdc03c1dbec",
+    "status": "active",
+    "id": "0xc8fb643d18f1e53698cfda5c8fdf0cdc03c1dbec",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/pleasing-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

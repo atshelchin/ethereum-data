@@ -1,0 +1,20 @@
+{
+    "name": "USD.AI",
+    "symbol": "USDai",
+    "type": "BASE",
+    "decimals": 18,
+    "description": "USD.AI is a yield-bearing synthetic dollar backed by loans against AI hardware, compute, and DePIN assets. Targeting 15–25% APR, it functions like a high-yield bond index tied to income-generating infrastructure equipment, paired with additional mechanisms that allow arbitrageurs to bring back USDai back to a peg.",
+    "website": "https://usd.ai",
+    "explorer": "https://basescan.org/token/0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef",
+    "status": "active",
+    "id": "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/usdai"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

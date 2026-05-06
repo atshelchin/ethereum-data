@@ -1,0 +1,20 @@
+{
+    "name": "Frankencoin",
+    "symbol": "ZCHF",
+    "type": "BASE",
+    "decimals": 18,
+    "description": "An oracle-free collateralized, decentralized Swiss Franc stablecoin backed by RWAs\n.",
+    "website": "https://www.frankencoin.com",
+    "explorer": "https://basescan.org/token/0xd4dd9e2f021bb459d5a5f6c24c12fe09c5d45553",
+    "status": "active",
+    "id": "0xd4dd9e2f021bb459d5a5f6c24c12fe09c5d45553",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/frankencoin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Frax",
+    "symbol": "FRAX",
+    "type": "HARMONY",
+    "decimals": 18,
+    "description": "The first fractional-algorithmic stablecoin.",
+    "website": "https://frax.finance",
+    "explorer": "https://explorer.harmony.one/address/0xfa7191d292d5633f702b0bd7e3e3bccc0e633200",
+    "status": "active",
+    "id": "0xfa7191d292d5633f702b0bd7e3e3bccc0e633200",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/frax"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

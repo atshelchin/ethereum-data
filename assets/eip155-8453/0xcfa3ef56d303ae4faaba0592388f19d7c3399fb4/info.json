@@ -1,0 +1,20 @@
+{
+    "name": "Electronic USD",
+    "symbol": "EUSD",
+    "type": "BASE",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://register.app/",
+    "explorer": "https://basescan.org/token/0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4",
+    "status": "active",
+    "id": "0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/electronic-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

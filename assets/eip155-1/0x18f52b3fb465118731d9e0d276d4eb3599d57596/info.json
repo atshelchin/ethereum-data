@@ -1,0 +1,20 @@
+{
+    "name": "GAIB AID",
+    "symbol": "AID",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "GAIB is the world’s first economic layer for AI infrastructure, transforming real-world AI assets—GPUs, robotics, and AI energy systems—into tradable, reward-bearing onchain instruments. By bridging decentralized finance (DeFi) liquidity with AI infrastructure assets, GAIB unlocks a trillion-dollar opportunity at the intersection of AI, Robotics, RWA &amp; DeFi.\n\nAID is the first product built on GAIB’s economic layer, designed as a synthetic dollar fully backed by the U.S.",
+    "website": "https://gaib.ai/",
+    "explorer": "https://etherscan.io/token/0x18f52b3fb465118731d9e0d276d4eb3599d57596",
+    "status": "active",
+    "id": "0x18f52b3fb465118731d9e0d276d4eb3599d57596",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/gaib-aid"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

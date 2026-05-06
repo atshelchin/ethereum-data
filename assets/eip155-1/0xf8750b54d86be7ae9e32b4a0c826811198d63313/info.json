@@ -1,0 +1,20 @@
+{
+    "name": "Hex Trust USDX",
+    "symbol": "USDX",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "USDX is an asset designed to be pegged to the USD, fully backed by at least a 1:1 amount of cash and cash-equivalent reserves and is available on multiple blockchains.\n\nIssued by Hex Trust issuance arm, HT Digital Asset, USDX brings a credible and reliable mediums of exchange to facilitate transactions across blockchain ecosystems. USDX is the perfect complement to Hex Trust’s vision: securing the permissionless future by building responsible digital asset solutions.\n\nWhat is the distribution model of USDX?\nUSDX is distributed through a process known as minting.",
+    "website": "https://www.htdigitalassets.com/",
+    "explorer": "https://etherscan.io/token/0xf8750b54d86be7ae9e32b4a0c826811198d63313",
+    "status": "active",
+    "id": "0xf8750b54d86be7ae9e32b4a0c826811198d63313",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/hex-trust-usdx"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

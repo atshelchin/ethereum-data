@@ -1,0 +1,20 @@
+{
+    "name": "Frax USD",
+    "symbol": "FRXUSD",
+    "type": "POLYGON",
+    "decimals": 18,
+    "description": "Frax USD (frxUSD) is a fiat-redeemable, fully-collateralized stablecoin issued by the Frax Finance Protocol. It operates using a hybrid model where governance-approved enshrined custodians mint and redeem frxUSD backed by cash-equivalent reserves, while advanced onchain mechanisms developed by the Frax Finance Protocol ensure stability, security, and seamless usability across DeFi and traditional financial systems..",
+    "website": "https://frax.com",
+    "explorer": "https://polygonscan.com/token/0x80eede496655fb9047dd39d9f418d5483ed600df",
+    "status": "active",
+    "id": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/frax-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

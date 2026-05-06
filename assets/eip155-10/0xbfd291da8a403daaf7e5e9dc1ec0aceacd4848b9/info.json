@@ -1,0 +1,20 @@
+{
+    "name": "dForce USD",
+    "symbol": "USX",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "Synthetic Stablecoin.",
+    "website": "https://dforce.network/",
+    "explorer": "https://optimistic.etherscan.io/token/0xbfd291da8a403daaf7e5e9dc1ec0aceacd4848b9",
+    "status": "active",
+    "id": "0xbfd291da8a403daaf7e5e9dc1ec0aceacd4848b9",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/token-dforce-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

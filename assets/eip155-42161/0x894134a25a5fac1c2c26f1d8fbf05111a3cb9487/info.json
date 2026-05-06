@@ -1,0 +1,20 @@
+{
+    "name": "GRAI",
+    "symbol": "GRAI",
+    "type": "ARBITRUM",
+    "decimals": 18,
+    "description": "Gravita Protocol is an ETH-centric Borrowing Protocol for LSTs and Yield-Generating assets. \n\nGRAI is the debt token of the platform.\n\nOur motto is: fuelling decentralization.",
+    "website": "https://www.gravitaprotocol.com/",
+    "explorer": "https://arbiscan.io/token/0x894134a25a5fac1c2c26f1d8fbf05111a3cb9487",
+    "status": "active",
+    "id": "0x894134a25a5fac1c2c26f1d8fbf05111a3cb9487",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/grai"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

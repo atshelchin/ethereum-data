@@ -1,0 +1,20 @@
+{
+    "name": "Schuman EUROP",
+    "symbol": "EUROP",
+    "type": "ERC20",
+    "decimals": 6,
+    "description": "\n\nEURØP is a euro-denominated stablecoin that is secure, transparent, MiCA compliant and redeemable 1:1 for euro. It is issued by France’s licensed stablecoin issuer and regulated by the French banking regulator ACPR.\n\nEvery EURØP is 100% backed by euro.",
+    "website": "https://schuman.io/europ/",
+    "explorer": "https://etherscan.io/token/0x888883b5f5d21fb10dfeb70e8f9722b9fb0e5e51",
+    "status": "active",
+    "id": "0x888883b5f5d21fb10dfeb70e8f9722b9fb0e5e51",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/schuman-europ"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

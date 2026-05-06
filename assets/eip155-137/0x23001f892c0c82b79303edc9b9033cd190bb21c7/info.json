@@ -1,0 +1,20 @@
+{
+    "name": "Liquity USD",
+    "symbol": "LUSD",
+    "type": "POLYGON",
+    "decimals": 18,
+    "description": "LUSD is a fully redeemable USD-pegged stablecoin issued by the Liquity Protocol. Liquity is a decentralized borrowing protocol that allows you to draw 0% interest loans against Ether used as collateral.",
+    "website": "https://www.liquity.org/",
+    "explorer": "https://polygonscan.com/token/0x23001f892c0c82b79303edc9b9033cd190bb21c7",
+    "status": "active",
+    "id": "0x23001f892c0c82b79303edc9b9033cd190bb21c7",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/liquity-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

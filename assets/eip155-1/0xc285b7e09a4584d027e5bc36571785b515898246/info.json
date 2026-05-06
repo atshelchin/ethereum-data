@@ -1,0 +1,20 @@
+{
+    "name": "Coin98 Dollar",
+    "symbol": "CUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "CUSD is a fully-backed stablecoin that aims to become a cross-chain unit of account that fulfills the demand for cross-chain liquidity in DeFi. \n\nIn order to mint 1 CUSD,  a total of $1 worth of the collateralized assets must be deposited into the CUSD Reserve smart contract.",
+    "website": "https://coin98.com/dollar",
+    "explorer": "https://etherscan.io/token/0xc285b7e09a4584d027e5bc36571785b515898246",
+    "status": "active",
+    "id": "0xc285b7e09a4584d027e5bc36571785b515898246",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/coin98-dollar"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

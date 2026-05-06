@@ -1,0 +1,20 @@
+{
+    "name": "Ethos Reserve Note",
+    "symbol": "ERN",
+    "type": "AVALANCHE",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://ethos.finance",
+    "explorer": "https://snowtrace.io/token/0x08d58f06ddfa9b99ae651f68232014be3914c5cd",
+    "status": "active",
+    "id": "0x08d58f06ddfa9b99ae651f68232014be3914c5cd",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/ethos-reserve-note"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

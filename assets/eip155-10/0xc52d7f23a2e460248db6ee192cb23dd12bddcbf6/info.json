@@ -1,0 +1,20 @@
+{
+    "name": "crvUSD",
+    "symbol": "crvUSD",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "crvUSD is a collateralized-debt-position (CDP) stablecoin pegged to the US Dollar.",
+    "website": "https://curve.finance",
+    "explorer": "https://optimistic.etherscan.io/token/0xc52d7f23a2e460248db6ee192cb23dd12bddcbf6",
+    "status": "active",
+    "id": "0xc52d7f23a2e460248db6ee192cb23dd12bddcbf6",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/crvusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

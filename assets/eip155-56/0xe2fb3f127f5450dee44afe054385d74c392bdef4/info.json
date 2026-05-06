@@ -1,0 +1,20 @@
+{
+    "name": "crvUSD",
+    "symbol": "crvUSD",
+    "type": "BEP20",
+    "decimals": 18,
+    "description": "crvUSD is a collateralized-debt-position (CDP) stablecoin pegged to the US Dollar.",
+    "website": "https://curve.finance",
+    "explorer": "https://bscscan.com/token/0xe2fb3f127f5450dee44afe054385d74c392bdef4",
+    "status": "active",
+    "id": "0xe2fb3f127f5450dee44afe054385d74c392bdef4",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/crvusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

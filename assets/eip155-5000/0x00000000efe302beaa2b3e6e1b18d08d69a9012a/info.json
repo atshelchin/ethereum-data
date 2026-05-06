@@ -1,0 +1,20 @@
+{
+    "name": "Agora Dollar",
+    "symbol": "AUSD",
+    "type": "MANTLE",
+    "decimals": 6,
+    "description": "AUSD, a digital dollar minted 1:1 with USD fiat. AUSD is designed to be a secure digital currency, utilizing one of the world’s largest custodian banks to safeguard assets, a big 4 auditor and a top tier fund manager.",
+    "website": "https://agora.finance/",
+    "explorer": "https://mantlescan.xyz/token/0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+    "status": "active",
+    "id": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/agora-dollar"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

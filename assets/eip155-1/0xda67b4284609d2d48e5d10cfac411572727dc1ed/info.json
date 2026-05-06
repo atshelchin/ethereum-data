@@ -1,0 +1,20 @@
+{
+    "name": "Noon USN",
+    "symbol": "USN",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Noon Capital is building a yield-bearing stablecoin called USN, designed to maintain a 1:1 peg with the US Dollar while offering competitive yields. The project aims to provide a stable, interest-bearing asset for users seeking a secure store of value with returns that can potentially outpace inflation.",
+    "website": "https://www.noon.capital/",
+    "explorer": "https://etherscan.io/token/0xda67b4284609d2d48e5d10cfac411572727dc1ed",
+    "status": "active",
+    "id": "0xda67b4284609d2d48e5d10cfac411572727dc1ed",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/noon-usn"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

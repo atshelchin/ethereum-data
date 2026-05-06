@@ -1,0 +1,20 @@
+{
+    "name": "Ondo US Dollar Yield",
+    "symbol": "USDY",
+    "type": "MANTLE",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://ondo.finance/",
+    "explorer": "https://mantlescan.xyz/token/0x5be26527e817998a7206475496fde1e68957c5a6",
+    "status": "active",
+    "id": "0x5be26527e817998a7206475496fde1e68957c5a6",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/ondo-us-dollar-yield"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

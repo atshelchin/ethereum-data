@@ -1,0 +1,20 @@
+{
+    "name": "XUSD",
+    "symbol": "XUSD",
+    "type": "ROOTSTOCK",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://babelfish.money/",
+    "explorer": "https://rootstock.blockscout.com/token/0xb5999795be0ebb5bab23144aa5fd6a02d080299f",
+    "status": "active",
+    "id": "0xb5999795be0ebb5bab23144aa5fd6a02d080299f",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/xusd-babelfish"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

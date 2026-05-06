@@ -1,0 +1,20 @@
+{
+    "name": "Alchemix USD",
+    "symbol": "ALUSD",
+    "type": "FANTOM",
+    "decimals": 18,
+    "description": "alUSD is a yield-backed synthetic stablecoin powered by the Alchemix protocol.",
+    "website": "https://alchemix.fi/",
+    "explorer": "https://ftmscan.com/token/0xb67fa6defce4042070eb1ae1511dcd6dcc6a532e",
+    "status": "active",
+    "id": "0xb67fa6defce4042070eb1ae1511dcd6dcc6a532e",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/alchemix-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

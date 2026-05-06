@@ -1,0 +1,20 @@
+{
+    "name": "Metronome Synth USD",
+    "symbol": "MSUSD",
+    "type": "BASE",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://metronome.io/",
+    "explorer": "https://basescan.org/token/0x526728dbc96689597f85ae4cd716d4f7fccbae9d",
+    "status": "active",
+    "id": "0x526728dbc96689597f85ae4cd716d4f7fccbae9d",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/metronome-synth-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

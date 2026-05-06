@@ -1,0 +1,20 @@
+{
+    "name": "USD CoinVertible",
+    "symbol": "USDCV",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "USD CoinVertible (USDCV) is a regulated, fiat-backed stablecoin issued by SG-FORGE, pegged 1:1 to the U.S. dollar and fully redeemable.",
+    "website": "https://www.sgforge.com/product/coinvertible/",
+    "explorer": "https://etherscan.io/token/0x5422374b27757da72d5265cc745ea906e0446634",
+    "status": "active",
+    "id": "0x5422374b27757da72d5265cc745ea906e0446634",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/usd-coinvertible"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

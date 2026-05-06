@@ -1,0 +1,20 @@
+{
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "type": "MOONRIVER",
+    "decimals": 6,
+    "description": "USDC is a fully collateralized US dollar stablecoin. USDC is the bridge between dollars and trading on cryptocurrency exchanges.",
+    "website": "https://www.circle.com/en/usdc",
+    "explorer": "https://moonriver.moonscan.io/token/0xffffffff7d2b0b761af01ca8e25242976ac0ad7d",
+    "status": "active",
+    "id": "0xffffffff7d2b0b761af01ca8e25242976ac0ad7d",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/usd-coin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Cap cUSD",
+    "symbol": "CUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Cap is a stablecoin protocol that provides credible financial guarantees via two products: the dollar-denominated cUSD and the yield-bearing stcUSD. \n\ncUSD is a digital dollar issued on the Ethereum blockchain that can be used on any network.",
+    "website": "https://cap.app/",
+    "explorer": "https://etherscan.io/token/0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+    "status": "active",
+    "id": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/cap-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

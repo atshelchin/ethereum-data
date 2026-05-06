@@ -1,0 +1,20 @@
+{
+    "name": "Nectar",
+    "symbol": "NECT",
+    "type": "BERACHAIN",
+    "decimals": 18,
+    "description": "Nectar (NECT) is an over-collateralised, Berachain native stablecoin issued through the Beraborrow protocol. At any time NECT can be redeemed against the underlying collateral at face value.",
+    "website": "https://beraborrow.com/",
+    "explorer": "https://berascan.com/token/0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3",
+    "status": "active",
+    "id": "0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/nectar"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

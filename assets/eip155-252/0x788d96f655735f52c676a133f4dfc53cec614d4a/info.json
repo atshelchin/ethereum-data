@@ -1,0 +1,20 @@
+{
+    "name": "dTRINITY USD",
+    "symbol": "dUSD",
+    "type": "FRAXTAL",
+    "decimals": 6,
+    "description": "dTRINITY USD (dUSD) is a decentralized stablecoin fully backed by an exogenous, on-chain reserve of other USD-denominated stablecoins and yield-bearing stablecoins. Based on the ERC-20 standard, every dUSD token is backed by at least $1 of collateral.",
+    "website": "https://dtrinity.org",
+    "explorer": "https://fraxscan.com/token/0x788d96f655735f52c676a133f4dfc53cec614d4a",
+    "status": "active",
+    "id": "0x788d96f655735f52c676a133f4dfc53cec614d4a",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/dtrinity-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

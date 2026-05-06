@@ -1,0 +1,20 @@
+{
+    "name": "Frax",
+    "symbol": "FRAX",
+    "type": "POLYGON_ZKEVM",
+    "decimals": 18,
+    "description": "The first fractional-algorithmic stablecoin.",
+    "website": "https://frax.finance",
+    "explorer": "https://zkevm.polygonscan.com/token/0xff8544fed5379d9ffa8d47a74ce6b91e632ac44d",
+    "status": "active",
+    "id": "0xff8544fed5379d9ffa8d47a74ce6b91e632ac44d",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/frax"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

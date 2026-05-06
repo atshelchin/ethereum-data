@@ -1,0 +1,20 @@
+{
+    "name": "BlackRock USD",
+    "symbol": "BUIDL",
+    "type": "BEP20",
+    "decimals": 6,
+    "description": ".",
+    "website": "https://www.blackrock.com/corporate",
+    "explorer": "https://bscscan.com/token/0x2d5bdc96d9c8aabbdb38c9a27398513e7e5ef84f",
+    "status": "active",
+    "id": "0x2d5bdc96d9c8aabbdb38c9a27398513e7e5ef84f",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/blackrock-usd-institutional-digital-liquidity-fund"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

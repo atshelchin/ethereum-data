@@ -1,0 +1,20 @@
+{
+    "name": "VNX British Pound",
+    "symbol": "VGBP",
+    "type": "CELO",
+    "decimals": 18,
+    "description": "VNX British Pound (VGBP) is a multichain token referencing British Pound from an issuer licensed under the Blockchain act in Liechtenstein. \n\n\nEach VGBP is backed 1:1 by GBP reserves held in banks in Switzerland and Liechtenstein.",
+    "website": "http://vnx.io/",
+    "explorer": "https://celoscan.io/token/0x7ae4265ecfc1f31bc0e112dfcfe3d78e01f4bb7f",
+    "status": "active",
+    "id": "0x7ae4265ecfc1f31bc0e112dfcfe3d78e01f4bb7f",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/vnx-british-pound"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

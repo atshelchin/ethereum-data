@@ -1,0 +1,20 @@
+{
+    "name": "Rai Reflex Index",
+    "symbol": "RAI",
+    "type": "POLYGON",
+    "decimals": 18,
+    "description": ".",
+    "website": "http://reflexer.finance/",
+    "explorer": "https://polygonscan.com/token/0x00e5646f60ac6fb446f621d146b6e1886f002905",
+    "status": "active",
+    "id": "0x00e5646f60ac6fb446f621d146b6e1886f002905",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/rai"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

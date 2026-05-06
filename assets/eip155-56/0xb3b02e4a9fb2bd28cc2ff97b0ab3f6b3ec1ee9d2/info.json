@@ -1,0 +1,20 @@
+{
+    "name": "Falcon USD",
+    "symbol": "USDf",
+    "type": "BEP20",
+    "decimals": 18,
+    "description": " Falcon, the next-generation platform transforming synthetic dollars into sustainable yield opportunities. Our mission is clear: Your Crypto, Your Yields.",
+    "website": "https://falcon.finance/",
+    "explorer": "https://bscscan.com/token/0xb3b02e4a9fb2bd28cc2ff97b0ab3f6b3ec1ee9d2",
+    "status": "active",
+    "id": "0xb3b02e4a9fb2bd28cc2ff97b0ab3f6b3ec1ee9d2",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/falcon-finance"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

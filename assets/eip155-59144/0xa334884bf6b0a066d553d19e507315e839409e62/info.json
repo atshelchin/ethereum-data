@@ -1,0 +1,20 @@
+{
+    "name": "Ethos Reserve Note",
+    "symbol": "ERN",
+    "type": "LINEA",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://ethos.finance",
+    "explorer": "https://lineascan.build/token/0xa334884bf6b0a066d553d19e507315e839409e62",
+    "status": "active",
+    "id": "0xa334884bf6b0a066d553d19e507315e839409e62",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/ethos-reserve-note"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

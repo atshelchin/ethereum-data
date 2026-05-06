@@ -1,0 +1,20 @@
+{
+    "name": "Neutrl USD",
+    "symbol": "NUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Neutrl is a market-neutral synthetic dollar designed to unlock untapped yield opportunities across OTC and altcoin markets. By combining OTC arbitrage, funding rate capture, and other market-neutral DeFi strategies, Neutrl provides a transparent, fully collateralized access point for generating sustainable onchain yield without directional market risk, accessible to both institutions and individual users..",
+    "website": "https://neutrl.finance/",
+    "explorer": "https://etherscan.io/token/0xe556aba6fe6036275ec1f87eda296be72c811bce",
+    "status": "active",
+    "id": "0xe556aba6fe6036275ec1f87eda296be72c811bce",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/nusd-2"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

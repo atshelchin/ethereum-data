@@ -1,0 +1,20 @@
+{
+    "name": "Neutrino USD",
+    "symbol": "USDN",
+    "type": "POLYGON",
+    "decimals": 18,
+    "description": "Token, Asset-backed Tokens, Stablecoins, Decentralized Finance (DeFi)\nUSD Stablecoin, Neutrino.",
+    "website": "https://neutrino.at/",
+    "explorer": "https://polygonscan.com/token/0x013f9c3fac3e2759d7e90aca4f9540f75194a0d7",
+    "status": "active",
+    "id": "0x013f9c3fac3e2759d7e90aca4f9540f75194a0d7",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/neutrino"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

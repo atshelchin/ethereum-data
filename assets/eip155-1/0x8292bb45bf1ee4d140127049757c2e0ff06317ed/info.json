@@ -1,0 +1,20 @@
+{
+    "name": "Ripple USD",
+    "symbol": "RLUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Ripple USD (“RLUSD”), issued by Standard Custody &amp; Trust Company, LLC, a wholly owned subsidiary of Ripple Labs, is a USD denominated stablecoin created with trust, liquidity, and compliance at its core. Each RLUSD is backed by at least an equivalent amount of U.S.",
+    "website": "https://ripple.com/solutions/stablecoin/",
+    "explorer": "https://etherscan.io/token/0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+    "status": "active",
+    "id": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/ripple-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

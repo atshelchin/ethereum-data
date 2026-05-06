@@ -1,0 +1,20 @@
+{
+    "name": "Asymmetry USDaf V2",
+    "symbol": "USDaf",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "USDaf is a CDP stablecoin built on Liquity v2 infrastructure by Asymmetry Finance, allowing users to borrow against their BTC and Yield-Bearing Stablecoins with user-set fixed interest rates for the first time. USDaf is immutable by design to ensure the utmost security for a decentralized stablecoin.",
+    "website": "https://www.asymmetry.finance/",
+    "explorer": "https://etherscan.io/token/0x9cf12ccd6020b6888e4d4c4e4c7aca33c1eb91f8",
+    "status": "active",
+    "id": "0x9cf12ccd6020b6888e4d4c4e4c7aca33c1eb91f8",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/asymmetry-usdaf-2"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

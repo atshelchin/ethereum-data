@@ -1,0 +1,20 @@
+{
+    "name": "StablR USD",
+    "symbol": "USDR",
+    "type": "ERC20",
+    "decimals": 6,
+    "description": ".",
+    "website": "https://www.stablr.com/usdr",
+    "explorer": "https://etherscan.io/token/0x7b43e3875440b44613dc3bc08e7763e6da63c8f8",
+    "status": "active",
+    "id": "0x7b43e3875440b44613dc3bc08e7763e6da63c8f8",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/stablr-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

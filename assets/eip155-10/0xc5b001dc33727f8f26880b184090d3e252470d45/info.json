@@ -1,0 +1,20 @@
+{
+    "name": "Ethos Reserve Note",
+    "symbol": "ERN",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://ethos.finance",
+    "explorer": "https://optimistic.etherscan.io/token/0xc5b001dc33727f8f26880b184090d3e252470d45",
+    "status": "active",
+    "id": "0xc5b001dc33727f8f26880b184090d3e252470d45",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/ethos-reserve-note"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

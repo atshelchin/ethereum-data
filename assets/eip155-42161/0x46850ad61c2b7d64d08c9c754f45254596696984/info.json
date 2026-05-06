@@ -1,0 +1,20 @@
+{
+    "name": "PayPal USD",
+    "symbol": "PYUSD",
+    "type": "ARBITRUM",
+    "decimals": 6,
+    "description": "PayPal USD is designed to contribute to the opportunity stablecoins offer for payments and is 100% backed by U.S. dollar deposits, short-term U.S Treasuries and similar cash equivalents.",
+    "website": "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd",
+    "explorer": "https://arbiscan.io/token/0x46850ad61c2b7d64d08c9c754f45254596696984",
+    "status": "active",
+    "id": "0x46850ad61c2b7d64d08c9c754f45254596696984",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/paypal-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

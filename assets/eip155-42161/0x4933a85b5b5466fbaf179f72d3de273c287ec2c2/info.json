@@ -1,0 +1,20 @@
+{
+    "name": "AllUnity EUR",
+    "symbol": "EURAU",
+    "type": "ARBITRUM",
+    "decimals": 6,
+    "description": "AllUnity EUR (EURAU) is a fully regulated euro-denominated stablecoin issued under the European Union’s Markets in Crypto-Assets Regulation (MiCAR). Launched on 31/07/2025, EURAU is designed to offer secure, programmable, and transparent euro liquidity for institutional and retail applications across public blockchain networks.\n\nAllUnity GmbH, the issuer of EURAU, is a German company headquartered in Frankfurt and licensed as an electronic money institution (EMI) by the Federal Financial Supervisory Authority (BaFin).",
+    "website": "https://allunity.com/",
+    "explorer": "https://arbiscan.io/token/0x4933a85b5b5466fbaf179f72d3de273c287ec2c2",
+    "status": "active",
+    "id": "0x4933a85b5b5466fbaf179f72d3de273c287ec2c2",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/allunity-eur"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

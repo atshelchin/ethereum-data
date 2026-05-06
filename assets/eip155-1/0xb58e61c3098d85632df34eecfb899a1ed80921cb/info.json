@@ -1,0 +1,20 @@
+{
+    "name": "Frankencoin",
+    "symbol": "ZCHF",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "An oracle-free collateralized, decentralized Swiss Franc stablecoin backed by RWAs\n.",
+    "website": "https://www.frankencoin.com",
+    "explorer": "https://etherscan.io/token/0xb58e61c3098d85632df34eecfb899a1ed80921cb",
+    "status": "active",
+    "id": "0xb58e61c3098d85632df34eecfb899a1ed80921cb",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/frankencoin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

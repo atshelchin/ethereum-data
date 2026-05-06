@@ -1,0 +1,20 @@
+{
+    "name": "Cygnus Finance Global USD",
+    "symbol": "cgUSD",
+    "type": "BASE",
+    "decimals": 6,
+    "description": "Cygnus Finance is a RWA stablecoin protocol built on pure, short-term U.S. debt assets.",
+    "website": "https://www.cygnus.finance/",
+    "explorer": "https://basescan.org/token/0xca72827a3d211cfd8f6b00ac98824872b72cab49",
+    "status": "active",
+    "id": "0xca72827a3d211cfd8f6b00ac98824872b72cab49",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/cygnus-finance-global-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

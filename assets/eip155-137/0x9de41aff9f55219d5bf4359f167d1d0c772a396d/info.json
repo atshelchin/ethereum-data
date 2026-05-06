@@ -1,0 +1,20 @@
+{
+    "name": "CAD Coin",
+    "symbol": "CADC",
+    "type": "POLYGON",
+    "decimals": 18,
+    "description": "CADC is issued by PAYTRIE AB Inc., a FINTRAC regulated Money Services Business (M19690633), and backed by fully reserved assets, and redeemable on a 1:1 basis for Canadian dollars.",
+    "website": "https://paytrie.com/cadc",
+    "explorer": "https://polygonscan.com/token/0x9de41aff9f55219d5bf4359f167d1d0c772a396d",
+    "status": "active",
+    "id": "0x9de41aff9f55219d5bf4359f167d1d0c772a396d",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/cad-coin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

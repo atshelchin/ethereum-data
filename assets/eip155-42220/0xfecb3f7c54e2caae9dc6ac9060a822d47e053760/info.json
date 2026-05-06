@@ -1,0 +1,20 @@
+{
+    "name": "BRLA Digital",
+    "symbol": "BRLA",
+    "type": "CELO",
+    "decimals": 18,
+    "description": "BRLA Digital offers a BRL-pegged stablecoin specifically designed for cross-border transactions, catering to B2B clients seeking efficient and secure payment solutions. The BRLA token is the only audited BRL stablecoin, providing smooth and reliable on/off ramps for businesses.",
+    "website": "https://brla.digital/",
+    "explorer": "https://celoscan.io/token/0xfecb3f7c54e2caae9dc6ac9060a822d47e053760",
+    "status": "active",
+    "id": "0xfecb3f7c54e2caae9dc6ac9060a822d47e053760",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/brla-digital-brla"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

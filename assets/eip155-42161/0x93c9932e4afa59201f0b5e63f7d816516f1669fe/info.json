@@ -1,0 +1,20 @@
+{
+    "name": "First Digital USD",
+    "symbol": "FDUSD",
+    "type": "ARBITRUM",
+    "decimals": 18,
+    "description": "What is the project about? \nFirst Digital USD (FDUSD) aim to revolutionize the digital asset landscape. Our mission is to empower users with a transformative financial instrument that combines the stability of cash reserves with the seamless efficiency of advanced blockchain technology.",
+    "website": "https://firstdigitallabs.com/",
+    "explorer": "https://arbiscan.io/token/0x93c9932e4afa59201f0b5e63f7d816516f1669fe",
+    "status": "active",
+    "id": "0x93c9932e4afa59201f0b5e63f7d816516f1669fe",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/first-digital-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

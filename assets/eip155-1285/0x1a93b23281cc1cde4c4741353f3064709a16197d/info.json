@@ -1,0 +1,20 @@
+{
+    "name": "Frax",
+    "symbol": "FRAX",
+    "type": "MOONRIVER",
+    "decimals": 18,
+    "description": "The first fractional-algorithmic stablecoin.",
+    "website": "https://frax.finance",
+    "explorer": "https://moonriver.moonscan.io/token/0x1a93b23281cc1cde4c4741353f3064709a16197d",
+    "status": "active",
+    "id": "0x1a93b23281cc1cde4c4741353f3064709a16197d",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/frax"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

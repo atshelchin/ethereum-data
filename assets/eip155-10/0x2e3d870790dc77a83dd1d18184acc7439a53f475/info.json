@@ -1,0 +1,20 @@
+{
+    "name": "Frax",
+    "symbol": "FRAX",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "The first fractional-algorithmic stablecoin.",
+    "website": "https://frax.finance",
+    "explorer": "https://optimistic.etherscan.io/token/0x2e3d870790dc77a83dd1d18184acc7439a53f475",
+    "status": "active",
+    "id": "0x2e3d870790dc77a83dd1d18184acc7439a53f475",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/frax"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

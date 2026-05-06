@@ -1,0 +1,20 @@
+{
+    "name": "eUSD (V2)",
+    "symbol": "eUSD(v2)",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://lybra.finance/",
+    "explorer": "https://etherscan.io/token/0xdf3ac4f479375802a821f7b7b46cd7eb5e4262cc",
+    "status": "active",
+    "id": "0xdf3ac4f479375802a821f7b7b46cd7eb5e4262cc",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/eusd-new"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

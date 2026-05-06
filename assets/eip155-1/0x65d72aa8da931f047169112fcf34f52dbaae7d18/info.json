@@ -1,0 +1,20 @@
+{
+    "name": "rUSD",
+    "symbol": "rUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://fx.aladdin.club/assets/",
+    "explorer": "https://etherscan.io/token/0x65d72aa8da931f047169112fcf34f52dbaae7d18",
+    "status": "active",
+    "id": "0x65d72aa8da931f047169112fcf34f52dbaae7d18",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/fx-rusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

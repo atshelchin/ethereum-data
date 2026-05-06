@@ -1,0 +1,20 @@
+{
+    "name": "PXDC Stablecoin",
+    "symbol": "PXDC",
+    "type": "PULSECHAIN",
+    "decimals": 18,
+    "description": "Immutable over collaterlised and fully redeemable stable coin.",
+    "website": "https://powercity.io",
+    "explorer": "https://scan.pulsechain.com/token/0xeb6b7932da20c6d7b3a899d5887d86dfb09a6408",
+    "status": "active",
+    "id": "0xeb6b7932da20c6d7b3a899d5887d86dfb09a6408",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/powercity-pxdc"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

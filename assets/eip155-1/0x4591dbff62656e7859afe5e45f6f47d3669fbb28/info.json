@@ -1,0 +1,20 @@
+{
+    "name": "mkUSD",
+    "symbol": "mkUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Over-Collateralized stablecoin from Prisma Finance.",
+    "website": "https://prismafinance.com/",
+    "explorer": "https://etherscan.io/token/0x4591dbff62656e7859afe5e45f6f47d3669fbb28",
+    "status": "active",
+    "id": "0x4591dbff62656e7859afe5e45f6f47d3669fbb28",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/prisma-mkusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Rai Reflex Index",
+    "symbol": "RAI",
+    "type": "AVALANCHE",
+    "decimals": 18,
+    "description": ".",
+    "website": "http://reflexer.finance/",
+    "explorer": "https://snowtrace.io/token/0x97cd1cfe2ed5712660bb6c14053c0ecb031bff7d",
+    "status": "active",
+    "id": "0x97cd1cfe2ed5712660bb6c14053c0ecb031bff7d",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/rai"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Metronome Synth USD",
+    "symbol": "MSUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://metronome.io/",
+    "explorer": "https://etherscan.io/token/0xab5eb14c09d416f0ac63661e57edb7aecdb9befa",
+    "status": "active",
+    "id": "0xab5eb14c09d416f0ac63661e57edb7aecdb9befa",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/metronome-synth-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

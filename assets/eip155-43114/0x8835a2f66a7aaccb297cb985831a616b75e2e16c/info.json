@@ -1,0 +1,20 @@
+{
+    "name": "Schuman EUROP",
+    "symbol": "EUROP",
+    "type": "AVALANCHE",
+    "decimals": 6,
+    "description": "\n\nEURØP is a euro-denominated stablecoin that is secure, transparent, MiCA compliant and redeemable 1:1 for euro. It is issued by France’s licensed stablecoin issuer and regulated by the French banking regulator ACPR.\n\nEvery EURØP is 100% backed by euro.",
+    "website": "https://schuman.io/europ/",
+    "explorer": "https://snowtrace.io/token/0x8835a2f66a7aaccb297cb985831a616b75e2e16c",
+    "status": "active",
+    "id": "0x8835a2f66a7aaccb297cb985831a616b75e2e16c",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/schuman-europ"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

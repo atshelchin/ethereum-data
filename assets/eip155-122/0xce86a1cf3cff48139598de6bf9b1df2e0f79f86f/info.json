@@ -1,0 +1,20 @@
+{
+    "name": "Fuse Dollar V3",
+    "symbol": "FUSD",
+    "type": "FUSE",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://fuse.io/",
+    "explorer": "https://explorer.fuse.io/token/0xce86a1cf3cff48139598de6bf9b1df2e0f79f86f",
+    "status": "active",
+    "id": "0xce86a1cf3cff48139598de6bf9b1df2e0f79f86f",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/fuse-dollar"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

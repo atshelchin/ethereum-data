@@ -1,0 +1,20 @@
+{
+    "name": "VNX EURO",
+    "symbol": "VEUR",
+    "type": "AVALANCHE",
+    "decimals": 18,
+    "description": "What is the project about?\n\nVNX Euro (VEUR) is a token referencing Euro from a token generator licensed under the Blockchain act in Liechtenstein. \n\nWhat makes your project unique?\n\nBeing referenced to traditional currency, VNX Euro offers a traditional asset in the digital form.",
+    "website": "https://vnx.li/veur/",
+    "explorer": "https://snowtrace.io/token/0x7678e162f38ec9ef2bfd1d0aaf9fd93355e5fa0b",
+    "status": "active",
+    "id": "0x7678e162f38ec9ef2bfd1d0aaf9fd93355e5fa0b",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/vnx-euro"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

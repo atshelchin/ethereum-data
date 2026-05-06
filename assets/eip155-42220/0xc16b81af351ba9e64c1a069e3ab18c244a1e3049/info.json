@@ -1,0 +1,20 @@
+{
+    "name": "EURA",
+    "symbol": "EURA",
+    "type": "CELO",
+    "decimals": 18,
+    "description": "agEUR is a stablecoin of the Angle Protocol which value is pegged to the Euro. This stablecoin is backed by derivatives and by the insurance fund of the Angle Protocol.",
+    "website": "https://www.angle.money",
+    "explorer": "https://celoscan.io/token/0xc16b81af351ba9e64c1a069e3ab18c244a1e3049",
+    "status": "active",
+    "id": "0xc16b81af351ba9e64c1a069e3ab18c244a1e3049",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/ageur"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

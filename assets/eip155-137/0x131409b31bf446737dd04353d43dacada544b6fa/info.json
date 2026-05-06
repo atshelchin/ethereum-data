@@ -1,0 +1,20 @@
+{
+    "name": "Classic USD",
+    "symbol": "USC",
+    "type": "POLYGON",
+    "decimals": 6,
+    "description": "Ethereum Classic's premiere regulated stablecoin..",
+    "website": "https://classicusd.com",
+    "explorer": "https://polygonscan.com/token/0x131409b31bf446737dd04353d43dacada544b6fa",
+    "status": "active",
+    "id": "0x131409b31bf446737dd04353d43dacada544b6fa",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/classic-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

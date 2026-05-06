@@ -1,0 +1,20 @@
+{
+    "name": "USDX Money USDX",
+    "symbol": "USDX",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "USDX (Website: usdx.money | Twitter: @StablesLabs) is a synthetic USD stablecoin designed to provide stability without relying on traditional banking infrastructure. Backed by delta-neutral positions across multiple exchanges, USDX seamlessly bridges the gap between DeFi, CeFi, and TradFi.",
+    "website": "http://stableslabs.com",
+    "explorer": "https://etherscan.io/token/0xf3527ef8de265eaa3716fb312c12847bfba66cef",
+    "status": "active",
+    "id": "0xf3527ef8de265eaa3716fb312c12847bfba66cef",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/usdx-money-usdx"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

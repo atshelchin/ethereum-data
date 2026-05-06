@@ -1,0 +1,20 @@
+{
+    "name": "crvUSD",
+    "symbol": "crvUSD",
+    "type": "ARBITRUM",
+    "decimals": 18,
+    "description": "crvUSD is a collateralized-debt-position (CDP) stablecoin pegged to the US Dollar.",
+    "website": "https://curve.finance",
+    "explorer": "https://arbiscan.io/token/0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5",
+    "status": "active",
+    "id": "0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/crvusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

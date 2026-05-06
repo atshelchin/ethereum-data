@@ -1,0 +1,20 @@
+{
+    "name": "USAT",
+    "symbol": "USAT",
+    "type": "ERC20",
+    "decimals": 6,
+    "description": "USA₮ is Tether's U.S.-regulated, dollar-backed stablecoin developed specifically to operate within the United States’ new federal stablecoin framework established under the GENIUS Act. The issuer of USA₮ is Anchorage Digital Bank, N.A., America’s first federally regulated stablecoin issuer..",
+    "website": "https://usat.io/",
+    "explorer": "https://etherscan.io/token/0x07041776f5007aca2a54844f50503a18a72a8b68",
+    "status": "active",
+    "id": "0x07041776f5007aca2a54844f50503a18a72a8b68",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/usa"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

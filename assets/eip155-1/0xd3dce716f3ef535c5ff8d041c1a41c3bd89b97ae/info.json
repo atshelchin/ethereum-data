@@ -1,0 +1,20 @@
+{
+    "name": "Rings scUSD",
+    "symbol": "SCUSD",
+    "type": "ERC20",
+    "decimals": 6,
+    "description": "Rings is the meta-stable protocol of Sonic chain. It is the main bridge for Ethereum Mainnet stablecoins and ETH derivatives token holders to start earning yield on Sonic.\n\nBridge ETH &amp; Stablecoin from Mainnet to Sonic, Mint scETH and scUSD, stake it for stkETH and stkUSD to make it yield bearing, or lock it for veETH and veUSD to access governance power.\n\nWhen minting scUSD and scETH, users deposit their initial into Veda Vaults which then reallocate the backing toward yield bearing strategies.",
+    "website": "https://app.rings.money/",
+    "explorer": "https://etherscan.io/token/0xd3dce716f3ef535c5ff8d041c1a41c3bd89b97ae",
+    "status": "active",
+    "id": "0xd3dce716f3ef535c5ff8d041c1a41c3bd89b97ae",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/rings-scusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

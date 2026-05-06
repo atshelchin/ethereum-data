@@ -1,0 +1,20 @@
+{
+    "name": "YUSD Stablecoin",
+    "symbol": "YUSD",
+    "type": "AVALANCHE",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://yeti.finance/",
+    "explorer": "https://snowtrace.io/token/0x111111111111ed1d73f860f57b2798b683f2d325",
+    "status": "active",
+    "id": "0x111111111111ed1d73f860f57b2798b683f2d325",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/yusd-stablecoin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

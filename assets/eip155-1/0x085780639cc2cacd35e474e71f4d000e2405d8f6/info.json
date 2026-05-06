@@ -1,0 +1,20 @@
+{
+    "name": "fxUSD",
+    "symbol": "fxUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "On V1, fxUSD is unlike anything else in DeFi. It is the first truly decentralized stablecoin with the scalability to compete toe-to-toe with centralized offerings.",
+    "website": "https://fx.aladdin.club",
+    "explorer": "https://etherscan.io/token/0x085780639cc2cacd35e474e71f4d000e2405d8f6",
+    "status": "active",
+    "id": "0x085780639cc2cacd35e474e71f4d000e2405d8f6",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/f-x-protocol-fxusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

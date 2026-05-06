@@ -1,0 +1,20 @@
+{
+    "name": "Stasis Euro",
+    "symbol": "EURS",
+    "type": "POLYGON",
+    "decimals": 2,
+    "description": "EURS token is a virtual financial asset that is designed to digitally mirror the EURO on the condition that its value is tied to the value of its collateral.\n\nDownload STASIS Stablecoin wallet: Android: https://play.google.com/store/apps/details?id=com.stasis.stasiswallet iOS: https://itunes.apple.com/app/stasis-wallet/id1371949230.",
+    "website": "https://stasis.net/",
+    "explorer": "https://polygonscan.com/token/0xe111178a87a3bff0c8d18decba5798827539ae99",
+    "status": "active",
+    "id": "0xe111178a87a3bff0c8d18decba5798827539ae99",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/stasis-eurs"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

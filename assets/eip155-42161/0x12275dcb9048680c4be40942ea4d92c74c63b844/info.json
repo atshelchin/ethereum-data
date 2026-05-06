@@ -1,0 +1,20 @@
+{
+    "name": "Electronic USD",
+    "symbol": "EUSD",
+    "type": "ARBITRUM",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://register.app/",
+    "explorer": "https://arbiscan.io/token/0x12275dcb9048680c4be40942ea4d92c74c63b844",
+    "status": "active",
+    "id": "0x12275dcb9048680c4be40942ea4d92c74c63b844",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/electronic-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Eurite",
+    "symbol": "EURI",
+    "type": "BEP20",
+    "decimals": 18,
+    "description": ".",
+    "website": "https://www.eurite.com/",
+    "explorer": "https://bscscan.com/token/0x9d1a7a3191102e9f900faa10540837ba84dcbae7",
+    "status": "active",
+    "id": "0x9d1a7a3191102e9f900faa10540837ba84dcbae7",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/eurite"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

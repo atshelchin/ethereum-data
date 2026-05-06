@@ -1,0 +1,20 @@
+{
+    "name": "BOB",
+    "symbol": "BOB",
+    "type": "ARBITRUM",
+    "decimals": 18,
+    "description": "BOB is a multi-chain, multi-collateral stable token enhanced with optional privacy features. Once BOB is deposited in the zkBob application, pool participants can transfer BOB amongst themselves in a private, secure manner without needing to connect MetaMask, WalletConnect, or any Web3 wallet.\n\nBOB is currently available on Polygon, Optimism, and Ethereum mainnet with plans to expand to other blockchains in the future..",
+    "website": "https://www.zkbob.com/",
+    "explorer": "https://arbiscan.io/token/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b",
+    "status": "active",
+    "id": "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/bob"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "type": "HEDERA",
+    "decimals": 6,
+    "description": "USDC is a fully collateralized US dollar stablecoin. USDC is the bridge between dollars and trading on cryptocurrency exchanges.",
+    "website": "https://www.circle.com/en/usdc",
+    "explorer": "https://hashscan.io/mainnet/token/0.0.456858",
+    "status": "active",
+    "id": "0.0.456858",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/usd-coin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "BRLA Digital",
+    "symbol": "BRLA",
+    "type": "MOONBEAM",
+    "decimals": 18,
+    "description": "BRLA Digital offers a BRL-pegged stablecoin specifically designed for cross-border transactions, catering to B2B clients seeking efficient and secure payment solutions. The BRLA token is the only audited BRL stablecoin, providing smooth and reliable on/off ramps for businesses.",
+    "website": "https://brla.digital/",
+    "explorer": "https://moonscan.io/token/0xfeb25f3fddad13f82c4d6dbc1481516f62236429",
+    "status": "active",
+    "id": "0xfeb25f3fddad13f82c4d6dbc1481516f62236429",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/brla-digital-brla"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

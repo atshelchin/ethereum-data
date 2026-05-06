@@ -1,0 +1,20 @@
+{
+    "name": "Brazilian Digital",
+    "symbol": "BRZ",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "BRZ is the first stable coin backed by Brazilian Reais (BRL). It'll allow Brazilian residents to directly ramp up in international exchanges and actively trade the Brazilian currency against pairs of different classes, including Bitcoin, other stable coins, utility and security tokens.",
+    "website": "https://transfero.com/stablecoins/brz/",
+    "explorer": "https://etherscan.io/token/0x01d33fd36ec67c6ada32cf36b31e88ee190b1839",
+    "status": "active",
+    "id": "0x01d33fd36ec67c6ada32cf36b31e88ee190b1839",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/brz"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

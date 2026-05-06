@@ -1,0 +1,20 @@
+{
+    "name": "Lets Get HAI",
+    "symbol": "HAI",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "HAI is a multi-collateral controlled-peg stable asset on Optimism. HAI is backed by LSTs and Optimism native collateral.\n.",
+    "website": "https://www.letsgethai.com",
+    "explorer": "https://optimistic.etherscan.io/token/0x10398abc267496e49106b07dd6be13364d10dc71",
+    "status": "active",
+    "id": "0x10398abc267496e49106b07dd6be13364d10dc71",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/let-s-get-hai"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "pmUSD",
+    "symbol": "pmUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "Real Asset Acquisition Corp (RAAC) is a decentralized finance (DeFi) protocol powered by real-world assets (RWAs). \n\nThe ecosystem empowers token holders through a set of custom-built products to tokenize real-world assets; deploying traditional finance assets into DeFi, with a goal to unlock liquidity and on-chain yield opportunities.",
+    "website": "https://raac.io/",
+    "explorer": "https://etherscan.io/token/0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf",
+    "status": "active",
+    "id": "0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/precious-metals-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

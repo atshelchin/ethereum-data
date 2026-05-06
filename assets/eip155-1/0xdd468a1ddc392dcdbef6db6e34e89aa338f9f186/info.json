@@ -1,0 +1,20 @@
+{
+    "name": "Mezo USD",
+    "symbol": "MUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "MUSD is Mezo's Bitcoin-backed stablecoin, minted when users deposit BTC as collateral and borrow against it at low, fixed rates. The system uses a collateralized debt position (CDP) model, where each MUSD is fully backed by Bitcoin and can be redeemed for BTC, helping MUSD maintain its 1:1 peg to USD.\nBorrowers can access high loan-to-value ratios (up to ~90%) while the system maintains over-collateralization (system &gt;110%, typical user &gt;150%).",
+    "website": "https://www.mezo.org",
+    "explorer": "https://etherscan.io/token/0xdd468a1ddc392dcdbef6db6e34e89aa338f9f186",
+    "status": "active",
+    "id": "0xdd468a1ddc392dcdbef6db6e34e89aa338f9f186",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/mezo-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

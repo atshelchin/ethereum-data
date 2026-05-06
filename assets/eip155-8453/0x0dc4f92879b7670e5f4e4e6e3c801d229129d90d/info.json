@@ -1,0 +1,20 @@
+{
+    "name": "Argentine Peso",
+    "symbol": "WARS",
+    "type": "BASE",
+    "decimals": 18,
+    "description": "wARS is a fully collateralized stablecoin pegged 1:1 to the Argentine Peso (ARS). Issued and governed by a Ripio subsidiary, it brings ARS on-chain so Argentines and global users can transact, save, and build on decentralized networks in their local currency.",
+    "website": "https://www.ripio.com/es/criptos/stablecoins-locales",
+    "explorer": "https://basescan.org/token/0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d",
+    "status": "active",
+    "id": "0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/argentine-peso"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "EURC",
+    "symbol": "EURC",
+    "type": "WORLDCHAIN",
+    "decimals": 6,
+    "description": "Euro Coin is a stablecoin issued by Circle under the same reserve model as USD Coin (USDC). It is designed to be stable and 100% backed by euros held in euro denominated banking accounts.",
+    "website": "https://www.circle.com",
+    "explorer": "https://worldscan.org/token/0x1c60ba0a0ed1019e8eb035e6daf4155a5ce2380b",
+    "status": "active",
+    "id": "0x1c60ba0a0ed1019e8eb035e6daf4155a5ce2380b",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/euro-coin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

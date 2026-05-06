@@ -1,0 +1,20 @@
+{
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "type": "WORLDCHAIN",
+    "decimals": 6,
+    "description": "USDC is a fully collateralized US dollar stablecoin. USDC is the bridge between dollars and trading on cryptocurrency exchanges.",
+    "website": "https://www.circle.com/en/usdc",
+    "explorer": "https://worldscan.org/token/0x79a02482a880bce3f13e09da970dc34db4cd24d1",
+    "status": "active",
+    "id": "0x79a02482a880bce3f13e09da970dc34db4cd24d1",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/usd-coin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

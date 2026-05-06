@@ -1,0 +1,20 @@
+{
+    "name": "AUDD",
+    "symbol": "AUDD",
+    "type": "ERC20",
+    "decimals": 6,
+    "description": "Australian Dollar Stablecoins. Representing one of the largest sovereign currencies in the APAC region on the blockchain..",
+    "website": "https://www.audd.digital/",
+    "explorer": "https://etherscan.io/token/0x4cce605ed955295432958d8951d0b176c10720d5",
+    "status": "active",
+    "id": "0x4cce605ed955295432958d8951d0b176c10720d5",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/novatti-australian-digital-dollar"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

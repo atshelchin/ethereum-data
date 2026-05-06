@@ -1,0 +1,20 @@
+{
+    "name": "XSY UTY",
+    "symbol": "UTY",
+    "type": "BASE",
+    "decimals": 18,
+    "description": "YieldPoint is a capital management platform that simplifies access to advanced DeFi strategies. Its flagship product, Unity (UTY), is a digital synthetic dollar.",
+    "website": "https://www.yieldpoint.io/",
+    "explorer": "https://basescan.org/token/0xba515304d8153c4b162dc79f867e152df9c127eb",
+    "status": "active",
+    "id": "0xba515304d8153c4b162dc79f867e152df9c127eb",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/unity-2"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

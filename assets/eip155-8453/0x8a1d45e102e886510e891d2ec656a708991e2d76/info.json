@@ -1,0 +1,20 @@
+{
+    "name": "Colombian Peso",
+    "symbol": "WCOP",
+    "type": "BASE",
+    "decimals": 18,
+    "description": "wCOP is a fully collateralized stablecoin pegged 1:1 to the Colombian peso (COP). Issued and governed by a Ripio subsidiary, it brings COP on-chain so Colombians and global users can transact, save, and build on decentralized networks in their local currency.",
+    "website": "https://www.ripio.com/es/criptos/stablecoins-locales",
+    "explorer": "https://basescan.org/token/0x8a1d45e102e886510e891d2ec656a708991e2d76",
+    "status": "active",
+    "id": "0x8a1d45e102e886510e891d2ec656a708991e2d76",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/colombian-peso"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

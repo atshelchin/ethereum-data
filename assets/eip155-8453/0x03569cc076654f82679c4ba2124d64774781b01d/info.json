@@ -1,0 +1,20 @@
+{
+    "name": "Liquity BOLD",
+    "symbol": "BOLD",
+    "type": "BASE",
+    "decimals": 18,
+    "description": "BOLD is a fully redeemable USD-pegged stablecoin issued by the Liquity Protocol. It is used to pay out loans within the Liquity ecosystem, which allows users to set their own interest rates and borrow against ETHm, wstETH, and rETH as collateral.",
+    "website": "https://www.liquity.org/",
+    "explorer": "https://basescan.org/token/0x03569cc076654f82679c4ba2124d64774781b01d",
+    "status": "active",
+    "id": "0x03569cc076654f82679c4ba2124d64774781b01d",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/liquity-bold-2"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

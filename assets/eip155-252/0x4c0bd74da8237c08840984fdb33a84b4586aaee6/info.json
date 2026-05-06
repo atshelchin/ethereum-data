@@ -1,0 +1,20 @@
+{
+    "name": "VNX EURO",
+    "symbol": "VEUR",
+    "type": "FRAXTAL",
+    "decimals": 18,
+    "description": "What is the project about?\n\nVNX Euro (VEUR) is a token referencing Euro from a token generator licensed under the Blockchain act in Liechtenstein. \n\nWhat makes your project unique?\n\nBeing referenced to traditional currency, VNX Euro offers a traditional asset in the digital form.",
+    "website": "https://vnx.li/veur/",
+    "explorer": "https://fraxscan.com/token/0x4c0bd74da8237c08840984fdb33a84b4586aaee6",
+    "status": "active",
+    "id": "0x4c0bd74da8237c08840984fdb33a84b4586aaee6",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/vnx-euro"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

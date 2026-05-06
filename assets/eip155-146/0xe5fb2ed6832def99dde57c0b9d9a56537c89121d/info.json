@@ -1,0 +1,20 @@
+{
+    "name": "Main Street USD",
+    "symbol": "MSUSD",
+    "type": "SONIC",
+    "decimals": 18,
+    "description": "Main St delivers institutional-grade delta-neutral yield strategies through a dual-token system — msUSD (the yield-generating token) and smsUSD (the staking token) — with high-yield options trading strategies on Sonic.\n\nMain St builds upon this foundation with a different strategy focus. While Ethena specializes in the basis trade (cash and carry), Main St pioneers options arbitrage as our primary yield engine.",
+    "website": "https://mainstreet.finance/",
+    "explorer": "https://sonicscan.org/token/0xe5fb2ed6832def99dde57c0b9d9a56537c89121d",
+    "status": "active",
+    "id": "0xe5fb2ed6832def99dde57c0b9d9a56537c89121d",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/main-street-usd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

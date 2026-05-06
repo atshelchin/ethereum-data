@@ -1,0 +1,20 @@
+{
+    "name": "sUSD",
+    "symbol": "SUSD",
+    "type": "OPTIMISM",
+    "decimals": 18,
+    "description": "sUSD, or synthetic USD, is a synthetic asset launched by Synthetix Exchange. sUSD mirrors and tracks the price of USD provided by an oracle - Chainlink..",
+    "website": "https://synthetix.io",
+    "explorer": "https://optimistic.etherscan.io/token/0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9",
+    "status": "active",
+    "id": "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/nusd"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "eUSD",
+    "symbol": "EUSD",
+    "type": "ERC20",
+    "decimals": 18,
+    "description": "The Lybra Protocol is a groundbreaking decentralized protocol designed to bring stability to the volatile world of cryptocurrency. Built on LSD (Liquid Staking Derivatives), the protocol initially leverages Lido Finance-issued ETH proof-of-stake and stETH as its primary components, with plans to support additional LSD assets in the future.\n\nThe protocol's primary objective is to provide the cryptocurrency industry with a safer, more decentralized stablecoin, eUSD, which offers stable interest to its token holders.",
+    "website": "https://lybra.finance/",
+    "explorer": "https://etherscan.io/token/0x97de57ec338ab5d51557da3434828c5dbfada371",
+    "status": "active",
+    "id": "0x97de57ec338ab5d51557da3434828c5dbfada371",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/eusd-27a558b0-8b5b-4225-a614-63539da936f4"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Stable Coin",
+    "symbol": "SBC",
+    "type": "POLYGON",
+    "decimals": 18,
+    "description": "Stable Coin (SBC) is a payments-focused stablecoin issued by Brale in partnership with Stable Coin Inc. SBC emphasizes redeemability, regulatory compliance, and transparency in line with established centralized finance practices to encourage broader adoption of stablecoin payments.",
+    "website": "https://stablecoin.xyz/",
+    "explorer": "https://polygonscan.com/token/0xfdcc3dd6671eab0709a4c0f3f53de9a333d80798",
+    "status": "active",
+    "id": "0xfdcc3dd6671eab0709a4c0f3f53de9a333d80798",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/stable-coin-2"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

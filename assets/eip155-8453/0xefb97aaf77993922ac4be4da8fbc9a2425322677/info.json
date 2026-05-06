@@ -1,0 +1,20 @@
+{
+    "name": "Web 3 Dollar",
+    "symbol": "USD3",
+    "type": "BASE",
+    "decimals": 18,
+    "description": "USD3 is a fully asset-backed currency (“RToken”) created on the Reserve protocol. RTokens feature onchain asset-backing, revenue sharing, overcollateralization and mint/redemptions, governed by RSR stakers.",
+    "website": "https://app.reserve.org/ethereum/token/0x0d86883faf4ffd7aeb116390af37746f45b6f378/overview",
+    "explorer": "https://basescan.org/token/0xefb97aaf77993922ac4be4da8fbc9a2425322677",
+    "status": "active",
+    "id": "0xefb97aaf77993922ac4be4da8fbc9a2425322677",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/web-3-dollar"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "OpenDollar USDO",
+    "symbol": "USDO",
+    "type": "BASE",
+    "decimals": 18,
+    "description": "The OpenEden Open Dollar (\"USDO\") is a rebasing yield-bearing stablecoin issued by OpenEden Digital (\"OED\"), a Bermuda Monetary Authority (\"BMA\") licensed digital asset issuer. USDO is backed by high-quality, liquid reserves, primarily consisting of U.S.",
+    "website": "https://openeden.com/",
+    "explorer": "https://basescan.org/token/0xad55aebc9b8c03fc43cd9f62260391c13c23e7c0",
+    "status": "active",
+    "id": "0xad55aebc9b8c03fc43cd9f62260391c13c23e7c0",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/openeden-open-dollar"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

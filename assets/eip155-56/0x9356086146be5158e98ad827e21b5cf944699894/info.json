@@ -1,0 +1,20 @@
+{
+    "name": "Avalon USDa",
+    "symbol": "USDA",
+    "type": "BEP20",
+    "decimals": 18,
+    "description": "Avalon Labs is creating an on-chain financial center for Bitcoin, offering BTC-backed\nlending, a Bitcoin-backed stablecoin, yield accounts, and a credit card. The goal is to\nmake Bitcoin an active economic asset in global markets through a scalable and\naccessible network.\nUSDa is the flagship CDP (Collateralized Debt Position) product based on Avalon's CeDeFi\nlending platform.",
+    "website": "https://www.avalonfinance.xyz/",
+    "explorer": "https://bscscan.com/token/0x9356086146be5158e98ad827e21b5cf944699894",
+    "status": "active",
+    "id": "0x9356086146be5158e98ad827e21b5cf944699894",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/usda-2"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

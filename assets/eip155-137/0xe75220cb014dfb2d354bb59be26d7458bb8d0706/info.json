@@ -1,0 +1,20 @@
+{
+    "name": "PHT Stablecoin",
+    "symbol": "PHT",
+    "type": "POLYGON",
+    "decimals": 18,
+    "description": "PHT Stablecoin is a multi-chain, overcollateralized stablecoin pegged to the Philippine peso. It is designed to facilitate fast, low-cost remittances, on-chain payments, and programmable settlements across the Philippines and Southeast Asia.\n\nPHT adopts the time-tested overcollateralization model pioneered by MakerDAO’s DAI.",
+    "website": "https://www.apacx.io/PHT",
+    "explorer": "https://polygonscan.com/token/0xe75220cb014dfb2d354bb59be26d7458bb8d0706",
+    "status": "active",
+    "id": "0xe75220cb014dfb2d354bb59be26d7458bb8d0706",
+    "links": [
+        {
+            "name": "coingecko",
+            "url": "https://www.coingecko.com/en/coins/pht-stablecoin"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}
