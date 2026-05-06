@@ -8,7 +8,7 @@ A comprehensive dataset containing EVM-compatible blockchain networks, token ass
 
 ```
 ethereum-data/
-├── chains/          # Network/chain definitions (2500+ chains)
+├── chains/          # Network/chain definitions (2600+ chains)
 ├── chainlogos/      # Chain/network logo images
 ├── assets/          # Token information organized by chain (12500+ tokens)
 ├── contracts/       # Verified smart contract data
@@ -343,8 +343,8 @@ All chain-related identifiers follow the [CAIP-2](https://github.com/ChainAgnost
 
 | Category               | Count  |
 | ---------------------- | ------ |
-| Chains                 | 2,505  |
-| Assets                 | 12,524 |
+| Chains                 | 2,602  |
+| Assets                 | 12,935 |
 | Supported Asset Chains | 49     |
 | Fuse.js Index Total    | ~3 MB  |
 
