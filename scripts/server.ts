@@ -94,6 +94,16 @@ async function handleRequest(req: Request): Promise<Response> {
     return new Response("Method Not Allowed", { status: 405 });
   }
 
+  // API routes
+  if (pathname === "/api/health") {
+    return Response.json({
+      service: "ethereum-data",
+      version: "1.0.0",
+      repo: "https://github.com/atshelchin/ethereum-data",
+      status: "ok",
+    }, { headers: corsHeaders() });
+  }
+
   // 查找文件
   let file = await findFile(pathname);
 
