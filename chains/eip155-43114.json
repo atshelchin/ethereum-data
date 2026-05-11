@@ -61,12 +61,12 @@
   ],
   "wrappedNativeToken": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
   "dex": {
-    "dex": "LFJ (Trader Joe)",
-    "protocol": "liquidity-book",
+    "dex": "Uniswap",
+    "protocol": "uniswap-v3",
     "contracts": {
-      "lbFactory": "0x8e42f2F4101563bF679975178e880FD87d3eFd4e",
-      "lbRouter": "0xb4315e873dBcf96Ffd0acd8EA43f689D8c20fB30"
+      "factory": "0x740b1c1de25031C31FF4fC9A62f554A55cdC1baD",
+      "quoterV2": "0xbe0F5544EC67e9B3b2D979aaA43f18Fd87E6257F"
     },
-    "url": "https://lfj.gg"
+    "url": "https://app.uniswap.org"
   }
 }
