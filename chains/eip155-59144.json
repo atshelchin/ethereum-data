@@ -4,17 +4,17 @@
   "chain": "ETH",
   "rpc": [
     "https://rpc.linea.build",
-    "wss://rpc.linea.build",
-    "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}",
-    "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
     "https://linea-rpc.publicnode.com",
-    "wss://linea-rpc.publicnode.com",
     "https://rpc.ankr.com/linea",
     "https://linea.drpc.org",
     "https://1rpc.io/linea",
     "https://linea.api.pocket.network",
     "https://linea.blockpi.network/v1/rpc/public",
-    "https://linea.api.onfinality.io/public"
+    "https://linea.api.onfinality.io/public",
+    "wss://rpc.linea.build",
+    "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}",
+    "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
+    "wss://linea-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {

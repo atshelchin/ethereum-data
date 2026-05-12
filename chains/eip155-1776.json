@@ -4,12 +4,21 @@
   "icon": "injective",
   "rpc": [
     "https://sentry.evm-rpc.injective.network",
-    "wss://sentry.evm-ws.injective.network",
     "https://injectiveevm-rpc.polkachu.com",
+    "wss://sentry.evm-ws.injective.network",
     "wss://injectiveevm-ws.polkachu.com"
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": ["https://injective.com/getinj"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [
+    "https://injective.com/getinj"
+  ],
   "nativeCurrency": {
     "name": "Injective",
     "symbol": "INJ",

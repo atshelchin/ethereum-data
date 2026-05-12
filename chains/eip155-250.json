@@ -4,15 +4,15 @@
   "rpc": [
     "https://rpc.ftm.tools",
     "https://fantom-rpc.publicnode.com",
-    "wss://fantom-rpc.publicnode.com",
     "https://fantom.drpc.org",
-    "wss://fantom.drpc.org",
     "https://rpc.ankr.com/fantom",
     "https://1rpc.io/ftm",
     "https://fantom.api.pocket.network",
     "https://fantom.blockpi.network/v1/rpc/public",
     "https://fantom-pokt.nodies.app",
-    "https://fantom.api.onfinality.io/public"
+    "https://fantom.api.onfinality.io/public",
+    "wss://fantom-rpc.publicnode.com",
+    "wss://fantom.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -4,17 +4,18 @@
   "rpc": [
     "https://rpc.testnet.fantom.network",
     "https://fantom-testnet-rpc.publicnode.com",
-    "wss://fantom-testnet-rpc.publicnode.com",
     "https://fantom-testnet.drpc.org",
+    "wss://fantom-testnet-rpc.publicnode.com",
     "wss://fantom-testnet.drpc.org"
   ],
-  "faucets": ["https://faucet.fantom.network"],
+  "faucets": [
+    "https://faucet.fantom.network"
+  ],
   "nativeCurrency": {
     "name": "Fantom",
     "symbol": "FTM",
     "decimals": 18
   },
-
   "infoURL": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet",
   "shortName": "tftm",
   "chainId": 4002,

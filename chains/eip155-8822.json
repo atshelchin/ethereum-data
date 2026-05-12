@@ -4,8 +4,8 @@
   "chain": "IOTA EVM",
   "rpc": [
     "https://json-rpc.evm.iotaledger.net",
-    "wss://ws.json-rpc.evm.iotaledger.net",
-    "https://rpc.ankr.com/iota_evm"
+    "https://rpc.ankr.com/iota_evm",
+    "wss://ws.json-rpc.evm.iotaledger.net"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -4,12 +4,12 @@
   "rpc": [
     "https://rpc.soniclabs.com",
     "https://sonic-rpc.publicnode.com",
-    "wss://sonic-rpc.publicnode.com",
     "https://rpc.ankr.com/sonic_mainnet",
     "https://sonic.drpc.org",
     "https://sonic.api.pocket.network",
     "https://sonic.blockpi.network/v1/rpc/public",
-    "https://sonic.api.onfinality.io/public"
+    "https://sonic.api.onfinality.io/public",
+    "wss://sonic-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {

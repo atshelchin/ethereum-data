@@ -3,8 +3,8 @@
   "chain": "Nexa Mainnet",
   "rpc": [
     "https://rpc-nodes.nexablockscan.io",
-    "wss://wss-nodes.nexablockscan.io",
-    "https://rpc-nodes-delta.nexablockscan.io"
+    "https://rpc-nodes-delta.nexablockscan.io",
+    "wss://wss-nodes.nexablockscan.io"
   ],
   "faucets": [],
   "nativeCurrency": {

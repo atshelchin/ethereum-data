@@ -4,9 +4,9 @@
   "rpc": [
     "https://mainnet.storyrpc.io",
     "https://story-rpc.publicnode.com",
-    "wss://story-rpc.publicnode.com",
     "https://rpc.ankr.com/story_mainnet",
-    "https://story.blockpi.network/v1/rpc/public"
+    "https://story.blockpi.network/v1/rpc/public",
+    "wss://story-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -3,8 +3,8 @@
   "chain": "Cyber",
   "rpc": [
     "https://cyber.alt.technology/",
-    "wss://cyber-ws.alt.technology/",
     "https://rpc.cyber.co/",
+    "wss://cyber-ws.alt.technology/",
     "wss://rpc.cyber.co/"
   ],
   "faucets": [],

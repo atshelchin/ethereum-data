@@ -3,9 +3,9 @@
   "chain": "Qubetics Mainnet",
   "rpc": [
     "https://rpc.qubetics.com",
-    "wss://socket-testnet.qubetics.work",
     "https://evm-rpc-arch.qubetics.com",
-    "https://evm-ws-arch.qubetics.com"
+    "https://evm-ws-arch.qubetics.com",
+    "wss://socket-testnet.qubetics.work"
   ],
   "faucets": [],
   "nativeCurrency": {

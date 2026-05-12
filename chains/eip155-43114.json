@@ -5,14 +5,14 @@
   "rpc": [
     "https://api.avax.network/ext/bc/C/rpc",
     "https://avalanche-c-chain-rpc.publicnode.com",
-    "wss://avalanche-c-chain-rpc.publicnode.com",
     "https://rpc.ankr.com/avalanche",
     "https://avalanche.drpc.org",
     "https://1rpc.io/avax/c",
     "https://avax.api.pocket.network",
     "https://avalanche.blockpi.network/v1/rpc/public",
     "https://avax-pokt.nodies.app/ext/bc/C/rpc",
-    "https://avalanche.api.onfinality.io/public/ext/bc/C/rpc"
+    "https://avalanche.api.onfinality.io/public/ext/bc/C/rpc",
+    "wss://avalanche-c-chain-rpc.publicnode.com"
   ],
   "features": [
     {

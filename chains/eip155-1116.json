@@ -6,9 +6,9 @@
     "https://rpc.coredao.org/",
     "https://rpc-core.icecreamswap.com",
     "https://core.drpc.org",
-    "wss://core.drpc.org",
     "https://rpc.ankr.com/core",
-    "https://1rpc.io/core"
+    "https://1rpc.io/core",
+    "wss://core.drpc.org"
   ],
   "features": [
     {

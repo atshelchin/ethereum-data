@@ -3,12 +3,12 @@
   "chain": "Mezo",
   "rpc": [
     "https://rpc_evm-mezo.imperator.co",
-    "wss://ws_evm-mezo.imperator.co",
     "https://rpc-http.mezo.boar.network",
-    "wss://rpc-ws.mezo.boar.network",
     "https://mainnet.mezo.public.validationcloud.io",
-    "wss://mainnet.mezo.public.validationcloud.io",
     "https://rpc-internal.mezo.org",
+    "wss://ws_evm-mezo.imperator.co",
+    "wss://rpc-ws.mezo.boar.network",
+    "wss://mainnet.mezo.public.validationcloud.io",
     "wss://rpc-ws-internal.mezo.org"
   ],
   "faucets": [],
@@ -17,7 +17,14 @@
     "symbol": "BTC",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://mezo.org/",
   "shortName": "mezo",
   "chainId": 31612,

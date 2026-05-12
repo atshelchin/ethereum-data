@@ -3,11 +3,15 @@
   "chain": "BEAM",
   "rpc": [
     "https://build.onbeam.com/rpc/testnet",
-    "wss://build.onbeam.com/ws/testnet",
     "https://subnets.avax.network/beam/testnet/rpc",
+    "wss://build.onbeam.com/ws/testnet",
     "wss://subnets.avax.network/beam/testnet/ws"
   ],
-  "features": [{ "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [
     "https://faucet.avax.network/?subnet=beam",
     "https://faucet.onbeam.com"

@@ -4,8 +4,8 @@
   "icon": "alphabetnetwork",
   "rpc": [
     "https://londonpublic.alphabetnetwork.org",
-    "wss://londonpublic.alphabetnetwork.org/ws/",
     "https://main-rpc.com",
+    "wss://londonpublic.alphabetnetwork.org/ws/",
     "wss://main-rpc.com/ws/"
   ],
   "faucets": [],

@@ -3,8 +3,8 @@
   "chain": "Cyber",
   "rpc": [
     "https://cyber-testnet.alt.technology/",
-    "wss://cyber-testnet.alt.technology/ws",
     "https://rpc.testnet.cyber.co/",
+    "wss://cyber-testnet.alt.technology/ws",
     "wss://rpc.testnet.cyber.co/"
   ],
   "faucets": [],
@@ -28,6 +28,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://cyber-testnet.testnets.rollbridge.app/" }]
+    "bridges": [
+      {
+        "url": "https://cyber-testnet.testnets.rollbridge.app/"
+      }
+    ]
   }
 }

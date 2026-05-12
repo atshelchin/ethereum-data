@@ -6,11 +6,13 @@
   "rpc": [
     "https://rpc-mumbai.maticvigil.com",
     "https://polygon-mumbai-bor-rpc.publicnode.com",
-    "wss://polygon-mumbai-bor-rpc.publicnode.com",
     "https://polygon-mumbai.gateway.tenderly.co",
+    "wss://polygon-mumbai-bor-rpc.publicnode.com",
     "wss://polygon-mumbai.gateway.tenderly.co"
   ],
-  "faucets": ["https://faucet.polygon.technology/"],
+  "faucets": [
+    "https://faucet.polygon.technology/"
+  ],
   "nativeCurrency": {
     "name": "MATIC",
     "symbol": "MATIC",

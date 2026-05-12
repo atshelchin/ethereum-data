@@ -4,13 +4,13 @@
   "rpc": [
     "https://sepolia.optimism.io",
     "https://optimism-sepolia.drpc.org",
-    "wss://optimism-sepolia.drpc.org",
     "https://optimism-sepolia-rpc.publicnode.com",
-    "wss://optimism-sepolia-rpc.publicnode.com",
     "https://rpc.ankr.com/optimism_sepolia",
     "https://op-sepolia-testnet.api.pocket.network",
     "https://optimism-sepolia.blockpi.network/v1/rpc/public",
-    "https://optimism-sepolia.api.onfinality.io/public"
+    "https://optimism-sepolia.api.onfinality.io/public",
+    "wss://optimism-sepolia.drpc.org",
+    "wss://optimism-sepolia-rpc.publicnode.com"
   ],
   "faucets": [
     "https://app.optimism.io/faucet"

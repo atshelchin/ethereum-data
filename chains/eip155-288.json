@@ -6,12 +6,12 @@
     "https://replica.boba.network",
     "https://boba-ethereum.gateway.tenderly.co",
     "https://gateway.tenderly.co/public/boba-ethereum",
+    "https://boba-eth.drpc.org",
+    "https://1rpc.io/boba/eth",
+    "https://boba.api.pocket.network",
     "wss://boba-ethereum.gateway.tenderly.co/",
     "wss://gateway.tenderly.co/public/boba-ethereum",
-    "https://boba-eth.drpc.org",
-    "wss://boba-eth.drpc.org",
-    "https://1rpc.io/boba/eth",
-    "https://boba.api.pocket.network"
+    "wss://boba-eth.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

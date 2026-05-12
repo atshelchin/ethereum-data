@@ -4,12 +4,12 @@
   "rpc": [
     "https://rpc.berachain.com",
     "https://berachain-rpc.publicnode.com",
-    "wss://berachain-rpc.publicnode.com",
     "https://rpc.berachain-apis.com",
-    "wss://rpc.berachain-apis.com",
     "https://berachain.drpc.org",
     "https://bera.api.pocket.network",
-    "https://berachain.blockpi.network/v1/rpc/public"
+    "https://berachain.blockpi.network/v1/rpc/public",
+    "wss://berachain-rpc.publicnode.com",
+    "wss://rpc.berachain-apis.com"
   ],
   "faucets": [],
   "nativeCurrency": {

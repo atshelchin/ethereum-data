@@ -4,9 +4,9 @@
   "chain": "re.al",
   "rpc": [
     "https://rpc.realforreal.gelato.digital",
-    "wss://ws.realforreal.gelato.digital",
     "https://tangible-real.gateway.tenderly.co",
     "https://real.drpc.org",
+    "wss://ws.realforreal.gelato.digital",
     "wss://real.drpc.org"
   ],
   "nativeCurrency": {

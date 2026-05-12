@@ -4,17 +4,26 @@
   "icon": "polkadot-testnet",
   "rpc": [
     "https://services.polkadothub-rpc.com/testnet",
-    "wss://services.polkadothub-rpc.com/testnet",
     "https://eth-rpc-testnet.polkadot.io",
+    "wss://services.polkadothub-rpc.com/testnet",
     "wss://eth-rpc-testnet.polkadot.io"
   ],
-  "faucets": ["https://faucet.polkadot.io/"],
+  "faucets": [
+    "https://faucet.polkadot.io/"
+  ],
   "nativeCurrency": {
     "name": "PAS",
     "symbol": "PAS",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://polkadot.com",
   "shortName": "pas",
   "chainId": 420420417,

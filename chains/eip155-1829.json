@@ -3,8 +3,8 @@
   "chain": "playblock",
   "rpc": [
     "https://rpc.playblock.io",
-    "wss://ws.playblock.io",
-    "https://playnance.drpc.org"
+    "https://playnance.drpc.org",
+    "wss://ws.playblock.io"
   ],
   "faucets": [],
   "nativeCurrency": {

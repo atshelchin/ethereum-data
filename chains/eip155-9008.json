@@ -3,8 +3,8 @@
   "chain": "Shido Mainnet",
   "rpc": [
     "https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/rpc",
-    "wss://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/ws",
     "https://evm.shidoscan.net",
+    "wss://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/ws",
     "wss://wss.shidoscan.net"
   ],
   "faucets": [],

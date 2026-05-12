@@ -5,15 +5,15 @@
   "rpc": [
     "https://opbnb-mainnet-rpc.bnbchain.org",
     "https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
-    "wss://opbnb-mainnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3",
     "https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5",
-    "wss://opbnb-mainnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5",
     "https://opbnb-rpc.publicnode.com",
-    "wss://opbnb-rpc.publicnode.com",
     "https://opbnb.drpc.org",
-    "wss://opbnb.drpc.org",
     "https://1rpc.io/opbnb",
-    "https://opbnb.api.pocket.network"
+    "https://opbnb.api.pocket.network",
+    "wss://opbnb-mainnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "wss://opbnb-mainnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5",
+    "wss://opbnb-rpc.publicnode.com",
+    "wss://opbnb.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

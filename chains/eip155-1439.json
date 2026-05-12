@@ -4,12 +4,21 @@
   "icon": "injective",
   "rpc": [
     "https://k8s.testnet.json-rpc.injective.network",
-    "wss://k8s.testnet.ws.injective.network",
     "https://injectiveevm-testnet-rpc.polkachu.com",
+    "wss://k8s.testnet.ws.injective.network",
     "wss://injectiveevm-testnet-rpc.polkachu.com"
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": ["https://testnet.faucet.injective.network"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [
+    "https://testnet.faucet.injective.network"
+  ],
   "nativeCurrency": {
     "name": "Injective",
     "symbol": "INJ",

@@ -4,8 +4,8 @@
   "status": "deprecated",
   "rpc": [
     "https://avax.boba.network",
-    "wss://wss.avax.boba.network",
     "https://replica.avax.boba.network",
+    "wss://wss.avax.boba.network",
     "wss://replica-wss.avax.boba.network"
   ],
   "faucets": [],

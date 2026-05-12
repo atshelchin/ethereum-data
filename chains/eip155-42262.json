@@ -4,8 +4,8 @@
   "icon": "oasis",
   "rpc": [
     "https://emerald.oasis.io",
-    "wss://emerald.oasis.io/ws",
-    "https://1rpc.io/oasis/emerald"
+    "https://1rpc.io/oasis/emerald",
+    "wss://emerald.oasis.io/ws"
   ],
   "faucets": [],
   "nativeCurrency": {

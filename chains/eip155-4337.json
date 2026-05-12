@@ -3,8 +3,8 @@
   "chain": "BEAM",
   "rpc": [
     "https://build.onbeam.com/rpc",
-    "wss://build.onbeam.com/ws",
     "https://subnets.avax.network/beam/mainnet/rpc",
+    "wss://build.onbeam.com/ws",
     "wss://subnets.avax.network/beam/mainnet/ws"
   ],
   "features": [

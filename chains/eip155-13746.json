@@ -4,8 +4,8 @@
   "chain": "Game7",
   "rpc": [
     "https://testnet-rpc.game7.io",
-    "wss://testnet-rpc.game7.io",
     "https://testnet-rpc.game7.build",
+    "wss://testnet-rpc.game7.io",
     "wss://testnet-rpc.game7.build"
   ],
   "faucets": [],
@@ -14,7 +14,11 @@
     "symbol": "TG7T",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://game7.io",
   "shortName": "g7t",
   "chainId": 13746,

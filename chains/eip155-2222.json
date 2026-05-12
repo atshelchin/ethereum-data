@@ -5,17 +5,17 @@
     "https://evm.kava.io",
     "https://kava-rpc.gateway.pokt.network",
     "https://kava-evm.rpc.thirdweb.com",
-    "wss://wevm.kava.io",
     "https://kava-evm-rpc.publicnode.com",
-    "wss://kava-evm-rpc.publicnode.com",
     "https://evm.kava-rpc.com",
     "https://rpc.ankr.com/kava_evm",
-    "wss://wevm.kava-rpc.com",
     "https://kava.drpc.org",
-    "wss://kava.drpc.org",
     "https://kava.api.pocket.network",
     "https://kava-pokt.nodies.app",
-    "https://kava.api.onfinality.io/public"
+    "https://kava.api.onfinality.io/public",
+    "wss://wevm.kava.io",
+    "wss://kava-evm-rpc.publicnode.com",
+    "wss://wevm.kava-rpc.com",
+    "wss://kava.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -3,8 +3,8 @@
   "chain": "WEMIX",
   "rpc": [
     "https://api.wemix.com",
-    "wss://ws.wemix.com",
-    "https://wemix.drpc.org"
+    "https://wemix.drpc.org",
+    "wss://ws.wemix.com"
   ],
   "faucets": [],
   "nativeCurrency": {

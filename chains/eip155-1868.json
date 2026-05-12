@@ -6,8 +6,8 @@
   "rpc": [
     "https://rpc.soneium.org",
     "https://soneium-rpc.publicnode.com",
-    "wss://soneium-rpc.publicnode.com",
-    "https://soneium.drpc.org"
+    "https://soneium.drpc.org",
+    "wss://soneium-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {

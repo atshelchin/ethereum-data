@@ -4,19 +4,21 @@
   "icon": "moonbasealpha",
   "rpc": [
     "https://rpc.api.moonbase.moonbeam.network",
-    "wss://wss.api.moonbase.moonbeam.network",
     "https://moonbase-alpha.public.blastapi.io",
-    "wss://moonbase-alpha.public.blastapi.io",
     "https://moonbase-rpc.dwellir.com",
-    "wss://moonbase-rpc.dwellir.com",
     "https://moonbeam-alpha.api.onfinality.io/public",
-    "wss://moonbeam-alpha.api.onfinality.io/public-ws",
     "https://moonbase.unitedbloc.com",
-    "wss://moonbase.unitedbloc.com",
     "https://moonbase-alpha.drpc.org",
+    "wss://wss.api.moonbase.moonbeam.network",
+    "wss://moonbase-alpha.public.blastapi.io",
+    "wss://moonbase-rpc.dwellir.com",
+    "wss://moonbeam-alpha.api.onfinality.io/public-ws",
+    "wss://moonbase.unitedbloc.com",
     "wss://moonbase-alpha.drpc.org"
   ],
-  "faucets": ["https://faucet.moonbeam.network/"],
+  "faucets": [
+    "https://faucet.moonbeam.network/"
+  ],
   "nativeCurrency": {
     "name": "Dev",
     "symbol": "DEV",

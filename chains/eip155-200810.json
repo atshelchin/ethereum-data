@@ -3,12 +3,14 @@
   "chain": "Bitlayer",
   "rpc": [
     "https://testnet-rpc.bitlayer.org",
-    "wss://testnet-ws.bitlayer.org",
     "https://testnet-rpc.bitlayer-rpc.com",
-    "wss://testnet-ws.bitlayer-rpc.com",
-    "https://rpc.ankr.com/bitlayer_testnet"
+    "https://rpc.ankr.com/bitlayer_testnet",
+    "wss://testnet-ws.bitlayer.org",
+    "wss://testnet-ws.bitlayer-rpc.com"
   ],
-  "faucets": ["https://www.bitlayer.org/faucet"],
+  "faucets": [
+    "https://www.bitlayer.org/faucet"
+  ],
   "nativeCurrency": {
     "name": "BTC",
     "symbol": "BTC",

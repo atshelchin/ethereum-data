@@ -7,12 +7,12 @@
     "https://rpc.ankr.com/scroll",
     "https://scroll-mainnet.chainstacklabs.com",
     "https://scroll-rpc.publicnode.com",
-    "wss://scroll-rpc.publicnode.com",
     "https://scroll.drpc.org",
     "https://1rpc.io/scroll",
     "https://scroll.api.pocket.network",
     "https://scroll.blockpi.network/v1/rpc/public",
-    "https://scroll.api.onfinality.io/public"
+    "https://scroll.api.onfinality.io/public",
+    "wss://scroll-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -4,12 +4,14 @@
   "rpc": [
     "https://testnet-rpc.atleta.network",
     "https://rpc.ankr.com/atleta_olympia",
-    "wss://testnet-rpc.atleta.network",
     "https://atleta-testnet.htw.tech/",
     "https://public-atleta.nownodes.io",
-    "https://public-atla-testnet.fastnode.io"
+    "https://public-atla-testnet.fastnode.io",
+    "wss://testnet-rpc.atleta.network"
   ],
-  "faucets": ["https://app-olympia.atleta.network/faucet"],
+  "faucets": [
+    "https://app-olympia.atleta.network/faucet"
+  ],
   "nativeCurrency": {
     "name": "Atla Olympia",
     "symbol": "ATLA",

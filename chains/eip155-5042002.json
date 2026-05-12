@@ -4,12 +4,14 @@
   "icon": "arcnetwork",
   "rpc": [
     "https://rpc.testnet.arc.network",
-    "wss://rpc.testnet.arc.network",
     "https://rpc.quicknode.testnet.arc.network",
-    "wss://rpc.quicknode.testnet.arc.network",
-    "https://rpc.blockdaemon.testnet.arc.network"
+    "https://rpc.blockdaemon.testnet.arc.network",
+    "wss://rpc.testnet.arc.network",
+    "wss://rpc.quicknode.testnet.arc.network"
   ],
-  "faucets": ["https://faucet.circle.com/"],
+  "faucets": [
+    "https://faucet.circle.com/"
+  ],
   "nativeCurrency": {
     "name": "USDC",
     "symbol": "USDC",

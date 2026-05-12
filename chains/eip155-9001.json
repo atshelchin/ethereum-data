@@ -3,11 +3,11 @@
   "chain": "Evmos",
   "rpc": [
     "https://evmos.lava.build",
-    "wss://evmos.lava.build/websocket",
     "https://evmos-evm-rpc.publicnode.com",
-    "wss://evmos-evm-rpc.publicnode.com",
     "https://evmos.drpc.org",
-    "https://evmos-pokt.nodies.app"
+    "https://evmos-pokt.nodies.app",
+    "wss://evmos.lava.build/websocket",
+    "wss://evmos-evm-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -3,8 +3,8 @@
   "chain": "Heima",
   "rpc": [
     "https://rpc.heima-parachain.heima.network",
-    "wss://rpc.heima-parachain.heima.network",
     "https://litentry-rpc.dwellir.com",
+    "wss://rpc.heima-parachain.heima.network",
     "wss://litentry-rpc.dwellir.com"
   ],
   "faucets": [],

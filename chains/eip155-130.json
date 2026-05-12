@@ -4,12 +4,12 @@
   "rpc": [
     "https://mainnet.unichain.org",
     "https://unichain-rpc.publicnode.com",
-    "wss://unichain-rpc.publicnode.com",
     "https://unichain.drpc.org",
     "https://1rpc.io/unichain",
     "https://unichain.api.pocket.network",
     "https://unichain.blockpi.network/v1/rpc/public",
-    "https://unichain.api.onfinality.io/public"
+    "https://unichain.api.onfinality.io/public",
+    "wss://unichain-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {

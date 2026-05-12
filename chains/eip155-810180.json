@@ -3,8 +3,8 @@
   "chain": "ETH",
   "rpc": [
     "https://rpc.zklink.io",
-    "wss://rpc.zklink.io",
-    "https://zklink-nova.api.pocket.network"
+    "https://zklink-nova.api.pocket.network",
+    "wss://rpc.zklink.io"
   ],
   "faucets": [],
   "nativeCurrency": {

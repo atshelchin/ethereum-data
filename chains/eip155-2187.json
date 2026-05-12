@@ -4,8 +4,8 @@
   "chain": "Game7",
   "rpc": [
     "https://mainnet-rpc.game7.io",
-    "wss://mainnet-rpc.game7.io",
     "https://mainnet-rpc.game7.build",
+    "wss://mainnet-rpc.game7.io",
     "wss://mainnet-rpc.game7.build"
   ],
   "faucets": [],
@@ -14,7 +14,11 @@
     "symbol": "G7",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://game7.io/",
   "shortName": "g7",
   "chainId": 2187,

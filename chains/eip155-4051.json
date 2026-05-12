@@ -4,8 +4,8 @@
   "status": "deprecated",
   "rpc": [
     "https://testnet.bobaopera.boba.network",
-    "wss://wss.testnet.bobaopera.boba.network",
     "https://replica.testnet.bobaopera.boba.network",
+    "wss://wss.testnet.bobaopera.boba.network",
     "wss://replica-wss.testnet.bobaopera.boba.network"
   ],
   "faucets": [],

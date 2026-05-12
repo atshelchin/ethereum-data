@@ -4,10 +4,12 @@
   "chain": "ETH",
   "rpc": [
     "https://rpc-quicknode-holesky.morphl2.io",
-    "wss://rpc-quicknode-holesky.morphl2.io",
-    "https://rpc-holesky.morphl2.io"
+    "https://rpc-holesky.morphl2.io",
+    "wss://rpc-quicknode-holesky.morphl2.io"
   ],
-  "faucets": ["https://morphfaucet.com/"],
+  "faucets": [
+    "https://morphfaucet.com/"
+  ],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -28,6 +30,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge-holesky.morphl2.io" }]
+    "bridges": [
+      {
+        "url": "https://bridge-holesky.morphl2.io"
+      }
+    ]
   }
 }
