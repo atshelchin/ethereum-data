@@ -2,8 +2,8 @@
   "name": "SATUCHAIN Mainnet",
   "chain": "SATU",
   "rpc": [
-    "https://rpc-mainnet.satuchain.com",
     "https://rpc-indo-mainnet.satuchain.com",
+    "https://rpc-mainnet.satuchain.com",
     "wss://rpc-mainnet.satuchain.com/ws"
   ],
   "faucets": [],
@@ -12,7 +12,14 @@
     "symbol": "STU",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://satuchain.com",
   "shortName": "satumainnet",
   "chainId": 10111945,

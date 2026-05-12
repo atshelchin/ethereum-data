@@ -3,8 +3,8 @@
   "title": "Bifrost Network Testnet",
   "chain": "BFC",
   "rpc": [
-    "https://public-01.testnet.bifrostnetwork.com/rpc",
-    "https://public-02.testnet.bifrostnetwork.com/rpc"
+    "https://public-02.testnet.bifrostnetwork.com/rpc",
+    "https://public-01.testnet.bifrostnetwork.com/rpc"
   ],
   "faucets": [],
   "nativeCurrency": {

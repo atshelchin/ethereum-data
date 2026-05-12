@@ -2,12 +2,12 @@
   "name": "Wanchain Testnet",
   "chain": "WAN",
   "rpc": [
-    "https://gwan-ssl.wandevs.org:46891/",
     "https://hyperliquid.drpc.org",
-    "https://1rpc.io/hyperliquid",
+    "https://gwan-ssl.wandevs.org:46891/",
     "https://hyperliquid.api.pocket.network",
-    "https://hyperliquid.blockpi.network/v1/rpc/public",
-    "https://hyperliquid.api.onfinality.io/evm/public"
+    "https://hyperliquid.api.onfinality.io/evm/public",
+    "https://1rpc.io/hyperliquid",
+    "https://hyperliquid.blockpi.network/v1/rpc/public"
   ],
   "faucets": [],
   "nativeCurrency": {

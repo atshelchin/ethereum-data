@@ -3,8 +3,8 @@
   "chain": "BTCN",
   "rpc": [
     "https://mainnet.corn-rpc.com",
-    "https://rpc.ankr.com/corn_maizenet",
-    "https://maizenet-rpc.usecorn.com"
+    "https://maizenet-rpc.usecorn.com",
+    "https://rpc.ankr.com/corn_maizenet"
   ],
   "faucets": [],
   "nativeCurrency": {

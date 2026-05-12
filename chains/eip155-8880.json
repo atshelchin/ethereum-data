@@ -3,10 +3,10 @@
   "icon": "unique",
   "chain": "UNQ",
   "rpc": [
-    "https://rpc.unique.network",
     "https://eu-rpc.unique.network",
-    "https://asia-rpc.unique.network",
-    "https://us-rpc.unique.network"
+    "https://us-rpc.unique.network",
+    "https://rpc.unique.network",
+    "https://asia-rpc.unique.network"
   ],
   "faucets": [],
   "nativeCurrency": {

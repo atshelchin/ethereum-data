@@ -2,9 +2,9 @@
   "name": "Viction",
   "chain": "Viction",
   "rpc": [
-    "https://rpc.viction.xyz",
     "https://viction.drpc.org",
-    "https://viction.blockpi.network/v1/rpc/public"
+    "https://viction.blockpi.network/v1/rpc/public",
+    "https://rpc.viction.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {

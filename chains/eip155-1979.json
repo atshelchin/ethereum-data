@@ -2,8 +2,8 @@
   "name": "CratD2C Testnet",
   "chain": "CRATD2C",
   "rpc": [
-    "https://rpc-testnet-1.cratd2csmartchain.io/",
     "https://rpc-testnet-2.cratd2csmartchain.io/",
+    "https://rpc-testnet-1.cratd2csmartchain.io/",
     "https://rpc-testnet-3.cratd2csmartchain.io/"
   ],
   "faucets": [],

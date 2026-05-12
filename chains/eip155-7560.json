@@ -2,8 +2,8 @@
   "name": "Cyber Mainnet",
   "chain": "Cyber",
   "rpc": [
-    "https://cyber.alt.technology/",
     "https://rpc.cyber.co/",
+    "https://cyber.alt.technology/",
     "wss://cyber-ws.alt.technology/",
     "wss://rpc.cyber.co/"
   ],

@@ -3,13 +3,13 @@
   "title": "Arbitrum Sepolia Rollup Testnet",
   "chain": "ETH",
   "rpc": [
+    "https://arbitrum-sepolia.drpc.org",
     "https://sepolia-rollup.arbitrum.io/rpc",
     "https://arbitrum-sepolia-rpc.publicnode.com",
-    "https://rpc.ankr.com/arbitrum_sepolia",
-    "https://arbitrum-sepolia.drpc.org",
     "https://arb-sepolia-testnet.api.pocket.network",
-    "https://arbitrum-sepolia.blockpi.network/v1/rpc/public",
     "https://arbitrum-sepolia.api.onfinality.io/public",
+    "https://rpc.ankr.com/arbitrum_sepolia",
+    "https://arbitrum-sepolia.blockpi.network/v1/rpc/public",
     "https://arbitrum-sepolia.infura.io/v3/${INFURA_API_KEY}",
     "wss://arbitrum-sepolia-rpc.publicnode.com"
   ],

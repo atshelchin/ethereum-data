@@ -2,8 +2,8 @@
   "name": "QuarkChain Devnet Shard 4",
   "chain": "QuarkChain",
   "rpc": [
-    "https://devnet-s4-ethapi.quarkchain.io",
-    "http://eth-jrpc.devnet.quarkchain.io:39904"
+    "http://eth-jrpc.devnet.quarkchain.io:39904",
+    "https://devnet-s4-ethapi.quarkchain.io"
   ],
   "faucets": [],
   "nativeCurrency": {

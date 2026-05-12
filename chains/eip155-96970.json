@@ -3,9 +3,9 @@
   "chain": "Mantis",
   "icon": "mantis",
   "rpc": [
-    "https://mantis-rpc.switch.ch",
+    "https://mantis-rpc.phoenix-systems.io",
     "https://mantis-rpc.kore-technologies.ch",
-    "https://mantis-rpc.phoenix-systems.io"
+    "https://mantis-rpc.switch.ch"
   ],
   "faucets": [
     "https://mantis.switch.ch/faucet",

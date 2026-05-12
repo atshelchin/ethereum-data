@@ -3,10 +3,10 @@
   "chain": "CFG",
   "icon": "centrifuge",
   "rpc": [
-    "https://fullnode.centrifuge.io",
     "https://centrifuge-parachain.api.onfinality.io/public",
-    "https://centrifuge-rpc.dwellir.com",
     "https://rpc-centrifuge.luckyfriday.io",
+    "https://fullnode.centrifuge.io",
+    "https://centrifuge-rpc.dwellir.com",
     "wss://fullnode.centrifuge.io",
     "wss://centrifuge-parachain.api.onfinality.io/public-ws",
     "wss://centrifuge-rpc.dwellir.com",

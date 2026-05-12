@@ -2,9 +2,9 @@
   "name": "World Chain Sepolia Testnet",
   "chain": "ETH",
   "rpc": [
+    "https://worldchain-sepolia.gateway.tenderly.co",
     "https://worldchain-sepolia.g.alchemy.com/public",
     "https://4801.rpc.thirdweb.com",
-    "https://worldchain-sepolia.gateway.tenderly.co",
     "wss://worldchain-sepolia.gateway.tenderly.co"
   ],
   "faucets": [
@@ -24,7 +24,11 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://worldchain-sepolia.bridge.alchemy.com" }]
+    "bridges": [
+      {
+        "url": "https://worldchain-sepolia.bridge.alchemy.com"
+      }
+    ]
   },
   "explorers": [
     {

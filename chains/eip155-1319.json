@@ -3,8 +3,8 @@
   "chain": "AIA",
   "icon": "aia",
   "rpc": [
-    "https://aia-dataseed1.aiachain.org",
     "https://aia-dataseed2.aiachain.org",
+    "https://aia-dataseed1.aiachain.org",
     "https://aia-dataseed3.aiachain.org",
     "https://aia-dataseed4.aiachain.org"
   ],
@@ -18,7 +18,6 @@
   "shortName": "aia",
   "chainId": 1319,
   "networkId": 1319,
-
   "explorers": [
     {
       "name": "AIA Chain Explorer Mainnet",

@@ -5,9 +5,9 @@
   "rpc": [
     "https://zetachain-evm.blockpi.network/v1/rpc/public",
     "https://zetachain-mainnet.g.allthatnode.com/archive/evm",
+    "https://7000.rpc.thirdweb.com",
     "https://zeta-chain.drpc.org",
-    "https://zetachain-mainnet.public.blastapi.io",
-    "https://7000.rpc.thirdweb.com"
+    "https://zetachain-mainnet.public.blastapi.io"
   ],
   "faucets": [],
   "nativeCurrency": {

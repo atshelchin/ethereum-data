@@ -4,9 +4,9 @@
   "title": "Soneium mainnet",
   "chain": "ETH",
   "rpc": [
-    "https://rpc.soneium.org",
-    "https://soneium-rpc.publicnode.com",
     "https://soneium.drpc.org",
+    "https://soneium-rpc.publicnode.com",
+    "https://rpc.soneium.org",
     "wss://soneium-rpc.publicnode.com"
   ],
   "faucets": [],

@@ -1,10 +1,20 @@
 {
   "name": "JIBCHAIN L1",
   "chain": "JBC",
-  "rpc": ["https://rpc-l1.jibchain.net", "https://rpc-l1.inan.in.th"],
+  "rpc": [
+    "https://rpc-l1.inan.in.th",
+    "https://rpc-l1.jibchain.net"
+  ],
   "faucets": [],
   "icon": "jbc",
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "nativeCurrency": {
     "name": "JIBCOIN",
     "symbol": "JBC",

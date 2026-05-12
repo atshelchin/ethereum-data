@@ -3,11 +3,13 @@
   "chain": "XSC",
   "icon": "xsc",
   "rpc": [
-    "https://datarpc1.xsc.pub",
+    "https://datarpc3.xsc.pub",
     "https://datarpc2.xsc.pub",
-    "https://datarpc3.xsc.pub"
+    "https://datarpc1.xsc.pub"
   ],
-  "faucets": ["https://xsc.pub/faucet"],
+  "faucets": [
+    "https://xsc.pub/faucet"
+  ],
   "nativeCurrency": {
     "name": "XT Smart Chain Native Token",
     "symbol": "XT",

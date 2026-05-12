@@ -2,7 +2,10 @@
   "name": "MultiVAC Mainnet",
   "chain": "MultiVAC",
   "icon": "multivac",
-  "rpc": ["https://rpc.mtv.ac", "https://rpc-eu.mtv.ac"],
+  "rpc": [
+    "https://rpc-eu.mtv.ac",
+    "https://rpc.mtv.ac"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "MultiVAC",

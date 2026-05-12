@@ -2,10 +2,10 @@
   "name": "World Chain",
   "chain": "ETH",
   "rpc": [
-    "https://worldchain-mainnet.g.alchemy.com/public",
-    "https://480.rpc.thirdweb.com",
     "https://worldchain-mainnet.gateway.tenderly.co",
     "https://worldchain.drpc.org",
+    "https://worldchain-mainnet.g.alchemy.com/public",
+    "https://480.rpc.thirdweb.com",
     "wss://worldchain-mainnet.gateway.tenderly.co"
   ],
   "faucets": [],

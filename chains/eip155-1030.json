@@ -2,8 +2,8 @@
   "name": "Conflux eSpace",
   "chain": "Conflux",
   "rpc": [
-    "https://evm.confluxrpc.com",
-    "https://conflux-espace.blockpi.network/v1/rpc/public"
+    "https://conflux-espace.blockpi.network/v1/rpc/public",
+    "https://evm.confluxrpc.com"
   ],
   "faucets": [],
   "nativeCurrency": {

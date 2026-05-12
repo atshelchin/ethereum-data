@@ -3,10 +3,10 @@
   "chain": "BTN",
   "icon": "bitnet",
   "rpc": [
+    "https://rpc.bitnetmoney.com",
     "https://rpc.bitnet.money",
     "https://rpc.btnscan.com",
     "https://rpc.btn.network",
-    "https://rpc.bitnetmoney.com",
     "https://rpc.btn-network.org"
   ],
   "faucets": [],

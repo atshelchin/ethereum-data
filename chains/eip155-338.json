@@ -2,11 +2,13 @@
   "name": "Cronos Testnet",
   "chain": "CRO",
   "rpc": [
-    "https://evm-t3.cronos.org",
     "https://cronos-testnet.drpc.org",
+    "https://evm-t3.cronos.org",
     "wss://cronos-testnet.drpc.org"
   ],
-  "faucets": ["https://cronos.org/faucet"],
+  "faucets": [
+    "https://cronos.org/faucet"
+  ],
   "nativeCurrency": {
     "name": "Cronos Test Coin",
     "symbol": "TCRO",

@@ -5,13 +5,15 @@
   "icon": "telcoin",
   "rpc": [
     "https://rpc.telcoin.network",
-    "https://adiri.tel",
     "https://node1.telcoin.network",
-    "https://node2.telcoin.network",
     "https://node3.telcoin.network",
+    "https://adiri.tel",
+    "https://node2.telcoin.network",
     "https://node4.telcoin.network"
   ],
-  "faucets": ["https://telcoin.network/faucet"],
+  "faucets": [
+    "https://telcoin.network/faucet"
+  ],
   "nativeCurrency": {
     "name": "Telcoin",
     "symbol": "TEL",

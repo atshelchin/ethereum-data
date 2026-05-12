@@ -2,8 +2,8 @@
   "name": "Aurora Mainnet",
   "chain": "NEAR",
   "rpc": [
-    "https://mainnet.aurora.dev",
     "https://aurora.drpc.org",
+    "https://mainnet.aurora.dev",
     "https://1rpc.io/aurora",
     "wss://aurora.drpc.org"
   ],

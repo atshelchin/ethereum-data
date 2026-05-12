@@ -3,10 +3,10 @@
   "chain": "CHZ",
   "icon": "chilizchain",
   "rpc": [
-    "https://rpc.chiliz.com",
-    "https://rpc.ankr.com/chiliz",
     "https://chiliz.publicnode.com",
+    "https://rpc.chiliz.com",
     "https://chiliz-rpc.publicnode.com",
+    "https://rpc.ankr.com/chiliz",
     "wss://chiliz-rpc.publicnode.com"
   ],
   "faucets": [

@@ -2,8 +2,8 @@
   "name": "zkSync Sepolia Testnet",
   "chain": "ETH",
   "rpc": [
-    "https://sepolia.era.zksync.dev",
     "https://zksync-sepolia.drpc.org",
+    "https://sepolia.era.zksync.dev",
     "wss://zksync-sepolia.drpc.org"
   ],
   "faucets": [],
@@ -29,7 +29,13 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge.zksync.io/" }]
+    "bridges": [
+      {
+        "url": "https://bridge.zksync.io/"
+      }
+    ]
   },
-  "redFlags": ["reusedChainId"]
+  "redFlags": [
+    "reusedChainId"
+  ]
 }

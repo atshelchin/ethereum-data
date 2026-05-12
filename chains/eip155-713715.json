@@ -2,8 +2,8 @@
   "name": "Sei Devnet",
   "chain": "Sei",
   "rpc": [
-    "https://evm-rpc-arctic-1.sei-apis.com",
-    "https://evm-rpc.arctic-1.seinetwork.io"
+    "https://evm-rpc.arctic-1.seinetwork.io",
+    "https://evm-rpc-arctic-1.sei-apis.com"
   ],
   "faucets": [
     "https://sei-faucet.nima.enterprises",

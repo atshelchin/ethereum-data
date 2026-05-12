@@ -3,11 +3,11 @@
   "chain": "FIL",
   "icon": "filecoin",
   "rpc": [
+    "https://filecoin.drpc.org",
     "https://api.node.glif.io/",
     "https://rpc.ankr.com/filecoin",
-    "https://filecoin-mainnet.chainstacklabs.com/rpc/v1",
     "https://filfox.info/rpc/v1",
-    "https://filecoin.drpc.org",
+    "https://filecoin-mainnet.chainstacklabs.com/rpc/v1",
     "wss://filecoin.drpc.org"
   ],
   "faucets": [],

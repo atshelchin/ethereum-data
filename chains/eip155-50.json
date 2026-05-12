@@ -3,12 +3,12 @@
   "chain": "XDC",
   "rpc": [
     "https://erpc.xinfin.network",
+    "https://rpc.xdc.org",
     "https://rpc.xinfin.network",
-    "https://rpc1.xinfin.network",
-    "https://rpc.xdcrpc.com",
-    "https://erpc.xdcrpc.com",
     "https://rpc.ankr.com/xdc",
-    "https://rpc.xdc.org"
+    "https://rpc.xdcrpc.com",
+    "https://rpc1.xinfin.network",
+    "https://erpc.xdcrpc.com"
   ],
   "faucets": [],
   "nativeCurrency": {

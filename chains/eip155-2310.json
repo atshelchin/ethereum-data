@@ -2,9 +2,9 @@
   "name": "CratD2C",
   "chain": "CRATD2C",
   "rpc": [
+    "https://node3.cratd2csmartchain.io",
     "https://node1.cratd2csmartchain.io",
-    "https://node2.cratd2csmartchain.io",
-    "https://node3.cratd2csmartchain.io"
+    "https://node2.cratd2csmartchain.io"
   ],
   "faucets": [],
   "nativeCurrency": {

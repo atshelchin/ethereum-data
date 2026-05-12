@@ -2,9 +2,9 @@
   "name": "Base Sepolia Testnet",
   "chain": "ETH",
   "rpc": [
+    "https://base-sepolia.drpc.org",
     "https://sepolia.base.org",
     "https://base-sepolia-rpc.publicnode.com",
-    "https://base-sepolia.drpc.org",
     "https://base-sepolia-testnet.api.pocket.network",
     "https://base-sepolia.blockpi.network/v1/rpc/public",
     "wss://base-sepolia-rpc.publicnode.com"

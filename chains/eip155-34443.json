@@ -2,8 +2,8 @@
   "name": "Mode",
   "chain": "ETH",
   "rpc": [
-    "https://mainnet.mode.network",
     "https://mode.drpc.org",
+    "https://mainnet.mode.network",
     "https://1rpc.io/mode",
     "wss://mode.drpc.org"
   ],

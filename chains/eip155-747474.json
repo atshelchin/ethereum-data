@@ -2,8 +2,8 @@
   "name": "katana",
   "chain": "katana",
   "rpc": [
-    "https://rpc.katana.network",
     "https://katana.gateway.tenderly.co/",
+    "https://rpc.katana.network",
     "https://rpc.katanarpc.com/"
   ],
   "features": [

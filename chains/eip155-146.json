@@ -2,13 +2,13 @@
   "name": "Sonic Mainnet",
   "chain": "sonic",
   "rpc": [
-    "https://rpc.soniclabs.com",
-    "https://sonic-rpc.publicnode.com",
-    "https://rpc.ankr.com/sonic_mainnet",
     "https://sonic.drpc.org",
+    "https://sonic-rpc.publicnode.com",
     "https://sonic.api.pocket.network",
-    "https://sonic.blockpi.network/v1/rpc/public",
+    "https://rpc.soniclabs.com",
     "https://sonic.api.onfinality.io/public",
+    "https://rpc.ankr.com/sonic_mainnet",
+    "https://sonic.blockpi.network/v1/rpc/public",
     "wss://sonic-rpc.publicnode.com"
   ],
   "faucets": [],

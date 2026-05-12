@@ -3,8 +3,8 @@
   "title": "ONFA Chain Mainnet",
   "chain": "onfa",
   "rpc": [
-    "https://rpc.onfachain.com",
     "https://rpc.onfachain.net",
+    "https://rpc.onfachain.com",
     "wss://ws.onfachain.com",
     "wss://ws.onfachain.net"
   ],

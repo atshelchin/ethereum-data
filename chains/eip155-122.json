@@ -2,10 +2,10 @@
   "name": "Fuse Mainnet",
   "chain": "FUSE",
   "rpc": [
-    "https://rpc.fuse.io",
-    "https://fuse.drpc.org",
-    "https://fuse.api.pocket.network",
     "https://fuse-pokt.nodies.app",
+    "https://rpc.fuse.io",
+    "https://fuse.api.pocket.network",
+    "https://fuse.drpc.org",
     "wss://fuse.drpc.org"
   ],
   "faucets": [],

@@ -3,8 +3,8 @@
   "chain": "ETH",
   "icon": "lisk",
   "rpc": [
-    "https://rpc.api.lisk.com",
-    "https://lisk.drpc.org"
+    "https://lisk.drpc.org",
+    "https://rpc.api.lisk.com"
   ],
   "faucets": [],
   "nativeCurrency": {

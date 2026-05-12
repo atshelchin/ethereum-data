@@ -3,11 +3,11 @@
   "title": "Merlin Mainnet",
   "chain": "Merlin",
   "rpc": [
-    "https://rpc.merlinchain.io",
-    "https://merlin-mainnet-enterprise.unifra.io",
-    "https://rpc-merlin.rockx.com",
     "https://merlin.drpc.org",
-    "https://merlin.blockpi.network/v1/rpc/public"
+    "https://rpc.merlinchain.io",
+    "https://merlin.blockpi.network/v1/rpc/public",
+    "https://merlin-mainnet-enterprise.unifra.io",
+    "https://rpc-merlin.rockx.com"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -5,9 +5,9 @@
   "icon": "taiko",
   "rpc": [
     "https://rpc.mainnet.taiko.xyz",
+    "https://taiko.drpc.org",
     "https://taiko-rpc.publicnode.com",
     "https://rpc.ankr.com/taiko",
-    "https://taiko.drpc.org",
     "https://taiko.api.pocket.network",
     "https://taiko.blockpi.network/v1/rpc/public",
     "wss://taiko-rpc.publicnode.com"

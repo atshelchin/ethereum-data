@@ -2,13 +2,15 @@
   "name": "Boba Sepolia",
   "chain": "ETH",
   "rpc": [
-    "https://sepolia.boba.network",
-    "https://boba-sepolia.gateway.tenderly.co",
     "https://gateway.tenderly.co/public/boba-sepolia",
+    "https://boba-sepolia.gateway.tenderly.co",
+    "https://sepolia.boba.network",
     "wss://boba-sepolia.gateway.tenderly.co/",
     "wss://gateway.tenderly.co/public/boba-sepolia"
   ],
-  "faucets": ["https://www.l2faucet.com/boba"],
+  "faucets": [
+    "https://www.l2faucet.com/boba"
+  ],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -18,7 +20,6 @@
   "shortName": "BobaSepolia",
   "chainId": 28882,
   "networkId": 28882,
-
   "explorers": [
     {
       "name": "Routescan",

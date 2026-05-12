@@ -2,8 +2,13 @@
   "name": "MaalChain Testnet",
   "chain": "MaalChain Testnet",
   "icon": "maal-test",
-  "rpc": ["https://node1.maalscan.io/", "https://rpc-bntest.maalscan.io/"],
-  "faucets": ["https://faucet-testnet.maalscan.io/"],
+  "rpc": [
+    "https://rpc-bntest.maalscan.io/",
+    "https://node1.maalscan.io/"
+  ],
+  "faucets": [
+    "https://faucet-testnet.maalscan.io/"
+  ],
   "nativeCurrency": {
     "name": "MAAL",
     "symbol": "MAAL",

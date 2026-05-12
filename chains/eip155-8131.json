@@ -3,10 +3,12 @@
   "chain": "MEER",
   "rpc": [
     "https://testnet-qng.rpc.qitmeer.io",
-    "https://testnet.meerlabs.com",
-    "https://meer.testnet.meerfans.club"
+    "https://meer.testnet.meerfans.club",
+    "https://testnet.meerlabs.com"
   ],
-  "faucets": ["https://faucet.qitmeer.io"],
+  "faucets": [
+    "https://faucet.qitmeer.io"
+  ],
   "nativeCurrency": {
     "name": "Qitmeer Testnet",
     "symbol": "MEER-T",

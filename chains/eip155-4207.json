@@ -3,10 +3,10 @@
   "title": "EDGEN",
   "chain": "EDGEN",
   "rpc": [
-    "https://layeredge-mainnet-evm.itrocket.net",
-    "https://layeredge.rpc.subquery.network/public",
     "https://rpc.layeredge.io",
-    "https://rpc.layeredge.foundation"
+    "https://rpc.layeredge.foundation",
+    "https://layeredge.rpc.subquery.network/public",
+    "https://layeredge-mainnet-evm.itrocket.net"
   ],
   "faucets": [],
   "nativeCurrency": {

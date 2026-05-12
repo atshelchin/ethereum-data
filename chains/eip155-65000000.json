@@ -2,8 +2,8 @@
   "name": "Autonity Mainnet",
   "chain": "AUT",
   "rpc": [
-    "https://rpc.autonity-apis.com",
     "https://autonity.rpc.web3cdn.network",
+    "https://rpc.autonity-apis.com",
     "https://autonity.rpc.subquery.network/public",
     "wss://rpc.autonity-apis.com",
     "wss://autonity.rpc.web3cdn.network",

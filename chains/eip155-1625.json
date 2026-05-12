@@ -2,9 +2,9 @@
   "name": "Gravity Alpha Mainnet",
   "chain": "Gravity",
   "rpc": [
+    "https://gravity-alpha.drpc.org",
     "https://rpc.gravity.xyz",
-    "https://rpc.ankr.com/gravity",
-    "https://gravity-alpha.drpc.org"
+    "https://rpc.ankr.com/gravity"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -4,10 +4,10 @@
   "status": "active",
   "rpc": [
     "https://sepolia-rpc.scroll.io",
+    "https://scroll-sepolia-rpc.publicnode.com",
     "https://rpc.ankr.com/scroll_sepolia_testnet",
     "https://scroll-sepolia.chainstacklabs.com",
     "https://scroll-testnet-public.unifra.io",
-    "https://scroll-sepolia-rpc.publicnode.com",
     "wss://scroll-sepolia-rpc.publicnode.com"
   ],
   "faucets": [],
@@ -31,6 +31,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://sepolia.scroll.io/bridge" }]
+    "bridges": [
+      {
+        "url": "https://sepolia.scroll.io/bridge"
+      }
+    ]
   }
 }

@@ -3,9 +3,9 @@
   "title": "Morph Mainnet",
   "chain": "ETH",
   "rpc": [
+    "https://morph.drpc.org",
     "https://rpc.morphl2.io",
     "https://rpc-quicknode.morphl2.io",
-    "https://morph.drpc.org",
     "wss://rpc.morphl2.io:8443",
     "wss://rpc-quicknode.morphl2.io"
   ],

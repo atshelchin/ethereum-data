@@ -2,8 +2,8 @@
   "name": "ApeChain",
   "chain": "apechain",
   "rpc": [
-    "https://rpc.apechain.com",
-    "https://apechain.drpc.org"
+    "https://apechain.drpc.org",
+    "https://rpc.apechain.com"
   ],
   "faucets": [],
   "nativeCurrency": {

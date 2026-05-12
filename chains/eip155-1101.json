@@ -3,11 +3,11 @@
   "title": "Polygon zkEVM",
   "chain": "Polygon",
   "rpc": [
-    "https://zkevm-rpc.com",
     "https://polygon-zkevm.drpc.org",
+    "https://zkevm-rpc.com",
+    "https://poly-zkevm.api.pocket.network",
     "https://rpc.ankr.com/polygon_zkevm",
     "https://1rpc.io/polygon/zkevm",
-    "https://poly-zkevm.api.pocket.network",
     "https://polygon-zkevm.blockpi.network/v1/rpc/public",
     "wss://polygon-zkevm.drpc.org"
   ],

@@ -3,8 +3,8 @@
   "title": "Ronin",
   "chain": "ronin",
   "rpc": [
-    "https://api.roninchain.com/rpc",
-    "https://ronin.drpc.org"
+    "https://ronin.drpc.org",
+    "https://api.roninchain.com/rpc"
   ],
   "faucets": [],
   "nativeCurrency": {

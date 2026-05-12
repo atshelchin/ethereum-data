@@ -3,9 +3,9 @@
   "chain": "Arc Network",
   "icon": "arcnetwork",
   "rpc": [
-    "https://rpc.testnet.arc.network",
     "https://rpc.quicknode.testnet.arc.network",
     "https://rpc.blockdaemon.testnet.arc.network",
+    "https://rpc.testnet.arc.network",
     "wss://rpc.testnet.arc.network",
     "wss://rpc.quicknode.testnet.arc.network"
   ],

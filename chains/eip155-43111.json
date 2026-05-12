@@ -2,8 +2,8 @@
   "name": "Hemi",
   "chain": "ETH",
   "rpc": [
-    "https://rpc.hemi.network/rpc",
     "https://hemi.drpc.org",
+    "https://rpc.hemi.network/rpc",
     "https://hemi.blockpi.network/v1/rpc/public"
   ],
   "faucets": [],

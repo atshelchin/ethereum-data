@@ -3,10 +3,10 @@
   "chain": "AVAX",
   "icon": "avax",
   "rpc": [
+    "https://avalanche-fuji.drpc.org",
     "https://api.avax-test.network/ext/bc/C/rpc",
     "https://avalanche-fuji-c-chain-rpc.publicnode.com",
     "https://rpc.ankr.com/avalanche_fuji",
-    "https://avalanche-fuji.drpc.org",
     "https://avalanche-testnet.blockpi.network/v1/rpc/public",
     "wss://avalanche-fuji-c-chain-rpc.publicnode.com"
   ],

@@ -3,8 +3,8 @@
   "chain": "LaChain",
   "icon": "lachain-network",
   "rpc": [
-    "https://rpc1.mainnet.lachain.network",
     "https://rpc2.mainnet.lachain.network",
+    "https://rpc1.mainnet.lachain.network",
     "https://lachain.rpc-nodes.cedalio.dev"
   ],
   "faucets": [],
@@ -13,7 +13,14 @@
     "symbol": "LAC",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "",
   "shortName": "lachain",
   "chainId": 274,

@@ -2,8 +2,8 @@
   "name": "Bitlayer Mainnet",
   "chain": "Bitlayer",
   "rpc": [
-    "https://rpc.bitlayer.org",
     "https://rpc.bitlayer-rpc.com",
+    "https://rpc.bitlayer.org",
     "https://rpc.ankr.com/bitlayer",
     "https://rpc-bitlayer.rockx.com",
     "wss://ws.bitlayer.org",

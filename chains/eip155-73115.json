@@ -3,8 +3,8 @@
   "chain": "ICB",
   "icon": "icbnetwork",
   "rpc": [
-    "https://rpc1-mainnet.icbnetwork.info/",
-    "https://rpc2-mainnet.icbnetwork.info/"
+    "https://rpc2-mainnet.icbnetwork.info/",
+    "https://rpc1-mainnet.icbnetwork.info/"
   ],
   "faucets": [],
   "nativeCurrency": {

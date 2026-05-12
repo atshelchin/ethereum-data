@@ -2,11 +2,13 @@
   "name": "XGR Testnet",
   "chain": "XGR",
   "rpc": [
-    "https://rpc.testnet.xgr.network",
+    "https://rpc2.testnet.xgr.network",
     "https://rpc1.testnet.xgr.network",
-    "https://rpc2.testnet.xgr.network"
+    "https://rpc.testnet.xgr.network"
   ],
-  "faucets": ["https://faucet.xgr.network"],
+  "faucets": [
+    "https://faucet.xgr.network"
+  ],
   "nativeCurrency": {
     "name": "XGR",
     "symbol": "XGR",

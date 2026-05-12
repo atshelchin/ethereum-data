@@ -2,8 +2,8 @@
   "name": "Neon EVM Mainnet",
   "chain": "Solana",
   "rpc": [
-    "https://neon-proxy-mainnet.solana.p2p.org",
     "https://neon-evm.drpc.org",
+    "https://neon-proxy-mainnet.solana.p2p.org",
     "wss://neon-evm.drpc.org"
   ],
   "faucets": [],

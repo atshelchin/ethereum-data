@@ -2,8 +2,8 @@
   "name": "WEMIX3.0 Mainnet",
   "chain": "WEMIX",
   "rpc": [
-    "https://api.wemix.com",
     "https://wemix.drpc.org",
+    "https://api.wemix.com",
     "wss://ws.wemix.com"
   ],
   "faucets": [],

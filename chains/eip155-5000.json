@@ -3,14 +3,14 @@
   "chain": "ETH",
   "icon": "mantle",
   "rpc": [
-    "https://rpc.mantle.xyz",
-    "https://mantle-rpc.publicnode.com",
-    "https://rpc.ankr.com/mantle",
     "https://mantle.drpc.org",
+    "https://mantle-rpc.publicnode.com",
+    "https://rpc.mantle.xyz",
+    "https://mantle.api.onfinality.io/public",
+    "https://rpc.ankr.com/mantle",
     "https://1rpc.io/mantle",
     "https://mantle.api.pocket.network",
     "https://mantle.blockpi.network/v1/rpc/public",
-    "https://mantle.api.onfinality.io/public",
     "wss://mantle-rpc.publicnode.com"
   ],
   "faucets": [],

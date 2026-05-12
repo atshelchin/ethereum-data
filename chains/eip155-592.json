@@ -2,9 +2,9 @@
   "name": "Astar",
   "chain": "ASTR",
   "rpc": [
+    "https://astar.api.onfinality.io/public",
     "https://rpc.astar.network:8545",
-    "https://1rpc.io/astr",
-    "https://astar.api.onfinality.io/public"
+    "https://1rpc.io/astr"
   ],
   "faucets": [],
   "nativeCurrency": {

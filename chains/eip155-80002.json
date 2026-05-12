@@ -4,13 +4,13 @@
   "chain": "Polygon",
   "icon": "polygon",
   "rpc": [
-    "https://rpc-amoy.polygon.technology",
-    "https://polygon-amoy-bor-rpc.publicnode.com",
-    "https://rpc.ankr.com/polygon_amoy",
     "https://polygon-amoy.drpc.org",
+    "https://rpc-amoy.polygon.technology",
     "https://poly-amoy-testnet.api.pocket.network",
-    "https://polygon-amoy.blockpi.network/v1/rpc/public",
+    "https://polygon-amoy-bor-rpc.publicnode.com",
     "https://polygon-amoy.api.onfinality.io/public",
+    "https://rpc.ankr.com/polygon_amoy",
+    "https://polygon-amoy.blockpi.network/v1/rpc/public",
     "wss://polygon-amoy-bor-rpc.publicnode.com"
   ],
   "faucets": [

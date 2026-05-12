@@ -2,9 +2,9 @@
   "name": "Japan Open Chain Testnet",
   "chain": "JOCT",
   "rpc": [
-    "https://rpc-1.testnet.japanopenchain.org:8545",
     "https://rpc-3.testnet.japanopenchain.org",
-    "https://rpc-2.testnet.japanopenchain.org:8545"
+    "https://rpc-2.testnet.japanopenchain.org:8545",
+    "https://rpc-1.testnet.japanopenchain.org:8545"
   ],
   "faucets": [],
   "nativeCurrency": {

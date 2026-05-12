@@ -2,10 +2,10 @@
   "name": "Plasma Mainnet",
   "chain": "Plasma",
   "rpc": [
-    "https://rpc.plasma.to",
     "https://plasma.drpc.org",
-    "https://plasma.blockpi.network/v1/rpc/public",
-    "https://plasma.api.onfinality.io/public"
+    "https://plasma.api.onfinality.io/public",
+    "https://rpc.plasma.to",
+    "https://plasma.blockpi.network/v1/rpc/public"
   ],
   "faucets": [],
   "nativeCurrency": {

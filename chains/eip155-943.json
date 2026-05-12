@@ -7,9 +7,9 @@
   "icon": "pulsechain",
   "infoURL": "https://pulsechain.com",
   "rpc": [
-    "https://rpc.v4.testnet.pulsechain.com",
     "https://pulsechain-testnet-rpc.publicnode.com",
     "https://rpc-testnet-pulsechain.g4mm4.io",
+    "https://rpc.v4.testnet.pulsechain.com",
     "wss://rpc.v4.testnet.pulsechain.com",
     "wss://pulsechain-testnet-rpc.publicnode.com",
     "wss://rpc-testnet-pulsechain.g4mm4.io"

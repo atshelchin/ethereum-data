@@ -4,8 +4,8 @@
   "rpc": [
     "https://rpc-bitgert.icecreamswap.com",
     "https://mainnet-rpc.brisescan.com",
-    "https://chainrpc.com",
-    "https://serverrpc.com"
+    "https://serverrpc.com",
+    "https://chainrpc.com"
   ],
   "faucets": [],
   "nativeCurrency": {

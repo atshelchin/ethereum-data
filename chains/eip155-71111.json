@@ -2,9 +2,9 @@
   "name": "GuapcoinX",
   "chain": "GuapcoinX",
   "rpc": [
-    "https://rpc-mainnet.guapcoinx.com/",
+    "https://rpc-mainnet-2.guapcoinx.com/",
     "https://rpc-mainnet-1.guapcoinx.com/",
-    "https://rpc-mainnet-2.guapcoinx.com/"
+    "https://rpc-mainnet.guapcoinx.com/"
   ],
   "faucets": [],
   "nativeCurrency": {

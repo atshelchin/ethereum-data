@@ -3,8 +3,8 @@
   "title": "Silicon zkEVM Sepolia Testnet",
   "chain": "Silicon",
   "rpc": [
-    "https://rpc-sepolia.silicon.network",
-    "https://silicon-testnet.nodeinfra.com"
+    "https://silicon-testnet.nodeinfra.com",
+    "https://rpc-sepolia.silicon.network"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -27,7 +27,11 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge-sepolia.silicon.network" }]
+    "bridges": [
+      {
+        "url": "https://bridge-sepolia.silicon.network"
+      }
+    ]
   },
   "status": "active"
 }

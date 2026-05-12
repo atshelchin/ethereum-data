@@ -3,9 +3,9 @@
   "title": "Ethereum Testnet Holesky",
   "chain": "ETH",
   "rpc": [
+    "https://holesky.drpc.org",
     "https://rpc.holesky.ethpandaops.io",
     "https://ethereum-holesky-rpc.publicnode.com",
-    "https://holesky.drpc.org",
     "https://rpc-holesky.rockx.com",
     "https://1rpc.io/holesky",
     "https://ethereum-holesky.blockpi.network/v1/rpc/public",

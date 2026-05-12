@@ -6,9 +6,9 @@
   "networkId": 369,
   "infoURL": "https://pulsechain.com/",
   "rpc": [
-    "https://rpc.pulsechain.com",
     "https://pulsechain-rpc.publicnode.com",
     "https://rpc-pulsechain.g4mm4.io",
+    "https://rpc.pulsechain.com",
     "wss://pulsechain-rpc.publicnode.com"
   ],
   "icon": "pulsechain",

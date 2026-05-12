@@ -3,8 +3,8 @@
   "title": "Bifrost Network Mainnet",
   "chain": "BFC",
   "rpc": [
-    "https://public-01.mainnet.bifrostnetwork.com/rpc",
-    "https://public-02.mainnet.bifrostnetwork.com/rpc"
+    "https://public-02.mainnet.bifrostnetwork.com/rpc",
+    "https://public-01.mainnet.bifrostnetwork.com/rpc"
   ],
   "faucets": [],
   "nativeCurrency": {

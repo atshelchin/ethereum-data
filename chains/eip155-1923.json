@@ -3,8 +3,8 @@
   "chain": "ETH",
   "rpc": [
     "https://swell-mainnet.alt.technology",
-    "https://rpc.ankr.com/swell",
-    "https://swell.drpc.org"
+    "https://swell.drpc.org",
+    "https://rpc.ankr.com/swell"
   ],
   "faucets": [],
   "nativeCurrency": {

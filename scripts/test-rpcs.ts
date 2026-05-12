@@ -5,12 +5,12 @@ import { join } from "path";
 
 const CHAINS_DIR = join(import.meta.dir, "../chains");
 const TIMEOUT = 5000;
-const TEST_ROUNDS = 2; // test each RPC multiple times for stability
+const BURST_COUNT = 5; // send 5 requests concurrently to test rate limiting
 
 interface RpcResult {
   url: string;
-  avgLatency: number; // average latency in ms, Infinity if failed
-  successCount: number;
+  avgLatency: number;
+  burstSuccess: number; // how many of the 5 concurrent requests succeeded
 }
 
 async function testRpc(url: string): Promise<number | null> {
@@ -35,6 +35,27 @@ async function testRpc(url: string): Promise<number | null> {
   }
 }
 
+// Burst test: fire BURST_COUNT requests simultaneously
+async function burstTest(url: string): Promise<{ successCount: number; avgLatency: number }> {
+  const results = await Promise.all(
+    Array.from({ length: BURST_COUNT }, () => testRpc(url))
+  );
+
+  let total = 0;
+  let count = 0;
+  for (const latency of results) {
+    if (latency !== null) {
+      total += latency;
+      count++;
+    }
+  }
+
+  return {
+    successCount: count,
+    avgLatency: count > 0 ? Math.round(total / count) : Infinity,
+  };
+}
+
 function isTestable(url: string): boolean {
   return url.startsWith("http") && !url.includes("${") && !url.includes("$");
 }
@@ -53,45 +74,33 @@ async function testChain(filePath: string, fileName: string) {
     return;
   }
 
-  console.log(`  🔍 ${data.name} (${fileName}) — testing ${testableRpcs.length} RPCs...`);
+  console.log(`  🔍 ${data.name} (${fileName}) — burst testing ${testableRpcs.length} RPCs (${BURST_COUNT} concurrent)...`);
 
-  // Test all RPCs in parallel, multiple rounds
-  const results: RpcResult[] = await Promise.all(
-    testableRpcs.map(async (url: string) => {
-      let totalLatency = 0;
-      let successCount = 0;
+  // Test each RPC sequentially to avoid cross-interference
+  const results: RpcResult[] = [];
+  for (const url of testableRpcs) {
+    const { successCount, avgLatency } = await burstTest(url);
+    results.push({ url, avgLatency, burstSuccess: successCount });
+  }
 
-      for (let i = 0; i < TEST_ROUNDS; i++) {
-        const latency = await testRpc(url);
-        if (latency !== null) {
-          totalLatency += latency;
-          successCount++;
-        }
-      }
-
-      const avgLatency = successCount > 0 ? Math.round(totalLatency / successCount) : Infinity;
-      return { url, avgLatency, successCount };
-    })
-  );
-
-  // Sort: by success count desc, then by avg latency asc
+  // Sort: burst success desc → avg latency asc
   results.sort((a, b) => {
-    if (a.successCount !== b.successCount) return b.successCount - a.successCount;
+    if (a.burstSuccess !== b.burstSuccess) return b.burstSuccess - a.burstSuccess;
     return a.avgLatency - b.avgLatency;
   });
 
   // Log results
   for (const r of results) {
-    const status = r.successCount > 0
-      ? `${r.avgLatency}ms (${r.successCount}/${TEST_ROUNDS})`
+    const status = r.burstSuccess > 0
+      ? `${r.avgLatency}ms (${r.burstSuccess}/${BURST_COUNT})`
       : "FAILED";
-    console.log(`    ${r.successCount > 0 ? "✅" : "❌"} ${status} — ${r.url}`);
+    const icon = r.burstSuccess === BURST_COUNT ? "🟢" : r.burstSuccess >= 3 ? "🟡" : r.burstSuccess > 0 ? "🟠" : "❌";
+    console.log(`    ${icon} ${status} — ${r.url}`);
   }
 
   // Rebuild rpc array: sorted testable first, then non-testable
   const newRpc = [...results.map(r => r.url), ...nonTestableRpcs];
 
-  // Check if order changed
   const orderChanged = JSON.stringify(data.rpc) !== JSON.stringify(newRpc);
   if (orderChanged) {
     data.rpc = newRpc;

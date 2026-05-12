@@ -3,8 +3,8 @@
   "chain": "ALV",
   "rpc": [
     "https://elves-core1.alvey.io",
-    "https://elves-core2.alvey.io",
-    "https://elves-core3.alvey.io"
+    "https://elves-core3.alvey.io",
+    "https://elves-core2.alvey.io"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -2,10 +2,12 @@
   "name": "Rootstock Testnet",
   "chain": "Rootstock",
   "rpc": [
-    "https://public-node.testnet.rsk.co",
-    "https://mycrypto.testnet.rsk.co"
+    "https://mycrypto.testnet.rsk.co",
+    "https://public-node.testnet.rsk.co"
   ],
-  "faucets": ["https://faucet.rsk.co/"],
+  "faucets": [
+    "https://faucet.rsk.co/"
+  ],
   "icon": "rootstock",
   "nativeCurrency": {
     "name": "Testnet Smart Bitcoin",

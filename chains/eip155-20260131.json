@@ -4,8 +4,8 @@
   "icon": "metaassets",
   "rpc": [
     "https://rpc.ma-chain.xyz",
-    "https://madataseed.xyz",
     "https://maclive.info",
+    "https://madataseed.xyz",
     "wss://madataseed.xyz/ws",
     "wss://maclive.info/ws"
   ],

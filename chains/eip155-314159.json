@@ -3,15 +3,17 @@
   "chain": "FIL",
   "icon": "filecoin",
   "rpc": [
+    "https://filecoin-calibration.drpc.org",
     "https://api.calibration.node.glif.io/rpc/v1",
     "https://rpc.ankr.com/filecoin_testnet",
+    "https://calibration.filfox.info/rpc/v1",
     "https://filecoin-calibration.chainstacklabs.com/rpc/v1",
     "https://filecoin-calibration.chainup.net/rpc/v1",
-    "https://calibration.filfox.info/rpc/v1",
-    "https://filecoin-calibration.drpc.org",
     "wss://filecoin-calibration.drpc.org"
   ],
-  "faucets": ["https://faucet.calibration.fildev.network/"],
+  "faucets": [
+    "https://faucet.calibration.fildev.network/"
+  ],
   "nativeCurrency": {
     "name": "testnet filecoin",
     "symbol": "tFIL",

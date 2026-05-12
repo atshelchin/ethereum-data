@@ -3,8 +3,8 @@
   "chain": "Ramestta",
   "icon": "ramestta",
   "rpc": [
-    "https://blockchain.ramestta.com",
-    "https://blockchain2.ramestta.com"
+    "https://blockchain2.ramestta.com",
+    "https://blockchain.ramestta.com"
   ],
   "faucets": [],
   "nativeCurrency": {

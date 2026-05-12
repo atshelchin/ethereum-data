@@ -2,10 +2,10 @@
   "name": "Darwinia Network",
   "chain": "darwinia",
   "rpc": [
+    "https://darwinia.rpc.subquery.network/public",
     "https://rpc.darwinia.network",
     "https://darwinia-rpc.dcdao.box",
     "https://darwinia-rpc.dwellir.com",
-    "https://darwinia.rpc.subquery.network/public",
     "https://darwinia2.api.onfinality.io/public"
   ],
   "faucets": [],

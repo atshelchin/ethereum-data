@@ -2,8 +2,8 @@
   "name": "Syscoin Tanenbaum Testnet",
   "chain": "SYS",
   "rpc": [
-    "https://rpc.tanenbaum.io",
     "https://syscoin-tanenbaum-evm.publicnode.com",
+    "https://rpc.tanenbaum.io",
     "wss://rpc.tanenbaum.io/wss",
     "wss://syscoin-tanenbaum-evm.publicnode.com"
   ],

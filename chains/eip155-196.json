@@ -2,9 +2,9 @@
   "name": "X Layer Mainnet",
   "chain": "X Layer",
   "rpc": [
+    "https://xlayer.drpc.org",
     "https://rpc.xlayer.tech",
     "https://xlayerrpc.okx.com",
-    "https://xlayer.drpc.org",
     "https://xlayer.blockpi.network/v1/rpc/public",
     "https://rpc.ankr.com/xlayer"
   ],

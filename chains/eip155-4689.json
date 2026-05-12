@@ -3,9 +3,9 @@
   "chain": "iotex.io",
   "rpc": [
     "https://babel-api.mainnet.iotex.io",
-    "https://rpc.ankr.com/iotex",
     "https://iotex.api.pocket.network",
-    "https://iotex.api.onfinality.io/public"
+    "https://iotex.api.onfinality.io/public",
+    "https://rpc.ankr.com/iotex"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -2,11 +2,11 @@
   "name": "Sei Network",
   "chain": "Sei",
   "rpc": [
+    "https://sei.drpc.org",
     "https://evm-rpc.sei-apis.com",
     "https://sei-evm-rpc.publicnode.com",
-    "https://rpc.ankr.com/sei_evm",
-    "https://sei.drpc.org",
     "https://sei.api.pocket.network",
+    "https://rpc.ankr.com/sei_evm",
     "wss://evm-ws.sei-apis.com",
     "wss://sei-evm-rpc.publicnode.com"
   ],

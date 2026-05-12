@@ -2,8 +2,8 @@
   "name": "Bitlayer Testnet",
   "chain": "Bitlayer",
   "rpc": [
-    "https://testnet-rpc.bitlayer.org",
     "https://testnet-rpc.bitlayer-rpc.com",
+    "https://testnet-rpc.bitlayer.org",
     "https://rpc.ankr.com/bitlayer_testnet",
     "wss://testnet-ws.bitlayer.org",
     "wss://testnet-ws.bitlayer-rpc.com"
