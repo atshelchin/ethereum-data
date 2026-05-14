@@ -9,7 +9,6 @@ const ROOT_DIR = join(import.meta.dir, "..");
 const CHAINS_DIR = join(ROOT_DIR, "chains");
 const CHAIN_LOGOS_DIR = join(ROOT_DIR, "chainlogos");
 const ASSETS_DIR = join(ROOT_DIR, "assets");
-const CONTRACTS_DIR = join(ROOT_DIR, "contracts");
 const INDEX_DIR = join(ROOT_DIR, "index");
 const INDEX_HTML = join(ROOT_DIR, "index.html");
 
@@ -32,17 +31,10 @@ interface AssetFull {
   hasLogo?: boolean;
 }
 
-// Original contract data with full field names (for Fuse.js)
-interface ContractFull {
-  chainId: number;
-  address: string;
-  name: string;
-}
-
 interface FuseIndex {
   v: string;
   t: string;
-  data: ChainFull[] | AssetFull[] | ContractFull[];
+  data: ChainFull[] | AssetFull[];
   index: ReturnType<typeof Fuse.createIndex>["toJSON"] extends () => infer R ? R : never;
 }
 
@@ -133,59 +125,15 @@ async function loadAssets(): Promise<AssetFull[]> {
   return assets;
 }
 
-async function loadContracts(): Promise<ContractFull[]> {
-  const contracts: ContractFull[] = [];
-
-  try {
-    const chainDirs = await readdir(CONTRACTS_DIR);
-
-    for (const chainDir of chainDirs) {
-      const match = chainDir.match(/^eip155-(\d+)$/);
-      if (!match) continue;
-
-      const chainId = parseInt(match[1], 10);
-      const chainPath = join(CONTRACTS_DIR, chainDir);
-
-      try {
-        const addressDirs = await readdir(chainPath);
-
-        for (const addressDir of addressDirs) {
-          const infoPath = join(chainPath, addressDir, "info.json");
-
-          try {
-            const content = await readFile(infoPath, "utf-8");
-            const data = JSON.parse(content);
-
-            contracts.push({
-              chainId,
-              address: addressDir,
-              name: data.name || "",
-            });
-          } catch {
-            // Skip if no info.json
-          }
-        }
-      } catch (e) {
-        // Skip invalid chain directories
-      }
-    }
-  } catch (e) {
-    console.error("Error reading contracts:", e);
-  }
-
-  return contracts;
-}
-
 async function generateIndex() {
   console.log("Loading data from original directories...");
 
-  const [chains, assets, contracts] = await Promise.all([
+  const [chains, assets] = await Promise.all([
     loadChains(),
     loadAssets(),
-    loadContracts(),
   ]);
 
-  console.log(`Loaded: ${chains.length} chains, ${assets.length} assets, ${contracts.length} contracts`);
+  console.log(`Loaded: ${chains.length} chains, ${assets.length} assets`);
 
   // Clean and recreate index directory
   try {
@@ -224,24 +172,9 @@ async function generateIndex() {
     JSON.stringify(assetFuseData)
   );
 
-  // Contract index (search by name)
-  const contractKeys = ["name"];
-  const contractIndex = Fuse.createIndex(contractKeys, contracts);
-  const contractFuseData: FuseIndex = {
-    v: "3.0.0",
-    t: new Date().toISOString(),
-    data: contracts,
-    index: contractIndex.toJSON(),
-  };
-  await writeFile(
-    join(INDEX_DIR, "fuse-contracts.json"),
-    JSON.stringify(contractFuseData)
-  );
-
   const chainSize = JSON.stringify(chainFuseData).length;
   const assetSize = JSON.stringify(assetFuseData).length;
-  const contractSize = JSON.stringify(contractFuseData).length;
-  const totalSize = chainSize + assetSize + contractSize;
+  const totalSize = chainSize + assetSize;
 
   // Update stats in index.html
   console.log("Updating index.html stats...");
@@ -254,16 +187,11 @@ async function generateIndex() {
     /(<div class="stat-value" id="asset-count">)([^<]*)(<\/div>)/,
     `$1${assets.length.toLocaleString()}$3`
   );
-  html = html.replace(
-    /(<div class="stat-value" id="contract-count">)([^<]*)(<\/div>)/,
-    `$1${contracts.length.toLocaleString()}$3`
-  );
   await writeFile(INDEX_HTML, html);
 
   console.log("\nIndex generation complete!");
   console.log(`  - fuse-chains.json: ${(chainSize / 1024).toFixed(0)} KB (${chains.length} chains)`);
   console.log(`  - fuse-assets.json: ${(assetSize / 1024).toFixed(0)} KB (${assets.length} assets)`);
-  console.log(`  - fuse-contracts.json: ${(contractSize / 1024).toFixed(0)} KB (${contracts.length} contracts)`);
   console.log(`  - Total: ${(totalSize / 1024 / 1024).toFixed(2)} MB`);
 }
 

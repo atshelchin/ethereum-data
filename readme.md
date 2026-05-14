@@ -1,6 +1,6 @@
 # Ethereum Data Repository
 
-A comprehensive dataset containing EVM-compatible blockchain networks, token assets, and verified smart contracts.
+A comprehensive dataset containing EVM-compatible blockchain networks, token assets, and clear signing descriptors.
 
 **Live Demo:** [ethereum-data.awesometools.dev](https://ethereum-data.awesometools.dev)
 
@@ -11,15 +11,13 @@ ethereum-data/
 ├── chains/          # Network/chain definitions (2600+ chains)
 ├── chainlogos/      # Chain/network logo images
 ├── assets/          # Token information organized by chain (12500+ tokens)
-├── contracts/       # Verified smart contract data
 ├── erc7730/         # ERC-7730 clear signing descriptors (auto-generated)
 │   ├── ercs.json
 │   ├── calldata/{chainId}/{address}.json
 │   └── eip712/{chainId}/{address}.json
 ├── index/           # Fuse.js search indexes (auto-generated)
 │   ├── fuse-chains.json
-│   ├── fuse-assets.json
-│   └── fuse-contracts.json
+│   └── fuse-assets.json
 └── index.html       # Landing page with live search demo
 ```
 
@@ -63,13 +61,6 @@ GET /assets/eip155-{chainId}/{contractAddress}/logo.png
 
 Example: [`/assets/eip155-1/0xdAC17F958D2ee523a2206206994597C13D831ec7/info.json`](https://ethereum-data.awesometools.dev/assets/eip155-1/0xdAC17F958D2ee523a2206206994597C13D831ec7/info.json) (USDT)
 
-### Contracts
-
-```
-GET /contracts/eip155-{chainId}/{contractAddress}/info.json
-GET /contracts/eip155-{chainId}/{contractAddress}/payload.json
-```
-
 ### ERC-7730 Clear Signing
 
 Human-readable transaction descriptors from the [ERC-7730 registry](https://github.com/ethereum/clear-signing-erc7730-registry).
@@ -101,7 +92,6 @@ cd ../ethereum-data && bun run build:erc7730
 ```
 GET /index/fuse-chains.json
 GET /index/fuse-assets.json
-GET /index/fuse-contracts.json
 ```
 
 ---
@@ -114,7 +104,6 @@ Pre-built [Fuse.js](https://fusejs.io/) indexes for fuzzy search. Each index fil
 | ----------------------- | --------------------- | ------- |
 | `fuse-chains.json`    | Chain data + index    | ~500 KB |
 | `fuse-assets.json`    | Asset data + index    | ~2.5 MB |
-| `fuse-contracts.json` | Contract data + index | ~1 KB   |
 
 **Usage Example:**
 
@@ -146,8 +135,6 @@ console.log(results[0].item); // { chainId: 1, address: "0x...", name: "Tether U
 // Asset
 { chainId: 1, address: "0x...", name: "Tether USD", symbol: "USDT", decimals: 6, hasLogo: true }
 
-// Contract
-{ chainId: 137, address: "0x...", name: "MyContract" }
 ```
 
 ---
@@ -295,69 +282,6 @@ assets/
 
 ---
 
-### Contracts (`contracts/`)
-
-Verified smart contracts organized by chain:
-
-```
-contracts/
-└── eip155-137/
-    └── 0x1b04e723.../
-        ├── info.json      # Contract metadata
-        └── payload.json   # ABI and bytecode
-```
-
-**Contract info.json Format:**
-
-```json
-{
-  "id": "137:0x1b04e723170Dfd23E99b086dDB7C17962890aFe8",
-  "chainId": 137,
-  "name": "BiuBiuPremium",
-  "address": "0x1b04e723170Dfd23E99b086dDB7C17962890aFe8",
-  "explorer": "https://polygonscan.com/address/0x1b04e723170dfd23e99b086ddb7c17962890afe8#code",
-  "sourceCode": {
-    "url": "https://github.com/atshelchin/biubiu-contracts",
-    "commitId": "cc04f15",
-    "compilerVersion": "0.8.28+commit.7893614a",
-    "optimization": { "enabled": true, "runs": 200 },
-    "evmVersion": "cancun"
-  },
-  "proxy": {
-    "isProxy": false,
-    "proxyType": "",
-    "implementation": ""
-  }
-}
-```
-
-| Field                          | Type    | Description                         |
-| ------------------------------ | ------- | ----------------------------------- |
-| `id`                         | string  | Unique identifier (chainId:address) |
-| `chainId`                    | number  | Chain ID where contract is deployed |
-| `name`                       | string  | Contract name                       |
-| `address`                    | string  | Contract address                    |
-| `explorer`                   | string  | Block explorer URL                  |
-| `sourceCode.url`             | string  | Source code repository              |
-| `sourceCode.commitId`        | string  | Git commit hash                     |
-| `sourceCode.compilerVersion` | string  | Solidity compiler version           |
-| `sourceCode.optimization`    | object  | Compiler optimization settings      |
-| `sourceCode.evmVersion`      | string  | Target EVM version                  |
-| `proxy.isProxy`              | boolean | Whether contract is a proxy         |
-| `proxy.proxyType`            | string  | Proxy pattern type (if applicable)  |
-| `proxy.implementation`       | string  | Implementation address (if proxy)   |
-
-**Contract payload.json Format:**
-
-```json
-{
-  "abi": [...],       // Contract ABI (Application Binary Interface)
-  "bytecode": "0x..." // Compiled contract bytecode
-}
-```
-
----
-
 ## Naming Conventions
 
 All chain-related identifiers follow the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) standard:
@@ -387,7 +311,7 @@ All chain-related identifiers follow the [CAIP-2](https://github.com/ChainAgnost
 
 Contributions are welcome! Feel free to:
 
-- Add new chains, assets, or contracts
+- Add new chains or assets
 - Fix incorrect data
 - Improve documentation
 - Report issues

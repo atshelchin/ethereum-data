@@ -7,7 +7,6 @@ const patterns = [
   { glob: "./chains/**/*", filter: (f: string) => f.endsWith(".json") || f.endsWith(".png") },
   { glob: "./chainlogos/**/*", filter: (f: string) => f.endsWith(".png") || f.endsWith(".svg") },
   { glob: "./assets/**/*", filter: (f: string) => f.endsWith(".json") || f.endsWith(".png") },
-  { glob: "./contracts/**/*", filter: (f: string) => f.endsWith(".json") },
   { glob: "./index/**/*", filter: (f: string) => f.endsWith(".json") },
 ];
 
