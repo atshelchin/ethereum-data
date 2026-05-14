@@ -177,7 +177,7 @@ async function buildCalldata() {
       }
     }
 
-    const fileKey = `${parsed.chainId}/${parsed.address}`;
+    const fileKey = `eip155-${parsed.chainId}/${parsed.address}`;
     if (!grouped.has(fileKey)) grouped.set(fileKey, []);
     grouped.get(fileKey)!.push(descriptorCache.get(descriptorPath));
   }
@@ -240,7 +240,7 @@ async function buildEip712() {
 
     if (Object.keys(flat).length === 0) continue;
     await writeJson(
-      join(OUT_DIR, "eip712", `${parsed.chainId}/${parsed.address}.json`),
+      join(OUT_DIR, "eip712", `eip155-${parsed.chainId}/${parsed.address}.json`),
       flat
     );
     count++;
