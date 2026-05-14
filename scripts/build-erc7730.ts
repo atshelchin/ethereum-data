@@ -92,6 +92,9 @@ async function resolveDescriptor(filePath: string): Promise<any> {
     try {
       const included = await resolveDescriptor(includePath);
 
+      // Merge context (included first, descriptor overrides)
+      desc.context = mergeObjects(included?.context, desc.context);
+
       // Merge metadata (included first, descriptor overrides)
       desc.metadata = mergeObjects(included?.metadata, desc.metadata);
 
