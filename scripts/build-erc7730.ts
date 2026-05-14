@@ -134,16 +134,16 @@ async function buildErcs() {
     return;
   }
   const files = await readdir(ERCS_DIR);
-  const result: Record<string, any> = {};
+  let count = 0;
   for (const f of files) {
     if (!f.endsWith(".json")) continue;
     const name = basename(f, ".json"); // e.g. "calldata-erc20-tokens"
     const desc = await readJson(join(ERCS_DIR, f));
     delete desc.$schema;
-    result[name] = desc;
+    await writeJson(join(OUT_DIR, "ercs", `${name}.json`), desc);
+    count++;
   }
-  await writeJson(join(OUT_DIR, "ercs.json"), result);
-  console.log(`ercs.json: ${Object.keys(result).length} standards`);
+  console.log(`ercs/: ${count} files`);
 }
 
 // ---------------------------------------------------------------------------

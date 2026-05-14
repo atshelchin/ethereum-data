@@ -12,7 +12,7 @@ ethereum-data/
 ├── chainlogos/      # Chain/network logo images
 ├── assets/          # Token information organized by chain (12500+ tokens)
 ├── erc7730/         # ERC-7730 clear signing descriptors (auto-generated)
-│   ├── ercs.json
+│   ├── ercs/{name}.json
 │   ├── calldata/{chainId}/{address}.json
 │   └── eip712/{chainId}/{address}.json
 ├── index/           # Fuse.js search indexes (auto-generated)
@@ -66,20 +66,20 @@ Example: [`/assets/eip155-1/0xdAC17F958D2ee523a2206206994597C13D831ec7/info.json
 Human-readable transaction descriptors from the [ERC-7730 registry](https://github.com/ethereum/clear-signing-erc7730-registry).
 
 ```
-GET /erc7730/ercs.json
+GET /erc7730/ercs/{name}.json
 GET /erc7730/calldata/{chainId}/{address}.json
 GET /erc7730/eip712/{chainId}/{address}.json
 ```
 
-- **ercs.json** — Universal ERC standards (ERC-20 transfer/approve, ERC-721, ERC-4626, ERC-2612 permit). Works for any contract implementing these standards.
+- **ercs/** — Universal ERC standards (ERC-20 transfer/approve, ERC-721, ERC-4626, ERC-2612 permit). Works for any contract implementing these standards.
 - **calldata/** — Per-contract descriptors for `eth_sendTransaction`. Keyed by function signature.
 - **eip712/** — Per-contract descriptors for `eth_signTypedData`. Keyed by `encodeTypeHash` (keccak256 of EIP-712 encodeType).
 
 Example: [`/erc7730/calldata/1/0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45.json`](https://ethereum-data.awesometools.dev/erc7730/calldata/1/0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45.json) (Uniswap V3 Router)
 
 **Wallet lookup flow:**
-1. `eth_sendTransaction` → fetch `calldata/{chainId}/{to}.json`, match by function selector → fallback to `ercs.json` → blind sign
-2. `eth_signTypedData` → fetch `eip712/{chainId}/{contract}.json`, match by encodeTypeHash → fallback to `ercs.json` → blind sign
+1. `eth_sendTransaction` → fetch `calldata/{chainId}/{to}.json`, match by function selector → fallback to `ercs/calldata-erc20-tokens.json` etc. → blind sign
+2. `eth_signTypedData` → fetch `eip712/{chainId}/{contract}.json`, match by encodeTypeHash → fallback to `ercs/eip712-erc2612-permit.json` → blind sign
 
 **Update from upstream:**
 ```bash

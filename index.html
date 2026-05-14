@@ -844,7 +844,7 @@
         {
           title: 'ERC-7730 Clear Signing',
           endpoints: [
-            { path: '/erc7730/ercs.json', desc: 'Universal ERC standards (ERC-20, ERC-721, etc.)', example: '/erc7730/ercs.json' },
+            { path: '/erc7730/ercs/{name}.json', desc: 'Universal ERC standards (ERC-20, ERC-721, etc.)', example: '/erc7730/ercs/calldata-erc20-tokens.json' },
             { path: '/erc7730/calldata/{chainId}/{address}.json', desc: 'Transaction calldata descriptors', example: '/erc7730/calldata/1/0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45.json' },
             { path: '/erc7730/eip712/{chainId}/{address}.json', desc: 'EIP-712 typed data descriptors', example: '/erc7730/eip712/10/0x000000000022d473030f116ddee9f6b43ac78ba3.json' },
           ]
