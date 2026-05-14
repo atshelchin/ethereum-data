@@ -1,6 +1,5 @@
 {
   "$schema": "../../specs/erc7730-v2.schema.json",
-  "includes": "common-AggregationRouterV6.json",
   "context": {
     "$id": "AggregationRouterV6",
     "contract": {

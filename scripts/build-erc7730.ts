@@ -87,6 +87,7 @@ async function resolveDescriptor(filePath: string): Promise<any> {
     } catch {
       // include target missing — continue with what we have
     }
+    delete desc.includes;
   }
 
   resolveCache.set(filePath, desc);

@@ -1,6 +1,5 @@
 {
   "$schema": "../../specs/erc7730-v2.schema.json",
-  "includes": "common-SafeToL2Setup.json",
   "context": {
     "$id": "SafeToL2Setup",
     "contract": {
