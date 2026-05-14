@@ -1,45 +1,51 @@
 {
-  "createProxyWithNonce(address _singleton, bytes initializer, uint256 saltNonce)": {
-    "$id": "createProxyWithNonce",
-    "intent": "Create Safe",
-    "fields": [
-      {
-        "path": "initializer",
-        "format": "calldata",
-        "label": "Account setup",
-        "params": {
-          "calleePath": "_singleton"
-        }
-      },
-      {
-        "label": "Salt Nonce",
-        "path": "saltNonce",
-        "visible": "never"
-      }
-    ]
+  "$id": "SafeProxyFactory",
+  "metadata": {
+    "contractName": "SafeProxyFactory"
   },
-  "createProxyWithCallback(address _singleton, bytes initializer, uint256 saltNonce, address callback)": {
-    "$id": "createProxyWithCallback",
-    "intent": "Create Safe",
-    "fields": [
-      {
-        "path": "initializer",
-        "format": "calldata",
-        "label": "Account setup",
-        "params": {
-          "calleePath": "_singleton"
+  "formats": {
+    "createProxyWithNonce(address _singleton, bytes initializer, uint256 saltNonce)": {
+      "$id": "createProxyWithNonce",
+      "intent": "Create Safe",
+      "fields": [
+        {
+          "path": "initializer",
+          "format": "calldata",
+          "label": "Account setup",
+          "params": {
+            "calleePath": "_singleton"
+          }
+        },
+        {
+          "label": "Salt Nonce",
+          "path": "saltNonce",
+          "visible": "never"
         }
-      },
-      {
-        "label": "Salt Nonce",
-        "path": "saltNonce",
-        "visible": "never"
-      },
-      {
-        "label": "Callback",
-        "path": "callback",
-        "visible": "never"
-      }
-    ]
+      ]
+    },
+    "createProxyWithCallback(address _singleton, bytes initializer, uint256 saltNonce, address callback)": {
+      "$id": "createProxyWithCallback",
+      "intent": "Create Safe",
+      "fields": [
+        {
+          "path": "initializer",
+          "format": "calldata",
+          "label": "Account setup",
+          "params": {
+            "calleePath": "_singleton"
+          }
+        },
+        {
+          "label": "Salt Nonce",
+          "path": "saltNonce",
+          "visible": "never"
+        },
+        {
+          "label": "Callback",
+          "path": "callback",
+          "visible": "never"
+        }
+      ]
+    }
   }
 }

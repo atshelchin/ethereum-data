@@ -1,6 +1,16 @@
 {
-  "createPod()": {
-    "intent": "Create EigenLayerPod",
-    "fields": []
+  "$id": "EigenPodManager",
+  "metadata": {
+    "owner": "Eigen Labs, Inc.",
+    "info": {
+      "url": "https://www.eigencloud.xyz/"
+    },
+    "contractName": "EigenPodManager"
+  },
+  "formats": {
+    "createPod()": {
+      "intent": "Create EigenLayerPod",
+      "fields": []
+    }
   }
 }

@@ -149,17 +149,27 @@ async function buildCalldata() {
     grouped.get(fileKey)!.push(descriptorCache.get(descriptorPath));
   }
 
-  // Write per-address files: merge all descriptors' display.formats into one object
+  // Write per-address files: keep context/metadata + merge all formats
   let count = 0;
   for (const [fileKey, descriptors] of grouped) {
-    const merged: Record<string, any> = {};
+    const formats: Record<string, any> = {};
+    let metadata: any = undefined;
+    let contextId: string | undefined;
+
     for (const desc of descriptors) {
-      const formats = desc?.display?.formats;
-      if (!formats) continue;
-      Object.assign(merged, formats);
+      const f = desc?.display?.formats;
+      if (f) Object.assign(formats, f);
+      if (desc?.metadata && !metadata) metadata = desc.metadata;
+      if (desc?.context?.$id && !contextId) contextId = desc.context.$id;
     }
-    if (Object.keys(merged).length === 0) continue;
-    await writeJson(join(OUT_DIR, "calldata", `${fileKey}.json`), merged);
+    if (Object.keys(formats).length === 0) continue;
+
+    const output: Record<string, any> = {};
+    if (contextId) output.$id = contextId;
+    if (metadata) output.metadata = metadata;
+    output.formats = formats;
+
+    await writeJson(join(OUT_DIR, "calldata", `${fileKey}.json`), output);
     count++;
   }
   console.log(`calldata/: ${count} files`);

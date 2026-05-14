@@ -1,86 +1,99 @@
 {
-  "transfer(uint256 amount, uint16 recipientChain, bytes32 recipient)": {
-    "$id": "transfer",
-    "intent": "Bridge BORG",
-    "fields": [
-      {
-        "$id": "amount",
-        "label": "Amount",
-        "format": "tokenAmount",
-        "params": {
-          "token": "$.metadata.constants.borgAddress"
-        },
-        "path": "#.amount",
-        "visible": "always"
-      },
-      {
-        "$id": "destinationChain",
-        "label": "Destination Chain",
-        "format": "raw",
-        "path": "#.recipientChain",
-        "visible": "always"
-      },
-      {
-        "$id": "encodedDestinationAddress",
-        "label": "Destination Address",
-        "format": "raw",
-        "path": "#.recipient",
-        "visible": "always"
-      }
-    ]
+  "$id": "BORG Bridge (Outbound)",
+  "metadata": {
+    "owner": "SwissBorg",
+    "info": {
+      "url": "https://swissborg.com/bridge"
+    },
+    "constants": {
+      "borgAddress": "0x64d0f55Cd8C7133a9D7102b13987235F486F2224"
+    },
+    "contractName": "BORG Bridge (Outbound)"
   },
-  "transfer(uint256 amount, uint16 recipientChain, bytes32 recipient, bytes32 refundAddress, bool shouldQueue, bytes transceiverInstructions)": {
-    "$id": "transfer2",
-    "intent": "Bridge BORG",
-    "fields": [
-      {
-        "$id": "amount",
-        "label": "Amount",
-        "format": "tokenAmount",
-        "params": {
-          "token": "$.metadata.constants.borgAddress"
+  "formats": {
+    "transfer(uint256 amount, uint16 recipientChain, bytes32 recipient)": {
+      "$id": "transfer",
+      "intent": "Bridge BORG",
+      "fields": [
+        {
+          "$id": "amount",
+          "label": "Amount",
+          "format": "tokenAmount",
+          "params": {
+            "token": "$.metadata.constants.borgAddress"
+          },
+          "path": "#.amount",
+          "visible": "always"
         },
-        "path": "#.amount",
-        "visible": "always"
-      },
-      {
-        "$id": "destinationChain",
-        "label": "Destination Chain",
-        "format": "raw",
-        "path": "#.recipientChain",
-        "visible": "always"
-      },
-      {
-        "$id": "encodedDestinationAddress",
-        "label": "Destination Address",
-        "format": "raw",
-        "path": "#.recipient",
-        "visible": "always"
-      },
-      {
-        "$id": "refundAddress",
-        "label": "Refund Address",
-        "format": "raw",
-        "path": "#.refundAddress"
-      },
-      {
-        "$id": "shouldQueue",
-        "label": "Should Queue",
-        "format": "raw",
-        "path": "#.shouldQueue"
-      },
-      {
-        "$id": "transceiverInstructions",
-        "label": "Instructions",
-        "format": "raw",
-        "path": "#.transceiverInstructions"
-      },
-      {
-        "$id": "relayingFee",
-        "label": "Relaying Fee",
-        "path": "@.value",
-        "format": "amount"
-      }
-    ]
+        {
+          "$id": "destinationChain",
+          "label": "Destination Chain",
+          "format": "raw",
+          "path": "#.recipientChain",
+          "visible": "always"
+        },
+        {
+          "$id": "encodedDestinationAddress",
+          "label": "Destination Address",
+          "format": "raw",
+          "path": "#.recipient",
+          "visible": "always"
+        }
+      ]
+    },
+    "transfer(uint256 amount, uint16 recipientChain, bytes32 recipient, bytes32 refundAddress, bool shouldQueue, bytes transceiverInstructions)": {
+      "$id": "transfer2",
+      "intent": "Bridge BORG",
+      "fields": [
+        {
+          "$id": "amount",
+          "label": "Amount",
+          "format": "tokenAmount",
+          "params": {
+            "token": "$.metadata.constants.borgAddress"
+          },
+          "path": "#.amount",
+          "visible": "always"
+        },
+        {
+          "$id": "destinationChain",
+          "label": "Destination Chain",
+          "format": "raw",
+          "path": "#.recipientChain",
+          "visible": "always"
+        },
+        {
+          "$id": "encodedDestinationAddress",
+          "label": "Destination Address",
+          "format": "raw",
+          "path": "#.recipient",
+          "visible": "always"
+        },
+        {
+          "$id": "refundAddress",
+          "label": "Refund Address",
+          "format": "raw",
+          "path": "#.refundAddress"
+        },
+        {
+          "$id": "shouldQueue",
+          "label": "Should Queue",
+          "format": "raw",
+          "path": "#.shouldQueue"
+        },
+        {
+          "$id": "transceiverInstructions",
+          "label": "Instructions",
+          "format": "raw",
+          "path": "#.transceiverInstructions"
+        },
+        {
+          "$id": "relayingFee",
+          "label": "Relaying Fee",
+          "path": "@.value",
+          "format": "amount"
+        }
+      ]
+    }
   }
 }

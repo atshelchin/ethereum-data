@@ -1,109 +1,120 @@
 {
-  "createLock(uint256 amount, uint256 unlockTime)": {
-    "intent": "Lock Tokens",
-    "fields": [
-      {
-        "path": "amount",
-        "label": "Amount",
-        "format": "tokenAmount",
-        "params": {
-          "token": "0xeF4461891DfB3AC8572cCf7C794664A8DD927945"
-        },
-        "visible": "always"
-      },
-      {
-        "path": "unlockTime",
-        "label": "Unlock Time",
-        "format": "date",
-        "params": {
-          "encoding": "timestamp"
-        },
-        "visible": "always"
-      }
-    ]
+  "$id": "WalletConnect StakeWeight",
+  "metadata": {
+    "owner": "WalletConnect Foundation",
+    "info": {
+      "url": "https://walletconnect.network/",
+      "deploymentDate": "2024-11-23T14:50:43Z"
+    },
+    "contractName": "WalletConnect StakeWeight"
   },
-  "depositFor(address for_, uint256 amount)": {
-    "intent": "Lock tokens",
-    "fields": [
-      {
-        "path": "for_",
-        "label": "For",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa"
-          ],
-          "sources": [
-            "local",
-            "ens"
-          ]
+  "formats": {
+    "createLock(uint256 amount, uint256 unlockTime)": {
+      "intent": "Lock Tokens",
+      "fields": [
+        {
+          "path": "amount",
+          "label": "Amount",
+          "format": "tokenAmount",
+          "params": {
+            "token": "0xeF4461891DfB3AC8572cCf7C794664A8DD927945"
+          },
+          "visible": "always"
         },
-        "visible": "always"
-      },
-      {
-        "path": "amount",
-        "label": "Amount",
-        "format": "tokenAmount",
-        "params": {
-          "token": "0xeF4461891DfB3AC8572cCf7C794664A8DD927945"
+        {
+          "path": "unlockTime",
+          "label": "Unlock Time",
+          "format": "date",
+          "params": {
+            "encoding": "timestamp"
+          },
+          "visible": "always"
+        }
+      ]
+    },
+    "depositFor(address for_, uint256 amount)": {
+      "intent": "Lock tokens",
+      "fields": [
+        {
+          "path": "for_",
+          "label": "For",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa"
+            ],
+            "sources": [
+              "local",
+              "ens"
+            ]
+          },
+          "visible": "always"
         },
-        "visible": "always"
-      }
-    ]
-  },
-  "increaseLockAmount(uint256 amount)": {
-    "intent": "Increase Lock Amount",
-    "fields": [
-      {
-        "path": "amount",
-        "label": "Amount",
-        "format": "tokenAmount",
-        "params": {
-          "token": "0xeF4461891DfB3AC8572cCf7C794664A8DD927945"
+        {
+          "path": "amount",
+          "label": "Amount",
+          "format": "tokenAmount",
+          "params": {
+            "token": "0xeF4461891DfB3AC8572cCf7C794664A8DD927945"
+          },
+          "visible": "always"
+        }
+      ]
+    },
+    "increaseLockAmount(uint256 amount)": {
+      "intent": "Increase Lock Amount",
+      "fields": [
+        {
+          "path": "amount",
+          "label": "Amount",
+          "format": "tokenAmount",
+          "params": {
+            "token": "0xeF4461891DfB3AC8572cCf7C794664A8DD927945"
+          },
+          "visible": "always"
+        }
+      ]
+    },
+    "increaseUnlockTime(uint256 newUnlockTime)": {
+      "intent": "Increase Unlock Time",
+      "fields": [
+        {
+          "path": "newUnlockTime",
+          "label": "New Unlock Time",
+          "format": "date",
+          "params": {
+            "encoding": "timestamp"
+          },
+          "visible": "always"
+        }
+      ]
+    },
+    "updateLock(uint256 amount, uint256 unlockTime)": {
+      "intent": "Update Lock",
+      "fields": [
+        {
+          "path": "amount",
+          "label": "Amount",
+          "format": "tokenAmount",
+          "params": {
+            "token": "0xeF4461891DfB3AC8572cCf7C794664A8DD927945"
+          },
+          "visible": "always"
         },
-        "visible": "always"
-      }
-    ]
-  },
-  "increaseUnlockTime(uint256 newUnlockTime)": {
-    "intent": "Increase Unlock Time",
-    "fields": [
-      {
-        "path": "newUnlockTime",
-        "label": "New Unlock Time",
-        "format": "date",
-        "params": {
-          "encoding": "timestamp"
-        },
-        "visible": "always"
-      }
-    ]
-  },
-  "updateLock(uint256 amount, uint256 unlockTime)": {
-    "intent": "Update Lock",
-    "fields": [
-      {
-        "path": "amount",
-        "label": "Amount",
-        "format": "tokenAmount",
-        "params": {
-          "token": "0xeF4461891DfB3AC8572cCf7C794664A8DD927945"
-        },
-        "visible": "always"
-      },
-      {
-        "path": "unlockTime",
-        "label": "Unlock Time",
-        "format": "date",
-        "params": {
-          "encoding": "timestamp"
-        },
-        "visible": "always"
-      }
-    ]
-  },
-  "withdrawAll()": {
-    "intent": "Withdraw All",
-    "fields": []
+        {
+          "path": "unlockTime",
+          "label": "Unlock Time",
+          "format": "date",
+          "params": {
+            "encoding": "timestamp"
+          },
+          "visible": "always"
+        }
+      ]
+    },
+    "withdrawAll()": {
+      "intent": "Withdraw All",
+      "fields": []
+    }
   }
 }

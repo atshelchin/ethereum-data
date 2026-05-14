@@ -1,12 +1,19 @@
 {
-  "deposit()": {
-    "intent": "Wrap",
-    "fields": [
-      {
-        "path": "@.value",
-        "label": "Amount",
-        "format": "amount"
-      }
-    ]
+  "$id": "WETH",
+  "metadata": {
+    "owner": "WETH",
+    "contractName": "WETH"
+  },
+  "formats": {
+    "deposit()": {
+      "intent": "Wrap",
+      "fields": [
+        {
+          "path": "@.value",
+          "label": "Amount",
+          "format": "amount"
+        }
+      ]
+    }
   }
 }

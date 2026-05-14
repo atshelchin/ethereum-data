@@ -1,17 +1,30 @@
 {
-  "migrate(uint256 _amount)": {
-    "$id": "migrate",
-    "intent": "Migrate CHSB to BORG",
-    "fields": [
-      {
-        "$id": "migrate",
-        "label": "CHSB Amount",
-        "format": "tokenAmount",
-        "params": {
-          "token": "$.metadata.constants.chsbAddress"
-        },
-        "path": "#._amount"
-      }
-    ]
+  "$id": "CHSB to BORG Migrator",
+  "metadata": {
+    "owner": "SwissBorg",
+    "info": {
+      "url": "https://migration.swissborg.com"
+    },
+    "constants": {
+      "chsbAddress": "0xba9d4199faB4f26eFE3551D490E3821486f135Ba"
+    },
+    "contractName": "CHSB to BORG Migrator"
+  },
+  "formats": {
+    "migrate(uint256 _amount)": {
+      "$id": "migrate",
+      "intent": "Migrate CHSB to BORG",
+      "fields": [
+        {
+          "$id": "migrate",
+          "label": "CHSB Amount",
+          "format": "tokenAmount",
+          "params": {
+            "token": "$.metadata.constants.chsbAddress"
+          },
+          "path": "#._amount"
+        }
+      ]
+    }
   }
 }

@@ -1,86 +1,96 @@
 {
-  "claim(address _rewardOwner, address _recipient, uint256 _month, bool _wrap)": {
-    "intent": "claim rewards",
-    "fields": [
-      {
-        "label": "Reward Owner",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa",
-            "wallet"
-          ]
-        },
-        "path": "#._rewardOwner",
-        "visible": "always"
-      },
-      {
-        "label": "Recipient",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa",
-            "wallet"
-          ]
-        },
-        "path": "#._recipient",
-        "visible": "always"
-      },
-      {
-        "label": "Month",
-        "format": "raw",
-        "path": "#._month",
-        "visible": "always"
-      },
-      {
-        "label": "Wrap",
-        "format": "raw",
-        "path": "#._wrap",
-        "visible": "always"
-      }
-    ]
+  "$id": "DistributionToDelegators-Flare",
+  "metadata": {
+    "owner": "Flare Labs",
+    "info": {
+      "url": "https://flare.network/"
+    },
+    "contractName": "DistributionToDelegators-Flare"
   },
-  "autoClaim(address[] _rewardOwners, uint256 _month)": {
-    "intent": "batch claims rewards",
-    "fields": [
-      {
-        "label": "Reward Owner",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa",
-            "wallet"
-          ]
+  "formats": {
+    "claim(address _rewardOwner, address _recipient, uint256 _month, bool _wrap)": {
+      "intent": "claim rewards",
+      "fields": [
+        {
+          "label": "Reward Owner",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa",
+              "wallet"
+            ]
+          },
+          "path": "#._rewardOwner",
+          "visible": "always"
         },
-        "path": "#._rewardOwners.[]",
-        "visible": "always"
-      },
-      {
-        "label": "Month",
-        "format": "raw",
-        "path": "#._month",
-        "visible": "always"
-      }
-    ]
-  },
-  "confirmOptOutOfAirdrop(address[] _optOutAddresses)": {
-    "intent": "opt out of airdrop",
-    "fields": [
-      {
-        "label": "Opt Out Address",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "wallet",
-            "eoa",
-            "contract",
-            "token",
-            "collection"
-          ]
+        {
+          "label": "Recipient",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa",
+              "wallet"
+            ]
+          },
+          "path": "#._recipient",
+          "visible": "always"
         },
-        "path": "#._optOutAddresses.[]",
-        "visible": "always"
-      }
-    ]
+        {
+          "label": "Month",
+          "format": "raw",
+          "path": "#._month",
+          "visible": "always"
+        },
+        {
+          "label": "Wrap",
+          "format": "raw",
+          "path": "#._wrap",
+          "visible": "always"
+        }
+      ]
+    },
+    "autoClaim(address[] _rewardOwners, uint256 _month)": {
+      "intent": "batch claims rewards",
+      "fields": [
+        {
+          "label": "Reward Owner",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa",
+              "wallet"
+            ]
+          },
+          "path": "#._rewardOwners.[]",
+          "visible": "always"
+        },
+        {
+          "label": "Month",
+          "format": "raw",
+          "path": "#._month",
+          "visible": "always"
+        }
+      ]
+    },
+    "confirmOptOutOfAirdrop(address[] _optOutAddresses)": {
+      "intent": "opt out of airdrop",
+      "fields": [
+        {
+          "label": "Opt Out Address",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "wallet",
+              "eoa",
+              "contract",
+              "token",
+              "collection"
+            ]
+          },
+          "path": "#._optOutAddresses.[]",
+          "visible": "always"
+        }
+      ]
+    }
   }
 }

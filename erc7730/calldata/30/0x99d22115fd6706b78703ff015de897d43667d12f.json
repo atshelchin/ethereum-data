@@ -1,172 +1,182 @@
 {
-  "redeemInstant(address tokenOut, uint256 amountMTokenIn, uint256 minReceiveAmount, address recipient)": {
-    "intent": "instantly redeem",
-    "fields": [
-      {
-        "label": "Receive token",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "token"
-          ]
-        },
-        "path": "#.tokenOut",
-        "visible": "always"
-      },
-      {
-        "label": "Amount to redeem",
-        "format": "unit",
-        "params": {
-          "base": " ",
-          "decimals": 18,
-          "prefix": false
-        },
-        "path": "#.amountMTokenIn",
-        "visible": "always"
-      },
-      {
-        "label": "Min receive amount",
-        "format": "unit",
-        "params": {
-          "base": " ",
-          "decimals": 18,
-          "prefix": false
-        },
-        "path": "#.minReceiveAmount",
-        "visible": "always"
-      },
-      {
-        "label": "Receiver",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa",
-            "wallet"
-          ]
-        },
-        "path": "#.recipient",
-        "visible": "always"
-      }
-    ]
+  "$id": "Redemption Vault",
+  "metadata": {
+    "owner": "Midas",
+    "info": {
+      "url": "https://midas.app"
+    },
+    "contractName": "Redemption Vault"
   },
-  "redeemInstant(address tokenOut, uint256 amountMTokenIn, uint256 minReceiveAmount)": {
-    "intent": "instantly redeem",
-    "fields": [
-      {
-        "label": "Receive token",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "token"
-          ]
+  "formats": {
+    "redeemInstant(address tokenOut, uint256 amountMTokenIn, uint256 minReceiveAmount, address recipient)": {
+      "intent": "instantly redeem",
+      "fields": [
+        {
+          "label": "Receive token",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "token"
+            ]
+          },
+          "path": "#.tokenOut",
+          "visible": "always"
         },
-        "path": "#.tokenOut",
-        "visible": "always"
-      },
-      {
-        "label": "Amount to redeem",
-        "format": "unit",
-        "params": {
-          "base": " ",
-          "decimals": 18,
-          "prefix": false
+        {
+          "label": "Amount to redeem",
+          "format": "unit",
+          "params": {
+            "base": " ",
+            "decimals": 18,
+            "prefix": false
+          },
+          "path": "#.amountMTokenIn",
+          "visible": "always"
         },
-        "path": "#.amountMTokenIn",
-        "visible": "always"
-      },
-      {
-        "label": "Min receive amount",
-        "format": "unit",
-        "params": {
-          "base": " ",
-          "decimals": 18,
-          "prefix": false
+        {
+          "label": "Min receive amount",
+          "format": "unit",
+          "params": {
+            "base": " ",
+            "decimals": 18,
+            "prefix": false
+          },
+          "path": "#.minReceiveAmount",
+          "visible": "always"
         },
-        "path": "#.minReceiveAmount",
-        "visible": "always"
-      }
-    ]
-  },
-  "redeemRequest(address tokenOut, uint256 amountMTokenIn, address recipient)": {
-    "intent": "request a redemption",
-    "fields": [
-      {
-        "label": "Receive token",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "token"
-          ]
+        {
+          "label": "Receiver",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa",
+              "wallet"
+            ]
+          },
+          "path": "#.recipient",
+          "visible": "always"
+        }
+      ]
+    },
+    "redeemInstant(address tokenOut, uint256 amountMTokenIn, uint256 minReceiveAmount)": {
+      "intent": "instantly redeem",
+      "fields": [
+        {
+          "label": "Receive token",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "token"
+            ]
+          },
+          "path": "#.tokenOut",
+          "visible": "always"
         },
-        "path": "#.tokenOut",
-        "visible": "always"
-      },
-      {
-        "label": "mToken Amount In",
-        "format": "unit",
-        "params": {
-          "base": " ",
-          "decimals": 18,
-          "prefix": false
+        {
+          "label": "Amount to redeem",
+          "format": "unit",
+          "params": {
+            "base": " ",
+            "decimals": 18,
+            "prefix": false
+          },
+          "path": "#.amountMTokenIn",
+          "visible": "always"
         },
-        "path": "#.amountMTokenIn",
-        "visible": "always"
-      },
-      {
-        "label": "Receiver",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa",
-            "wallet"
-          ]
+        {
+          "label": "Min receive amount",
+          "format": "unit",
+          "params": {
+            "base": " ",
+            "decimals": 18,
+            "prefix": false
+          },
+          "path": "#.minReceiveAmount",
+          "visible": "always"
+        }
+      ]
+    },
+    "redeemRequest(address tokenOut, uint256 amountMTokenIn, address recipient)": {
+      "intent": "request a redemption",
+      "fields": [
+        {
+          "label": "Receive token",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "token"
+            ]
+          },
+          "path": "#.tokenOut",
+          "visible": "always"
         },
-        "path": "#.recipient",
-        "visible": "always"
-      }
-    ]
-  },
-  "redeemRequest(address tokenOut, uint256 amountMTokenIn)": {
-    "intent": "request a redemption",
-    "fields": [
-      {
-        "label": "Receive token",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "token"
-          ]
+        {
+          "label": "mToken Amount In",
+          "format": "unit",
+          "params": {
+            "base": " ",
+            "decimals": 18,
+            "prefix": false
+          },
+          "path": "#.amountMTokenIn",
+          "visible": "always"
         },
-        "path": "#.tokenOut",
-        "visible": "always"
-      },
-      {
-        "label": "mToken Amount In",
-        "format": "unit",
-        "params": {
-          "base": " ",
-          "decimals": 18,
-          "prefix": false
+        {
+          "label": "Receiver",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa",
+              "wallet"
+            ]
+          },
+          "path": "#.recipient",
+          "visible": "always"
+        }
+      ]
+    },
+    "redeemRequest(address tokenOut, uint256 amountMTokenIn)": {
+      "intent": "request a redemption",
+      "fields": [
+        {
+          "label": "Receive token",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "token"
+            ]
+          },
+          "path": "#.tokenOut",
+          "visible": "always"
         },
-        "path": "#.amountMTokenIn",
-        "visible": "always"
-      }
-    ]
-  },
-  "redeemFiatRequest(uint256 amountMTokenIn)": {
-    "intent": "request a redemption",
-    "fields": [
-      {
-        "label": "mToken Amount In",
-        "format": "unit",
-        "params": {
-          "base": " ",
-          "decimals": 18,
-          "prefix": false
-        },
-        "path": "#.amountMTokenIn",
-        "visible": "always"
-      }
-    ]
+        {
+          "label": "mToken Amount In",
+          "format": "unit",
+          "params": {
+            "base": " ",
+            "decimals": 18,
+            "prefix": false
+          },
+          "path": "#.amountMTokenIn",
+          "visible": "always"
+        }
+      ]
+    },
+    "redeemFiatRequest(uint256 amountMTokenIn)": {
+      "intent": "request a redemption",
+      "fields": [
+        {
+          "label": "mToken Amount In",
+          "format": "unit",
+          "params": {
+            "base": " ",
+            "decimals": 18,
+            "prefix": false
+          },
+          "path": "#.amountMTokenIn",
+          "visible": "always"
+        }
+      ]
+    }
   }
 }

@@ -1,46 +1,55 @@
 {
-  "mint(address _validator)": {
-    "intent": "Stake CORE",
-    "fields": [
-      {
-        "format": "amount",
-        "label": "Amount to stake",
-        "path": "@.value"
-      },
-      {
-        "path": "_validator",
-        "label": "Validator Address",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa",
-            "contract"
-          ],
-          "sources": [
-            "local",
-            "ens"
-          ]
-        },
-        "visible": "always"
-      }
-    ]
+  "metadata": {
+    "owner": "CoreDAO Earn Contract",
+    "info": {
+      "url": "https://coredao.org/",
+      "deploymentDate": "2025-02-24T02:55:15Z"
+    }
   },
-  "redeem(uint256 stCore)": {
-    "intent": "Request Redeem",
-    "fields": [
-      {
-        "path": "stCore",
-        "label": "Amount to Redeem",
-        "format": "tokenAmount",
-        "params": {
-          "token": "0xb3A8F0f0da9ffC65318aA39E55079796093029AD"
+  "formats": {
+    "mint(address _validator)": {
+      "intent": "Stake CORE",
+      "fields": [
+        {
+          "format": "amount",
+          "label": "Amount to stake",
+          "path": "@.value"
         },
-        "visible": "always"
-      }
-    ]
-  },
-  "withdraw()": {
-    "intent": "Withdraw CORE",
-    "fields": []
+        {
+          "path": "_validator",
+          "label": "Validator Address",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa",
+              "contract"
+            ],
+            "sources": [
+              "local",
+              "ens"
+            ]
+          },
+          "visible": "always"
+        }
+      ]
+    },
+    "redeem(uint256 stCore)": {
+      "intent": "Request Redeem",
+      "fields": [
+        {
+          "path": "stCore",
+          "label": "Amount to Redeem",
+          "format": "tokenAmount",
+          "params": {
+            "token": "0xb3A8F0f0da9ffC65318aA39E55079796093029AD"
+          },
+          "visible": "always"
+        }
+      ]
+    },
+    "withdraw()": {
+      "intent": "Withdraw CORE",
+      "fields": []
+    }
   }
 }

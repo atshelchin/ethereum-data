@@ -1,58 +1,74 @@
 {
-  "transfer(address to, uint256 value)": {
-    "intent": "Send",
-    "fields": [
-      {
-        "path": "value",
-        "label": "Amount",
-        "format": "tokenAmount",
-        "params": {
-          "tokenPath": "@.to"
-        },
-        "visible": "always"
-      },
-      {
-        "path": "to",
-        "label": "To",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa"
-          ],
-          "sources": [
-            "local",
-            "ens"
-          ]
-        },
-        "visible": "always"
-      }
-    ]
+  "$id": "WalletConnect Token",
+  "metadata": {
+    "owner": "WalletConnect Foundation",
+    "info": {
+      "url": "https://walletconnect.network/",
+      "deploymentDate": "2024-10-28T23:52:01Z"
+    },
+    "token": {
+      "ticker": "WCT",
+      "name": "WalletConnect Token",
+      "decimals": 18
+    },
+    "contractName": "WalletConnect Token"
   },
-  "approve(address spender, uint256 value)": {
-    "intent": "Approve",
-    "fields": [
-      {
-        "path": "spender",
-        "label": "Spender",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa",
-            "contract"
-          ]
+  "formats": {
+    "transfer(address to, uint256 value)": {
+      "intent": "Send",
+      "fields": [
+        {
+          "path": "value",
+          "label": "Amount",
+          "format": "tokenAmount",
+          "params": {
+            "tokenPath": "@.to"
+          },
+          "visible": "always"
         },
-        "visible": "always"
-      },
-      {
-        "path": "value",
-        "label": "Amount",
-        "format": "tokenAmount",
-        "params": {
-          "tokenPath": "@.to",
-          "threshold": "0x8000000000000000000000000000000000000000000000000000000000000000"
+        {
+          "path": "to",
+          "label": "To",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa"
+            ],
+            "sources": [
+              "local",
+              "ens"
+            ]
+          },
+          "visible": "always"
+        }
+      ]
+    },
+    "approve(address spender, uint256 value)": {
+      "intent": "Approve",
+      "fields": [
+        {
+          "path": "spender",
+          "label": "Spender",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa",
+              "contract"
+            ]
+          },
+          "visible": "always"
         },
-        "visible": "always"
-      }
-    ]
+        {
+          "path": "value",
+          "label": "Amount",
+          "format": "tokenAmount",
+          "params": {
+            "tokenPath": "@.to",
+            "threshold": "0x8000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "visible": "always"
+        }
+      ]
+    }
   }
 }

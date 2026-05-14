@@ -1,19 +1,25 @@
 {
-  "setupToL2(address l2Singleton)": {
-    "$id": "setupToL2",
-    "intent": "Setup Safe L2",
-    "fields": [
-      {
-        "path": "l2Singleton",
-        "label": "Module",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "contract"
-          ]
-        },
-        "visible": "always"
-      }
-    ]
+  "$id": "SafeToL2Setup",
+  "metadata": {
+    "contractName": "SafeToL2Setup"
+  },
+  "formats": {
+    "setupToL2(address l2Singleton)": {
+      "$id": "setupToL2",
+      "intent": "Setup Safe L2",
+      "fields": [
+        {
+          "path": "l2Singleton",
+          "label": "Module",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "contract"
+            ]
+          },
+          "visible": "always"
+        }
+      ]
+    }
   }
 }

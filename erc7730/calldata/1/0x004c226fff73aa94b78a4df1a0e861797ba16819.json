@@ -1,13 +1,23 @@
 {
-  "requestExit(bytes[] validators_)": {
-    "intent": "Request Validator Exit",
-    "fields": [
-      {
-        "label": "Validators",
-        "format": "raw",
-        "path": "#.validators_.[]",
-        "visible": "always"
-      }
-    ]
+  "$id": "Kiln Staking - Batch Exit",
+  "metadata": {
+    "owner": "Kiln",
+    "info": {
+      "url": "https://kiln.fi"
+    },
+    "contractName": "Kiln Staking - Batch Exit"
+  },
+  "formats": {
+    "requestExit(bytes[] validators_)": {
+      "intent": "Request Validator Exit",
+      "fields": [
+        {
+          "label": "Validators",
+          "format": "raw",
+          "path": "#.validators_.[]",
+          "visible": "always"
+        }
+      ]
+    }
   }
 }

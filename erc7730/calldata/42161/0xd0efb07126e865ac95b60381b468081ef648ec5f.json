@@ -1,17 +1,27 @@
 {
-  "batchExecute((address to, uint256 value, bytes data)[] calls)": {
-    "$id": "batchExecute",
-    "intent": "Batch transactions",
-    "fields": [
-      {
-        "path": "calls.[].data",
-        "label": "Transaction",
-        "format": "calldata",
-        "params": {
-          "calleePath": "calls.[].to",
-          "amountPath": "calls.[].value"
+  "$id": "BatchExecutor",
+  "metadata": {
+    "owner": "Ledger Multisig",
+    "info": {
+      "url": "https://www.ledger.com"
+    },
+    "contractName": "BatchExecutor"
+  },
+  "formats": {
+    "batchExecute((address to, uint256 value, bytes data)[] calls)": {
+      "$id": "batchExecute",
+      "intent": "Batch transactions",
+      "fields": [
+        {
+          "path": "calls.[].data",
+          "label": "Transaction",
+          "format": "calldata",
+          "params": {
+            "calleePath": "calls.[].to",
+            "amountPath": "calls.[].value"
+          }
         }
-      }
-    ]
+      ]
+    }
   }
 }

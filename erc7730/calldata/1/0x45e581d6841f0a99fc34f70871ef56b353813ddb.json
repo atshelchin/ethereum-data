@@ -1,15 +1,25 @@
 {
-  "receiveMessage(bytes encodedMessage)": {
-    "$id": "receiveMessage",
-    "intent": "Receive Bridged BORG",
-    "fields": [
-      {
-        "$id": "encodedMessage",
-        "label": "Encoded Message",
-        "format": "raw",
-        "path": "#.encodedMessage",
-        "visible": "always"
-      }
-    ]
+  "$id": "BORG Bridge (Inbound)",
+  "metadata": {
+    "owner": "SwissBorg",
+    "info": {
+      "url": "https://swissborg.com/bridge"
+    },
+    "contractName": "BORG Bridge (Inbound)"
+  },
+  "formats": {
+    "receiveMessage(bytes encodedMessage)": {
+      "$id": "receiveMessage",
+      "intent": "Receive Bridged BORG",
+      "fields": [
+        {
+          "$id": "encodedMessage",
+          "label": "Encoded Message",
+          "format": "raw",
+          "path": "#.encodedMessage",
+          "visible": "always"
+        }
+      ]
+    }
   }
 }

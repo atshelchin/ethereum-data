@@ -1,6 +1,14 @@
 {
-  "claimReward()": {
-    "intent": "Claim rewards",
-    "fields": []
+  "metadata": {
+    "owner": "CoreDAO StakeHub Contract",
+    "info": {
+      "url": "https://coredao.org/"
+    }
+  },
+  "formats": {
+    "claimReward()": {
+      "intent": "Claim rewards",
+      "fields": []
+    }
   }
 }

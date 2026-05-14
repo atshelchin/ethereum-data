@@ -1,200 +1,210 @@
 {
-  "activate(address group)": {
-    "$id": "activate",
-    "intent": "Activate",
-    "fields": [
-      {
-        "path": "group",
-        "label": "Validator Group",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "contract"
-          ]
-        },
-        "visible": "always"
-      },
-      {
-        "path": "@.from",
-        "label": "Vote signer",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa"
-          ]
-        },
-        "visible": "always"
-      }
-    ]
+  "$id": "Celo Election",
+  "metadata": {
+    "owner": "Celo",
+    "info": {
+      "url": "https://celo.org/"
+    },
+    "contractName": "Celo Election"
   },
-  "activateForAccount(address group, address account)": {
-    "$id": "activateForAccount",
-    "intent": "Activate Votes",
-    "fields": [
-      {
-        "path": "group",
-        "label": "Validator Group",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "contract"
-          ]
+  "formats": {
+    "activate(address group)": {
+      "$id": "activate",
+      "intent": "Activate",
+      "fields": [
+        {
+          "path": "group",
+          "label": "Validator Group",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "contract"
+            ]
+          },
+          "visible": "always"
         },
-        "visible": "always"
-      },
-      {
-        "path": "account",
-        "label": "Account",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "contract",
-            "eoa"
-          ]
+        {
+          "path": "@.from",
+          "label": "Vote signer",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa"
+            ]
+          },
+          "visible": "always"
+        }
+      ]
+    },
+    "activateForAccount(address group, address account)": {
+      "$id": "activateForAccount",
+      "intent": "Activate Votes",
+      "fields": [
+        {
+          "path": "group",
+          "label": "Validator Group",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "contract"
+            ]
+          },
+          "visible": "always"
         },
-        "visible": "always"
-      }
-    ]
-  },
-  "revokeActive(address group, uint256 value, address lesser, address greater, uint256 index)": {
-    "$id": "revokeActive",
-    "intent": "Revoke Votes",
-    "fields": [
-      {
-        "path": "group",
-        "label": "Validator Group",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "contract"
-          ]
+        {
+          "path": "account",
+          "label": "Account",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "contract",
+              "eoa"
+            ]
+          },
+          "visible": "always"
+        }
+      ]
+    },
+    "revokeActive(address group, uint256 value, address lesser, address greater, uint256 index)": {
+      "$id": "revokeActive",
+      "intent": "Revoke Votes",
+      "fields": [
+        {
+          "path": "group",
+          "label": "Validator Group",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "contract"
+            ]
+          },
+          "visible": "always"
         },
-        "visible": "always"
-      },
-      {
-        "path": "value",
-        "label": "Votes to Revoke",
-        "format": "raw",
-        "visible": "always"
-      },
-      {
-        "label": "Lesser",
-        "path": "lesser",
-        "visible": "never"
-      },
-      {
-        "label": "Greater",
-        "path": "greater",
-        "visible": "never"
-      },
-      {
-        "label": "Index",
-        "path": "index",
-        "visible": "never"
-      }
-    ]
-  },
-  "revokeAllActive(address group, address lesser, address greater, uint256 index)": {
-    "$id": "revokeAllActive",
-    "intent": "Revoke Votes",
-    "fields": [
-      {
-        "path": "group",
-        "label": "Validator Group",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "contract"
-          ]
+        {
+          "path": "value",
+          "label": "Votes to Revoke",
+          "format": "raw",
+          "visible": "always"
         },
-        "visible": "always"
-      },
-      {
-        "label": "Lesser",
-        "path": "lesser",
-        "visible": "never"
-      },
-      {
-        "label": "Greater",
-        "path": "greater",
-        "visible": "never"
-      },
-      {
-        "label": "Index",
-        "path": "index",
-        "visible": "never"
-      }
-    ]
-  },
-  "revokePending(address group, uint256 value, address lesser, address greater, uint256 index)": {
-    "$id": "revokePending",
-    "intent": "Revoke Votes",
-    "fields": [
-      {
-        "path": "value",
-        "label": "Votes to Revoke",
-        "format": "raw",
-        "visible": "always"
-      },
-      {
-        "path": "group",
-        "label": "Validator Group",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "contract"
-          ]
+        {
+          "label": "Lesser",
+          "path": "lesser",
+          "visible": "never"
         },
-        "visible": "always"
-      },
-      {
-        "label": "Lesser",
-        "path": "lesser",
-        "visible": "never"
-      },
-      {
-        "label": "Greater",
-        "path": "greater",
-        "visible": "never"
-      },
-      {
-        "label": "Index",
-        "path": "index",
-        "visible": "never"
-      }
-    ]
-  },
-  "vote(address group, uint256 value, address lesser, address greater)": {
-    "$id": "vote",
-    "intent": "Vote",
-    "fields": [
-      {
-        "path": "group",
-        "label": "Validator Group",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "contract"
-          ]
+        {
+          "label": "Greater",
+          "path": "greater",
+          "visible": "never"
         },
-        "visible": "always"
-      },
-      {
-        "path": "value",
-        "label": "Gold to Vote",
-        "format": "raw",
-        "visible": "always"
-      },
-      {
-        "label": "Lesser",
-        "path": "lesser",
-        "visible": "never"
-      },
-      {
-        "label": "Greater",
-        "path": "greater",
-        "visible": "never"
-      }
-    ]
+        {
+          "label": "Index",
+          "path": "index",
+          "visible": "never"
+        }
+      ]
+    },
+    "revokeAllActive(address group, address lesser, address greater, uint256 index)": {
+      "$id": "revokeAllActive",
+      "intent": "Revoke Votes",
+      "fields": [
+        {
+          "path": "group",
+          "label": "Validator Group",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "contract"
+            ]
+          },
+          "visible": "always"
+        },
+        {
+          "label": "Lesser",
+          "path": "lesser",
+          "visible": "never"
+        },
+        {
+          "label": "Greater",
+          "path": "greater",
+          "visible": "never"
+        },
+        {
+          "label": "Index",
+          "path": "index",
+          "visible": "never"
+        }
+      ]
+    },
+    "revokePending(address group, uint256 value, address lesser, address greater, uint256 index)": {
+      "$id": "revokePending",
+      "intent": "Revoke Votes",
+      "fields": [
+        {
+          "path": "value",
+          "label": "Votes to Revoke",
+          "format": "raw",
+          "visible": "always"
+        },
+        {
+          "path": "group",
+          "label": "Validator Group",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "contract"
+            ]
+          },
+          "visible": "always"
+        },
+        {
+          "label": "Lesser",
+          "path": "lesser",
+          "visible": "never"
+        },
+        {
+          "label": "Greater",
+          "path": "greater",
+          "visible": "never"
+        },
+        {
+          "label": "Index",
+          "path": "index",
+          "visible": "never"
+        }
+      ]
+    },
+    "vote(address group, uint256 value, address lesser, address greater)": {
+      "$id": "vote",
+      "intent": "Vote",
+      "fields": [
+        {
+          "path": "group",
+          "label": "Validator Group",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "contract"
+            ]
+          },
+          "visible": "always"
+        },
+        {
+          "path": "value",
+          "label": "Gold to Vote",
+          "format": "raw",
+          "visible": "always"
+        },
+        {
+          "label": "Lesser",
+          "path": "lesser",
+          "visible": "never"
+        },
+        {
+          "label": "Greater",
+          "path": "greater",
+          "visible": "never"
+        }
+      ]
+    }
   }
 }

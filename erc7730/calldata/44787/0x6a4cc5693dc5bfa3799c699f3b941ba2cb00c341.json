@@ -1,158 +1,172 @@
 {
-  "delegateGovernanceVotes(address delegatee, uint256 delegateFraction)": {
-    "$id": "delegateGovernanceVotes",
-    "intent": "Delegate",
-    "fields": [
-      {
-        "path": "delegateFraction",
-        "label": "Fraction to Delegate",
-        "format": "unit",
-        "params": {
-          "base": "%",
-          "decimals": 22
-        },
-        "visible": "always"
-      },
-      {
-        "path": "delegatee",
-        "label": "Delegatee",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa",
-            "contract"
-          ]
-        },
-        "visible": "always"
-      }
-    ]
+  "$id": "LockedCelo",
+  "metadata": {
+    "owner": "Celo",
+    "info": {
+      "url": "https://celo.org/"
+    },
+    "constants": {
+      "addressAsEth": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "addressAsNull": "0x0000000000000000000000000000000000000000"
+    },
+    "contractName": "LockedCelo"
   },
-  "lock()": {
-    "$id": "lock",
-    "intent": "Lock CELO",
-    "fields": [
-      {
-        "path": "@.value",
-        "label": "Amount to Lock",
-        "format": "amount",
-        "visible": "always"
-      },
-      {
-        "path": "@.from",
-        "label": "Beneficiary",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa",
-            "contract"
-          ]
+  "formats": {
+    "delegateGovernanceVotes(address delegatee, uint256 delegateFraction)": {
+      "$id": "delegateGovernanceVotes",
+      "intent": "Delegate",
+      "fields": [
+        {
+          "path": "delegateFraction",
+          "label": "Fraction to Delegate",
+          "format": "unit",
+          "params": {
+            "base": "%",
+            "decimals": 22
+          },
+          "visible": "always"
         },
-        "visible": "always"
-      }
-    ]
-  },
-  "relock(uint256 index, uint256 value)": {
-    "$id": "relock",
-    "intent": "Relock",
-    "fields": [
-      {
-        "path": "value",
-        "label": "Amount to Relock",
-        "format": "amount",
-        "visible": "always"
-      },
-      {
-        "path": "@.from",
-        "label": "Beneficiary",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa",
-            "contract"
-          ]
+        {
+          "path": "delegatee",
+          "label": "Delegatee",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa",
+              "contract"
+            ]
+          },
+          "visible": "always"
+        }
+      ]
+    },
+    "lock()": {
+      "$id": "lock",
+      "intent": "Lock CELO",
+      "fields": [
+        {
+          "path": "@.value",
+          "label": "Amount to Lock",
+          "format": "amount",
+          "visible": "always"
         },
-        "visible": "always"
-      },
-      {
-        "label": "Index",
-        "path": "index",
-        "visible": "never"
-      }
-    ]
-  },
-  "revokeDelegatedGovernanceVotes(address delegatee, uint256 revokeFraction)": {
-    "$id": "revokeDelegatedGovernanceVotes(address,uint256)",
-    "intent": "Revoke Delegation",
-    "fields": [
-      {
-        "path": "delegatee",
-        "label": "Delegatee",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa",
-            "contract"
-          ]
+        {
+          "path": "@.from",
+          "label": "Beneficiary",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa",
+              "contract"
+            ]
+          },
+          "visible": "always"
+        }
+      ]
+    },
+    "relock(uint256 index, uint256 value)": {
+      "$id": "relock",
+      "intent": "Relock",
+      "fields": [
+        {
+          "path": "value",
+          "label": "Amount to Relock",
+          "format": "amount",
+          "visible": "always"
         },
-        "visible": "always"
-      },
-      {
-        "path": "revokeFraction",
-        "label": "Fraction to Revoke",
-        "format": "unit",
-        "params": {
-          "base": "%",
-          "decimals": 22
+        {
+          "path": "@.from",
+          "label": "Beneficiary",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa",
+              "contract"
+            ]
+          },
+          "visible": "always"
         },
-        "visible": "always"
-      }
-    ]
-  },
-  "unlock(uint256 value)": {
-    "$id": "unlock",
-    "intent": "Unlock",
-    "fields": [
-      {
-        "path": "value",
-        "label": "Amount to Unlock",
-        "format": "amount",
-        "visible": "always"
-      },
-      {
-        "path": "@.from",
-        "label": "Beneficiary",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa",
-            "contract"
-          ]
+        {
+          "label": "Index",
+          "path": "index",
+          "visible": "never"
+        }
+      ]
+    },
+    "revokeDelegatedGovernanceVotes(address delegatee, uint256 revokeFraction)": {
+      "$id": "revokeDelegatedGovernanceVotes(address,uint256)",
+      "intent": "Revoke Delegation",
+      "fields": [
+        {
+          "path": "delegatee",
+          "label": "Delegatee",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa",
+              "contract"
+            ]
+          },
+          "visible": "always"
         },
-        "visible": "always"
-      }
-    ]
-  },
-  "withdraw(uint256 index)": {
-    "$id": "withdraw",
-    "intent": "Withdraw CELO",
-    "fields": [
-      {
-        "path": "@.from",
-        "label": "Beneficiary",
-        "format": "addressName",
-        "params": {
-          "types": [
-            "eoa",
-            "contract"
-          ]
+        {
+          "path": "revokeFraction",
+          "label": "Fraction to Revoke",
+          "format": "unit",
+          "params": {
+            "base": "%",
+            "decimals": 22
+          },
+          "visible": "always"
+        }
+      ]
+    },
+    "unlock(uint256 value)": {
+      "$id": "unlock",
+      "intent": "Unlock",
+      "fields": [
+        {
+          "path": "value",
+          "label": "Amount to Unlock",
+          "format": "amount",
+          "visible": "always"
         },
-        "visible": "always"
-      },
-      {
-        "path": "index",
-        "label": "Withdrawal Index",
-        "format": "raw"
-      }
-    ]
+        {
+          "path": "@.from",
+          "label": "Beneficiary",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa",
+              "contract"
+            ]
+          },
+          "visible": "always"
+        }
+      ]
+    },
+    "withdraw(uint256 index)": {
+      "$id": "withdraw",
+      "intent": "Withdraw CELO",
+      "fields": [
+        {
+          "path": "@.from",
+          "label": "Beneficiary",
+          "format": "addressName",
+          "params": {
+            "types": [
+              "eoa",
+              "contract"
+            ]
+          },
+          "visible": "always"
+        },
+        {
+          "path": "index",
+          "label": "Withdrawal Index",
+          "format": "raw"
+        }
+      ]
+    }
   }
 }
