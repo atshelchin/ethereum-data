@@ -1,0 +1,1 @@
+{"migrate(uint256 _amount)":{"$id":"migrate","intent":"Migrate CHSB to BORG","fields":[{"$id":"migrate","label":"CHSB Amount","format":"tokenAmount","params":{"token":"$.metadata.constants.chsbAddress"},"path":"#._amount"}]}}

@@ -1,0 +1,1 @@
+{"receiveMessage(bytes encodedMessage)":{"$id":"receiveMessage","intent":"Receive Bridged BORG","fields":[{"$id":"encodedMessage","label":"Encoded Message","format":"raw","path":"#.encodedMessage","visible":"always"}]}}

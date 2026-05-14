@@ -12,6 +12,10 @@ ethereum-data/
 ├── chainlogos/      # Chain/network logo images
 ├── assets/          # Token information organized by chain (12500+ tokens)
 ├── contracts/       # Verified smart contract data
+├── erc7730/         # ERC-7730 clear signing descriptors (auto-generated)
+│   ├── ercs.json
+│   ├── calldata/{chainId}/{address}.json
+│   └── eip712/{chainId}/{address}.json
 ├── index/           # Fuse.js search indexes (auto-generated)
 │   ├── fuse-chains.json
 │   ├── fuse-assets.json
@@ -64,6 +68,32 @@ Example: [`/assets/eip155-1/0xdAC17F958D2ee523a2206206994597C13D831ec7/info.json
 ```
 GET /contracts/eip155-{chainId}/{contractAddress}/info.json
 GET /contracts/eip155-{chainId}/{contractAddress}/payload.json
+```
+
+### ERC-7730 Clear Signing
+
+Human-readable transaction descriptors from the [ERC-7730 registry](https://github.com/ethereum/clear-signing-erc7730-registry).
+
+```
+GET /erc7730/ercs.json
+GET /erc7730/calldata/{chainId}/{address}.json
+GET /erc7730/eip712/{chainId}/{address}.json
+```
+
+- **ercs.json** — Universal ERC standards (ERC-20 transfer/approve, ERC-721, ERC-4626, ERC-2612 permit). Works for any contract implementing these standards.
+- **calldata/** — Per-contract descriptors for `eth_sendTransaction`. Keyed by function signature.
+- **eip712/** — Per-contract descriptors for `eth_signTypedData`. Keyed by `encodeTypeHash` (keccak256 of EIP-712 encodeType).
+
+Example: [`/erc7730/calldata/1/0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45.json`](https://ethereum-data.awesometools.dev/erc7730/calldata/1/0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45.json) (Uniswap V3 Router)
+
+**Wallet lookup flow:**
+1. `eth_sendTransaction` → fetch `calldata/{chainId}/{to}.json`, match by function selector → fallback to `ercs.json` → blind sign
+2. `eth_signTypedData` → fetch `eip712/{chainId}/{contract}.json`, match by encodeTypeHash → fallback to `ercs.json` → blind sign
+
+**Update from upstream:**
+```bash
+cd ../clear-signing-erc7730-registry && git pull
+cd ../ethereum-data && bun run build:erc7730
 ```
 
 ### Search Indexes
@@ -346,6 +376,9 @@ All chain-related identifiers follow the [CAIP-2](https://github.com/ChainAgnost
 | Chains                 | 2,602  |
 | Assets                 | 12,935 |
 | Supported Asset Chains | 49     |
+| ERC-7730 Calldata      | 406    |
+| ERC-7730 EIP-712       | 185    |
+| ERC-7730 ERC Standards | 6      |
 | Fuse.js Index Total    | ~3 MB  |
 
 ---

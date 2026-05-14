@@ -211,7 +211,6 @@
     }
     .type-chain { background: #065f46; color: #6ee7b7; }
     .type-asset { background: #1e3a5f; color: #7dd3fc; }
-    .type-contract { background: #78350f; color: #fcd34d; }
     .detail-header {
       display: flex;
       align-items: center;
@@ -446,7 +445,7 @@
     <div class="header">
       <div class="header-left">
         <h1>Ethereum Data</h1>
-        <p class="subtitle">Open-source Ethereum ecosystem data: chains, assets, and contracts</p>
+        <p class="subtitle">Open-source Ethereum ecosystem data: chains, assets, and clear signing</p>
       </div>
       <a href="https://github.com/atshelchin/ethereum-data" target="_blank" class="github-link">
         <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
@@ -464,15 +463,15 @@
         <div class="stat-label">Assets</div>
       </div>
       <div class="stat">
-        <div class="stat-value" id="contract-count">1</div>
-        <div class="stat-label">Contracts</div>
+        <div class="stat-value">591</div>
+        <div class="stat-label">Clear Signing</div>
       </div>
     </div>
 
     <div class="section">
       <h2>Search</h2>
       <div class="search-demo">
-        <input type="text" class="search-input" id="search-input" placeholder="Search chains, assets, contracts..." disabled>
+        <input type="text" class="search-input" id="search-input" placeholder="Search chains, assets..." disabled>
         <div class="search-results" id="search-results">
           <div class="loading">Loading data...</div>
         </div>
@@ -521,10 +520,8 @@
   <script>
     let assetFuse = null;
     let chainFuse = null;
-    let contractFuse = null;
     let assetsData = null;
     let chainsData = null;
-    let contractsData = null;
 
     function openModal() {
       document.getElementById('modal-overlay').classList.add('active');
@@ -539,14 +536,12 @@
       if (e.target === e.currentTarget) closeModal();
     });
 
-    let currentPayload = null; // Store payload for copy operations
 
     async function showDetail(type, item) {
       openModal();
       const modalTitle = document.getElementById('modal-title');
       const modalBody = document.getElementById('modal-body');
       modalBody.innerHTML = '<div class="loading">Loading...</div>';
-      currentPayload = null;
 
       let url = '';
       let typeBadge = '';
@@ -559,10 +554,6 @@
         url = `./assets/eip155-${item.chainId}/${item.address}/info.json`;
         typeBadge = '<span class="type-badge type-asset">Asset</span>';
         modalTitle.innerHTML = `${item.symbol} - ${item.name} ${typeBadge}`;
-      } else if (type === 'contract') {
-        url = `./contracts/eip155-${item.chainId}/${item.address}/info.json`;
-        typeBadge = '<span class="type-badge type-contract">Contract</span>';
-        modalTitle.innerHTML = `${item.name} ${typeBadge}`;
       }
 
       try {
@@ -571,23 +562,11 @@
         const data = await res.json();
 
         let html = '';
-        let payloadData = null;
 
         if (type === 'chain') {
           html = renderChainDetail(data);
         } else if (type === 'asset') {
           html = renderAssetDetail(data, item);
-        } else if (type === 'contract') {
-          // Also fetch payload.json for contracts
-          try {
-            const payloadUrl = `./contracts/eip155-${item.chainId}/${item.address}/payload.json`;
-            const payloadRes = await fetch(payloadUrl);
-            if (payloadRes.ok) {
-              payloadData = await payloadRes.json();
-              currentPayload = payloadData;
-            }
-          } catch {}
-          html = renderContractDetail(data, payloadData);
         }
 
         html += `
@@ -596,11 +575,6 @@
             <div class="json-view">${JSON.stringify(data, null, 2)}</div>
           </div>
         `;
-
-        // Add ABI/Bytecode sections after Raw JSON for contracts
-        if (type === 'contract' && payloadData) {
-          html += renderPayloadSection(payloadData);
-        }
 
         modalBody.innerHTML = html;
       } catch (err) {
@@ -779,158 +753,16 @@
       `;
     }
 
-    function renderContractDetail(data, payload) {
-      const chainLogoUrl = `./chainlogos/eip155-${data.chainId}.png`;
-      let html = `
-        <div class="detail-header">
-          <img class="detail-logo chain" src="${chainLogoUrl}" onerror="this.style.display='none'" alt="">
-          <div class="detail-title">
-            <h4>${data.name}</h4>
-            <span class="subtitle">Contract on Chain ${data.chainId}</span>
-          </div>
-        </div>
-        <div class="detail-row">
-          <span class="detail-label">Chain ID</span>
-          <span class="detail-value">${data.chainId}</span>
-        </div>
-        <div class="detail-row">
-          <span class="detail-label">Address</span>
-          <span class="detail-value" style="font-family: monospace;">${data.address}</span>
-        </div>
-        <div class="detail-row">
-          <span class="detail-label">Name</span>
-          <span class="detail-value">${data.name}</span>
-        </div>
-        ${data.explorer ? `<div class="detail-row">
-          <span class="detail-label">Explorer</span>
-          <span class="detail-value"><a href="${data.explorer}" target="_blank">View on Explorer</a></span>
-        </div>` : ''}
-      `;
-
-      // Source Code details
-      if (data.sourceCode) {
-        html += `
-        <div class="detail-row">
-          <span class="detail-label">Source Code</span>
-          <span class="detail-value"><a href="${data.sourceCode.url}" target="_blank">${data.sourceCode.url}</a></span>
-        </div>
-        ${data.sourceCode.commitId ? `<div class="detail-row">
-          <span class="detail-label">Commit</span>
-          <span class="detail-value" style="font-family: monospace;">${data.sourceCode.commitId}</span>
-        </div>` : ''}
-        ${data.sourceCode.compilerVersion ? `<div class="detail-row">
-          <span class="detail-label">Compiler</span>
-          <span class="detail-value">${data.sourceCode.compilerVersion}</span>
-        </div>` : ''}
-        ${data.sourceCode.evmVersion ? `<div class="detail-row">
-          <span class="detail-label">EVM Version</span>
-          <span class="detail-value">${data.sourceCode.evmVersion}</span>
-        </div>` : ''}
-        ${data.sourceCode.optimization ? `<div class="detail-row">
-          <span class="detail-label">Optimization</span>
-          <span class="detail-value">${data.sourceCode.optimization.enabled ? `Enabled (${data.sourceCode.optimization.runs} runs)` : 'Disabled'}</span>
-        </div>` : ''}
-        `;
-      }
-
-      // Proxy info
-      if (data.proxy) {
-        html += `<div class="detail-row">
-          <span class="detail-label">Is Proxy</span>
-          <span class="detail-value">${data.proxy.isProxy ? 'Yes' : 'No'}${data.proxy.proxyType ? ` (${data.proxy.proxyType})` : ''}</span>
-        </div>`;
-        if (data.proxy.isProxy && data.proxy.implementation) {
-          html += `<div class="detail-row">
-            <span class="detail-label">Implementation</span>
-            <span class="detail-value" style="font-family: monospace;">${data.proxy.implementation}</span>
-          </div>`;
-        }
-      }
-
-      return html;
-    }
-
-    function renderPayloadSection(payload) {
-      if (!payload) return '';
-
-      let html = '';
-
-      // ABI Copy Section
-      if (payload.abi) {
-        const methods = payload.abi.filter(item => item.type === 'function');
-        const events = payload.abi.filter(item => item.type === 'event');
-
-        html += `
-        <div class="copy-section">
-          <div class="copy-header">
-            <span>ABI (${methods.length} functions, ${events.length} events)</span>
-            <button class="copy-btn" onclick="copyAbi(this)">Copy ABI</button>
-          </div>
-          <div class="abi-list">
-            ${methods.map(fn => {
-              const inputs = fn.inputs ? fn.inputs.map(i => `<span class="param-type">${i.type}</span>${i.name ? ' ' + i.name : ''}`).join(', ') : '';
-              const outputs = fn.outputs && fn.outputs.length ? fn.outputs.map(o => o.type).join(', ') : 'void';
-              const badge = fn.stateMutability === 'view' || fn.stateMutability === 'pure' ? 'read' : 'write';
-              return `<div class="abi-fn"><span class="abi-badge ${badge}">${badge}</span><span class="fn-name">${fn.name}</span>(${inputs}) <span class="fn-returns">→ ${outputs}</span></div>`;
-            }).join('')}
-          </div>
-        </div>
-        `;
-      }
-
-      // Bytecode Copy Section
-      if (payload.bytecode) {
-        const bytecodeLen = payload.bytecode.length;
-        html += `
-        <div class="copy-section">
-          <div class="copy-header">
-            <span>Bytecode (${Math.floor(bytecodeLen / 2).toLocaleString()} bytes)</span>
-            <button class="copy-btn" onclick="copyBytecode(this)">Copy Bytecode</button>
-          </div>
-        </div>
-        `;
-      }
-
-      return html;
-    }
-
-    function copyAbi(btn) {
-      if (!currentPayload || !currentPayload.abi) return;
-      const text = JSON.stringify(currentPayload.abi, null, 2);
-      navigator.clipboard.writeText(text).then(() => {
-        btn.textContent = 'Copied!';
-        btn.classList.add('copied');
-        setTimeout(() => {
-          btn.textContent = 'Copy ABI';
-          btn.classList.remove('copied');
-        }, 2000);
-      });
-    }
-
-    function copyBytecode(btn) {
-      if (!currentPayload || !currentPayload.bytecode) return;
-      navigator.clipboard.writeText(currentPayload.bytecode).then(() => {
-        btn.textContent = 'Copied!';
-        btn.classList.add('copied');
-        setTimeout(() => {
-          btn.textContent = 'Copy Bytecode';
-          btn.classList.remove('copied');
-        }, 2000);
-      });
-    }
-
     async function init() {
       try {
-        const [assetsRes, chainsRes, contractsRes] = await Promise.all([
+        const [assetsRes, chainsRes] = await Promise.all([
           fetch('./index/fuse-assets.json'),
           fetch('./index/fuse-chains.json'),
-          fetch('./index/fuse-contracts.json'),
         ]);
 
-        [assetsData, chainsData, contractsData] = await Promise.all([
+        [assetsData, chainsData] = await Promise.all([
           assetsRes.json(),
           chainsRes.json(),
-          contractsRes.json(),
         ]);
 
         const assetIndex = Fuse.parseIndex(assetsData.index);
@@ -947,13 +779,6 @@
           includeScore: true,
         }, chainIndex);
 
-        const contractIndex = Fuse.parseIndex(contractsData.index);
-        contractFuse = new Fuse(contractsData.data, {
-          keys: ['name'],
-          threshold: 0.3,
-          includeScore: true,
-        }, contractIndex);
-
         const input = document.getElementById('search-input');
         input.disabled = false;
         document.getElementById('search-results').innerHTML = '<div class="loading">Type to search...</div>';
@@ -967,7 +792,6 @@
 
           const chainResults = chainFuse.search(query, { limit: 5 });
           const assetResults = assetFuse.search(query, { limit: 10 });
-          const contractResults = contractFuse.search(query, { limit: 5 });
 
           let html = '';
 
@@ -986,16 +810,6 @@
             assetResults.forEach(r => {
               html += `<div class="result-item" onclick='showDetail("asset", ${JSON.stringify(r.item)})'>
                 <span class="result-name">${r.item.symbol} - ${r.item.name}</span>
-                <span class="result-meta">Chain: ${r.item.chainId}</span>
-              </div>`;
-            });
-          }
-
-          if (contractResults.length > 0) {
-            html += '<div class="section-label">Contracts</div>';
-            contractResults.forEach(r => {
-              html += `<div class="result-item" onclick='showDetail("contract", ${JSON.stringify(r.item)})'>
-                <span class="result-name">${r.item.name}</span>
                 <span class="result-meta">Chain: ${r.item.chainId}</span>
               </div>`;
             });
@@ -1025,8 +839,14 @@
             { path: '/chainlogos/eip155-{chainId}.png', desc: 'Chain logo by chain ID', example: '/chainlogos/eip155-1.png' },
             { path: '/assets/eip155-{chainId}/{address}/info.json', desc: 'Asset metadata', example: '/assets/eip155-1/0xdAC17F958D2ee523a2206206994597C13D831ec7/info.json' },
             { path: '/assets/eip155-{chainId}/{address}/logo.png', desc: 'Asset logo', example: '/assets/eip155-1/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png' },
-            { path: '/contracts/eip155-{chainId}/{address}/info.json', desc: 'Contract metadata' },
-            { path: '/contracts/eip155-{chainId}/{address}/payload.json', desc: 'Contract ABI & bytecode' },
+          ]
+        },
+        {
+          title: 'ERC-7730 Clear Signing',
+          endpoints: [
+            { path: '/erc7730/ercs.json', desc: 'Universal ERC standards (ERC-20, ERC-721, etc.)', example: '/erc7730/ercs.json' },
+            { path: '/erc7730/calldata/{chainId}/{address}.json', desc: 'Transaction calldata descriptors', example: '/erc7730/calldata/1/0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45.json' },
+            { path: '/erc7730/eip712/{chainId}/{address}.json', desc: 'EIP-712 typed data descriptors', example: '/erc7730/eip712/10/0x000000000022d473030f116ddee9f6b43ac78ba3.json' },
           ]
         },
         {
@@ -1034,7 +854,6 @@
           endpoints: [
             { path: '/index/fuse-chains.json', desc: 'Chain data with Fuse.js index' },
             { path: '/index/fuse-assets.json', desc: 'Asset data with Fuse.js index' },
-            { path: '/index/fuse-contracts.json', desc: 'Contract data with Fuse.js index' },
           ]
         }
       ];
