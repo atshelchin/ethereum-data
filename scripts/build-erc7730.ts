@@ -31,11 +31,11 @@ const registryRoot =
   join(ROOT_DIR, "..", "clear-signing-erc7730-registry");
 
 if (!existsSync(registryRoot)) {
-  console.error(
-    `Registry not found at: ${registryRoot}\n` +
-      `Clone it first:\n  git clone https://github.com/ethereum/clear-signing-erc7730-registry.git`
+  console.log(
+    `Registry not found at: ${registryRoot} — skipping erc7730 build.\n` +
+      `(erc7730/ data is pre-committed to git, only rebuild when updating from upstream)`
   );
-  process.exit(1);
+  process.exit(0);
 }
 
 const ERCS_DIR = join(registryRoot, "ercs");

@@ -8,6 +8,7 @@ const patterns = [
   { glob: "./chainlogos/**/*", filter: (f: string) => f.endsWith(".png") || f.endsWith(".svg") },
   { glob: "./assets/**/*", filter: (f: string) => f.endsWith(".json") || f.endsWith(".png") },
   { glob: "./index/**/*", filter: (f: string) => f.endsWith(".json") },
+  { glob: "./erc7730/**/*", filter: (f: string) => f.endsWith(".json") },
 ];
 
 // Collect all files to embed
