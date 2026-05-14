@@ -1,1 +1,41 @@
-{"0x150214d74d59b7d1e90c73fc22ef3d991dd0a76b046543d4d80ab92d2a50328f":{"$schema":"../../specs/erc7730-v2.schema.json","context":{"eip712":{"deployments":[{"chainId":42161,"address":"0xf07ded9dc292157749b6fd268e37df6ea38395b9"}],"domain":{"name":"L2ArbitrumGovernor","version":"1"}}},"metadata":{"owner":"L2ArbitrumGovernor"},"display":{"formats":{"Ballot(uint256 proposalId,uint8 support)":{"intent":"Arbitrum Foundation: Core Governor","fields":[{"path":"proposalId","label":"Proposal id","format":"raw"},{"path":"support","label":"Support","format":"raw"}]}}}}}
+{
+  "0x150214d74d59b7d1e90c73fc22ef3d991dd0a76b046543d4d80ab92d2a50328f": {
+    "$schema": "../../specs/erc7730-v2.schema.json",
+    "context": {
+      "eip712": {
+        "deployments": [
+          {
+            "chainId": 42161,
+            "address": "0xf07ded9dc292157749b6fd268e37df6ea38395b9"
+          }
+        ],
+        "domain": {
+          "name": "L2ArbitrumGovernor",
+          "version": "1"
+        }
+      }
+    },
+    "metadata": {
+      "owner": "L2ArbitrumGovernor"
+    },
+    "display": {
+      "formats": {
+        "Ballot(uint256 proposalId,uint8 support)": {
+          "intent": "Arbitrum Foundation: Core Governor",
+          "fields": [
+            {
+              "path": "proposalId",
+              "label": "Proposal id",
+              "format": "raw"
+            },
+            {
+              "path": "support",
+              "label": "Support",
+              "format": "raw"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

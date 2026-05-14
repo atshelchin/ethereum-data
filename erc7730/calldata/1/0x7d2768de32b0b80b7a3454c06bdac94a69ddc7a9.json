@@ -1,1 +1,197 @@
-{"repay(address asset, uint256 amount, uint256 rateMode, address onBehalfOf)":{"$id":"repay","intent":"Repay loan","fields":[{"path":"amount","format":"tokenAmount","label":"Amount to repay","params":{"tokenPath":"asset","threshold":"$.metadata.constants.max","message":"All"},"visible":"always"},{"path":"rateMode","format":"enum","label":"Interest rate mode","params":{"$ref":"$.metadata.enums.interestRateMode"},"visible":"always"},{"path":"onBehalfOf","format":"addressName","label":"For debt holder","params":{"types":["eoa"],"sources":["local","ens"]},"visible":"always"}]},"setUserUseReserveAsCollateral(address asset, bool useAsCollateral)":{"intent":"Manage collateral","fields":[{"path":"asset","format":"addressName","label":"For asset","params":{"types":["token"],"sources":["local","ens"]},"visible":"always"},{"path":"useAsCollateral","format":"raw","label":"Enable as collateral","visible":"always"}]},"withdraw(address asset, uint256 amount, address to)":{"intent":"Withdraw","fields":[{"path":"amount","format":"tokenAmount","label":"Amount to withdraw","params":{"tokenPath":"asset","threshold":"$.metadata.constants.max","message":"Max"},"visible":"always"},{"path":"to","format":"addressName","label":"To recipient","params":{"types":["eoa"],"sources":["local","ens"]},"visible":"always"}]},"swapBorrowRateMode(address asset, uint256 rateMode)":{"intent":"Swap to variable","fields":[{"path":"asset","format":"addressName","label":"For asset","params":{"types":["token"],"sources":["local","ens"]},"visible":"always"},{"path":"rateMode","format":"enum","label":"Current rate mode","params":{"$ref":"$.metadata.enums.interestRateMode"},"visible":"always"}]},"borrow(address asset, uint256 amount, uint256 interestRateMode, uint16 referralCode, address onBehalfOf)":{"intent":"Borrow","fields":[{"path":"amount","format":"tokenAmount","label":"Amount to borrow","params":{"tokenPath":"asset"},"visible":"always"},{"path":"interestRateMode","format":"enum","label":"Interest Rate mode","params":{"$ref":"$.metadata.enums.interestRateMode"},"visible":"always"},{"path":"onBehalfOf","format":"addressName","label":"Debtor","params":{"types":["eoa"],"sources":["local","ens"]},"visible":"always"}]},"deposit(address asset, uint256 amount, address onBehalfOf, uint16 referralCode)":{"$id":"deposit","intent":"Supply","fields":[{"path":"amount","format":"tokenAmount","label":"Amount to supply","params":{"tokenPath":"asset"},"visible":"always"},{"path":"onBehalfOf","format":"addressName","label":"Collateral recipient","params":{"types":["eoa"],"sources":["local","ens"]},"visible":"always"}]}}
+{
+  "repay(address asset, uint256 amount, uint256 rateMode, address onBehalfOf)": {
+    "$id": "repay",
+    "intent": "Repay loan",
+    "fields": [
+      {
+        "path": "amount",
+        "format": "tokenAmount",
+        "label": "Amount to repay",
+        "params": {
+          "tokenPath": "asset",
+          "threshold": "$.metadata.constants.max",
+          "message": "All"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "rateMode",
+        "format": "enum",
+        "label": "Interest rate mode",
+        "params": {
+          "$ref": "$.metadata.enums.interestRateMode"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "onBehalfOf",
+        "format": "addressName",
+        "label": "For debt holder",
+        "params": {
+          "types": [
+            "eoa"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      }
+    ]
+  },
+  "setUserUseReserveAsCollateral(address asset, bool useAsCollateral)": {
+    "intent": "Manage collateral",
+    "fields": [
+      {
+        "path": "asset",
+        "format": "addressName",
+        "label": "For asset",
+        "params": {
+          "types": [
+            "token"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      },
+      {
+        "path": "useAsCollateral",
+        "format": "raw",
+        "label": "Enable as collateral",
+        "visible": "always"
+      }
+    ]
+  },
+  "withdraw(address asset, uint256 amount, address to)": {
+    "intent": "Withdraw",
+    "fields": [
+      {
+        "path": "amount",
+        "format": "tokenAmount",
+        "label": "Amount to withdraw",
+        "params": {
+          "tokenPath": "asset",
+          "threshold": "$.metadata.constants.max",
+          "message": "Max"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "to",
+        "format": "addressName",
+        "label": "To recipient",
+        "params": {
+          "types": [
+            "eoa"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      }
+    ]
+  },
+  "swapBorrowRateMode(address asset, uint256 rateMode)": {
+    "intent": "Swap to variable",
+    "fields": [
+      {
+        "path": "asset",
+        "format": "addressName",
+        "label": "For asset",
+        "params": {
+          "types": [
+            "token"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      },
+      {
+        "path": "rateMode",
+        "format": "enum",
+        "label": "Current rate mode",
+        "params": {
+          "$ref": "$.metadata.enums.interestRateMode"
+        },
+        "visible": "always"
+      }
+    ]
+  },
+  "borrow(address asset, uint256 amount, uint256 interestRateMode, uint16 referralCode, address onBehalfOf)": {
+    "intent": "Borrow",
+    "fields": [
+      {
+        "path": "amount",
+        "format": "tokenAmount",
+        "label": "Amount to borrow",
+        "params": {
+          "tokenPath": "asset"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "interestRateMode",
+        "format": "enum",
+        "label": "Interest Rate mode",
+        "params": {
+          "$ref": "$.metadata.enums.interestRateMode"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "onBehalfOf",
+        "format": "addressName",
+        "label": "Debtor",
+        "params": {
+          "types": [
+            "eoa"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      }
+    ]
+  },
+  "deposit(address asset, uint256 amount, address onBehalfOf, uint16 referralCode)": {
+    "$id": "deposit",
+    "intent": "Supply",
+    "fields": [
+      {
+        "path": "amount",
+        "format": "tokenAmount",
+        "label": "Amount to supply",
+        "params": {
+          "tokenPath": "asset"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "onBehalfOf",
+        "format": "addressName",
+        "label": "Collateral recipient",
+        "params": {
+          "types": [
+            "eoa"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      }
+    ]
+  }
+}

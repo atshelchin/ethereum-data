@@ -1,1 +1,35 @@
-{"deposit(bytes pubkey, bytes withdrawal_credentials, bytes signature, bytes32 deposit_data_root)":{"intent":"Stake ETH","fields":[{"label":"Validator public key","format":"raw","path":"#.pubkey","visible":"always"},{"label":"Withdraw credentials","format":"raw","path":"#.withdrawal_credentials","visible":"always"},{"label":"Amount to deposit","format":"amount","path":"@.value","visible":"always"},{"label":"Signature","path":"#.signature","visible":"never"},{"label":"Deposit Data Root","path":"#.deposit_data_root","visible":"never"}]}}
+{
+  "deposit(bytes pubkey, bytes withdrawal_credentials, bytes signature, bytes32 deposit_data_root)": {
+    "intent": "Stake ETH",
+    "fields": [
+      {
+        "label": "Validator public key",
+        "format": "raw",
+        "path": "#.pubkey",
+        "visible": "always"
+      },
+      {
+        "label": "Withdraw credentials",
+        "format": "raw",
+        "path": "#.withdrawal_credentials",
+        "visible": "always"
+      },
+      {
+        "label": "Amount to deposit",
+        "format": "amount",
+        "path": "@.value",
+        "visible": "always"
+      },
+      {
+        "label": "Signature",
+        "path": "#.signature",
+        "visible": "never"
+      },
+      {
+        "label": "Deposit Data Root",
+        "path": "#.deposit_data_root",
+        "visible": "never"
+      }
+    ]
+  }
+}

@@ -1,1 +1,17 @@
-{"batchExecute((address to, uint256 value, bytes data)[] calls)":{"$id":"batchExecute","intent":"Batch transactions","fields":[{"path":"calls.[].data","label":"Transaction","format":"calldata","params":{"calleePath":"calls.[].to","amountPath":"calls.[].value"}}]}}
+{
+  "batchExecute((address to, uint256 value, bytes data)[] calls)": {
+    "$id": "batchExecute",
+    "intent": "Batch transactions",
+    "fields": [
+      {
+        "path": "calls.[].data",
+        "label": "Transaction",
+        "format": "calldata",
+        "params": {
+          "calleePath": "calls.[].to",
+          "amountPath": "calls.[].value"
+        }
+      }
+    ]
+  }
+}

@@ -1,1 +1,32 @@
-{"multicall((address to, bytes data, uint256 value, bool skipRevert, bytes32 callbackHash)[] bundle)":{"intent":"Bundler3 Multicall","fields":[{"path":"#.bundle.[].data","label":"Action","format":"calldata","params":{"calleePath":"#.bundle.[].to","amountPath":"#.bundle.[].value"},"visible":"always"}]},"reenter((address to, bytes data, uint256 value, bool skipRevert, bytes32 callbackHash)[] bundle)":{"intent":"Reenter Bundler3","fields":[{"path":"#.bundle.[].data","label":"Action","format":"calldata","params":{"calleePath":"#.bundle.[].to","amountPath":"#.bundle.[].value"},"visible":"always"}]}}
+{
+  "multicall((address to, bytes data, uint256 value, bool skipRevert, bytes32 callbackHash)[] bundle)": {
+    "intent": "Bundler3 Multicall",
+    "fields": [
+      {
+        "path": "#.bundle.[].data",
+        "label": "Action",
+        "format": "calldata",
+        "params": {
+          "calleePath": "#.bundle.[].to",
+          "amountPath": "#.bundle.[].value"
+        },
+        "visible": "always"
+      }
+    ]
+  },
+  "reenter((address to, bytes data, uint256 value, bool skipRevert, bytes32 callbackHash)[] bundle)": {
+    "intent": "Reenter Bundler3",
+    "fields": [
+      {
+        "path": "#.bundle.[].data",
+        "label": "Action",
+        "format": "calldata",
+        "params": {
+          "calleePath": "#.bundle.[].to",
+          "amountPath": "#.bundle.[].value"
+        },
+        "visible": "always"
+      }
+    ]
+  }
+}

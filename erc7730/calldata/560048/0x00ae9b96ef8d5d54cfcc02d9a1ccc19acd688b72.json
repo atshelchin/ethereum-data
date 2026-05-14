@@ -1,1 +1,122 @@
-{"batchDeposit(bytes publicKeys, bytes withdrawalCreds, bytes signatures, bytes32[] dataRoots)":{"intent":"Stake 32ETH per validators","fields":[{"label":"Validators","format":"raw","path":"#.publicKeys","visible":"always"},{"label":"Type and owner","format":"raw","path":"#.withdrawalCreds","visible":"always"},{"label":"Signatures","format":"raw","path":"#.signatures"},{"label":"Data Roots","format":"raw","path":"#.dataRoots.[]"}]},"batchDepositCustom(bytes publicKeys, bytes withdrawalCreds, bytes signatures, bytes32[] dataRoots, uint256 amountPerValidator)":{"intent":"Stake any amount per validator","fields":[{"label":"Validators","format":"raw","path":"#.publicKeys","visible":"always"},{"label":"Type and owner","format":"raw","path":"#.withdrawalCreds","visible":"always"},{"label":"Signatures","format":"raw","path":"#.signatures"},{"label":"Data Roots","format":"raw","path":"#.dataRoots.[]"},{"label":"Amount Per Validator","format":"amount","path":"#.amountPerValidator","visible":"always"}]},"bigBatchDeposit(bytes publicKeys, bytes withdrawalCreds, bytes signatures, bytes32[] dataRoots)":{"intent":"Stake 32ETH per validators","fields":[{"label":"Validators","format":"raw","path":"#.publicKeys","visible":"always"},{"label":"Type and owner","format":"raw","path":"#.withdrawalCreds","visible":"always"},{"label":"Signatures","format":"raw","path":"#.signatures"},{"label":"Data Roots","format":"raw","path":"#.dataRoots.[]"}]},"bigBatchDepositCustom(bytes publicKeys, bytes withdrawalCreds, bytes signatures, bytes32[] dataRoots, uint256 amountPerValidator)":{"intent":"Stake any amount per validator","fields":[{"label":"Validators","format":"raw","path":"#.publicKeys","visible":"always"},{"label":"Type and owner","format":"raw","path":"#.withdrawalCreds","visible":"always"},{"label":"Signatures","format":"raw","path":"#.signatures"},{"label":"Data Roots","format":"raw","path":"#.dataRoots.[]"},{"label":"Amount Per Validator","format":"amount","path":"#.amountPerValidator","visible":"always"}]}}
+{
+  "batchDeposit(bytes publicKeys, bytes withdrawalCreds, bytes signatures, bytes32[] dataRoots)": {
+    "intent": "Stake 32ETH per validators",
+    "fields": [
+      {
+        "label": "Validators",
+        "format": "raw",
+        "path": "#.publicKeys",
+        "visible": "always"
+      },
+      {
+        "label": "Type and owner",
+        "format": "raw",
+        "path": "#.withdrawalCreds",
+        "visible": "always"
+      },
+      {
+        "label": "Signatures",
+        "format": "raw",
+        "path": "#.signatures"
+      },
+      {
+        "label": "Data Roots",
+        "format": "raw",
+        "path": "#.dataRoots.[]"
+      }
+    ]
+  },
+  "batchDepositCustom(bytes publicKeys, bytes withdrawalCreds, bytes signatures, bytes32[] dataRoots, uint256 amountPerValidator)": {
+    "intent": "Stake any amount per validator",
+    "fields": [
+      {
+        "label": "Validators",
+        "format": "raw",
+        "path": "#.publicKeys",
+        "visible": "always"
+      },
+      {
+        "label": "Type and owner",
+        "format": "raw",
+        "path": "#.withdrawalCreds",
+        "visible": "always"
+      },
+      {
+        "label": "Signatures",
+        "format": "raw",
+        "path": "#.signatures"
+      },
+      {
+        "label": "Data Roots",
+        "format": "raw",
+        "path": "#.dataRoots.[]"
+      },
+      {
+        "label": "Amount Per Validator",
+        "format": "amount",
+        "path": "#.amountPerValidator",
+        "visible": "always"
+      }
+    ]
+  },
+  "bigBatchDeposit(bytes publicKeys, bytes withdrawalCreds, bytes signatures, bytes32[] dataRoots)": {
+    "intent": "Stake 32ETH per validators",
+    "fields": [
+      {
+        "label": "Validators",
+        "format": "raw",
+        "path": "#.publicKeys",
+        "visible": "always"
+      },
+      {
+        "label": "Type and owner",
+        "format": "raw",
+        "path": "#.withdrawalCreds",
+        "visible": "always"
+      },
+      {
+        "label": "Signatures",
+        "format": "raw",
+        "path": "#.signatures"
+      },
+      {
+        "label": "Data Roots",
+        "format": "raw",
+        "path": "#.dataRoots.[]"
+      }
+    ]
+  },
+  "bigBatchDepositCustom(bytes publicKeys, bytes withdrawalCreds, bytes signatures, bytes32[] dataRoots, uint256 amountPerValidator)": {
+    "intent": "Stake any amount per validator",
+    "fields": [
+      {
+        "label": "Validators",
+        "format": "raw",
+        "path": "#.publicKeys",
+        "visible": "always"
+      },
+      {
+        "label": "Type and owner",
+        "format": "raw",
+        "path": "#.withdrawalCreds",
+        "visible": "always"
+      },
+      {
+        "label": "Signatures",
+        "format": "raw",
+        "path": "#.signatures"
+      },
+      {
+        "label": "Data Roots",
+        "format": "raw",
+        "path": "#.dataRoots.[]"
+      },
+      {
+        "label": "Amount Per Validator",
+        "format": "amount",
+        "path": "#.amountPerValidator",
+        "visible": "always"
+      }
+    ]
+  }
+}

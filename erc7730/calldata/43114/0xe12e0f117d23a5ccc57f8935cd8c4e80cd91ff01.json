@@ -1,1 +1,63 @@
-{"create((uint256 salt, uint256 maker, uint256 receiver, uint256 makerAsset, uint256 takerAsset, uint256 makingAmount, uint256 takingAmount, uint256 makerTraits) makerOrder)":{"$id":"create","intent":"create order","fields":[{"label":"Amount to Send","path":"@.value","format":"amount"},{"label":"Receive amount","path":"makerOrder.takingAmount","format":"tokenAmount","params":{"tokenPath":"makerOrder.takerAsset","nativeCurrencyAddress":["$.metadata.constants.addressAsEth","$.metadata.constants.addressAsNull"]},"visible":"always"},{"label":"Beneficiary","path":"makerOrder.receiver","format":"addressName","params":{"types":["eoa","contract"]},"visible":"always"},{"label":"Maker Order Salt","path":"makerOrder.salt","visible":"never"},{"label":"Maker Order Maker","path":"makerOrder.maker","visible":"never"},{"label":"Maker Order Maker Asset","path":"makerOrder.makerAsset","visible":"never"},{"label":"Maker Order Making Amount","path":"makerOrder.makingAmount","visible":"never"},{"label":"Maker Order Maker Traits","path":"makerOrder.makerTraits","visible":"never"}]}}
+{
+  "create((uint256 salt, uint256 maker, uint256 receiver, uint256 makerAsset, uint256 takerAsset, uint256 makingAmount, uint256 takingAmount, uint256 makerTraits) makerOrder)": {
+    "$id": "create",
+    "intent": "create order",
+    "fields": [
+      {
+        "label": "Amount to Send",
+        "path": "@.value",
+        "format": "amount"
+      },
+      {
+        "label": "Receive amount",
+        "path": "makerOrder.takingAmount",
+        "format": "tokenAmount",
+        "params": {
+          "tokenPath": "makerOrder.takerAsset",
+          "nativeCurrencyAddress": [
+            "$.metadata.constants.addressAsEth",
+            "$.metadata.constants.addressAsNull"
+          ]
+        },
+        "visible": "always"
+      },
+      {
+        "label": "Beneficiary",
+        "path": "makerOrder.receiver",
+        "format": "addressName",
+        "params": {
+          "types": [
+            "eoa",
+            "contract"
+          ]
+        },
+        "visible": "always"
+      },
+      {
+        "label": "Maker Order Salt",
+        "path": "makerOrder.salt",
+        "visible": "never"
+      },
+      {
+        "label": "Maker Order Maker",
+        "path": "makerOrder.maker",
+        "visible": "never"
+      },
+      {
+        "label": "Maker Order Maker Asset",
+        "path": "makerOrder.makerAsset",
+        "visible": "never"
+      },
+      {
+        "label": "Maker Order Making Amount",
+        "path": "makerOrder.makingAmount",
+        "visible": "never"
+      },
+      {
+        "label": "Maker Order Maker Traits",
+        "path": "makerOrder.makerTraits",
+        "visible": "never"
+      }
+    ]
+  }
+}

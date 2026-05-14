@@ -1,1 +1,13 @@
-{"requestExit(bytes[] validators_)":{"intent":"Request Validator Exit","fields":[{"label":"Validators","format":"raw","path":"#.validators_.[]","visible":"always"}]}}
+{
+  "requestExit(bytes[] validators_)": {
+    "intent": "Request Validator Exit",
+    "fields": [
+      {
+        "label": "Validators",
+        "format": "raw",
+        "path": "#.validators_.[]",
+        "visible": "always"
+      }
+    ]
+  }
+}

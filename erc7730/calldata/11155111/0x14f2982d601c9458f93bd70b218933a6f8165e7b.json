@@ -1,1 +1,40 @@
-{"createProxyWithNonce(address _singleton, bytes initializer, uint256 saltNonce)":{"$id":"createProxyWithNonce","intent":"Create Safe","fields":[{"path":"initializer","format":"calldata","label":"Account setup","params":{"calleePath":"_singleton"}},{"label":"Salt Nonce","path":"saltNonce","visible":"never"}]},"createProxyWithNonceL2(address _singleton, bytes initializer, uint256 saltNonce)":{"$id":"createProxyWithNonceL2","intent":"Create Safe","fields":[{"path":"initializer","format":"calldata","label":"Account setup","params":{"calleePath":"_singleton"}},{"label":"Salt Nonce","path":"saltNonce","visible":"never"}]}}
+{
+  "createProxyWithNonce(address _singleton, bytes initializer, uint256 saltNonce)": {
+    "$id": "createProxyWithNonce",
+    "intent": "Create Safe",
+    "fields": [
+      {
+        "path": "initializer",
+        "format": "calldata",
+        "label": "Account setup",
+        "params": {
+          "calleePath": "_singleton"
+        }
+      },
+      {
+        "label": "Salt Nonce",
+        "path": "saltNonce",
+        "visible": "never"
+      }
+    ]
+  },
+  "createProxyWithNonceL2(address _singleton, bytes initializer, uint256 saltNonce)": {
+    "$id": "createProxyWithNonceL2",
+    "intent": "Create Safe",
+    "fields": [
+      {
+        "path": "initializer",
+        "format": "calldata",
+        "label": "Account setup",
+        "params": {
+          "calleePath": "_singleton"
+        }
+      },
+      {
+        "label": "Salt Nonce",
+        "path": "saltNonce",
+        "visible": "never"
+      }
+    ]
+  }
+}

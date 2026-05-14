@@ -1,1 +1,474 @@
-{"repay(address asset, uint256 amount, uint256 interestRateMode, address onBehalfOf)":{"$id":"repay","intent":"Repay loan","fields":[{"path":"amount","format":"tokenAmount","label":"Amount to repay","params":{"tokenPath":"asset","threshold":"$.metadata.constants.max","message":"All"},"visible":"always"},{"path":"interestRateMode","format":"enum","label":"Interest rate mode","params":{"$ref":"$.metadata.enums.interestRateMode"},"visible":"always"},{"path":"onBehalfOf","format":"addressName","label":"For debt holder","params":{"types":["eoa"],"sources":["local","ens"]},"visible":"always"}]},"repayWithPermit(address asset, uint256 amount, uint256 interestRateMode, address onBehalfOf, uint256 deadline, uint8 permitV, bytes32 permitR, bytes32 permitS)":{"$id":"repayWithPermit","intent":"Repay loan","fields":[{"path":"amount","format":"tokenAmount","label":"Amount to repay","params":{"tokenPath":"asset","threshold":"$.metadata.constants.max","message":"All"},"visible":"always"},{"path":"interestRateMode","format":"enum","label":"Interest rate mode","params":{"$ref":"$.metadata.enums.interestRateMode"},"visible":"always"},{"path":"onBehalfOf","format":"addressName","label":"For debt holder","params":{"types":["eoa"],"sources":["local","ens"]},"visible":"always"},{"label":"Deadline","path":"deadline","visible":"never"},{"label":"Permit V","path":"permitV","visible":"never"},{"label":"Permit R","path":"permitR","visible":"never"},{"label":"Permit S","path":"permitS","visible":"never"}]},"repayWithATokens(address asset, uint256 amount, uint256 interestRateMode)":{"$id":"repayWithATokens","intent":"Repay with aTokens","fields":[{"path":"amount","format":"tokenAmount","label":"Amount to repay","params":{"tokenPath":"asset","threshold":"$.metadata.constants.max","message":"All"},"visible":"always"},{"path":"interestRateMode","format":"enum","label":"Interest rate mode","params":{"$ref":"$.metadata.enums.interestRateMode"},"visible":"always"},{"path":"@.from","format":"addressName","label":"For debt holder","params":{"types":["eoa"],"sources":["local","ens"]}}]},"setUserUseReserveAsCollateral(address asset, bool useAsCollateral)":{"intent":"Manage collateral","fields":[{"path":"asset","format":"addressName","label":"For asset","params":{"types":["token"],"sources":["local","ens"]},"visible":"always"},{"path":"useAsCollateral","format":"raw","label":"Use as collateral","visible":"always"}]},"setUserUseReserveAsCollateralOnBehalfOf(address asset, bool useAsCollateral, address onBehalfOf)":{"intent":"Manage collateral","fields":[{"path":"asset","format":"addressName","label":"For asset","params":{"types":["token"],"sources":["local","ens"]},"visible":"always"},{"path":"useAsCollateral","format":"raw","label":"Use as collateral","visible":"always"},{"path":"onBehalfOf","format":"addressName","label":"Debtor","params":{"types":["eoa"],"sources":["local","ens"]},"visible":"always"}]},"withdraw(address asset, uint256 amount, address to)":{"intent":"Withdraw","fields":[{"path":"amount","format":"tokenAmount","label":"Amount to withdraw","params":{"tokenPath":"asset","threshold":"$.metadata.constants.max","message":"Max"},"visible":"always"},{"path":"to","format":"addressName","label":"To recipient","params":{"types":["eoa"],"sources":["local","ens"]},"visible":"always"}]},"borrow(address asset, uint256 amount, uint256 interestRateMode, uint16 referralCode, address onBehalfOf)":{"intent":"Borrow","fields":[{"path":"amount","format":"tokenAmount","label":"Amount to borrow","params":{"tokenPath":"asset"},"visible":"always"},{"path":"interestRateMode","format":"enum","label":"Interest Rate mode","params":{"$ref":"$.metadata.enums.interestRateMode"},"visible":"always"},{"path":"onBehalfOf","format":"addressName","label":"Debtor","params":{"types":["eoa"],"sources":["local","ens"]},"visible":"always"},{"label":"Referral Code","path":"referralCode","visible":"never"}]},"deposit(address asset, uint256 amount, address onBehalfOf, uint16 referralCode)":{"$id":"deposit","intent":"Supply","fields":[{"path":"amount","format":"tokenAmount","label":"Amount to supply","params":{"tokenPath":"asset"},"visible":"always"},{"path":"onBehalfOf","format":"addressName","label":"Collateral recipient","params":{"types":["eoa"],"sources":["local","ens"]},"visible":"always"},{"label":"Referral Code","path":"referralCode","visible":"never"}]},"supply(address asset, uint256 amount, address onBehalfOf, uint16 referralCode)":{"$id":"supply","intent":"Supply","fields":[{"path":"amount","format":"tokenAmount","label":"Amount to supply","params":{"tokenPath":"asset"},"visible":"always"},{"path":"onBehalfOf","format":"addressName","label":"Collateral recipient","params":{"types":["eoa"],"sources":["local","ens"]},"visible":"always"},{"label":"Referral Code","path":"referralCode","visible":"never"}]},"supplyWithPermit(address asset, uint256 amount, address onBehalfOf, uint16 referralCode, uint256 deadline, uint8 permitV, bytes32 permitR, bytes32 permitS)":{"$id":"supplyWithPermit","intent":"Supply","fields":[{"path":"amount","format":"tokenAmount","label":"Amount to supply","params":{"tokenPath":"asset"},"visible":"always"},{"path":"onBehalfOf","format":"addressName","label":"Collateral recipient","params":{"types":["eoa"],"sources":["local","ens"]},"visible":"always"},{"label":"Referral Code","path":"referralCode","visible":"never"},{"label":"Deadline","path":"deadline","visible":"never"},{"label":"Permit V","path":"permitV","visible":"never"},{"label":"Permit R","path":"permitR","visible":"never"},{"label":"Permit S","path":"permitS","visible":"never"}]},"approvePositionManager(address positionManager, bool approve)":{"$id":"approvePositionManager","intent":"Approve Manager","fields":[{"path":"positionManager","format":"addressName","label":"Position manager","params":{"types":["eoa"]},"visible":"always"},{"path":"approve","format":"raw","label":"Approve","visible":"always"}]},"renouncePositionManagerRole(address user)":{"$id":"renouncePositionManagerRole","intent":"Revoke Manager Role","fields":[{"path":"@.from","format":"addressName","label":"Position manager","params":{"types":["eoa"]}},{"path":"user","format":"addressName","label":"User","params":{"types":["eoa"]},"visible":"always"}]},"multicall(bytes[] data)":{"$id":"multicall","intent":"Multicall","fields":[{"path":"data.[]","format":"calldata","label":"Call","params":{"calleePath":"@.to"}}]}}
+{
+  "repay(address asset, uint256 amount, uint256 interestRateMode, address onBehalfOf)": {
+    "$id": "repay",
+    "intent": "Repay loan",
+    "fields": [
+      {
+        "path": "amount",
+        "format": "tokenAmount",
+        "label": "Amount to repay",
+        "params": {
+          "tokenPath": "asset",
+          "threshold": "$.metadata.constants.max",
+          "message": "All"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "interestRateMode",
+        "format": "enum",
+        "label": "Interest rate mode",
+        "params": {
+          "$ref": "$.metadata.enums.interestRateMode"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "onBehalfOf",
+        "format": "addressName",
+        "label": "For debt holder",
+        "params": {
+          "types": [
+            "eoa"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      }
+    ]
+  },
+  "repayWithPermit(address asset, uint256 amount, uint256 interestRateMode, address onBehalfOf, uint256 deadline, uint8 permitV, bytes32 permitR, bytes32 permitS)": {
+    "$id": "repayWithPermit",
+    "intent": "Repay loan",
+    "fields": [
+      {
+        "path": "amount",
+        "format": "tokenAmount",
+        "label": "Amount to repay",
+        "params": {
+          "tokenPath": "asset",
+          "threshold": "$.metadata.constants.max",
+          "message": "All"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "interestRateMode",
+        "format": "enum",
+        "label": "Interest rate mode",
+        "params": {
+          "$ref": "$.metadata.enums.interestRateMode"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "onBehalfOf",
+        "format": "addressName",
+        "label": "For debt holder",
+        "params": {
+          "types": [
+            "eoa"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      },
+      {
+        "label": "Deadline",
+        "path": "deadline",
+        "visible": "never"
+      },
+      {
+        "label": "Permit V",
+        "path": "permitV",
+        "visible": "never"
+      },
+      {
+        "label": "Permit R",
+        "path": "permitR",
+        "visible": "never"
+      },
+      {
+        "label": "Permit S",
+        "path": "permitS",
+        "visible": "never"
+      }
+    ]
+  },
+  "repayWithATokens(address asset, uint256 amount, uint256 interestRateMode)": {
+    "$id": "repayWithATokens",
+    "intent": "Repay with aTokens",
+    "fields": [
+      {
+        "path": "amount",
+        "format": "tokenAmount",
+        "label": "Amount to repay",
+        "params": {
+          "tokenPath": "asset",
+          "threshold": "$.metadata.constants.max",
+          "message": "All"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "interestRateMode",
+        "format": "enum",
+        "label": "Interest rate mode",
+        "params": {
+          "$ref": "$.metadata.enums.interestRateMode"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "@.from",
+        "format": "addressName",
+        "label": "For debt holder",
+        "params": {
+          "types": [
+            "eoa"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        }
+      }
+    ]
+  },
+  "setUserUseReserveAsCollateral(address asset, bool useAsCollateral)": {
+    "intent": "Manage collateral",
+    "fields": [
+      {
+        "path": "asset",
+        "format": "addressName",
+        "label": "For asset",
+        "params": {
+          "types": [
+            "token"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      },
+      {
+        "path": "useAsCollateral",
+        "format": "raw",
+        "label": "Use as collateral",
+        "visible": "always"
+      }
+    ]
+  },
+  "setUserUseReserveAsCollateralOnBehalfOf(address asset, bool useAsCollateral, address onBehalfOf)": {
+    "intent": "Manage collateral",
+    "fields": [
+      {
+        "path": "asset",
+        "format": "addressName",
+        "label": "For asset",
+        "params": {
+          "types": [
+            "token"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      },
+      {
+        "path": "useAsCollateral",
+        "format": "raw",
+        "label": "Use as collateral",
+        "visible": "always"
+      },
+      {
+        "path": "onBehalfOf",
+        "format": "addressName",
+        "label": "Debtor",
+        "params": {
+          "types": [
+            "eoa"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      }
+    ]
+  },
+  "withdraw(address asset, uint256 amount, address to)": {
+    "intent": "Withdraw",
+    "fields": [
+      {
+        "path": "amount",
+        "format": "tokenAmount",
+        "label": "Amount to withdraw",
+        "params": {
+          "tokenPath": "asset",
+          "threshold": "$.metadata.constants.max",
+          "message": "Max"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "to",
+        "format": "addressName",
+        "label": "To recipient",
+        "params": {
+          "types": [
+            "eoa"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      }
+    ]
+  },
+  "borrow(address asset, uint256 amount, uint256 interestRateMode, uint16 referralCode, address onBehalfOf)": {
+    "intent": "Borrow",
+    "fields": [
+      {
+        "path": "amount",
+        "format": "tokenAmount",
+        "label": "Amount to borrow",
+        "params": {
+          "tokenPath": "asset"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "interestRateMode",
+        "format": "enum",
+        "label": "Interest Rate mode",
+        "params": {
+          "$ref": "$.metadata.enums.interestRateMode"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "onBehalfOf",
+        "format": "addressName",
+        "label": "Debtor",
+        "params": {
+          "types": [
+            "eoa"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      },
+      {
+        "label": "Referral Code",
+        "path": "referralCode",
+        "visible": "never"
+      }
+    ]
+  },
+  "deposit(address asset, uint256 amount, address onBehalfOf, uint16 referralCode)": {
+    "$id": "deposit",
+    "intent": "Supply",
+    "fields": [
+      {
+        "path": "amount",
+        "format": "tokenAmount",
+        "label": "Amount to supply",
+        "params": {
+          "tokenPath": "asset"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "onBehalfOf",
+        "format": "addressName",
+        "label": "Collateral recipient",
+        "params": {
+          "types": [
+            "eoa"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      },
+      {
+        "label": "Referral Code",
+        "path": "referralCode",
+        "visible": "never"
+      }
+    ]
+  },
+  "supply(address asset, uint256 amount, address onBehalfOf, uint16 referralCode)": {
+    "$id": "supply",
+    "intent": "Supply",
+    "fields": [
+      {
+        "path": "amount",
+        "format": "tokenAmount",
+        "label": "Amount to supply",
+        "params": {
+          "tokenPath": "asset"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "onBehalfOf",
+        "format": "addressName",
+        "label": "Collateral recipient",
+        "params": {
+          "types": [
+            "eoa"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      },
+      {
+        "label": "Referral Code",
+        "path": "referralCode",
+        "visible": "never"
+      }
+    ]
+  },
+  "supplyWithPermit(address asset, uint256 amount, address onBehalfOf, uint16 referralCode, uint256 deadline, uint8 permitV, bytes32 permitR, bytes32 permitS)": {
+    "$id": "supplyWithPermit",
+    "intent": "Supply",
+    "fields": [
+      {
+        "path": "amount",
+        "format": "tokenAmount",
+        "label": "Amount to supply",
+        "params": {
+          "tokenPath": "asset"
+        },
+        "visible": "always"
+      },
+      {
+        "path": "onBehalfOf",
+        "format": "addressName",
+        "label": "Collateral recipient",
+        "params": {
+          "types": [
+            "eoa"
+          ],
+          "sources": [
+            "local",
+            "ens"
+          ]
+        },
+        "visible": "always"
+      },
+      {
+        "label": "Referral Code",
+        "path": "referralCode",
+        "visible": "never"
+      },
+      {
+        "label": "Deadline",
+        "path": "deadline",
+        "visible": "never"
+      },
+      {
+        "label": "Permit V",
+        "path": "permitV",
+        "visible": "never"
+      },
+      {
+        "label": "Permit R",
+        "path": "permitR",
+        "visible": "never"
+      },
+      {
+        "label": "Permit S",
+        "path": "permitS",
+        "visible": "never"
+      }
+    ]
+  },
+  "approvePositionManager(address positionManager, bool approve)": {
+    "$id": "approvePositionManager",
+    "intent": "Approve Manager",
+    "fields": [
+      {
+        "path": "positionManager",
+        "format": "addressName",
+        "label": "Position manager",
+        "params": {
+          "types": [
+            "eoa"
+          ]
+        },
+        "visible": "always"
+      },
+      {
+        "path": "approve",
+        "format": "raw",
+        "label": "Approve",
+        "visible": "always"
+      }
+    ]
+  },
+  "renouncePositionManagerRole(address user)": {
+    "$id": "renouncePositionManagerRole",
+    "intent": "Revoke Manager Role",
+    "fields": [
+      {
+        "path": "@.from",
+        "format": "addressName",
+        "label": "Position manager",
+        "params": {
+          "types": [
+            "eoa"
+          ]
+        }
+      },
+      {
+        "path": "user",
+        "format": "addressName",
+        "label": "User",
+        "params": {
+          "types": [
+            "eoa"
+          ]
+        },
+        "visible": "always"
+      }
+    ]
+  },
+  "multicall(bytes[] data)": {
+    "$id": "multicall",
+    "intent": "Multicall",
+    "fields": [
+      {
+        "path": "data.[]",
+        "format": "calldata",
+        "label": "Call",
+        "params": {
+          "calleePath": "@.to"
+        }
+      }
+    ]
+  }
+}

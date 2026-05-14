@@ -1,1 +1,182 @@
-{"0x23d10def3caacba2e4042e0c75d44a42d2558aabcf5ce951d0642a8032e1e653":{"$schema":"../../specs/erc7730-v2.schema.json","context":{"eip712":{"deployments":[{"chainId":137,"address":"0x7f19564c35c681099c0c857a7141836cf7edaa53"}],"domain":{"name":"Rarible"},"schemas":[{"primaryType":"MetaTransaction","types":{"EIP712Domain":[{"name":"name","type":"string"},{"name":"version","type":"string"},{"name":"verifyingContract","type":"address"},{"name":"salt","type":"bytes32"}],"MetaTransaction":[{"name":"nonce","type":"uint256"},{"name":"from","type":"address"},{"name":"functionSignature","type":"bytes"}]}}]}},"metadata":{"owner":"Rarible ExchangeV2"},"display":{"formats":{"MetaTransaction(uint256 nonce,address from,bytes functionSignature)":{"intent":"Meta Transaction","fields":[{"path":"from","label":"User Address","format":"raw"},{"path":"nonce","label":"Meta Transaction Nonce","format":"raw"},{"label":"Function Signature","path":"functionSignature","visible":"never"}]}}}},"0x477ed43b8020849b755512278536c3766a3b4ab547519949a75f483372493f8d":{"$schema":"../../specs/erc7730-v2.schema.json","context":{"eip712":{"deployments":[{"chainId":1,"address":"0x9757f2d2b135150bbeb65308d4a91804107cd8d6"},{"chainId":137,"address":"0x7f19564c35c681099c0c857a7141836cf7edaa53"}],"domain":{"name":"Rarible","version":"2"}}},"metadata":{"owner":"Rarible ExchangeV2"},"display":{"formats":{"Order(address maker,Asset makeAsset,address taker,Asset takeAsset,uint256 salt,uint256 start,uint256 end,bytes4 dataType,bytes data)Asset(AssetType assetType,uint256 value)AssetType(bytes4 assetClass,bytes data)":{"intent":"List Order","fields":[{"path":"maker","label":"Order maker address","format":"raw"},{"path":"makeAsset.value","label":"Order make asset value","format":"raw"},{"path":"taker","label":"Order taker address","format":"raw"},{"path":"takeAsset.value","label":"Order take asset value","format":"raw"},{"path":"start","label":"Order start time","format":"raw"},{"path":"end","label":"Order end time","format":"raw"},{"label":"Make Asset Asset Type Asset Class","path":"makeAsset.assetType.assetClass","visible":"never"},{"label":"Data Type","path":"dataType","visible":"never"},{"label":"Make Asset Asset Type Data","path":"makeAsset.assetType.data","visible":"never"},{"label":"Take Asset Asset Type Data","path":"takeAsset.assetType.data","visible":"never"},{"label":"Take Asset Asset Type Asset Class","path":"takeAsset.assetType.assetClass","visible":"never"},{"label":"Data","path":"data","visible":"never"},{"label":"Salt","path":"salt","visible":"never"}]}}}}}
+{
+  "0x23d10def3caacba2e4042e0c75d44a42d2558aabcf5ce951d0642a8032e1e653": {
+    "$schema": "../../specs/erc7730-v2.schema.json",
+    "context": {
+      "eip712": {
+        "deployments": [
+          {
+            "chainId": 137,
+            "address": "0x7f19564c35c681099c0c857a7141836cf7edaa53"
+          }
+        ],
+        "domain": {
+          "name": "Rarible"
+        },
+        "schemas": [
+          {
+            "primaryType": "MetaTransaction",
+            "types": {
+              "EIP712Domain": [
+                {
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "name": "version",
+                  "type": "string"
+                },
+                {
+                  "name": "verifyingContract",
+                  "type": "address"
+                },
+                {
+                  "name": "salt",
+                  "type": "bytes32"
+                }
+              ],
+              "MetaTransaction": [
+                {
+                  "name": "nonce",
+                  "type": "uint256"
+                },
+                {
+                  "name": "from",
+                  "type": "address"
+                },
+                {
+                  "name": "functionSignature",
+                  "type": "bytes"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "owner": "Rarible ExchangeV2"
+    },
+    "display": {
+      "formats": {
+        "MetaTransaction(uint256 nonce,address from,bytes functionSignature)": {
+          "intent": "Meta Transaction",
+          "fields": [
+            {
+              "path": "from",
+              "label": "User Address",
+              "format": "raw"
+            },
+            {
+              "path": "nonce",
+              "label": "Meta Transaction Nonce",
+              "format": "raw"
+            },
+            {
+              "label": "Function Signature",
+              "path": "functionSignature",
+              "visible": "never"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "0x477ed43b8020849b755512278536c3766a3b4ab547519949a75f483372493f8d": {
+    "$schema": "../../specs/erc7730-v2.schema.json",
+    "context": {
+      "eip712": {
+        "deployments": [
+          {
+            "chainId": 1,
+            "address": "0x9757f2d2b135150bbeb65308d4a91804107cd8d6"
+          },
+          {
+            "chainId": 137,
+            "address": "0x7f19564c35c681099c0c857a7141836cf7edaa53"
+          }
+        ],
+        "domain": {
+          "name": "Rarible",
+          "version": "2"
+        }
+      }
+    },
+    "metadata": {
+      "owner": "Rarible ExchangeV2"
+    },
+    "display": {
+      "formats": {
+        "Order(address maker,Asset makeAsset,address taker,Asset takeAsset,uint256 salt,uint256 start,uint256 end,bytes4 dataType,bytes data)Asset(AssetType assetType,uint256 value)AssetType(bytes4 assetClass,bytes data)": {
+          "intent": "List Order",
+          "fields": [
+            {
+              "path": "maker",
+              "label": "Order maker address",
+              "format": "raw"
+            },
+            {
+              "path": "makeAsset.value",
+              "label": "Order make asset value",
+              "format": "raw"
+            },
+            {
+              "path": "taker",
+              "label": "Order taker address",
+              "format": "raw"
+            },
+            {
+              "path": "takeAsset.value",
+              "label": "Order take asset value",
+              "format": "raw"
+            },
+            {
+              "path": "start",
+              "label": "Order start time",
+              "format": "raw"
+            },
+            {
+              "path": "end",
+              "label": "Order end time",
+              "format": "raw"
+            },
+            {
+              "label": "Make Asset Asset Type Asset Class",
+              "path": "makeAsset.assetType.assetClass",
+              "visible": "never"
+            },
+            {
+              "label": "Data Type",
+              "path": "dataType",
+              "visible": "never"
+            },
+            {
+              "label": "Make Asset Asset Type Data",
+              "path": "makeAsset.assetType.data",
+              "visible": "never"
+            },
+            {
+              "label": "Take Asset Asset Type Data",
+              "path": "takeAsset.assetType.data",
+              "visible": "never"
+            },
+            {
+              "label": "Take Asset Asset Type Asset Class",
+              "path": "takeAsset.assetType.assetClass",
+              "visible": "never"
+            },
+            {
+              "label": "Data",
+              "path": "data",
+              "visible": "never"
+            },
+            {
+              "label": "Salt",
+              "path": "salt",
+              "visible": "never"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

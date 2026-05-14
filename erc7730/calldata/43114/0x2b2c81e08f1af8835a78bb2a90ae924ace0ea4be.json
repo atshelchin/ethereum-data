@@ -1,1 +1,57 @@
-{"submit()":{"intent":"Stake AVAX","fields":[{"label":"Amount to stake","format":"amount","path":"@.value","visible":"always"}]},"requestUnlock(uint256 shareAmount)":{"intent":"Request unstaking","fields":[{"label":"sAVAX amount","format":"tokenAmount","path":"#.shareAmount","params":{"token":"$.metadata.constants.sAVAXaddress"},"visible":"always"}]},"redeem()":{"intent":"Claim unstaked AVAX","fields":[]},"redeem(uint256 unlockIndex)":{"intent":"Claim unstaked AVAX","fields":[{"label":"Unlock index","format":"raw","path":"#.unlockIndex","visible":"always"}]},"redeemOverdueShares()":{"intent":"Redeem Overdue","fields":[]},"redeemOverdueShares(uint256 unlockIndex)":{"intent":"Redeem sAVAX","fields":[{"label":"Unlock index","format":"raw","path":"#.unlockIndex","visible":"always"}]}}
+{
+  "submit()": {
+    "intent": "Stake AVAX",
+    "fields": [
+      {
+        "label": "Amount to stake",
+        "format": "amount",
+        "path": "@.value",
+        "visible": "always"
+      }
+    ]
+  },
+  "requestUnlock(uint256 shareAmount)": {
+    "intent": "Request unstaking",
+    "fields": [
+      {
+        "label": "sAVAX amount",
+        "format": "tokenAmount",
+        "path": "#.shareAmount",
+        "params": {
+          "token": "$.metadata.constants.sAVAXaddress"
+        },
+        "visible": "always"
+      }
+    ]
+  },
+  "redeem()": {
+    "intent": "Claim unstaked AVAX",
+    "fields": []
+  },
+  "redeem(uint256 unlockIndex)": {
+    "intent": "Claim unstaked AVAX",
+    "fields": [
+      {
+        "label": "Unlock index",
+        "format": "raw",
+        "path": "#.unlockIndex",
+        "visible": "always"
+      }
+    ]
+  },
+  "redeemOverdueShares()": {
+    "intent": "Redeem Overdue",
+    "fields": []
+  },
+  "redeemOverdueShares(uint256 unlockIndex)": {
+    "intent": "Redeem sAVAX",
+    "fields": [
+      {
+        "label": "Unlock index",
+        "format": "raw",
+        "path": "#.unlockIndex",
+        "visible": "always"
+      }
+    ]
+  }
+}

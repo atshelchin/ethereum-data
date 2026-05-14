@@ -60,7 +60,7 @@ async function readJson(path: string): Promise<any> {
 async function writeJson(path: string, data: any) {
   const dir = join(path, "..");
   if (!existsSync(dir)) await mkdir(dir, { recursive: true });
-  await writeFile(path, JSON.stringify(data));
+  await writeFile(path, JSON.stringify(data, null, 2));
 }
 
 /**

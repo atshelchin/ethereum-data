@@ -1,1 +1,6 @@
-{"claimReward()":{"intent":"Claim rewards","fields":[]}}
+{
+  "claimReward()": {
+    "intent": "Claim rewards",
+    "fields": []
+  }
+}

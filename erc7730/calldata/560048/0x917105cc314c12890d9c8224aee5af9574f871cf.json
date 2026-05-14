@@ -1,1 +1,13 @@
-{"send(string text)":{"intent":"Withdrawal message","fields":[{"label":"Public keys","format":"raw","path":"#.text","visible":"always"}]}}
+{
+  "send(string text)": {
+    "intent": "Withdrawal message",
+    "fields": [
+      {
+        "label": "Public keys",
+        "format": "raw",
+        "path": "#.text",
+        "visible": "always"
+      }
+    ]
+  }
+}

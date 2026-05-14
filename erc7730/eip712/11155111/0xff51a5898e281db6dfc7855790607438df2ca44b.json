@@ -1,1 +1,1852 @@
-{"0xbb8310d486368db6bd6f849402fdd73ad53d316b5a4b2644ad6efe0f941286d8":{"$schema":"../../specs/erc7730-v2.schema.json","includes":"common-eip712-Safe.json","metadata":{"owner":"Safe 1.5.0"},"context":{"eip712":{"deployments":[{"chainId":1,"address":"0xFf51A5898e281Db6DfC7855790607438dF2ca44b"},{"chainId":11155111,"address":"0xFf51A5898e281Db6DfC7855790607438dF2ca44b"}]}},"display":{"formats":{"SafeTx(address to,uint256 value,bytes data,uint8 operation,uint256 safeTxGas,uint256 baseGas,uint256 gasPrice,address gasToken,address refundReceiver,uint256 nonce)":{"intent":"Safe","fields":[{"path":"operation","label":"Operation type","format":"raw","visible":"always"},{"path":"data","label":"Transaction","format":"calldata","params":{"calleePath":"to","amountPath":"value","spenderPath":"@.to"},"visible":"always"},{"path":"baseGas","label":"Gas amount","format":"raw","visible":"always"},{"path":"gasPrice","label":"Gas price","format":"raw","visible":"always"},{"path":"gasToken","label":"Gas token","format":"raw"},{"path":"refundReceiver","label":"Gas receiver","format":"raw","visible":"always"},{"label":"Safe Tx Gas","path":"safeTxGas","visible":"never"},{"label":"Nonce","path":"nonce","visible":"never"}]}}}},"0x1d88b6027d70a6d3811ece51493cc41efd3ac017b253c6d7fef2f9aaf82465d2":{"$schema":"../../specs/erc7730-v2.schema.json","metadata":{"owner":"Ledger Multisig"},"context":{"eip712":{"domain":{"name":"Ledger Multisig","version":"1.0.0"},"deployments":[{"chainId":1,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":10,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":56,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":137,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":8453,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":42161,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":11155111,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":1,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":10,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":56,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":137,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":8453,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":42161,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":11155111,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":1,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":10,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":56,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":137,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":8453,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":42161,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":11155111,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":1,"address":"0xFf51A5898e281Db6DfC7855790607438dF2ca44b"},{"chainId":11155111,"address":"0xFf51A5898e281Db6DfC7855790607438dF2ca44b"},{"chainId":1,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":10,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":56,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":137,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":8453,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":42161,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":11155111,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":1,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":10,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":56,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":137,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":8453,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":42161,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":11155111,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":1,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":10,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":56,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":137,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":8453,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":42161,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":11155111,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":1,"address":"0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"},{"chainId":11155111,"address":"0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"}]}},"display":{"formats":{"DeleteRequest(bytes32 safeTxHash,uint256 totp)":{"intent":"Reject transaction","fields":[{"path":"safeTxHash","label":"Safe TX hash","format":"raw","visible":"always"},{"label":"Totp","path":"totp","visible":"never"}]},"Delegate(address delegateAddress,uint256 totp)":{"intent":"Add or remove proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"AddProposer(address delegateAddress,uint256 totp)":{"intent":"Add proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"RemoveProposer(address delegateAddress,uint256 totp)":{"intent":"Remove proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"AuthentAddressBook(uint256 totp)":{"intent":"Authenticate address book","fields":[{"label":"Totp","path":"totp","visible":"never"}]},"AddAddressBookEntry(AddressBookEntry[] entries,uint256 totp)AddressBookEntry(string alias,address address)":{"intent":"Add address book entry","fields":[{"path":"entries.[].alias","label":"Address book alias","format":"raw"},{"path":"entries.[].address","label":"Address book address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]}}}},"0x721d98123b9c931201e6c967b52e61d4cdcc3723dbb26126328a7cb283e35228":{"$schema":"../../specs/erc7730-v2.schema.json","metadata":{"owner":"Ledger Multisig"},"context":{"eip712":{"domain":{"name":"Ledger Multisig","version":"1.0.0"},"deployments":[{"chainId":1,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":10,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":56,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":137,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":8453,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":42161,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":11155111,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":1,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":10,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":56,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":137,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":8453,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":42161,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":11155111,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":1,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":10,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":56,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":137,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":8453,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":42161,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":11155111,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":1,"address":"0xFf51A5898e281Db6DfC7855790607438dF2ca44b"},{"chainId":11155111,"address":"0xFf51A5898e281Db6DfC7855790607438dF2ca44b"},{"chainId":1,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":10,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":56,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":137,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":8453,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":42161,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":11155111,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":1,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":10,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":56,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":137,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":8453,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":42161,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":11155111,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":1,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":10,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":56,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":137,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":8453,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":42161,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":11155111,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":1,"address":"0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"},{"chainId":11155111,"address":"0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"}]}},"display":{"formats":{"DeleteRequest(bytes32 safeTxHash,uint256 totp)":{"intent":"Reject transaction","fields":[{"path":"safeTxHash","label":"Safe TX hash","format":"raw","visible":"always"},{"label":"Totp","path":"totp","visible":"never"}]},"Delegate(address delegateAddress,uint256 totp)":{"intent":"Add or remove proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"AddProposer(address delegateAddress,uint256 totp)":{"intent":"Add proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"RemoveProposer(address delegateAddress,uint256 totp)":{"intent":"Remove proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"AuthentAddressBook(uint256 totp)":{"intent":"Authenticate address book","fields":[{"label":"Totp","path":"totp","visible":"never"}]},"AddAddressBookEntry(AddressBookEntry[] entries,uint256 totp)AddressBookEntry(string alias,address address)":{"intent":"Add address book entry","fields":[{"path":"entries.[].alias","label":"Address book alias","format":"raw"},{"path":"entries.[].address","label":"Address book address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]}}}},"0x162439a1dd923ea5cad515f3bced2f093c8772ee93c3d51826ff95688283be94":{"$schema":"../../specs/erc7730-v2.schema.json","metadata":{"owner":"Ledger Multisig"},"context":{"eip712":{"domain":{"name":"Ledger Multisig","version":"1.0.0"},"deployments":[{"chainId":1,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":10,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":56,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":137,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":8453,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":42161,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":11155111,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":1,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":10,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":56,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":137,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":8453,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":42161,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":11155111,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":1,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":10,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":56,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":137,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":8453,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":42161,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":11155111,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":1,"address":"0xFf51A5898e281Db6DfC7855790607438dF2ca44b"},{"chainId":11155111,"address":"0xFf51A5898e281Db6DfC7855790607438dF2ca44b"},{"chainId":1,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":10,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":56,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":137,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":8453,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":42161,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":11155111,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":1,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":10,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":56,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":137,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":8453,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":42161,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":11155111,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":1,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":10,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":56,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":137,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":8453,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":42161,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":11155111,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":1,"address":"0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"},{"chainId":11155111,"address":"0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"}]}},"display":{"formats":{"DeleteRequest(bytes32 safeTxHash,uint256 totp)":{"intent":"Reject transaction","fields":[{"path":"safeTxHash","label":"Safe TX hash","format":"raw","visible":"always"},{"label":"Totp","path":"totp","visible":"never"}]},"Delegate(address delegateAddress,uint256 totp)":{"intent":"Add or remove proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"AddProposer(address delegateAddress,uint256 totp)":{"intent":"Add proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"RemoveProposer(address delegateAddress,uint256 totp)":{"intent":"Remove proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"AuthentAddressBook(uint256 totp)":{"intent":"Authenticate address book","fields":[{"label":"Totp","path":"totp","visible":"never"}]},"AddAddressBookEntry(AddressBookEntry[] entries,uint256 totp)AddressBookEntry(string alias,address address)":{"intent":"Add address book entry","fields":[{"path":"entries.[].alias","label":"Address book alias","format":"raw"},{"path":"entries.[].address","label":"Address book address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]}}}},"0x6c9e874b4b1b1537b11ab113648a187cf141593fa647a5a8ffa9abff4429cfba":{"$schema":"../../specs/erc7730-v2.schema.json","metadata":{"owner":"Ledger Multisig"},"context":{"eip712":{"domain":{"name":"Ledger Multisig","version":"1.0.0"},"deployments":[{"chainId":1,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":10,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":56,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":137,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":8453,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":42161,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":11155111,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":1,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":10,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":56,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":137,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":8453,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":42161,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":11155111,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":1,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":10,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":56,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":137,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":8453,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":42161,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":11155111,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":1,"address":"0xFf51A5898e281Db6DfC7855790607438dF2ca44b"},{"chainId":11155111,"address":"0xFf51A5898e281Db6DfC7855790607438dF2ca44b"},{"chainId":1,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":10,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":56,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":137,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":8453,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":42161,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":11155111,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":1,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":10,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":56,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":137,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":8453,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":42161,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":11155111,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":1,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":10,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":56,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":137,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":8453,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":42161,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":11155111,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":1,"address":"0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"},{"chainId":11155111,"address":"0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"}]}},"display":{"formats":{"DeleteRequest(bytes32 safeTxHash,uint256 totp)":{"intent":"Reject transaction","fields":[{"path":"safeTxHash","label":"Safe TX hash","format":"raw","visible":"always"},{"label":"Totp","path":"totp","visible":"never"}]},"Delegate(address delegateAddress,uint256 totp)":{"intent":"Add or remove proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"AddProposer(address delegateAddress,uint256 totp)":{"intent":"Add proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"RemoveProposer(address delegateAddress,uint256 totp)":{"intent":"Remove proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"AuthentAddressBook(uint256 totp)":{"intent":"Authenticate address book","fields":[{"label":"Totp","path":"totp","visible":"never"}]},"AddAddressBookEntry(AddressBookEntry[] entries,uint256 totp)AddressBookEntry(string alias,address address)":{"intent":"Add address book entry","fields":[{"path":"entries.[].alias","label":"Address book alias","format":"raw"},{"path":"entries.[].address","label":"Address book address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]}}}},"0xea0e2920ae94ffdb9d98b7bbb85bc34fe4df5ccca3a98a2e3bfec8b64919fc08":{"$schema":"../../specs/erc7730-v2.schema.json","metadata":{"owner":"Ledger Multisig"},"context":{"eip712":{"domain":{"name":"Ledger Multisig","version":"1.0.0"},"deployments":[{"chainId":1,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":10,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":56,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":137,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":8453,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":42161,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":11155111,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":1,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":10,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":56,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":137,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":8453,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":42161,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":11155111,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":1,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":10,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":56,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":137,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":8453,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":42161,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":11155111,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":1,"address":"0xFf51A5898e281Db6DfC7855790607438dF2ca44b"},{"chainId":11155111,"address":"0xFf51A5898e281Db6DfC7855790607438dF2ca44b"},{"chainId":1,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":10,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":56,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":137,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":8453,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":42161,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":11155111,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":1,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":10,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":56,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":137,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":8453,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":42161,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":11155111,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":1,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":10,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":56,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":137,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":8453,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":42161,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":11155111,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":1,"address":"0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"},{"chainId":11155111,"address":"0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"}]}},"display":{"formats":{"DeleteRequest(bytes32 safeTxHash,uint256 totp)":{"intent":"Reject transaction","fields":[{"path":"safeTxHash","label":"Safe TX hash","format":"raw","visible":"always"},{"label":"Totp","path":"totp","visible":"never"}]},"Delegate(address delegateAddress,uint256 totp)":{"intent":"Add or remove proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"AddProposer(address delegateAddress,uint256 totp)":{"intent":"Add proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"RemoveProposer(address delegateAddress,uint256 totp)":{"intent":"Remove proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"AuthentAddressBook(uint256 totp)":{"intent":"Authenticate address book","fields":[{"label":"Totp","path":"totp","visible":"never"}]},"AddAddressBookEntry(AddressBookEntry[] entries,uint256 totp)AddressBookEntry(string alias,address address)":{"intent":"Add address book entry","fields":[{"path":"entries.[].alias","label":"Address book alias","format":"raw"},{"path":"entries.[].address","label":"Address book address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]}}}},"0xdddd43cd698534e9c06afeb4cccc721a4a8603c6e9a56a047906226e384fe782":{"$schema":"../../specs/erc7730-v2.schema.json","metadata":{"owner":"Ledger Multisig"},"context":{"eip712":{"domain":{"name":"Ledger Multisig","version":"1.0.0"},"deployments":[{"chainId":1,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":10,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":56,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":137,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":8453,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":42161,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":11155111,"address":"0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"},{"chainId":1,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":10,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":56,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":137,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":8453,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":42161,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":11155111,"address":"0x69f4D1788e39c87893C980c06EdF4b7f686e2938"},{"chainId":1,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":10,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":56,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":137,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":8453,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":42161,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":11155111,"address":"0x41675C099F32341bf84BFc5382aF534df5C7461a"},{"chainId":1,"address":"0xFf51A5898e281Db6DfC7855790607438dF2ca44b"},{"chainId":11155111,"address":"0xFf51A5898e281Db6DfC7855790607438dF2ca44b"},{"chainId":1,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":10,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":56,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":137,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":8453,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":42161,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":11155111,"address":"0x3E5c63644E683549055b9Be8653de26E0B4CD36E"},{"chainId":1,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":10,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":56,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":137,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":8453,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":42161,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":11155111,"address":"0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"},{"chainId":1,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":10,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":56,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":137,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":8453,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":42161,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":11155111,"address":"0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"},{"chainId":1,"address":"0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"},{"chainId":11155111,"address":"0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"}]}},"display":{"formats":{"DeleteRequest(bytes32 safeTxHash,uint256 totp)":{"intent":"Reject transaction","fields":[{"path":"safeTxHash","label":"Safe TX hash","format":"raw","visible":"always"},{"label":"Totp","path":"totp","visible":"never"}]},"Delegate(address delegateAddress,uint256 totp)":{"intent":"Add or remove proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"AddProposer(address delegateAddress,uint256 totp)":{"intent":"Add proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"RemoveProposer(address delegateAddress,uint256 totp)":{"intent":"Remove proposer","fields":[{"path":"delegateAddress","label":"Proposer address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]},"AuthentAddressBook(uint256 totp)":{"intent":"Authenticate address book","fields":[{"label":"Totp","path":"totp","visible":"never"}]},"AddAddressBookEntry(AddressBookEntry[] entries,uint256 totp)AddressBookEntry(string alias,address address)":{"intent":"Add address book entry","fields":[{"path":"entries.[].alias","label":"Address book alias","format":"raw"},{"path":"entries.[].address","label":"Address book address","format":"raw"},{"label":"Totp","path":"totp","visible":"never"}]}}}}}
+{
+  "0xbb8310d486368db6bd6f849402fdd73ad53d316b5a4b2644ad6efe0f941286d8": {
+    "$schema": "../../specs/erc7730-v2.schema.json",
+    "includes": "common-eip712-Safe.json",
+    "metadata": {
+      "owner": "Safe 1.5.0"
+    },
+    "context": {
+      "eip712": {
+        "deployments": [
+          {
+            "chainId": 1,
+            "address": "0xFf51A5898e281Db6DfC7855790607438dF2ca44b"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xFf51A5898e281Db6DfC7855790607438dF2ca44b"
+          }
+        ]
+      }
+    },
+    "display": {
+      "formats": {
+        "SafeTx(address to,uint256 value,bytes data,uint8 operation,uint256 safeTxGas,uint256 baseGas,uint256 gasPrice,address gasToken,address refundReceiver,uint256 nonce)": {
+          "intent": "Safe",
+          "fields": [
+            {
+              "path": "operation",
+              "label": "Operation type",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "path": "data",
+              "label": "Transaction",
+              "format": "calldata",
+              "params": {
+                "calleePath": "to",
+                "amountPath": "value",
+                "spenderPath": "@.to"
+              },
+              "visible": "always"
+            },
+            {
+              "path": "baseGas",
+              "label": "Gas amount",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "path": "gasPrice",
+              "label": "Gas price",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "path": "gasToken",
+              "label": "Gas token",
+              "format": "raw"
+            },
+            {
+              "path": "refundReceiver",
+              "label": "Gas receiver",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "label": "Safe Tx Gas",
+              "path": "safeTxGas",
+              "visible": "never"
+            },
+            {
+              "label": "Nonce",
+              "path": "nonce",
+              "visible": "never"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "0x1d88b6027d70a6d3811ece51493cc41efd3ac017b253c6d7fef2f9aaf82465d2": {
+    "$schema": "../../specs/erc7730-v2.schema.json",
+    "metadata": {
+      "owner": "Ledger Multisig"
+    },
+    "context": {
+      "eip712": {
+        "domain": {
+          "name": "Ledger Multisig",
+          "version": "1.0.0"
+        },
+        "deployments": [
+          {
+            "chainId": 1,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 10,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 56,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 137,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 8453,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 42161,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 1,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 10,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 56,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 137,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 1,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 10,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 56,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 137,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 1,
+            "address": "0xFf51A5898e281Db6DfC7855790607438dF2ca44b"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xFf51A5898e281Db6DfC7855790607438dF2ca44b"
+          },
+          {
+            "chainId": 1,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 10,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 56,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 137,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 1,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 10,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 56,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 137,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 8453,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 42161,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 1,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 10,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 56,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 137,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 1,
+            "address": "0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"
+          }
+        ]
+      }
+    },
+    "display": {
+      "formats": {
+        "DeleteRequest(bytes32 safeTxHash,uint256 totp)": {
+          "intent": "Reject transaction",
+          "fields": [
+            {
+              "path": "safeTxHash",
+              "label": "Safe TX hash",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "Delegate(address delegateAddress,uint256 totp)": {
+          "intent": "Add or remove proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AddProposer(address delegateAddress,uint256 totp)": {
+          "intent": "Add proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "RemoveProposer(address delegateAddress,uint256 totp)": {
+          "intent": "Remove proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AuthentAddressBook(uint256 totp)": {
+          "intent": "Authenticate address book",
+          "fields": [
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AddAddressBookEntry(AddressBookEntry[] entries,uint256 totp)AddressBookEntry(string alias,address address)": {
+          "intent": "Add address book entry",
+          "fields": [
+            {
+              "path": "entries.[].alias",
+              "label": "Address book alias",
+              "format": "raw"
+            },
+            {
+              "path": "entries.[].address",
+              "label": "Address book address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "0x721d98123b9c931201e6c967b52e61d4cdcc3723dbb26126328a7cb283e35228": {
+    "$schema": "../../specs/erc7730-v2.schema.json",
+    "metadata": {
+      "owner": "Ledger Multisig"
+    },
+    "context": {
+      "eip712": {
+        "domain": {
+          "name": "Ledger Multisig",
+          "version": "1.0.0"
+        },
+        "deployments": [
+          {
+            "chainId": 1,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 10,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 56,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 137,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 8453,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 42161,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 1,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 10,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 56,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 137,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 1,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 10,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 56,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 137,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 1,
+            "address": "0xFf51A5898e281Db6DfC7855790607438dF2ca44b"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xFf51A5898e281Db6DfC7855790607438dF2ca44b"
+          },
+          {
+            "chainId": 1,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 10,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 56,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 137,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 1,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 10,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 56,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 137,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 8453,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 42161,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 1,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 10,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 56,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 137,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 1,
+            "address": "0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"
+          }
+        ]
+      }
+    },
+    "display": {
+      "formats": {
+        "DeleteRequest(bytes32 safeTxHash,uint256 totp)": {
+          "intent": "Reject transaction",
+          "fields": [
+            {
+              "path": "safeTxHash",
+              "label": "Safe TX hash",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "Delegate(address delegateAddress,uint256 totp)": {
+          "intent": "Add or remove proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AddProposer(address delegateAddress,uint256 totp)": {
+          "intent": "Add proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "RemoveProposer(address delegateAddress,uint256 totp)": {
+          "intent": "Remove proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AuthentAddressBook(uint256 totp)": {
+          "intent": "Authenticate address book",
+          "fields": [
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AddAddressBookEntry(AddressBookEntry[] entries,uint256 totp)AddressBookEntry(string alias,address address)": {
+          "intent": "Add address book entry",
+          "fields": [
+            {
+              "path": "entries.[].alias",
+              "label": "Address book alias",
+              "format": "raw"
+            },
+            {
+              "path": "entries.[].address",
+              "label": "Address book address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "0x162439a1dd923ea5cad515f3bced2f093c8772ee93c3d51826ff95688283be94": {
+    "$schema": "../../specs/erc7730-v2.schema.json",
+    "metadata": {
+      "owner": "Ledger Multisig"
+    },
+    "context": {
+      "eip712": {
+        "domain": {
+          "name": "Ledger Multisig",
+          "version": "1.0.0"
+        },
+        "deployments": [
+          {
+            "chainId": 1,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 10,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 56,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 137,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 8453,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 42161,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 1,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 10,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 56,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 137,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 1,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 10,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 56,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 137,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 1,
+            "address": "0xFf51A5898e281Db6DfC7855790607438dF2ca44b"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xFf51A5898e281Db6DfC7855790607438dF2ca44b"
+          },
+          {
+            "chainId": 1,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 10,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 56,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 137,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 1,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 10,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 56,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 137,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 8453,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 42161,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 1,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 10,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 56,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 137,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 1,
+            "address": "0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"
+          }
+        ]
+      }
+    },
+    "display": {
+      "formats": {
+        "DeleteRequest(bytes32 safeTxHash,uint256 totp)": {
+          "intent": "Reject transaction",
+          "fields": [
+            {
+              "path": "safeTxHash",
+              "label": "Safe TX hash",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "Delegate(address delegateAddress,uint256 totp)": {
+          "intent": "Add or remove proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AddProposer(address delegateAddress,uint256 totp)": {
+          "intent": "Add proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "RemoveProposer(address delegateAddress,uint256 totp)": {
+          "intent": "Remove proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AuthentAddressBook(uint256 totp)": {
+          "intent": "Authenticate address book",
+          "fields": [
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AddAddressBookEntry(AddressBookEntry[] entries,uint256 totp)AddressBookEntry(string alias,address address)": {
+          "intent": "Add address book entry",
+          "fields": [
+            {
+              "path": "entries.[].alias",
+              "label": "Address book alias",
+              "format": "raw"
+            },
+            {
+              "path": "entries.[].address",
+              "label": "Address book address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "0x6c9e874b4b1b1537b11ab113648a187cf141593fa647a5a8ffa9abff4429cfba": {
+    "$schema": "../../specs/erc7730-v2.schema.json",
+    "metadata": {
+      "owner": "Ledger Multisig"
+    },
+    "context": {
+      "eip712": {
+        "domain": {
+          "name": "Ledger Multisig",
+          "version": "1.0.0"
+        },
+        "deployments": [
+          {
+            "chainId": 1,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 10,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 56,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 137,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 8453,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 42161,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 1,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 10,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 56,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 137,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 1,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 10,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 56,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 137,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 1,
+            "address": "0xFf51A5898e281Db6DfC7855790607438dF2ca44b"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xFf51A5898e281Db6DfC7855790607438dF2ca44b"
+          },
+          {
+            "chainId": 1,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 10,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 56,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 137,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 1,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 10,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 56,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 137,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 8453,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 42161,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 1,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 10,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 56,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 137,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 1,
+            "address": "0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"
+          }
+        ]
+      }
+    },
+    "display": {
+      "formats": {
+        "DeleteRequest(bytes32 safeTxHash,uint256 totp)": {
+          "intent": "Reject transaction",
+          "fields": [
+            {
+              "path": "safeTxHash",
+              "label": "Safe TX hash",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "Delegate(address delegateAddress,uint256 totp)": {
+          "intent": "Add or remove proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AddProposer(address delegateAddress,uint256 totp)": {
+          "intent": "Add proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "RemoveProposer(address delegateAddress,uint256 totp)": {
+          "intent": "Remove proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AuthentAddressBook(uint256 totp)": {
+          "intent": "Authenticate address book",
+          "fields": [
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AddAddressBookEntry(AddressBookEntry[] entries,uint256 totp)AddressBookEntry(string alias,address address)": {
+          "intent": "Add address book entry",
+          "fields": [
+            {
+              "path": "entries.[].alias",
+              "label": "Address book alias",
+              "format": "raw"
+            },
+            {
+              "path": "entries.[].address",
+              "label": "Address book address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "0xea0e2920ae94ffdb9d98b7bbb85bc34fe4df5ccca3a98a2e3bfec8b64919fc08": {
+    "$schema": "../../specs/erc7730-v2.schema.json",
+    "metadata": {
+      "owner": "Ledger Multisig"
+    },
+    "context": {
+      "eip712": {
+        "domain": {
+          "name": "Ledger Multisig",
+          "version": "1.0.0"
+        },
+        "deployments": [
+          {
+            "chainId": 1,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 10,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 56,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 137,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 8453,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 42161,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 1,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 10,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 56,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 137,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 1,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 10,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 56,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 137,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 1,
+            "address": "0xFf51A5898e281Db6DfC7855790607438dF2ca44b"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xFf51A5898e281Db6DfC7855790607438dF2ca44b"
+          },
+          {
+            "chainId": 1,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 10,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 56,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 137,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 1,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 10,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 56,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 137,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 8453,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 42161,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 1,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 10,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 56,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 137,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 1,
+            "address": "0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"
+          }
+        ]
+      }
+    },
+    "display": {
+      "formats": {
+        "DeleteRequest(bytes32 safeTxHash,uint256 totp)": {
+          "intent": "Reject transaction",
+          "fields": [
+            {
+              "path": "safeTxHash",
+              "label": "Safe TX hash",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "Delegate(address delegateAddress,uint256 totp)": {
+          "intent": "Add or remove proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AddProposer(address delegateAddress,uint256 totp)": {
+          "intent": "Add proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "RemoveProposer(address delegateAddress,uint256 totp)": {
+          "intent": "Remove proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AuthentAddressBook(uint256 totp)": {
+          "intent": "Authenticate address book",
+          "fields": [
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AddAddressBookEntry(AddressBookEntry[] entries,uint256 totp)AddressBookEntry(string alias,address address)": {
+          "intent": "Add address book entry",
+          "fields": [
+            {
+              "path": "entries.[].alias",
+              "label": "Address book alias",
+              "format": "raw"
+            },
+            {
+              "path": "entries.[].address",
+              "label": "Address book address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "0xdddd43cd698534e9c06afeb4cccc721a4a8603c6e9a56a047906226e384fe782": {
+    "$schema": "../../specs/erc7730-v2.schema.json",
+    "metadata": {
+      "owner": "Ledger Multisig"
+    },
+    "context": {
+      "eip712": {
+        "domain": {
+          "name": "Ledger Multisig",
+          "version": "1.0.0"
+        },
+        "deployments": [
+          {
+            "chainId": 1,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 10,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 56,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 137,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 8453,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 42161,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+          },
+          {
+            "chainId": 1,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 10,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 56,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 137,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938"
+          },
+          {
+            "chainId": 1,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 10,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 56,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 137,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x41675C099F32341bf84BFc5382aF534df5C7461a"
+          },
+          {
+            "chainId": 1,
+            "address": "0xFf51A5898e281Db6DfC7855790607438dF2ca44b"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xFf51A5898e281Db6DfC7855790607438dF2ca44b"
+          },
+          {
+            "chainId": 1,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 10,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 56,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 137,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E"
+          },
+          {
+            "chainId": 1,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 10,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 56,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 137,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 8453,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 42161,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
+          },
+          {
+            "chainId": 1,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 10,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 56,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 137,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 8453,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 42161,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762"
+          },
+          {
+            "chainId": 1,
+            "address": "0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"
+          },
+          {
+            "chainId": 11155111,
+            "address": "0xEdd160fEBBD92E350D4D398fb636302fccd67C7e"
+          }
+        ]
+      }
+    },
+    "display": {
+      "formats": {
+        "DeleteRequest(bytes32 safeTxHash,uint256 totp)": {
+          "intent": "Reject transaction",
+          "fields": [
+            {
+              "path": "safeTxHash",
+              "label": "Safe TX hash",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "Delegate(address delegateAddress,uint256 totp)": {
+          "intent": "Add or remove proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AddProposer(address delegateAddress,uint256 totp)": {
+          "intent": "Add proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "RemoveProposer(address delegateAddress,uint256 totp)": {
+          "intent": "Remove proposer",
+          "fields": [
+            {
+              "path": "delegateAddress",
+              "label": "Proposer address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AuthentAddressBook(uint256 totp)": {
+          "intent": "Authenticate address book",
+          "fields": [
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        },
+        "AddAddressBookEntry(AddressBookEntry[] entries,uint256 totp)AddressBookEntry(string alias,address address)": {
+          "intent": "Add address book entry",
+          "fields": [
+            {
+              "path": "entries.[].alias",
+              "label": "Address book alias",
+              "format": "raw"
+            },
+            {
+              "path": "entries.[].address",
+              "label": "Address book address",
+              "format": "raw"
+            },
+            {
+              "label": "Totp",
+              "path": "totp",
+              "visible": "never"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

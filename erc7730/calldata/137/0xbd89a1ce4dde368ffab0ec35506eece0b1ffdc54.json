@@ -1,1 +1,19 @@
-{"setupToL2(address l2Singleton)":{"$id":"setupToL2","intent":"Setup Safe L2","fields":[{"path":"l2Singleton","label":"Module","format":"addressName","params":{"types":["contract"]},"visible":"always"}]}}
+{
+  "setupToL2(address l2Singleton)": {
+    "$id": "setupToL2",
+    "intent": "Setup Safe L2",
+    "fields": [
+      {
+        "path": "l2Singleton",
+        "label": "Module",
+        "format": "addressName",
+        "params": {
+          "types": [
+            "contract"
+          ]
+        },
+        "visible": "always"
+      }
+    ]
+  }
+}

@@ -1,1 +1,6 @@
-{"createPod()":{"intent":"Create EigenLayerPod","fields":[]}}
+{
+  "createPod()": {
+    "intent": "Create EigenLayerPod",
+    "fields": []
+  }
+}

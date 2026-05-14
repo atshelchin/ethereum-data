@@ -1,1 +1,59 @@
-{"buyVoucherPOL(uint256 _amount, uint256 _minSharesToMint)":{"intent":"Stake POL","fields":[{"path":"#._amount","label":"Stake amount","format":"unit","params":{"base":"$.metadata.constants.stakingTokenTicker","decimals":18},"visible":"always"},{"path":"#._minSharesToMint","label":"Min shares","format":"raw","visible":"always"}]},"sellVoucher_newPOL(uint256 claimAmount, uint256 maximumSharesToBurn)":{"intent":"Unstake POL","fields":[{"path":"#.claimAmount","label":"Claim amount","format":"unit","params":{"base":"$.metadata.constants.stakingTokenTicker","decimals":18},"visible":"always"},{"path":"#.maximumSharesToBurn","label":"Max shares","format":"raw","visible":"always"}]},"unstakeClaimTokens_newPOL(uint256 unbondNonce)":{"intent":"Claim unstaked POL","fields":[{"path":"#.unbondNonce","label":"Unbond nonce","format":"raw","visible":"always"}]},"withdrawRewardsPOL()":{"intent":"Withdraw POL rewards","fields":[]}}
+{
+  "buyVoucherPOL(uint256 _amount, uint256 _minSharesToMint)": {
+    "intent": "Stake POL",
+    "fields": [
+      {
+        "path": "#._amount",
+        "label": "Stake amount",
+        "format": "unit",
+        "params": {
+          "base": "$.metadata.constants.stakingTokenTicker",
+          "decimals": 18
+        },
+        "visible": "always"
+      },
+      {
+        "path": "#._minSharesToMint",
+        "label": "Min shares",
+        "format": "raw",
+        "visible": "always"
+      }
+    ]
+  },
+  "sellVoucher_newPOL(uint256 claimAmount, uint256 maximumSharesToBurn)": {
+    "intent": "Unstake POL",
+    "fields": [
+      {
+        "path": "#.claimAmount",
+        "label": "Claim amount",
+        "format": "unit",
+        "params": {
+          "base": "$.metadata.constants.stakingTokenTicker",
+          "decimals": 18
+        },
+        "visible": "always"
+      },
+      {
+        "path": "#.maximumSharesToBurn",
+        "label": "Max shares",
+        "format": "raw",
+        "visible": "always"
+      }
+    ]
+  },
+  "unstakeClaimTokens_newPOL(uint256 unbondNonce)": {
+    "intent": "Claim unstaked POL",
+    "fields": [
+      {
+        "path": "#.unbondNonce",
+        "label": "Unbond nonce",
+        "format": "raw",
+        "visible": "always"
+      }
+    ]
+  },
+  "withdrawRewardsPOL()": {
+    "intent": "Withdraw POL rewards",
+    "fields": []
+  }
+}
