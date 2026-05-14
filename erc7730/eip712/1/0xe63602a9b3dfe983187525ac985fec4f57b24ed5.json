@@ -1,6 +1,5 @@
 {
   "0xf818f8d180cf1b9f0a4eea0e4fd7bfd707e66355f291c043c7efe63858274ac8": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -169,7 +168,6 @@
     }
   },
   "0x05ee05f4bc20ba51501b0b4e57d261a4a66ee982f9906da6193182c412d456b0": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -338,7 +336,6 @@
     }
   },
   "0xc2b83c8f1f12a337942024032b032b2ff973a44861fa37f9a86f16b522e36b14": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [

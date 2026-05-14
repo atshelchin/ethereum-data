@@ -1,14 +1,13 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "metadata": {
-    "owner": "B.Protocol",
-    "info": {
-      "url": "https://www.bprotocol.org/"
-    },
     "constants": {
       "underlyingToken": "0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
       "underlyingTicker": "XAUM",
       "vaultTicker": "reGOLD"
+    },
+    "owner": "B.Protocol",
+    "info": {
+      "url": "https://www.bprotocol.org/"
     }
   },
   "context": {

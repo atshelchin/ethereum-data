@@ -1,14 +1,13 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "metadata": {
-    "owner": "RE7 Labs",
-    "info": {
-      "url": "https://www.re7.capital"
-    },
     "constants": {
       "underlyingToken": "0xbf1aeA8670D2528E08334083616dD9C5F3B087aE",
       "underlyingTicker": "MAI",
       "vaultTicker": "mMAI"
+    },
+    "owner": "RE7 Labs",
+    "info": {
+      "url": "https://www.re7.capital"
     }
   },
   "context": {

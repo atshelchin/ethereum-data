@@ -1,14 +1,13 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "metadata": {
-    "owner": "MEV Capital",
-    "info": {
-      "url": "https://mevcapital.com/"
-    },
     "constants": {
       "underlyingToken": "0x73A15FeD60Bf67631dC6cd7Bc5B6e8da8190aCF5",
       "underlyingTicker": "USD0",
       "vaultTicker": "MC_USD0"
+    },
+    "owner": "MEV Capital",
+    "info": {
+      "url": "https://mevcapital.com/"
     }
   },
   "context": {

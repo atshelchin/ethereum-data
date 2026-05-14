@@ -1,14 +1,13 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "metadata": {
-    "owner": "RE7 Labs",
-    "info": {
-      "url": "https://www.re7.capital"
-    },
     "constants": {
       "underlyingToken": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
       "underlyingTicker": "USDA",
       "vaultTicker": "Re7USDA"
+    },
+    "owner": "RE7 Labs",
+    "info": {
+      "url": "https://www.re7.capital"
     }
   },
   "context": {

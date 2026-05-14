@@ -1,5 +1,4 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "context": {
     "contract": {
       "deployments": [
@@ -15,6 +14,10 @@
       "underlyingToken": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
       "underlyingTicker": "EURC",
       "vaultTicker": "kmgcEURC"
+    },
+    "owner": "Kiln",
+    "info": {
+      "url": "https://kiln.fi/"
     }
   },
   "display": {

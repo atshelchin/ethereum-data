@@ -1,5 +1,4 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "context": {
     "$id": "SafeProxyFactory",
     "contract": {
@@ -111,6 +110,10 @@
     }
   },
   "metadata": {
+    "owner": "Safe{Wallet}",
+    "info": {
+      "url": "https://app.safe.global/welcome"
+    },
     "contractName": "SafeProxyFactory"
   }
 }

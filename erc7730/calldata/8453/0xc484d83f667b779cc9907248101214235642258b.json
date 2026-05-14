@@ -1,14 +1,13 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "metadata": {
-    "owner": "Apostro",
-    "info": {
-      "url": "https://apostro.xyz"
-    },
     "constants": {
       "underlyingToken": "0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9",
       "underlyingTicker": "USR",
       "vaultTicker": "aprUSR"
+    },
+    "owner": "Apostro",
+    "info": {
+      "url": "https://apostro.xyz"
     }
   },
   "context": {

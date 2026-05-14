@@ -1,14 +1,13 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "metadata": {
-    "owner": "Gauntlet",
-    "info": {
-      "url": "https://www.gauntlet.xyz/"
-    },
     "constants": {
       "underlyingToken": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
       "underlyingTicker": "WBTC",
       "vaultTicker": "gtWBTCc"
+    },
+    "owner": "Gauntlet",
+    "info": {
+      "url": "https://www.gauntlet.xyz/"
     }
   },
   "context": {

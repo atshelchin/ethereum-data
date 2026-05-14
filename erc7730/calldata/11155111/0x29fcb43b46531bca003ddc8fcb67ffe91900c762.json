@@ -1,5 +1,4 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "context": {
     "$id": "SafeL2",
     "contract": {
@@ -36,6 +35,19 @@
     }
   },
   "metadata": {
+    "owner": "Safe{Wallet}",
+    "info": {
+      "url": "https://app.safe.global/welcome"
+    },
+    "enums": {
+      "operation": {
+        "0": "Call",
+        "1": "Delegate Call"
+      }
+    },
+    "constants": {
+      "addressAsNull": "0x0000000000000000000000000000000000000000"
+    },
     "contractName": "SafeL2"
   },
   "display": {

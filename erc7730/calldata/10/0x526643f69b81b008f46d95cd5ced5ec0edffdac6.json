@@ -1,5 +1,4 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "context": {
     "$id": "SafeMigration",
     "contract": {
@@ -36,6 +35,10 @@
     }
   },
   "metadata": {
+    "owner": "Safe{Wallet}",
+    "info": {
+      "url": "https://app.safe.global/welcome"
+    },
     "contractName": "SafeMigration"
   },
   "display": {

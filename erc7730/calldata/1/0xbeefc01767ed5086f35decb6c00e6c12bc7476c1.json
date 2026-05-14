@@ -1,14 +1,13 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "metadata": {
-    "owner": "Steakhouse Financial",
-    "info": {
-      "url": "https://www.steakhouse.financial"
-    },
     "constants": {
       "underlyingToken": "0x7751E2F4b8ae93EF6B79d86419d42FE3295A4559",
       "underlyingTicker": "wUSDL",
       "vaultTicker": "csUSDL"
+    },
+    "owner": "Steakhouse Financial",
+    "info": {
+      "url": "https://www.steakhouse.financial"
     }
   },
   "context": {

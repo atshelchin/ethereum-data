@@ -1,5 +1,4 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "context": {
     "contract": {
       "deployments": [
@@ -15,6 +14,10 @@
       "underlyingToken": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
       "underlyingTicker": "RLUSD",
       "vaultTicker": "kEulerRLUSD"
+    },
+    "owner": "Kiln",
+    "info": {
+      "url": "https://kiln.fi/"
     }
   },
   "display": {

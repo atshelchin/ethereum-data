@@ -1,5 +1,4 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "context": {
     "contract": {
       "deployments": [
@@ -15,6 +14,10 @@
       "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "underlyingTicker": "WETH",
       "vaultTicker": "kmgcWETH"
+    },
+    "owner": "Kiln",
+    "info": {
+      "url": "https://kiln.fi/"
     }
   },
   "display": {

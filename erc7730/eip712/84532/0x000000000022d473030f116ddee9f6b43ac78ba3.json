@@ -1,6 +1,5 @@
 {
   "0xf69aa722d3ed4edcfb9d5a29bf72a4d1fd0a2b90c570c4791dcde3f5dcd89c0b": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "display": {
       "formats": {
         "PermitWitnessTransferFrom(TokenPermissions permitted,address spender,uint256 nonce,uint256 deadline,DutchOrder witness)DutchOrder(OrderInfo info,uint256 decayStartTime,uint256 decayEndTime,address inputToken,uint256 inputStartAmount,uint256 inputEndAmount,DutchOutput[] outputs)DutchOutput(address token,uint256 startAmount,uint256 endAmount,address recipient)OrderInfo(address reactor,address swapper,uint256 nonce,uint256 deadline,address additionalValidationContract,bytes additionalValidationData)TokenPermissions(address token,uint256 amount)": {
@@ -86,10 +85,16 @@
           ]
         }
       }
+    },
+    "metadata": {
+      "owner": "Uniswap Labs",
+      "info": {
+        "deploymentDate": "2021-12-14T00:00:00Z",
+        "url": "https://uniswap.org/"
+      }
     }
   },
   "0x2846b6ca8e0ecdbc9ca7696f16bdf77b3baf48504ac14d6a541484ec197e91eb": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "display": {
       "formats": {
         "PermitWitnessTransferFrom(TokenPermissions permitted,address spender,uint256 nonce,uint256 deadline,ExclusiveDutchOrder witness)DutchOutput(address token,uint256 startAmount,uint256 endAmount,address recipient)ExclusiveDutchOrder(OrderInfo info,uint256 decayStartTime,uint256 decayEndTime,address exclusiveFiller,uint256 exclusivityOverrideBps,address inputToken,uint256 inputStartAmount,uint256 inputEndAmount,DutchOutput[] outputs)OrderInfo(address reactor,address swapper,uint256 nonce,uint256 deadline,address additionalValidationContract,bytes additionalValidationData)TokenPermissions(address token,uint256 amount)": {
@@ -185,10 +190,16 @@
           ]
         }
       }
+    },
+    "metadata": {
+      "owner": "Uniswap Labs",
+      "info": {
+        "deploymentDate": "2021-12-14T00:00:00Z",
+        "url": "https://uniswap.org/"
+      }
     }
   },
   "0xe35e6a28e8d076114130d5989df14ccf68b92dc3ed629938e43f54ab543d79bb": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "display": {
       "formats": {
         "PermitWitnessTransferFrom(TokenPermissions permitted,address spender,uint256 nonce,uint256 deadline,LimitOrder witness)LimitOrder(OrderInfo info,address inputToken,uint256 inputAmount,OutputToken[] outputs)OrderInfo(address reactor,address swapper,uint256 nonce,uint256 deadline,address additionalValidationContract,bytes additionalValidationData)OutputToken(address token,uint256 amount,address recipient)TokenPermissions(address token,uint256 amount)": {
@@ -254,10 +265,16 @@
           ]
         }
       }
+    },
+    "metadata": {
+      "owner": "Uniswap Labs",
+      "info": {
+        "deploymentDate": "2021-12-14T00:00:00Z",
+        "url": "https://uniswap.org/"
+      }
     }
   },
   "0xa8cc1ce2c3d1c6f1ff0072b7a47d6e2876fef4f7f92648cd166fdd6dec0a7465": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "display": {
       "formats": {
         "PermitWitnessTransferFrom(TokenPermissions permitted,address spender,uint256 nonce,uint256 deadline,V2DutchOrder witness)DutchOutput(address token,uint256 startAmount,uint256 endAmount,address recipient)OrderInfo(address reactor,address swapper,uint256 nonce,uint256 deadline,address additionalValidationContract,bytes additionalValidationData)TokenPermissions(address token,uint256 amount)V2DutchOrder(OrderInfo info,address cosigner,address baseInputToken,uint256 baseInputStartAmount,uint256 baseInputEndAmount,DutchOutput[] baseOutputs)": {
@@ -338,10 +355,16 @@
           ]
         }
       }
+    },
+    "metadata": {
+      "owner": "Uniswap Labs",
+      "info": {
+        "deploymentDate": "2021-12-14T00:00:00Z",
+        "url": "https://uniswap.org/"
+      }
     }
   },
   "0xaf1b0d30d2cab0380e68f0689007e3254993c596f2fdd0aaa7f4d04f79440863": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "display": {
       "formats": {
         "PermitSingle(PermitDetails details,address spender,uint256 sigDeadline)PermitDetails(address token,uint160 amount,uint48 expiration,uint48 nonce)": {
@@ -417,10 +440,16 @@
           ]
         }
       }
+    },
+    "metadata": {
+      "owner": "Uniswap Labs",
+      "info": {
+        "deploymentDate": "2021-12-14T00:00:00Z",
+        "url": "https://uniswap.org/"
+      }
     }
   },
   "0xf3841cd1ff0085026a6327b620b67997ce40f282c88a8e905a7a5626e310f3d0": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "display": {
       "formats": {
         "PermitSingle(PermitDetails details,address spender,uint256 sigDeadline)PermitDetails(address token,uint160 amount,uint48 expiration,uint48 nonce)": {
@@ -495,6 +524,13 @@
             }
           ]
         }
+      }
+    },
+    "metadata": {
+      "owner": "Uniswap Labs",
+      "info": {
+        "deploymentDate": "2021-12-14T00:00:00Z",
+        "url": "https://uniswap.org/"
       }
     }
   }

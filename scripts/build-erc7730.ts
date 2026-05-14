@@ -64,11 +64,23 @@ async function writeJson(path: string, data: any) {
 }
 
 /**
- * Resolve a descriptor's `includes` field by merging the referenced file's
- * display.formats into the descriptor. Handles one level of includes
- * (the registry doesn't use deeper nesting).
+ * Resolve a descriptor's `includes` field per ERC-7730 spec.
+ *
+ * Merges from the included file (included values first, descriptor overrides):
+ *   - metadata (owner, info, enums, constants, token, maps)
+ *   - display.definitions (shared formatter refs)
+ *   - display.formats
+ *
+ * Also removes `$schema` (relative path not valid outside upstream repo)
+ * and `includes` (already resolved).
  */
 const resolveCache = new Map<string, any>();
+
+function mergeObjects(base: any, override: any): any {
+  if (!base) return override;
+  if (!override) return base;
+  return { ...base, ...override };
+}
 
 async function resolveDescriptor(filePath: string): Promise<any> {
   if (resolveCache.has(filePath)) return resolveCache.get(filePath);
@@ -79,16 +91,31 @@ async function resolveDescriptor(filePath: string): Promise<any> {
     const includePath = join(dir, desc.includes);
     try {
       const included = await resolveDescriptor(includePath);
-      // Merge: included formats first, then descriptor's own formats override
-      const inclFormats = included?.display?.formats || {};
+
+      // Merge metadata (included first, descriptor overrides)
+      desc.metadata = mergeObjects(included?.metadata, desc.metadata);
+
+      // Merge display.definitions
       if (!desc.display) desc.display = {};
-      if (!desc.display.formats) desc.display.formats = {};
-      desc.display.formats = { ...inclFormats, ...desc.display.formats };
+      desc.display.definitions = mergeObjects(
+        included?.display?.definitions,
+        desc.display.definitions,
+      );
+      if (!desc.display.definitions) delete desc.display.definitions;
+
+      // Merge display.formats
+      desc.display.formats = mergeObjects(
+        included?.display?.formats,
+        desc.display.formats,
+      );
     } catch {
       // include target missing — continue with what we have
     }
     delete desc.includes;
   }
+
+  // Remove relative $schema (not valid outside upstream repo)
+  delete desc.$schema;
 
   resolveCache.set(filePath, desc);
   return desc;
@@ -108,7 +135,9 @@ async function buildErcs() {
   for (const f of files) {
     if (!f.endsWith(".json")) continue;
     const name = basename(f, ".json"); // e.g. "calldata-erc20-tokens"
-    result[name] = await readJson(join(ERCS_DIR, f));
+    const desc = await readJson(join(ERCS_DIR, f));
+    delete desc.$schema;
+    result[name] = desc;
   }
   await writeJson(join(OUT_DIR, "ercs.json"), result);
   console.log(`ercs.json: ${Object.keys(result).length} standards`);

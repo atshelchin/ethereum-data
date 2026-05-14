@@ -1,6 +1,5 @@
 {
   "0x9e8ae62c4110965c175b27cf715039b09889d0119087a0e3a798e30b3958a627": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -49,7 +48,6 @@
     }
   },
   "0xd9037bff36eb09b289eaa5c7b4689aa8d198d3b3820a215a2e84b3f3d24d3f6a": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -673,7 +671,6 @@
     }
   },
   "0x54f4c924ea132d4a7c22f9b0c1870f7d300b7ddf2b03e47bf0f59743da53b137": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -1297,7 +1294,6 @@
     }
   },
   "0x65db8457dfdead443d4fd325b5487496f9b9ab96e163675f324745f6b6148349": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -1921,7 +1917,6 @@
     }
   },
   "0x70888457871c72d32d8962de8eb9c0afb06cf9d3da14dcb7e2b03f21d8d59ef5": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -2545,7 +2540,6 @@
     }
   },
   "0xb7f0bf1380e1f809c3b537fdf3896f00e46bc66a95f752e8c10df3258c2e7e06": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -3169,7 +3163,6 @@
     }
   },
   "0x8938250adaec2654de28d18f8712c7940338dfdfe389c1e0fa2eda14401de0ee": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -3793,7 +3786,6 @@
     }
   },
   "0x01e4597860ed5cb694b6275125e92f897deba4cb25b38789470e982ac0f0bba8": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -4417,7 +4409,6 @@
     }
   },
   "0xc71f698c3316d7b7810c831d68316a5fa62d68f8da6a899008857dedd663877c": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -5041,7 +5032,6 @@
     }
   },
   "0x2ec8c44df21693553f55aa1142dcbaf5b808049cd74198ebc2e45324fea475a2": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -5665,7 +5655,6 @@
     }
   },
   "0xb00eee39ac244140bd82de5ae80ce8d2c544adb7156300bd504f01ed3bb3d34a": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -6289,7 +6278,6 @@
     }
   },
   "0x4eb671ff5d356d62ec44a8ac8388294fa6f093ba88f662ae59a9f27f1047ceea": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -6913,7 +6901,6 @@
     }
   },
   "0xa280bb110de0eef244807f3a39ba6b99d13520eae79f36e74cceaf39088644a1": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -7537,7 +7524,6 @@
     }
   },
   "0xc852f3eae06f8fd3e2e1272f38ea054800163ed167c29f6a0ef40cfe9c31da8e": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -8161,7 +8147,6 @@
     }
   },
   "0x628183f05f378ebdb9c3138fee66f2773f48ab908dfe4ab4873882ab678800b6": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -8785,7 +8770,6 @@
     }
   },
   "0x8a05e1bade2d331e0649e93d8ae6e975c9f8e9f77d490a6cef6bb8135a3ed7db": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -9409,7 +9393,6 @@
     }
   },
   "0xcac1be84b3784c7af151dc7a31b776185cad05d8fe98873f52fff3da5c69122f": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -10033,7 +10016,6 @@
     }
   },
   "0xc4bee58028aa48f844191cabc37e657ae4343106529153ff555ac188f854a54f": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -10657,7 +10639,6 @@
     }
   },
   "0x124416232e06337f9b753f6e7f70da7757bb8571ca0d1c7fe60f9494b4d8a7ab": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -11281,7 +11262,6 @@
     }
   },
   "0xbba3b93984ef8121efa21773c829238dff7daf0833ea896ace8fb3717144ab25": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -11905,7 +11885,6 @@
     }
   },
   "0x29138802f96599557058db8a8f7fcc56fc37869e6a566643cdabea3c08994a81": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [
@@ -12529,7 +12508,6 @@
     }
   },
   "0x903d668d869acfd477f7ef738500ba63c67dcddb575984faad97b7c29d9531ef": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [

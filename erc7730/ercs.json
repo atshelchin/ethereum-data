@@ -1,6 +1,5 @@
 {
   "calldata-erc20-tokens": {
-    "$schema": "../specs/erc7730-v2.schema.json",
     "context": {
       "contract": {}
     },
@@ -66,7 +65,6 @@
     }
   },
   "calldata-erc7540Redeem-vaults": {
-    "$schema": "../specs/erc7730-v2.schema.json",
     "context": {
       "contract": {}
     },
@@ -223,7 +221,6 @@
     }
   },
   "calldata-erc721-nfts": {
-    "$schema": "../specs/erc7730-v2.schema.json",
     "context": {
       "contract": {}
     },
@@ -370,7 +367,6 @@
     }
   },
   "eip712-erc2612-permit": {
-    "$schema": "../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {}
     },
@@ -418,7 +414,6 @@
     }
   },
   "calldata-erc4626-vaults": {
-    "$schema": "../specs/erc7730-v2.schema.json",
     "context": {
       "contract": {}
     },
@@ -571,7 +566,6 @@
     }
   },
   "calldata-erc7540Deposit-vaults": {
-    "$schema": "../specs/erc7730-v2.schema.json",
     "context": {
       "contract": {}
     },

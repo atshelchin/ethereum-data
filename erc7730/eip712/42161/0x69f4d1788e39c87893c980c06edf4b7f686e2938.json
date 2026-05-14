@@ -1,6 +1,5 @@
 {
   "0xbb8310d486368db6bd6f849402fdd73ad53d316b5a4b2644ad6efe0f941286d8": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "metadata": {
       "owner": "Safe 1.3.0"
     },
@@ -127,7 +126,6 @@
     }
   },
   "0x1d88b6027d70a6d3811ece51493cc41efd3ac017b253c6d7fef2f9aaf82465d2": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "metadata": {
       "owner": "Ledger Multisig"
     },
@@ -422,7 +420,6 @@
     }
   },
   "0x721d98123b9c931201e6c967b52e61d4cdcc3723dbb26126328a7cb283e35228": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "metadata": {
       "owner": "Ledger Multisig"
     },
@@ -717,7 +714,6 @@
     }
   },
   "0x162439a1dd923ea5cad515f3bced2f093c8772ee93c3d51826ff95688283be94": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "metadata": {
       "owner": "Ledger Multisig"
     },
@@ -1012,7 +1008,6 @@
     }
   },
   "0x6c9e874b4b1b1537b11ab113648a187cf141593fa647a5a8ffa9abff4429cfba": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "metadata": {
       "owner": "Ledger Multisig"
     },
@@ -1307,7 +1302,6 @@
     }
   },
   "0xea0e2920ae94ffdb9d98b7bbb85bc34fe4df5ccca3a98a2e3bfec8b64919fc08": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "metadata": {
       "owner": "Ledger Multisig"
     },
@@ -1602,7 +1596,6 @@
     }
   },
   "0xdddd43cd698534e9c06afeb4cccc721a4a8603c6e9a56a047906226e384fe782": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "metadata": {
       "owner": "Ledger Multisig"
     },

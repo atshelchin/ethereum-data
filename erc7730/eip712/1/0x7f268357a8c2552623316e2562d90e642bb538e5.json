@@ -1,6 +1,5 @@
 {
   "0xdba08a88a748f356e8faf8578488343eab21b1741728779c9dcfdc782bc800f8": {
-    "$schema": "../../specs/erc7730-v2.schema.json",
     "context": {
       "eip712": {
         "deployments": [

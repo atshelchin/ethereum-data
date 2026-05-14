@@ -1,5 +1,4 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "context": {
     "$id": "AggregationRouterV4",
     "contract": {
@@ -295,9 +294,53 @@
           }
         ]
       }
+    },
+    "definitions": {
+      "sendAmount": {
+        "label": "Amount to Send",
+        "format": "tokenAmount",
+        "params": {
+          "nativeCurrencyAddress": [
+            "$.metadata.constants.addressAsEth",
+            "$.metadata.constants.addressAsNull"
+          ]
+        }
+      },
+      "minReceiveAmount": {
+        "label": "Minimum to Receive",
+        "format": "tokenAmount",
+        "params": {
+          "nativeCurrencyAddress": [
+            "$.metadata.constants.addressAsEth",
+            "$.metadata.constants.addressAsNull"
+          ]
+        }
+      },
+      "lastPool": {
+        "label": "Last pool",
+        "format": "addressName",
+        "params": {
+          "types": [
+            "contract"
+          ]
+        }
+      },
+      "beneficiary": {
+        "label": "Beneficiary",
+        "format": "addressName"
+      }
     }
   },
   "metadata": {
+    "owner": "1inch Network",
+    "info": {
+      "url": "https://1inch.io/",
+      "deploymentDate": "2021-11-05T10:18:09Z"
+    },
+    "constants": {
+      "addressAsEth": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "addressAsNull": "0x0000000000000000000000000000000000000000"
+    },
     "contractName": "AggregationRouterV4"
   }
 }

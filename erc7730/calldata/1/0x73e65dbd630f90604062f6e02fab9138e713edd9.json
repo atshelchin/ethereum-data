@@ -1,14 +1,13 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "metadata": {
-    "owner": "SparkDAO",
-    "info": {
-      "url": "https://spark.fi/"
-    },
     "constants": {
       "underlyingToken": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
       "underlyingTicker": "DAI",
       "vaultTicker": "spDAI"
+    },
+    "owner": "SparkDAO",
+    "info": {
+      "url": "https://spark.fi/"
     }
   },
   "context": {

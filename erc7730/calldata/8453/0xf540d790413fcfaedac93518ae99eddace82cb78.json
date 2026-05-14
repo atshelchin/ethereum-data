@@ -1,14 +1,13 @@
 {
-  "$schema": "../../specs/erc7730-v2.schema.json",
   "metadata": {
-    "owner": "9Summits",
-    "info": {
-      "url": "https://9summits.io/"
-    },
     "constants": {
       "underlyingToken": "0x4200000000000000000000000000000000000006",
       "underlyingTicker": "WETH",
       "vaultTicker": "9SETHc"
+    },
+    "owner": "9Summits",
+    "info": {
+      "url": "https://9summits.io/"
     }
   },
   "context": {
