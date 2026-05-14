@@ -1,204 +1,222 @@
 {
-  "$id": "AggregationRouterV4",
+  "$schema": "../../specs/erc7730-v2.schema.json",
+  "includes": "common-AggregationRouterV4.json",
+  "context": {
+    "$id": "AggregationRouterV4",
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 56,
+          "address": "0x1111111254fb6c44bAC0beD2854e76F90643097d"
+        },
+        {
+          "chainId": 137,
+          "address": "0x1111111254fb6c44bAC0beD2854e76F90643097d"
+        }
+      ]
+    }
+  },
   "metadata": {
     "contractName": "AggregationRouterV4"
   },
-  "formats": {
-    "swap(address caller, (address srcToken, address dstToken, address srcReceiver, address dstReceiver, uint256 amount, uint256 minReturnAmount, uint256 flags, bytes permit) desc, bytes data)": {
-      "$id": "swap",
-      "intent": "Swap",
-      "fields": [
-        {
-          "path": "desc.amount",
-          "$ref": "$.display.definitions.sendAmount",
-          "params": {
-            "tokenPath": "desc.srcToken"
+  "display": {
+    "formats": {
+      "swap(address caller, (address srcToken, address dstToken, address srcReceiver, address dstReceiver, uint256 amount, uint256 minReturnAmount, uint256 flags, bytes permit) desc, bytes data)": {
+        "$id": "swap",
+        "intent": "Swap",
+        "fields": [
+          {
+            "path": "desc.amount",
+            "$ref": "$.display.definitions.sendAmount",
+            "params": {
+              "tokenPath": "desc.srcToken"
+            },
+            "visible": "always"
           },
-          "visible": "always"
-        },
-        {
-          "path": "desc.minReturnAmount",
-          "$ref": "$.display.definitions.minReceiveAmount",
-          "params": {
-            "tokenPath": "desc.dstToken"
+          {
+            "path": "desc.minReturnAmount",
+            "$ref": "$.display.definitions.minReceiveAmount",
+            "params": {
+              "tokenPath": "desc.dstToken"
+            },
+            "visible": "always"
           },
-          "visible": "always"
-        },
-        {
-          "path": "desc.dstReceiver",
-          "$ref": "$.display.definitions.beneficiary",
-          "visible": "always"
-        },
-        {
-          "label": "Caller",
-          "path": "caller",
-          "visible": "never"
-        },
-        {
-          "label": "Desc Src Receiver",
-          "path": "desc.srcReceiver",
-          "visible": "never"
-        },
-        {
-          "label": "Desc Flags",
-          "path": "desc.flags",
-          "visible": "never"
-        },
-        {
-          "label": "Desc Permit",
-          "path": "desc.permit",
-          "visible": "never"
-        },
-        {
-          "label": "Data",
-          "path": "data",
-          "visible": "never"
-        }
-      ]
-    },
-    "unoswap(address srcToken, uint256 amount, uint256 minReturn, bytes32[] pools)": {
-      "$id": "unoswap",
-      "intent": "Swap",
-      "fields": [
-        {
-          "path": "amount",
-          "$ref": "$.display.definitions.sendAmount",
-          "params": {
-            "tokenPath": "srcToken"
+          {
+            "path": "desc.dstReceiver",
+            "$ref": "$.display.definitions.beneficiary",
+            "visible": "always"
           },
-          "visible": "always"
-        },
-        {
-          "path": "minReturn",
-          "$ref": "$.display.definitions.minReceiveAmount",
-          "visible": "always"
-        },
-        {
-          "path": "@.from",
-          "$ref": "$.display.definitions.beneficiary",
-          "visible": "always"
-        },
-        {
-          "path": "pools.[-1]",
-          "$ref": "$.display.definitions.lastPool"
-        }
-      ]
-    },
-    "unoswapWithPermit(address srcToken, uint256 amount, uint256 minReturn, bytes32[] pools, bytes permit)": {
-      "$id": "unoswapWithPermit",
-      "intent": "Swap",
-      "fields": [
-        {
-          "path": "amount",
-          "$ref": "$.display.definitions.sendAmount",
-          "params": {
-            "tokenPath": "srcToken"
+          {
+            "label": "Caller",
+            "path": "caller",
+            "visible": "never"
           },
-          "visible": "always"
-        },
-        {
-          "path": "minReturn",
-          "$ref": "$.display.definitions.minReceiveAmount",
-          "visible": "always"
-        },
-        {
-          "path": "@.from",
-          "$ref": "$.display.definitions.beneficiary",
-          "visible": "always"
-        },
-        {
-          "path": "pools.[-1]",
-          "$ref": "$.display.definitions.lastPool"
-        },
-        {
-          "label": "Permit",
-          "path": "permit",
-          "visible": "never"
-        }
-      ]
-    },
-    "uniswapV3Swap(uint256 amount, uint256 minReturn, uint256[] pools)": {
-      "$id": "uniswapV3Swap",
-      "intent": "Swap",
-      "fields": [
-        {
-          "path": "amount",
-          "$ref": "$.display.definitions.sendAmount",
-          "visible": "always"
-        },
-        {
-          "path": "minReturn",
-          "$ref": "$.display.definitions.minReceiveAmount",
-          "visible": "always"
-        },
-        {
-          "path": "@.from",
-          "$ref": "$.display.definitions.beneficiary",
-          "visible": "always"
-        },
-        {
-          "path": "pools.[-1]",
-          "$ref": "$.display.definitions.lastPool"
-        }
-      ]
-    },
-    "uniswapV3SwapTo(address recipient, uint256 amount, uint256 minReturn, uint256[] pools)": {
-      "$id": "uniswapV3SwapTo",
-      "intent": "Swap",
-      "fields": [
-        {
-          "path": "amount",
-          "$ref": "$.display.definitions.sendAmount",
-          "visible": "always"
-        },
-        {
-          "path": "minReturn",
-          "$ref": "$.display.definitions.minReceiveAmount",
-          "visible": "always"
-        },
-        {
-          "path": "recipient",
-          "$ref": "$.display.definitions.beneficiary",
-          "visible": "always"
-        },
-        {
-          "path": "pools.[-1]",
-          "$ref": "$.display.definitions.lastPool"
-        }
-      ]
-    },
-    "uniswapV3SwapToWithPermit(address recipient, address srcToken, uint256 amount, uint256 minReturn, uint256[] pools, bytes permit)": {
-      "$id": "uniswapV3SwapToWithPermit",
-      "intent": "Swap",
-      "fields": [
-        {
-          "path": "amount",
-          "$ref": "$.display.definitions.sendAmount",
-          "params": {
-            "tokenPath": "srcToken"
+          {
+            "label": "Desc Src Receiver",
+            "path": "desc.srcReceiver",
+            "visible": "never"
           },
-          "visible": "always"
-        },
-        {
-          "path": "minReturn",
-          "$ref": "$.display.definitions.minReceiveAmount",
-          "visible": "always"
-        },
-        {
-          "path": "recipient",
-          "$ref": "$.display.definitions.beneficiary",
-          "visible": "always"
-        },
-        {
-          "path": "pools.[-1]",
-          "$ref": "$.display.definitions.lastPool"
-        },
-        {
-          "label": "Permit",
-          "path": "permit",
-          "visible": "never"
-        }
-      ]
+          {
+            "label": "Desc Flags",
+            "path": "desc.flags",
+            "visible": "never"
+          },
+          {
+            "label": "Desc Permit",
+            "path": "desc.permit",
+            "visible": "never"
+          },
+          {
+            "label": "Data",
+            "path": "data",
+            "visible": "never"
+          }
+        ]
+      },
+      "unoswap(address srcToken, uint256 amount, uint256 minReturn, bytes32[] pools)": {
+        "$id": "unoswap",
+        "intent": "Swap",
+        "fields": [
+          {
+            "path": "amount",
+            "$ref": "$.display.definitions.sendAmount",
+            "params": {
+              "tokenPath": "srcToken"
+            },
+            "visible": "always"
+          },
+          {
+            "path": "minReturn",
+            "$ref": "$.display.definitions.minReceiveAmount",
+            "visible": "always"
+          },
+          {
+            "path": "@.from",
+            "$ref": "$.display.definitions.beneficiary",
+            "visible": "always"
+          },
+          {
+            "path": "pools.[-1]",
+            "$ref": "$.display.definitions.lastPool"
+          }
+        ]
+      },
+      "unoswapWithPermit(address srcToken, uint256 amount, uint256 minReturn, bytes32[] pools, bytes permit)": {
+        "$id": "unoswapWithPermit",
+        "intent": "Swap",
+        "fields": [
+          {
+            "path": "amount",
+            "$ref": "$.display.definitions.sendAmount",
+            "params": {
+              "tokenPath": "srcToken"
+            },
+            "visible": "always"
+          },
+          {
+            "path": "minReturn",
+            "$ref": "$.display.definitions.minReceiveAmount",
+            "visible": "always"
+          },
+          {
+            "path": "@.from",
+            "$ref": "$.display.definitions.beneficiary",
+            "visible": "always"
+          },
+          {
+            "path": "pools.[-1]",
+            "$ref": "$.display.definitions.lastPool"
+          },
+          {
+            "label": "Permit",
+            "path": "permit",
+            "visible": "never"
+          }
+        ]
+      },
+      "uniswapV3Swap(uint256 amount, uint256 minReturn, uint256[] pools)": {
+        "$id": "uniswapV3Swap",
+        "intent": "Swap",
+        "fields": [
+          {
+            "path": "amount",
+            "$ref": "$.display.definitions.sendAmount",
+            "visible": "always"
+          },
+          {
+            "path": "minReturn",
+            "$ref": "$.display.definitions.minReceiveAmount",
+            "visible": "always"
+          },
+          {
+            "path": "@.from",
+            "$ref": "$.display.definitions.beneficiary",
+            "visible": "always"
+          },
+          {
+            "path": "pools.[-1]",
+            "$ref": "$.display.definitions.lastPool"
+          }
+        ]
+      },
+      "uniswapV3SwapTo(address recipient, uint256 amount, uint256 minReturn, uint256[] pools)": {
+        "$id": "uniswapV3SwapTo",
+        "intent": "Swap",
+        "fields": [
+          {
+            "path": "amount",
+            "$ref": "$.display.definitions.sendAmount",
+            "visible": "always"
+          },
+          {
+            "path": "minReturn",
+            "$ref": "$.display.definitions.minReceiveAmount",
+            "visible": "always"
+          },
+          {
+            "path": "recipient",
+            "$ref": "$.display.definitions.beneficiary",
+            "visible": "always"
+          },
+          {
+            "path": "pools.[-1]",
+            "$ref": "$.display.definitions.lastPool"
+          }
+        ]
+      },
+      "uniswapV3SwapToWithPermit(address recipient, address srcToken, uint256 amount, uint256 minReturn, uint256[] pools, bytes permit)": {
+        "$id": "uniswapV3SwapToWithPermit",
+        "intent": "Swap",
+        "fields": [
+          {
+            "path": "amount",
+            "$ref": "$.display.definitions.sendAmount",
+            "params": {
+              "tokenPath": "srcToken"
+            },
+            "visible": "always"
+          },
+          {
+            "path": "minReturn",
+            "$ref": "$.display.definitions.minReceiveAmount",
+            "visible": "always"
+          },
+          {
+            "path": "recipient",
+            "$ref": "$.display.definitions.beneficiary",
+            "visible": "always"
+          },
+          {
+            "path": "pools.[-1]",
+            "$ref": "$.display.definitions.lastPool"
+          },
+          {
+            "label": "Permit",
+            "path": "permit",
+            "visible": "never"
+          }
+        ]
+      }
     }
   }
 }

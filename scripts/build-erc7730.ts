@@ -149,26 +149,13 @@ async function buildCalldata() {
     grouped.get(fileKey)!.push(descriptorCache.get(descriptorPath));
   }
 
-  // Write per-address files: keep context/metadata + merge all formats
+  // Write per-address files: preserve original ERC-7730 schema structure.
+  // Single descriptor → output as-is; multiple → array.
   let count = 0;
   for (const [fileKey, descriptors] of grouped) {
-    const formats: Record<string, any> = {};
-    let metadata: any = undefined;
-    let contextId: string | undefined;
-
-    for (const desc of descriptors) {
-      const f = desc?.display?.formats;
-      if (f) Object.assign(formats, f);
-      if (desc?.metadata && !metadata) metadata = desc.metadata;
-      if (desc?.context?.$id && !contextId) contextId = desc.context.$id;
-    }
-    if (Object.keys(formats).length === 0) continue;
-
-    const output: Record<string, any> = {};
-    if (contextId) output.$id = contextId;
-    if (metadata) output.metadata = metadata;
-    output.formats = formats;
-
+    const valid = descriptors.filter(d => d?.display?.formats && Object.keys(d.display.formats).length > 0);
+    if (valid.length === 0) continue;
+    const output = valid.length === 1 ? valid[0] : valid;
     await writeJson(join(OUT_DIR, "calldata", `${fileKey}.json`), output);
     count++;
   }

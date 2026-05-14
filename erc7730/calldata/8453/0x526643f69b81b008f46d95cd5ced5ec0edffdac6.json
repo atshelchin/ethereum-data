@@ -1,72 +1,110 @@
 {
-  "$id": "SafeMigration",
+  "$schema": "../../specs/erc7730-v2.schema.json",
+  "includes": "common-SafeMigration.json",
+  "context": {
+    "$id": "SafeMigration",
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 1,
+          "address": "0x526643F69b81B008F46d95CD5ced5eC0edFFDaC6"
+        },
+        {
+          "chainId": 10,
+          "address": "0x526643F69b81B008F46d95CD5ced5eC0edFFDaC6"
+        },
+        {
+          "chainId": 56,
+          "address": "0x526643F69b81B008F46d95CD5ced5eC0edFFDaC6"
+        },
+        {
+          "chainId": 137,
+          "address": "0x526643F69b81B008F46d95CD5ced5eC0edFFDaC6"
+        },
+        {
+          "chainId": 8453,
+          "address": "0x526643F69b81B008F46d95CD5ced5eC0edFFDaC6"
+        },
+        {
+          "chainId": 42161,
+          "address": "0x526643F69b81B008F46d95CD5ced5eC0edFFDaC6"
+        },
+        {
+          "chainId": 11155111,
+          "address": "0x526643F69b81B008F46d95CD5ced5eC0edFFDaC6"
+        }
+      ]
+    }
+  },
   "metadata": {
     "contractName": "SafeMigration"
   },
-  "formats": {
-    "migrateSingleton()": {
-      "$id": "migrateSingleton",
-      "intent": "Migrate Safe",
-      "fields": [
-        {
-          "path": "@.to",
-          "label": "Migration contract",
-          "format": "addressName",
-          "params": {
-            "types": [
-              "contract"
-            ]
+  "display": {
+    "formats": {
+      "migrateSingleton()": {
+        "$id": "migrateSingleton",
+        "intent": "Migrate Safe",
+        "fields": [
+          {
+            "path": "@.to",
+            "label": "Migration contract",
+            "format": "addressName",
+            "params": {
+              "types": [
+                "contract"
+              ]
+            }
           }
-        }
-      ]
-    },
-    "migrateWithFallbackHandler()": {
-      "$id": "migrateWithFallbackHandler",
-      "intent": "Migrate Safe",
-      "fields": [
-        {
-          "path": "@.to",
-          "label": "Migration contract",
-          "format": "addressName",
-          "params": {
-            "types": [
-              "contract"
-            ]
+        ]
+      },
+      "migrateWithFallbackHandler()": {
+        "$id": "migrateWithFallbackHandler",
+        "intent": "Migrate Safe",
+        "fields": [
+          {
+            "path": "@.to",
+            "label": "Migration contract",
+            "format": "addressName",
+            "params": {
+              "types": [
+                "contract"
+              ]
+            }
           }
-        }
-      ]
-    },
-    "migrateL2Singleton()": {
-      "$id": "migrateL2Singleton",
-      "intent": "Migrate Safe L2",
-      "fields": [
-        {
-          "path": "@.to",
-          "label": "Migration contract",
-          "format": "addressName",
-          "params": {
-            "types": [
-              "contract"
-            ]
+        ]
+      },
+      "migrateL2Singleton()": {
+        "$id": "migrateL2Singleton",
+        "intent": "Migrate Safe L2",
+        "fields": [
+          {
+            "path": "@.to",
+            "label": "Migration contract",
+            "format": "addressName",
+            "params": {
+              "types": [
+                "contract"
+              ]
+            }
           }
-        }
-      ]
-    },
-    "migrateL2WithFallbackHandler()": {
-      "$id": "migrateL2WithFallbackHandler",
-      "intent": "Migrate Safe L2",
-      "fields": [
-        {
-          "path": "@.to",
-          "label": "Migration contract",
-          "format": "addressName",
-          "params": {
-            "types": [
-              "contract"
-            ]
+        ]
+      },
+      "migrateL2WithFallbackHandler()": {
+        "$id": "migrateL2WithFallbackHandler",
+        "intent": "Migrate Safe L2",
+        "fields": [
+          {
+            "path": "@.to",
+            "label": "Migration contract",
+            "format": "addressName",
+            "params": {
+              "types": [
+                "contract"
+              ]
+            }
           }
-        }
-      ]
+        ]
+      }
     }
   }
 }

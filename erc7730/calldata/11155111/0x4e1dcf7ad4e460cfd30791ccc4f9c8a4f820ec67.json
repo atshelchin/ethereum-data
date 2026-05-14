@@ -1,51 +1,89 @@
 {
-  "$id": "SafeProxyFactory",
-  "metadata": {
-    "contractName": "SafeProxyFactory"
-  },
-  "formats": {
-    "createProxyWithNonce(address _singleton, bytes initializer, uint256 saltNonce)": {
-      "$id": "createProxyWithNonce",
-      "intent": "Create Safe",
-      "fields": [
+  "$schema": "../../specs/erc7730-v2.schema.json",
+  "includes": "common-SafeProxyFactory.json",
+  "context": {
+    "$id": "SafeProxyFactory",
+    "contract": {
+      "deployments": [
         {
-          "path": "initializer",
-          "format": "calldata",
-          "label": "Account setup",
-          "params": {
-            "calleePath": "_singleton"
-          }
+          "chainId": 1,
+          "address": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
         },
         {
-          "label": "Salt Nonce",
-          "path": "saltNonce",
-          "visible": "never"
-        }
-      ]
-    },
-    "createProxyWithCallback(address _singleton, bytes initializer, uint256 saltNonce, address callback)": {
-      "$id": "createProxyWithCallback",
-      "intent": "Create Safe",
-      "fields": [
-        {
-          "path": "initializer",
-          "format": "calldata",
-          "label": "Account setup",
-          "params": {
-            "calleePath": "_singleton"
-          }
+          "chainId": 10,
+          "address": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
         },
         {
-          "label": "Salt Nonce",
-          "path": "saltNonce",
-          "visible": "never"
+          "chainId": 56,
+          "address": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
         },
         {
-          "label": "Callback",
-          "path": "callback",
-          "visible": "never"
+          "chainId": 137,
+          "address": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+        },
+        {
+          "chainId": 8453,
+          "address": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+        },
+        {
+          "chainId": 42161,
+          "address": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+        },
+        {
+          "chainId": 11155111,
+          "address": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
         }
       ]
     }
+  },
+  "display": {
+    "formats": {
+      "createProxyWithNonce(address _singleton, bytes initializer, uint256 saltNonce)": {
+        "$id": "createProxyWithNonce",
+        "intent": "Create Safe",
+        "fields": [
+          {
+            "path": "initializer",
+            "format": "calldata",
+            "label": "Account setup",
+            "params": {
+              "calleePath": "_singleton"
+            }
+          },
+          {
+            "label": "Salt Nonce",
+            "path": "saltNonce",
+            "visible": "never"
+          }
+        ]
+      },
+      "createProxyWithCallback(address _singleton, bytes initializer, uint256 saltNonce, address callback)": {
+        "$id": "createProxyWithCallback",
+        "intent": "Create Safe",
+        "fields": [
+          {
+            "path": "initializer",
+            "format": "calldata",
+            "label": "Account setup",
+            "params": {
+              "calleePath": "_singleton"
+            }
+          },
+          {
+            "label": "Salt Nonce",
+            "path": "saltNonce",
+            "visible": "never"
+          },
+          {
+            "label": "Callback",
+            "path": "callback",
+            "visible": "never"
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "contractName": "SafeProxyFactory"
   }
 }

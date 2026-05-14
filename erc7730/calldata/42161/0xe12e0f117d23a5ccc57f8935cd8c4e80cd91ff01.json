@@ -1,5 +1,52 @@
 {
-  "$id": "NativeOrderFactory",
+  "$schema": "../../specs/erc7730-v2.schema.json",
+  "context": {
+    "$id": "NativeOrderFactory",
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 1,
+          "address": "0xe12E0f117d23a5ccc57f8935CD8c4E80cD91FF01"
+        },
+        {
+          "chainId": 10,
+          "address": "0xe12E0f117d23a5ccc57f8935CD8c4E80cD91FF01"
+        },
+        {
+          "chainId": 56,
+          "address": "0xe12E0f117d23a5ccc57f8935CD8c4E80cD91FF01"
+        },
+        {
+          "chainId": 100,
+          "address": "0xe12E0f117d23a5ccc57f8935CD8c4E80cD91FF01"
+        },
+        {
+          "chainId": 137,
+          "address": "0xe12E0f117d23a5ccc57f8935CD8c4E80cD91FF01"
+        },
+        {
+          "chainId": 146,
+          "address": "0xe12E0f117d23a5ccc57f8935CD8c4E80cD91FF01"
+        },
+        {
+          "chainId": 8453,
+          "address": "0xe12E0f117d23a5ccc57f8935CD8c4E80cD91FF01"
+        },
+        {
+          "chainId": 42161,
+          "address": "0xe12E0f117d23a5ccc57f8935CD8c4E80cD91FF01"
+        },
+        {
+          "chainId": 43114,
+          "address": "0xe12E0f117d23a5ccc57f8935CD8c4E80cD91FF01"
+        },
+        {
+          "chainId": 59144,
+          "address": "0xe12E0f117d23a5ccc57f8935CD8c4E80cD91FF01"
+        }
+      ]
+    }
+  },
   "metadata": {
     "owner": "1inch Network",
     "info": {
@@ -12,67 +59,69 @@
     },
     "contractName": "NativeOrderFactory"
   },
-  "formats": {
-    "create((uint256 salt, uint256 maker, uint256 receiver, uint256 makerAsset, uint256 takerAsset, uint256 makingAmount, uint256 takingAmount, uint256 makerTraits) makerOrder)": {
-      "$id": "create",
-      "intent": "create order",
-      "fields": [
-        {
-          "label": "Amount to Send",
-          "path": "@.value",
-          "format": "amount"
-        },
-        {
-          "label": "Receive amount",
-          "path": "makerOrder.takingAmount",
-          "format": "tokenAmount",
-          "params": {
-            "tokenPath": "makerOrder.takerAsset",
-            "nativeCurrencyAddress": [
-              "$.metadata.constants.addressAsEth",
-              "$.metadata.constants.addressAsNull"
-            ]
+  "display": {
+    "formats": {
+      "create((uint256 salt, uint256 maker, uint256 receiver, uint256 makerAsset, uint256 takerAsset, uint256 makingAmount, uint256 takingAmount, uint256 makerTraits) makerOrder)": {
+        "$id": "create",
+        "intent": "create order",
+        "fields": [
+          {
+            "label": "Amount to Send",
+            "path": "@.value",
+            "format": "amount"
           },
-          "visible": "always"
-        },
-        {
-          "label": "Beneficiary",
-          "path": "makerOrder.receiver",
-          "format": "addressName",
-          "params": {
-            "types": [
-              "eoa",
-              "contract"
-            ]
+          {
+            "label": "Receive amount",
+            "path": "makerOrder.takingAmount",
+            "format": "tokenAmount",
+            "params": {
+              "tokenPath": "makerOrder.takerAsset",
+              "nativeCurrencyAddress": [
+                "$.metadata.constants.addressAsEth",
+                "$.metadata.constants.addressAsNull"
+              ]
+            },
+            "visible": "always"
           },
-          "visible": "always"
-        },
-        {
-          "label": "Maker Order Salt",
-          "path": "makerOrder.salt",
-          "visible": "never"
-        },
-        {
-          "label": "Maker Order Maker",
-          "path": "makerOrder.maker",
-          "visible": "never"
-        },
-        {
-          "label": "Maker Order Maker Asset",
-          "path": "makerOrder.makerAsset",
-          "visible": "never"
-        },
-        {
-          "label": "Maker Order Making Amount",
-          "path": "makerOrder.makingAmount",
-          "visible": "never"
-        },
-        {
-          "label": "Maker Order Maker Traits",
-          "path": "makerOrder.makerTraits",
-          "visible": "never"
-        }
-      ]
+          {
+            "label": "Beneficiary",
+            "path": "makerOrder.receiver",
+            "format": "addressName",
+            "params": {
+              "types": [
+                "eoa",
+                "contract"
+              ]
+            },
+            "visible": "always"
+          },
+          {
+            "label": "Maker Order Salt",
+            "path": "makerOrder.salt",
+            "visible": "never"
+          },
+          {
+            "label": "Maker Order Maker",
+            "path": "makerOrder.maker",
+            "visible": "never"
+          },
+          {
+            "label": "Maker Order Maker Asset",
+            "path": "makerOrder.makerAsset",
+            "visible": "never"
+          },
+          {
+            "label": "Maker Order Making Amount",
+            "path": "makerOrder.makingAmount",
+            "visible": "never"
+          },
+          {
+            "label": "Maker Order Maker Traits",
+            "path": "makerOrder.makerTraits",
+            "visible": "never"
+          }
+        ]
+      }
     }
   }
 }

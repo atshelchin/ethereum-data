@@ -1,25 +1,43 @@
 {
-  "$id": "SafeToL2Setup",
+  "$schema": "../../specs/erc7730-v2.schema.json",
+  "includes": "common-SafeToL2Setup.json",
+  "context": {
+    "$id": "SafeToL2Setup",
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 1,
+          "address": "0x900C7589200010D6C6eCaaE5B06EBe653bc2D82a"
+        },
+        {
+          "chainId": 11155111,
+          "address": "0x900C7589200010D6C6eCaaE5B06EBe653bc2D82a"
+        }
+      ]
+    }
+  },
   "metadata": {
     "contractName": "SafeToL2Setup"
   },
-  "formats": {
-    "setupToL2(address l2Singleton)": {
-      "$id": "setupToL2",
-      "intent": "Setup Safe L2",
-      "fields": [
-        {
-          "path": "l2Singleton",
-          "label": "Module",
-          "format": "addressName",
-          "params": {
-            "types": [
-              "contract"
-            ]
-          },
-          "visible": "always"
-        }
-      ]
+  "display": {
+    "formats": {
+      "setupToL2(address l2Singleton)": {
+        "$id": "setupToL2",
+        "intent": "Setup Safe L2",
+        "fields": [
+          {
+            "path": "l2Singleton",
+            "label": "Module",
+            "format": "addressName",
+            "params": {
+              "types": [
+                "contract"
+              ]
+            },
+            "visible": "always"
+          }
+        ]
+      }
     }
   }
 }
