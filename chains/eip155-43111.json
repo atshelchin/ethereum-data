@@ -3,8 +3,7 @@
   "chain": "ETH",
   "rpc": [
     "https://hemi.drpc.org",
-    "https://rpc.hemi.network/rpc",
-    "https://hemi.blockpi.network/v1/rpc/public"
+    "https://rpc.hemi.network/rpc"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -4,8 +4,7 @@
   "rpc": [
     "https://api.mainnet.abs.xyz",
     "https://abstract.api.onfinality.io/public",
-    "https://abstract.drpc.org",
-    "https://abstract.blockpi.network/v1/rpc/public"
+    "https://abstract.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

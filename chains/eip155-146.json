@@ -8,7 +8,6 @@
     "https://rpc.soniclabs.com",
     "https://sonic.api.onfinality.io/public",
     "https://rpc.ankr.com/sonic_mainnet",
-    "https://sonic.blockpi.network/v1/rpc/public",
     "wss://sonic-rpc.publicnode.com"
   ],
   "faucets": [],

@@ -8,7 +8,6 @@
     "https://unichain.api.pocket.network",
     "https://unichain.api.onfinality.io/public",
     "https://1rpc.io/unichain",
-    "https://unichain.blockpi.network/v1/rpc/public",
     "wss://unichain-rpc.publicnode.com"
   ],
   "faucets": [],

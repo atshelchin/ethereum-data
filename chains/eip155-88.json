@@ -3,7 +3,6 @@
   "chain": "Viction",
   "rpc": [
     "https://viction.drpc.org",
-    "https://viction.blockpi.network/v1/rpc/public",
     "https://rpc.viction.xyz"
   ],
   "faucets": [],

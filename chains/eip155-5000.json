@@ -10,7 +10,6 @@
     "https://rpc.ankr.com/mantle",
     "https://1rpc.io/mantle",
     "https://mantle.api.pocket.network",
-    "https://mantle.blockpi.network/v1/rpc/public",
     "wss://mantle-rpc.publicnode.com"
   ],
   "faucets": [],

@@ -6,8 +6,7 @@
     "https://gwan-ssl.wandevs.org:46891/",
     "https://hyperliquid.api.pocket.network",
     "https://hyperliquid.api.onfinality.io/evm/public",
-    "https://1rpc.io/hyperliquid",
-    "https://hyperliquid.blockpi.network/v1/rpc/public"
+    "https://1rpc.io/hyperliquid"
   ],
   "faucets": [],
   "nativeCurrency": {

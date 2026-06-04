@@ -14,7 +14,6 @@
     "https://nova.arbitrum.io/rpc",
     "https://arbitrum-nova-rpc.publicnode.com",
     "https://rpc.ankr.com/arbitrumnova",
-    "https://arbitrum-nova.blockpi.network/v1/rpc/public",
     "wss://arbitrum-nova-rpc.publicnode.com"
   ],
   "faucets": [],

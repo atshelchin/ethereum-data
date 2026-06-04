@@ -4,7 +4,6 @@
   "rpc": [
     "https://dymension.drpc.org",
     "https://dymension-evm-rpc.publicnode.com",
-    "https://dymension-evm.blockpi.network/v1/rpc/public",
     "wss://dymension-evm-rpc.publicnode.com"
   ],
   "faucets": [],

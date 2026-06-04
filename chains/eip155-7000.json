@@ -3,7 +3,6 @@
   "chain": "ZetaChain",
   "icon": "zetachain",
   "rpc": [
-    "https://zetachain-evm.blockpi.network/v1/rpc/public",
     "https://zetachain-mainnet.g.allthatnode.com/archive/evm",
     "https://7000.rpc.thirdweb.com",
     "https://zeta-chain.drpc.org",

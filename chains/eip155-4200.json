@@ -5,7 +5,6 @@
   "rpc": [
     "https://merlin.drpc.org",
     "https://rpc.merlinchain.io",
-    "https://merlin.blockpi.network/v1/rpc/public",
     "https://merlin-mainnet-enterprise.unifra.io",
     "https://rpc-merlin.rockx.com"
   ],

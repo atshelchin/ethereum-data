@@ -17,7 +17,6 @@
     "https://rpc.ankr.com/celo",
     "https://celo.api.onfinality.io/public",
     "https://1rpc.io/celo",
-    "https://celo.blockpi.network/v1/rpc/public",
     "wss://forno.celo.org/ws",
     "wss://celo-rpc.publicnode.com"
   ],

@@ -21,8 +21,7 @@
   },
   "rpc": [
     "https://rpc.ankr.com/etherlink_mainnet",
-    "https://node.mainnet.etherlink.com",
-    "https://etherlink.blockpi.network/v1/rpc/public"
+    "https://node.mainnet.etherlink.com"
   ],
   "faucets": [],
   "explorers": [

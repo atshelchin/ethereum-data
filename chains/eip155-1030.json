@@ -2,7 +2,6 @@
   "name": "Conflux eSpace",
   "chain": "Conflux",
   "rpc": [
-    "https://conflux-espace.blockpi.network/v1/rpc/public",
     "https://evm.confluxrpc.com"
   ],
   "faucets": [],

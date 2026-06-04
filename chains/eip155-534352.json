@@ -11,7 +11,6 @@
     "https://rpc.ankr.com/scroll",
     "https://scroll-mainnet.chainstacklabs.com",
     "https://1rpc.io/scroll",
-    "https://scroll.blockpi.network/v1/rpc/public",
     "wss://scroll-rpc.publicnode.com"
   ],
   "faucets": [],

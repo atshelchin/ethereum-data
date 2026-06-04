@@ -9,7 +9,6 @@
     "https://taiko-rpc.publicnode.com",
     "https://rpc.ankr.com/taiko",
     "https://taiko.api.pocket.network",
-    "https://taiko.blockpi.network/v1/rpc/public",
     "wss://taiko-rpc.publicnode.com"
   ],
   "faucets": [],

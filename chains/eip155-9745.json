@@ -4,8 +4,7 @@
   "rpc": [
     "https://plasma.drpc.org",
     "https://plasma.api.onfinality.io/public",
-    "https://rpc.plasma.to",
-    "https://plasma.blockpi.network/v1/rpc/public"
+    "https://rpc.plasma.to"
   ],
   "faucets": [],
   "nativeCurrency": {
