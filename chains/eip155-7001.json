@@ -5,8 +5,7 @@
   "rpc": [
     "https://7001.rpc.thirdweb.com",
     "https://zeta-chain-testnet.drpc.org",
-    "https://zetachain-athens.g.allthatnode.com/archive/evm",
-    "https://zetachain-testnet.public.blastapi.io"
+    "https://zetachain-athens.g.allthatnode.com/archive/evm"
   ],
   "faucets": [
     "https://zetachain.com/docs/reference/faucet"

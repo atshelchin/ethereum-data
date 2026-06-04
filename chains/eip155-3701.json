@@ -1,8 +1,10 @@
 {
   "name": "Xpla Testnet",
   "chain": "XPLATest",
-  "rpc": ["https://dimension-rpc.xpla.dev"],
-  "faucets": ["https://faucet.xpla.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.xpla.io"
+  ],
   "nativeCurrency": {
     "name": "XPLA",
     "symbol": "XPLA",

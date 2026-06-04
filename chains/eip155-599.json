@@ -1,8 +1,10 @@
 {
   "name": "Metis Goerli Testnet",
   "chain": "ETH",
-  "rpc": ["https://goerli.gateway.metisdevops.link"],
-  "faucets": ["https://goerli.faucet.metisdevops.link"],
+  "rpc": [],
+  "faucets": [
+    "https://goerli.faucet.metisdevops.link"
+  ],
   "nativeCurrency": {
     "name": "Goerli Metis",
     "symbol": "METIS",
@@ -23,7 +25,11 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-4",
-    "bridges": [{ "url": "https://testnet-bridge.metis.io" }]
+    "bridges": [
+      {
+        "url": "https://testnet-bridge.metis.io"
+      }
+    ]
   },
   "status": "deprecated"
 }

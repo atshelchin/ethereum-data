@@ -1,8 +1,10 @@
 {
   "name": "Prometheuz Testnet",
   "chain": "Prometheuz",
-  "rpc": ["https://explorer.testnet.prometheuz.io"],
-  "faucets": ["https://faucet.testnet.prometheuz.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.testnet.prometheuz.io"
+  ],
   "nativeCurrency": {
     "name": "Pyre",
     "symbol": "PYRE",

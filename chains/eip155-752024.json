@@ -1,8 +1,10 @@
 {
   "name": "Ternoa Testnet",
   "chain": "Ternoa",
-  "rpc": ["https://rpc.zkevm.ternoa.network"],
-  "faucets": ["https://faucet.zkevm.ternoa.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.zkevm.ternoa.network"
+  ],
   "nativeCurrency": {
     "name": "Capsule Coin",
     "symbol": "CAPS",

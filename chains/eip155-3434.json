@@ -2,8 +2,10 @@
   "name": "SecureChain Testnet",
   "chain": "SCAI",
   "icon": "scaiIcon",
-  "rpc": ["https://testnet-rpc.securechain.ai"],
-  "faucets": ["https://faucet.securechain.ai"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.securechain.ai"
+  ],
   "nativeCurrency": {
     "name": "SCAI",
     "symbol": "SCAI",

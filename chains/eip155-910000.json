@@ -1,8 +1,10 @@
 {
   "name": "Posichain Testnet Shard 0",
   "chain": "PSC",
-  "rpc": ["https://api.s0.t.posichain.org"],
-  "faucets": ["https://faucet.posichain.org/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.posichain.org/"
+  ],
   "nativeCurrency": {
     "name": "Posichain Native Token",
     "symbol": "POSI",

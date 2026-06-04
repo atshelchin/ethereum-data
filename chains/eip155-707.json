@@ -1,7 +1,9 @@
 {
   "name": "BlockChain Station Mainnet",
   "chain": "BCS",
-  "rpc": ["https://rpc-mainnet.bcsdev.io", "wss://rpc-ws-mainnet.bcsdev.io"],
+  "rpc": [
+    "wss://rpc-ws-mainnet.bcsdev.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BCS Token",

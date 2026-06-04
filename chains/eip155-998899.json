@@ -2,8 +2,10 @@
   "name": "Supernet Testnet",
   "title": "Supernet Testnet",
   "chain": "Supernet Testnet",
-  "rpc": ["https://testnet-rpc.supernet.chaingames.io/"],
-  "faucets": ["https://faucet.chaingames.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.chaingames.io"
+  ],
   "nativeCurrency": {
     "name": "CHAIN",
     "symbol": "CHAIN",

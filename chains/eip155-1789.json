@@ -1,7 +1,7 @@
 {
   "name": "ZKBase Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia-rpc.zkbase.app"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -25,7 +25,13 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://portal.zkbase.app/" }]
+    "bridges": [
+      {
+        "url": "https://portal.zkbase.app/"
+      }
+    ]
   },
-  "redFlags": ["reusedChainId"]
+  "redFlags": [
+    "reusedChainId"
+  ]
 }

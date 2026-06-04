@@ -2,8 +2,10 @@
   "name": "PRM Testnet",
   "chain": "prm",
   "icon": "prmIcon",
-  "rpc": ["https://testnet-rpc.prmscan.org"],
-  "faucets": ["https://faucet.prmscan.org"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.prmscan.org"
+  ],
   "nativeCurrency": {
     "name": "Primal Network",
     "symbol": "PRM",

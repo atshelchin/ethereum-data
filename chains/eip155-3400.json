@@ -1,7 +1,7 @@
 {
   "name": "Paribu Net Mainnet",
   "chain": "PRB",
-  "rpc": ["https://rpc.paribu.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "PRB",

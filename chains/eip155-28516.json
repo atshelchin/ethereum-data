@@ -2,7 +2,7 @@
   "name": "Vizing Testnet",
   "title": "Vizing Testnet",
   "chain": "Vizing Testnet",
-  "rpc": ["https://rpc-sepolia.vizing.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

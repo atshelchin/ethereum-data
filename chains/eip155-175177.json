@@ -2,8 +2,10 @@
   "name": "Chronicle - Lit Protocol Testnet",
   "chain": "LPC",
   "icon": "lit",
-  "rpc": ["https://chain-rpc.litprotocol.com/http"],
-  "faucets": ["https://faucet.litprotocol.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.litprotocol.com"
+  ],
   "nativeCurrency": {
     "name": "Test LIT",
     "symbol": "tstLIT",

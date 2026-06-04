@@ -2,8 +2,14 @@
   "name": "Nomina",
   "chain": "Nomina",
   "status": "active",
-  "rpc": ["https://mainnet.nomina.io", "wss://wss.mainnet.nomina.io"],
-  "features": [{ "name": "EIP155" }],
+  "rpc": [
+    "wss://wss.mainnet.nomina.io"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Nomina",

@@ -3,8 +3,7 @@
   "chain": "Zircuit Mainnet",
   "icon": "zircuit",
   "rpc": [
-    "https://mainnet.zircuit.com",
-    "https://zircuit-mainnet.drpc.org"
+    "https://mainnet.zircuit.com"
   ],
   "faucets": [],
   "nativeCurrency": {

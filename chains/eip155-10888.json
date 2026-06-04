@@ -2,7 +2,9 @@
   "name": "GameSwift Chain Testnet",
   "title": "GameSwift Chain Testnet",
   "chain": "gameswift-chain-testnet",
-  "rpc": ["https://rpc-testnet.gameswift.io", "wss://ws-testnet.gameswift.io"],
+  "rpc": [
+    "wss://ws-testnet.gameswift.io"
+  ],
   "nativeCurrency": {
     "name": "TGameSwift",
     "symbol": "tGS",

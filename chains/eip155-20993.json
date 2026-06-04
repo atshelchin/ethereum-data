@@ -1,8 +1,10 @@
 {
   "name": "Fluent Developer Preview",
   "chain": "Fluent",
-  "rpc": ["https://rpc.dev.gblend.xyz"],
-  "faucets": ["https://faucet.dev.gblend.xyz"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.dev.gblend.xyz"
+  ],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",

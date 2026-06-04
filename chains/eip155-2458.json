@@ -1,8 +1,10 @@
 {
   "name": "Hybrid Chain Network Testnet",
   "chain": "HYBRID",
-  "rpc": ["https://rpc-testnet.hybridchain.ai/"],
-  "faucets": ["https://faucet-testnet.hybridchain.ai"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet-testnet.hybridchain.ai"
+  ],
   "nativeCurrency": {
     "name": "Hybrid Chain Native Token",
     "symbol": "tHRC",

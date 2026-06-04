@@ -1,7 +1,7 @@
 {
   "name": "Binary Sepolia",
   "chain": "The Binary Holdings",
-  "rpc": ["https://rpc.testnet.thebinaryholdings.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Test BNRY",

@@ -2,10 +2,11 @@
   "name": "Shido Testnet Block",
   "chain": "Shido Testnet",
   "rpc": [
-    "https://rpc-testnet-nodes.shidoscan.com",
     "wss://wss-testnet-nodes.shidoscan.com"
   ],
-  "faucets": ["https://testnet.shidoscan.com/faucet"],
+  "faucets": [
+    "https://testnet.shidoscan.com/faucet"
+  ],
   "nativeCurrency": {
     "name": "Shido Testnet Token",
     "symbol": "SHIDO",

@@ -2,7 +2,7 @@
   "name": "Merlin Erigon Testnet",
   "title": "Merlin Erigon Testnet",
   "chain": "Merlin",
-  "rpc": ["https://testnet-erigon-rpc.merlinchain.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",

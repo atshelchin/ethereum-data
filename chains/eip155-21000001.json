@@ -2,9 +2,7 @@
   "name": "Corn Testnet",
   "chain": "BTCN",
   "rpc": [
-    "https://testnet-rpc.usecorn.com",
-    "https://testnet.corn-rpc.com",
-    "https://rpc.ankr.com/corn_testnet"
+    "https://testnet-rpc.usecorn.com"
   ],
   "faucets": [],
   "nativeCurrency": {

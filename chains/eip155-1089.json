@@ -3,13 +3,7 @@
   "chain": "Humans",
   "rpc": [
     "https://humans-mainnet-evm.itrocket.net",
-    "https://mainnet-humans-evm.konsortech.xyz",
-    "https://jsonrpc.humans.nodestake.top",
-    "https://humans-evm-rpc.staketab.org:443",
-    "https://evm.humans.stakepool.dev.br",
-    "https://evm-rpc.mainnet.humans.zone",
-    "https://json-rpc.humans.bh.rocks",
-    "https://evm-rpc.humans.huginn.tech"
+    "https://mainnet-humans-evm.konsortech.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {

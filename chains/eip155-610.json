@@ -1,8 +1,10 @@
 {
   "name": "Darwin Devnet",
   "chain": "Darwin",
-  "rpc": ["https://devnet-rpc.darwinchain.ai"],
-  "faucets": ["https://devnet-rpc.darwinchain.ai/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://devnet-rpc.darwinchain.ai/faucet"
+  ],
   "nativeCurrency": {
     "name": "Darwin Devnet token",
     "symbol": "DNA",

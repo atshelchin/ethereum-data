@@ -1,8 +1,10 @@
 {
   "name": "ARDENIUM Athena",
   "chain": "ATHENA",
-  "rpc": ["https://rpc-athena.ardescan.com/"],
-  "faucets": ["https://faucet-athena.ardescan.com/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet-athena.ardescan.com/"
+  ],
   "nativeCurrency": {
     "name": "ARD",
     "symbol": "tARD",

@@ -3,10 +3,15 @@
   "title": "DCHAIN Testnet",
   "chain": "dchaint",
   "icon": "dchaint",
-  "rpc": [
-    "https://dchaintestnet-2713017997578000-1.jsonrpc.testnet.sagarpc.io"
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

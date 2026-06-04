@@ -1,14 +1,21 @@
 {
   "name": "Juneo USDT1-Chain",
   "chain": "Juneo USDT1-Chain",
-  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/USDT1/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "USDT1",
     "symbol": "USDT1",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://juneo.com/",
   "shortName": "USDT1",
   "chainId": 45005,

@@ -1,8 +1,10 @@
 {
   "name": "DeInfra Devnet3",
   "chain": "DeInfraDev3",
-  "rpc": ["https://c3n1.thepower.io/jsonrpc"],
-  "faucets": ["https://faucet.thepower.io/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.thepower.io/"
+  ],
   "nativeCurrency": {
     "name": "dev3SK",
     "symbol": "dSK",

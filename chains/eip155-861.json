@@ -1,7 +1,7 @@
 {
   "name": "Electra Network",
   "chain": "Electra",
-  "rpc": ["https://rpc.electranetwork.tech"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Electra",

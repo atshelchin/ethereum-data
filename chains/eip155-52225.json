@@ -1,7 +1,7 @@
 {
   "name": "Cytonic Settlement Layer Testnet",
   "chain": "CytonicSL",
-  "rpc": ["http://rpc.sl.testnet.cytonic.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Cytonic",

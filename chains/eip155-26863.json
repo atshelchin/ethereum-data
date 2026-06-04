@@ -1,12 +1,10 @@
 {
   "name": "OasisChain Mainnet",
   "chain": "OasisChain",
-  "rpc": [
-    "https://rpc1.oasischain.io",
-    "https://rpc2.oasischain.io",
-    "https://rpc3.oasischain.io"
+  "rpc": [],
+  "faucets": [
+    "http://faucet.oasischain.io"
   ],
-  "faucets": ["http://faucet.oasischain.io"],
   "nativeCurrency": {
     "name": "OAC",
     "symbol": "OAC",

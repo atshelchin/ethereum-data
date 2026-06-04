@@ -2,14 +2,23 @@
   "name": "Callisto Mainnet",
   "chain": "CLO",
   "icon": "callistonetwork",
-  "rpc": ["https://rpc.callistodao.org"],
-  "faucets": ["https://faucet.callistodao.org"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.callistodao.org"
+  ],
   "nativeCurrency": {
     "name": "Callisto",
     "symbol": "CLO",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://callistodao.org",
   "shortName": "clo",
   "chainId": 820,

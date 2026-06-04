@@ -2,11 +2,7 @@
   "name": "Movo Smart Chain Mainnet",
   "chain": "MOVO",
   "icon": "movo",
-  "rpc": [
-    "https://msc-rpc.movoscan.com",
-    "https://msc-rpc.movochain.org",
-    "https://msc-rpc.movoswap.com"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Movo Smart Chain",

@@ -1,8 +1,10 @@
 {
   "name": "OYchain Testnet",
   "chain": "OYchain",
-  "rpc": ["https://rpc.testnet.oychain.io"],
-  "faucets": ["https://faucet.oychain.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.oychain.io"
+  ],
   "nativeCurrency": {
     "name": "OYchain Token",
     "symbol": "OY",

@@ -2,7 +2,6 @@
   "name": "Immu3 EVM",
   "chain": "EVMCC",
   "rpc": [
-    "https://fraa-flashbox-2800-rpc.a.stagenet.tanssi.network",
     "wss://fraa-flashbox-2800-rpc.a.stagenet.tanssi.network"
   ],
   "faucets": [],

@@ -2,7 +2,7 @@
   "name": "Niza Chain Mainnet",
   "chain": "NIZA",
   "icon": "niza",
-  "rpc": ["https://nizascan.io/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Niza Global",

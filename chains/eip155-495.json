@@ -2,7 +2,7 @@
   "name": "Landstars",
   "chain": "Landstars",
   "icon": "landstars",
-  "rpc": ["https://13882-60301.pph-server.de"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Landstars",

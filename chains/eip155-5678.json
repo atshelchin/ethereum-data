@@ -2,10 +2,11 @@
   "name": "Tanssi Demo",
   "chain": "TANGO",
   "rpc": [
-    "https://services.tanssi-testnet.network/dancelight-2001",
     "wss://services.tanssi-testnet.network/dancelight-2001"
   ],
-  "faucets": ["https://apps.tanssi.network/demo"],
+  "faucets": [
+    "https://apps.tanssi.network/demo"
+  ],
   "nativeCurrency": {
     "name": "TANGO",
     "symbol": "TANGO",

@@ -11,10 +11,6 @@
     "decimals": 18
   },
   "rpc": [
-    "https://rpc.pay1coin.com",
-    "https://rpc0.pay1coin.com",
-    "https://rpc1.pay1coin.com",
-    "https://rpc2.pay1coin.com",
     "wss://ws.pay1coin.com",
     "wss://ws0.pay1coin.com",
     "wss://ws1.pay1coin.com",

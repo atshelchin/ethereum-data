@@ -1,8 +1,10 @@
 {
   "name": "Deprecated Cronos zkEVM Testnet",
   "chain": "deprecatedCronosZkEVMTestnet",
-  "rpc": ["https://deprecated.testnet.zkevm.cronos.org"],
-  "faucets": ["https://zkevm.cronos.org/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://zkevm.cronos.org/faucet"
+  ],
   "nativeCurrency": {
     "name": "Cronos zkEVM Test Coin",
     "symbol": "zkTCRO",

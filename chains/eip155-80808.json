@@ -1,8 +1,10 @@
 {
   "name": "HyperX",
   "chain": "HyperX",
-  "rpc": ["https://rpc.hyperx.technology"],
-  "faucets": ["https://faucet.hyperx.technology"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.hyperx.technology"
+  ],
   "nativeCurrency": {
     "name": "HPX",
     "symbol": "HPX",

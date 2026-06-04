@@ -1,7 +1,7 @@
 {
   "name": "DeBank Testnet",
   "chain": "DeBank",
-  "rpc": ["http://rpc.testnet.debank.com"],
+  "rpc": [],
   "faucets": [],
   "icon": "debank",
   "nativeCurrency": {

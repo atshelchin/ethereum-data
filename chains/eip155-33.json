@@ -1,7 +1,7 @@
 {
   "name": "GoodData Mainnet",
   "chain": "GooD",
-  "rpc": ["https://rpc.goodata.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "GoodData Mainnet Ether",

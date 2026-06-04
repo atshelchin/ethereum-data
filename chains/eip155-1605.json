@@ -1,7 +1,7 @@
 {
   "name": "Betherance",
   "chain": "Beth",
-  "rpc": ["https://rpc.bethscan.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Betherance",

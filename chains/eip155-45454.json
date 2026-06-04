@@ -2,7 +2,7 @@
   "name": "Swamps L2",
   "chain": "SWP",
   "icon": "swamps",
-  "rpc": ["https://swamps.tc.l2aas.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SWP",

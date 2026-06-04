@@ -3,7 +3,6 @@
   "title": "Anomaly Andromeda Testnet",
   "chain": "anomaly-andromeda-testnet",
   "rpc": [
-    "https://rpc.anomaly-andromeda.anomalygames.io",
     "wss://ws.anomaly-andromeda.anomalygames.io"
   ],
   "nativeCurrency": {

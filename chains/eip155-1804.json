@@ -4,7 +4,6 @@
   "chain": "CRC",
   "status": "active",
   "rpc": [
-    "https://cacib-saturn-test.francecentral.cloudapp.azure.com",
     "wss://cacib-saturn-test.francecentral.cloudapp.azure.com:9443"
   ],
   "faucets": [

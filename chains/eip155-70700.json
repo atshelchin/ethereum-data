@@ -9,7 +9,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.apex.proofofplay.com"],
+  "rpc": [],
   "faucets": [],
   "explorers": [
     {
@@ -23,8 +23,12 @@
     "type": "L2",
     "chain": "eip155-42161",
     "bridges": [
-      { "url": "https://bridge.arbitrum.io" },
-      { "url": "https://relay.link/bridge/apex/" }
+      {
+        "url": "https://bridge.arbitrum.io"
+      },
+      {
+        "url": "https://relay.link/bridge/apex/"
+      }
     ]
   }
 }

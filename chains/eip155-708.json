@@ -1,8 +1,12 @@
 {
   "name": "BlockChain Station Testnet",
   "chain": "BCS",
-  "rpc": ["https://rpc-testnet.bcsdev.io", "wss://rpc-ws-testnet.bcsdev.io"],
-  "faucets": ["https://faucet.bcsdev.io"],
+  "rpc": [
+    "wss://rpc-ws-testnet.bcsdev.io"
+  ],
+  "faucets": [
+    "https://faucet.bcsdev.io"
+  ],
   "nativeCurrency": {
     "name": "BCS Testnet Token",
     "symbol": "tBCS",

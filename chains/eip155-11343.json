@@ -2,8 +2,10 @@
   "name": "StateMesh Testnet",
   "icon": "statemesh",
   "chain": "MESH",
-  "rpc": ["https://rpc-test.statemesh.net"],
-  "faucets": ["https://faucet.statemesh.net"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.statemesh.net"
+  ],
   "nativeCurrency": {
     "name": "StateMesh",
     "symbol": "MESH",

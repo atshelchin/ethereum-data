@@ -6,7 +6,6 @@
     "https://avalanche-fuji.drpc.org",
     "https://api.avax-test.network/ext/bc/C/rpc",
     "https://avalanche-fuji-c-chain-rpc.publicnode.com",
-    "https://rpc.ankr.com/avalanche_fuji",
     "wss://avalanche-fuji-c-chain-rpc.publicnode.com"
   ],
   "faucets": [

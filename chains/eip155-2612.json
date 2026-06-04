@@ -1,7 +1,7 @@
 {
   "name": "EZChain C-Chain Mainnet",
   "chain": "EZC",
-  "rpc": ["https://api.ezchain.com/ext/bc/C/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "EZChain",

@@ -2,8 +2,10 @@
   "name": "WMC Testnet",
   "chain": "WMC",
   "icon": "wmc",
-  "rpc": ["https://rpc-testnet-base.worldmobile.net"],
-  "faucets": ["https://faucet-testnet-base.worldmobile.net"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet-testnet-base.worldmobile.net"
+  ],
   "nativeCurrency": {
     "name": "WMTx",
     "symbol": "WMTx",

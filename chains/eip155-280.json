@@ -2,7 +2,7 @@
   "name": "zkSync Era Goerli Testnet (deprecated)",
   "status": "deprecated",
   "chain": "ETH",
-  "rpc": ["https://testnet.era.zksync.dev"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -26,6 +26,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.zksync.io/" }]
+    "bridges": [
+      {
+        "url": "https://bridge.zksync.io/"
+      }
+    ]
   }
 }

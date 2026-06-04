@@ -1,8 +1,10 @@
 {
   "name": "QEasyWeb3 Testnet",
   "chain": "QET",
-  "rpc": ["https://qeasyweb3.com"],
-  "faucets": ["http://faucet.qeasyweb3.com"],
+  "rpc": [],
+  "faucets": [
+    "http://faucet.qeasyweb3.com"
+  ],
   "nativeCurrency": {
     "name": "QET",
     "symbol": "QET",

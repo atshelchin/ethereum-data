@@ -1,7 +1,7 @@
 {
   "name": "Xterio Testnet",
   "chain": "Xterio Testnet",
-  "rpc": ["https://xterio-testnet.alt.technology"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "tBNB",

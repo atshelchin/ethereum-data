@@ -1,8 +1,10 @@
 {
   "name": "Wonder Testnet",
   "chain": "WNDR",
-  "rpc": ["https://rpc.testnet.wonderchain.org"],
-  "faucets": ["https://wonderchain.org/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://wonderchain.org/faucet"
+  ],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",

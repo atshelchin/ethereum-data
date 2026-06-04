@@ -1,7 +1,7 @@
 {
   "name": "HALO Mainnet",
   "chain": "HALO",
-  "rpc": ["https://nodes.halo.land"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "HALO",

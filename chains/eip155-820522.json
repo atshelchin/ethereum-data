@@ -1,7 +1,7 @@
 {
   "name": "TSC Testnet",
   "chain": "Trust Smart Chain Testnet",
-  "rpc": ["https://testnet.tscscan.io/testrpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "TAS",

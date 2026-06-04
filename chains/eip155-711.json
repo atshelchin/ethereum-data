@@ -2,7 +2,9 @@
   "name": "Tucana",
   "chain": "Tucana",
   "title": "Tucana Testnet",
-  "rpc": ["https://evm-rpc.tucana.zone", "wss://evm-ws.tucana.zone"],
+  "rpc": [
+    "wss://evm-ws.tucana.zone"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tucana",

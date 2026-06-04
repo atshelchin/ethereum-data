@@ -1,8 +1,10 @@
 {
   "name": "Rome Testnet Caelian",
   "chain": "ROME",
-  "rpc": ["https://caelian-i.testnet.romeprotocol.xyz"],
-  "faucets": ["https://deposit.testnet.romeprotocol.xyz"],
+  "rpc": [],
+  "faucets": [
+    "https://deposit.testnet.romeprotocol.xyz"
+  ],
   "nativeCurrency": {
     "name": "RSOL",
     "symbol": "RSOL",

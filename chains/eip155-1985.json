@@ -1,7 +1,7 @@
 {
   "name": "SatoshIE",
   "chain": "TUSHY",
-  "rpc": ["http://rpc.satosh.ie"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tushy Token",

@@ -1,10 +1,7 @@
 {
   "name": "Imversed Mainnet",
   "chain": "Imversed",
-  "rpc": [
-    "https://jsonrpc.imversed.network",
-    "https://ws-jsonrpc.imversed.network"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Imversed Token",

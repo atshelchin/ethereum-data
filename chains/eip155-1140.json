@@ -1,8 +1,10 @@
 {
   "name": "MathChain Testnet",
   "chain": "MATH",
-  "rpc": ["https://galois-hk.maiziqianbao.net/rpc"],
-  "faucets": ["https://scan.boka.network/#/Galois/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://scan.boka.network/#/Galois/faucet"
+  ],
   "nativeCurrency": {
     "name": "MathChain",
     "symbol": "MATH",

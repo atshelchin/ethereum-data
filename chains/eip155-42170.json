@@ -13,7 +13,6 @@
     "https://arbitrum-nova.drpc.org",
     "https://nova.arbitrum.io/rpc",
     "https://arbitrum-nova-rpc.publicnode.com",
-    "https://rpc.ankr.com/arbitrumnova",
     "wss://arbitrum-nova-rpc.publicnode.com"
   ],
   "faucets": [],

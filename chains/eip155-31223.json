@@ -2,7 +2,7 @@
   "name": "CloudTx Mainnet",
   "chain": "CLD",
   "icon": "cloudtx",
-  "rpc": ["https://mainnet-rpc.cloudtx.finance"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "CloudTx",

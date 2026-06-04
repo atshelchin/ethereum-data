@@ -2,7 +2,7 @@
   "name": "Xitcoin",
   "chain": "XITCOIN",
   "faucets": [],
-  "rpc": ["https://network.xitcoin.org"],
+  "rpc": [],
   "nativeCurrency": {
     "name": "Xitcoin",
     "symbol": "$XTC",

@@ -2,8 +2,12 @@
   "name": "LBRY Mainnet",
   "chain": "LBRY",
   "icon": "lbry",
-  "rpc": ["https://lbry.nl/rpc"],
-  "features": [{ "name": "EIP155" }],
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "LBRY Credits",

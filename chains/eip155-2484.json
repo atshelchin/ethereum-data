@@ -1,8 +1,10 @@
 {
   "name": "Unicorn Ultra Nebulas Testnet",
   "chain": "u2u",
-  "rpc": ["https://rpc-nebulas-testnet.uniultra.xyz"],
-  "faucets": ["https://faucet.uniultra.xyz"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.uniultra.xyz"
+  ],
   "nativeCurrency": {
     "name": "Unicorn Ultra Nebulas Testnet",
     "symbol": "U2U",

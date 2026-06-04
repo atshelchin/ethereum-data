@@ -4,7 +4,6 @@
   "chain": "Wireshape",
   "icon": "wireshape",
   "rpc": [
-    "https://rpc-floripa.wireshape.org",
     "https://wireshape-floripa-testnet.rpc.thirdweb.com"
   ],
   "faucets": [],

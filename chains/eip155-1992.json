@@ -2,7 +2,9 @@
   "name": "Hubble Exchange",
   "chain": "Hubblenet",
   "icon": "hubblenet",
-  "rpc": ["https://rpc.hubble.exchange", "wss://ws-rpc.hubble.exchange"],
+  "rpc": [
+    "wss://ws-rpc.hubble.exchange"
+  ],
   "features": [
     {
       "name": "EIP155"

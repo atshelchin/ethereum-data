@@ -1,8 +1,10 @@
 {
   "name": "ENULS Testnet",
   "chain": "ENULS",
-  "rpc": ["https://beta.evmapi.nuls.io", "https://beta.evmapi2.nuls.io"],
-  "faucets": ["http://faucet.nuls.io"],
+  "rpc": [],
+  "faucets": [
+    "http://faucet.nuls.io"
+  ],
   "nativeCurrency": {
     "name": "NULS",
     "symbol": "NULS",

@@ -5,8 +5,7 @@
   "icon": "tac",
   "rpc": [
     "https://rpc.tac.build",
-    "https://rpc.ankr.com/tac",
-    "https://ws.rpc.tac.build"
+    "https://rpc.ankr.com/tac"
   ],
   "faucets": [],
   "nativeCurrency": {

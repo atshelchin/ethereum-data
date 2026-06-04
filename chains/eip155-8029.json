@@ -1,7 +1,7 @@
 {
   "name": "MDGL Testnet",
   "chain": "MDGL",
-  "rpc": ["https://testnet.mdgl.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "MDGL Token",

@@ -1,7 +1,7 @@
 {
   "name": "MEVerse Chain Testnet",
   "chain": "MEVerse",
-  "rpc": ["https://rpc.meversetestnet.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "MEVerse",

@@ -1,8 +1,10 @@
 {
   "name": "Scolcoin WeiChain Testnet",
   "chain": "SCOLWEI-testnet",
-  "rpc": ["https://testnet-rpc.scolcoin.com"],
-  "faucets": ["https://faucet.scolcoin.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.scolcoin.com"
+  ],
   "nativeCurrency": {
     "name": "Scolcoin",
     "symbol": "SCOL",

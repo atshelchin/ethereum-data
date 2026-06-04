@@ -12,7 +12,9 @@
     "symbol": "TWL",
     "decimals": 18
   },
-  "rpc": ["https://jellie-rpc.twala.io/", "wss://jellie-rpc-wss.twala.io/"],
+  "rpc": [
+    "wss://jellie-rpc-wss.twala.io/"
+  ],
   "faucets": [],
   "infoURL": "https://twala.io/",
   "explorers": [

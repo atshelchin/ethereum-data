@@ -1,7 +1,7 @@
 {
   "name": "HongKong Mainnet",
   "chain": "HONGKONG",
-  "rpc": ["https://eth.jegotrip.net"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "HongKong",

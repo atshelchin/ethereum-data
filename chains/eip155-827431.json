@@ -2,7 +2,7 @@
   "name": "CURVE Mainnet",
   "chain": "CURVE",
   "icon": "curveIcon",
-  "rpc": ["https://mainnet-rpc.curvescan.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Curve",

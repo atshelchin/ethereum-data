@@ -2,7 +2,7 @@
   "name": "ZKSats Mainnet",
   "title": "ZKSats Mainnet",
   "chain": "ZKSats",
-  "rpc": ["https://mainnet.zksats.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",

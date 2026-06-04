@@ -2,7 +2,7 @@
   "name": "Green Chain Testnet",
   "chain": "Green Chain",
   "icon": "greenchain",
-  "rpc": ["https://node.greenchain.app/rpc/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "GREEN",

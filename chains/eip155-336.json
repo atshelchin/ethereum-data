@@ -3,8 +3,6 @@
   "chain": "SDN",
   "rpc": [
     "https://shiden.api.onfinality.io/public",
-    "https://shiden-rpc.dwellir.com",
-    "https://shiden.public.blastapi.io",
     "wss://shiden.api.onfinality.io/public-ws",
     "wss://shiden.public.blastapi.io",
     "wss://shiden-rpc.dwellir.com"

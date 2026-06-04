@@ -1,8 +1,10 @@
 {
   "name": "AMA Testnet",
   "chain": "AMA",
-  "rpc": ["https://testnet-rpc.ama.one"],
-  "faucets": ["https://mcp.ama.one/testnet-faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://mcp.ama.one/testnet-faucet"
+  ],
   "nativeCurrency": {
     "name": "AMA",
     "symbol": "AMA",

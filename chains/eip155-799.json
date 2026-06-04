@@ -1,8 +1,10 @@
 {
   "name": "Rupaya Testnet",
   "chain": "Rupaya Testnet",
-  "rpc": ["https://rpc.testnet.rupaya.io"],
-  "faucets": ["https://faucet.testnet.rupaya.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.testnet.rupaya.io"
+  ],
   "nativeCurrency": {
     "name": "Test Rupaya",
     "symbol": "TRUPX",

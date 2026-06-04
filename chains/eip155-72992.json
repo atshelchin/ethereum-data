@@ -2,7 +2,7 @@
   "name": "Grok Chain Mainnet",
   "chain": "Grok",
   "icon": "grokicon",
-  "rpc": ["https://mainnet-rpc.grokchain.dev"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Groc",

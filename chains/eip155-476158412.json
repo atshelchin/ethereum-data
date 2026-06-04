@@ -4,8 +4,10 @@
   "status": "deprecated",
   "chain": "staging-legal-crazy-castor",
   "icon": "europa",
-  "rpc": ["https://staging-v3.skalenodes.com/v1/staging-legal-crazy-castor"],
-  "faucets": ["https://sfuel.dirtroad.dev/staging"],
+  "rpc": [],
+  "faucets": [
+    "https://sfuel.dirtroad.dev/staging"
+  ],
   "nativeCurrency": {
     "name": "sFUEL",
     "symbol": "sFUEL",

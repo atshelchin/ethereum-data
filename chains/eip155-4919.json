@@ -2,7 +2,7 @@
   "name": "Venidium Mainnet",
   "chain": "XVM",
   "icon": "venidium",
-  "rpc": ["https://rpc.venidium.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Venidium",

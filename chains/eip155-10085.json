@@ -2,8 +2,17 @@
   "name": "Volcano Chain Mainnet",
   "chain": "Volcano",
   "icon": "volcano",
-  "rpc": ["https://mainnet.vchain.pro", "wss://wss.mainnet.vchain.pro"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "wss://wss.mainnet.vchain.pro"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Volcano Coin",

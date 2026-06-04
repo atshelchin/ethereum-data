@@ -3,9 +3,7 @@
   "chain": "Daily Network",
   "icon": "daily",
   "rpc": [
-    "https://rpc-3.testnet.dailycrypto.net",
-    "https://rpc.testnet.dailycrypto.net",
-    "https://rpc-2.testnet.dailycrypto.net"
+    "https://rpc.testnet.dailycrypto.net"
   ],
   "faucets": [],
   "nativeCurrency": {

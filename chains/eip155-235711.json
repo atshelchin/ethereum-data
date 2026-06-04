@@ -1,7 +1,7 @@
 {
   "name": "Universe Testnet",
   "chain": "Universe",
-  "rpc": ["https://blockchain.dev-universe-bank.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Universe Token",

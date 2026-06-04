@@ -2,7 +2,7 @@
   "name": "Atoshi Testnet",
   "chain": "ATOSHI",
   "icon": "atoshi",
-  "rpc": ["https://node.atoshi.io/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ATOSHI",

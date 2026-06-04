@@ -1,7 +1,7 @@
 {
   "name": "Siberium Test Network",
   "chain": "SBR",
-  "rpc": ["https://rpc.test.siberium.net"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "TestSIBR",

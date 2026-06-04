@@ -2,9 +2,7 @@
   "name": "Oxin Chain",
   "chain": "OXIN",
   "rpc": [
-    "https://rpc.oxinchain.io",
-    "https://rpc1.oxinchain.io",
-    "https://rpc2.oxinchain.io"
+    "https://rpc.oxinchain.io"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -12,7 +10,11 @@
     "symbol": "OXIN",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://oxinchain.io",
   "shortName": "oxin",
   "chainId": 4457,

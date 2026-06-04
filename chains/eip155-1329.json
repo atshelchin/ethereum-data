@@ -6,7 +6,6 @@
     "https://evm-rpc.sei-apis.com",
     "https://sei-evm-rpc.publicnode.com",
     "https://sei.api.pocket.network",
-    "https://rpc.ankr.com/sei_evm",
     "wss://evm-ws.sei-apis.com",
     "wss://sei-evm-rpc.publicnode.com"
   ],

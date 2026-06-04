@@ -1,7 +1,7 @@
 {
   "name": "Dogelayer Mainnet",
   "chain": "Dogelayer",
-  "rpc": ["https://dl-rpc.dogelayer.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dogecoin",

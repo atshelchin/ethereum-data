@@ -2,8 +2,10 @@
   "name": "Flag Testnet",
   "chain": "Flag",
   "icon": "flag",
-  "rpc": ["https://testnet-rpc.flagscan.xyz"],
-  "faucets": ["https://faucet.flagscan.xyz"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.flagscan.xyz"
+  ],
   "nativeCurrency": {
     "name": "Flag Testnet",
     "symbol": "FLAG",

@@ -1,7 +1,7 @@
 {
   "name": "Atheios",
   "chain": "ATH",
-  "rpc": ["https://rpc.atheios.org/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Atheios Ether",

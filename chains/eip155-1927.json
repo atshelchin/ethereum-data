@@ -1,11 +1,10 @@
 {
   "name": "Arvix Testnet",
   "chain": "Arvix",
-  "rpc": [
-    "https://rpc-testnet-market.arvix.network",
-    "https://rpc-dev-testnet.arvix.network"
+  "rpc": [],
+  "faucets": [
+    "https://claim-faucet.arvix.network"
   ],
-  "faucets": ["https://claim-faucet.arvix.network"],
   "nativeCurrency": {
     "name": "Arvix Testnet Native Token",
     "symbol": "tARV",

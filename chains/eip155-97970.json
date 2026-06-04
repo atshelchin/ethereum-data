@@ -2,8 +2,10 @@
   "name": "OptimusZ7 Testnet",
   "chain": "OptimusZ7",
   "icon": "OZ7Icon",
-  "rpc": ["https://testnet-rpc.optimusz7.com"],
-  "faucets": ["https://faucet.optimusz7.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.optimusz7.com"
+  ],
   "nativeCurrency": {
     "name": "OptimusZ7",
     "symbol": "OZ7",

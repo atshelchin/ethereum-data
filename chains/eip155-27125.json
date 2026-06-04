@@ -2,8 +2,10 @@
   "name": "XferChain Testnet",
   "chain": "XferChain Testnet",
   "icon": "xferIcon",
-  "rpc": ["https://testnet-rpc.xferchain.org"],
-  "faucets": ["https://faucet.xferchain.org"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.xferchain.org"
+  ],
   "nativeCurrency": {
     "name": "Dapo",
     "symbol": "Dapo",

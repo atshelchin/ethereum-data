@@ -7,8 +7,7 @@
     "https://rpc.ankr.com/kaia",
     "https://kaia.api.pocket.network",
     "https://klaytn.drpc.org",
-    "https://klaytn.api.onfinality.io/public",
-    "https://1rpc.io/klay"
+    "https://klaytn.api.onfinality.io/public"
   ],
   "faucets": [],
   "nativeCurrency": {

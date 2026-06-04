@@ -1,14 +1,18 @@
 {
   "name": "Wyzth Testnet",
   "chain": "WYZ",
-  "rpc": ["https://rpc-testnet3.wyzthchain.org/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Wyzth",
     "symbol": "WYZ",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://wyzth.org/",
   "shortName": "wyz",
   "chainId": 309,

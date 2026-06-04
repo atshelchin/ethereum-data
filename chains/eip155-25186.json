@@ -2,7 +2,7 @@
   "name": "LiquidLayer Mainnet",
   "chain": "LiquidLayer",
   "icon": "lila",
-  "rpc": ["https://mainnet.liquidlayer.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "LiquidLayer",

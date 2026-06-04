@@ -1,7 +1,7 @@
 {
   "name": "Peerpay",
   "chain": "P2P",
-  "rpc": ["https://peerpay.su.gy/p2p"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Peerpay",

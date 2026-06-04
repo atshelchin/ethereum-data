@@ -1,7 +1,7 @@
 {
   "name": "Ennothem Testnet Pioneer",
   "chain": "ETMP",
-  "rpc": ["https://rpc.pioneer.etm.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ennothem",

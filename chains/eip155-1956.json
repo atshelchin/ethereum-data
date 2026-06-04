@@ -1,7 +1,7 @@
 {
   "name": "AIW3 Testnet",
   "chain": "AIW3",
-  "rpc": ["https://rpc-testnet.aiw3.io/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",

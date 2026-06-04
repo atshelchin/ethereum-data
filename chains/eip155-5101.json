@@ -2,7 +2,7 @@
   "name": "Syndicate Frame Chain",
   "title": "Syndicate Frame Chain",
   "chain": "Syndicate Frame",
-  "rpc": ["https://rpc-frame.syndicate.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

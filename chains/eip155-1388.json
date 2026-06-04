@@ -2,7 +2,7 @@
   "name": "AmStar Mainnet",
   "chain": "AmStar",
   "icon": "amstar",
-  "rpc": ["https://mainnet-rpc.amstarscan.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SINSO",

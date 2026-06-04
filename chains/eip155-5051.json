@@ -1,14 +1,18 @@
 {
   "name": "Nollie Skatechain Testnet",
   "chain": "Skatechain",
-  "rpc": ["https://nollie-rpc.skatechain.org/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "",
   "shortName": "nollie-testnet",
   "chainId": 5051,

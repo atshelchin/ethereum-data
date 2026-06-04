@@ -1,7 +1,7 @@
 {
   "name": "Automata Orbit Testnet",
   "chain": "Automata Orbit Testnet",
-  "rpc": ["https://rpc-orbit-testnet.ata.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ATA",

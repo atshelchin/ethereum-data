@@ -2,7 +2,7 @@
   "name": "Evoke Mainnet",
   "chain": "MTHN",
   "icon": "mthn",
-  "rpc": ["https://mainnet-rpc.evokescan.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "MTHN",

@@ -1,7 +1,7 @@
 {
   "name": "Swan Saturn Testnet",
   "chain": "SWAN",
-  "rpc": ["https://saturn-rpc.swanchain.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SWANETH",

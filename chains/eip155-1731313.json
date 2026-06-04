@@ -1,7 +1,7 @@
 {
   "name": "Turkey Demo Dev",
   "chain": "ETH",
-  "rpc": ["https://devchain-poa.huabeizhenxuan.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

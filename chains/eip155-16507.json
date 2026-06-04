@@ -2,7 +2,7 @@
   "name": "Genesys Mainnet",
   "chain": "Genesys",
   "icon": "genesys",
-  "rpc": ["https://rpc.genesys.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Genesys",

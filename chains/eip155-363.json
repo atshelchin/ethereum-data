@@ -1,7 +1,7 @@
 {
   "name": "Theta Sapphire Testnet",
   "chain": "Theta",
-  "rpc": ["https://eth-rpc-api-sapphire.thetatoken.org/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Theta Fuel",

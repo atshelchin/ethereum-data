@@ -1,7 +1,7 @@
 {
   "name": "Ethersocial Network",
   "chain": "ESN",
-  "rpc": ["https://api.esn.gonspool.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ethersocial Network Ether",

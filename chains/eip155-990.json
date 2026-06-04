@@ -2,8 +2,10 @@
   "name": "eLiberty Mainnet",
   "chain": "$EL",
   "icon": "eLiberty",
-  "rpc": ["https://rpc.eliberty.ngo"],
-  "faucets": ["https://faucet.eliberty.ngo"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.eliberty.ngo"
+  ],
   "nativeCurrency": {
     "name": "eLiberty",
     "symbol": "$EL",

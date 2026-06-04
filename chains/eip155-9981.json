@@ -2,7 +2,7 @@
   "name": "Volley Mainnet",
   "chain": "Volley",
   "icon": "volley",
-  "rpc": ["https://main-rpc.volleychain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "V2X",

@@ -2,7 +2,7 @@
   "name": "Bloom Genesis Mainnet",
   "chain": "Bloom",
   "icon": "bloom",
-  "rpc": ["https://mainnet-rpc.bloomgenesis.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bloom",

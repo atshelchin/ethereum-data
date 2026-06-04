@@ -2,7 +2,9 @@
   "name": "Atelier",
   "title": "Atelier Test Network",
   "chain": "ALTR",
-  "rpc": ["https://1971.network/atlr", "wss://1971.network/atlr"],
+  "rpc": [
+    "wss://1971.network/atlr"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ATLR",

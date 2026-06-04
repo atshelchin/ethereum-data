@@ -1,7 +1,7 @@
 {
   "name": "Morph Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc-testnet.morphl2.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -23,6 +23,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge-testnet.morphl2.io" }]
+    "bridges": [
+      {
+        "url": "https://bridge-testnet.morphl2.io"
+      }
+    ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "Quantum Network",
   "chain": "Quantum",
-  "rpc": ["https://rpcqtm.avescoin.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Quantum",

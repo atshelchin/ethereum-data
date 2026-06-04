@@ -2,9 +2,6 @@
   "name": "Boba BNB Testnet",
   "chain": "Boba BNB Testnet",
   "rpc": [
-    "https://testnet.bnb.boba.network",
-    "https://replica.testnet.bnb.boba.network",
-    "https://boba-bnb-testnet.gateway.tenderly.co",
     "wss://wss.testnet.bnb.boba.network",
     "wss://replica-wss.testnet.bnb.boba.network",
     "wss://boba-bnb-testnet.gateway.tenderly.co"

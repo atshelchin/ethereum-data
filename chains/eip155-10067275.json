@@ -1,7 +1,7 @@
 {
   "name": "Plian Testnet Subchain 1",
   "chain": "Plian",
-  "rpc": ["https://testnet.plian.io/child_test"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Plian Token",

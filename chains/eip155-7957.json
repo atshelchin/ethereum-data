@@ -1,12 +1,10 @@
 {
   "name": "Exorium Testnet",
   "chain": "EXOR",
-  "rpc": [
-    "https://rpc-1-testnet.exorium.net",
-    "https://rpc-2-testnet.exorium.net",
-    "https://rpc-testnet.exoscan.net/"
+  "rpc": [],
+  "faucets": [
+    "https://faucet-testnet.exorium.net"
   ],
-  "faucets": ["https://faucet-testnet.exorium.net"],
   "nativeCurrency": {
     "name": "EXOR",
     "symbol": "tEXOR",

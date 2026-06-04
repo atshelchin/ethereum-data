@@ -1,12 +1,7 @@
 {
   "name": "Vrcscan Mainnet",
   "chain": "VRC",
-  "rpc": [
-    "https://rpc-mainnet-5.vrcscan.com",
-    "https://rpc-mainnet-6.vrcscan.com",
-    "https://rpc-mainnet-7.vrcscan.com",
-    "https://rpc-mainnet-8.vrcscan.com"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "VRC Chain",

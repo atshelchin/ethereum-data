@@ -12,8 +12,6 @@
     "decimals": 18
   },
   "rpc": [
-    "https://goerli-rollup.arbitrum.io/rpc",
-    "https://arbitrum-goerli.publicnode.com",
     "wss://arbitrum-goerli.publicnode.com"
   ],
   "faucets": [],
@@ -28,6 +26,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-5",
-    "bridges": [{ "url": "https://bridge.arbitrum.io/" }]
+    "bridges": [
+      {
+        "url": "https://bridge.arbitrum.io/"
+      }
+    ]
   }
 }

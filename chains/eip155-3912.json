@@ -1,8 +1,10 @@
 {
   "name": "DRAC Network",
   "chain": "DRAC",
-  "rpc": ["https://www.dracscan.com/rpc"],
-  "faucets": ["https://www.dracscan.io/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://www.dracscan.io/faucet"
+  ],
   "nativeCurrency": {
     "name": "DRAC",
     "symbol": "DRAC",

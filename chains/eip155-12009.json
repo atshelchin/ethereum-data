@@ -2,7 +2,7 @@
   "name": "SatoshiChain Mainnet",
   "chain": "SATS",
   "icon": "satoshichain",
-  "rpc": ["https://mainnet-rpc.satoshichain.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SatoshiChain Coin",

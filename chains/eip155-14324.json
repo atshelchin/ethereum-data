@@ -2,8 +2,10 @@
   "name": "EVOLVE Testnet",
   "chain": "EVO",
   "icon": "evolveIcon",
-  "rpc": ["https://testnet-rpc.evolveblockchain.io"],
-  "faucets": ["https://faucet.evolveblockchain.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.evolveblockchain.io"
+  ],
   "nativeCurrency": {
     "name": "Evolve",
     "symbol": "EVO",

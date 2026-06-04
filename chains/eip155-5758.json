@@ -2,8 +2,10 @@
   "name": "SatoshiChain Testnet",
   "chain": "SATS",
   "icon": "satoshichain",
-  "rpc": ["https://testnet-rpc.satoshichain.io"],
-  "faucets": ["https://faucet.satoshichain.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.satoshichain.io"
+  ],
   "nativeCurrency": {
     "name": "SatoshiChain Coin",
     "symbol": "SATS",

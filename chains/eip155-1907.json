@@ -2,7 +2,7 @@
   "name": "Bitcichain Mainnet",
   "chain": "BITCI",
   "icon": "bitci",
-  "rpc": ["https://rpc.bitci.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitci",

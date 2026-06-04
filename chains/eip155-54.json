@@ -2,7 +2,7 @@
   "name": "Openpiece Mainnet",
   "chain": "OPENPIECE",
   "icon": "openpiece",
-  "rpc": ["https://mainnet.openpiece.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Belly",

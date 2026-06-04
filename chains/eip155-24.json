@@ -2,7 +2,7 @@
   "name": "KardiaChain Mainnet",
   "chain": "KAI",
   "icon": "kardiachain",
-  "rpc": ["https://rpc.kardiachain.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "KardiaChain",
@@ -13,5 +13,7 @@
   "shortName": "kardiachain",
   "chainId": 24,
   "networkId": 0,
-  "redFlags": ["reusedChainId"]
+  "redFlags": [
+    "reusedChainId"
+  ]
 }

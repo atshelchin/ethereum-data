@@ -1,7 +1,7 @@
 {
   "name": "ENULS Mainnet",
   "chain": "ENULS",
-  "rpc": ["https://evmapi.nuls.io", "https://evmapi2.nuls.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "NULS",

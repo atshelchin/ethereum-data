@@ -2,7 +2,7 @@
   "name": "Viridis Mainnet",
   "chain": "VRD",
   "icon": "viridis",
-  "rpc": ["https://mainnet-rpc.vrd.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Viridis Token",

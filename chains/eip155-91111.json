@@ -1,7 +1,7 @@
 {
   "name": "Henez Chain Mainnet",
   "chain": "henez",
-  "rpc": ["https://henez.calderachain.xyz/http"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

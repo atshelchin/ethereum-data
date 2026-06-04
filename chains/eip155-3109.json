@@ -1,7 +1,7 @@
 {
   "name": "SatoshiVM Alpha Mainnet",
   "chain": "SatoshiVM",
-  "rpc": ["https://alpha-rpc-node-http.svmscan.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",

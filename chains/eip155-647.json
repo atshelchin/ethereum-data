@@ -2,8 +2,10 @@
   "name": "SX Network Testnet",
   "chain": "SX",
   "icon": "SX",
-  "rpc": ["https://rpc.toronto.sx.technology"],
-  "faucets": ["https://faucet.toronto.sx.technology"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.toronto.sx.technology"
+  ],
   "nativeCurrency": {
     "name": "SX Network",
     "symbol": "SX",

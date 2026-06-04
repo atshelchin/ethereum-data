@@ -1,7 +1,7 @@
 {
   "name": "DecentraBone Layer1 Testnet",
   "chain": "DBONE",
-  "rpc": ["https://layer1test.decentrabone.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "DecentraBone",

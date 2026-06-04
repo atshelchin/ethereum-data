@@ -1,7 +1,7 @@
 {
   "name": "Frenchain",
   "chain": "fren",
-  "rpc": ["https://rpc-02.frenscan.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "FREN",

@@ -2,7 +2,7 @@
   "name": "firachain",
   "chain": "FIR",
   "icon": "firachainIcon",
-  "rpc": ["https://rpc.firachain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "firachain",

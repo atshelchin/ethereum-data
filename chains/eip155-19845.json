@@ -1,7 +1,7 @@
 {
   "name": "BTCIX Network",
   "chain": "BTCIX",
-  "rpc": ["https://seed.btcix.org/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTCIX Network",
@@ -12,7 +12,6 @@
   "shortName": "btcix",
   "chainId": 19845,
   "networkId": 19845,
-
   "explorers": [
     {
       "name": "BTCIXScan",

@@ -1,8 +1,10 @@
 {
   "name": "Aerochain Testnet",
   "chain": "Aerochain",
-  "rpc": ["https://testnet-rpc.aerochain.id/"],
-  "faucets": ["https://faucet.aerochain.id/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.aerochain.id/"
+  ],
   "nativeCurrency": {
     "name": "Aerochain Testnet",
     "symbol": "TAero",

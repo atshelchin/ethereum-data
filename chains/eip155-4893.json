@@ -2,7 +2,7 @@
   "name": "Globel Chain",
   "chain": "GC",
   "icon": "globelchain",
-  "rpc": ["https://rpc.gcscan.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Globel Chain",

@@ -1,12 +1,7 @@
 {
   "name": "Pego Network",
   "chain": "PEGO",
-  "rpc": [
-    "https://pegorpc.com",
-    "https://node1.pegorpc.com",
-    "https://node2.pegorpc.com",
-    "https://node3.pegorpc.com"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Pego Native Token",

@@ -1,7 +1,7 @@
 {
   "name": "Genesys Code Mainnet",
   "chain": "GCODE",
-  "rpc": ["https://mainnet.genesyscode.io/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "GenesysCode",

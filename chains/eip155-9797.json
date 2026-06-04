@@ -2,7 +2,7 @@
   "name": "OptimusZ7 Mainnet",
   "chain": "OptimusZ7",
   "icon": "OZ7Icon",
-  "rpc": ["https://rpc.optimusz7.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "OptimusZ7",

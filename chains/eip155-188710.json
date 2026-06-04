@@ -1,7 +1,7 @@
 {
   "name": "Bitica Chain Mainnet",
   "chain": "BDCC",
-  "rpc": ["https://mainnet-rpc.biticablockchain.com/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitica Coin",

@@ -2,7 +2,7 @@
   "name": "Moonchain Geneva Testnet",
   "chain": "MXC zkEVM",
   "icon": "mxc",
-  "rpc": ["https://geneva-rpc.moonchain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Moonchain Geneva Testnet",

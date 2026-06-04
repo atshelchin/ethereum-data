@@ -1,9 +1,13 @@
 {
   "name": "DIV Chain",
   "chain": "DIVC",
-  "rpc": ["https://rpc.divchain.org"],
+  "rpc": [],
   "faucets": [],
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "nativeCurrency": {
     "name": "DIVC",
     "symbol": "DIVC",

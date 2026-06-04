@@ -2,8 +2,6 @@
   "name": "Sonic Blaze Testnet",
   "chain": "blaze-testnet",
   "rpc": [
-    "https://sonic-blaze-rpc.publicnode.com",
-    "https://rpc.blaze.soniclabs.com",
     "wss://sonic-blaze-rpc.publicnode.com"
   ],
   "faucets": [

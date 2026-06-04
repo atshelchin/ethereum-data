@@ -16,7 +16,6 @@
     "https://celo.api.pocket.network",
     "https://rpc.ankr.com/celo",
     "https://celo.api.onfinality.io/public",
-    "https://1rpc.io/celo",
     "wss://forno.celo.org/ws",
     "wss://celo-rpc.publicnode.com"
   ],

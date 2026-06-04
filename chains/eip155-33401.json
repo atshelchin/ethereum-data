@@ -1,14 +1,18 @@
 {
   "name": "SlingShot",
   "chain": "SLING",
-  "rpc": ["https://rpc.slingshotdao.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sling",
     "symbol": "SLING",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://slingshotdao.com",
   "shortName": "slingshot",
   "chainId": 33401,

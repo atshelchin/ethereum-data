@@ -1,11 +1,10 @@
 {
   "name": "Rivest Testnet",
   "chain": "Inco",
-  "rpc": [
-    "https://validator.rivest.inco.org",
-    "https://gateway.rivest.inco.org"
+  "rpc": [],
+  "faucets": [
+    "https://faucet.rivest.inco.org"
   ],
-  "faucets": ["https://faucet.rivest.inco.org"],
   "nativeCurrency": {
     "name": "test-Inco",
     "symbol": "tINCO",

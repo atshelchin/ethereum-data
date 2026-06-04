@@ -4,7 +4,6 @@
   "chain": "LAOS",
   "icon": "laos",
   "rpc": [
-    "https://arrakis.gorengine.com/own",
     "wss://arrakis.gorengine.com/own"
   ],
   "faucets": [],

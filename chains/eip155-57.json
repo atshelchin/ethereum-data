@@ -6,8 +6,6 @@
     "https://syscoin-evm-rpc.publicnode.com",
     "https://rpc.syscoin.org",
     "https://57.rpc.thirdweb.com",
-    "https://syscoin.public-rpc.com",
-    "https://rpc.ankr.com/syscoin",
     "https://rpc.ankr.com/syscoin/${ANKR_API_KEY}",
     "wss://rpc.syscoin.org/wss",
     "wss://syscoin-evm.publicnode.com",

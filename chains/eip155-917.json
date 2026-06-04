@@ -3,8 +3,7 @@
   "title": "Firechain Testnet Rinia",
   "chain": "FIRE",
   "rpc": [
-    "https://rpc-rinia.firestation.io",
-    "https://rinia-rpc1.thefirechain.com"
+    "https://rpc-rinia.firestation.io"
   ],
   "faucets": [
     "https://faucet.thefirechain.com",

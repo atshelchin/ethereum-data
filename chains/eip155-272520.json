@@ -1,7 +1,7 @@
 {
   "name": "Nxy Oasis",
   "chain": "NXY",
-  "rpc": ["https://nxy.social/mainnet"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Nxy",

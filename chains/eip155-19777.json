@@ -2,7 +2,7 @@
   "name": "Astra Sepolia",
   "chain": "Astra Sepolia",
   "icon": "astrasepolia",
-  "rpc": ["https://rpc-astra-9on2f72wzn.t.conduit.xyz"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Astra",

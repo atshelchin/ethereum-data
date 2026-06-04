@@ -3,7 +3,6 @@
   "chain": "milkAda",
   "icon": "milkomeda",
   "rpc": [
-    "https://rpc-mainnet-cardano-evm.c1.milkomeda.com",
     "wss://rpc-mainnet-cardano-evm.c1.milkomeda.com"
   ],
   "faucets": [],

@@ -2,8 +2,10 @@
   "name": "Evoke Testnet",
   "chain": "Evoke",
   "icon": "mthn",
-  "rpc": ["https://testnet-rpc.evokescan.org"],
-  "faucets": ["https://faucet.evokescan.org"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.evokescan.org"
+  ],
   "nativeCurrency": {
     "name": "MTHN Testnet",
     "symbol": "MTHN",

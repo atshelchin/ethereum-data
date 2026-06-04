@@ -2,7 +2,6 @@
   "name": "Alaya Dev Testnet",
   "chain": "Alaya",
   "rpc": [
-    "https://devnetopenapi.alaya.network/rpc",
     "wss://devnetopenapi.alaya.network/ws"
   ],
   "faucets": [

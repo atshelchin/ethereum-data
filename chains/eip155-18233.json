@@ -3,7 +3,6 @@
   "title": "unreal testnet for re.al",
   "chain": "unreal",
   "rpc": [
-    "https://rpc.unreal-orbit.gelato.digital",
     "wss://ws.unreal-orbit.gelato.digital"
   ],
   "nativeCurrency": {
@@ -29,6 +28,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-17000",
-    "bridges": [{ "url": "https://bridge.gelato.network/bridge/unreal" }]
+    "bridges": [
+      {
+        "url": "https://bridge.gelato.network/bridge/unreal"
+      }
+    ]
   }
 }

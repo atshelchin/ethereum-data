@@ -2,7 +2,6 @@
   "name": "CAGA crypto Ankara testnet",
   "chain": "Ankara",
   "rpc": [
-    "https://www.ankara-cagacrypto.com",
     "wss://wss.ankara-cagacrypto.com"
   ],
   "faucets": [],

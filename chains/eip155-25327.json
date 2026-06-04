@@ -1,7 +1,7 @@
 {
   "name": "Everclear Mainnet",
   "chain": "Everclear Mainnet",
-  "rpc": ["https://rpc.everclear.raas.gelato.cloud"],
+  "rpc": [],
   "nativeCurrency": {
     "name": "ETH",
     "symbol": "ETH",

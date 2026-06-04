@@ -1,14 +1,23 @@
 {
   "name": "Moca Chain Testnet",
   "chain": "Moca Chain",
-  "rpc": ["https://testnet-rpc.mechain.tech"],
-  "faucets": ["https://faucet.mechain.tech"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.mechain.tech"
+  ],
   "nativeCurrency": {
     "name": "MOCA",
     "symbol": "MOCA",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://mechain.tech",
   "shortName": "MOCA",
   "chainId": 5151,

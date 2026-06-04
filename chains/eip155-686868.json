@@ -10,8 +10,10 @@
     "symbol": "WON",
     "decimals": 18
   },
-  "rpc": ["https://rpc.wonnetwork.org"],
-  "faucets": ["https://faucet.wondollars.org"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.wondollars.org"
+  ],
   "explorers": [
     {
       "name": "Won Explorer",

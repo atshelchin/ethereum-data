@@ -2,7 +2,7 @@
   "name": "Sharecle Mainnet",
   "chain": "SHARECLE",
   "icon": "sharecle",
-  "rpc": ["https://mainnet.sharecle.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SHARECLE COIN",

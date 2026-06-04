@@ -1,7 +1,7 @@
 {
   "name": "Metis Stardust Testnet",
   "chain": "ETH",
-  "rpc": ["https://stardust.metis.io/?owner=588"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "tMetis",
@@ -23,7 +23,11 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-4",
-    "bridges": [{ "url": "https://bridge.metis.io" }]
+    "bridges": [
+      {
+        "url": "https://bridge.metis.io"
+      }
+    ]
   },
   "status": "deprecated"
 }

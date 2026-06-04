@@ -1,7 +1,7 @@
 {
   "name": "Geso Verse",
   "chain": "Geso Verse",
-  "rpc": ["https://rpc.verse.gesoten.com/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",

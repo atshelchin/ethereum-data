@@ -1,7 +1,7 @@
 {
   "name": "Filenova Testnet",
   "chain": "Filenova",
-  "rpc": ["https://rpctest.filenova.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Test Filecoin",

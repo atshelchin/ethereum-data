@@ -1,8 +1,10 @@
 {
   "name": "B20 Testnet",
   "chain": "B20",
-  "rpc": ["https://rpc.beonescan.com"],
-  "faucets": ["https://faucet.beonechain.com/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.beonechain.com/"
+  ],
   "nativeCurrency": {
     "name": "B20",
     "symbol": "TBOC",

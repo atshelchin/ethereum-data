@@ -1,10 +1,7 @@
 {
   "name": "Automata Testnet",
   "chain": "Automata Testnet",
-  "rpc": [
-    "https://rpc-testnet.ata.network",
-    "https://automata-testnet.alt.technology"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ATA",

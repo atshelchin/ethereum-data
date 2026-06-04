@@ -2,9 +2,20 @@
   "name": "Phron Testnet",
   "chain": "PHR",
   "icon": "phron",
-  "rpc": ["https://testnet.phron.ai", "wss://testnet.phron.ai"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": ["https://faucet.phron.ai"],
+  "rpc": [
+    "wss://testnet.phron.ai"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [
+    "https://faucet.phron.ai"
+  ],
   "nativeCurrency": {
     "name": "Phron",
     "symbol": "TPHR",

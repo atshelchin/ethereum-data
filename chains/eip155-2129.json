@@ -1,8 +1,10 @@
 {
   "name": "Memento Testnet",
   "chain": "Memento",
-  "rpc": ["https://rpc.memento.zeeve.online"],
-  "faucets": ["https://faucet.memento.zeeve.online"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.memento.zeeve.online"
+  ],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",

@@ -2,8 +2,10 @@
   "name": "Gold Smart Chain Testnet",
   "chain": "STAND",
   "icon": "standTestnet",
-  "rpc": ["https://rpc-testnet.goldsmartchain.com"],
-  "faucets": ["https://faucet.goldsmartchain.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.goldsmartchain.com"
+  ],
   "nativeCurrency": {
     "name": "Standard in Gold",
     "symbol": "STAND",

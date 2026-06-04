@@ -1,7 +1,7 @@
 {
   "name": "Quokkacoin Mainnet",
   "chain": "Qkacoin",
-  "rpc": ["https://rpc.qkacoin.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Qkacoin",

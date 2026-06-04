@@ -1,8 +1,10 @@
 {
   "name": "Bethel Sydney",
   "chain": "Bethel",
-  "rpc": ["https://rpc-sydney.bethel.network"],
-  "faucets": ["https://faucet-sydney.bethel.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet-sydney.bethel.network"
+  ],
   "nativeCurrency": {
     "name": "Bethel",
     "symbol": "BECX",

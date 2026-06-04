@@ -1,14 +1,23 @@
 {
   "name": "Abyss Protocol",
   "chain": "Abyss Protocol Testnet",
-  "rpc": ["https://testnet.rpc.abyssprotocol.ai/"],
-  "faucets": ["https://faucet.abyssprotocol.ai/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.abyssprotocol.ai/"
+  ],
   "nativeCurrency": {
     "name": "AbyssETH",
     "symbol": "aETH",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://abyssprotocol.ai/",
   "shortName": "abyss",
   "chainId": 229772,

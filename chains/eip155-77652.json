@@ -1,8 +1,10 @@
 {
   "name": "Carrchain Testnet",
   "chain": "Carrchain Testnet",
-  "rpc": ["https://rpc-testnetcarrchain.artiffine.com"],
-  "faucets": ["https://faucet-testnetcarrchain.artiffine.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet-testnetcarrchain.artiffine.com"
+  ],
   "nativeCurrency": {
     "name": "Carrchain Coin",
     "symbol": "CARR",

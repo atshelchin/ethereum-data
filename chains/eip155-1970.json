@@ -1,7 +1,7 @@
 {
   "name": "Super Smart Chain Mainnet",
   "chain": "SCS",
-  "rpc": ["https://rpc.scschain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Super Chain Native Token",

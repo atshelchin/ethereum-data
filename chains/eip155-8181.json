@@ -1,8 +1,10 @@
 {
   "name": "Testnet BeOne Chain",
   "chain": "tBOC",
-  "rpc": ["https://pre-boc1.beonechain.com"],
-  "faucets": ["https://testnet.beonescan.com/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://testnet.beonescan.com/faucet"
+  ],
   "nativeCurrency": {
     "name": "Testnet BeOne Chain",
     "symbol": "tBOC",

@@ -1,7 +1,7 @@
 {
   "name": "DeepBrainChain Testnet",
   "chain": "DeepBrainChain",
-  "rpc": ["https://rpc-testnet.dbcwallet.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "DeepBrainChain",
@@ -14,7 +14,6 @@
   "icon": "dbc",
   "networkId": 19850818,
   "slip44": 1,
-
   "explorers": [
     {
       "name": "DeepBrainChain Testnet",

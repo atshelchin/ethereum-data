@@ -2,8 +2,6 @@
   "name": "Primea Network Testnet",
   "chain": "Primea Network Testnet",
   "rpc": [
-    "http://test-rpc.primeanetwork.com/rpc-http",
-    "https://test-rpc.primeanetwork.com/rpc-https",
     "ws://test-rpc.primeanetwork.com/rpc-ws",
     "wss://test-rpc.primeanetwork.com/rpc-wss"
   ],

@@ -2,7 +2,7 @@
   "name": "Argochain",
   "chain": "Argochain",
   "icon": "argochain",
-  "rpc": ["https://rpc.devolvedai.com", "https://rpc-mainnet.devolvedai.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Argocoin",

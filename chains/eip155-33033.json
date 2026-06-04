@@ -2,7 +2,7 @@
   "name": "Entangle Mainnet",
   "chain": "NGL",
   "icon": "ngl",
-  "rpc": ["https://json-rpc.entangle.fi"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Entangle",

@@ -2,8 +2,10 @@
   "name": "Lux Mainnet",
   "chain": "Lux",
   "icon": "lux",
-  "rpc": ["https://api.lux.network"],
-  "faucets": ["https://faucet.lux-test.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.lux-test.network"
+  ],
   "nativeCurrency": {
     "name": "Lux",
     "symbol": "LUX",

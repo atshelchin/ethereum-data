@@ -2,10 +2,7 @@
   "name": "Canto",
   "chain": "Canto",
   "rpc": [
-    "https://canto.gravitychain.io/",
-    "https://canto.slingshot.finance",
-    "https://canto-rpc.ansybl.io",
-    "https://mainnode.plexnode.org:8545"
+    "https://canto.gravitychain.io/"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -1,7 +1,7 @@
 {
   "name": "W3Gamez Holesky Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc-holesky.w3gamez.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "W3Gamez Testnet Ether",

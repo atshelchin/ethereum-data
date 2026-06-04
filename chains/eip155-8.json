@@ -1,7 +1,7 @@
 {
   "name": "Ubiq",
   "chain": "UBQ",
-  "rpc": ["https://rpc.octano.dev", "https://pyrus2.ubiqscan.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ubiq Ether",

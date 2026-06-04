@@ -9,7 +9,7 @@
     "symbol": "ETHF",
     "decimals": 18
   },
-  "rpc": ["https://rpc.etherfair.org"],
+  "rpc": [],
   "faucets": [],
   "explorers": [
     {

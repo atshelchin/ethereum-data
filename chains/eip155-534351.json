@@ -5,9 +5,6 @@
   "rpc": [
     "https://sepolia-rpc.scroll.io",
     "https://scroll-sepolia-rpc.publicnode.com",
-    "https://rpc.ankr.com/scroll_sepolia_testnet",
-    "https://scroll-sepolia.chainstacklabs.com",
-    "https://scroll-testnet-public.unifra.io",
     "wss://scroll-sepolia-rpc.publicnode.com"
   ],
   "faucets": [],

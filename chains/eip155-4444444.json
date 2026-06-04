@@ -1,8 +1,10 @@
 {
   "name": "Altar Testnet",
   "chain": "Altar",
-  "rpc": ["https://altar-rpc.ceremonies.ai/"],
-  "faucets": ["https://sepoliafaucet.com/"],
+  "rpc": [],
+  "faucets": [
+    "https://sepoliafaucet.com/"
+  ],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",

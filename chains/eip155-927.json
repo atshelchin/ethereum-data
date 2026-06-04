@@ -2,7 +2,7 @@
   "name": "Yidark Chain Mainnet",
   "chain": "Yidark",
   "icon": "ydk",
-  "rpc": ["https://rpc.yidark.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Yidark",

@@ -1,7 +1,7 @@
 {
   "name": "BlocX Mainnet",
   "chain": "BLX",
-  "rpc": ["https://mainnet-rpc.blxscan.com/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BlocX",

@@ -1,7 +1,7 @@
 {
   "name": "SaitaBlockChain(SBC)",
   "chain": "SaitaBlockChain(SBC)",
-  "rpc": ["https://rpc-nodes.saitascan.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SaitaBlockChain(SBC)",

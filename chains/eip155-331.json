@@ -2,7 +2,7 @@
   "name": "Telos zkEVM Testnet",
   "title": "Telos zkEVM Testnet",
   "chain": "Telos",
-  "rpc": ["https://zkrpc.testnet.telos.net"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia ETH",

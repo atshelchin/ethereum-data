@@ -2,7 +2,7 @@
   "name": "Boba Network Rinkeby Testnet",
   "chain": "ETH",
   "status": "deprecated",
-  "rpc": ["https://rinkeby.boba.network/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -24,6 +24,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-4",
-    "bridges": [{ "url": "https://gateway.rinkeby.boba.network" }]
+    "bridges": [
+      {
+        "url": "https://gateway.rinkeby.boba.network"
+      }
+    ]
   }
 }

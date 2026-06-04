@@ -2,7 +2,7 @@
   "name": "GPT Mainnet",
   "chain": "GPT Protocol",
   "icon": "gpt",
-  "rpc": ["https://rpc.gptprotocol.io"],
+  "rpc": [],
   "faucets": [],
   "chainId": 1511670449,
   "networkId": 1511670449,
@@ -16,7 +16,11 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.gptprotocol.io" }]
+    "bridges": [
+      {
+        "url": "https://bridge.gptprotocol.io"
+      }
+    ]
   },
   "explorers": [
     {

@@ -5,10 +5,11 @@
   "icon": "tactestnet",
   "rpc": [
     "https://spb.rpc.tac.build",
-    "https://rpc.ankr.com/tac_spb",
-    "https://spb-ws.rpc.tac.build"
+    "https://rpc.ankr.com/tac_spb"
   ],
-  "faucets": ["https://spb.faucet.tac.build/"],
+  "faucets": [
+    "https://spb.faucet.tac.build/"
+  ],
   "nativeCurrency": {
     "name": "TAC",
     "symbol": "TAC",

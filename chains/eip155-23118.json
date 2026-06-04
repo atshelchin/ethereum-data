@@ -1,8 +1,10 @@
 {
   "name": "Opside Testnet",
   "chain": "Opside",
-  "rpc": ["https://testrpc.opside.network"],
-  "faucets": ["https://faucet.opside.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.opside.network"
+  ],
   "nativeCurrency": {
     "name": "IDE",
     "symbol": "IDE",

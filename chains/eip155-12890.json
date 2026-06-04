@@ -2,7 +2,7 @@
   "name": "Quantum Chain Testnet",
   "chain": "tQNET",
   "icon": "qnet",
-  "rpc": ["https://testnet-rpc.quantumscan.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Quantum Chain",

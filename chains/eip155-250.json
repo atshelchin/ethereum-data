@@ -5,11 +5,6 @@
     "https://fantom-pokt.nodies.app",
     "https://fantom.api.pocket.network",
     "https://fantom.api.onfinality.io/public",
-    "https://rpc.ftm.tools",
-    "https://fantom-rpc.publicnode.com",
-    "https://fantom.drpc.org",
-    "https://rpc.ankr.com/fantom",
-    "https://1rpc.io/ftm",
     "wss://fantom-rpc.publicnode.com",
     "wss://fantom.drpc.org"
   ],

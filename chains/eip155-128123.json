@@ -4,7 +4,14 @@
   "icon": "etherlink",
   "chainId": 128123,
   "networkId": 128123,
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://etherlink.com",
   "shortName": "etlt",
   "nativeCurrency": {
@@ -12,8 +19,10 @@
     "symbol": "XTZ",
     "decimals": 18
   },
-  "rpc": ["https://node.ghostnet.etherlink.com"],
-  "faucets": ["https://faucet.etherlink.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.etherlink.com"
+  ],
   "explorers": [
     {
       "name": "Etherlink Ghostnet Testnet Explorer",

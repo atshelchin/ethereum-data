@@ -10,10 +10,19 @@
     "decimals": 18
   },
   "slip44": 1,
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://app.treasure.lol",
   "icon": "treasure",
-  "rpc": ["https://rpc.treasure.lol", "wss://rpc.treasure.lol/ws"],
+  "rpc": [
+    "wss://rpc.treasure.lol/ws"
+  ],
   "faucets": [
     "https://app.treasure.lol/chain/faucet",
     "https://thirdweb.com/treasure"
@@ -29,6 +38,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://app.treasure.lol/chain/bridge" }]
+    "bridges": [
+      {
+        "url": "https://app.treasure.lol/chain/bridge"
+      }
+    ]
   }
 }

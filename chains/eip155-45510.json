@@ -2,8 +2,10 @@
   "name": "Deelance Mainnet",
   "title": "Deelance Network Mainnet",
   "chain": "DEE",
-  "rpc": ["https://rpc.deelance.com"],
-  "faucets": ["https://faucet.deelance.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.deelance.com"
+  ],
   "nativeCurrency": {
     "name": "Deelance",
     "symbol": "DEE",

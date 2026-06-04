@@ -3,7 +3,6 @@
   "chain": "Rivool",
   "icon": "rivool",
   "rpc": [
-    "https://services.tanssi-mainnet.network/tanssi-2005",
     "wss://services.tanssi-mainnet.network/tanssi-2005"
   ],
   "faucets": [],

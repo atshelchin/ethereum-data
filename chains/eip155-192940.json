@@ -2,7 +2,6 @@
   "name": "Mind Network Testnet",
   "chain": "FHET",
   "rpc": [
-    "https://rpc-testnet.mindnetwork.xyz",
     "wss://rpc-testnet.mindnetwork.xyz"
   ],
   "faucets": [],
@@ -11,7 +10,11 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://mindnetwork.xyz",
   "shortName": "fhet",
   "chainId": 192940,

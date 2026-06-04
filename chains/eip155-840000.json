@@ -1,8 +1,10 @@
 {
   "name": "RUNEVM Testnet",
   "chain": "RuneVM",
-  "rpc": ["https://rpc.runevm.io/"],
-  "faucets": ["https://faucet.runevm.io/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.runevm.io/"
+  ],
   "nativeCurrency": {
     "name": "Test Bitcoin",
     "symbol": "tBTC",

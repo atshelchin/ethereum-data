@@ -1,7 +1,7 @@
 {
   "name": "DreyerX Testnet",
   "chain": "DreyerX",
-  "rpc": ["https://testnet-rpc.dreyerx.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "DreyerX",

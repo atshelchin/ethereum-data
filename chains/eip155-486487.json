@@ -1,8 +1,10 @@
 {
   "name": "Gobbl Testnet",
   "chain": "Gobbl Testnet",
-  "rpc": ["https://rpc.gobbl.io"],
-  "faucets": ["https://faucet.gobbl.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.gobbl.io"
+  ],
   "nativeCurrency": {
     "name": "Gobbl Token",
     "symbol": "GOBBL",

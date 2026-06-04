@@ -2,8 +2,10 @@
   "name": "Chronicle Loa - Lit Protocol Testnet",
   "chain": "LPL",
   "icon": "lit",
-  "rpc": ["https://loa-rpc.litprotocol.com"],
-  "faucets": ["https://developer.litprotocol.com/support/intro"],
+  "rpc": [],
+  "faucets": [
+    "https://developer.litprotocol.com/support/intro"
+  ],
   "nativeCurrency": {
     "name": "Test Lit",
     "symbol": "tLit",

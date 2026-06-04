@@ -1,7 +1,7 @@
 {
   "name": "ThaiChain 2.0 ThaiFi",
   "chain": "TCH",
-  "rpc": ["https://rpc.thaifi.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Thaifi Ether",

@@ -1,8 +1,10 @@
 {
   "name": "Elastos Smart Chain Testnet",
   "chain": "ETH",
-  "rpc": ["https://api-testnet.elastos.io/eth"],
-  "faucets": ["https://esc-faucet.elastos.io/"],
+  "rpc": [],
+  "faucets": [
+    "https://esc-faucet.elastos.io/"
+  ],
   "nativeCurrency": {
     "name": "Elastos",
     "symbol": "tELA",

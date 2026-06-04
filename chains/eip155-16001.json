@@ -1,8 +1,10 @@
 {
   "name": "MetaDot Testnet",
   "chain": "MTTTest",
-  "rpc": ["https://testnet.metadot.network"],
-  "faucets": ["https://faucet.metadot.network/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.metadot.network/"
+  ],
   "nativeCurrency": {
     "name": "MetaDot Token TestNet",
     "symbol": "MTTest",

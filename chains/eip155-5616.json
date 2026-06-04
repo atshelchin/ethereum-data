@@ -1,7 +1,7 @@
 {
   "name": "Arcturus Chain Testnet",
   "chain": "ARCTURUS",
-  "rpc": ["http://185.99.196.3:8545"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Test Arct",

@@ -1,7 +1,7 @@
 {
   "name": "THAT Mainnet",
   "chain": "THAT",
-  "rpc": ["https://api.thatchain.io", "https://api.thatchain.io/mainnet"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "THAT",

@@ -3,8 +3,10 @@
   "title": "COTI Devnet",
   "chain": "COTI",
   "icon": "coti",
-  "rpc": ["https://devnet.coti.io/rpc"],
-  "faucets": ["https://faucet.coti.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.coti.io"
+  ],
   "nativeCurrency": {
     "name": "COTI2",
     "symbol": "COTI2",

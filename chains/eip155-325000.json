@@ -2,9 +2,18 @@
   "name": "Camp Network Testnet V2",
   "chain": "ETH",
   "icon": "camp",
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "rpc": ["https://rpc-campnetwork.xyz"],
-  "faucets": ["https://www.campnetwork.xyz/faucet"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "rpc": [],
+  "faucets": [
+    "https://www.campnetwork.xyz/faucet"
+  ],
   "nativeCurrency": {
     "name": "Ethereum",
     "symbol": "ETH",
@@ -27,7 +36,9 @@
     "type": "L2",
     "chain": "eip155-1",
     "bridges": [
-      { "url": "https://bridge.gelato.network/bridge/camp-network-testnet" }
+      {
+        "url": "https://bridge.gelato.network/bridge/camp-network-testnet"
+      }
     ]
   }
 }

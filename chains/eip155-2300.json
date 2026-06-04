@@ -1,7 +1,7 @@
 {
   "name": "BOMB Chain",
   "chain": "BOMB",
-  "rpc": ["https://rpc.bombchain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BOMB Token",

@@ -1,7 +1,7 @@
 {
   "name": "DeInfra Mainnet",
   "chain": "DeInfraMainnet",
-  "rpc": ["https://c100501n3.deinfra.net:443/jsonrpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SK",

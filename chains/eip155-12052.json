@@ -1,8 +1,10 @@
 {
   "name": "Singularity ZERO Mainnet",
   "chain": "ZERO",
-  "rpc": ["https://zerorpc.singularity.gold"],
-  "faucets": ["https://zeroscan.singularity.gold"],
+  "rpc": [],
+  "faucets": [
+    "https://zeroscan.singularity.gold"
+  ],
   "nativeCurrency": {
     "name": "ZERO",
     "symbol": "ZERO",

@@ -1,8 +1,10 @@
 {
   "name": "Lydia Coin Testnet",
   "chain": "LYDIA-TESTNET",
-  "rpc": ["https://testnet-rpc.lydiacoins.com"],
-  "faucets": ["https://faucet.lydiacoins.com/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.lydiacoins.com/"
+  ],
   "nativeCurrency": {
     "name": "Lydia Token",
     "symbol": "BSW",

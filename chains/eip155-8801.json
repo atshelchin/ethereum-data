@@ -1,8 +1,10 @@
 {
   "name": "Okto Testnet",
   "chain": "Okto",
-  "rpc": ["https://rpc.okto-testnet.zeeve.online"],
-  "faucets": ["https://faucet.okto-testnet.zeeve.online"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.okto-testnet.zeeve.online"
+  ],
   "nativeCurrency": {
     "name": "Okto",
     "symbol": "OKTO",

@@ -3,7 +3,6 @@
   "chain": "HYB",
   "icon": "hybridIcon",
   "rpc": [
-    "https://hybrid-testnet.rpc.caldera.xyz/http",
     "wss://hybrid-testnet.rpc.caldera.xyz/ws"
   ],
   "faucets": [],

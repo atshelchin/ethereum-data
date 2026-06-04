@@ -1,14 +1,21 @@
 {
   "name": "Juneo mBTC1-Chain",
   "chain": "Juneo mBTC1-Chain",
-  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/mBTC1/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "mBTC1",
     "symbol": "mBTC1",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://juneo.com/",
   "shortName": "mBTC1",
   "chainId": 45007,

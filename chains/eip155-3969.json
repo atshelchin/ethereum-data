@@ -1,10 +1,7 @@
 {
   "name": "PayNetwork Mainnet",
   "chain": "paynetwork",
-  "rpc": [
-    "https://rpc.paynetwork.io",
-    "https://paynetwork-main.calderachain.xyz/http"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "PayNetwork",

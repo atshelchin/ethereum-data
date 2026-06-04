@@ -1,7 +1,7 @@
 {
   "name": "ZKasino Mainnet",
   "chain": "ZKasino",
-  "rpc": ["https://rpc.zkas.zeeve.net"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ZKAS",

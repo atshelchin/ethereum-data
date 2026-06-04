@@ -6,7 +6,6 @@
     "https://centrifuge-parachain.api.onfinality.io/public",
     "https://rpc-centrifuge.luckyfriday.io",
     "https://fullnode.centrifuge.io",
-    "https://centrifuge-rpc.dwellir.com",
     "wss://fullnode.centrifuge.io",
     "wss://centrifuge-parachain.api.onfinality.io/public-ws",
     "wss://centrifuge-rpc.dwellir.com",

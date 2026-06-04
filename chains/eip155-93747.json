@@ -1,7 +1,7 @@
 {
   "name": "StratoVM Testnet",
   "chain": "StratoVM",
-  "rpc": ["https://rpc.stratovm.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SVM",

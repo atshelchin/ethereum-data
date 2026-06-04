@@ -1,7 +1,7 @@
 {
   "name": "ZKcandy Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.rpc.zkcandy.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -24,7 +24,13 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://sepolia.bridge.zkcandy.io/" }]
+    "bridges": [
+      {
+        "url": "https://sepolia.bridge.zkcandy.io/"
+      }
+    ]
   },
-  "redFlags": ["reusedChainId"]
+  "redFlags": [
+    "reusedChainId"
+  ]
 }

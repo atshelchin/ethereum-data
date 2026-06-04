@@ -9,8 +9,6 @@
     "https://moonriver.api.pocket.network",
     "https://moonriver.api.onfinality.io/public",
     "https://moonriver.drpc.org",
-    "https://moonriver.public.blastapi.io",
-    "https://moonriver-rpc.dwellir.com",
     "wss://wss.api.moonriver.moonbeam.network",
     "wss://moonriver.public.blastapi.io",
     "wss://moonriver-rpc.dwellir.com",

@@ -1,8 +1,10 @@
 {
   "name": "Mekong",
   "chain": "ETH",
-  "rpc": ["https://rpc.mekong.ethpandaops.io"],
-  "faucets": ["https://faucet.mekong.ethpandaops.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.mekong.ethpandaops.io"
+  ],
   "nativeCurrency": {
     "name": "Testnet ETH",
     "symbol": "ETH",

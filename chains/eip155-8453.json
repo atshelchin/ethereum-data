@@ -8,8 +8,6 @@
     "https://base.gateway.tenderly.co",
     "https://mainnet.base.org/",
     "https://base.api.pocket.network",
-    "https://rpc.ankr.com/base",
-    "https://1rpc.io/base",
     "wss://base.gateway.tenderly.co",
     "wss://base-rpc.publicnode.com"
   ],

@@ -1,7 +1,7 @@
 {
   "name": "Bionix Testnet",
   "chain": "Bionix",
-  "rpc": ["https://testnet-chain.bionixnetwork.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bionix",

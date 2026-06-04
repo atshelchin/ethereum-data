@@ -1,7 +1,7 @@
 {
   "name": "Galactica-Reticulum",
   "chain": "Galactica Testnet",
-  "rpc": ["https://evm-rpc-http-reticulum.galactica.com/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Galactica Reticulum",

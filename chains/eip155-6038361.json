@@ -4,10 +4,7 @@
   "title": "Astar zkEVM Testnet zKyoto",
   "chain": "ETH",
   "icon": "astarzk",
-  "rpc": [
-    "https://rpc.startale.com/zkyoto",
-    "https://rpc.zkyoto.gelato.digital"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",

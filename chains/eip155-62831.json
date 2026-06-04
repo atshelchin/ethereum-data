@@ -2,8 +2,10 @@
   "name": "PLYR TAU Testnet",
   "chain": "PLYR",
   "icon": "plyr",
-  "rpc": ["https://subnets.avax.network/plyr/testnet/rpc"],
-  "faucets": ["https://faucet.avax.network/?subnet=plyr"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.avax.network/?subnet=plyr"
+  ],
   "nativeCurrency": {
     "name": "PLYR",
     "symbol": "PLYR",

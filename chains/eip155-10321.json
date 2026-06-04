@@ -2,7 +2,7 @@
   "name": "TAO EVM Mainnet",
   "chain": "TAO EVM",
   "icon": "taoevmIcon",
-  "rpc": ["https://rpc.taoevm.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "TAO",

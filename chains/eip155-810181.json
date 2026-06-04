@@ -1,7 +1,9 @@
 {
   "name": "zkLink Nova Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.rpc.zklink.io", "wss://sepolia.rpc.zklink.io"],
+  "rpc": [
+    "wss://sepolia.rpc.zklink.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -25,6 +27,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-59141",
-    "bridges": [{ "url": "https://sepolia.portal.zklink.io" }]
+    "bridges": [
+      {
+        "url": "https://sepolia.portal.zklink.io"
+      }
+    ]
   }
 }

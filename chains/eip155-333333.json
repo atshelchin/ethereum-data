@@ -11,7 +11,9 @@
     "symbol": "USNT",
     "decimals": 18
   },
-  "rpc": ["https://rpctest.nativ3.network", "wss://wstest.nativ3.network"],
+  "rpc": [
+    "wss://wstest.nativ3.network"
+  ],
   "faucets": [],
   "explorers": [
     {

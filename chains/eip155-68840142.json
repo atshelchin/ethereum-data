@@ -1,8 +1,10 @@
 {
   "name": "Frame Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.testnet.frame.xyz/http"],
-  "faucets": ["https://faucet.triangleplatform.com/frame/testnet"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.triangleplatform.com/frame/testnet"
+  ],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",

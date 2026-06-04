@@ -10,8 +10,10 @@
     "symbol": "GT",
     "decimals": 18
   },
-  "rpc": ["https://testnet.gatenode.cc"],
-  "faucets": ["https://www.gatescan.org/testnet/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://www.gatescan.org/testnet/faucet"
+  ],
   "explorers": [
     {
       "name": "GateScan",

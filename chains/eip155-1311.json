@@ -1,7 +1,7 @@
 {
   "name": "Dos Fuji Subnet",
   "chain": "DOS",
-  "rpc": ["https://test.doschain.com/jsonrpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dos Native Token",

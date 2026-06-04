@@ -2,7 +2,7 @@
   "name": "Parex Mainnet",
   "title": "Parex Mainnet",
   "chain": "Parex",
-  "rpc": ["https://mainnet-rpc.parex.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "PAREX",

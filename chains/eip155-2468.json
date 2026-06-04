@@ -1,11 +1,10 @@
 {
   "name": "Hybrid Chain Network Mainnet",
   "chain": "HYBRID",
-  "rpc": [
-    "https://coredata-mainnet.hybridchain.ai/",
-    "https://rpc-mainnet.hybridchain.ai"
+  "rpc": [],
+  "faucets": [
+    "https://faucet-testnet.hybridchain.ai"
   ],
-  "faucets": ["https://faucet-testnet.hybridchain.ai"],
   "nativeCurrency": {
     "name": "Hybrid Chain Native Token",
     "symbol": "HRC",

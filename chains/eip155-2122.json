@@ -2,7 +2,7 @@
   "name": "Metaplayerone Mainnet",
   "chain": "METAD",
   "icon": "metad",
-  "rpc": ["https://rpc.metaplayer.one/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "METAD",

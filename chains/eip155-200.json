@@ -1,7 +1,7 @@
 {
   "name": "Arbitrum on xDai",
   "chain": "AOX",
-  "rpc": ["https://arbitrum.xdaichain.com/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "xDAI",

@@ -1,7 +1,7 @@
 {
   "name": "ZKAmoeba Mainnet",
   "chain": "FIL",
-  "rpc": ["https://rpc.mainnet.zkamoeba.com/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "filecoin",
@@ -24,6 +24,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-314",
-    "bridges": [{ "url": "https://www.zkamoeba.com/en/bridge" }]
+    "bridges": [
+      {
+        "url": "https://www.zkamoeba.com/en/bridge"
+      }
+    ]
   }
 }

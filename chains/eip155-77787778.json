@@ -2,8 +2,15 @@
   "name": "0xHash Testnet",
   "chain": "HETH",
   "icon": "ethereum",
-  "rpc": ["https://rpc-test.0xhash.io"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "0xHash",
@@ -26,6 +33,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://app.optimism.io/bridge/deposit" }]
+    "bridges": [
+      {
+        "url": "https://app.optimism.io/bridge/deposit"
+      }
+    ]
   }
 }

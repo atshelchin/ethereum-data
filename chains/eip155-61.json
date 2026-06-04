@@ -8,9 +8,7 @@
     "https://ethereum-classic.drpc.org",
     "https://etc.rivet.link",
     "https://etc.etcdesktop.com",
-    "https://besu-at.etc-network.info",
-    "https://geth-at.etc-network.info",
-    "https://etc.mytokenpocket.vip"
+    "https://geth-at.etc-network.info"
   ],
   "features": [
     {

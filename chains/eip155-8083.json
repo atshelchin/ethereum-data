@@ -2,7 +2,7 @@
   "name": "Shardeum Testnet",
   "chain": "ShardeumTestnet",
   "icon": "shardeum",
-  "rpc": ["https://api-testnet.shardeum.org/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Shardeum Test SHM",

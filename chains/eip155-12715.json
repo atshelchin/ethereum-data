@@ -3,7 +3,7 @@
   "title": "Rikeza Network Testnet",
   "chain": "Rikeza",
   "icon": "rikeza",
-  "rpc": ["https://testnet-rpc.rikscan.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Rikeza",

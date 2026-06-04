@@ -2,7 +2,7 @@
   "name": "P12 Chain",
   "chain": "P12",
   "icon": "p12",
-  "rpc": ["https://rpc-chain.p12.games"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Hooked P2",
@@ -10,7 +10,14 @@
     "decimals": 18
   },
   "infoURL": "https://p12.network",
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "shortName": "p12",
   "chainId": 20736,
   "networkId": 20736,

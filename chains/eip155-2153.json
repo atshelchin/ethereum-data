@@ -1,7 +1,7 @@
 {
   "name": "Findora Testnet",
   "chain": "Testnet-anvil",
-  "rpc": ["https://prod-testnet.prod.findora.org:8545/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "FRA",

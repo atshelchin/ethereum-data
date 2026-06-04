@@ -1,7 +1,7 @@
 {
   "name": "BlockEx Mainnet",
   "chain": "BlockEx",
-  "rpc": ["https://rpc.blockex.biz"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BlockEx",

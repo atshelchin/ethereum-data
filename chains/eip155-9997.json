@@ -1,14 +1,21 @@
 {
   "name": "AltLayer Testnet",
   "chain": "ETH",
-  "rpc": ["https://testnet-rollup-api.altlayer.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://altlayer.io",
   "shortName": "alt-testnet",
   "chainId": 9997,

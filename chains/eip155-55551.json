@@ -1,8 +1,10 @@
 {
   "name": "Photon Aurora Testnet",
   "chain": "Photon",
-  "rpc": ["https://rpc-test2.photonchain.io"],
-  "faucets": ["https://photonchain.io/testnet2"],
+  "rpc": [],
+  "faucets": [
+    "https://photonchain.io/testnet2"
+  ],
   "nativeCurrency": {
     "name": "Photon",
     "symbol": "PTON",

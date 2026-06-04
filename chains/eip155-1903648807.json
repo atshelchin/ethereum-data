@@ -1,8 +1,10 @@
 {
   "name": "Gemuchain Testnet",
   "chain": "Gemuchain",
-  "rpc": ["https://gemutest-rpc.gemuchain.io"],
-  "faucets": ["https://faucet.gemuchain.io/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.gemuchain.io/"
+  ],
   "nativeCurrency": {
     "name": "Gemuchain",
     "symbol": "GEMU",

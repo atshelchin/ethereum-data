@@ -1,7 +1,7 @@
 {
   "name": "Shine Chain",
   "chain": "SC20",
-  "rpc": ["https://rpc.shinescan.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Shine",

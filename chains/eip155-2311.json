@@ -2,8 +2,10 @@
   "name": "Chronicle Vesuvius - Lit Protocol Testnet",
   "chain": "LPV",
   "icon": "lit",
-  "rpc": ["https://vesuvius-rpc.litprotocol.com"],
-  "faucets": ["https://developer.litprotocol.com/support/intro"],
+  "rpc": [],
+  "faucets": [
+    "https://developer.litprotocol.com/support/intro"
+  ],
   "nativeCurrency": {
     "name": "Test LPX",
     "symbol": "tstLPX",

@@ -2,8 +2,10 @@
   "name": "SenjePowers Mainnet",
   "chain": "SPC",
   "icon": "SenjePowers",
-  "rpc": ["https://rpc.senjepowersscan.com"],
-  "faucets": ["https://faucet.senjepowersscan.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.senjepowersscan.com"
+  ],
   "nativeCurrency": {
     "name": "SenjePowers",
     "symbol": "SPC",

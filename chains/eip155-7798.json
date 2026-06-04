@@ -3,8 +3,10 @@
   "title": "OpenEX LONG Testnet",
   "chain": "OEX",
   "icon": "oex",
-  "rpc": ["https://long.rpc.openex.network/"],
-  "faucets": ["https://long.hub.openex.network/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://long.hub.openex.network/faucet"
+  ],
   "nativeCurrency": {
     "name": "USDT Testnet",
     "symbol": "USDT",

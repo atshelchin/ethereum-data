@@ -2,7 +2,7 @@
   "name": "WITNESS CHAIN",
   "title": "WITNESS CHAIN",
   "chain": "Witness-Chain",
-  "rpc": ["https://sequencer.witnesschain.com"],
+  "rpc": [],
   "nativeCurrency": {
     "name": "ETHER",
     "symbol": "ETH",
@@ -25,8 +25,16 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.witnesschain.com" }]
+    "bridges": [
+      {
+        "url": "https://bridge.witnesschain.com"
+      }
+    ]
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "status": "active"
 }

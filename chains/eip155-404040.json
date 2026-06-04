@@ -2,8 +2,10 @@
   "name": "Tipboxcoin Mainnet",
   "chain": "TPBX",
   "icon": "tipboxcoinIcon",
-  "rpc": ["https://mainnet-rpc.tipboxcoin.net"],
-  "faucets": ["https://faucet.tipboxcoin.net"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.tipboxcoin.net"
+  ],
   "nativeCurrency": {
     "name": "Tipboxcoin",
     "symbol": "TPBX",

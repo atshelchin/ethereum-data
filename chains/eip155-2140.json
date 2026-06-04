@@ -1,7 +1,7 @@
 {
   "name": "Oneness Network",
   "chain": "Oneness",
-  "rpc": ["https://rpc.onenesslabs.io/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",

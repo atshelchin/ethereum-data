@@ -1,7 +1,7 @@
 {
   "name": "Blitz Subnet",
   "chain": "BLITZ",
-  "rpc": ["https://subnets.avax.network/blitz/testnet/rpc"],
+  "rpc": [],
   "features": [
     {
       "name": "EIP1559"

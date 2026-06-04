@@ -3,8 +3,15 @@
   "title": "Bahamut ocean",
   "chain": "Bahamut",
   "icon": "bahamut",
-  "rpc": ["https://rpc1.ocean.bahamutchain.com"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FTN",

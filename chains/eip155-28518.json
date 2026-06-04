@@ -2,7 +2,7 @@
   "name": "Vizing Mainnet",
   "title": "Vizing Mainnet",
   "chain": "Vizing Mainnet",
-  "rpc": ["https://rpc.vizing.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -25,6 +25,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.vizing.com" }]
+    "bridges": [
+      {
+        "url": "https://bridge.vizing.com"
+      }
+    ]
   }
 }

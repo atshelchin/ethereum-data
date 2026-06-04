@@ -2,7 +2,7 @@
   "name": "PLYR PHI",
   "chain": "PLYR",
   "icon": "plyr",
-  "rpc": ["https://subnets.avax.network/plyr/mainnet/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "PLYR",

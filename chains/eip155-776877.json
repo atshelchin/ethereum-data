@@ -1,7 +1,7 @@
 {
   "name": "Modularium",
   "chain": "EVMCC",
-  "rpc": ["https://fraa-dancebox-3035-rpc.a.dancebox.tanssi.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Modularium",

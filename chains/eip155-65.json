@@ -1,8 +1,10 @@
 {
   "name": "OKExChain Testnet",
   "chain": "okexchain",
-  "rpc": ["https://exchaintestrpc.okex.org"],
-  "faucets": ["https://www.okex.com/drawdex"],
+  "rpc": [],
+  "faucets": [
+    "https://www.okex.com/drawdex"
+  ],
   "nativeCurrency": {
     "name": "OKExChain Global Utility Token in testnet",
     "symbol": "OKT",

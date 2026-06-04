@@ -2,7 +2,7 @@
   "name": "JaiHo Chain",
   "chain": "JaiHoChain",
   "icon": "jaihoIcon",
-  "rpc": ["https://rpc.jaihochain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "JaiHo",

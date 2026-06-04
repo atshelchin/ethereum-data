@@ -1,7 +1,7 @@
 {
   "name": "ETND Chain Mainnets",
   "chain": "ETND",
-  "rpc": ["https://rpc.node1.etnd.pro/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETND",

@@ -11,8 +11,10 @@
     "symbol": "RIA",
     "decimals": 18
   },
-  "rpc": ["https://rpc.evm.dusk-3.devnet.astria.org"],
-  "faucets": ["https://faucet.evm.dusk-3.devnet.astria.org/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.evm.dusk-3.devnet.astria.org/"
+  ],
   "explorers": [
     {
       "name": "Astria EVM Dusknet Explorer",

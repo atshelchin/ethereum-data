@@ -1,7 +1,7 @@
 {
   "name": "Symplexia Smart Chain",
   "chain": "Plexchain",
-  "rpc": ["https://plex-rpc.plexfinance.us"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Plex Native Token",

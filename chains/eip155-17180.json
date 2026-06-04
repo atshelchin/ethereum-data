@@ -1,7 +1,7 @@
 {
   "name": "Palette Chain Testnet",
   "chain": "PLT",
-  "rpc": ["https://palette-opennet.com:22000"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Palette Token",

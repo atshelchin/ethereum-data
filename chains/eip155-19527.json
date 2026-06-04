@@ -1,7 +1,7 @@
 {
   "name": "Magnet Network",
   "chain": "Magnet",
-  "rpc": ["https://magnet-rpc.magport.io/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Magnet Network",

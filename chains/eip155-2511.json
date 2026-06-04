@@ -3,7 +3,7 @@
   "chain": "Karak",
   "icon": "karak",
   "status": "deprecated",
-  "rpc": ["https://goerli.node1.karak.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Karak",

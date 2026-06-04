@@ -2,8 +2,10 @@
   "name": "ZCore Testnet",
   "chain": "Beach",
   "icon": "zcore",
-  "rpc": ["https://rpc-testnet.zcore.cash"],
-  "faucets": ["https://faucet.zcore.cash"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.zcore.cash"
+  ],
   "nativeCurrency": {
     "name": "ZCore",
     "symbol": "ZCR",

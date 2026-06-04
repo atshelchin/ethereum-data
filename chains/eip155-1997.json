@@ -1,14 +1,18 @@
 {
   "name": "Kyoto",
   "chain": "KYOTO",
-  "rpc": ["https://rpc.kyotochain.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kyoto",
     "symbol": "KYOTO",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://kyotoprotocol.io",
   "shortName": "kyoto",
   "chainId": 1997,

@@ -1,8 +1,12 @@
 {
   "name": "Lif3 Chain",
   "chain": "lif3chain",
-  "rpc": ["https://rpc.lif3.com"],
-  "features": [{ "name": "EIP155" }],
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "LIF3",

@@ -3,10 +3,11 @@
   "chain": "TLOS",
   "rpc": [
     "https://rpc.testnet.telos.net",
-    "https://telos-testnet.drpc.org",
     "wss://telos-testnet.drpc.org"
   ],
-  "faucets": ["https://app.telos.net/testnet/developers"],
+  "faucets": [
+    "https://app.telos.net/testnet/developers"
+  ],
   "nativeCurrency": {
     "name": "Telos",
     "symbol": "TLOS",

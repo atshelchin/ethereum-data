@@ -1,7 +1,7 @@
 {
   "name": "XR Sepolia",
   "chain": "ETH",
-  "rpc": ["https://xr-sepolia-testnet.rpc.caldera.xyz/http"],
+  "rpc": [],
   "faucets": [],
   "features": [
     {

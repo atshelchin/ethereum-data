@@ -2,7 +2,6 @@
   "name": "IRIShub",
   "chain": "IRIShub",
   "rpc": [
-    "https://iris-evm.publicnode.com",
     "https://evmrpc.irishub-1.irisnet.org",
     "wss://iris-evm.publicnode.com"
   ],

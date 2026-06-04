@@ -1,7 +1,7 @@
 {
   "name": "Polter Testnet",
   "chain": "Geist",
-  "rpc": ["https://geist-polter.g.alchemy.com/public"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Polter GHST",

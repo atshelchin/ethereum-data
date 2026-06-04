@@ -1,7 +1,7 @@
 {
   "name": "Fuga Develop",
   "chain": "Fuga",
-  "rpc": ["https://rpc-develop.fuga.blue"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "FUGA",

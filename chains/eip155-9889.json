@@ -2,9 +2,16 @@
   "name": "pointledger",
   "chain": "pointledger",
   "icon": "pointledger",
-  "rpc": ["https://rpc.pointledger.net"],
+  "rpc": [],
   "faucets": [],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "nativeCurrency": {
     "name": "PLG",
     "symbol": "PLG",

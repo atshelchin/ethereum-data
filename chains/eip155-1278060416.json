@@ -2,8 +2,10 @@
   "name": "OFFICIAL VASYL",
   "title": "OFFICIAL VASYL",
   "chain": "Official-Vasyl",
-  "rpc": ["https://rpc.official-vasyl.network"],
-  "faucets": ["https://faucet.official-vasyl.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.official-vasyl.network"
+  ],
   "nativeCurrency": {
     "name": "OFFICIAL VASYL",
     "symbol": "VASYL",
@@ -25,8 +27,16 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge.official-vasyl.network" }]
+    "bridges": [
+      {
+        "url": "https://bridge.official-vasyl.network"
+      }
+    ]
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "status": "active"
 }

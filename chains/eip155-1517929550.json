@@ -4,10 +4,11 @@
   "status": "deprecated",
   "icon": "titan",
   "rpc": [
-    "https://staging-v3.skalenodes.com/v1/staging-aware-chief-gianfar",
     "wss://staging-v3.skalenodes.com/v1/ws/staging-aware-chief-gianfar"
   ],
-  "faucets": ["https://sfuel.dirtroad.dev/staging"],
+  "faucets": [
+    "https://sfuel.dirtroad.dev/staging"
+  ],
   "nativeCurrency": {
     "name": "sFUEL",
     "symbol": "sFUEL",

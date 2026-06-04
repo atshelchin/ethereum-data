@@ -3,10 +3,11 @@
   "chain": "tMIND",
   "icon": "mindchain",
   "rpc": [
-    "https://testnet-msc.mindchain.info/",
     "wss://testnet-msc.mindchain.info/ws"
   ],
-  "faucets": ["https://faucet.mindchain.info/"],
+  "faucets": [
+    "https://faucet.mindchain.info/"
+  ],
   "nativeCurrency": {
     "name": "MIND Coin",
     "symbol": "tMIND",

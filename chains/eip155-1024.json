@@ -1,7 +1,7 @@
 {
   "name": "CLV Parachain",
   "chain": "CLV",
-  "rpc": ["https://api-para.clover.finance"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "CLV",

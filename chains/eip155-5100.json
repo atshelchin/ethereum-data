@@ -2,7 +2,7 @@
   "name": "Syndicate Testnet",
   "title": "Syndicate Testnet",
   "chain": "Syndicate",
-  "rpc": ["https://rpc-testnet.syndicate.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "S-Ether",

@@ -3,7 +3,6 @@
   "title": "PIN",
   "chain": "PIN",
   "rpc": [
-    "https://rpc.pin.t.raas.gelato.cloud",
     "wss://ws.pin.t.raas.gelato.cloud"
   ],
   "nativeCurrency": {

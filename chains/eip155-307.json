@@ -2,8 +2,10 @@
   "name": "Lovely Network Testnet",
   "chain": "Lovely",
   "icon": "lovely",
-  "rpc": ["https://trpc.lovely.network"],
-  "faucets": ["https://faucet.lovely.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.lovely.network"
+  ],
   "nativeCurrency": {
     "name": "Lovely",
     "symbol": "LOVELY",

@@ -4,8 +4,10 @@
   "chain": "Bitroot",
   "chainId": 15885,
   "networkId": 15885,
-  "rpc": ["https://testnet-rpc.bitroot.co"],
-  "faucets": ["https://faucet.bitroot.co"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.bitroot.co"
+  ],
   "infoURL": "https://bitroot.co",
   "nativeCurrency": {
     "name": "BRT",

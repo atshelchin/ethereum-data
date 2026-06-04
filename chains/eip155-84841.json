@@ -2,7 +2,6 @@
   "name": "O Chain",
   "chain": "O",
   "rpc": [
-    "https://rpc.o.xyz",
     "https://84841.rpc.thirdweb.com",
     "wss://rpc.o.xyz"
   ],
@@ -21,8 +20,12 @@
     "type": "L2",
     "chain": "eip155-1",
     "bridges": [
-      { "url": "https://bridge.o.xyz" },
-      { "url": "https://superbridge.o.xyz" }
+      {
+        "url": "https://bridge.o.xyz"
+      },
+      {
+        "url": "https://superbridge.o.xyz"
+      }
     ]
   },
   "explorers": [

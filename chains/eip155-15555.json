@@ -1,8 +1,10 @@
 {
   "name": "Trust EVM Testnet",
   "chain": "Trust EVM Testnet",
-  "rpc": ["https://api.testnet-dev.trust.one"],
-  "faucets": ["https://faucet.testnet-dev.trust.one/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.testnet-dev.trust.one/"
+  ],
   "nativeCurrency": {
     "name": "Trust EVM",
     "symbol": "EVM",

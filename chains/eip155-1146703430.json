@@ -1,7 +1,7 @@
 {
   "name": "CyberdeckNet",
   "chain": "cyberdeck",
-  "rpc": ["http://cybeth1.cyberdeck.eu:8545"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Cyb",

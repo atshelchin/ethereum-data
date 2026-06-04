@@ -2,10 +2,7 @@
   "name": "Nexi V2 Mainnet",
   "chain": "Nexi V2",
   "icon": "nexi",
-  "rpc": [
-    "https://chain.nexiv2.nexilix.com",
-    "https://rpc.chainv1.nexi.technology"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "NexiV2",

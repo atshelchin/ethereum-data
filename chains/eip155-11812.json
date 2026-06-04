@@ -2,8 +2,10 @@
   "name": "ARK Testnet",
   "chain": "ARK",
   "icon": "ark",
-  "rpc": ["https://testnet.mainsailhq.com/rpc"],
-  "faucets": ["https://faucet.mainsailhq.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.mainsailhq.com"
+  ],
   "nativeCurrency": {
     "name": "DARK Token",
     "symbol": "DARK",

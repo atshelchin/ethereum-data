@@ -1,7 +1,7 @@
 {
   "name": "Permission",
   "chain": "ASK",
-  "rpc": ["https://blockchain-api-mainnet.permission.io/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ASK",

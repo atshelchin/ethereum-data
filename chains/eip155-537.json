@@ -1,7 +1,7 @@
 {
   "name": "OpTrust Mainnet",
   "chain": "OpTrust",
-  "rpc": ["https://rpc.optrust.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BSC",

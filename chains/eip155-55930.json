@@ -3,7 +3,6 @@
   "chain": "datahaven",
   "icon": "datahaven",
   "rpc": [
-    "https://services.datahaven-mainnet.network/mainnet",
     "wss://services.datahaven-mainnet.network/mainnet"
   ],
   "faucets": [],

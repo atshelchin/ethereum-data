@@ -4,8 +4,7 @@
   "rpc": [
     "https://xlayer.drpc.org",
     "https://rpc.xlayer.tech",
-    "https://xlayerrpc.okx.com",
-    "https://rpc.ankr.com/xlayer"
+    "https://xlayerrpc.okx.com"
   ],
   "faucets": [],
   "nativeCurrency": {

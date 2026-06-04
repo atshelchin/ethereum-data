@@ -1,7 +1,7 @@
 {
   "name": "UPB CRESCDI Testnet",
   "chain": "UPBEth",
-  "rpc": ["https://testnet.crescdi.pub.ro"],
+  "rpc": [],
   "infoURL": "https://mobylab.docs.crescdi.pub.ro/blog/UPB-CRESCDI-Testnet",
   "faucets": [],
   "nativeCurrency": {

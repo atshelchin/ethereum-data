@@ -5,7 +5,6 @@
   "rpc": [
     "https://42.rpc.thirdweb.com",
     "https://rpc.mainnet.lukso.network",
-    "https://rpc.lukso.sigmacore.io",
     "wss://ws-rpc.mainnet.lukso.network"
   ],
   "faucets": [],

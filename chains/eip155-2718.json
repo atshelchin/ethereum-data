@@ -4,7 +4,6 @@
   "chain": "K-LAOS",
   "icon": "k-laos",
   "rpc": [
-    "https://rpc.klaos.laosfoundation.io",
     "wss://rpc.klaos.laosfoundation.io"
   ],
   "faucets": [],

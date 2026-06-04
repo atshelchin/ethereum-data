@@ -2,7 +2,7 @@
   "name": "Elux Chain",
   "chain": "ELUX",
   "icon": "eluxchain",
-  "rpc": ["https://rpc.eluxscan.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Elux Chain",

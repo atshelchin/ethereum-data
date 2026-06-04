@@ -3,7 +3,7 @@
   "title": "Ganache GUI Ethereum Testnet",
   "chain": "ETH",
   "icon": "ganache",
-  "rpc": ["https://127.0.0.1:7545"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ganache Test Ether",

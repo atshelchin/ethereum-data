@@ -1,10 +1,7 @@
 {
   "name": "ALIENX Hal Testnet",
   "chain": "ALIENX Hal",
-  "rpc": [
-    "https://hal-rpc.alienxchain.io/http",
-    "https://hal.rpc.caldera.xyz/http"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ethereum",

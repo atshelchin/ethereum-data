@@ -1,7 +1,9 @@
 {
   "name": "SwapDEX",
   "chain": "SDX",
-  "rpc": ["https://rpc.swapdex.network", "wss://ss.swapdex.network"],
+  "rpc": [
+    "wss://ss.swapdex.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "SwapDEX",

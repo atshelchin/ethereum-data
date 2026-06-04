@@ -2,7 +2,7 @@
   "name": "PandoProject Testnet",
   "chain": "PandoProject",
   "icon": "pando",
-  "rpc": ["https://testnet.ethrpc.pandoproject.org/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "pando-token",

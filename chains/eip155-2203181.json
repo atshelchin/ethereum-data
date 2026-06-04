@@ -2,10 +2,11 @@
   "name": "PlatON Dev Testnet Deprecated",
   "chain": "PlatON",
   "rpc": [
-    "https://devnetopenapi2.platon.network/rpc",
     "wss://devnetopenapi2.platon.network/ws"
   ],
-  "faucets": ["https://devnet2faucet.platon.network/faucet"],
+  "faucets": [
+    "https://devnet2faucet.platon.network/faucet"
+  ],
   "nativeCurrency": {
     "name": "LAT",
     "symbol": "lat",

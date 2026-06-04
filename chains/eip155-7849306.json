@@ -2,10 +2,11 @@
   "name": "Ozean Poseidon Testnet",
   "chain": "Ozean Poseidon",
   "rpc": [
-    "https://ozean-testnet.rpc.caldera.xyz/http",
     "wss://ozean-testnet.rpc.caldera.xyz/ws"
   ],
-  "faucets": ["https://ozean-testnet.hub.caldera.xyz"],
+  "faucets": [
+    "https://ozean-testnet.hub.caldera.xyz"
+  ],
   "nativeCurrency": {
     "name": "USDX",
     "symbol": "USDX",

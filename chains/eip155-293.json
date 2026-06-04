@@ -1,14 +1,21 @@
 {
   "name": "DaVinci",
   "chain": "DCOIN",
-  "rpc": ["https://rpc.davinci.bz"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "DaVinci",
     "symbol": "DCOIN",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://davinci.bz",
   "shortName": "davinci",
   "chainId": 293,

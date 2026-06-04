@@ -1,8 +1,10 @@
 {
   "name": "Tabi Testnetv2",
   "chain": "TabiNetworkv2",
-  "rpc": ["https://rpc.testnetv2.tabichain.com"],
-  "faucets": ["https://carnival.tabichain.com"],
+  "rpc": [],
+  "faucets": [
+    "https://carnival.tabichain.com"
+  ],
   "nativeCurrency": {
     "name": "Tabi",
     "symbol": "TABI",

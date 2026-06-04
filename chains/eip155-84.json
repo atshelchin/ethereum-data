@@ -1,7 +1,7 @@
 {
   "name": "Linqto Devnet",
   "chain": "LNQ",
-  "rpc": ["https://linqto-dev.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "XRP",

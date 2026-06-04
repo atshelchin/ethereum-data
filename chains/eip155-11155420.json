@@ -7,7 +7,6 @@
     "https://optimism-sepolia.api.onfinality.io/public",
     "https://optimism-sepolia-rpc.publicnode.com",
     "https://op-sepolia-testnet.api.pocket.network",
-    "https://rpc.ankr.com/optimism_sepolia",
     "wss://optimism-sepolia.drpc.org",
     "wss://optimism-sepolia-rpc.publicnode.com"
   ],

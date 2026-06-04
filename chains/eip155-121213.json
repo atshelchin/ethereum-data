@@ -1,8 +1,10 @@
 {
   "name": "Rome Devnet Subura",
   "chain": "ROME",
-  "rpc": ["https://subura-i.devnet.romeprotocol.xyz"],
-  "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
+  "rpc": [],
+  "faucets": [
+    "https://deposit.devnet.romeprotocol.xyz"
+  ],
   "nativeCurrency": {
     "name": "RSOL",
     "symbol": "RSOL",

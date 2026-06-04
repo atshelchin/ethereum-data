@@ -2,8 +2,10 @@
   "name": "EgonCoin Testnet",
   "chain": "EGON",
   "icon": "egonicon",
-  "rpc": ["https://rpctest.egonscan.com"],
-  "faucets": ["https://faucet.egonscan.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.egonscan.com"
+  ],
   "nativeCurrency": {
     "name": "EgonCoin",
     "symbol": "EGON",

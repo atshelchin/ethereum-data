@@ -8,9 +8,6 @@
     "https://scroll-rpc.publicnode.com",
     "https://scroll.api.onfinality.io/public",
     "https://scroll.api.pocket.network",
-    "https://rpc.ankr.com/scroll",
-    "https://scroll-mainnet.chainstacklabs.com",
-    "https://1rpc.io/scroll",
     "wss://scroll-rpc.publicnode.com"
   ],
   "faucets": [],

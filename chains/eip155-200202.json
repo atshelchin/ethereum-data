@@ -2,7 +2,7 @@
   "name": "Milkomeda A1 Testnet",
   "chain": "milkTAlgo",
   "icon": "milkomeda",
-  "rpc": ["https://rpc-devnet-algorand-rollup.a1.milkomeda.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "milkTAlgo",

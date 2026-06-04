@@ -3,7 +3,6 @@
   "chain": "STO",
   "icon": "studio",
   "rpc": [
-    "https://rpc.studio-blockchain.com",
     "wss://ws.studio-blockchain.com"
   ],
   "faucets": [],
@@ -12,7 +11,11 @@
     "symbol": "STO",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://studio-blockchain.com",
   "shortName": "sto",
   "chainId": 240240,

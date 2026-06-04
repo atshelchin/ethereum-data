@@ -2,8 +2,10 @@
   "name": "Double-A Chain Testnet",
   "chain": "AAC",
   "icon": "aac",
-  "rpc": ["https://rpc-testnet.acuteangle.com"],
-  "faucets": ["https://scan-testnet.acuteangle.com/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://scan-testnet.acuteangle.com/faucet"
+  ],
   "nativeCurrency": {
     "name": "Acuteangle Native Token",
     "symbol": "AAC",

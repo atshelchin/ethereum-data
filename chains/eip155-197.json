@@ -1,8 +1,10 @@
 {
   "name": "Neutrinos TestNet",
   "chain": "NEUTR",
-  "rpc": ["https://testnet-rpc.neutrinoschain.com"],
-  "faucets": ["https://neutrinoschain.com/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://neutrinoschain.com/faucet"
+  ],
   "nativeCurrency": {
     "name": "Neutrinos",
     "symbol": "NEUTR",

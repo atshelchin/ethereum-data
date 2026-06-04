@@ -1,14 +1,13 @@
 {
   "name": "Sorian",
   "chain": "SOR",
-  "rpc": ["https://rpc.sorian.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sorian",
     "symbol": "SOR",
     "decimals": 18
   },
-
   "features": [
     {
       "name": "EIP155"

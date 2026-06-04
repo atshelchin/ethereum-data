@@ -3,8 +3,10 @@
   "title": "Nautilus Trition Testnet",
   "chain": "ETH",
   "icon": "nautilus",
-  "rpc": ["https://triton.api.nautchain.xyz"],
-  "faucets": ["https://faucet.eclipse.builders"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.eclipse.builders"
+  ],
   "nativeCurrency": {
     "name": "Nautilus Zebec Testnet Tokens",
     "symbol": "tZBC",

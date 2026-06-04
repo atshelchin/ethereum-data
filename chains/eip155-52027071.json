@@ -2,7 +2,7 @@
   "name": "Deviant Token Blockchain",
   "chain": "DTBC",
   "status": "incubating",
-  "rpc": ["https://rpc.devianttoken.net"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Deviant Token",

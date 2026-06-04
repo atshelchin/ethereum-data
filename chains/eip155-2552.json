@@ -3,8 +3,15 @@
   "title": "Bahamut horizon",
   "chain": "Bahamut",
   "icon": "bahamut",
-  "rpc": ["https://horizon-fastex-testnet.zeeve.net"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FTN",

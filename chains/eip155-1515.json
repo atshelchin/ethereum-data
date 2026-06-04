@@ -1,8 +1,10 @@
 {
   "name": "Beagle Messaging Chain",
   "chain": "BMC",
-  "rpc": ["https://beagle.chat/eth"],
-  "faucets": ["https://faucet.beagle.chat/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.beagle.chat/"
+  ],
   "nativeCurrency": {
     "name": "Beagle",
     "symbol": "BG",

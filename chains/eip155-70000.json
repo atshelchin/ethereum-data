@@ -1,7 +1,7 @@
 {
   "name": "Thinkium Mainnet Chain 0",
   "chain": "Thinkium",
-  "rpc": ["https://proxy.thinkiumrpc.net/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "TKM",

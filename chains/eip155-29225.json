@@ -1,7 +1,7 @@
 {
   "name": "Nexa MetaTest",
   "chain": "NEXA",
-  "rpc": ["https://nexa.sh/metatest"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Nexa",

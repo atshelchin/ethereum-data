@@ -2,8 +2,10 @@
   "name": "LiquidLayer Testnet",
   "chain": "LILA",
   "icon": "lila",
-  "rpc": ["https://testnet.liquidlayer.network"],
-  "faucets": ["https://claim.liquidlayer.network"],
+  "rpc": [],
+  "faucets": [
+    "https://claim.liquidlayer.network"
+  ],
   "nativeCurrency": {
     "name": "LiquidLayer Testnet",
     "symbol": "LILA",

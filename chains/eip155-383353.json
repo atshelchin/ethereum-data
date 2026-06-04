@@ -2,7 +2,7 @@
   "name": "CheeseChain",
   "title": "CheeseChain",
   "chain": "CHEESE",
-  "rpc": ["https://rpc.cheesechain.xyz"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "CHEESE",

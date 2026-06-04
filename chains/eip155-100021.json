@@ -2,7 +2,7 @@
   "name": "Sova",
   "chain": "ETH",
   "icon": "sova",
-  "rpc": ["https://rpc.sova.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

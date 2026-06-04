@@ -1,11 +1,10 @@
 {
   "name": "Avenium Testnet",
   "chain": "AVE",
-  "rpc": [
-    "https://eu-testnet.avenium.io/",
-    "https://connect-testnet.avenium.io"
+  "rpc": [],
+  "faucets": [
+    "https://faucet-testnet.avenium.io"
   ],
-  "faucets": ["https://faucet-testnet.avenium.io"],
   "nativeCurrency": {
     "name": "Ave Native Token",
     "symbol": "tAVE",

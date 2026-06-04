@@ -3,12 +3,12 @@
   "chain": "Tangle Testnet",
   "icon": "tangle",
   "rpc": [
-    "https://testnet-rpc.tangle.tools",
-    "https://testnet-rpc-archive.tangle.tools",
     "wss://testnet-rpc.tangle.tools",
     "wss://testnet-rpc-archive.tangle.tools"
   ],
-  "faucets": ["https://faucet.tangle.tools"],
+  "faucets": [
+    "https://faucet.tangle.tools"
+  ],
   "nativeCurrency": {
     "name": "Testnet Tangle Network Token",
     "symbol": "tTNT",

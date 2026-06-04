@@ -3,10 +3,11 @@
   "chain": "datahaven-testnet",
   "icon": "datahaven-testnet",
   "rpc": [
-    "https://services.datahaven-testnet.network/testnet",
     "wss://services.datahaven-testnet.network/testnet"
   ],
-  "faucets": ["https://apps.datahaven.xyz/faucet"],
+  "faucets": [
+    "https://apps.datahaven.xyz/faucet"
+  ],
   "nativeCurrency": {
     "name": "MOCK",
     "symbol": "MOCK",

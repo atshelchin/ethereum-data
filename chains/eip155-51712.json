@@ -2,8 +2,10 @@
   "name": "Sardis Mainnet",
   "chain": "SRDX",
   "icon": "sardis",
-  "rpc": ["https://mainnet-rpc.sardisnetwork.com"],
-  "faucets": ["https://faucet.sardisnetwork.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.sardisnetwork.com"
+  ],
   "nativeCurrency": {
     "name": "Sardis",
     "symbol": "SRDX",

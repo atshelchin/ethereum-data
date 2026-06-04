@@ -2,7 +2,7 @@
   "name": "Deviant Token Blockchain Testnet",
   "chain": "tDTBC",
   "status": "incubating",
-  "rpc": ["https://trpc.devianttoken.net"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Deviant Token Testnet",

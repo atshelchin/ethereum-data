@@ -1,7 +1,7 @@
 {
   "name": "GTON Mainnet",
   "chain": "GTON",
-  "rpc": ["https://rpc.gton.network/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "GCD",

@@ -2,14 +2,18 @@
   "name": "MagApe Testnet",
   "title": "MagApeChain",
   "chain": "MagApe",
-  "rpc": ["https://testnet-api.magape.io/chain/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "MagApe",
     "symbol": "MAG",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://magape.io",
   "shortName": "mag",
   "chainId": 141319,

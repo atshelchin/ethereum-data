@@ -1,8 +1,10 @@
 {
   "name": "Mantle Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.testnet.mantle.xyz"],
-  "faucets": ["https://faucet.testnet.mantle.xyz"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.testnet.mantle.xyz"
+  ],
   "nativeCurrency": {
     "name": "Testnet Mantle",
     "symbol": "MNT",

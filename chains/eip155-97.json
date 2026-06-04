@@ -11,7 +11,6 @@
     "https://data-seed-prebsc-1-s2.bnbchain.org:8545",
     "https://data-seed-prebsc-2-s3.bnbchain.org:8545",
     "https://bnb-testnet.api.onfinality.io/public",
-    "https://rpc.ankr.com/bsc_testnet_chapel",
     "wss://bsc-testnet-rpc.publicnode.com"
   ],
   "faucets": [

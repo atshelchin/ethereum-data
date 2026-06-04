@@ -1,7 +1,7 @@
 {
   "name": "Boyaa Mainnet",
   "chain": "BYC",
-  "rpc": ["https://evm-rpc.mainnet.boyaa.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Boyaa mainnet native coin",

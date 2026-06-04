@@ -2,10 +2,6 @@
   "name": "Evmos",
   "chain": "Evmos",
   "rpc": [
-    "https://evmos.drpc.org",
-    "https://evmos-evm-rpc.publicnode.com",
-    "https://evmos.lava.build",
-    "https://evmos-pokt.nodies.app",
     "wss://evmos.lava.build/websocket",
     "wss://evmos-evm-rpc.publicnode.com"
   ],

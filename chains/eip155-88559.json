@@ -2,7 +2,7 @@
   "name": "InoAi",
   "chain": "INOAI",
   "faucets": [],
-  "rpc": ["https://inoai-network.com"],
+  "rpc": [],
   "nativeCurrency": {
     "name": "InoAi",
     "symbol": "INO",

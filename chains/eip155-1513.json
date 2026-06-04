@@ -1,8 +1,10 @@
 {
   "name": "Story Testnet",
   "chain": "Story Testnet",
-  "rpc": ["https://testnet.storyrpc.io"],
-  "faucets": ["https://faucet.story.foundation"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.story.foundation"
+  ],
   "chainId": 1513,
   "networkId": 1513,
   "nativeCurrency": {

@@ -2,7 +2,7 @@
   "name": "ERAM Mainnet",
   "chain": "ERAM",
   "icon": "eram",
-  "rpc": ["https://mainnet-rpc.eramscan.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ERAM",

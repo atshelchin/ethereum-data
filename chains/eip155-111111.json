@@ -1,7 +1,7 @@
 {
   "name": "Siberium Network",
   "chain": "SBR",
-  "rpc": ["https://rpc.main.siberium.net", "https://rpc.main.siberium.net.ru"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Siberium",

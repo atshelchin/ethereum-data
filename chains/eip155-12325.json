@@ -10,7 +10,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnet.l3x.com"],
+  "rpc": [],
   "faucets": [],
   "explorers": [
     {
@@ -23,6 +23,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-421614",
-    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
+    "bridges": [
+      {
+        "url": "https://bridge.arbitrum.io"
+      }
+    ]
   }
 }

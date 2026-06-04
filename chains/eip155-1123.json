@@ -3,9 +3,7 @@
   "title": "B2 Testnet",
   "chain": "Habitat",
   "rpc": [
-    "https://testnet-rpc.bsquared.network",
-    "https://b2-testnet.alt.technology",
-    "https://rpc.ankr.com/b2_testnet"
+    "https://testnet-rpc.bsquared.network"
   ],
   "faucets": [],
   "nativeCurrency": {

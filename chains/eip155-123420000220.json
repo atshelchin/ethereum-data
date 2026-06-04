@@ -1,7 +1,9 @@
 {
   "name": "Fluence Stage",
   "chain": "Fluence Stage (Testnet)",
-  "rpc": ["https://rpc.stage.fluence.dev", "wss://ws.stage.fluence.dev"],
+  "rpc": [
+    "wss://ws.stage.fluence.dev"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "tFLT",

@@ -1,7 +1,7 @@
 {
   "name": "BounceBit Testnet",
   "chain": "BounceBit",
-  "rpc": ["https://fullnode-testnet.bouncebitapi.com/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BounceBit",

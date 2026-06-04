@@ -2,8 +2,10 @@
   "name": "DCpay Testnet",
   "chain": "DCpay",
   "icon": "dcpayIcon",
-  "rpc": ["https://testnet-rpc.dcpay.io"],
-  "faucets": ["https://faucet.dcpay.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.dcpay.io"
+  ],
   "nativeCurrency": {
     "name": "DCP",
     "symbol": "DCP",

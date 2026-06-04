@@ -1,7 +1,7 @@
 {
   "name": "Kaiba Lightning Chain Testnet",
   "chain": "tKLC",
-  "rpc": ["https://klc.live/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kaiba Testnet Token",

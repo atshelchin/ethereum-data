@@ -2,7 +2,7 @@
   "name": "Janus Testnet",
   "chain": "JanusNetwork",
   "icon": "janusnetwork",
-  "rpc": ["https://rpc.test.janusnetwork.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Janus",

@@ -1,9 +1,13 @@
 {
   "name": "qChain Mainnet",
   "chain": "qChain",
-  "rpc": ["https://rpc.qchain.kr"],
+  "rpc": [],
   "faucets": [],
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "nativeCurrency": {
     "name": "QCO",
     "symbol": "QCO",

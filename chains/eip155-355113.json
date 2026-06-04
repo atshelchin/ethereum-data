@@ -9,8 +9,10 @@
       "name": "EIP1559"
     }
   ],
-  "rpc": ["https://testnet.bitfinity.network"],
-  "faucets": ["https://bitfinity.network/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://bitfinity.network/faucet"
+  ],
   "nativeCurrency": {
     "name": "Bitfinity Token",
     "symbol": "BTF",

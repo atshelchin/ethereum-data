@@ -1,8 +1,10 @@
 {
   "name": "Bharat Blockchain Network",
   "chain": "BBNT",
-  "rpc": ["https://bbnrpc.testnet.bharatblockchain.io"],
-  "faucets": ["https://www.bon.bharatblockchain.io/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://www.bon.bharatblockchain.io/faucet"
+  ],
   "nativeCurrency": {
     "name": "BBNT",
     "symbol": "BBN",

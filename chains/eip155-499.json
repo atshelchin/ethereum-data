@@ -1,8 +1,10 @@
 {
   "name": "Rupaya",
   "chain": "RUPX",
-  "rpc": ["https://rpc.rupaya.io"],
-  "faucets": ["https://faucet.rupaya.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.rupaya.io"
+  ],
   "nativeCurrency": {
     "name": "Rupaya",
     "symbol": "RUPX",

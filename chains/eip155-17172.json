@@ -1,7 +1,7 @@
 {
   "name": "Eclipse Subnet",
   "chain": "ECLIPSE",
-  "rpc": ["https://subnets.avax.network/eclipse/testnet/rpc"],
+  "rpc": [],
   "features": [
     {
       "name": "EIP1559"

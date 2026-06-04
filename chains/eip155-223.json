@@ -6,8 +6,7 @@
     "https://mainnet.b2-rpc.com",
     "https://b2-mainnet.alt.technology",
     "https://rpc.ankr.com/b2",
-    "https://rpc.bsquared.network",
-    "https://b2-mainnet-public.s.chainbase.com"
+    "https://rpc.bsquared.network"
   ],
   "faucets": [],
   "nativeCurrency": {

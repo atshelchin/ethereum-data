@@ -3,7 +3,6 @@
   "chain": "Aleph Zero",
   "icon": "aleph",
   "rpc": [
-    "https://rpc.alephzero-testnet.gelato.digital",
     "wss://rpc.alephzero-testnet.gelato.digital"
   ],
   "faucets": [],

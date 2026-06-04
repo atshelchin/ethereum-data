@@ -3,7 +3,6 @@
   "chain": "Harmony",
   "rpc": [
     "https://api.s1.t.hmny.io",
-    "https://harmony-1.drpc.org",
     "wss://harmony-1.drpc.org"
   ],
   "faucets": [],

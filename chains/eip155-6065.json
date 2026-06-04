@@ -1,8 +1,10 @@
 {
   "name": "Tres Testnet",
   "chain": "TresLeches",
-  "rpc": ["https://rpc-test.tresleches.finance/"],
-  "faucets": ["http://faucet.tresleches.finance:8080"],
+  "rpc": [],
+  "faucets": [
+    "http://faucet.tresleches.finance:8080"
+  ],
   "nativeCurrency": {
     "name": "TRES",
     "symbol": "TRES",

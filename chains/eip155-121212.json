@@ -1,8 +1,10 @@
 {
   "name": "Rome Devnet Esquiline",
   "chain": "ROME",
-  "rpc": ["https://esquiline-i.devnet.romeprotocol.xyz"],
-  "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
+  "rpc": [],
+  "faucets": [
+    "https://deposit.devnet.romeprotocol.xyz"
+  ],
   "nativeCurrency": {
     "name": "RSOL",
     "symbol": "RSOL",

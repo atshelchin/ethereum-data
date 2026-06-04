@@ -1,7 +1,7 @@
 {
   "name": "Esa",
   "chain": "Esa",
-  "rpc": ["http://65.108.151.70:8545"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Esa",

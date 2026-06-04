@@ -2,8 +2,10 @@
   "name": "G8Chain Mainnet",
   "chain": "G8C",
   "icon": "G8Chain",
-  "rpc": ["https://mainnet-rpc.oneg8.network"],
-  "faucets": ["https://faucet.oneg8.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.oneg8.network"
+  ],
   "nativeCurrency": {
     "name": "G8Chain",
     "symbol": "G8C",

@@ -2,8 +2,10 @@
   "name": "Rangers Protocol Testnet Robin",
   "chain": "Rangers",
   "icon": "rangers",
-  "rpc": ["https://robin.rangersprotocol.com/api/jsonrpc"],
-  "faucets": ["https://robin-faucet.rangersprotocol.com"],
+  "rpc": [],
+  "faucets": [
+    "https://robin-faucet.rangersprotocol.com"
+  ],
   "nativeCurrency": {
     "name": "Rangers Protocol Gas",
     "symbol": "tRPG",

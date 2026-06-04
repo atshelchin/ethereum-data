@@ -1,8 +1,10 @@
 {
   "name": "Reapchain Testnet",
   "chain": "REAP",
-  "rpc": ["https://test-eth.reapchain.org"],
-  "faucets": ["http://faucet.reapchain.com"],
+  "rpc": [],
+  "faucets": [
+    "http://faucet.reapchain.com"
+  ],
   "nativeCurrency": {
     "name": "test-Reap",
     "symbol": "tREAP",

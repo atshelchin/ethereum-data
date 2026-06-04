@@ -2,8 +2,10 @@
   "name": "Excoincial Chain Volta-Testnet",
   "chain": "TEXL",
   "icon": "exl",
-  "rpc": ["https://testnet-rpc.exlscan.com"],
-  "faucets": ["https://faucet.exlscan.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.exlscan.com"
+  ],
   "nativeCurrency": {
     "name": "TExlcoin",
     "symbol": "TEXL",

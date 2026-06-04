@@ -2,8 +2,10 @@
   "name": "Optimism Kovan",
   "title": "Optimism Testnet Kovan",
   "chain": "ETH",
-  "rpc": ["https://kovan.optimism.io/"],
-  "faucets": ["http://fauceth.komputing.org?chain=69&address=${ADDRESS}"],
+  "rpc": [],
+  "faucets": [
+    "http://fauceth.komputing.org?chain=69&address=${ADDRESS}"
+  ],
   "nativeCurrency": {
     "name": "Kovan Ether",
     "symbol": "ETH",

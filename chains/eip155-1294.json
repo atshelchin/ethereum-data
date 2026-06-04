@@ -3,8 +3,6 @@
   "chain": "Bobabeam",
   "status": "deprecated",
   "rpc": [
-    "https://bobabeam.boba.network",
-    "https://replica.bobabeam.boba.network",
     "wss://wss.bobabeam.boba.network",
     "wss://replica-wss.bobabeam.boba.network"
   ],

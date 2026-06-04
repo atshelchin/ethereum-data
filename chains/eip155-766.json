@@ -3,8 +3,7 @@
   "chain": "QOM",
   "status": "incubating",
   "rpc": [
-    "https://evm-rpc-ql1.foxxone.one",
-    "https://rpc.qom.one"
+    "https://evm-rpc-ql1.foxxone.one"
   ],
   "faucets": [],
   "nativeCurrency": {

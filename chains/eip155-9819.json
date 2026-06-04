@@ -1,11 +1,10 @@
 {
   "name": "IMPERIUM MAINNET",
   "chain": "IMP",
-  "rpc": [
-    "https://data-aws-mainnet.imperiumchain.com",
-    "https://data-aws2-mainnet.imperiumchain.com"
+  "rpc": [],
+  "faucets": [
+    "https://faucet.imperiumchain.com/"
   ],
-  "faucets": ["https://faucet.imperiumchain.com/"],
   "nativeCurrency": {
     "name": "IMP",
     "symbol": "IMP",

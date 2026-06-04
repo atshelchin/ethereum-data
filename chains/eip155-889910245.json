@@ -2,8 +2,10 @@
   "name": "PTCESCAN Testnet",
   "title": "PTCESCAN Testnet",
   "chain": "PTCE",
-  "rpc": ["https://rpc-testnet.ptcscan.io"],
-  "faucets": ["https://faucet.ptcscan.io/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.ptcscan.io/"
+  ],
   "nativeCurrency": {
     "name": "PTCE",
     "symbol": "PTCE",

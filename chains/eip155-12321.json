@@ -2,8 +2,10 @@
   "name": "BLG Testnet",
   "chain": "BLG",
   "icon": "blg",
-  "rpc": ["https://rpc.blgchain.com"],
-  "faucets": ["https://faucet.blgchain.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.blgchain.com"
+  ],
   "nativeCurrency": {
     "name": "Blg",
     "symbol": "BLG",

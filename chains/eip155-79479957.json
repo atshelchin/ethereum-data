@@ -2,8 +2,10 @@
   "name": "SX Toronto Rollup",
   "chain": "SX",
   "icon": "SX",
-  "rpc": ["https://rpc.sx-rollup-testnet.t.raas.gelato.cloud"],
-  "faucets": ["https://faucet.toronto.sx.technology"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.toronto.sx.technology"
+  ],
   "nativeCurrency": {
     "name": "SX Network",
     "symbol": "SX",

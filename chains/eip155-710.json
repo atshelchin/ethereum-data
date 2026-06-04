@@ -1,7 +1,7 @@
 {
   "name": "Highbury",
   "chain": "HIGHBURY",
-  "rpc": ["https://highbury.furya.io", "https://rest.furya.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Fury",

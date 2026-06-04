@@ -1,8 +1,10 @@
 {
   "name": "Astra Testnet",
   "chain": "Astra",
-  "rpc": ["https://rpc.astranaut.dev"],
-  "faucets": ["https://faucet.astranaut.dev"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.astranaut.dev"
+  ],
   "nativeCurrency": {
     "name": "test-Astra",
     "symbol": "tASA",

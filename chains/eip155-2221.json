@@ -4,7 +4,6 @@
   "rpc": [
     "https://kava-testnet.drpc.org",
     "https://evm.testnet.kava.io",
-    "https://kava-evm-testnet.rpc.thirdweb.com",
     "wss://wevm.testnet.kava.io",
     "wss://kava-testnet.drpc.org"
   ],

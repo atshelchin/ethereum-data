@@ -1,7 +1,7 @@
 {
   "name": "Blucrates",
   "chain": "BLU",
-  "rpc": ["https://data.bluchain.pro"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Blucrates",

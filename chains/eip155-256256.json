@@ -2,7 +2,6 @@
   "name": "CMP-Mainnet",
   "chain": "CMP",
   "rpc": [
-    "https://mainnet.block.caduceus.foundation",
     "wss://mainnet.block.caduceus.foundation"
   ],
   "faucets": [],

@@ -3,7 +3,9 @@
   "title": "Form Network",
   "chain": "form",
   "icon": "form",
-  "rpc": ["https://rpc.form.network/http", "wss://rpc.form.network/ws"],
+  "rpc": [
+    "wss://rpc.form.network/ws"
+  ],
   "features": [
     {
       "name": "EIP155"

@@ -1,7 +1,7 @@
 {
   "name": "Blockfit",
   "chain": "202424",
-  "rpc": ["https://rpc.blockfitscan.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BFIT",

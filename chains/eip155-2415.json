@@ -1,7 +1,7 @@
 {
   "name": "XODEX",
   "chain": "XODEX",
-  "rpc": ["https://mainnet.xo-dex.com/rpc", "https://xo-dex.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "XODEX Native Token",

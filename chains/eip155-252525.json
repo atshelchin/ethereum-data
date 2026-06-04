@@ -1,8 +1,10 @@
 {
   "name": "CELESTIUM Network Testnet",
   "chain": "CELESTIUM",
-  "rpc": ["https://rpc-private-testnet.celestium.network"],
-  "faucets": ["https://faucet.celestium.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.celestium.network"
+  ],
   "nativeCurrency": {
     "name": "CLT",
     "symbol": "tCLT",

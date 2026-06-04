@@ -1,10 +1,7 @@
 {
   "name": "Ruby Smart Chain MAINNET",
   "chain": "RUBY",
-  "rpc": [
-    "https://mainnet-data.rubychain.io/",
-    "https://mainnet.rubychain.io/"
-  ],
+  "rpc": [],
   "nativeCurrency": {
     "name": "RUBY Smart Chain Native Token",
     "symbol": "RUBY",

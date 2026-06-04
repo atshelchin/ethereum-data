@@ -1,7 +1,7 @@
 {
   "name": "Bharat Blockchain Network Mainnet",
   "chain": "BBN",
-  "rpc": ["https://bbnrpc.mainnet.bharatblockchain.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BBN",

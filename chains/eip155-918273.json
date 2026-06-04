@@ -3,7 +3,7 @@
   "chain": "ETH",
   "status": "active",
   "icon": "owshen",
-  "rpc": ["https://rpc.owshen.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "DIVE",

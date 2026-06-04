@@ -2,10 +2,11 @@
   "name": " Privix Chain Testnet",
   "chain": "PRIVIX",
   "rpc": [
-    "https://testnet-rpc.privixchain.xyz/",
     "wss://testnet-rpc.privixchain.xyz/ws"
   ],
-  "faucets": ["https://faucet.privixchain.xyz"],
+  "faucets": [
+    "https://faucet.privixchain.xyz"
+  ],
   "nativeCurrency": {
     "name": "Privix Coin",
     "symbol": "PRIVIX",

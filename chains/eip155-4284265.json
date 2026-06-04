@@ -3,9 +3,15 @@
   "title": "Zuux chain testnet",
   "chain": "zuuxchain",
   "icon": "zuuxchain",
-  "rpc": ["https://rpc.zuux.network"],
-  "features": [{ "name": "none" }],
-  "faucets": ["https://www.zuuxlend.xyz/faucet"],
+  "rpc": [],
+  "features": [
+    {
+      "name": "none"
+    }
+  ],
+  "faucets": [
+    "https://www.zuuxlend.xyz/faucet"
+  ],
   "nativeCurrency": {
     "name": "ZUUX",
     "symbol": "ZUUX",

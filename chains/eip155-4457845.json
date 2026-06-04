@@ -2,11 +2,15 @@
   "name": "ZERO Testnet (Sepolia)",
   "chain": "ETH",
   "icon": "zero-sepolia",
-  "rpc": ["https://rpc.zerion.io/v1/zero-sepolia"],
+  "rpc": [],
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge.zero.network" }]
+    "bridges": [
+      {
+        "url": "https://bridge.zero.network"
+      }
+    ]
   },
   "faucets": [],
   "nativeCurrency": {

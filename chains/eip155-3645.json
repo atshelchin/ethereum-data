@@ -2,7 +2,7 @@
   "name": "iChain Testnet",
   "chain": "iChain Testnet",
   "icon": "iChain",
-  "rpc": ["https://istanbul.ichainscan.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ISLAMICOIN",

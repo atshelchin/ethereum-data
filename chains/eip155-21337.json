@@ -1,7 +1,7 @@
 {
   "name": "CENNZnet Azalea",
   "chain": "CENNZnet",
-  "rpc": ["https://cennznet.unfrastructure.io/public"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "CPAY",

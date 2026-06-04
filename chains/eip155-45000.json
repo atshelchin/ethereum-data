@@ -1,7 +1,7 @@
 {
   "name": "Autobahn Network",
   "chain": "TXL",
-  "rpc": ["https://rpc.autobahn.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "TXL",

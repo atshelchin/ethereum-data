@@ -2,7 +2,7 @@
   "name": "Merkle Scan",
   "chain": "MRK",
   "icon": "merklescan",
-  "rpc": ["https://marklechain-rpc.merklescan.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Merkle",

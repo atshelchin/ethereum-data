@@ -1,8 +1,10 @@
 {
   "name": "POC Testnet",
   "chain": "POC",
-  "rpc": ["https://testnet-rpc.pochain.io"],
-  "faucets": ["https://www.pochain.io/poc-faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://www.pochain.io/poc-faucet"
+  ],
   "nativeCurrency": {
     "name": "POC Native Token",
     "symbol": "POC",

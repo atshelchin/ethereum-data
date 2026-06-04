@@ -1,7 +1,7 @@
 {
   "name": "Web3Q Galileo",
   "chain": "Web3Q",
-  "rpc": ["https://galileo.web3q.io:8545"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Web3Q",

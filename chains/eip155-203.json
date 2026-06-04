@@ -2,7 +2,7 @@
   "name": "WowChain Mainnet",
   "title": "WowChain Mainnet",
   "chain": "WowChain",
-  "rpc": ["https://rpc.wowchain.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dogecoin",

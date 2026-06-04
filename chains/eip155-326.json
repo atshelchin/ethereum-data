@@ -1,7 +1,7 @@
 {
   "name": "GRVT Exchange Testnet",
   "chain": "ETH",
-  "rpc": ["https://zkrpc.testnet.grvt.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",

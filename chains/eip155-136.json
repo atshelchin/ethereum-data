@@ -2,7 +2,7 @@
   "name": "Deamchain Mainnet",
   "chain": "Deamchain",
   "icon": "deam",
-  "rpc": ["https://mainnet.deamchain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Deamchain Native Token",
@@ -13,7 +13,6 @@
   "shortName": "deam",
   "chainId": 136,
   "networkId": 136,
-
   "explorers": [
     {
       "name": "Deamchain Block Explorer",

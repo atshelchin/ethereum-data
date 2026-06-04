@@ -1,7 +1,9 @@
 {
   "name": "XR One",
   "chain": "ETH",
-  "rpc": ["https://xr1.calderachain.xyz/http", "wss://xr1.calderachain.xyz/ws"],
+  "rpc": [
+    "wss://xr1.calderachain.xyz/ws"
+  ],
   "faucets": [],
   "features": [
     {

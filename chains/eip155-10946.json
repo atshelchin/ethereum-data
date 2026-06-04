@@ -4,8 +4,7 @@
   "icon": "quadrans",
   "rpc": [
     "https://rpc.quadrans.io",
-    "https://rpceu.quadrans.io",
-    "https://rpcna.quadrans.io"
+    "https://rpceu.quadrans.io"
   ],
   "faucets": [],
   "nativeCurrency": {

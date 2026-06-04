@@ -2,7 +2,6 @@
   "name": "Athene Parthenon",
   "chain": "athene-parthenon",
   "rpc": [
-    "https://rpc.parthenon.athenescan.io",
     "wss://ws.parthenon.athenescan.io"
   ],
   "nativeCurrency": {

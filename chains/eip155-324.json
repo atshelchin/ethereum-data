@@ -7,7 +7,6 @@
     "https://zksync-era.api.pocket.network",
     "https://rpc.ankr.com/zksync_era",
     "https://zksync.api.onfinality.io/public",
-    "https://1rpc.io/zksync2-era",
     "wss://zksync.drpc.org"
   ],
   "faucets": [],

@@ -1,8 +1,12 @@
 {
   "name": "Kingdom Chain",
   "chain": "KingdomChain",
-  "rpc": ["https://kingdomchain.observer/rpc"],
-  "features": [{ "name": "EIP155" }],
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kozi",

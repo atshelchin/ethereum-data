@@ -3,8 +3,10 @@
   "title": "Step Test Network",
   "chain": "STEP",
   "icon": "step",
-  "rpc": ["https://rpc.testnet.step.network"],
-  "faucets": ["https://faucet.step.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.step.network"
+  ],
   "nativeCurrency": {
     "name": "FITFI",
     "symbol": "FITFI",

@@ -1,7 +1,7 @@
 {
   "name": "RSS3 VSL Sepolia Testnet",
   "chain": "RSS3",
-  "rpc": ["https://rpc.testnet.rss3.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "RSS3",
@@ -23,6 +23,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://explorer.testnet.rss3.io/bridge" }]
+    "bridges": [
+      {
+        "url": "https://explorer.testnet.rss3.io/bridge"
+      }
+    ]
   }
 }

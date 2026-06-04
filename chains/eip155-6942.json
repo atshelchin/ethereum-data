@@ -1,8 +1,10 @@
 {
   "name": "Laika Mainnet",
   "chain": "LAIKA",
-  "rpc": ["https://mainnetrpc.laikachain.dog"],
-  "faucets": ["https://laikachain.dog/faucets"],
+  "rpc": [],
+  "faucets": [
+    "https://laikachain.dog/faucets"
+  ],
   "nativeCurrency": {
     "name": "Dogecoin",
     "symbol": "DOGE",

@@ -2,7 +2,7 @@
   "name": "Gold Chain",
   "title": "Gold Chain",
   "chain": "Gold",
-  "rpc": ["https://chain-rpc.gold.dev"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

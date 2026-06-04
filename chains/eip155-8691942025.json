@@ -4,7 +4,6 @@
   "chain": "onfa",
   "rpc": [
     "https://rpc.onfachain.com",
-    "https://rpc.onfa.io",
     "wss://ws.onfa.io",
     "wss://ws.onfachain.com"
   ],

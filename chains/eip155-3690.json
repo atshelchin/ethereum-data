@@ -1,7 +1,7 @@
 {
   "name": "Bittex Mainnet",
   "chain": "BTX",
-  "rpc": ["https://rpc1.bittexscan.info", "https://rpc2.bittexscan.info"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bittex",

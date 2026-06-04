@@ -1,8 +1,10 @@
 {
   "name": "Galadriel Devnet",
   "chain": "Galadriel",
-  "rpc": ["https://devnet.galadriel.com"],
-  "faucets": ["https://docs.galadriel.com/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://docs.galadriel.com/faucet"
+  ],
   "nativeCurrency": {
     "name": "Galadriel Devnet token",
     "symbol": "GAL",

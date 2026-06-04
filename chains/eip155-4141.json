@@ -2,8 +2,10 @@
   "name": "Tipboxcoin Testnet",
   "chain": "TPBX",
   "icon": "tipboxcoinIcon",
-  "rpc": ["https://testnet-rpc.tipboxcoin.net"],
-  "faucets": ["https://faucet.tipboxcoin.net"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.tipboxcoin.net"
+  ],
   "nativeCurrency": {
     "name": "Tipboxcoin",
     "symbol": "TPBX",

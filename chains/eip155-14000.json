@@ -1,7 +1,7 @@
 {
   "name": "SPS Testnet",
   "chain": "SPS-Testnet",
-  "rpc": ["https://www.3sps.net"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ECG",

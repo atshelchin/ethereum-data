@@ -2,7 +2,7 @@
   "name": "Rebus Classic Mainnet",
   "title": "Rebuschain Mainnet",
   "chain": "REBUS",
-  "rpc": ["https://apievm.rebuschain.com/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Rebus Classic",

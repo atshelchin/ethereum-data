@@ -1,8 +1,10 @@
 {
   "name": "Evnode Testnet",
   "chain": "Evnode",
-  "rpc": ["https://rpc-testnet.evnode.org/"],
-  "faucets": ["https://faucet.evnode.org"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.evnode.org"
+  ],
   "nativeCurrency": {
     "name": "Evnode Testnet Native Token",
     "symbol": "tEVO",

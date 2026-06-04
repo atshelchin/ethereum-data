@@ -2,8 +2,10 @@
   "name": "Razor Skale Chain",
   "chain": "Razor Schain",
   "icon": "razornetwork",
-  "rpc": ["https://mainnet.skalenodes.com/v1/turbulent-unique-scheat"],
-  "faucets": ["https://faucet.razorscan.io/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.razorscan.io/"
+  ],
   "nativeCurrency": {
     "name": "sFuel",
     "symbol": "SFUEL",

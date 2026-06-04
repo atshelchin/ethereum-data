@@ -1,7 +1,7 @@
 {
   "name": "PlayFi Albireo Testnet",
   "chain": "ETH",
-  "rpc": ["https://albireo-rpc.playfi.ai"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -23,6 +23,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://portal.playfi.ai/bridge" }]
+    "bridges": [
+      {
+        "url": "https://portal.playfi.ai/bridge"
+      }
+    ]
   }
 }

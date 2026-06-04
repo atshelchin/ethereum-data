@@ -1,8 +1,10 @@
 {
   "name": "Incentiv Devnet",
   "chain": "Incentiv",
-  "rpc": ["https://rpc.ankr.com/incentiv_devnet"],
-  "faucets": ["https://faucet.incentiv-dev.ankr.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.incentiv-dev.ankr.network"
+  ],
   "nativeCurrency": {
     "name": "Testnet INC",
     "symbol": "INC",

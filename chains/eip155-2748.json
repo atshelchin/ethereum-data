@@ -2,7 +2,7 @@
   "name": "Nanon",
   "title": "Nanon Rollup",
   "chain": "ETH",
-  "rpc": ["https://rpc.nanon.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

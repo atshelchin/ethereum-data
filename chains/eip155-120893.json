@@ -2,7 +2,7 @@
   "name": "Sova Sepolia Testnet",
   "chain": "ETH",
   "icon": "sova",
-  "rpc": ["https://rpc.testnet.sova.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",

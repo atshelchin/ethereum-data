@@ -2,11 +2,7 @@
   "name": "Nova Network",
   "chain": "NNW",
   "icon": "novanetwork",
-  "rpc": [
-    "https://connect.novanetwork.io",
-    "https://0x57.redjackstudio.com",
-    "https://rpc.novanetwork.io:9070"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Supernova",

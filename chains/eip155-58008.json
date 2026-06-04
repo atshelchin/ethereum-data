@@ -1,14 +1,21 @@
 {
   "name": "Sepolia PGN (Public Goods Network)",
   "chain": "ETH",
-  "rpc": ["https://sepolia.publicgoods.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://publicgoods.network/",
   "shortName": "sepPGN",
   "chainId": 58008,
@@ -25,6 +32,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://pgn-bridge.vercel.app/bridge" }]
+    "bridges": [
+      {
+        "url": "https://pgn-bridge.vercel.app/bridge"
+      }
+    ]
   }
 }

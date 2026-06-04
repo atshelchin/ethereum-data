@@ -2,8 +2,10 @@
   "name": "Garizon Testnet Stage1",
   "chain": "GAR",
   "icon": "garizon",
-  "rpc": ["https://s1-testnet.garizon.net/rpc"],
-  "faucets": ["https://faucet-testnet.garizon.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet-testnet.garizon.com"
+  ],
   "nativeCurrency": {
     "name": "Garizon",
     "symbol": "GAR",

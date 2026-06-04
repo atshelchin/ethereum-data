@@ -1,7 +1,9 @@
 {
   "name": "zkLink Nova Goerli Testnet",
   "chain": "ETH",
-  "rpc": ["https://goerli.rpc.zklink.io", "wss://goerli.rpc.zklink.io"],
+  "rpc": [
+    "wss://goerli.rpc.zklink.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -25,6 +27,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-59140",
-    "bridges": [{ "url": "https://goerli.portal.zklink.io" }]
+    "bridges": [
+      {
+        "url": "https://goerli.portal.zklink.io"
+      }
+    ]
   }
 }

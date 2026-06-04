@@ -2,7 +2,7 @@
   "name": "Bitrock Mainnet",
   "chain": "Bitrock",
   "icon": "bitrock",
-  "rpc": ["https://connect.bit-rock.io", "https://brockrpc.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BITROCK",

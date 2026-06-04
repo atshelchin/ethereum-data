@@ -1,7 +1,9 @@
 {
   "name": "BigShortBets",
   "chain": "BIGSB",
-  "rpc": ["https://market.bigsb.io", "wss://market.bigsb.io"],
+  "rpc": [
+    "wss://market.bigsb.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "USD Coin",

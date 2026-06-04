@@ -1,7 +1,7 @@
 {
   "name": "PAXB Mainnet",
   "chain": "PAXB",
-  "rpc": ["https://chain.paxb.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "PAXB",

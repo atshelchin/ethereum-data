@@ -4,7 +4,6 @@
   "rpc": [
     "https://rpc.gobob.xyz",
     "https://bob.drpc.org",
-    "https://bob-mainnet.public.blastapi.io",
     "wss://rpc.gobob.xyz",
     "wss://bob-mainnet.public.blastapi.io"
   ],

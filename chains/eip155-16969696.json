@@ -2,7 +2,6 @@
   "name": "Privix Chain Mainnet",
   "chain": "PRIVIX",
   "rpc": [
-    "https://mainnet-rpc.privixchain.xyz/",
     "wss://mainnet-rpc.privixchain.xyz/ws"
   ],
   "faucets": [],

@@ -1,7 +1,7 @@
 {
   "name": "Smart Layer Network",
   "chain": "SLN",
-  "rpc": ["https://rpc.main.smartlayer.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Service Unit Token",

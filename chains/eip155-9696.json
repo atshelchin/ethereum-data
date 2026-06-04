@@ -2,7 +2,7 @@
   "name": "Rebus Mainnet",
   "title": "Rebuschain Mainnet",
   "chain": "ETH",
-  "rpc": ["https://apievml2.rebuschain.com/l2rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

@@ -3,7 +3,6 @@
   "title": "Volmex",
   "chain": "volmex",
   "rpc": [
-    "https://rpc.volmex.t.raas.gelato.cloud",
     "wss://ws.volmex.t.raas.gelato.cloud"
   ],
   "nativeCurrency": {
@@ -28,7 +27,9 @@
     "type": "L2",
     "chain": "eip155-84532",
     "bridges": [
-      { "url": "https://testnet-bridge.gelato.network/bridge/volmex" }
+      {
+        "url": "https://testnet-bridge.gelato.network/bridge/volmex"
+      }
     ]
   }
 }

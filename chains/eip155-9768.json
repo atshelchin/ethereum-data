@@ -2,8 +2,10 @@
   "name": "MainnetZ Testnet",
   "chain": "NetZ",
   "icon": "mainnetzTestnet",
-  "rpc": ["https://testnet-rpc.mainnetz.io"],
-  "faucets": ["https://faucet.mainnetz.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.mainnetz.io"
+  ],
   "nativeCurrency": {
     "name": "MainnetZ",
     "symbol": "NetZ",

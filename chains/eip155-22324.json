@@ -1,8 +1,10 @@
 {
   "name": "GoldXChain Testnet",
   "chain": "GoldXTestnet",
-  "rpc": ["https://testnet-rpc.goldxchain.io"],
-  "faucets": ["https://faucet.goldxchain.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.goldxchain.io"
+  ],
   "nativeCurrency": {
     "name": "GoldX",
     "symbol": "GOLDX",

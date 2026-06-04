@@ -1,8 +1,10 @@
 {
   "name": "Cascadia Testnet",
   "chain": "Cascadia",
-  "rpc": ["https://testnet.cascadia.foundation"],
-  "faucets": ["https://www.cascadia.foundation/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://www.cascadia.foundation/faucet"
+  ],
   "nativeCurrency": {
     "name": "CC",
     "symbol": "tCC",

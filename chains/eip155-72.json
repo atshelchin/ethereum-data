@@ -1,8 +1,10 @@
 {
   "name": "DxChain Testnet",
   "chain": "DxChain",
-  "rpc": ["https://testnet-http.dxchain.com"],
-  "faucets": ["https://faucet.dxscan.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.dxscan.io"
+  ],
   "nativeCurrency": {
     "name": "DxChain Testnet",
     "symbol": "DX",

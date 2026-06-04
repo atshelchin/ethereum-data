@@ -1,8 +1,10 @@
 {
   "name": "Mitosis Testnet",
   "chain": "Mitosis Testnet",
-  "rpc": ["https://rpc.testnet.mitosis.org"],
-  "faucets": ["https://testnet.mitosis.org/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://testnet.mitosis.org/faucet"
+  ],
   "nativeCurrency": {
     "name": "MITO",
     "symbol": "MITO",

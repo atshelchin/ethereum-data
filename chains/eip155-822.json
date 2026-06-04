@@ -1,8 +1,10 @@
 {
   "name": "Runic Chain Testnet",
   "chain": "Runic",
-  "rpc": ["https://rpc-testnet.runic.build"],
-  "faucets": ["https://faucet.runic.build"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.runic.build"
+  ],
   "nativeCurrency": {
     "name": "Bitcoin",
     "symbol": "rBTC",

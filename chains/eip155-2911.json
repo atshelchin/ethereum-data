@@ -9,7 +9,7 @@
     "symbol": "TOPIA",
     "decimals": 18
   },
-  "rpc": ["https://rpc.hychain.com/http"],
+  "rpc": [],
   "faucets": [],
   "infoURL": "https://www.hychain.com",
   "icon": "hychain",
@@ -24,6 +24,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.hychain.com" }]
+    "bridges": [
+      {
+        "url": "https://bridge.hychain.com"
+      }
+    ]
   }
 }

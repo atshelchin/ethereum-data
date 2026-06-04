@@ -2,8 +2,10 @@
   "name": "Bloom Genesis Testnet",
   "chain": "Bloom",
   "icon": "bloom",
-  "rpc": ["https://testnet-rpc.bloomgenesis.com"],
-  "faucets": ["https://faucet.bloomgenesis.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.bloomgenesis.com"
+  ],
   "nativeCurrency": {
     "name": "Bloom",
     "symbol": "BGBC",

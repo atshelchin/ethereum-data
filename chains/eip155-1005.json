@@ -2,8 +2,7 @@
   "name": "LemonChainTestnet",
   "chain": "tLEMX",
   "rpc": [
-    "https://rpc.testnet.lemonchain.io",
-    "https://rpc.testnet.allthingslemon.io"
+    "https://rpc.testnet.lemonchain.io"
   ],
   "faucets": [],
   "nativeCurrency": {

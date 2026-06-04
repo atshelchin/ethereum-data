@@ -2,9 +2,6 @@
   "name": "Tao Network",
   "chain": "TAO",
   "rpc": [
-    "https://rpc.testnet.tao.network",
-    "http://rpc.testnet.tao.network:8545",
-    "https://rpc.tao.network",
     "wss://rpc.tao.network"
   ],
   "faucets": [],

@@ -1,8 +1,10 @@
 {
   "name": "KaiChain Testnet",
   "chain": "KaiChain",
-  "rpc": ["https://testnet-rpc.kaichain.net"],
-  "faucets": ["https://faucet.kaichain.net"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.kaichain.net"
+  ],
   "nativeCurrency": {
     "name": "KaiChain Testnet Native Token",
     "symbol": "KEC",

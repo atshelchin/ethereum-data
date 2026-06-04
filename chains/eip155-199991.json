@@ -2,8 +2,10 @@
   "name": "MAZZE Testnet",
   "chain": "MAZZE Testnet",
   "icon": "mazze",
-  "rpc": ["https://testnet-rpc.mazze.io/"],
-  "faucets": ["https://faucet.mazze.io/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.mazze.io/"
+  ],
   "nativeCurrency": {
     "name": "MAZZE Testnet",
     "symbol": "MAZZE",

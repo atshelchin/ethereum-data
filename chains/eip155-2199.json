@@ -1,8 +1,12 @@
 {
   "name": "Moonsama Network",
   "chain": "MSN",
-  "rpc": ["https://rpc.moonsama.com", "wss://rpc.moonsama.com/ws"],
-  "faucets": ["https://multiverse.moonsama.com/faucet"],
+  "rpc": [
+    "wss://rpc.moonsama.com/ws"
+  ],
+  "faucets": [
+    "https://multiverse.moonsama.com/faucet"
+  ],
   "nativeCurrency": {
     "name": "Sama Token",
     "symbol": "SAMA",

@@ -1,8 +1,10 @@
 {
   "name": "Taycan Testnet",
   "chain": "Taycan",
-  "rpc": ["https://test-taycan.hupayx.io"],
-  "faucets": ["https://ttaycan-faucet.hupayx.io/"],
+  "rpc": [],
+  "faucets": [
+    "https://ttaycan-faucet.hupayx.io/"
+  ],
   "nativeCurrency": {
     "name": "test-Shuffle",
     "symbol": "tSFL",

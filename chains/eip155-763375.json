@@ -1,8 +1,17 @@
 {
   "name": "Surge Testnet",
   "chain": "Surge Testnet",
-  "rpc": ["https://l2-rpc.hoodi.surge.wtf", "wss://l2-ws.hoodi.surge.wtf"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "wss://l2-ws.hoodi.surge.wtf"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

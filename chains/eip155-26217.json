@@ -1,14 +1,21 @@
 {
   "name": "Integra",
   "chain": "Integra",
-  "rpc": ["https://evm.integralayer.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Integra",
     "symbol": "IRL",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://integralayer.com",
   "shortName": "integra",
   "chainId": 26217,

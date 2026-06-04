@@ -1,7 +1,9 @@
 {
   "name": "LemonChain",
   "chain": "LEMX",
-  "rpc": ["https://rpc.lemonchain.io", "https://rpc.allthingslemon.io"],
+  "rpc": [
+    "https://rpc.lemonchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "LEMX",

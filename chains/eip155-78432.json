@@ -1,7 +1,7 @@
 {
   "name": "Conduit Subnet",
   "chain": "CONDUIT",
-  "rpc": ["https://subnets.avax.network/conduit/testnet/rpc"],
+  "rpc": [],
   "features": [
     {
       "name": "EIP1559"

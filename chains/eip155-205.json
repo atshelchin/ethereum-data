@@ -1,7 +1,7 @@
 {
   "name": "EKAASH",
   "chain": "EKAASH",
-  "rpc": ["https://mainnet.ekaash.biz"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Global Mobile Money Gateway",

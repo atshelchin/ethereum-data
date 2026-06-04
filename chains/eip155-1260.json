@@ -2,7 +2,7 @@
   "name": "Metacces Testnet",
   "chain": "Metacces Testnet",
   "icon": "metacces",
-  "rpc": ["https://tapi.accesscan.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Metacces",

@@ -1,8 +1,10 @@
 {
   "name": "APEX Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc-testnet.apexlayer.xyz"],
-  "faucets": ["https://sepoliafaucet.com/"],
+  "rpc": [],
+  "faucets": [
+    "https://sepoliafaucet.com/"
+  ],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -24,6 +26,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://apexlayer.xyz/bridge" }]
+    "bridges": [
+      {
+        "url": "https://apexlayer.xyz/bridge"
+      }
+    ]
   }
 }

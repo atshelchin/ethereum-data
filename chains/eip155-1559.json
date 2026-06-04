@@ -4,10 +4,7 @@
   "chain": "TENET",
   "icon": "tenet",
   "rpc": [
-    "https://tenet-evm-rpc.publicnode.com",
-    "https://tenet-evm.publicnode.com",
     "https://rpc.ankr.com/tenet_evm",
-    "https://rpc.tenet.org",
     "wss://tenet-evm.publicnode.com",
     "wss://tenet-evm-rpc.publicnode.com"
   ],

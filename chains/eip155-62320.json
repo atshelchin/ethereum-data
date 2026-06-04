@@ -11,7 +11,7 @@
     "symbol": "CELO",
     "decimals": 18
   },
-  "rpc": ["https://baklava-forno.celo-testnet.org"],
+  "rpc": [],
   "faucets": [
     "https://docs.google.com/forms/d/e/1FAIpQLSdfr1BwUTYepVmmvfVUDRCwALejZ-TUva2YujNpvrEmPAX2pg/viewform",
     "https://cauldron.pretoriaresearchlab.io/baklava-faucet"

@@ -1,8 +1,10 @@
 {
   "name": "Bronos Testnet",
   "chain": "Bronos",
-  "rpc": ["https://evm-testnet.bronos.org"],
-  "faucets": ["https://faucet.bronos.org"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.bronos.org"
+  ],
   "nativeCurrency": {
     "name": "tBRO",
     "symbol": "tBRO",

@@ -2,10 +2,7 @@
   "name": "CratD2C Testnet Deprecated",
   "chain": "CRATD2C",
   "status": "deprecated",
-  "rpc": [
-    "https://cratd2c-testnet-node1.cratd2csmartchain.io/",
-    "https://cratd2c-testnet-node2.cratd2csmartchain.io/"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "CRATD2C",

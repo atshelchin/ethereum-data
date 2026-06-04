@@ -1,8 +1,12 @@
 {
   "name": "StarCHAIN Testnet",
   "chain": "StarCHAIN",
-  "rpc": ["https://testnet-rpc1.starworksglobal.com"],
-  "features": [{ "name": "EIP155" }],
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "STARX",

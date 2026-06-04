@@ -2,9 +2,18 @@
   "name": "Camp Testnet",
   "chain": "ETH",
   "icon": "camp",
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "rpc": ["https://rpc-camp-network-4xje7wy105.t.conduit.xyz"],
-  "faucets": ["https://www.campnetwork.xyz/faucet"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "rpc": [],
+  "faucets": [
+    "https://www.campnetwork.xyz/faucet"
+  ],
   "nativeCurrency": {
     "name": "Ethereum",
     "symbol": "ETH",
@@ -26,6 +35,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://camp-testnet-bridge.vercel.app/" }]
+    "bridges": [
+      {
+        "url": "https://camp-testnet-bridge.vercel.app/"
+      }
+    ]
   }
 }

@@ -2,7 +2,7 @@
   "name": "Garizon Stage2",
   "chain": "GAR",
   "icon": "garizon",
-  "rpc": ["https://s2.garizon.net/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Garizon",

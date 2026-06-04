@@ -1,7 +1,7 @@
 {
   "name": "Flamma Testnet",
   "chain": "Flamma",
-  "rpc": ["https://testnetrpc.flamma.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Flamma",

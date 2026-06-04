@@ -2,11 +2,10 @@
   "name": "Argochain Testnet",
   "chain": "Argochain",
   "icon": "argochain",
-  "rpc": [
-    "https://rpc-testnet.devolvedai.com",
-    "https://test-rpc.devolvedai.com"
+  "rpc": [],
+  "faucets": [
+    "https://faucet.argoscan.net"
   ],
-  "faucets": ["https://faucet.argoscan.net"],
   "nativeCurrency": {
     "name": "Argocoin",
     "symbol": "AGC",

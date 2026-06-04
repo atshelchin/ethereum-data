@@ -4,9 +4,6 @@
   "rpc": [
     "https://manta-pacific.drpc.org",
     "https://pacific-rpc.manta.network/http",
-    "https://manta-atlantic-rpc.publicnode.com",
-    "https://1rpc.io/manta",
-    "https://manta.api.onfinality.io/public",
     "wss://manta-pacific.drpc.org",
     "wss://manta-atlantic-rpc.publicnode.com"
   ],

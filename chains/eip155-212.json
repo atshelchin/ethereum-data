@@ -2,8 +2,10 @@
   "name": "MAPO Makalu",
   "title": "MAPO Testnet Makalu",
   "chain": "MAPO",
-  "rpc": ["https://testnet-rpc.maplabs.io"],
-  "faucets": ["https://faucet.mapprotocol.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.mapprotocol.io"
+  ],
   "nativeCurrency": {
     "name": "Makalu MAPO",
     "symbol": "MAPO",

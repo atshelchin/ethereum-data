@@ -1,7 +1,7 @@
 {
   "name": "Nibiru testnet-1",
   "chain": "Nibiru",
-  "rpc": ["https://evm-rpc.testnet-1.nibiru.fi"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "NIBI",

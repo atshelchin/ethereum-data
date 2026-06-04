@@ -3,12 +3,11 @@
   "icon": "opal",
   "chain": "UNQ",
   "rpc": [
-    "https://rpc-opal.unique.network",
-    "https://us-rpc-opal.unique.network",
-    "https://eu-rpc-opal.unique.network",
-    "https://asia-rpc-opal.unique.network"
+    "https://rpc-opal.unique.network"
   ],
-  "faucets": ["https://t.me/unique2faucet_opal_bot"],
+  "faucets": [
+    "https://t.me/unique2faucet_opal_bot"
+  ],
   "nativeCurrency": {
     "name": "Opal",
     "symbol": "UNQ",

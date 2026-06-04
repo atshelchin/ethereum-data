@@ -1,7 +1,7 @@
 {
   "name": "Bitchain Mainnet",
   "chain": "Bit",
-  "rpc": ["https://rpc.bitchain.biz/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",

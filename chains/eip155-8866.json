@@ -2,7 +2,7 @@
   "name": "SuperLumio",
   "chain": "SuperLumio",
   "icon": "superlumio",
-  "rpc": ["https://mainnet.lumio.io/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

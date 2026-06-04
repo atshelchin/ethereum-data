@@ -1,7 +1,9 @@
 {
   "name": "BuyCex Infinity Chain",
   "chain": "BUYCEX",
-  "rpc": ["https://rpc.buycex.net", "wss://socket.buycex.net"],
+  "rpc": [
+    "wss://socket.buycex.net"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Buycex",

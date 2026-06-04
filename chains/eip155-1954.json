@@ -1,7 +1,7 @@
 {
   "name": "Dexilla Testnet",
   "chain": "Dexilla",
-  "rpc": ["https://rpc.dexilla.com"],
+  "rpc": [],
   "faucets": [],
   "icon": "dxz",
   "nativeCurrency": {
@@ -24,6 +24,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge.dexilla.com" }]
+    "bridges": [
+      {
+        "url": "https://bridge.dexilla.com"
+      }
+    ]
   }
 }

@@ -3,7 +3,6 @@
   "chain": "Dymension",
   "rpc": [
     "https://dymension.drpc.org",
-    "https://dymension-evm-rpc.publicnode.com",
     "wss://dymension-evm-rpc.publicnode.com"
   ],
   "faucets": [],

@@ -1,8 +1,10 @@
 {
   "name": "Xsolla ZK Sepolia Testnet",
   "chain": "Xsolla ZK Sepolia",
-  "rpc": ["https://zkrpc-sepolia.xsollazk.com"],
-  "faucets": ["https://xsollazk.com/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://xsollazk.com/faucet"
+  ],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",

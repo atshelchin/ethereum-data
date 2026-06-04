@@ -3,7 +3,6 @@
   "title": "Arbitrum Blueberry Testnet",
   "chain": "ETH",
   "rpc": [
-    "https://rpc.arb-blueberry.gelato.digital",
     "wss://ws.arb-blueberry.gelato.digital"
   ],
   "faucets": [],
@@ -28,7 +27,11 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-421614",
-    "bridges": [{ "url": "https://bridge.gelato.network/bridge/arb-blueberry" }]
+    "bridges": [
+      {
+        "url": "https://bridge.gelato.network/bridge/arb-blueberry"
+      }
+    ]
   },
   "status": "active"
 }

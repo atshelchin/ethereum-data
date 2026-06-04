@@ -1,14 +1,18 @@
 {
   "name": "1Money Network Testnet",
   "chain": "1Money Testnet",
-  "rpc": ["https://testnet.1money.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "FREE",
     "symbol": "FREE",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://1money.com",
   "shortName": "1money-testnet",
   "chainId": 1212101,

@@ -2,7 +2,7 @@
   "name": "Safe(AnWang) Mainnet",
   "chain": "Safe(AnWang)",
   "icon": "safe-anwang",
-  "rpc": ["https://rpc.anwang.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SAFE(AnWang)",

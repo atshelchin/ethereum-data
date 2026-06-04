@@ -9,8 +9,10 @@
     "symbol": "KICK",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testnet.xprotocol.org"],
-  "faucets": ["https://xprotocol.org/faucets"],
+  "rpc": [],
+  "faucets": [
+    "https://xprotocol.org/faucets"
+  ],
   "explorers": [
     {
       "name": "Blockscout",

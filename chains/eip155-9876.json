@@ -2,8 +2,10 @@
   "name": "BinaryChain Testnet",
   "chain": "BinaryChain",
   "icon": "binary",
-  "rpc": ["https://rpctestnet.binarychain.org"],
-  "faucets": ["https://faucet.testnet.binarychain.org"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.testnet.binarychain.org"
+  ],
   "nativeCurrency": {
     "name": "BINARY",
     "symbol": "BNRY",

@@ -1,8 +1,10 @@
 {
   "name": "Zilliqa 2 EVM proto-mainnet",
   "chain": "ZIL",
-  "rpc": ["https://api.zq2-protomainnet.zilliqa.com"],
-  "faucets": ["https://faucet.zq2-protomainnet.zilliqa.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.zq2-protomainnet.zilliqa.com"
+  ],
   "nativeCurrency": {
     "name": "Zilliqa",
     "symbol": "ZIL",

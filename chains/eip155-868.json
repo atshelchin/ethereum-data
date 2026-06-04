@@ -1,11 +1,7 @@
 {
   "name": "Fantasia Chain Mainnet",
   "chain": "FSC",
-  "rpc": [
-    "https://mainnet-data1.fantasiachain.com/",
-    "https://mainnet-data2.fantasiachain.com/",
-    "https://mainnet-data3.fantasiachain.com/"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "FST",

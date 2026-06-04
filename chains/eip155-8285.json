@@ -1,7 +1,7 @@
 {
   "name": "KorthoTest",
   "chain": "Kortho",
-  "rpc": ["https://www.krotho-test.net"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kortho Test",

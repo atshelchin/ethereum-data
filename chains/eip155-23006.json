@@ -2,8 +2,10 @@
   "name": "Antofy Testnet",
   "chain": "ABN",
   "icon": "antofy",
-  "rpc": ["https://testnet-rpc.antofy.io"],
-  "faucets": ["https://faucet.antofy.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.antofy.io"
+  ],
   "nativeCurrency": {
     "name": "Antofy",
     "symbol": "ABN",

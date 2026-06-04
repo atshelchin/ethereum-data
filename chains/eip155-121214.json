@@ -1,8 +1,10 @@
 {
   "name": "Rome Testnet Martius",
   "chain": "ROME",
-  "rpc": ["https://martius-i.testnet.romeprotocol.xyz"],
-  "faucets": ["https://deposit.testnet.romeprotocol.xyz"],
+  "rpc": [],
+  "faucets": [
+    "https://deposit.testnet.romeprotocol.xyz"
+  ],
   "nativeCurrency": {
     "name": "RSOL",
     "symbol": "RSOL",

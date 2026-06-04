@@ -1,7 +1,7 @@
 {
   "name": "Plasma Devnet",
   "chain": "Plasma",
-  "rpc": ["https://devnet-rpc.plasma.to"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Devnet Plasma",

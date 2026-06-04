@@ -3,7 +3,6 @@
   "title": "Sivo Defi Testnet",
   "chain": "sivo-defi-testnet",
   "rpc": [
-    "https://rpc.sivo-defi-testnet.t.raas.gelato.cloud",
     "wss://ws.sivo-defi-testnet.t.raas.gelato.cloud"
   ],
   "nativeCurrency": {

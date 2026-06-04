@@ -2,7 +2,7 @@
   "name": "inEVM Testnet",
   "chain": "inEVM testnet",
   "icon": "inevm",
-  "rpc": ["https://testnet.rpc.inevm.com/http"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Injective",

@@ -1,7 +1,7 @@
 {
   "name": "NeoX Testnet T3",
   "chain": "NeoX",
-  "rpc": ["https://neoxseed1.ngd.network/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gas",

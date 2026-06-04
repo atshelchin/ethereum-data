@@ -1,7 +1,7 @@
 {
   "name": "Gather Testnet Network",
   "chain": "GTH",
-  "rpc": ["https://testnet.gather.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gather",

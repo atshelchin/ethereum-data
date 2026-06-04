@@ -2,8 +2,10 @@
   "name": "Beverly Hills",
   "title": "Ethereum multi-client Verkle Testnet Beverly Hills",
   "chain": "ETH",
-  "rpc": ["https://rpc.beverlyhills.ethdevops.io:8545"],
-  "faucets": ["https://faucet.beverlyhills.ethdevops.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.beverlyhills.ethdevops.io"
+  ],
   "nativeCurrency": {
     "name": "Beverly Hills Testnet Ether",
     "symbol": "BVE",

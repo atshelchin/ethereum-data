@@ -2,8 +2,10 @@
   "name": "Bitrock Testnet",
   "chain": "Bitrock",
   "icon": "bitrock",
-  "rpc": ["https://testnet.bit-rock.io"],
-  "faucets": ["https://faucet.bit-rock.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.bit-rock.io"
+  ],
   "nativeCurrency": {
     "name": "BITROCK",
     "symbol": "BROCK",

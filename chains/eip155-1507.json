@@ -1,7 +1,7 @@
 {
   "name": "Sherpax Testnet",
   "chain": "Sherpax Testnet",
-  "rpc": ["https://sherpax-testnet.chainx.org/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "KSX",

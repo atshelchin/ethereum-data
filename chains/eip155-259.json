@@ -1,7 +1,7 @@
 {
   "name": "Neonlink Mainnet",
   "chain": "Neonlink",
-  "rpc": ["https://mainnet.neonlink.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Neonlink Native Token",

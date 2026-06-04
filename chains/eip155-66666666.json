@@ -1,7 +1,7 @@
 {
   "name": "Winr Protocol Testnet",
   "chain": "WINR",
-  "rpc": ["https://rpc-devnet.winr.games"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Winr",

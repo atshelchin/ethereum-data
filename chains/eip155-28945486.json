@@ -1,7 +1,7 @@
 {
   "name": "Auxilium Network Mainnet",
   "chain": "AUX",
-  "rpc": ["https://rpc.auxilium.global"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Auxilium coin",

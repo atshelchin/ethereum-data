@@ -1,7 +1,7 @@
 {
   "name": "Cycle Network Testnet Jellyfish",
   "chain": "ETH",
-  "rpc": ["https://jellyfish-rpc-testnet.cyclenetwork.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

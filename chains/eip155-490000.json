@@ -1,7 +1,7 @@
 {
   "name": "Autonomys Taurus Testnet",
   "chain": "autonomys-taurus-testnet",
-  "rpc": ["https://auto-evm.taurus.autonomys.xyz/ws"],
+  "rpc": [],
   "status": "deprecated",
   "icon": "autonomys",
   "faucets": [],
@@ -10,7 +10,14 @@
     "symbol": "AI3",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://www.autonomys.xyz",
   "shortName": "ATN-deprecated",
   "chainId": 490000,

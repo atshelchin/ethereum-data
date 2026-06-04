@@ -2,10 +2,11 @@
   "name": "CMP-Testnet",
   "chain": "CMP",
   "rpc": [
-    "https://galaxy.block.caduceus.foundation",
     "wss://galaxy.block.caduceus.foundation"
   ],
-  "faucets": ["https://dev.caduceus.foundation/testNetwork"],
+  "faucets": [
+    "https://dev.caduceus.foundation/testNetwork"
+  ],
   "nativeCurrency": {
     "name": "Caduceus Testnet Token",
     "symbol": "CMP",

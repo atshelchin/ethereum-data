@@ -1,8 +1,10 @@
 {
   "name": "Rome Mainnet 0 Aventine",
   "chain": "ROME",
-  "rpc": ["https://aventine-i.mainnet-0.romeprotocol.xyz"],
-  "faucets": ["https://deposit.mainnet-0.romeprotocol.xyz"],
+  "rpc": [],
+  "faucets": [
+    "https://deposit.mainnet-0.romeprotocol.xyz"
+  ],
   "nativeCurrency": {
     "name": "RSOL",
     "symbol": "RSOL",

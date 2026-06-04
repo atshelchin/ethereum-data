@@ -3,8 +3,10 @@
   "title": "Tenet Testnet",
   "chain": "TENET",
   "icon": "tenet",
-  "rpc": ["https://rpc.testnet.tenet.org"],
-  "faucets": ["https://faucet.testnet.tenet.org"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.testnet.tenet.org"
+  ],
   "nativeCurrency": {
     "name": "TENET",
     "symbol": "TENET",

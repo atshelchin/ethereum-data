@@ -1,7 +1,7 @@
 {
   "name": "GeneChain",
   "chain": "GeneChain",
-  "rpc": ["https://rpc.genechain.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "RNA",

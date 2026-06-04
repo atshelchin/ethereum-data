@@ -1,7 +1,7 @@
 {
   "name": "Sorian Testnet",
   "chain": "tSOR",
-  "rpc": ["https://testnet-rpc.sorian.io", "https://testnet.rpc.sorian.io"],
+  "rpc": [],
   "faucets": [],
   "icon": "sorianTestnet",
   "nativeCurrency": {
@@ -9,7 +9,6 @@
     "symbol": "tSOR",
     "decimals": 18
   },
-
   "features": [
     {
       "name": "EIP155"

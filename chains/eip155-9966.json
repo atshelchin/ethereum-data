@@ -1,11 +1,10 @@
 {
   "name": "UXER TESTNET NETWORK",
   "chain": "UXER",
-  "rpc": [
-    "https://dev-testnet.uxer.network",
-    "https://data-cloud-testnet.uxer.network"
+  "rpc": [],
+  "faucets": [
+    "https://faucet.uxer.network"
   ],
-  "faucets": ["https://faucet.uxer.network"],
   "nativeCurrency": {
     "name": "UXER",
     "symbol": "tUXER",

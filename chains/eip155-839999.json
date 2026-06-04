@@ -2,7 +2,7 @@
   "name": "exSat Testnet",
   "chain": "exSat",
   "icon": "exsat",
-  "rpc": ["https://evm-tst3.exsat.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",
@@ -23,6 +23,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "" }]
+    "bridges": [
+      {
+        "url": ""
+      }
+    ]
   }
 }

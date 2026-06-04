@@ -1,8 +1,10 @@
 {
   "name": "Singularity ZERO Testnet",
   "chain": "ZERO",
-  "rpc": ["https://betaenv.singularity.gold:18545"],
-  "faucets": ["https://nft.singularity.gold"],
+  "rpc": [],
+  "faucets": [
+    "https://nft.singularity.gold"
+  ],
   "nativeCurrency": {
     "name": "ZERO",
     "symbol": "tZERO",

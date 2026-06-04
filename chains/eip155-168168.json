@@ -1,7 +1,7 @@
 {
   "name": "Zchains",
   "chain": "Zchains",
-  "rpc": ["https://rpc.zchains.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ZCD",

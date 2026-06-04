@@ -2,7 +2,7 @@
   "name": "Safe(AnWang) Testnet",
   "chain": "Safe(AnWang)",
   "icon": "safe-anwang",
-  "rpc": ["https://rpc-testnet.anwang.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SAFE(AnWang)",

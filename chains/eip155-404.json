@@ -6,7 +6,9 @@
   "chain": "SYNDR",
   "networkId": 404,
   "icon": "syndr",
-  "rpc": ["https://rpc.syndr.com", "wss://rpc.syndr.com/ws"],
+  "rpc": [
+    "wss://rpc.syndr.com/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

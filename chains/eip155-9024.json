@@ -1,8 +1,10 @@
 {
   "name": "Nexa Testnet Block",
   "chain": "Nexa Testnet",
-  "rpc": ["https://rpc-testnet-nodes.nexablockscan.io"],
-  "faucets": ["https://testnet.nexablockscan.io/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://testnet.nexablockscan.io/faucet"
+  ],
   "nativeCurrency": {
     "name": "Nexa Testnet Token",
     "symbol": "NEXB",

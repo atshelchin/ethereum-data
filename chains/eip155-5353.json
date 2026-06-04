@@ -1,11 +1,10 @@
 {
   "name": "Tritanium Testnet",
   "chain": "TRITANIUM",
-  "rpc": [
-    "https://nodetestnet-station-one.tritanium.network/",
-    "https://nodetestnet-station-two.tritanium.network/"
+  "rpc": [],
+  "faucets": [
+    "https://faucet.tritanium.network"
   ],
-  "faucets": ["https://faucet.tritanium.network"],
   "nativeCurrency": {
     "name": "Tritanium Native Token",
     "symbol": "tTRN",

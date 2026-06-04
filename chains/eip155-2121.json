@@ -1,14 +1,21 @@
 {
   "name": "Catena Mainnet",
   "chain": "CMCX",
-  "rpc": ["https://rpc1.catenarpc.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Catena",
     "symbol": "CMCX",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://catena.network",
   "shortName": "cmcx",
   "chainId": 2121,

@@ -1,14 +1,21 @@
 {
   "name": "Mythical Chain",
   "chain": "MYTH",
-  "rpc": ["https://chain-rpc.mythicalgames.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Mythos",
     "symbol": "MYTH",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://mythicalgames.com/",
   "shortName": "myth",
   "chainId": 201804,

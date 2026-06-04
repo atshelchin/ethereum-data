@@ -2,7 +2,9 @@
   "name": "Nal Mainnet",
   "chain": "ETH",
   "icon": "nal",
-  "rpc": ["https://rpc.nal.network", "wss://wss.nal.network"],
+  "rpc": [
+    "wss://wss.nal.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

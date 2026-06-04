@@ -1,8 +1,10 @@
 {
   "name": "Fuse Testnet",
   "chain": "Fuse",
-  "rpc": ["https://rpc.flash.fuse.io"],
-  "faucets": ["https://faucet.flash.fuse.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.flash.fuse.io"
+  ],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",

@@ -7,7 +7,6 @@
     "https://sonic.api.pocket.network",
     "https://rpc.soniclabs.com",
     "https://sonic.api.onfinality.io/public",
-    "https://rpc.ankr.com/sonic_mainnet",
     "wss://sonic-rpc.publicnode.com"
   ],
   "faucets": [],

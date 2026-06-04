@@ -3,8 +3,7 @@
   "chain": "Rootstock",
   "rpc": [
     "https://public-node.rsk.co",
-    "https://mycrypto.rsk.co",
-    "https://rootstock.drpc.org"
+    "https://mycrypto.rsk.co"
   ],
   "faucets": [],
   "icon": "rootstock",

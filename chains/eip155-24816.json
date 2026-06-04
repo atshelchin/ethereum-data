@@ -1,7 +1,7 @@
 {
   "name": "Recall",
   "chain": "Recall",
-  "rpc": ["https://evm.node-0.mainnet.recall.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Recall",
@@ -12,6 +12,5 @@
   "shortName": "recall",
   "chainId": 24816,
   "networkId": 24816,
-
   "explorers": []
 }

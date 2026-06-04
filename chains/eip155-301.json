@@ -3,8 +3,6 @@
   "chain": "Bobaopera",
   "status": "deprecated",
   "rpc": [
-    "https://bobaopera.boba.network",
-    "https://replica.bobaopera.boba.network",
     "wss://wss.bobaopera.boba.network",
     "wss://replica-wss.bobaopera.boba.network"
   ],

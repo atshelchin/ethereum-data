@@ -2,8 +2,10 @@
   "name": "Nebula Testnet",
   "chain": "NTN",
   "icon": "nebulatestnet",
-  "rpc": ["https://testnet.rpc.novanetwork.io"],
-  "faucets": ["https://faucet.novanetwork.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.novanetwork.io"
+  ],
   "nativeCurrency": {
     "name": "Nebula X",
     "symbol": "NBX",

@@ -2,8 +2,10 @@
   "name": "Ctex Scan Blockchain",
   "chain": "Ctex Scan Blockchain",
   "icon": "ctex",
-  "rpc": ["https://mainnet-rpc.ctexscan.com/"],
-  "faucets": ["https://faucet.ctexscan.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.ctexscan.com"
+  ],
   "nativeCurrency": {
     "name": "CTEX",
     "symbol": "CTEX",

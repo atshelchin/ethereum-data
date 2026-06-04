@@ -2,7 +2,7 @@
   "name": "PRM Mainnet",
   "chain": "prm",
   "icon": "prmIcon",
-  "rpc": ["https://mainnet-rpc.prmscan.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Primal Network",

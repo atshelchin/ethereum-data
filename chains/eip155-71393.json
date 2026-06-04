@@ -3,10 +3,11 @@
   "chain": "CKB",
   "icon": "polyjuice",
   "rpc": [
-    "https://godwoken-testnet-web3-rpc.ckbapp.dev",
     "ws://godwoken-testnet-web3-rpc.ckbapp.dev/ws"
   ],
-  "faucets": ["https://faucet.nervos.org/"],
+  "faucets": [
+    "https://faucet.nervos.org/"
+  ],
   "nativeCurrency": {
     "name": "CKB",
     "symbol": "CKB",

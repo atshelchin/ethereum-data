@@ -4,9 +4,7 @@
   "chain": "Merlin",
   "rpc": [
     "https://merlin.drpc.org",
-    "https://rpc.merlinchain.io",
-    "https://merlin-mainnet-enterprise.unifra.io",
-    "https://rpc-merlin.rockx.com"
+    "https://rpc.merlinchain.io"
   ],
   "faucets": [],
   "nativeCurrency": {

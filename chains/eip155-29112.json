@@ -9,7 +9,7 @@
     "symbol": "TOPIA",
     "decimals": 18
   },
-  "rpc": ["https://testnet-rpc.hychain.com/http"],
+  "rpc": [],
   "faucets": [],
   "infoURL": "https://www.hychain.com",
   "icon": "hychain",

@@ -1,8 +1,12 @@
 {
   "name": "Edgeless Testnet",
   "chain": "EdgelessTestnet",
-  "rpc": ["https://testnet.rpc.edgeless.network/http"],
-  "features": [{ "name": "EIP155" }],
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Edgeless Wrapped Eth",

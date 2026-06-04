@@ -1,7 +1,7 @@
 {
   "name": "Jiritsu Testnet Subnet",
   "chain": "JIRITSUTES",
-  "rpc": ["https://subnets.avax.network/jiritsutes/testnet/rpc"],
+  "rpc": [],
   "features": [
     {
       "name": "EIP1559"

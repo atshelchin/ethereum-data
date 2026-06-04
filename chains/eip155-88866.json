@@ -2,7 +2,7 @@
   "name": "Matr1x Testnet",
   "title": "Matr1x Testnet",
   "chain": "Matr1x",
-  "rpc": ["https://testnet-rpc.m1chain.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "MAX",

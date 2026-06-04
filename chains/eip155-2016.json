@@ -2,7 +2,7 @@
   "name": "MainnetZ Mainnet",
   "chain": "NetZ",
   "icon": "mainnetz",
-  "rpc": ["https://mainnet-rpc.mainnetz.io", "https://eu-rpc.mainnetz.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "MainnetZ",

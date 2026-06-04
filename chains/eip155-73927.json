@@ -1,7 +1,7 @@
 {
   "name": "Mixin Virtual Machine",
   "chain": "MVM",
-  "rpc": ["https://geth.mvm.dev"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

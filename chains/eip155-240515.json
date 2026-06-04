@@ -2,7 +2,7 @@
   "name": "Orange Chain Testnet",
   "title": "Orange Chain Testnet",
   "chain": "Orange Chain",
-  "rpc": ["https://testnet-rpc.orangechain.xyz"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",

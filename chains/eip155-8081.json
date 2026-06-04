@@ -2,8 +2,10 @@
   "name": "Shardeum Liberty 2.X",
   "chain": "Shardeum",
   "icon": "shardeum",
-  "rpc": ["https://liberty20.shardeum.org/"],
-  "faucets": ["https://faucet.liberty20.shardeum.org"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.liberty20.shardeum.org"
+  ],
   "nativeCurrency": {
     "name": "Shardeum SHM",
     "symbol": "SHM",
@@ -20,5 +22,7 @@
       "standard": "EIP3091"
     }
   ],
-  "redFlags": ["reusedChainId"]
+  "redFlags": [
+    "reusedChainId"
+  ]
 }

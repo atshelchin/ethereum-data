@@ -1,14 +1,21 @@
 {
   "name": "UCHAIN Mainnet",
   "chain": "UCHAIN",
-  "rpc": ["https://rpc.uchain.link/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "UCASH",
     "symbol": "UCASH",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://u.cash/",
   "shortName": "uchain",
   "chainId": 2112,

@@ -2,7 +2,7 @@
   "name": "Saakuru Mainnet",
   "chain": "Saakuru",
   "icon": "saakuru",
-  "rpc": ["https://rpc.saakuru.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",

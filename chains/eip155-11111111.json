@@ -2,8 +2,12 @@
   "name": "ClawCoin",
   "chain": "CC",
   "icon": "clawcoin",
-  "rpc": ["https://evm.clawcoin.com"],
-  "features": [{ "name": "EIP155" }],
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ClawCoin",

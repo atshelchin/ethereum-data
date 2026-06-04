@@ -1,7 +1,7 @@
 {
   "name": "EthStorage Devnet",
   "chain": "EthStorage",
-  "rpc": ["https://rpc.devnet.ethstorage.io:9540"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

@@ -1,7 +1,7 @@
 {
   "name": "Haic",
   "chain": "Haic",
-  "rpc": ["https://orig.haichain.io/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Haicoin",

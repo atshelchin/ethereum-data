@@ -1,8 +1,10 @@
 {
   "name": "Immutable zkEVM Devnet",
   "chain": "Immutable zkEVM",
-  "rpc": ["https://rpc.dev.immutable.com"],
-  "faucets": ["https://docs.immutable.com/docs/zkEVM/guides/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://docs.immutable.com/docs/zkEVM/guides/faucet"
+  ],
   "nativeCurrency": {
     "name": "Dev IMX",
     "symbol": "dIMX",

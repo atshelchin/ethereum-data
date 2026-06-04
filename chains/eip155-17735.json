@@ -2,7 +2,7 @@
   "name": "Esports Chain",
   "chain": "ESPT",
   "icon": "esports",
-  "rpc": ["https://esportsblock.org/rpc/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Esport Token",

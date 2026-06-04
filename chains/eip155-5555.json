@@ -2,7 +2,7 @@
   "name": "Chain Verse Mainnet",
   "chain": "CVERSE",
   "icon": "chain_verse",
-  "rpc": ["https://rpc.chainverse.info"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Oasys",

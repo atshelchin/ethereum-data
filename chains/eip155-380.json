@@ -1,10 +1,7 @@
 {
   "name": "ZKAmoeba Testnet",
   "chain": "FIL",
-  "rpc": [
-    "https://rpc.testnet.zkamoeba.com:4050/",
-    "https://rpc1.testnet.zkamoeba.com:4050/"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "filecoin",
@@ -27,6 +24,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-314",
-    "bridges": [{ "url": "https://testnet.zkamoeba.com/en/bridge" }]
+    "bridges": [
+      {
+        "url": "https://testnet.zkamoeba.com/en/bridge"
+      }
+    ]
   }
 }

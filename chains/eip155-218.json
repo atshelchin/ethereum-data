@@ -1,7 +1,7 @@
 {
   "name": "SoterOne Mainnet old",
   "chain": "SOTER",
-  "rpc": ["https://rpc.soter.one"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SoterOne Mainnet Ether",

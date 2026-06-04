@@ -2,8 +2,10 @@
   "name": "Bitcichain Testnet",
   "chain": "TBITCI",
   "icon": "bitci",
-  "rpc": ["https://testnet.bitcichain.com"],
-  "faucets": ["https://faucet.bitcichain.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.bitcichain.com"
+  ],
   "nativeCurrency": {
     "name": "Test Bitci",
     "symbol": "TBITCI",

@@ -1,8 +1,10 @@
 {
   "name": "Neonlink Testnet",
   "chain": "Neonlink",
-  "rpc": ["https://testnet.neonlink.io"],
-  "faucets": ["https://faucet.neonlink.io/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.neonlink.io/"
+  ],
   "nativeCurrency": {
     "name": "Neonlink Native Token",
     "symbol": "tNEON",

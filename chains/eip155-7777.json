@@ -1,13 +1,7 @@
 {
   "name": "Rise of the Warbots Testnet",
   "chain": "nmactest",
-  "rpc": [
-    "https://testnet1.riseofthewarbots.com",
-    "https://testnet2.riseofthewarbots.com",
-    "https://testnet3.riseofthewarbots.com",
-    "https://testnet4.riseofthewarbots.com",
-    "https://testnet5.riseofthewarbots.com"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Nano Machines",

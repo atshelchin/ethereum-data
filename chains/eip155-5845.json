@@ -1,7 +1,9 @@
 {
   "name": "Tangle",
   "chain": "Tangle",
-  "rpc": ["https://rpc.tangle.tools", "wss://rpc.tangle.tools"],
+  "rpc": [
+    "wss://rpc.tangle.tools"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tangle",

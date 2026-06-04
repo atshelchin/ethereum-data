@@ -1,8 +1,10 @@
 {
   "name": "DYNO Testnet",
   "chain": "DYNO",
-  "rpc": ["https://tapi.dynoprotocol.com"],
-  "faucets": ["https://faucet.dynoscan.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.dynoscan.io"
+  ],
   "nativeCurrency": {
     "name": "DYNO Token",
     "symbol": "tDYNO",

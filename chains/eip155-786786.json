@@ -1,7 +1,7 @@
 {
   "name": "Zebro Smart Chain",
   "chain": "ZEBRO",
-  "rpc": ["https://rpc.zebrocoin.app", "https://rpc1.zebrocoin.app"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Zebrocoin",

@@ -2,8 +2,10 @@
   "name": "Deamchain Testnet",
   "chain": "Deamchain",
   "icon": "deam",
-  "rpc": ["https://testnet.deamchain.com"],
-  "faucets": ["https://faucet.deamchain.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.deamchain.com"
+  ],
   "nativeCurrency": {
     "name": "Deamchain Native Token",
     "symbol": "DEAM",

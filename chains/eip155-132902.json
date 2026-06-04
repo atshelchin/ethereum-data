@@ -3,7 +3,6 @@
   "title": "Form Testnet",
   "chain": "formtestnet",
   "rpc": [
-    "https://sepolia-rpc.form.network/http",
     "wss://sepolia-rpc.form.network/ws"
   ],
   "features": [
@@ -14,7 +13,9 @@
       "name": "EIP1559"
     }
   ],
-  "faucets": ["https://info.form.network/faucet"],
+  "faucets": [
+    "https://info.form.network/faucet"
+  ],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",

@@ -2,8 +2,10 @@
   "name": "Nautilus Proteus Testnet",
   "chain": "ETH",
   "icon": "nautilus",
-  "rpc": ["https://api.proteus.nautchain.xyz/solana"],
-  "faucets": ["https://proteusfaucet.nautchain.xyz"],
+  "rpc": [],
+  "faucets": [
+    "https://proteusfaucet.nautchain.xyz"
+  ],
   "nativeCurrency": {
     "name": "Zebec Test Token",
     "symbol": "tZBC",

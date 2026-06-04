@@ -1,7 +1,7 @@
 {
   "name": "IOLite",
   "chain": "ILT",
-  "rpc": ["https://net.iolite.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "IOLite Ether",

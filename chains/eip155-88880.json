@@ -2,8 +2,10 @@
   "name": "Chiliz Scoville Testnet",
   "chain": "CHZ",
   "status": "deprecated",
-  "rpc": ["https://scoville-rpc.chiliz.com"],
-  "faucets": ["https://scoville-faucet.chiliz.com"],
+  "rpc": [],
+  "faucets": [
+    "https://scoville-faucet.chiliz.com"
+  ],
   "nativeCurrency": {
     "name": "Chiliz",
     "symbol": "CHZ",

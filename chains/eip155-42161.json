@@ -16,8 +16,6 @@
     "https://arbitrum-one-rpc.publicnode.com",
     "https://arb1.arbitrum.io/rpc",
     "https://arbitrum.api.onfinality.io/public",
-    "https://rpc.ankr.com/arbitrum",
-    "https://1rpc.io/arb",
     "wss://arbitrum-one-rpc.publicnode.com"
   ],
   "faucets": [],

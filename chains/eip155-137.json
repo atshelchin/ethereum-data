@@ -10,8 +10,6 @@
     "https://polygon-pokt.nodies.app",
     "https://polygon-bor-rpc.publicnode.com",
     "https://poly.api.pocket.network",
-    "https://rpc.ankr.com/polygon",
-    "https://1rpc.io/matic",
     "wss://polygon-bor-rpc.publicnode.com",
     "wss://polygon.drpc.org"
   ],

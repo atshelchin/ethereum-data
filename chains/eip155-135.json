@@ -1,8 +1,10 @@
 {
   "name": "Alyx Chain Testnet",
   "chain": "Alyx Chain Testnet",
-  "rpc": ["https://testnet-rpc.alyxchain.com"],
-  "faucets": ["https://faucet.alyxchain.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.alyxchain.com"
+  ],
   "nativeCurrency": {
     "name": "Alyx Testnet Native Token",
     "symbol": "ALYX",

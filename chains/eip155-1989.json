@@ -1,7 +1,7 @@
 {
   "name": "Lydia Coin",
   "chain": "LYDIA",
-  "rpc": ["https://rpc.lydiacoins.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Lydia Coin",

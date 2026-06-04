@@ -1,7 +1,7 @@
 {
   "name": "DOS Testnet",
   "chain": "DOS",
-  "rpc": ["https://test.doschain.com/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "DOS",

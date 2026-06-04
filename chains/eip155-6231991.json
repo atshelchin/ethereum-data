@@ -1,8 +1,10 @@
 {
   "name": "Block Chain LOL Berachain Testnet",
   "chain": "Block Chain LOL Berachain",
-  "rpc": ["https://block-chain.alt.technology"],
-  "faucets": ["https://faucet.block-chain.lol/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.block-chain.lol/"
+  ],
   "nativeCurrency": {
     "name": "HarryPotterObamaSonic10Inu",
     "symbol": "HARRY",

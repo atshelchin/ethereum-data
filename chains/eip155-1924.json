@@ -1,11 +1,7 @@
 {
   "name": "Swellchain Testnet",
   "chain": "ETH",
-  "rpc": [
-    "https://swell-testnet.alt.technology",
-    "https://rpc.ankr.com/swell-testnet"
-  ],
-
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

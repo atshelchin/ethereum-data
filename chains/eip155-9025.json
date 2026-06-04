@@ -2,8 +2,6 @@
   "name": "Nexa Mainnet Block",
   "chain": "Nexa Mainnet",
   "rpc": [
-    "https://rpc-nodes.nexablockscan.io",
-    "https://rpc-nodes-delta.nexablockscan.io",
     "wss://wss-nodes.nexablockscan.io"
   ],
   "faucets": [],

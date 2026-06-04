@@ -1,7 +1,7 @@
 {
   "name": "Cosmic Chain",
   "chain": "COSMIC",
-  "rpc": ["http://testnet.cosmicchain.site:3344"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Cosmic Chain",

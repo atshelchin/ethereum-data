@@ -1,9 +1,7 @@
 {
   "name": "Polynomial",
   "chain": "Polynomial",
-  "rpc": [
-    "https://rpc.polynomial.fi"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

@@ -1,8 +1,10 @@
 {
   "name": "Lambda Testnet",
   "chain": "Lambda",
-  "rpc": ["https://evm.lambda.top/"],
-  "faucets": ["https://faucet.lambda.top"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.lambda.top"
+  ],
   "nativeCurrency": {
     "name": "test-Lamb",
     "symbol": "LAMB",

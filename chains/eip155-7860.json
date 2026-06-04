@@ -2,10 +2,7 @@
   "name": "MaalChain Testnet",
   "chain": "MaalChain Testnet",
   "icon": "maal-test",
-  "rpc": [
-    "https://rpc-bntest.maalscan.io/",
-    "https://node1.maalscan.io/"
-  ],
+  "rpc": [],
   "faucets": [
     "https://faucet-testnet.maalscan.io/"
   ],

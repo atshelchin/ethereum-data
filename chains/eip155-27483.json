@@ -2,7 +2,7 @@
   "name": "Nanon Sepolia",
   "title": "Nanon Sepolia Rollup Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia-rpc.nanon.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",

@@ -2,8 +2,10 @@
   "name": "Anytype EVM Chain",
   "chain": "ETH",
   "icon": "any",
-  "rpc": ["https://geth.anytype.io"],
-  "faucets": ["https://evm.anytype.io/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://evm.anytype.io/faucet"
+  ],
   "nativeCurrency": {
     "name": "ANY",
     "symbol": "ANY",

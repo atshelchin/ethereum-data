@@ -7,8 +7,7 @@
     "decimals": 18
   },
   "rpc": [
-    "https://megaeth.drpc.org",
-    "https://1rpc.io/megaeth"
+    "https://megaeth.drpc.org"
   ],
   "faucets": [],
   "explorers": [],

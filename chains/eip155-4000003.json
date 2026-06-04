@@ -1,14 +1,21 @@
 {
   "name": "AltLayer Zero Gas Network",
   "chain": "ETH",
-  "rpc": ["https://zero.alt.technology"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ZERO",
     "symbol": "ZERO",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://altlayer.io",
   "shortName": "alt-zerogas",
   "chainId": 4000003,

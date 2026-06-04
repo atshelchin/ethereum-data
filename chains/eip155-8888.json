@@ -1,14 +1,13 @@
 {
   "name": "XANAChain",
   "chain": "XANAChain",
-  "rpc": ["https://mainnet.xana.net/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "XETA",
     "symbol": "XETA",
     "decimals": 18
   },
-
   "infoURL": "https://xanachain.xana.net/",
   "shortName": "XANAChain",
   "chainId": 8888,
@@ -21,5 +20,7 @@
       "standard": "EIP3091"
     }
   ],
-  "redFlags": ["reusedChainId"]
+  "redFlags": [
+    "reusedChainId"
+  ]
 }

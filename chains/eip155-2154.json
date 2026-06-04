@@ -1,7 +1,7 @@
 {
   "name": "Findora Forge",
   "chain": "Testnet-forge",
-  "rpc": ["https://prod-forge.prod.findora.org:8545/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "FRA",

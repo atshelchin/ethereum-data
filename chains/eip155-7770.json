@@ -1,8 +1,10 @@
 {
   "name": "PandaSea Testnet",
   "chain": "PandaSea Testnet",
-  "rpc": ["https://rpc.testnet.pandasea.io"],
-  "faucets": ["https://faucet.pandasea.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.pandasea.io"
+  ],
   "nativeCurrency": {
     "name": "PandaSea Coin",
     "symbol": "PANDA",

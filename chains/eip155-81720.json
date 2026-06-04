@@ -2,7 +2,7 @@
   "name": "Quantum Chain Mainnet",
   "chain": "QNET",
   "icon": "qnet",
-  "rpc": ["https://rpc.quantumscan.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Quantum Chain",

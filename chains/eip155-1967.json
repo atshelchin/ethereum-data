@@ -2,8 +2,12 @@
   "name": "Eleanor",
   "title": "Metatime Testnet Eleanor",
   "chain": "MTC",
-  "rpc": ["https://rpc.metatime.com/eleanor", "wss://ws.metatime.com/eleanor"],
-  "faucets": ["https://faucet.metatime.com/eleanor"],
+  "rpc": [
+    "wss://ws.metatime.com/eleanor"
+  ],
+  "faucets": [
+    "https://faucet.metatime.com/eleanor"
+  ],
   "nativeCurrency": {
     "name": "Eleanor Metacoin",
     "symbol": "MTC",

@@ -2,8 +2,10 @@
   "name": "Latest Chain Testnet",
   "chain": "LATEST",
   "icon": "latestChain",
-  "rpc": ["https://testnet-rpc.latestcoin.io"],
-  "faucets": ["http://faucet.latestchain.io"],
+  "rpc": [],
+  "faucets": [
+    "http://faucet.latestchain.io"
+  ],
   "nativeCurrency": {
     "name": "Latest",
     "symbol": "LATEST",

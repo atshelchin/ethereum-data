@@ -1,7 +1,7 @@
 {
   "name": "PepeNetwork Mainnet",
   "chain": "PepeNetwork",
-  "rpc": ["https://rpc-mainnet.pepenetwork.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Pepe",

@@ -1,7 +1,7 @@
 {
   "name": "Memento Mainnet",
   "chain": "Memento",
-  "rpc": ["https://rpc.mementoblockchain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

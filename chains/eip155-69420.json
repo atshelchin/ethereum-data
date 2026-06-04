@@ -2,8 +2,10 @@
   "name": "Condrieu",
   "title": "Ethereum Verkle Testnet Condrieu",
   "chain": "ETH",
-  "rpc": ["https://rpc.condrieu.ethdevops.io:8545"],
-  "faucets": ["https://faucet.condrieu.ethdevops.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.condrieu.ethdevops.io"
+  ],
   "nativeCurrency": {
     "name": "Condrieu Testnet Ether",
     "symbol": "CTE",

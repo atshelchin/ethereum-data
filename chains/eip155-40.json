@@ -4,8 +4,6 @@
   "rpc": [
     "https://rpc.telos.net",
     "https://telos.drpc.org",
-    "https://rpc.ankr.com/telos",
-    "https://1rpc.io/telos/evm",
     "wss://telos.drpc.org"
   ],
   "faucets": [],

@@ -1,8 +1,10 @@
 {
   "name": "Zilliqa EVM Isolated Server",
   "chain": "ZIL",
-  "rpc": ["https://zilliqa-isolated-server.zilliqa.com/"],
-  "faucets": ["https://dev-wallet.zilliqa.com/faucet?network=isolated_server"],
+  "rpc": [],
+  "faucets": [
+    "https://dev-wallet.zilliqa.com/faucet?network=isolated_server"
+  ],
   "nativeCurrency": {
     "name": "Zilliqa",
     "symbol": "ZIL",

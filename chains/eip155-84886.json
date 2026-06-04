@@ -1,7 +1,7 @@
 {
   "name": "Aerie Network",
   "chain": "Aerie",
-  "rpc": ["https://mainnet.aerielab.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Aerie",

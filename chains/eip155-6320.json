@@ -1,7 +1,7 @@
 {
   "name": "NFB Chain Testnet",
   "chain": "NFB Chain Testnet",
-  "rpc": ["https://testnet-node.nfbchain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "NFBCoinTest",

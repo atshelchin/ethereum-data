@@ -1,7 +1,7 @@
 {
   "name": "Powerloom Mainnet",
   "chain": "POWER",
-  "rpc": ["https://rpc.powerloom.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Powerloom Token",

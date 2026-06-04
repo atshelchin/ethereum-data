@@ -1,8 +1,10 @@
 {
   "name": "BOMB Chain Testnet",
   "chain": "BOMB",
-  "rpc": ["https://bombchain-testnet.ankr.com/bas_full_rpc_1"],
-  "faucets": ["https://faucet.bombchain-testnet.ankr.com/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.bombchain-testnet.ankr.com/"
+  ],
   "nativeCurrency": {
     "name": "BOMB Token",
     "symbol": "tBOMB",

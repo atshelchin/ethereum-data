@@ -2,7 +2,7 @@
   "name": "Rebus Testnet",
   "title": "Rebuschain Testnet",
   "chain": "REBUS",
-  "rpc": ["https://testnet.rebus.money/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Rebus",

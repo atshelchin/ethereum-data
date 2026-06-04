@@ -1,7 +1,7 @@
 {
   "name": "Bitlazer",
   "chain": "bitlazer",
-  "rpc": ["https://bitlazer.calderachain.xyz/http"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "lzrBTC",

@@ -1,8 +1,10 @@
 {
   "name": "Thinkium Testnet Chain 103",
   "chain": "Thinkium",
-  "rpc": ["https://test103.thinkiumrpc.net/"],
-  "faucets": ["https://www.thinkiumdev.net/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://www.thinkiumdev.net/faucet"
+  ],
   "nativeCurrency": {
     "name": "TKM",
     "symbol": "TKM",

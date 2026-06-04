@@ -2,7 +2,7 @@
   "name": "DoCoin Community Chain",
   "title": "DoCoin Community Chain",
   "chain": "DoCoin",
-  "rpc": ["https://rpc.docoin.shop"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "DO",

@@ -1,7 +1,7 @@
 {
   "name": "Xerom",
   "chain": "XERO",
-  "rpc": ["https://rpc.xerom.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Xerom Ether",

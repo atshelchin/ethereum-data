@@ -2,7 +2,7 @@
   "name": "Dot Blox",
   "chain": "DTBX",
   "icon": "dotblox",
-  "rpc": ["https://rpc.dotblox.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dot Blox",

@@ -1,8 +1,10 @@
 {
   "name": "Paribu Net Testnet",
   "chain": "PRB",
-  "rpc": ["https://rpc.testnet.paribuscan.com"],
-  "faucets": ["https://faucet.paribuscan.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.paribuscan.com"
+  ],
   "nativeCurrency": {
     "name": "PRB",
     "symbol": "PRB",

@@ -2,7 +2,7 @@
   "name": "PTCESCAN Mainnet",
   "title": "PTCESCAN Mainnet",
   "chain": "PTCE",
-  "rpc": ["https://rpc.ptcscan.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "PTCE",

@@ -1,7 +1,7 @@
 {
   "name": "ShibaChain",
   "chain": "SHIB",
-  "rpc": ["https://rpc.shibchain.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SHIBA INU COIN",

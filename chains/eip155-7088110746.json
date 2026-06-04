@@ -1,8 +1,10 @@
 {
   "name": "pectra-devnet-5",
   "chain": "ETH",
-  "rpc": ["https://rpc.pectra-devnet-5.ethpandaops.io"],
-  "faucets": ["https://faucet.pectra-devnet-5.ethpandaops.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.pectra-devnet-5.ethpandaops.io"
+  ],
   "nativeCurrency": {
     "name": "Testnet ETH",
     "symbol": "ETH",

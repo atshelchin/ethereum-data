@@ -2,8 +2,15 @@
   "name": "Guru Network",
   "chain": "GURU",
   "icon": "GuruNetwork",
-  "rpc": ["https://rpc-main.gurunetwork.ai"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Guru",

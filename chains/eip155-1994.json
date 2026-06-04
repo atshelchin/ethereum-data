@@ -1,7 +1,7 @@
 {
   "name": "Ekta",
   "chain": "EKTA",
-  "rpc": ["https://main.ekta.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "EKTA",

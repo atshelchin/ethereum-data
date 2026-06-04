@@ -1,7 +1,7 @@
 {
   "name": "Innovator Chain",
   "chain": "INNOVATOR",
-  "rpc": ["https://rpc.innovatorchain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "INOV8",

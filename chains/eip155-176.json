@@ -2,7 +2,9 @@
   "name": "DC Mainnet",
   "chain": "dcchain",
   "icon": "dcchain",
-  "rpc": ["https://rpc.dcnetio.cloud", "wss://ws.dcnetio.cloud"],
+  "rpc": [
+    "wss://ws.dcnetio.cloud"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DC Native Token",

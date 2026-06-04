@@ -2,8 +2,15 @@
   "name": "WoopChain Mainnet",
   "chain": "WOOP",
   "icon": "woopchain",
-  "rpc": ["https://rpc.woop.ai/rpc"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "WoopCoin",

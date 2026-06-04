@@ -2,8 +2,10 @@
   "name": "Elysium Testnet",
   "title": "An L1, carbon-neutral, tree-planting, metaverse dedicated blockchain created by VulcanForged",
   "chain": "Atlantis",
-  "rpc": ["https://rpc.atlantischain.network"],
-  "faucets": ["https://faucet.atlantischain.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.atlantischain.network"
+  ],
   "nativeCurrency": {
     "name": "ELY",
     "symbol": "ELY",

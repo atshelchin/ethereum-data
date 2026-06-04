@@ -1,7 +1,7 @@
 {
   "name": "Radius Testnet",
   "chain": "Radius",
-  "rpc": ["https://dev-secure.rpc.theradius.xyz"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Useless",

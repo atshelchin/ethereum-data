@@ -1,8 +1,12 @@
 {
   "name": "Edgeless Network",
   "chain": "Edgeless",
-  "rpc": ["https://rpc.edgeless.network/http"],
-  "features": [{ "name": "EIP155" }],
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Edgeless Wrapped Eth",

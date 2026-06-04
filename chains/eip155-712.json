@@ -3,7 +3,6 @@
   "chain": "Tucana",
   "title": "Tucana Testnet",
   "rpc": [
-    "https://evm-rpc.birdee-2.tucana.zone",
     "wss://evm-ws.birdee-2.tucana.zone"
   ],
   "faucets": [],

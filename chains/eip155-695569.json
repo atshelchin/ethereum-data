@@ -1,7 +1,9 @@
 {
   "name": "Pyrope Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.pyropechain.com", "wss://rpc.pyropechain.com"],
+  "rpc": [
+    "wss://rpc.pyropechain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

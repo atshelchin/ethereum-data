@@ -1,7 +1,7 @@
 {
   "name": "Altcoinchain",
   "chain": "mainnet",
-  "rpc": ["https://rpc0.altcoinchain.org/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Altcoin",

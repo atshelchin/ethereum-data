@@ -2,9 +2,7 @@
   "name": "EOS EVM Network",
   "chain": "EOS",
   "icon": "eos",
-  "rpc": [
-    "https://api.evm.eosnetwork.com"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "EOS",

@@ -2,7 +2,7 @@
   "name": "Draw Coin",
   "chain": "DRW",
   "icon": "drawchain",
-  "rpc": ["https://rpc.drawchain.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "DRW",
@@ -13,7 +13,6 @@
   "shortName": "drw",
   "chainId": 7788,
   "networkId": 7788,
-
   "explorers": [
     {
       "name": "Draw Chain Explorer",

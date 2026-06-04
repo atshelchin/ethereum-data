@@ -4,9 +4,6 @@
   "icon": "mindchain",
   "rpc": [
     "https://mind-smart-chain.rpc.thirdweb.com",
-    "https://seednode.mindchain.info",
-    "https://rpc-msc.mindchain.info/",
-    "https://archive.mindchain.info/",
     "wss://archive.mindchain.info/ws",
     "wss://seednode.mindchain.info/ws"
   ],

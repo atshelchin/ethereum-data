@@ -1,14 +1,23 @@
 {
   "name": "Cybria Testnet",
   "chain": "CYBA",
-  "rpc": ["https://l2-rpc.cybascan.io"],
-  "faucets": ["https://faucet.cybascan.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.cybascan.io"
+  ],
   "nativeCurrency": {
     "name": "Cybria",
     "symbol": "CYBA",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://cybria.io",
   "shortName": "tcyba",
   "chainId": 6666,
@@ -25,6 +34,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155420",
-    "bridges": [{ "url": "https://app.optimism.io/bridge" }]
+    "bridges": [
+      {
+        "url": "https://app.optimism.io/bridge"
+      }
+    ]
   }
 }

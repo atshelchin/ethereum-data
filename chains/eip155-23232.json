@@ -3,7 +3,6 @@
   "chain": "Gotas",
   "icon": "gotas",
   "rpc": [
-    "https://services.tanssi-mainnet.network/tanssi-2006",
     "wss://services.tanssi-mainnet.network/tanssi-2006"
   ],
   "faucets": [],

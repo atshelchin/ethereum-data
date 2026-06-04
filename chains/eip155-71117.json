@@ -3,8 +3,10 @@
   "title": "Wadzchain Testnet",
   "chain": "Wadzchain-Testnet",
   "icon": "wadz",
-  "rpc": ["https://rpc-testnet.wadzchain.io"],
-  "faucets": ["https://faucet-testnet.wadzchain.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet-testnet.wadzchain.io"
+  ],
   "nativeCurrency": {
     "name": "WadzChain Coin",
     "symbol": "WCO",

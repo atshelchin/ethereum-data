@@ -2,7 +2,7 @@
   "name": "Arcology Testnet",
   "chain": "Arcology",
   "icon": "acolicon",
-  "rpc": ["https://testnet.arcology.network/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Arcology Coin",

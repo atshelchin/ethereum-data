@@ -3,7 +3,7 @@
   "title": "BOAT Mainnet",
   "chain": "BOAT",
   "icon": "boat",
-  "rpc": ["https://rpc0.come.boat/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Best Of All Time Token",

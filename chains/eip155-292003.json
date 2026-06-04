@@ -1,7 +1,7 @@
 {
   "name": "Cipherem Testnet",
   "chain": "Cipherem",
-  "rpc": ["https://testnet.cipherem.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "CIP",

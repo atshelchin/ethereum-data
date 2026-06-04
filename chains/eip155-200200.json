@@ -2,8 +2,10 @@
   "name": "Zoo Mainnet",
   "chain": "Zoo",
   "icon": "zoo",
-  "rpc": ["https://api.zoo.network"],
-  "faucets": ["https://faucet.zoo-test.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.zoo-test.network"
+  ],
   "nativeCurrency": {
     "name": "Zoo",
     "symbol": "ZOO",

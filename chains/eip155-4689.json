@@ -4,8 +4,7 @@
   "rpc": [
     "https://babel-api.mainnet.iotex.io",
     "https://iotex.api.pocket.network",
-    "https://iotex.api.onfinality.io/public",
-    "https://rpc.ankr.com/iotex"
+    "https://iotex.api.onfinality.io/public"
   ],
   "faucets": [],
   "nativeCurrency": {

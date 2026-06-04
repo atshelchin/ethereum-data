@@ -1,8 +1,10 @@
 {
   "name": "Dexit Network",
   "chain": "DXT",
-  "rpc": ["https://dxt.dexit.network"],
-  "faucets": ["https://faucet.dexit.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.dexit.network"
+  ],
   "nativeCurrency": {
     "name": "Dexit network",
     "symbol": "DXT",

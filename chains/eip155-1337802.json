@@ -1,7 +1,7 @@
 {
   "name": "Kiln",
   "chain": "ETH",
-  "rpc": ["https://rpc.kiln.themerge.dev"],
+  "rpc": [],
   "faucets": [
     "https://faucet.kiln.themerge.dev",
     "https://kiln-faucet.pk910.de",

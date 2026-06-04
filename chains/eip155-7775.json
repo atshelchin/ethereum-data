@@ -2,7 +2,7 @@
   "name": "GDCC TESTNET",
   "chain": "GDCC",
   "icon": "gdcc",
-  "rpc": ["https://testnet-rpc1.gdccscan.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "GDCC",
@@ -13,7 +13,6 @@
   "shortName": "GDCC",
   "chainId": 7775,
   "networkId": 7775,
-
   "explorers": [
     {
       "name": "GDCC",

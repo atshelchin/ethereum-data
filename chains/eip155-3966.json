@@ -1,8 +1,10 @@
 {
   "name": "DYNO Mainnet",
   "chain": "DYNO",
-  "rpc": ["https://api.dynoprotocol.com"],
-  "faucets": ["https://faucet.dynoscan.io"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.dynoscan.io"
+  ],
   "nativeCurrency": {
     "name": "DYNO Token",
     "symbol": "DYNO",

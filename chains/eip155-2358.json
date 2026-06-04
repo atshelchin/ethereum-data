@@ -11,7 +11,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://api.sepolia.kroma.network"],
+  "rpc": [],
   "faucets": [],
   "infoURL": "https://kroma.network",
   "icon": "kroma",
@@ -26,6 +26,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://kroma.network/bridge" }]
+    "bridges": [
+      {
+        "url": "https://kroma.network/bridge"
+      }
+    ]
   }
 }

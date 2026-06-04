@@ -1,7 +1,7 @@
 {
   "name": "Monolythium Testnet",
   "chain": "LYTH",
-  "rpc": ["https://evm.testnet.mononodes.xyz"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Lythium",

@@ -2,7 +2,7 @@
   "name": "DeFiVerse Mainnet",
   "chain": "DeFiVerse",
   "icon": "defiverse",
-  "rpc": ["https://rpc.defi-verse.org/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Oasys",

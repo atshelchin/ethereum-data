@@ -1,7 +1,7 @@
 {
   "name": "Mint Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia-testnet-rpc.mintchain.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -24,6 +24,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://sepolia-testnet-bridge.mintchain.io" }]
+    "bridges": [
+      {
+        "url": "https://sepolia-testnet-bridge.mintchain.io"
+      }
+    ]
   }
 }

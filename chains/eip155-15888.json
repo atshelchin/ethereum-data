@@ -4,7 +4,7 @@
   "chain": "Bitroot",
   "chainId": 15888,
   "networkId": 15888,
-  "rpc": ["https://rpc.bitroot.co", "https://mainnet-rpc.bitroot.co"],
+  "rpc": [],
   "faucets": [],
   "infoURL": "https://bitroot.co",
   "nativeCurrency": {

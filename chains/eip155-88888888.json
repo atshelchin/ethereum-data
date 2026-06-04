@@ -2,7 +2,7 @@
   "name": "T.E.A.M Blockchain",
   "chain": "TEAM",
   "icon": "team",
-  "rpc": ["https://rpc.teamblockchain.team"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "TEAM",

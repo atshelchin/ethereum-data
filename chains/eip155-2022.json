@@ -2,7 +2,6 @@
   "name": "Beresheet BereEVM Testnet",
   "chain": "EDG",
   "rpc": [
-    "https://beresheet-evm.jelliedowl.net",
     "wss://beresheet.jelliedowl.net"
   ],
   "faucets": [],

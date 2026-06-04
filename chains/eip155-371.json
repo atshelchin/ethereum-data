@@ -1,7 +1,7 @@
 {
   "name": "Consta Testnet",
   "chain": "tCNT",
-  "rpc": ["https://rpc-testnet.theconsta.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "tCNT",

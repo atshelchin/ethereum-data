@@ -2,8 +2,10 @@
   "name": "Viridis Testnet",
   "chain": "VRD",
   "icon": "viridis",
-  "rpc": ["https://testnet-rpc.vrd.network"],
-  "faucets": ["https://faucet.vrd.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.vrd.network"
+  ],
   "nativeCurrency": {
     "name": "Viridis Token",
     "symbol": "VRD",

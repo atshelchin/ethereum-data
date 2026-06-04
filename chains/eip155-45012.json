@@ -1,14 +1,21 @@
 {
   "name": "Juneo SGD1-Chain",
   "chain": "Juneo SGD1-Chain",
-  "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/SGD1/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SGD1",
     "symbol": "SGD1",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://juneo.com/",
   "shortName": "SGD1",
   "chainId": 45012,

@@ -2,7 +2,7 @@
   "name": "Dracones Financial Services",
   "title": "The Dracones Mainnet",
   "chain": "FUCK",
-  "rpc": ["https://api.dracones.net/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Functionally Universal Coin Kind",

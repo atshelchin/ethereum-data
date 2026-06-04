@@ -1,7 +1,7 @@
 {
   "name": "AmaxSmartchain",
   "chain": "AmaxSmartchain",
-  "rpc": ["https://rpc.amaxchain.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "amax",
@@ -20,5 +20,7 @@
       "standard": "EIP3091"
     }
   ],
-  "redFlags": ["reusedChainId"]
+  "redFlags": [
+    "reusedChainId"
+  ]
 }

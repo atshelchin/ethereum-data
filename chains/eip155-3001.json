@@ -1,8 +1,10 @@
 {
   "name": "CENNZnet Nikau",
   "chain": "CENNZnet",
-  "rpc": ["https://nikau.centrality.me/public"],
-  "faucets": ["https://app-faucet.centrality.me"],
+  "rpc": [],
+  "faucets": [
+    "https://app-faucet.centrality.me"
+  ],
   "nativeCurrency": {
     "name": "CPAY",
     "symbol": "CPAY",

@@ -1,8 +1,10 @@
 {
   "name": "Teleport Testnet",
   "chain": "Teleport",
-  "rpc": ["https://evm-rpc.testnet.teleport.network"],
-  "faucets": ["https://chain-docs.teleport.network/testnet/faucet.html"],
+  "rpc": [],
+  "faucets": [
+    "https://chain-docs.teleport.network/testnet/faucet.html"
+  ],
   "nativeCurrency": {
     "name": "Tele",
     "symbol": "TELE",

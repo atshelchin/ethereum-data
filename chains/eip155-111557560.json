@@ -2,8 +2,6 @@
   "name": "Cyber Testnet",
   "chain": "Cyber",
   "rpc": [
-    "https://cyber-testnet.alt.technology/",
-    "https://rpc.testnet.cyber.co/",
     "wss://cyber-testnet.alt.technology/ws",
     "wss://rpc.testnet.cyber.co/"
   ],

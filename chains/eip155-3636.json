@@ -2,8 +2,10 @@
   "name": "Botanix Testnet",
   "chain": "BOTANIX",
   "icon": "botanix",
-  "rpc": ["https://node.botanixlabs.dev"],
-  "faucets": ["https://faucet.botanixlabs.dev"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.botanixlabs.dev"
+  ],
   "nativeCurrency": {
     "name": "Botanix",
     "symbol": "BTC",

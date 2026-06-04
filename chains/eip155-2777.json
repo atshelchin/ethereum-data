@@ -1,7 +1,7 @@
 {
   "name": "GM Network Mainnet",
   "chain": "GM Network Mainnet",
-  "rpc": ["https://rpc.gmnetwork.ai"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

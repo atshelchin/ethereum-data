@@ -1,7 +1,7 @@
 {
   "name": "Aves Testnet",
   "chain": "AVST",
-  "rpc": ["https://test.rpc.avescoin.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "AvesT",

@@ -1,7 +1,9 @@
 {
   "name": "Janction Testnet",
   "chain": "Janction Testnet",
-  "rpc": ["https://rpc_testnet.janction.io", "wss://rpc_testnet.janction.io"],
+  "rpc": [
+    "wss://rpc_testnet.janction.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Janction",

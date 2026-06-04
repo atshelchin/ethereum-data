@@ -2,8 +2,10 @@
   "name": "Dogcoin Mainnet",
   "chain": "DOGS",
   "icon": "dogs",
-  "rpc": ["https://mainnet-rpc.dogcoin.me"],
-  "faucets": ["https://faucet.dogcoin.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.dogcoin.network"
+  ],
   "nativeCurrency": {
     "name": "Dogcoin",
     "symbol": "DOGS",

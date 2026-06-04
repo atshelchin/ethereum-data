@@ -1,8 +1,12 @@
 {
   "name": "Latam-Blockchain Resil Testnet",
   "chain": "Resil",
-  "rpc": ["https://rpc.latam-blockchain.com", "wss://ws.latam-blockchain.com"],
-  "faucets": ["https://faucet.latam-blockchain.com"],
+  "rpc": [
+    "wss://ws.latam-blockchain.com"
+  ],
+  "faucets": [
+    "https://faucet.latam-blockchain.com"
+  ],
   "nativeCurrency": {
     "name": "Latam-Blockchain Resil Test Native Token",
     "symbol": "usd",

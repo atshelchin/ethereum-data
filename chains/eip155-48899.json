@@ -2,7 +2,7 @@
   "name": "Zircuit Testnet",
   "chain": "Zircuit Testnet",
   "icon": "zircuit",
-  "rpc": ["https://testnet.zircuit.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",

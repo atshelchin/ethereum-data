@@ -9,7 +9,7 @@
     "symbol": "EGAX",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.egochain.org"],
+  "rpc": [],
   "faucets": [],
   "infoURL": "https://docs.egochain.org/",
   "explorers": [

@@ -2,7 +2,7 @@
   "name": "KYMTC Mainnet",
   "chain": "KYMTC",
   "icon": "kymtc",
-  "rpc": ["https://mainnet-rpc.kymaticscan.online"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "KYMTC",

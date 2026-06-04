@@ -2,7 +2,7 @@
   "name": "Decentraconnect Social",
   "chain": "DCSM",
   "icon": "dcsmIcon",
-  "rpc": ["https://rpc.decentraconnect.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Decentraconnect Social",

@@ -2,8 +2,10 @@
   "name": "Soverun Mainnet",
   "chain": "SVRN",
   "icon": "soverun",
-  "rpc": ["https://mainnet-rpc.soverun.com"],
-  "faucets": ["https://faucet.soverun.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.soverun.com"
+  ],
   "nativeCurrency": {
     "name": "Soverun",
     "symbol": "SVRN",

@@ -1,17 +1,21 @@
 {
   "name": "Neurochain Mainnet",
   "chain": "NCN",
-  "rpc": [
-    "https://nc-rpc-prd1.neurochain.io",
-    "https://nc-rpc-prd2.neurochain.io"
-  ],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Neurochain",
     "symbol": "NCN",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://www.neurochain.ai",
   "shortName": "ncn",
   "chainId": 313,

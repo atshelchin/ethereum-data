@@ -1,14 +1,18 @@
 {
   "name": "Lumoz Chain Testnet",
   "chain": "ETH",
-  "rpc": ["https://testnet-rpc.lumoz.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Lumoz Testnet Token",
     "symbol": "MOZ",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://lumoz.org",
   "shortName": "Lumoz-Chain-Testnet",
   "chainId": 105363,

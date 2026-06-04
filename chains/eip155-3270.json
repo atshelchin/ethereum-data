@@ -1,8 +1,10 @@
 {
   "name": "Dubxcoin testnet",
   "chain": "TESTDUBX",
-  "rpc": ["https://rpctestnet.arabianchain.org"],
-  "faucets": ["https://faucet.arabianchain.org/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.arabianchain.org/"
+  ],
   "nativeCurrency": {
     "name": "Dubxcoin testnet",
     "symbol": "TDUBX",

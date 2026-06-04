@@ -1,7 +1,7 @@
 {
   "name": "SRICHAIN",
   "chain": "SRICHAIN",
-  "rpc": ["https://rpc.sriscan.com/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "SRIX",

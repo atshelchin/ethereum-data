@@ -2,8 +2,10 @@
   "name": "Nexis Network Testnet",
   "chain": "Nexis Network",
   "icon": "nexis",
-  "rpc": ["https://evm-testnet.nexis.network"],
-  "faucets": ["https://evm-faucet.nexis.network"],
+  "rpc": [],
+  "faucets": [
+    "https://evm-faucet.nexis.network"
+  ],
   "nativeCurrency": {
     "name": "Nexis",
     "symbol": "NZT",

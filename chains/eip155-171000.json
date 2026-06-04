@@ -1,14 +1,20 @@
 {
   "name": "Fair Testnet",
   "chain": "FAIR",
-  "rpc": ["https://rpc-testnet.xfair.ai", "wss://rpc-testnet.xfair.ai"],
+  "rpc": [
+    "wss://rpc-testnet.xfair.ai"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FAIR",
     "symbol": "FAIR",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://xfair.ai",
   "shortName": "fairt",
   "chainId": 171000,

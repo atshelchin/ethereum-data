@@ -1,7 +1,7 @@
 {
   "name": "Godwoken Mainnet",
   "chain": "GWT",
-  "rpc": ["https://v1.mainnet.godwoken.io/rpc"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "pCKB",

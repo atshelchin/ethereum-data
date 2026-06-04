@@ -2,7 +2,7 @@
   "name": "Hokum Testnet",
   "chain": "HokumTestnet",
   "icon": "hokum",
-  "rpc": ["https://testnet.hokum.gg"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

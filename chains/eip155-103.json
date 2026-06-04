@@ -3,8 +3,7 @@
   "chain": "Worldland",
   "icon": "worldland",
   "rpc": [
-    "https://seoul.worldland.foundation",
-    "https://seoul2.worldland.foundation"
+    "https://seoul.worldland.foundation"
   ],
   "faucets": [],
   "nativeCurrency": {

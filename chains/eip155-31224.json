@@ -2,8 +2,10 @@
   "name": "CloudTx Testnet",
   "chain": "CloudTx",
   "icon": "cloudtx",
-  "rpc": ["https://testnet-rpc.cloudtx.finance"],
-  "faucets": ["https://faucet.cloudtx.finance"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.cloudtx.finance"
+  ],
   "nativeCurrency": {
     "name": "CloudTx",
     "symbol": "CLD",

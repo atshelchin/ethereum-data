@@ -2,7 +2,7 @@
   "name": "Planq Atlas Testnet",
   "chain": "Planq",
   "icon": "planq",
-  "rpc": ["https://evm-rpc-atlas.planq.network"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Planq",

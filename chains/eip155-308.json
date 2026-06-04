@@ -1,7 +1,7 @@
 {
   "name": "Furtheon",
   "chain": "Furtheon Network",
-  "rpc": ["https://rpc.furtheon.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Furtheon",

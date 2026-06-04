@@ -3,8 +3,10 @@
   "title": "MetaChain Testnet Istanbul",
   "chain": "MTC",
   "icon": "metachain",
-  "rpc": ["https://istanbul-rpc.metachain.dev"],
-  "faucets": ["https://istanbul-faucet.metachain.dev"],
+  "rpc": [],
+  "faucets": [
+    "https://istanbul-faucet.metachain.dev"
+  ],
   "nativeCurrency": {
     "name": "Metatime Coin",
     "symbol": "MTC",

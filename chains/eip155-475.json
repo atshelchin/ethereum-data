@@ -1,7 +1,7 @@
 {
   "name": "zkXPLA Testnet",
   "chain": "zkXPLA",
-  "rpc": ["https://testnet-rpc.zkxpla.io"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

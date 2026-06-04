@@ -1,7 +1,7 @@
 {
   "name": "Elastos Smart Chain",
   "chain": "ETH",
-  "rpc": ["https://api.elastos.io/eth"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Elastos",

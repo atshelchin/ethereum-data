@@ -2,8 +2,10 @@
   "name": "Vention Smart Chain Mainnet",
   "chain": "VSC",
   "icon": "vention",
-  "rpc": ["https://mainnet-rpc.vention.network"],
-  "faucets": ["https://faucet.vention.network"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.vention.network"
+  ],
   "nativeCurrency": {
     "name": "VNT",
     "symbol": "VNT",

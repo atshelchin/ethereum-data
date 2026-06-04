@@ -2,7 +2,7 @@
   "name": "Compverse Mainnet",
   "chain": "CPV",
   "icon": "compverse",
-  "rpc": ["https://rpc.compverse.io/", "https://rpc-useast1.compverse.io/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "compverse",

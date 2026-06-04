@@ -3,9 +3,7 @@
   "chain": "MAAL",
   "icon": "maal",
   "rpc": [
-    "https://node1-mainnet-new.maalscan.io/",
-    "https://node2-mainnet-new.maalscan.io/",
-    "https://node3-mainnet-new.maalscan.io/"
+    "https://node1-mainnet-new.maalscan.io/"
   ],
   "faucets": [],
   "nativeCurrency": {

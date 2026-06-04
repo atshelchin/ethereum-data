@@ -2,7 +2,7 @@
   "name": "Toronet Mainnet",
   "chain": "Toronet",
   "icon": "toronet",
-  "rpc": ["https://www.toronet.org/rpc2/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Toroe",

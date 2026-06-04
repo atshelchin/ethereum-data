@@ -2,7 +2,7 @@
   "name": "Yooldo Verse Mainnet",
   "chain": "Yooldo Verse",
   "icon": "yooldo_verse",
-  "rpc": ["https://rpc.yooldo-verse.xyz/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",

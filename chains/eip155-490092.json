@@ -1,8 +1,10 @@
 {
   "name": "PUMPFI CHAIN TESTNET",
   "chain": "PUMPFI CHAIN TESTNET",
-  "rpc": ["https://rpc1testnet.pumpfi.me"],
-  "faucets": ["https://faucet.pumpfi.me"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.pumpfi.me"
+  ],
   "nativeCurrency": {
     "name": "PMPT",
     "symbol": "PMPT",

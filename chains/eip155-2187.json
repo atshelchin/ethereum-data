@@ -3,8 +3,6 @@
   "title": "Game7",
   "chain": "Game7",
   "rpc": [
-    "https://mainnet-rpc.game7.io",
-    "https://mainnet-rpc.game7.build",
     "wss://mainnet-rpc.game7.io",
     "wss://mainnet-rpc.game7.build"
   ],

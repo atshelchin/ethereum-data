@@ -1,7 +1,7 @@
 {
   "name": "XCHAIN",
   "chain": "XCHAIN",
-  "rpc": ["https://xchain-rpc.kuma.bid"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

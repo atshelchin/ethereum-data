@@ -4,7 +4,6 @@
   "rpc": [
     "https://rpc.qubetics.com",
     "https://evm-rpc-arch.qubetics.com",
-    "https://evm-ws-arch.qubetics.com",
     "wss://socket-testnet.qubetics.work"
   ],
   "faucets": [],

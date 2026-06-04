@@ -2,7 +2,7 @@
   "name": "Zytron Linea Testnet",
   "chain": "ETH",
   "icon": "zytron",
-  "rpc": ["https://linea-testnet-zytron.zypher.game/"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",

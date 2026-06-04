@@ -2,8 +2,10 @@
   "name": "Blockton Blockchain",
   "chain": "Blockton Blockchain",
   "icon": "bton",
-  "rpc": ["https://rpc.blocktonscan.com/"],
-  "faucets": ["https://faucet.blocktonscan.com/"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.blocktonscan.com/"
+  ],
   "nativeCurrency": {
     "name": "BLOCKTON",
     "symbol": "BTON",

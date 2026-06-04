@@ -2,8 +2,10 @@
   "name": "Eclat Testnet",
   "chain": "Eclat",
   "icon": "eclat",
-  "rpc": ["https://testnet-rpc.eclatscan.com"],
-  "faucets": ["https://faucet.eclatscan.com"],
+  "rpc": [],
+  "faucets": [
+    "https://faucet.eclatscan.com"
+  ],
   "nativeCurrency": {
     "name": "Eclat Testnet",
     "symbol": "ECLAT",

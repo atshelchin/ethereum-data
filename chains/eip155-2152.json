@@ -1,7 +1,7 @@
 {
   "name": "Findora Mainnet",
   "chain": "Findora",
-  "rpc": ["https://rpc-mainnet.findora.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "FRA",

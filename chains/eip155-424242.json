@@ -2,8 +2,15 @@
   "name": "Fastex Chain testnet",
   "chain": "FTN",
   "title": "Fastex Chain testnet",
-  "rpc": ["https://rpc.testnet.fastexchain.com"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FTN",

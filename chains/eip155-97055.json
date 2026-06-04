@@ -1,9 +1,13 @@
 {
   "name": "Tetron Smart Chain",
   "chain": "Tetron Mainnet",
-  "rpc": ["https://rpc.tscscan.org"],
+  "rpc": [],
   "faucets": [],
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "nativeCurrency": {
     "name": "Tetron Mainnet",
     "symbol": "TSC",

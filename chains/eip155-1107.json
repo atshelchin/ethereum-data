@@ -2,7 +2,7 @@
   "name": "BLXq Testnet",
   "chain": "BLXQ",
   "icon": "blxq",
-  "rpc": ["https://testnetq1.blx.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "BLXQ",

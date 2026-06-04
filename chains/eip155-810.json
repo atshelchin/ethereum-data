@@ -1,14 +1,23 @@
 {
   "name": "Haven1 Testnet",
   "chain": "haven1",
-  "rpc": ["https://testnet-rpc.haven1.org"],
-  "faucets": ["https://www.haven1.org/faucet"],
+  "rpc": [],
+  "faucets": [
+    "https://www.haven1.org/faucet"
+  ],
   "nativeCurrency": {
     "name": "Haven1",
     "symbol": "H1",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://www.haven1.org",
   "shortName": "h1",
   "chainId": 810,

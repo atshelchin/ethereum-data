@@ -1,7 +1,7 @@
 {
   "name": "Kiwi Subnet",
   "chain": "KIWI",
-  "rpc": ["https://subnets.avax.network/kiwi/testnet/rpc"],
+  "rpc": [],
   "features": [
     {
       "name": "EIP1559"
