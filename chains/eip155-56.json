@@ -2,7 +2,6 @@
   "name": "BNB Smart Chain Mainnet",
   "chain": "BSC",
   "rpc": [
-    "https://bsc.drpc.org",
     "https://bsc-pokt.nodies.app",
     "https://bsc-dataseed3.defibit.io",
     "https://bnb.api.onfinality.io/public",
@@ -21,12 +20,8 @@
     "https://bsc-dataseed2.defibit.io",
     "https://rpc.ankr.com/bsc",
     "https://1rpc.io/bnb",
-    "https://binance.llamarpc.com",
-    "https://bsc.blockpi.network/v1/rpc/public",
     "https://public-bsc.nownodes.io",
-    "wss://bsc-rpc.publicnode.com",
-    "wss://bsc-ws-node.nariox.org",
-    "wss://binance.llamarpc.com"
+    "wss://bsc-rpc.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {
