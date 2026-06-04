@@ -17,20 +17,14 @@
     "https://rpc.mevblocker.io/noreverts",
     "https://rpc.mevblocker.io/fullprivacy",
     "https://rpcfree.com/ethereum",
-    "https://eth.llamarpc.com",
     "https://1rpc.io/eth",
-    "https://api.mycryptoapi.com/eth",
     "https://cloudflare-eth.com",
-    "https://rpc.blocknative.com/boost",
-    "https://api.securerpc.com/v1",
     "https://rpc.ankr.com/eth",
-    "https://ethereum.blockpi.network/v1/rpc/public",
     "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
     "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
     "wss://ethereum-rpc.publicnode.com",
     "wss://mainnet.gateway.tenderly.co",
-    "wss://eth.drpc.org",
-    "wss://eth.llamarpc.com"
+    "wss://eth.drpc.org"
   ],
   "features": [
     {
