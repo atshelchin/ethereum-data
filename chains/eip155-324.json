@@ -8,7 +8,6 @@
     "https://rpc.ankr.com/zksync_era",
     "https://zksync.api.onfinality.io/public",
     "https://1rpc.io/zksync2-era",
-    "https://zksync-era.blockpi.network/v1/rpc/public",
     "wss://zksync.drpc.org"
   ],
   "faucets": [],
