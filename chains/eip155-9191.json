@@ -1,0 +1,39 @@
+{
+  "name": "Warden Barra Testnet",
+  "chain": "WARD",
+  "rpc": [
+    "https://evm.barra.wardenprotocol.org",
+    "wss://evm-ws.barra.wardenprotocol.org"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "faucets": [
+    "https://faucet.wardenprotocol.org"
+  ],
+  "nativeCurrency": {
+    "name": "WARD",
+    "symbol": "WARD",
+    "decimals": 18
+  },
+  "infoURL": "https://wardenprotocol.org",
+  "icon": "warden",
+  "shortName": "ward-barra",
+  "chainId": 9191,
+  "networkId": 9191,
+  "explorers": [
+    {
+      "name": "Warden Barra Explorer",
+      "url": "https://explorer.barra.wardenprotocol.org",
+      "standard": "EIP3091"
+    }
+  ]
+}

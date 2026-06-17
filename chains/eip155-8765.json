@@ -1,0 +1,41 @@
+{
+  "name": "Warden",
+  "chain": "WARD",
+  "rpc": [
+    "https://evm.wardenprotocol.org",
+    "https://warden-evm-rpc.publicnode.com",
+    "wss://evm-ws.wardenprotocol.org"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WARD",
+    "symbol": "WARD",
+    "decimals": 18
+  },
+  "infoURL": "https://wardenprotocol.org",
+  "icon": "warden",
+  "shortName": "warden",
+  "chainId": 8765,
+  "networkId": 8765,
+  "explorers": [
+    {
+      "name": "Warden Protocol Explorer",
+      "url": "https://explorer.wardenprotocol.org",
+      "standard": "EIP3091"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
+}
