@@ -2,9 +2,9 @@
   "name": "Fraxtal",
   "chain": "FRAX",
   "rpc": [
+    "https://fraxtal-rpc.publicnode.com",
     "https://fraxtal.drpc.org",
     "https://rpc.frax.com",
-    "https://fraxtal-rpc.publicnode.com",
     "https://fraxtal.api.pocket.network",
     "wss://fraxtal-rpc.publicnode.com"
   ],

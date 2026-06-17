@@ -2,6 +2,7 @@
   "name": "Tempo Mainnet Presto",
   "chain": "ETH",
   "rpc": [
+    "https://tempo-rpc.publicnode.com",
     "https://rpc.mainnet.tempo.xyz",
     "wss://rpc.mainnet.tempo.xyz"
   ],

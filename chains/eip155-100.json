@@ -3,9 +3,9 @@
   "chain": "GNO",
   "icon": "gnosis",
   "rpc": [
+    "https://gnosis-rpc.publicnode.com",
     "https://gnosis.drpc.org",
     "https://gnosis.oat.farm",
-    "https://gnosis-rpc.publicnode.com",
     "https://rpc.gnosis.gateway.fm",
     "https://rpc.gnosischain.com",
     "https://gnosis-pokt.nodies.app",

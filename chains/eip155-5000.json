@@ -3,8 +3,8 @@
   "chain": "ETH",
   "icon": "mantle",
   "rpc": [
-    "https://mantle.drpc.org",
     "https://mantle-rpc.publicnode.com",
+    "https://mantle.drpc.org",
     "https://rpc.mantle.xyz",
     "https://mantle.api.onfinality.io/public",
     "https://mantle.api.pocket.network",

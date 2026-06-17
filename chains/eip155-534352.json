@@ -3,9 +3,9 @@
   "chain": "ETH",
   "status": "active",
   "rpc": [
+    "https://scroll-rpc.publicnode.com",
     "https://scroll.drpc.org",
     "https://rpc.scroll.io",
-    "https://scroll-rpc.publicnode.com",
     "https://scroll.api.onfinality.io/public",
     "https://scroll.api.pocket.network",
     "wss://scroll-rpc.publicnode.com"

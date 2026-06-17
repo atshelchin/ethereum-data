@@ -2,9 +2,9 @@
   "name": "Base",
   "chain": "ETH",
   "rpc": [
+    "https://base-rpc.publicnode.com",
     "https://base.drpc.org",
     "https://developer-access-mainnet.base.org/",
-    "https://base-rpc.publicnode.com",
     "https://base.gateway.tenderly.co",
     "https://mainnet.base.org/",
     "https://base.api.pocket.network",

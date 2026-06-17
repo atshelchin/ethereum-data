@@ -2,10 +2,10 @@
   "name": "OP Mainnet",
   "chain": "ETH",
   "rpc": [
+    "https://optimism-rpc.publicnode.com",
     "https://optimism.drpc.org",
     "https://optimism.gateway.tenderly.co",
     "https://mainnet.optimism.io",
-    "https://optimism-rpc.publicnode.com",
     "https://op-pokt.nodies.app",
     "https://optimism.api.onfinality.io/public",
     "https://op.api.pocket.network",

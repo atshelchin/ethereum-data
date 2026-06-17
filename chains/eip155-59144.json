@@ -3,9 +3,9 @@
   "title": "Linea Mainnet",
   "chain": "ETH",
   "rpc": [
+    "https://linea-rpc.publicnode.com",
     "https://linea.drpc.org",
     "https://rpc.linea.build",
-    "https://linea-rpc.publicnode.com",
     "https://linea.api.pocket.network",
     "wss://rpc.linea.build",
     "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}",

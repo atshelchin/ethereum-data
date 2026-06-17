@@ -3,8 +3,8 @@
   "chain": "AVAX",
   "icon": "avax",
   "rpc": [
-    "https://avalanche.drpc.org",
     "https://avalanche-c-chain-rpc.publicnode.com",
+    "https://avalanche.drpc.org",
     "https://api.avax.network/ext/bc/C/rpc",
     "https://avax-pokt.nodies.app/ext/bc/C/rpc",
     "https://avax.api.pocket.network",

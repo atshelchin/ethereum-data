@@ -2,6 +2,7 @@
   "name": "BNB Smart Chain Mainnet",
   "chain": "BSC",
   "rpc": [
+    "https://bsc-rpc.publicnode.com",
     "https://bsc-pokt.nodies.app",
     "https://bsc-dataseed3.defibit.io",
     "https://bnb.api.onfinality.io/public",
@@ -14,7 +15,6 @@
     "https://bsc-dataseed3.bnbchain.org",
     "https://bsc-dataseed4.bnbchain.org",
     "https://bsc-dataseed3.ninicoin.io",
-    "https://bsc-rpc.publicnode.com",
     "https://bsc-dataseed1.defibit.io",
     "https://bsc-dataseed4.ninicoin.io",
     "https://bsc-dataseed2.defibit.io",
