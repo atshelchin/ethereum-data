@@ -2,7 +2,9 @@
   "name": "Torus Mainnet",
   "chain": "TQF",
   "icon": "torus",
-  "rpc": ["https://rpc.toruschain.com"],
+  "rpc": [
+    "https://rpc.toruschain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TQF",
@@ -20,5 +22,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

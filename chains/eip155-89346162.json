@@ -32,5 +32,10 @@
         "url": "https://bridge.gelato.network/bridge/reya-cronos"
       }
     ]
-  }
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

@@ -51,5 +51,8 @@
       "router": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
     },
     "url": "https://vvs.finance"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

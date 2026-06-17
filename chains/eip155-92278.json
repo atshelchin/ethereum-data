@@ -1,7 +1,9 @@
 {
   "name": "Miracle Chain",
   "chain": "MIRACLE",
-  "rpc": ["https://rpc.miracleplay.io"],
+  "rpc": [
+    "https://rpc.miracleplay.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Miracle Play Token",
@@ -19,6 +21,11 @@
       "icon": "miracle",
       "url": "https://explorer.miracleplay.io",
       "standard": "none"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

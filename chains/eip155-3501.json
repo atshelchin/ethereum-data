@@ -1,7 +1,9 @@
 {
   "name": "JFIN Chain",
   "chain": "JFIN",
-  "rpc": ["https://rpc.jfinchain.com"],
+  "rpc": [
+    "https://rpc.jfinchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "JFIN Coin",
@@ -18,5 +20,8 @@
       "url": "https://exp.jfinchain.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

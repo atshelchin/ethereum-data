@@ -2,7 +2,9 @@
   "name": "Creditcoin",
   "chain": "CTC",
   "icon": "creditcoin",
-  "rpc": ["https://mainnet3.creditcoin.network"],
+  "rpc": [
+    "https://mainnet3.creditcoin.network"
+  ],
   "features": [
     {
       "name": "EIP155"
@@ -28,5 +30,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

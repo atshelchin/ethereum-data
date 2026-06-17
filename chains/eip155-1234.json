@@ -3,7 +3,9 @@
   "title": "Step Main Network",
   "chain": "STEP",
   "icon": "step",
-  "rpc": ["https://rpc.step.network"],
+  "rpc": [
+    "https://rpc.step.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FITFI",
@@ -25,6 +27,15 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-43114",
-    "bridges": [{ "url": "https://bridge.step.network" }]
-  }
+    "bridges": [
+      {
+        "url": "https://bridge.step.network"
+      }
+    ]
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

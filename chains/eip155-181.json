@@ -1,7 +1,9 @@
 {
   "name": "Waterfall Network",
   "chain": "Waterfall Network",
-  "rpc": ["https://rpc.waterfall.network/"],
+  "rpc": [
+    "https://rpc.waterfall.network/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "WATER",
@@ -18,5 +20,8 @@
   "chainId": 181,
   "networkId": 181,
   "icon": "waterfall-main",
-  "explorers": []
+  "explorers": [],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

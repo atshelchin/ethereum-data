@@ -4,7 +4,9 @@
   "chain": "TOKCLAW",
   "chainId": 7447,
   "networkId": 7447,
-  "rpc": ["https://rpc.tokclaw.com"],
+  "rpc": [
+    "https://rpc.tokclaw.com"
+  ],
   "faucets": [],
   "infoURL": "https://tokclaw.com",
   "nativeCurrency": {
@@ -17,6 +19,11 @@
       "name": "TokClaw Explorer",
       "url": "https://exp.tokclaw.com",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

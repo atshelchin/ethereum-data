@@ -14,5 +14,13 @@
   "infoURL": "https://megaeth.com",
   "shortName": "megaeth",
   "chainId": 4326,
-  "networkId": 4326
+  "networkId": 4326,
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

@@ -48,5 +48,13 @@
       "type": "bridge",
       "contract": "0x9e5AAc1Ba1a2e6aEd6b32689DFcF62A509Ca96f3"
     }
-  ]
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

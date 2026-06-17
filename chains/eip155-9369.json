@@ -2,9 +2,15 @@
   "name": "Z Chain",
   "title": "Z Chain",
   "chain": "Z",
-  "rpc": ["https://rpc.zchain.org"],
+  "rpc": [
+    "https://rpc.zchain.org"
+  ],
   "faucets": [],
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "nativeCurrency": {
     "name": "Z",
     "symbol": "Z",
@@ -26,6 +32,13 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "bridge.zchain.org" }]
+    "bridges": [
+      {
+        "url": "bridge.zchain.org"
+      }
+    ]
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

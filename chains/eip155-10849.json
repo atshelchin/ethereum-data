@@ -1,10 +1,15 @@
 {
   "name": "Lamina1",
   "chain": "Lamina1",
-  "rpc": ["https://subnets.avax.network/lamina1/mainnet/rpc"],
+  "rpc": [
+    "https://subnets.avax.network/lamina1/mainnet/rpc"
+  ],
   "features": [
     {
       "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
     }
   ],
   "faucets": [],

@@ -1,8 +1,13 @@
 {
   "name": "WEMIX3.0 Testnet",
   "chain": "TWEMIX",
-  "rpc": ["https://api.test.wemix.com", "wss://ws.test.wemix.com"],
-  "faucets": ["https://wallet.test.wemix.com/faucet"],
+  "rpc": [
+    "https://api.test.wemix.com",
+    "wss://ws.test.wemix.com"
+  ],
+  "faucets": [
+    "https://wallet.test.wemix.com/faucet"
+  ],
   "nativeCurrency": {
     "name": "TestnetWEMIX",
     "symbol": "tWEMIX",
@@ -19,5 +24,8 @@
       "url": "https://microscope.test.wemix.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

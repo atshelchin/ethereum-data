@@ -4,7 +4,9 @@
   "title": "Soneium Testnet Minato",
   "chain": "ETH",
   "icon": "minato",
-  "rpc": ["https://rpc.minato.soneium.org"],
+  "rpc": [
+    "https://rpc.minato.soneium.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -29,5 +31,13 @@
         "url": "https://bridge.soneium.org/testnet"
       }
     ]
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

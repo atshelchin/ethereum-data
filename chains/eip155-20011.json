@@ -2,8 +2,12 @@
   "name": "Mandala Chain Testnet",
   "chain": "MANDALA",
   "icon": "mandala",
-  "rpc": ["https://rpc1-testnet.mandalachain.io"],
-  "faucets": ["https://dripper.mandalachain.io"],
+  "rpc": [
+    "https://rpc1-testnet.mandalachain.io"
+  ],
+  "faucets": [
+    "https://dripper.mandalachain.io"
+  ],
   "nativeCurrency": {
     "name": "Kepeng Test",
     "symbol": "KPGT",
@@ -30,5 +34,10 @@
       }
     ]
   },
-  "status": "active"
+  "status": "active",
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

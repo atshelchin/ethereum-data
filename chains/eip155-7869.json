@@ -1,7 +1,9 @@
 {
   "name": "Powerloom Mainnet V2",
   "chain": "Powerloom Mainnet V2",
-  "rpc": ["https://rpc-v2.powerloom.network"],
+  "rpc": [
+    "https://rpc-v2.powerloom.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Powerloom Token",
@@ -20,6 +22,11 @@
       "url": "https://explorer-v2.powerloom.network",
       "icon": "blockscout",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

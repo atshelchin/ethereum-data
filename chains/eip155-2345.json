@@ -2,7 +2,9 @@
   "name": "GOAT Network",
   "title": "GOAT Network",
   "chain": "GOAT",
-  "rpc": ["https://rpc.goat.network"],
+  "rpc": [
+    "https://rpc.goat.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",
@@ -20,5 +22,13 @@
       "url": "https://explorer.goat.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

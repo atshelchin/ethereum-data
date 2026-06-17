@@ -1,14 +1,23 @@
 {
   "name": "PLAYA3ULL GAMES",
   "chain": "3ULL",
-  "rpc": ["https://api.mainnet.playa3ull.games"],
+  "rpc": [
+    "https://api.mainnet.playa3ull.games"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "3ULL",
     "symbol": "3ULL",
     "decimals": 18
   },
-  "features": [{ "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
+    }
+  ],
   "infoURL": "https://playa3ull.games",
   "shortName": "3ULL",
   "chainId": 3011,

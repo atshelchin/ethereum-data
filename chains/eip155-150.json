@@ -2,8 +2,12 @@
   "name": "Six Protocol Testnet",
   "chain": "FIVENET",
   "icon": "six",
-  "rpc": ["https://rpc-evm.fivenet.sixprotocol.net"],
-  "faucets": ["https://faucet.sixprotocol.net"],
+  "rpc": [
+    "https://rpc-evm.fivenet.sixprotocol.net"
+  ],
+  "faucets": [
+    "https://faucet.sixprotocol.net"
+  ],
   "nativeCurrency": {
     "name": "SIX testnet evm token",
     "symbol": "tSIX",
@@ -20,5 +24,8 @@
       "standard": "none",
       "icon": "six"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

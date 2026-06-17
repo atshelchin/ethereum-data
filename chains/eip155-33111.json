@@ -1,8 +1,12 @@
 {
   "name": "Curtis",
   "chain": "Curtis",
-  "rpc": ["https://rpc.curtis.apechain.com"],
-  "faucets": ["https://curtis.hub.caldera.xyz"],
+  "rpc": [
+    "https://rpc.curtis.apechain.com"
+  ],
+  "faucets": [
+    "https://curtis.hub.caldera.xyz"
+  ],
   "nativeCurrency": {
     "name": "ApeCoin",
     "symbol": "APE",
@@ -19,5 +23,13 @@
       "url": "https://explorer.curtis.apechain.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

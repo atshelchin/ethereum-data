@@ -5,7 +5,9 @@
     "https://evm-rpc-testnet.sei-apis.com",
     "wss://evm-ws-testnet.sei-apis.com"
   ],
-  "faucets": ["https://atlantic-2.app.sei.io/faucet"],
+  "faucets": [
+    "https://atlantic-2.app.sei.io/faucet"
+  ],
   "nativeCurrency": {
     "name": "Sei",
     "symbol": "SEI",
@@ -22,5 +24,8 @@
       "url": "https://seitrace.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

@@ -1,14 +1,23 @@
 {
   "name": "Hydra Chain",
   "chain": "HYDRA",
-  "rpc": ["https://rpc-mainnet.hydrachain.org"],
+  "rpc": [
+    "https://rpc-mainnet.hydrachain.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Hydra",
     "symbol": "HYDRA",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://hydrachain.org",
   "shortName": "HYDRA",
   "chainId": 4488,
@@ -21,5 +30,8 @@
       "icon": "hydra",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

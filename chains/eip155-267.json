@@ -3,9 +3,20 @@
   "title": "Neura Testnet",
   "chain": "NEURA",
   "icon": "neura",
-  "rpc": ["https://rpc.ankr.com/neura_testnet"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": ["https://testnet.neuraprotocol.io/faucet"],
+  "rpc": [
+    "https://rpc.ankr.com/neura_testnet"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [
+    "https://testnet.neuraprotocol.io/faucet"
+  ],
   "nativeCurrency": {
     "name": "Testnet Ankr",
     "symbol": "ANKR",
@@ -30,5 +41,8 @@
     }
   ],
   "status": "active",
-  "slip44": 1
+  "slip44": 1,
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

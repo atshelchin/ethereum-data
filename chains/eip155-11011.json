@@ -1,7 +1,9 @@
 {
   "name": "Shape Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.shape.network"],
+  "rpc": [
+    "https://sepolia.shape.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -20,5 +22,13 @@
       "standard": "EIP3091"
     }
   ],
-  "slip44": 1
+  "slip44": 1,
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

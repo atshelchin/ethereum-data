@@ -53,5 +53,13 @@
       "router": "0xe0fbB27D0E7F3a397A67a9d4864D4f4DD7cF8cB9"
     },
     "url": "https://klayswap.com"
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

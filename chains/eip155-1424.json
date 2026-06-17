@@ -1,7 +1,9 @@
 {
   "name": "Perennial",
   "chain": "perennial",
-  "rpc": ["https://rpc.perennial.foundation"],
+  "rpc": [
+    "https://rpc.perennial.foundation"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -28,5 +30,13 @@
         "url": "https://bridge.perennial.foundation"
       }
     ]
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

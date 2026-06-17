@@ -2,7 +2,9 @@
   "name": "B3",
   "chain": "B3",
   "icon": "b3",
-  "rpc": ["https://mainnet-rpc.b3.fun"],
+  "rpc": [
+    "https://mainnet-rpc.b3.fun"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",
@@ -18,6 +20,11 @@
       "name": "Blockscout",
       "url": "https://explorer.b3.fun",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

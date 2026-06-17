@@ -1,7 +1,9 @@
 {
   "name": "RARI Chain Mainnet",
   "chain": "RARI",
-  "rpc": ["https://rari.calderachain.xyz/http"],
+  "rpc": [
+    "https://rari.calderachain.xyz/http"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ethereum",
@@ -17,6 +19,11 @@
       "name": "rarichain-explorer",
       "url": "https://mainnet.explorer.rarichain.org",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

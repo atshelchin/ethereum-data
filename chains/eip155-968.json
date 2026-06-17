@@ -2,8 +2,20 @@
   "name": "Datagram",
   "chain": "DGRAM",
   "icon": "dgram",
-  "rpc": ["https://mainnet.datagram.network/rpc"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://mainnet.datagram.network/rpc"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DGRAM",

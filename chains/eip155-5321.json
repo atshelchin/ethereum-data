@@ -1,7 +1,9 @@
 {
   "name": "ITX Testnet",
   "chain": "ITX",
-  "rpc": ["https://rpc.testnet.itxchain.com"],
+  "rpc": [
+    "https://rpc.testnet.itxchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ITX",
@@ -17,6 +19,11 @@
       "name": "ITX Testnet Explorer (Blockscout)",
       "url": "https://explorer.testnet.itxchain.com",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

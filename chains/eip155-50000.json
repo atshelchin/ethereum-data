@@ -1,7 +1,9 @@
 {
   "name": "Citronus",
   "chain": "Citronus",
-  "rpc": ["https://rpc.citronus.com"],
+  "rpc": [
+    "https://rpc.citronus.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "CITRO",
@@ -24,6 +26,15 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.gelato.network/bridge/citronus" }]
-  }
+    "bridges": [
+      {
+        "url": "https://bridge.gelato.network/bridge/citronus"
+      }
+    ]
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

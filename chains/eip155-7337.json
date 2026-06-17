@@ -2,7 +2,10 @@
   "name": "Pruv Mainnet",
   "chain": "PRUV Mainnet",
   "icon": "pruv",
-  "rpc": ["https://rpc.pruv.network", "wss://rpc.pruv.network"],
+  "rpc": [
+    "https://rpc.pruv.network",
+    "wss://rpc.pruv.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Pruv",
@@ -20,5 +23,8 @@
       "icon": "pruv",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

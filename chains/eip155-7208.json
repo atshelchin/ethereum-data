@@ -5,12 +5,17 @@
   "networkId": 7208,
   "infoURL": "https://nexera.network",
   "shortName": "nxra-mainnet",
-  "rpc": ["https://rpc.nexera.network"],
+  "rpc": [
+    "https://rpc.nexera.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "NXRA",
     "symbol": "NXRA",
     "decimals": 18
   },
-  "explorers": []
+  "explorers": [],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

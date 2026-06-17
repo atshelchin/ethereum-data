@@ -22,5 +22,10 @@
       "url": "https://explorer.ata.network",
       "standard": "EIP3091"
     }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
   ]
 }

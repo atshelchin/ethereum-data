@@ -1,8 +1,12 @@
 {
   "name": "Helios Chain Testnet",
   "chain": "Helios Chain",
-  "rpc": ["https://testnet1.helioschainlabs.org"],
-  "faucets": ["https://testnet.helioschain.network"],
+  "rpc": [
+    "https://testnet1.helioschainlabs.org"
+  ],
+  "faucets": [
+    "https://testnet.helioschain.network"
+  ],
   "nativeCurrency": {
     "name": "Helios",
     "symbol": "HLS",
@@ -15,6 +19,9 @@
     },
     {
       "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
     }
   ],
   "infoURL": "https://hub.helioschain.network",

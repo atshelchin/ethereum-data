@@ -2,8 +2,12 @@
   "name": "Intuition Testnet",
   "chain": "TRUST",
   "icon": "intuition",
-  "rpc": ["https://testnet.rpc.intuition.systems"],
-  "faucets": ["https://intuition-testnet.hub.caldera.xyz"],
+  "rpc": [
+    "https://testnet.rpc.intuition.systems"
+  ],
+  "faucets": [
+    "https://intuition-testnet.hub.caldera.xyz"
+  ],
   "nativeCurrency": {
     "name": "Testnet TRUST",
     "symbol": "tTRUST",
@@ -23,5 +27,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-84532"
-  }
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

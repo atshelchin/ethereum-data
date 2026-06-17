@@ -1,7 +1,9 @@
 {
   "name": "Humanity Protocol",
   "chain": "Humanity",
-  "rpc": ["https://humanity-mainnet.g.alchemy.com/public"],
+  "rpc": [
+    "https://humanity-mainnet.g.alchemy.com/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "H",
@@ -29,5 +31,18 @@
       "standard": "none"
     }
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }]
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

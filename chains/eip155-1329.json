@@ -49,5 +49,8 @@
       "quoterV2": "0x5db0e4D1C0424D4C2b9e6b62F4a37Bf3d9D3C4D7"
     },
     "url": "https://dragonswap.app"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

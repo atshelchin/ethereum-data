@@ -1,8 +1,12 @@
 {
   "name": "Fraxtal Hoodi Testnet",
   "chain": "FRAX",
-  "rpc": ["https://rpc.testnet.frax.com"],
-  "faucets": ["https://faucet.testnet.frax.com/"],
+  "rpc": [
+    "https://rpc.testnet.frax.com"
+  ],
+  "faucets": [
+    "https://faucet.testnet.frax.com/"
+  ],
   "nativeCurrency": {
     "name": "Frax",
     "symbol": "FRAX",
@@ -15,5 +19,10 @@
   "slip44": 1,
   "icon": "fraxtal",
   "explorers": [],
-  "status": "active"
+  "status": "active",
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

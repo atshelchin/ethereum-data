@@ -2,8 +2,13 @@
   "name": "Pruv Testnet",
   "chain": "PRUV Testnet",
   "icon": "pruv",
-  "rpc": ["https://rpc.testnet.pruv.network", "wss://rpc.testnet.pruv.network"],
-  "faucets": ["https://faucet.testnet.pruv.network"],
+  "rpc": [
+    "https://rpc.testnet.pruv.network",
+    "wss://rpc.testnet.pruv.network"
+  ],
+  "faucets": [
+    "https://faucet.testnet.pruv.network"
+  ],
   "nativeCurrency": {
     "name": "Pruv",
     "symbol": "PRUV",
@@ -20,5 +25,8 @@
       "icon": "pruv",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

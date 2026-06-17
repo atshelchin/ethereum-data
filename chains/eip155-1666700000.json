@@ -1,8 +1,12 @@
 {
   "name": "Harmony Testnet Shard 0",
   "chain": "Harmony",
-  "rpc": ["https://api.s0.b.hmny.io"],
-  "faucets": ["https://faucet.pops.one"],
+  "rpc": [
+    "https://api.s0.b.hmny.io"
+  ],
+  "faucets": [
+    "https://faucet.pops.one"
+  ],
   "nativeCurrency": {
     "name": "ONE",
     "symbol": "ONE",
@@ -18,5 +22,8 @@
       "url": "https://explorer.testnet.harmony.one",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

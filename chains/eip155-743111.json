@@ -1,7 +1,9 @@
 {
   "name": "Hemi Sepolia",
   "chain": "ETH",
-  "rpc": ["https://testnet.rpc.hemi.network/rpc"],
+  "rpc": [
+    "https://testnet.rpc.hemi.network/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -25,5 +27,13 @@
     "type": "L2",
     "chain": "eip155-11155111"
   },
-  "status": "active"
+  "status": "active",
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

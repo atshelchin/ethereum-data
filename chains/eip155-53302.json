@@ -1,8 +1,13 @@
 {
   "name": "Superseed Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.superseed.xyz", "wss://sepolia.superseed.xyz"],
-  "faucets": ["https://sepoliafaucet.com"],
+  "rpc": [
+    "https://sepolia.superseed.xyz",
+    "wss://sepolia.superseed.xyz"
+  ],
+  "faucets": [
+    "https://sepoliafaucet.com"
+  ],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -24,6 +29,18 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://sepolia-bridge.superseed.xyz/" }]
+    "bridges": [
+      {
+        "url": "https://sepolia-bridge.superseed.xyz/"
+      }
+    ]
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

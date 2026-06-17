@@ -2,7 +2,9 @@
   "name": "CrossFi Mainnet",
   "icon": "crossfi",
   "chain": "crossfi",
-  "rpc": ["https://rpc.mainnet.ms/"],
+  "rpc": [
+    "https://rpc.mainnet.ms/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "CrossFi Token",
@@ -20,5 +22,8 @@
       "url": "https://xfiscan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

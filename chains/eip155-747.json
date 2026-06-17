@@ -43,5 +43,13 @@
       "router": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "url": "https://www.sushi.com"
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

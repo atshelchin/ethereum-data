@@ -2,8 +2,12 @@
   "name": "Dexalot Subnet Testnet",
   "chain": "DEXALOT",
   "icon": "dexalot",
-  "rpc": ["https://subnets.avax.network/dexalot/testnet/rpc"],
-  "faucets": ["https://faucet.avax.network/?subnet=dexalot"],
+  "rpc": [
+    "https://subnets.avax.network/dexalot/testnet/rpc"
+  ],
+  "faucets": [
+    "https://faucet.avax.network/?subnet=dexalot"
+  ],
   "nativeCurrency": {
     "name": "Dexalot",
     "symbol": "ALOT",
@@ -19,6 +23,11 @@
       "name": "Avalanche Subnet Testnet Explorer",
       "url": "https://subnets-test.avax.network/dexalot",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

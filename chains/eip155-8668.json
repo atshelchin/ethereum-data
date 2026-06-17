@@ -2,7 +2,9 @@
   "name": "Hela Official Runtime Mainnet",
   "chain": "Hela",
   "icon": "hela",
-  "rpc": ["https://mainnet-rpc.helachain.com"],
+  "rpc": [
+    "https://mainnet-rpc.helachain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Hela HLUSD",
@@ -18,6 +20,11 @@
       "name": "Hela Official Runtime Mainnet Explorer",
       "url": "https://mainnet-blockexplorer.helachain.com",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

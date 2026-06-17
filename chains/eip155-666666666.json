@@ -2,7 +2,9 @@
   "name": "Degen Chain",
   "title": "Degen Chain",
   "chain": "Degen",
-  "rpc": ["https://rpc.degen.tips"],
+  "rpc": [
+    "https://rpc.degen.tips"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DEGEN",
@@ -14,5 +16,13 @@
   "chainId": 666666666,
   "networkId": 666666666,
   "status": "incubating",
-  "icon": "degen"
+  "icon": "degen",
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

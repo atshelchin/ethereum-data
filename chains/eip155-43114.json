@@ -14,6 +14,9 @@
   "features": [
     {
       "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
     }
   ],
   "faucets": [],
@@ -65,5 +68,8 @@
       "quoterV2": "0xbe0F5544EC67e9B3b2D979aaA43f18Fd87E6257F"
     },
     "url": "https://app.uniswap.org"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

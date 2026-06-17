@@ -1,8 +1,12 @@
 {
   "name": "RACE Testnet",
   "chain": "ETH",
-  "rpc": ["https://racetestnet.io/"],
-  "faucets": ["https://faucet.racetestnet.io/"],
+  "rpc": [
+    "https://racetestnet.io/"
+  ],
+  "faucets": [
+    "https://faucet.racetestnet.io/"
+  ],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -30,5 +34,10 @@
         "url": "https://testnet-bridge.race.foundation/"
       }
     ]
-  }
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

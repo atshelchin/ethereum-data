@@ -2,9 +2,21 @@
   "name": "0XL3",
   "chain": "0XL3",
   "icon": "0xl3",
-  "rpc": ["https://rpc.0xl3.com"],
+  "rpc": [
+    "https://rpc.0xl3.com"
+  ],
   "faucets": [],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
+    }
+  ],
   "nativeCurrency": {
     "name": "XL3",
     "symbol": "XL3",

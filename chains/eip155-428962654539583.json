@@ -2,7 +2,9 @@
   "name": "Yominet",
   "chain": "YOMINET",
   "icon": "yominet",
-  "rpc": ["https://jsonrpc-yominet-1.anvil.asia-southeast.initia.xyz"],
+  "rpc": [
+    "https://jsonrpc-yominet-1.anvil.asia-southeast.initia.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -13,5 +15,8 @@
   "infoURL": "https://www.kamigotchi.io/",
   "chainId": 428962654539583,
   "networkId": 428962654539583,
-  "explorers": []
+  "explorers": [],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

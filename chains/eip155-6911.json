@@ -1,7 +1,9 @@
 {
   "name": "Nibiru testnet-2",
   "chain": "Nibiru",
-  "rpc": ["https://evm-rpc.testnet-2.nibiru.fi"],
+  "rpc": [
+    "https://evm-rpc.testnet-2.nibiru.fi"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "NIBI",
@@ -13,5 +15,13 @@
   "chainId": 6911,
   "networkId": 6911,
   "icon": "nibiru",
-  "explorers": []
+  "explorers": [],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

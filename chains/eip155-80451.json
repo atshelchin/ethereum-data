@@ -1,8 +1,20 @@
 {
   "name": "Geo Genesis",
   "chain": "Geo Genesis",
-  "rpc": ["https://rpc-geo-genesis-h0q2s21xx8.t.conduit.xyz/"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://rpc-geo-genesis-h0q2s21xx8.t.conduit.xyz/"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
+    }
+  ],
   "faucets": [],
   "infoURL": "https://geobrowser.io",
   "nativeCurrency": {
@@ -17,5 +29,8 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-42161"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

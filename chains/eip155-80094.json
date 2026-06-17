@@ -54,5 +54,8 @@
       "quoterV2": "0x644C8D6E501f7C994B74F5ceA96abe65d0BA662B"
     },
     "url": "https://app.kodiak.finance"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

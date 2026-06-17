@@ -57,5 +57,13 @@
       "router": "0xa062aE8A9c5e11aaA026fc2670B0D65cCc8B2858"
     },
     "url": "https://velodrome.finance"
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

@@ -2,7 +2,9 @@
   "name": "WorldMobileChain-Mainnet",
   "chain": "WMC",
   "icon": "worldmobilechain",
-  "rpc": ["https://worldmobilechain-mainnet.g.alchemy.com/public"],
+  "rpc": [
+    "https://worldmobilechain-mainnet.g.alchemy.com/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "World Mobile Token",
@@ -20,5 +22,10 @@
       "standard": "none"
     }
   ],
-  "status": "active"
+  "status": "active",
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

@@ -1,7 +1,9 @@
 {
   "name": "Subtensor EVM",
   "chain": "Bittensor",
-  "rpc": ["https://lite.chain.opentensor.ai"],
+  "rpc": [
+    "https://lite.chain.opentensor.ai"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TAO",
@@ -13,5 +15,8 @@
   "chainId": 964,
   "networkId": 964,
   "slip44": 1005,
-  "icon": "bittensor"
+  "icon": "bittensor",
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

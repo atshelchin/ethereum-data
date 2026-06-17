@@ -10,6 +10,9 @@
   "features": [
     {
       "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
     }
   ],
   "faucets": [
@@ -44,5 +47,8 @@
       "contract": "0x999f90f25a2922ae1b21A06066F7EDEbedad42a9"
     }
   ],
-  "wrappedNativeToken": "0xD51BFa777609213A653a2CD067c9A0132a2D316A"
+  "wrappedNativeToken": "0xD51BFa777609213A653a2CD067c9A0132a2D316A",
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

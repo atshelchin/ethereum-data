@@ -1,14 +1,26 @@
 {
   "name": "Henesys",
   "chain": "Henesys",
-  "rpc": ["https://henesys-rpc.msu.io"],
+  "rpc": [
+    "https://henesys-rpc.msu.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "NEXPACE",
     "symbol": "NXPC",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
+    }
+  ],
   "infoURL": "https://nexpace.io",
   "shortName": "nxpc",
   "chainId": 68414,

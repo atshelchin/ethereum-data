@@ -1,7 +1,9 @@
 {
   "name": "Tranched Mainnet",
   "chain": "tranched-mainnet",
-  "rpc": ["https://tranched-mainnet.calderachain.xyz/http"],
+  "rpc": [
+    "https://tranched-mainnet.calderachain.xyz/http"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -14,6 +16,9 @@
     },
     {
       "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
     }
   ],
   "infoURL": "https://tranched-mainnet.hub.caldera.xyz",

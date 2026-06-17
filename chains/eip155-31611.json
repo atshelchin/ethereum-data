@@ -1,14 +1,26 @@
 {
   "name": "Mezo Testnet",
   "chain": "Mezo Testnet",
-  "rpc": ["https://rpc.test.mezo.org"],
+  "rpc": [
+    "https://rpc.test.mezo.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",
     "symbol": "BTC",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
+    }
+  ],
   "infoURL": "https://mezo.org/",
   "shortName": "mezo-testnet",
   "chainId": 31611,
@@ -20,5 +32,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

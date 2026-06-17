@@ -1,7 +1,9 @@
 {
   "name": "Alpha Chain Testnet",
   "chain": "Alpha Chain",
-  "rpc": ["https://testnet-rpc.goalpha.org"],
+  "rpc": [
+    "https://testnet-rpc.goalpha.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -20,5 +22,13 @@
       "url": "https://testnet-scan.goalpha.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

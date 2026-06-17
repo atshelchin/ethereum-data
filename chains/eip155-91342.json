@@ -1,8 +1,12 @@
 {
   "name": "GIWA Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia-rpc.giwa.io"],
-  "faucets": ["https://faucet.giwa.io"],
+  "rpc": [
+    "https://sepolia-rpc.giwa.io"
+  ],
+  "faucets": [
+    "https://faucet.giwa.io"
+  ],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -21,5 +25,13 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

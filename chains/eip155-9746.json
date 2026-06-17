@@ -1,7 +1,9 @@
 {
   "name": "Plasma Testnet",
   "chain": "Plasma",
-  "rpc": ["https://testnet-rpc.plasma.to"],
+  "rpc": [
+    "https://testnet-rpc.plasma.to"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Testnet Plasma",
@@ -19,5 +21,8 @@
       "url": "https://testnet.plasmascan.to",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

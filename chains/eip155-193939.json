@@ -2,7 +2,9 @@
   "name": "R0AR Chain",
   "chain": "R0AR Chain",
   "icon": "r0ar",
-  "rpc": ["https://rpc-r0ar.io"],
+  "rpc": [
+    "https://rpc-r0ar.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ethereum",
@@ -19,6 +21,11 @@
       "url": "https://r0arscan.io",
       "icon": "r0ar",
       "standard": "none"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

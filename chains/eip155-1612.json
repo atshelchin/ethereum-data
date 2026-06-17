@@ -1,7 +1,9 @@
 {
   "name": "OpenLedger Mainnet",
   "chain": "OpenLedger",
-  "rpc": ["https://rpc.openledger.xyz"],
+  "rpc": [
+    "https://rpc.openledger.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Open",
@@ -28,5 +30,13 @@
         "url": "https://bridge.openledger.xyz/"
       }
     ]
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

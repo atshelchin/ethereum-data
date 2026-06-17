@@ -36,5 +36,8 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED"
+  "wrappedNativeToken": "0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED",
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

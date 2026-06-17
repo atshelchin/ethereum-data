@@ -67,5 +67,13 @@
       "quoterV2": "0xb1E835Dc2785b52265711e17fCCb0fd018226a6e"
     },
     "url": "https://www.sushi.com"
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

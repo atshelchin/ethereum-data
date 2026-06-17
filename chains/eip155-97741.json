@@ -2,7 +2,9 @@
   "name": "Pepe Unchained V2",
   "chain": "PEPU",
   "icon": "pepu",
-  "rpc": ["https://rpc-pepu-v2-mainnet-0.t.conduit.xyz"],
+  "rpc": [
+    "https://rpc-pepu-v2-mainnet-0.t.conduit.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "PEPU",
@@ -18,6 +20,11 @@
       "name": "pepuscan",
       "url": "https://pepuscan.com",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

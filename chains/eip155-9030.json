@@ -24,5 +24,10 @@
       "standard": "none",
       "icon": "qubetics"
     }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
   ]
 }

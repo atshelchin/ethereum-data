@@ -2,9 +2,20 @@
   "name": "Hedera Testnet",
   "chain": "Hedera",
   "icon": "hedera",
-  "rpc": ["https://testnet.hashio.io/api"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": ["https://portal.hedera.com"],
+  "rpc": [
+    "https://testnet.hashio.io/api"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [
+    "https://portal.hedera.com"
+  ],
   "nativeCurrency": {
     "name": "hbar",
     "symbol": "HBAR",
@@ -41,5 +52,8 @@
       "url": "https://explore.lworks.io",
       "standard": "none"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

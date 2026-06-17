@@ -1,8 +1,12 @@
 {
   "name": "Waterfall 9 Test Network",
   "chain": "Waterfall TestNet9",
-  "rpc": ["https://rpc.testnet9.waterfall.network"],
-  "faucets": ["https://faucet.testnet9.waterfall.network"],
+  "rpc": [
+    "https://rpc.testnet9.waterfall.network"
+  ],
+  "faucets": [
+    "https://faucet.testnet9.waterfall.network"
+  ],
   "nativeCurrency": {
     "name": "WATER",
     "symbol": "WATER",
@@ -25,5 +29,8 @@
       "icon": "waterfall",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

@@ -1,7 +1,10 @@
 {
   "name": "L2 Protocol Mainnet",
   "chain": "L2P",
-  "rpc": ["https://rpc.l2protocol.com", "wss://rpc.l2protocol.com"],
+  "rpc": [
+    "https://rpc.l2protocol.com",
+    "wss://rpc.l2protocol.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "L2P",
@@ -19,6 +22,11 @@
       "url": "https://l2pscan.com",
       "icon": "blockscout",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

@@ -2,8 +2,12 @@
   "name": "Hela Official Runtime Testnet",
   "chain": "Hela",
   "icon": "hela",
-  "rpc": ["https://testnet-rpc.helachain.com"],
-  "faucets": ["https://testnet-faucet.helachain.com"],
+  "rpc": [
+    "https://testnet-rpc.helachain.com"
+  ],
+  "faucets": [
+    "https://testnet-faucet.helachain.com"
+  ],
   "nativeCurrency": {
     "name": "Hela HLUSD",
     "symbol": "HLUSD",
@@ -19,6 +23,11 @@
       "name": "Hela Official Runtime Testnet Explorer",
       "url": "https://testnet-blockexplorer.helachain.com",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

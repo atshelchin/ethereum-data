@@ -1,7 +1,10 @@
 {
   "name": "RISE",
   "chain": "ETH",
-  "rpc": ["https://rpc.risechain.com/", "wss://rpc.risechain.com/ws"],
+  "rpc": [
+    "https://rpc.risechain.com/",
+    "wss://rpc.risechain.com/ws"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -9,9 +12,18 @@
     "decimals": 18
   },
   "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" },
-    { "name": "EIP7702" }
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "EIP7702"
+    },
+    {
+      "name": "RIP7212"
+    }
   ],
   "infoURL": "https://risechain.com",
   "shortName": "rise",
@@ -29,6 +41,13 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://bridge.risechain.com" }]
+    "bridges": [
+      {
+        "url": "https://bridge.risechain.com"
+      }
+    ]
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

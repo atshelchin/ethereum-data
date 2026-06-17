@@ -57,5 +57,8 @@
       "quoter": "0xa15F0D7377B2A0C0c10db057f641beD21028FC89"
     },
     "url": "https://quickswap.exchange"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

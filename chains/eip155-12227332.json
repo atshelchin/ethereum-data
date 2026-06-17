@@ -1,7 +1,9 @@
 {
   "name": "Neo X Testnet T4",
   "chain": "Neo X",
-  "rpc": ["https://testnet.rpc.banelabs.org/"],
+  "rpc": [
+    "https://testnet.rpc.banelabs.org/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gas",
@@ -20,5 +22,13 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "status": "active",
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

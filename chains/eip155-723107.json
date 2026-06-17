@@ -1,7 +1,9 @@
 {
   "name": "TixChain Testnet",
   "chain": "TIXCHAIN",
-  "rpc": ["https://subnets.avax.network/tixchain/testnet/rpc"],
+  "rpc": [
+    "https://subnets.avax.network/tixchain/testnet/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TIX Token",
@@ -17,6 +19,11 @@
       "name": "TixChain Testnet Subnet Explorer",
       "url": "https://subnets-test.avax.network/tixchain",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

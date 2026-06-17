@@ -27,5 +27,10 @@
       "url": "https://funkiscan.io",
       "standard": "none"
     }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
   ]
 }

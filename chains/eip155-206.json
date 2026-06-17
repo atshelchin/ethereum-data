@@ -1,7 +1,9 @@
 {
   "name": "VinuChain Testnet",
   "chain": "VinuChain Testnet",
-  "rpc": ["https://vinufoundation-rpc.com"],
+  "rpc": [
+    "https://vinufoundation-rpc.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "VinuChain",
@@ -20,6 +22,11 @@
       "url": "https://testnet.vinuscan.com",
       "icon": "vinuscan-testnet",
       "standard": "none"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

@@ -10,7 +10,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet-rpc.evedex.com"],
+  "rpc": [
+    "https://mainnet-rpc.evedex.com"
+  ],
   "faucets": [],
   "explorers": [
     {
@@ -28,5 +30,13 @@
         "url": "https://bridge.arbitrum.io"
       }
     ]
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

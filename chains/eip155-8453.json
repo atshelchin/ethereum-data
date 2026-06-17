@@ -73,5 +73,13 @@
       "router": "0xcF77a3Ba9A5CA399B7c97c74d54e5b1Beb874E43"
     },
     "url": "https://aerodrome.finance"
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

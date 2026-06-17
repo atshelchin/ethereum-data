@@ -39,5 +39,8 @@
       "router": "0x3D1c58B6d4501E34DF37Cf0f664A58059a188F00"
     },
     "url": "https://wagyuswap.app"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

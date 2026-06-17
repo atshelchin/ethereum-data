@@ -1,8 +1,12 @@
 {
   "name": "Mantle Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.sepolia.mantle.xyz"],
-  "faucets": ["https://faucet.sepolia.mantle.xyz"],
+  "rpc": [
+    "https://rpc.sepolia.mantle.xyz"
+  ],
+  "faucets": [
+    "https://faucet.sepolia.mantle.xyz"
+  ],
   "nativeCurrency": {
     "name": "Sepolia Mantle",
     "symbol": "MNT",
@@ -19,5 +23,13 @@
       "url": "https://explorer.sepolia.mantle.xyz",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

@@ -1,8 +1,17 @@
 {
   "name": "Lif3 Chain Testnet",
   "chain": "lif3chain",
-  "rpc": ["https://testnet-evm.lif3.com"],
-  "features": [{ "name": "EIP155" }],
+  "rpc": [
+    "https://testnet-evm.lif3.com"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "RIP7212"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "LIF3",
@@ -20,5 +29,8 @@
       "url": "https://testnet.lif3scout.com",
       "standard": "none"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

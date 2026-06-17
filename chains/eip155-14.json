@@ -54,5 +54,8 @@
       "router": "0x0B45B05A1EF0F76D7e8D84Fb6F1ebB1c3D2010a5"
     },
     "url": "https://sparkdex.ai"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

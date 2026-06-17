@@ -1,7 +1,9 @@
 {
   "name": "Horizen Mainnet",
   "chain": "horizen",
-  "rpc": ["https://horizen.calderachain.xyz/http"],
+  "rpc": [
+    "https://horizen.calderachain.xyz/http"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -14,6 +16,9 @@
     },
     {
       "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
     }
   ],
   "infoURL": "https://horizen.hub.caldera.xyz",
@@ -27,5 +32,8 @@
       "url": "https://horizen.calderaexplorer.xyz",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

@@ -1,7 +1,9 @@
 {
   "name": "T-Rex Testnet",
   "chain": "T-Rex",
-  "rpc": ["https://testnetrpc.trex.xyz"],
+  "rpc": [
+    "https://testnetrpc.trex.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -19,5 +21,13 @@
       "url": "https://testnet.trex.xyz",
       "standard": "none"
     }
-  ]
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

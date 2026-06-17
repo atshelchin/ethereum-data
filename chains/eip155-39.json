@@ -1,7 +1,9 @@
 {
   "name": "U2U Solaris Mainnet",
   "chain": "u2u",
-  "rpc": ["https://rpc-mainnet.u2u.xyz"],
+  "rpc": [
+    "https://rpc-mainnet.u2u.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "U2U Network",
@@ -20,5 +22,8 @@
       "url": "https://u2uscan.xyz",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

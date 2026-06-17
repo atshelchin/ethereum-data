@@ -5,12 +5,19 @@
   "networkId": 72080,
   "infoURL": "https://testnet.nexera.network",
   "shortName": "nxra-testnet",
-  "rpc": ["https://rpc.testnet.nexera.network"],
-  "faucets": ["https://faucet.nexera.network"],
+  "rpc": [
+    "https://rpc.testnet.nexera.network"
+  ],
+  "faucets": [
+    "https://faucet.nexera.network"
+  ],
   "nativeCurrency": {
     "name": "tNXRA",
     "symbol": "tNXRA",
     "decimals": 18
   },
-  "explorers": []
+  "explorers": [],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

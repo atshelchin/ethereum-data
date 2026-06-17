@@ -1,7 +1,9 @@
 {
   "name": "KONET Mainnet",
   "chain": "KONET",
-  "rpc": ["https://api.kon-wallet.com"],
+  "rpc": [
+    "https://api.kon-wallet.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "KONET",
@@ -20,5 +22,8 @@
       "url": "https://explorer.kon-wallet.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

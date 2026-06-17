@@ -3,7 +3,9 @@
   "title": "CrossFi Testnet",
   "chain": "XFI",
   "icon": "crossfi",
-  "rpc": ["https://rpc.testnet.ms"],
+  "rpc": [
+    "https://rpc.testnet.ms"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "XFI",
@@ -22,5 +24,8 @@
       "standard": "EIP3091",
       "icon": "crossfi"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

@@ -1,7 +1,9 @@
 {
   "name": "Denergy Testnet",
   "chain": "DEN",
-  "rpc": ["https://rpc.denergytestnet.com/"],
+  "rpc": [
+    "https://rpc.denergytestnet.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "WATT",
@@ -19,6 +21,11 @@
       "url": "https://explorer.denergytestnet.com",
       "icon": "denergy",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

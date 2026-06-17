@@ -1,7 +1,9 @@
 {
   "name": "Unite",
   "chain": "UNITE",
-  "rpc": ["https://unite-mainnet.g.alchemy.com/public"],
+  "rpc": [
+    "https://unite-mainnet.g.alchemy.com/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Unite",
@@ -19,6 +21,11 @@
       "name": "Unite Explorer",
       "url": "https://unite-mainnet.explorer.alchemy.com",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

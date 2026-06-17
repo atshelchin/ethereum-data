@@ -2,7 +2,9 @@
   "name": "Dexalot Subnet",
   "chain": "DEXALOT",
   "icon": "dexalot",
-  "rpc": ["https://subnets.avax.network/dexalot/mainnet/rpc"],
+  "rpc": [
+    "https://subnets.avax.network/dexalot/mainnet/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dexalot",
@@ -18,6 +20,11 @@
       "name": "Avalanche Subnet Explorer",
       "url": "https://subnets.avax.network/dexalot",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

@@ -1,7 +1,10 @@
 {
   "name": "edeXa Mainnet",
   "chain": "edeXa",
-  "rpc": ["https://rpc.edexa.network", "https://rpc.edexa.com"],
+  "rpc": [
+    "https://rpc.edexa.network",
+    "https://rpc.edexa.com"
+  ],
   "faucets": [],
   "features": [
     {
@@ -9,6 +12,9 @@
     },
     {
       "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
     }
   ],
   "nativeCurrency": {

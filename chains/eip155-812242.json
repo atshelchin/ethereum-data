@@ -1,7 +1,10 @@
 {
   "name": "Codex Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.codex-stg.xyz", "wss://rpc.codex-stg.xyz"],
+  "rpc": [
+    "https://rpc.codex-stg.xyz",
+    "wss://rpc.codex-stg.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -23,5 +26,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111"
-  }
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

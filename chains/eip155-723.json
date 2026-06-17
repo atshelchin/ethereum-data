@@ -1,7 +1,9 @@
 {
   "name": "Bitasset Chain Mainnet",
   "chain": "BAC",
-  "rpc": ["https://rpc.bitassetchain.io"],
+  "rpc": [
+    "https://rpc.bitassetchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitasset Chain Native Token",
@@ -18,6 +20,11 @@
       "name": "bacscan",
       "url": "https://bacscan.net",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

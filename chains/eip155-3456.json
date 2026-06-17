@@ -1,8 +1,12 @@
 {
   "name": "LayerEdge testnet",
   "chain": "LayerEdge",
-  "rpc": ["https://testnet-rpc.layeredge.io"],
-  "faucets": ["https://testnet-faucet.layeredge.io"],
+  "rpc": [
+    "https://testnet-rpc.layeredge.io"
+  ],
+  "faucets": [
+    "https://testnet-faucet.layeredge.io"
+  ],
   "nativeCurrency": {
     "name": "Bitcoin",
     "symbol": "BTC",
@@ -19,6 +23,11 @@
       "url": "https://testnet-explorer.layeredge.io",
       "icon": "layerEdge",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

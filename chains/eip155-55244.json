@@ -1,7 +1,9 @@
 {
   "name": "Superposition",
   "chain": "Superposition",
-  "rpc": ["https://rpc.superposition.so"],
+  "rpc": [
+    "https://rpc.superposition.so"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -23,5 +25,13 @@
     "type": "L2",
     "chain": "eip155-42161",
     "bridges": []
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

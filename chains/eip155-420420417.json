@@ -22,6 +22,9 @@
     },
     {
       "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
     }
   ],
   "infoURL": "https://polkadot.com",

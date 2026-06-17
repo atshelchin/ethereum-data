@@ -26,5 +26,10 @@
   ],
   "redFlags": [
     "reusedChainId"
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
   ]
 }

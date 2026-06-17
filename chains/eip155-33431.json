@@ -1,7 +1,9 @@
 {
   "name": "Edge Testnet",
   "chain": "ETH",
-  "rpc": ["https://edge-testnet.g.alchemy.com/public"],
+  "rpc": [
+    "https://edge-testnet.g.alchemy.com/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -17,6 +19,11 @@
       "name": "Alchemy Explorer",
       "url": "https://edge-testnet.explorer.alchemy.com",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

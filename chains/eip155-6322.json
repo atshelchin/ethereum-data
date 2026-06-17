@@ -1,7 +1,9 @@
 {
   "name": "Aura Mainnet",
   "chain": "Aura",
-  "rpc": ["https://jsonrpc.aura.network"],
+  "rpc": [
+    "https://jsonrpc.aura.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Aura",
@@ -21,5 +23,8 @@
       "standard": "none",
       "icon": "aura"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

@@ -1,7 +1,9 @@
 {
   "name": "Horizen Testnet",
   "chain": "horizen",
-  "rpc": ["https://horizen-testnet.rpc.caldera.xyz/http"],
+  "rpc": [
+    "https://horizen-testnet.rpc.caldera.xyz/http"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -14,6 +16,9 @@
     },
     {
       "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
     }
   ],
   "infoURL": "https://horizen-testnet.hub.caldera.xyz",
@@ -27,5 +32,8 @@
       "url": "https://horizen-testnet.explorer.caldera.xyz",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

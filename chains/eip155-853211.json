@@ -16,15 +16,30 @@
   "chainId": 853211,
   "networkId": 853211,
   "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" },
-    { "name": "EIP2718" },
-    { "name": "EIP2930" }
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "EIP2718"
+    },
+    {
+      "name": "EIP2930"
+    },
+    {
+      "name": "RIP7212"
+    }
   ],
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://shell.haqq.network/bridge" }]
+    "bridges": [
+      {
+        "url": "https://shell.haqq.network/bridge"
+      }
+    ]
   },
   "explorers": [
     {

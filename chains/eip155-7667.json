@@ -1,7 +1,9 @@
 {
   "name": "CarrChain Mainnet",
   "chain": "CarrChain Mainnet",
-  "rpc": ["https://rpc.carrchain.io"],
+  "rpc": [
+    "https://rpc.carrchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "CarrChain Coin",
@@ -18,6 +20,11 @@
       "name": "tracehawk",
       "url": "https://carrscan.io",
       "standard": "none"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

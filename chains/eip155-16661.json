@@ -1,7 +1,9 @@
 {
   "name": "0G Mainnet",
   "chain": "0G",
-  "rpc": ["https://evmrpc.0g.ai"],
+  "rpc": [
+    "https://evmrpc.0g.ai"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "0G",
@@ -19,5 +21,8 @@
       "url": "https://chainscan.0g.ai",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

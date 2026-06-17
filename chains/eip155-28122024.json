@@ -2,7 +2,9 @@
   "name": "Ancient8 Testnet",
   "chain": "Ancient8",
   "icon": "ancient8",
-  "rpc": ["https://rpcv2-testnet.ancient8.gg"],
+  "rpc": [
+    "https://rpcv2-testnet.ancient8.gg"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -20,5 +22,13 @@
       "url": "https://scanv2-testnet.ancient8.gg",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

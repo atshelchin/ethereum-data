@@ -3,7 +3,10 @@
   "title": "DuckChain Mainnet",
   "chain": "DuckChain",
   "icon": "duckchain",
-  "rpc": ["https://rpc.duckchain.io", "https://rpc-hk.duckchain.io"],
+  "rpc": [
+    "https://rpc.duckchain.io",
+    "https://rpc-hk.duckchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TON",
@@ -13,5 +16,10 @@
   "infoURL": "https://duckchain.io",
   "shortName": "Duck-Chain-Mainnet",
   "chainId": 5545,
-  "networkId": 5545
+  "networkId": 5545,
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

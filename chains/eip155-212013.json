@@ -23,5 +23,10 @@
       "url": "https://heima.statescan.io",
       "standard": "none"
     }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
   ]
 }

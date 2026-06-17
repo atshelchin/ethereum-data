@@ -2,7 +2,9 @@
   "name": "DFK Chain Test",
   "chain": "DFK",
   "icon": "dfk",
-  "rpc": ["https://subnets.avax.network/defi-kingdoms/dfk-chain-testnet/rpc"],
+  "rpc": [
+    "https://subnets.avax.network/defi-kingdoms/dfk-chain-testnet/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Jewel",
@@ -20,6 +22,11 @@
       "url": "https://explorer-test.dfkchain.com",
       "icon": "ethereum",
       "standard": "none"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

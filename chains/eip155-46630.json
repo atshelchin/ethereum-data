@@ -2,7 +2,9 @@
   "name": "Robinhood Chain Testnet",
   "title": "Robinhood Chain Testnet",
   "chain": "ETH",
-  "rpc": ["https://rpc.testnet.chain.robinhood.com/rpc"],
+  "rpc": [
+    "https://rpc.testnet.chain.robinhood.com/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -25,6 +27,18 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://portal.arbitrum.io/bridge" }]
+    "bridges": [
+      {
+        "url": "https://portal.arbitrum.io/bridge"
+      }
+    ]
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

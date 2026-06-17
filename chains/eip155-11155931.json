@@ -1,17 +1,31 @@
 {
   "name": "RISE Testnet",
   "chain": "ETH",
-  "rpc": ["https://testnet.riselabs.xyz", "wss://testnet.riselabs.xyz/ws"],
-  "faucets": ["https://faucet.testnet.riselabs.xyz"],
+  "rpc": [
+    "https://testnet.riselabs.xyz",
+    "wss://testnet.riselabs.xyz/ws"
+  ],
+  "faucets": [
+    "https://faucet.testnet.riselabs.xyz"
+  ],
   "nativeCurrency": {
     "name": "RISE Testnet Ether",
     "symbol": "ETH",
     "decimals": 18
   },
   "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" },
-    { "name": "EIP7702" }
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "EIP7702"
+    },
+    {
+      "name": "RIP7212"
+    }
   ],
   "infoURL": "https://risechain.com/",
   "shortName": "rise-testnet",
@@ -29,6 +43,13 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://bridge-ui.testnet.riselabs.xyz" }]
+    "bridges": [
+      {
+        "url": "https://bridge-ui.testnet.riselabs.xyz"
+      }
+    ]
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

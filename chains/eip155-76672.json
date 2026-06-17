@@ -1,8 +1,12 @@
 {
   "name": "CarrChain Testnet",
   "chain": "CarrChain Testnet",
-  "rpc": ["https://rpc-testnet.carrchain.io"],
-  "faucets": ["https://faucet.carrchain.io"],
+  "rpc": [
+    "https://rpc-testnet.carrchain.io"
+  ],
+  "faucets": [
+    "https://faucet.carrchain.io"
+  ],
   "nativeCurrency": {
     "name": "CarrChain Coin",
     "symbol": "CARR",
@@ -18,6 +22,11 @@
       "name": "tracehawk",
       "url": "https://testnet.carrscan.io",
       "standard": "none"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

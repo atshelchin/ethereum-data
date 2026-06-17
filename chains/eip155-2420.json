@@ -1,7 +1,9 @@
 {
   "name": "Rufus",
   "chain": "rufus",
-  "rpc": ["https://rufus.calderachain.xyz/http"],
+  "rpc": [
+    "https://rufus.calderachain.xyz/http"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dogelon",
@@ -14,6 +16,9 @@
     },
     {
       "name": "EIP1559"
+    },
+    {
+      "name": "RIP7212"
     }
   ],
   "infoURL": "https://rufus.hub.caldera.xyz",

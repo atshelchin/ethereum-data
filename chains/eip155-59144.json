@@ -74,5 +74,13 @@
       "quoterV2": "0x678Aa4bF4E210cf2166753e054d5b7c31cc7fa86"
     },
     "url": "https://pancakeswap.finance"
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

@@ -1,7 +1,9 @@
 {
   "name": "dKargo Warehouse Testnet",
   "chain": "dKargo Warehouse",
-  "rpc": ["https://rpc.warehouse.dkargo.io"],
+  "rpc": [
+    "https://rpc.warehouse.dkargo.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "dKargo",
@@ -11,5 +13,10 @@
   "infoURL": "https://dkargo.io",
   "shortName": "dkargowarehouse",
   "chainId": 61022448,
-  "networkId": 61022448
+  "networkId": 61022448,
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

@@ -26,5 +26,10 @@
       "url": "https://rinia.firescan.io",
       "standard": "EIP3091"
     }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
   ]
 }

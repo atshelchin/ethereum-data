@@ -1,7 +1,9 @@
 {
   "name": "Settlus",
   "chain": "ETH",
-  "rpc": ["https://settlus-mainnet.g.alchemy.com/public"],
+  "rpc": [
+    "https://settlus-mainnet.g.alchemy.com/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -15,7 +17,11 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://settlus-mainnet.bridge.alchemy.com/" }]
+    "bridges": [
+      {
+        "url": "https://settlus-mainnet.bridge.alchemy.com/"
+      }
+    ]
   },
   "explorers": [
     {
@@ -24,5 +30,10 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "status": "active",
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

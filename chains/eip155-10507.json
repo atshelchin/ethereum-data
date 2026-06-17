@@ -2,7 +2,9 @@
   "name": "Numbers Mainnet",
   "chain": "NUM",
   "icon": "num",
-  "rpc": ["https://mainnetrpc.num.network"],
+  "rpc": [
+    "https://mainnetrpc.num.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "NUM Token",
@@ -18,6 +20,11 @@
       "name": "ethernal",
       "url": "https://mainnet.num.network",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

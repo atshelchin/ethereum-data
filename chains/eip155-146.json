@@ -60,5 +60,8 @@
       "router": "0xAAA45c8F5ef92a000a121d102F4e89278a711Faa"
     },
     "url": "https://aster.finance"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

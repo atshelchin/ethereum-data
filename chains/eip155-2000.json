@@ -44,5 +44,8 @@
       "router": "0xAEbCDBae00dD30a07Bef77Da3bdc99Dd56b5F3b4"
     },
     "url": "https://quickswap.exchange"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

@@ -1,8 +1,12 @@
 {
   "name": "HPP Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://sepolia.hpp.io"],
-  "faucets": ["https://faucet.conduit.xyz"],
+  "rpc": [
+    "https://sepolia.hpp.io"
+  ],
+  "faucets": [
+    "https://faucet.conduit.xyz"
+  ],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -29,5 +33,13 @@
         "url": "https://portal.arbitrum.io/bridge"
       }
     ]
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

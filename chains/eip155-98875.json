@@ -2,7 +2,10 @@
   "name": "Nillion Network",
   "chain": "ETH",
   "icon": "nillion",
-  "rpc": ["https://rpc.nillion.network", "wss://rpc.nillion.network"],
+  "rpc": [
+    "https://rpc.nillion.network",
+    "wss://rpc.nillion.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -20,6 +23,11 @@
       "url": "https://explorer.nillion.network",
       "icon": "blockscout",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

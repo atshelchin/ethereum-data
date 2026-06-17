@@ -1,8 +1,12 @@
 {
   "name": "World Mobile Chain Testnet",
   "chain": "WOMOX",
-  "rpc": ["https://worldmobile-testnet.g.alchemy.com/public"],
-  "faucets": ["https://testnet-faucet.worldmobile.net"],
+  "rpc": [
+    "https://worldmobile-testnet.g.alchemy.com/public"
+  ],
+  "faucets": [
+    "https://testnet-faucet.worldmobile.net"
+  ],
   "nativeCurrency": {
     "name": "ATestingToken",
     "symbol": "WOMOX",
@@ -17,6 +21,11 @@
       "name": "World Mobile Testnet Explorer",
       "url": "https://testnet-explorer.worldmobile.net",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

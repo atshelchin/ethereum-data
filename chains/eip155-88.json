@@ -37,5 +37,8 @@
       "router": "0xE68FcD362b19c78f8e1C14295ef96e3a0caEB022"
     },
     "url": "https://vinuswap.org"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

@@ -1,7 +1,9 @@
 {
   "name": "Xertra Mainnet",
   "chain": "Xertra",
-  "rpc": ["https://rpc.xertra.com"],
+  "rpc": [
+    "https://rpc.xertra.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "STRAX",
@@ -19,5 +21,8 @@
       "url": "https://explorer.xertra.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

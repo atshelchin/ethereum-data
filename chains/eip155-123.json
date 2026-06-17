@@ -1,8 +1,12 @@
 {
   "name": "Fuse Sparknet",
   "chain": "fuse",
-  "rpc": ["https://rpc.fusespark.io"],
-  "faucets": ["https://get.fusespark.io"],
+  "rpc": [
+    "https://rpc.fusespark.io"
+  ],
+  "faucets": [
+    "https://get.fusespark.io"
+  ],
   "nativeCurrency": {
     "name": "Spark",
     "symbol": "SPARK",
@@ -11,5 +15,8 @@
   "infoURL": "https://docs.fuse.io/general/fuse-network-blockchain/fuse-testnet",
   "shortName": "spark",
   "chainId": 123,
-  "networkId": 123
+  "networkId": 123,
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

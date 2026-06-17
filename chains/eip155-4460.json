@@ -1,7 +1,9 @@
 {
   "name": "Orderly Sepolia Testnet",
   "chain": "ETH",
-  "rpc": ["https://testnet-rpc.orderly.org"],
+  "rpc": [
+    "https://testnet-rpc.orderly.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -20,6 +22,11 @@
       "url": "https://testnet-explorer.orderly.org",
       "icon": "blockscout",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

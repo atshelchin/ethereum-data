@@ -1,8 +1,12 @@
 {
   "name": "Abstract Sepolia Testnet",
   "chain": "Abstract Sepolia Testnet",
-  "rpc": ["https://api.testnet.abs.xyz"],
-  "faucets": ["https://faucet.triangleplatform.com/abstract/testnet"],
+  "rpc": [
+    "https://api.testnet.abs.xyz"
+  ],
+  "faucets": [
+    "https://faucet.triangleplatform.com/abstract/testnet"
+  ],
   "chainId": 11124,
   "networkId": 11124,
   "nativeCurrency": {
@@ -15,7 +19,11 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://portal.testnet.abs.xyz/bridge" }]
+    "bridges": [
+      {
+        "url": "https://portal.testnet.abs.xyz/bridge"
+      }
+    ]
   },
   "explorers": [
     {
@@ -23,5 +31,13 @@
       "url": "https://sepolia.abscan.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

@@ -1,7 +1,9 @@
 {
   "name": "BattleChain Testnet",
   "chain": "ETH",
-  "rpc": ["https://testnet.battlechain.com"],
+  "rpc": [
+    "https://testnet.battlechain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -24,6 +26,15 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://portal.battlechain.com/bridge" }]
-  }
+    "bridges": [
+      {
+        "url": "https://portal.battlechain.com/bridge"
+      }
+    ]
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

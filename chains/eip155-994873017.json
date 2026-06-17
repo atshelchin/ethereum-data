@@ -4,7 +4,9 @@
   "title": "Lumia Mainnet",
   "chain": "ETH",
   "icon": "lumia",
-  "rpc": ["https://mainnet-rpc.lumia.org"],
+  "rpc": [
+    "https://mainnet-rpc.lumia.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Lumia",
@@ -29,5 +31,8 @@
         "url": "https://bridge.lumia.org"
       }
     ]
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

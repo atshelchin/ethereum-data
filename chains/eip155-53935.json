@@ -23,5 +23,10 @@
       "standard": "none"
     }
   ],
-  "wrappedNativeToken": "0xCCb93dABD71c8Dad03Fc4CE5559dC3D89F67a260"
+  "wrappedNativeToken": "0xCCb93dABD71c8Dad03Fc4CE5559dC3D89F67a260",
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

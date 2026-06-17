@@ -54,5 +54,8 @@
       "quoterV2": "0x49c3efF8ee0E24F1F4d0E4D2C4B97F12E6D7cA34"
     },
     "url": "https://panko.finance"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

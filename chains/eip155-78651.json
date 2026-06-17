@@ -6,7 +6,9 @@
     "https://rpc.testnet.nillion.network",
     "wss://rpc.testnet.nillion.network"
   ],
-  "faucets": ["https://faucet.testnet.nillion.network"],
+  "faucets": [
+    "https://faucet.testnet.nillion.network"
+  ],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -23,6 +25,11 @@
       "url": "https://explorer.testnet.nillion.network",
       "icon": "blockscout",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

@@ -6,11 +6,22 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://carrot.megaeth.com/rpc", "wss://carrot.megaeth.com/ws"],
+  "rpc": [
+    "https://carrot.megaeth.com/rpc",
+    "wss://carrot.megaeth.com/ws"
+  ],
   "faucets": [],
   "infoURL": "https://testnet.megaeth.com",
   "shortName": "megatest",
   "chainId": 6343,
   "networkId": 6343,
-  "slip44": 1
+  "slip44": 1,
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

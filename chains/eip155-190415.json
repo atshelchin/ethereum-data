@@ -1,7 +1,9 @@
 {
   "name": "HPP Mainnet",
   "chain": "ETH",
-  "rpc": ["https://mainnet.hpp.io"],
+  "rpc": [
+    "https://mainnet.hpp.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -24,6 +26,18 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://portal.arbitrum.io/bridge" }]
+    "bridges": [
+      {
+        "url": "https://portal.arbitrum.io/bridge"
+      }
+    ]
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

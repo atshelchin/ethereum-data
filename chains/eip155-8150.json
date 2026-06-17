@@ -1,8 +1,12 @@
 {
   "name": "Alpen Testnet",
   "chain": "alpen-testnet",
-  "rpc": ["https://rpc.testnet.alpenlabs.io"],
-  "faucets": ["https://faucet.testnet.alpenlabs.io"],
+  "rpc": [
+    "https://rpc.testnet.alpenlabs.io"
+  ],
+  "faucets": [
+    "https://faucet.testnet.alpenlabs.io"
+  ],
   "nativeCurrency": {
     "name": "Signet BTC",
     "symbol": "sBTC",
@@ -21,5 +25,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

@@ -60,5 +60,8 @@
       "router": "0xE915D2393a08a00c5A463053edD31bAe2199b9e7"
     },
     "url": "https://app.arthswap.org"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

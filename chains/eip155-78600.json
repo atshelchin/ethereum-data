@@ -6,13 +6,19 @@
     "https://rpc-vanguard.vanarchain.com",
     "wss://ws-vanguard.vanarchain.com"
   ],
-  "faucets": ["https://faucet.vanarchain.com"],
+  "faucets": [
+    "https://faucet.vanarchain.com"
+  ],
   "nativeCurrency": {
     "name": "Vanguard Vanry",
     "symbol": "VANRY",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://vanarchain.com",
   "shortName": "vanguard",
   "chainId": 78600,
@@ -25,5 +31,8 @@
       "icon": "vanguard",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

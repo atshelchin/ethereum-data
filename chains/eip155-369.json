@@ -65,5 +65,8 @@
       "router": "0x165C3410fC91EF562C50559f7d2289fEbed552d9"
     },
     "url": "https://9mm.pro"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

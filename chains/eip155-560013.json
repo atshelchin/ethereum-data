@@ -10,7 +10,10 @@
     "symbol": "ROGUE",
     "decimals": 18
   },
-  "rpc": ["https://rpc.roguechain.io/rpc", "wss://rpc.roguechain.io/ws"],
+  "rpc": [
+    "https://rpc.roguechain.io/rpc",
+    "wss://rpc.roguechain.io/ws"
+  ],
   "faucets": [],
   "explorers": [
     {
@@ -24,6 +27,15 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-42161",
-    "bridges": [{ "url": "https://bridge.arbitrum.io" }]
-  }
+    "bridges": [
+      {
+        "url": "https://bridge.arbitrum.io"
+      }
+    ]
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

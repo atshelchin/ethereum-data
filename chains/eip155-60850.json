@@ -1,7 +1,9 @@
 {
   "name": "Perennial Sepolia",
   "chain": "perennialSepolia",
-  "rpc": ["https://rpc-sepolia.perennial.foundation"],
+  "rpc": [
+    "https://rpc-sepolia.perennial.foundation"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -28,5 +30,10 @@
         "url": "https://bridge-sepolia.perennial.foundation"
       }
     ]
-  }
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

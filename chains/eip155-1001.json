@@ -1,8 +1,12 @@
 {
   "name": "Kaia Kairos Testnet",
   "chain": "KAIA",
-  "rpc": ["https://public-en-kairos.node.kaia.io"],
-  "faucets": ["https://faucet.kaia.io"],
+  "rpc": [
+    "https://public-en-kairos.node.kaia.io"
+  ],
+  "faucets": [
+    "https://faucet.kaia.io"
+  ],
   "nativeCurrency": {
     "name": "KAIA",
     "symbol": "KAIA",
@@ -24,5 +28,13 @@
       "url": "https://kairos.kaiascan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

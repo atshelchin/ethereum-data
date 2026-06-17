@@ -2,14 +2,25 @@
   "name": "Unit Zero Testnet",
   "chain": "Unit Zero",
   "icon": "unitzero",
-  "rpc": ["https://rpc-testnet.unit0.dev"],
-  "faucets": ["https://faucet-testnet.unit0.dev"],
+  "rpc": [
+    "https://rpc-testnet.unit0.dev"
+  ],
+  "faucets": [
+    "https://faucet-testnet.unit0.dev"
+  ],
   "nativeCurrency": {
     "name": "UNIT0",
     "symbol": "UNIT0",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://units.network",
   "shortName": "unit0-testnet",
   "chainId": 88817,
@@ -20,5 +31,8 @@
       "url": "https://explorer-testnet.unit0.dev",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

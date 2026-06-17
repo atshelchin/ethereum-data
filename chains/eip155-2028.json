@@ -1,8 +1,12 @@
 {
   "name": "ArmaChain Testnet",
   "chain": "ARMA",
-  "rpc": ["https://rpc.armascan.io"],
-  "faucets": ["https://armafaucet.io"],
+  "rpc": [
+    "https://rpc.armascan.io"
+  ],
+  "faucets": [
+    "https://armafaucet.io"
+  ],
   "nativeCurrency": {
     "name": "tARMA",
     "symbol": "tARMA",
@@ -11,6 +15,9 @@
   "features": [
     {
       "name": "EIP155"
+    },
+    {
+      "name": "RIP7212"
     }
   ],
   "infoURL": "https://armadex.io",

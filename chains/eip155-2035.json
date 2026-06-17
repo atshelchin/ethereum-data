@@ -1,7 +1,9 @@
 {
   "name": "Phala Network",
   "chain": "ETH",
-  "rpc": ["https://rpc.phala.network"],
+  "rpc": [
+    "https://rpc.phala.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -12,5 +14,10 @@
   "shortName": "phala",
   "chainId": 2035,
   "networkId": 2035,
-  "status": "incubating"
+  "status": "incubating",
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

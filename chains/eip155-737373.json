@@ -1,8 +1,12 @@
 {
   "name": "bokuto",
   "chain": "bokuto",
-  "rpc": ["https://rpc-bokuto.katanarpc.com"],
-  "faucets": ["https://faucet.katana.tools"],
+  "rpc": [
+    "https://rpc-bokuto.katanarpc.com"
+  ],
+  "faucets": [
+    "https://faucet.katana.tools"
+  ],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -25,6 +29,11 @@
       "url": "https://explorer-bokuto.katanarpc.com",
       "icon": "katana",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

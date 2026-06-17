@@ -2,7 +2,9 @@
   "name": "MCH Verse Mainnet",
   "chain": "MCH Verse",
   "icon": "mch_verse",
-  "rpc": ["https://rpc.oasys.mycryptoheroes.net"],
+  "rpc": [
+    "https://rpc.oasys.mycryptoheroes.net"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",
@@ -23,5 +25,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-248"
-  }
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

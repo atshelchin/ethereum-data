@@ -2,7 +2,9 @@
   "name": "Numbers Testnet",
   "chain": "NUM",
   "icon": "num",
-  "rpc": ["https://testnetrpc.num.network"],
+  "rpc": [
+    "https://testnetrpc.num.network"
+  ],
   "faucets": [
     "https://faucet.avax.network/?subnet=num",
     "https://faucet.num.network"
@@ -22,6 +24,11 @@
       "name": "ethernal",
       "url": "https://testnet.num.network",
       "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
     }
   ]
 }

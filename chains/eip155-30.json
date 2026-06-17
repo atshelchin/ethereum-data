@@ -42,5 +42,8 @@
       "contract": "0xef213441a85df4d7acbdae0cf78004e1e486bb96"
     }
   ],
-  "wrappedNativeToken": "0x967f8799aF07DF1534d48A95a5C9FEBE92c53ae0"
+  "wrappedNativeToken": "0x967f8799aF07DF1534d48A95a5C9FEBE92c53ae0",
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

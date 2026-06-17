@@ -32,5 +32,10 @@
         "url": "https://bridge.gelato.network/bridge/playblock"
       }
     ]
-  }
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ]
 }

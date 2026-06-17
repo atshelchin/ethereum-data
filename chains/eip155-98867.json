@@ -2,8 +2,13 @@
   "name": "Plume Testnet",
   "title": "Plume Sepolia L2 Rollup Testnet",
   "chain": "PLUME Testnet",
-  "rpc": ["https://testnet-rpc.plume.org", "wss://testnet-rpc.plume.org"],
-  "faucets": ["https://faucet.plume.org"],
+  "rpc": [
+    "https://testnet-rpc.plume.org",
+    "wss://testnet-rpc.plume.org"
+  ],
+  "faucets": [
+    "https://faucet.plume.org"
+  ],
   "nativeCurrency": {
     "name": "Plume",
     "symbol": "PLUME",
@@ -27,6 +32,18 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://testnet-bridge.plume.org" }]
+    "bridges": [
+      {
+        "url": "https://testnet-bridge.plume.org"
+      }
+    ]
+  },
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

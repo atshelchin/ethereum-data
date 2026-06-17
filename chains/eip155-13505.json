@@ -1,7 +1,9 @@
 {
   "name": "Gravity Alpha Testnet Sepolia",
   "chain": "Gravity",
-  "rpc": ["https://rpc-sepolia.gravity.xyz"],
+  "rpc": [
+    "https://rpc-sepolia.gravity.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Gravity",
@@ -9,9 +11,18 @@
     "decimals": 18
   },
   "features": [
-    { "name": "EIP155" },
-    { "name": "EIP1559" },
-    { "name": "EIP1108" }
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "EIP1108"
+    },
+    {
+      "name": "RIP7212"
+    }
   ],
   "infoURL": "https://gravity.xyz",
   "shortName": "gravitysep",
@@ -29,5 +40,8 @@
     "type": "L2",
     "chain": "eip155-11155111",
     "bridges": []
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

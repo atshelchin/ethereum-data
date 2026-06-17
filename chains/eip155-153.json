@@ -6,7 +6,9 @@
   "networkId": 153,
   "icon": "redbelly",
   "slip44": 1,
-  "rpc": ["https://governors.testnet.redbelly.network"],
+  "rpc": [
+    "https://governors.testnet.redbelly.network"
+  ],
   "faucets": [],
   "infoURL": "https://redbelly.network",
   "nativeCurrency": {
@@ -21,5 +23,8 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "status": "active",
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

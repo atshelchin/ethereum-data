@@ -59,5 +59,8 @@
       "router": "0xF491e7B69E4244ad4002BC14e878a34207E38c29"
     },
     "url": "https://spooky.fi"
+  },
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }
 }

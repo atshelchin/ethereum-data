@@ -2,7 +2,9 @@
   "name": "Mandala Chain",
   "chain": "MANDALA",
   "icon": "mandala",
-  "rpc": ["https://rpc1-mainnet.mandalachain.io"],
+  "rpc": [
+    "https://rpc1-mainnet.mandalachain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kepeng",
@@ -30,5 +32,13 @@
       }
     ]
   },
-  "status": "active"
+  "status": "active",
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

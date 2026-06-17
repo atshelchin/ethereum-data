@@ -2,7 +2,9 @@
   "name": "EDU Chain Testnet",
   "chain": "EDU Chain Testnet",
   "icon": "open-campus-codex",
-  "rpc": ["https://rpc.open-campus-codex.gelato.digital"],
+  "rpc": [
+    "https://rpc.open-campus-codex.gelato.digital"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "EDU",
@@ -20,5 +22,13 @@
       "icon": "open-campus-codex",
       "standard": "none"
     }
-  ]
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }

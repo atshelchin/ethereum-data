@@ -1,7 +1,10 @@
 {
   "name": "Tempo Testnet Moderato",
   "chain": "ETH",
-  "rpc": ["https://rpc.moderato.tempo.xyz", "wss://rpc.moderato.tempo.xyz"],
+  "rpc": [
+    "https://rpc.moderato.tempo.xyz",
+    "wss://rpc.moderato.tempo.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "No native currency",
@@ -20,5 +23,13 @@
       "icon": "tempo",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
 }
