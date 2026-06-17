@@ -1,28 +1,44 @@
 {
-  "name": "Wanchain Testnet",
-  "chain": "WAN",
+  "name": "HyperEVM",
+  "chain": "HYPE",
   "rpc": [
-    "https://hyperliquid.api.pocket.network",
-    "https://hyperliquid.api.onfinality.io/evm/public"
+    "https://rpc.hyperliquid.xyz/evm",
+    "https://rpc.hypurrscan.io",
+    "https://hyperliquid.rpc.blxrbdn.com",
+    "https://hyperliquid.drpc.org",
+    "https://hyperevm.rpc.sentio.xyz",
+    "https://hyperliquid-json-rpc.stakely.io",
+    "https://hyperliquid.api.onfinality.io/evm/public",
+    "https://rpc.hyperlend.finance",
+    "https://rpc.nodeflare.app/hl/public",
+    "wss://hyperliquid.drpc.org"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Wancoin",
-    "symbol": "WAN",
+    "name": "HYPE",
+    "symbol": "HYPE",
     "decimals": 18
   },
-  "infoURL": "https://testnet.wanscan.org",
-  "shortName": "twan",
+  "infoURL": "https://hyperfoundation.org/",
+  "shortName": "hype-evm",
   "chainId": 999,
   "networkId": 999,
-  "slip44": 1,
-  "icon": "wanchain",
   "explorers": [
     {
-      "name": "wanscan",
-      "icon": "wanchain",
-      "url": "https://testnet.wanscan.org",
+      "name": "HyperEVMScan",
+      "url": "https://hyperevmscan.io",
       "standard": "EIP3091"
     }
+  ],
+  "redFlags": [
+    "reusedChainId"
   ]
 }
