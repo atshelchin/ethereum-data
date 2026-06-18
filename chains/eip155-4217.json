@@ -40,12 +40,12 @@
     },
     {
       "symbol": "USDC.e",
-      "type": "native",
+      "type": "bridge",
       "contract": "0x20C000000000000000000000b9537d11c60E8b50"
     },
       {
       "symbol": "USDT0",
-      "type": "native",
+      "type": "bridge",
       "contract": "0x20C00000000000000000000014f22CA97301EB73"
     }
   ],
