@@ -1,0 +1,24 @@
+{
+    "name": "AlphaUSD",
+    "type": "TEMPO",
+    "symbol": "AlphaUSD",
+    "decimals": 6,
+    "website": "https://tempo.xyz",
+    "description": "AlphaUSD is a test stablecoin on Tempo's Moderato testnet, implemented as a TIP-20 precompile. Tempo is a payments-focused EVM L1 incubated by Stripe and Paradigm.",
+    "explorer": "https://explore.testnet.tempo.xyz/token/0x20C0000000000000000000000000000000000001",
+    "status": "active",
+    "id": "0x20C0000000000000000000000000000000000001",
+    "links": [
+        {
+            "name": "docs",
+            "url": "https://docs.tempo.xyz/learn/tempo/native-stablecoins"
+        },
+        {
+            "name": "x",
+            "url": "https://x.com/tempo"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}

@@ -29,6 +29,38 @@
       "name": "RIP7212"
     }
   ],
+  "stables": [
+    {
+      "symbol": "PathUSD",
+      "type": "native",
+      "contract": "0x20C0000000000000000000000000000000000000"
+    },
+    {
+      "symbol": "AlphaUSD",
+      "type": "native",
+      "contract": "0x20C0000000000000000000000000000000000001"
+    },
+    {
+      "symbol": "BetaUSD",
+      "type": "native",
+      "contract": "0x20C0000000000000000000000000000000000002"
+    },
+    {
+      "symbol": "ThetaUSD",
+      "type": "native",
+      "contract": "0x20C0000000000000000000000000000000000003"
+    },
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0x20C0000000000000000000009e8d7eB59B783726"
+    },
+    {
+      "symbol": "EURC.e",
+      "type": "bridge",
+      "contract": "0x20c000000000000000000000D72572838BbEe59C"
+    }
+  ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }

@@ -1,0 +1,24 @@
+{
+    "name": "Bridged USDC (Stargate)",
+    "type": "TEMPO",
+    "symbol": "USDC.e",
+    "decimals": 6,
+    "website": "https://www.circle.com/usdc",
+    "description": "USDC.e is USDC bridged to Tempo's Moderato testnet via Stargate. USDC is a US dollar-backed stablecoin issued by Circle, designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+    "explorer": "https://explore.testnet.tempo.xyz/token/0x20C0000000000000000000009e8d7eB59B783726",
+    "status": "active",
+    "id": "0x20C0000000000000000000009e8d7eB59B783726",
+    "links": [
+        {
+            "name": "x",
+            "url": "https://x.com/circle"
+        },
+        {
+            "name": "coinmarketcap",
+            "url": "https://coinmarketcap.com/currencies/usd-coin/"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}
