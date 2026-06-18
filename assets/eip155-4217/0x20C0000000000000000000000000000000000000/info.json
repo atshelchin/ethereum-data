@@ -1,0 +1,24 @@
+{
+    "name": "pathUSD",
+    "type": "TEMPO",
+    "symbol": "pathUSD",
+    "decimals": 6,
+    "website": "https://tempo.xyz",
+    "description": "pathUSD is Tempo's native stablecoin, implemented as a TIP-20 precompile and used as the default gas token when a payer does not hold another stablecoin. Tempo is a payments-focused EVM L1 incubated by Stripe and Paradigm.",
+    "explorer": "https://explore.tempo.xyz/token/0x20C0000000000000000000000000000000000000",
+    "status": "active",
+    "id": "0x20C0000000000000000000000000000000000000",
+    "links": [
+        {
+            "name": "docs",
+            "url": "https://docs.tempo.xyz/learn/tempo/native-stablecoins"
+        },
+        {
+            "name": "x",
+            "url": "https://x.com/tempo"
+        }
+    ],
+    "tags": [
+        "stablecoin"
+    ]
+}
