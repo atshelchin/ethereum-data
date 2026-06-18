@@ -1,14 +1,16 @@
 {
-  "name": "Tempo Mainnet Presto",
+  "name": "Tempo Mainnet",
   "chain": "ETH",
   "rpc": [
+    "https://rpc.tempo.xyz",
     "https://tempo-rpc.publicnode.com",
+    "wss://rpc.tempo.xyz",
     "https://rpc.mainnet.tempo.xyz",
     "wss://rpc.mainnet.tempo.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "No native currency",
+    "name": "USD",
     "symbol": "USD",
     "decimals": 18
   },
@@ -28,6 +30,23 @@
   "features": [
     {
       "name": "RIP7212"
+    }
+  ],
+    "stables": [
+    {
+      "symbol": "pathUSD",
+      "type": "native",
+      "contract": "0x20C0000000000000000000000000000000000000"
+    },
+    {
+      "symbol": "USDC.e",
+      "type": "native",
+      "contract": "0x20C000000000000000000000b9537d11c60E8b50"
+    },
+      {
+      "symbol": "USDT0",
+      "type": "native",
+      "contract": "0x20C00000000000000000000014f22CA97301EB73"
     }
   ],
   "contracts": {
