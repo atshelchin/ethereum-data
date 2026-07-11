@@ -1,0 +1,293 @@
+{
+  "0x5ff63cb9ae8d800af4f8ce6d88294691a5b8228b88d81fbb70932ca18f282caf": {
+    "context": {
+      "eip712": {
+        "domain": {
+          "name": "FT SessionManager",
+          "version": "1"
+        },
+        "deployments": [
+          {
+            "chainId": 1,
+            "address": "0xF9f3ddF2E96Cabef94e2634c326DC6dde99360f8"
+          },
+          {
+            "chainId": 146,
+            "address": "0x109AE72778a0260571b9767477204F1ce41FBdff"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "owner": "Flying Tulip",
+      "contractName": "Spot order cancellation",
+      "info": {
+        "url": "https://flyingtulip.com"
+      }
+    },
+    "display": {
+      "formats": {
+        "CancelOrder(string orderId)": {
+          "intent": "Cancel spot order",
+          "fields": [
+            {
+              "path": "orderId",
+              "label": "Order ID",
+              "format": "raw",
+              "visible": "always"
+            }
+          ],
+          "interpolatedIntent": "Cancel order {orderId}"
+        },
+        "TpslGroupCancel(address user,string positionId,string tpslGroupId,uint256 deadline)": {
+          "intent": "Cancel TP/SL orders",
+          "fields": [
+            {
+              "path": "user",
+              "label": "User",
+              "format": "addressName",
+              "params": {
+                "types": [
+                  "wallet",
+                  "eoa"
+                ],
+                "sources": [
+                  "local",
+                  "ens"
+                ]
+              },
+              "visible": "always"
+            },
+            {
+              "path": "positionId",
+              "label": "Position ID",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "path": "tpslGroupId",
+              "label": "TP/SL group",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "path": "deadline",
+              "label": "Deadline",
+              "format": "date",
+              "params": {
+                "encoding": "timestamp"
+              },
+              "visible": "always"
+            }
+          ],
+          "interpolatedIntent": "Cancel TP/SL {tpslGroupId}"
+        }
+      }
+    }
+  },
+  "0x10e2e916a5d944a9c9fa82748951934e444783850c4cb366694967607dbd2fc5": {
+    "context": {
+      "eip712": {
+        "domain": {
+          "name": "FT SessionManager",
+          "version": "1"
+        },
+        "deployments": [
+          {
+            "chainId": 1,
+            "address": "0xF9f3ddF2E96Cabef94e2634c326DC6dde99360f8"
+          },
+          {
+            "chainId": 146,
+            "address": "0x109AE72778a0260571b9767477204F1ce41FBdff"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "owner": "Flying Tulip",
+      "contractName": "FT SessionManager",
+      "info": {
+        "url": "https://flyingtulip.com"
+      }
+    },
+    "display": {
+      "formats": {
+        "Session(address owner,address delegate,uint48 validAfter,uint48 validUntil,uint32 maxCalls,uint16 maxFeeBps,AssetLimit[] limits,bytes32 salt)AssetLimit(address token,uint256 limit)": {
+          "intent": "Create session",
+          "fields": [
+            {
+              "path": "owner",
+              "label": "Owner",
+              "format": "addressName",
+              "params": {
+                "types": [
+                  "wallet",
+                  "eoa"
+                ],
+                "sources": [
+                  "local",
+                  "ens"
+                ]
+              },
+              "visible": "always"
+            },
+            {
+              "path": "delegate",
+              "label": "Delegate",
+              "format": "addressName",
+              "params": {
+                "types": [
+                  "wallet",
+                  "eoa"
+                ],
+                "sources": [
+                  "local",
+                  "ens"
+                ]
+              },
+              "visible": "always"
+            },
+            {
+              "path": "validAfter",
+              "label": "Valid after",
+              "format": "date",
+              "params": {
+                "encoding": "timestamp"
+              },
+              "visible": "always"
+            },
+            {
+              "path": "validUntil",
+              "label": "Valid until",
+              "format": "date",
+              "params": {
+                "encoding": "timestamp"
+              },
+              "visible": "always"
+            },
+            {
+              "path": "maxCalls",
+              "label": "Max calls",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "path": "maxFeeBps",
+              "label": "Max fee",
+              "format": "unit",
+              "params": {
+                "base": "bps",
+                "decimals": 0
+              },
+              "visible": "always"
+            },
+            {
+              "path": "limits.[].limit",
+              "label": "Token limit",
+              "format": "tokenAmount",
+              "params": {
+                "tokenPath": "limits.[].token",
+                "threshold": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                "message": "Unlimited"
+              },
+              "visible": "always"
+            },
+            {
+              "path": "salt",
+              "label": "Salt",
+              "visible": "never"
+            }
+          ],
+          "interpolatedIntent": "FT session {delegate}"
+        }
+      }
+    }
+  },
+  "0x97c3004f022eead1b9565df4526775d10c55d927dbc6c62c9b8a97c68fb0d889": {
+    "context": {
+      "eip712": {
+        "domain": {
+          "name": "FT SessionManager",
+          "version": "1"
+        },
+        "deployments": [
+          {
+            "chainId": 1,
+            "address": "0xF9f3ddF2E96Cabef94e2634c326DC6dde99360f8"
+          },
+          {
+            "chainId": 146,
+            "address": "0x109AE72778a0260571b9767477204F1ce41FBdff"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "owner": "Flying Tulip",
+      "contractName": "Spot order cancellation",
+      "info": {
+        "url": "https://flyingtulip.com"
+      }
+    },
+    "display": {
+      "formats": {
+        "CancelOrder(string orderId)": {
+          "intent": "Cancel spot order",
+          "fields": [
+            {
+              "path": "orderId",
+              "label": "Order ID",
+              "format": "raw",
+              "visible": "always"
+            }
+          ],
+          "interpolatedIntent": "Cancel order {orderId}"
+        },
+        "TpslGroupCancel(address user,string positionId,string tpslGroupId,uint256 deadline)": {
+          "intent": "Cancel TP/SL orders",
+          "fields": [
+            {
+              "path": "user",
+              "label": "User",
+              "format": "addressName",
+              "params": {
+                "types": [
+                  "wallet",
+                  "eoa"
+                ],
+                "sources": [
+                  "local",
+                  "ens"
+                ]
+              },
+              "visible": "always"
+            },
+            {
+              "path": "positionId",
+              "label": "Position ID",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "path": "tpslGroupId",
+              "label": "TP/SL group",
+              "format": "raw",
+              "visible": "always"
+            },
+            {
+              "path": "deadline",
+              "label": "Deadline",
+              "format": "date",
+              "params": {
+                "encoding": "timestamp"
+              },
+              "visible": "always"
+            }
+          ],
+          "interpolatedIntent": "Cancel TP/SL {tpslGroupId}"
+        }
+      }
+    }
+  }
+}

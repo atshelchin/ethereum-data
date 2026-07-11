@@ -25,6 +25,7 @@
       "transfer(uint256 amount, uint16 recipientChain, bytes32 recipient)": {
         "$id": "transfer",
         "intent": "Bridge BORG",
+        "interpolatedIntent": "Bridge {#.amount} BORG",
         "fields": [
           {
             "$id": "amount",
@@ -55,6 +56,7 @@
       "transfer(uint256 amount, uint16 recipientChain, bytes32 recipient, bytes32 refundAddress, bool shouldQueue, bytes transceiverInstructions)": {
         "$id": "transfer2",
         "intent": "Bridge BORG",
+        "interpolatedIntent": "Bridge {#.amount} BORG",
         "fields": [
           {
             "$id": "amount",
@@ -102,7 +104,8 @@
             "$id": "relayingFee",
             "label": "Relaying Fee",
             "path": "@.value",
-            "format": "amount"
+            "format": "amount",
+            "visible": "optional"
           }
         ]
       }
