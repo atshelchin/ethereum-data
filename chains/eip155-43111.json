@@ -47,6 +47,15 @@
     }
   ],
   "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
+  "dex": {
+    "dex": "Oku (Uniswap V3)",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0xcb2436774C3e191c85056d248EF4260ce5f27A9D",
+      "quoterV2": "0xcBa55304013187D49d4012F4d7e4B63a04405cd5"
+    },
+    "url": "https://oku.trade/app/hemi/"
+  },
   "features": [
     {
       "name": "RIP7212"

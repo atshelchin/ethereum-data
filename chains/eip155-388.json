@@ -22,6 +22,23 @@
       "standard": "none"
     }
   ],
+  "stables": [
+    {
+      "symbol": "vUSD",
+      "type": "native",
+      "contract": "0x5b91e29ae5a71d9052620acb813d5ac25ec7a4a2"
+    }
+  ],
+  "wrappedNativeToken": "0xc1bf55ee54e16229d9b369a5502bfe5fc9f20b6d",
+  "dex": {
+    "dex": "H2 Finance",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x50704Ac00064be03CEEd817f41E0Aa61F52ef4DC",
+      "router": "0x39aD8C3067281e60045DF041846EE01c1Dd3a853"
+    },
+    "url": "https://h2.finance"
+  },
   "features": [
     {
       "name": "RIP7212"

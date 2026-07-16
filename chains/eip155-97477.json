@@ -25,6 +25,23 @@
       "icon": "doma"
     }
   ],
+  "stables": [
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0x31EEf89D5215C305304a2fA5376a1f1b6C5dc477"
+    }
+  ],
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
+  "dex": {
+    "dex": "Uniswap V3 (Doma)",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0x2e50b586d5bcD04cb6125E028A6a669f7f3cF1C2",
+      "quoterV2": "0x2023ADF9fF50219C34989baABD76A0f5cfe432f4"
+    },
+    "url": "https://app.uniswap.org"
+  },
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111"

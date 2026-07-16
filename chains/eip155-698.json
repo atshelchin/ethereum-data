@@ -24,6 +24,23 @@
       "standard": "EIP3091"
     }
   ],
+  "stables": [
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0x97eec1c29f745dC7c267F90292AA663d997a601D"
+    }
+  ],
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
+  "dex": {
+    "dex": "MSwap",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x338bCC4efd3cA000D123d7352b362Fc6D5B3D829",
+      "router": "0x83700f69B0173ebB46fDAd89A4b27eB7ef171118"
+    },
+    "url": "https://docs.matchain.io/contracts"
+  },
   "parent": {
     "type": "L2",
     "chain": "eip155-56",

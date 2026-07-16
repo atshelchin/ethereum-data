@@ -37,6 +37,16 @@
       "contract": "0x7277Cc818e3F3FfBb169c6Da9CC77Fc2d2a34895"
     }
   ],
+  "wrappedNativeToken": "0xd02E8c38a8E3db71f8b2ae30B8186d7874934e12",
+  "dex": {
+    "dex": "SailFish",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0x963A7f4eB46967A9fd3dFbabD354fC294FA2BF5C",
+      "quoterV2": "0x83EE12582E3448Ab69E664A2ba69b6AedE112205"
+    },
+    "url": "https://app.sailfish.finance"
+  },
   "features": [
     {
       "name": "RIP7212"

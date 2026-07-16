@@ -23,6 +23,23 @@
       "standard": "EIP3091"
     }
   ],
+  "stables": [
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0x7aB6f3ed87C42eF0aDb67Ed95090f8bF5240149e"
+    }
+  ],
+  "wrappedNativeToken": "0xcc788DC0486CD2BaacFf287eea1902cc09FbA570",
+  "dex": {
+    "dex": "Tesseract (Algebra Integral)",
+    "protocol": "algebra-v3",
+    "contracts": {
+      "factory": "0x10253594A832f967994b44f33411940533302ACb",
+      "quoter": "0x15fcbf9bc0797567053a8265b7e6f4ec43ea7327"
+    },
+    "url": "https://www.tesseract.finance/swap"
+  },
   "features": [
     {
       "name": "RIP7212"

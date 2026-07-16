@@ -37,5 +37,22 @@
       "url": "https://subnets.avax.network/henesys",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "stables": [
+    {
+      "symbol": "USDt",
+      "type": "bridge",
+      "contract": "0xa75aaE282802aDD5BfaE39bC5fE0d4D27b117d0A"
+    }
+  ],
+  "wrappedNativeToken": "0x150869eac5C58d3655f860C4316107fB626244d0",
+  "dex": {
+    "dex": "MSU Swap&Warp DEX (Algebra Integral)",
+    "protocol": "algebra-v3",
+    "contracts": {
+      "factory": "0xab49321df952315e208a2b7046a00d2015e39cba",
+      "quoter": "0xd637cbc214bc3dd354abb309f4fe717ffdd0b28c"
+    },
+    "url": "https://msu.io/swapnwarp"
+  }
 }

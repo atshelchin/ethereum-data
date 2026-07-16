@@ -43,6 +43,16 @@
       "contract": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
     }
   ],
+  "wrappedNativeToken": "0xda5dDd7270381A7C2717aD10D1c0ecB19e3CDFb2",
+  "dex": {
+    "dex": "Camelot",
+    "protocol": "algebra-v3",
+    "contracts": {
+      "factory": "0xCf4062Ee235BbeB4C7c0336ada689ed1c17547b6",
+      "quoter": "0xc908fab181c513BaaE4c92cEe7EEC22bD4AcF059"
+    },
+    "url": "https://app.camelot.exchange"
+  },
   "features": [
     {
       "name": "RIP7212"

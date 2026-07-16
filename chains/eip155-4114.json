@@ -34,6 +34,28 @@
       "standard": "EIP3091"
     }
   ],
+  "stables": [
+    {
+      "symbol": "ctUSD",
+      "type": "native",
+      "contract": "0x8D82c4E3c936C7B5724A382a9c5a4E6Eb7aB6d5D"
+    },
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0xE045e6c36cF77FAA2CfB54466D71A3aEF7bbE839"
+    }
+  ],
+  "wrappedNativeToken": "0x3100000000000000000000000000000000000006",
+  "dex": {
+    "dex": "Satsuma",
+    "protocol": "algebra-v3",
+    "contracts": {
+      "factory": "0x10253594a832f967994b44f33411940533302acb",
+      "quoter": "0x03f8B4b140249Dc7B2503C928E7258CCe1d91F1A"
+    },
+    "url": "https://www.satsuma.exchange"
+  },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }

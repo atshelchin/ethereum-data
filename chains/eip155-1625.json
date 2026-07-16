@@ -69,6 +69,16 @@
       "contract": "0x816E810f9F787d669FB71932DeabF6c83781Cd48"
     }
   ],
+  "wrappedNativeToken": "0xBB859E225ac8Fb6BE1C7e38D87b767e95Fef0EbD",
+  "dex": {
+    "dex": "Camelot V3",
+    "protocol": "algebra-v3",
+    "contracts": {
+      "factory": "0x10aA510d94E094Bd643677bd2964c3EE085Daffc",
+      "quoter": "0x52CFD1d72A64f8D13711bb7Dc3899653dbd4191B"
+    },
+    "url": "https://app.camelot.exchange"
+  },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }

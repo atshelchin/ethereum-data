@@ -37,5 +37,15 @@
       "type": "bridge",
       "contract": "0x0B7007c13325C48911F73A2daD5FA5dCBf808aDc"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0xe514d9deb7966c8be0ca922de8a064264ea6bcd4",
+  "dex": {
+    "dex": "Katana",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0xb255d6a720bb7c39fee173ce22113397119cb930",
+      "router": "0x7d0556d55ca1a92708681e2e231733ebd922597d"
+    },
+    "url": "https://app.roninchain.com/swap"
+  }
 }

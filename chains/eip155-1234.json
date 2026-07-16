@@ -24,6 +24,23 @@
       "standard": "EIP3091"
     }
   ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d"
+    }
+  ],
+  "wrappedNativeToken": "0xb58a9d5920af6ac1a9522b0b10f55df16686d1b6",
+  "dex": {
+    "dex": "StepEx (Step Exchange)",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0xf62b74E4a7aE8D27Cd983A54a9d24A89345413a5",
+      "router": "0xa4196322aa900acc92cd5cd978ab47e77efa07eb"
+    },
+    "url": "https://step.exchange"
+  },
   "parent": {
     "type": "L2",
     "chain": "eip155-43114",

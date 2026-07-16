@@ -48,6 +48,15 @@
     }
   ],
   "wrappedNativeToken": "0x5F0b1a82749cb4E2278EC87F8BF6B618dC71a8bf",
+  "dex": {
+    "dex": "SushiSwap V3",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0xb45e53277a7e0f1d35f2a77160e91e25507f1763",
+      "quoterV2": "0x57bfFa72db682f7eb6C132DAE03FF36bBEB0c459"
+    },
+    "url": "https://www.sushi.com/zetachain/swap"
+  },
   "features": [
     {
       "name": "RIP7212"

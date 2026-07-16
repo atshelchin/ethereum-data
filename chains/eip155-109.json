@@ -23,6 +23,22 @@
     }
   ],
   "wrappedNativeToken": "0xC76F4c819D820369Fb2d7C1531aB3Bb18e6fE8d8",
+  "stables": [
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0xab082b8ad96c7f47ed70ed971ce2116469954cfb"
+    }
+  ],
+  "dex": {
+    "dex": "ChewySwap",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0xededdbde5ffa62545edf97054edc11013ed72125",
+      "router": "0x2875F2D86d83635A859029872e745581530cEec7"
+    },
+    "url": "https://chewyswap.dog"
+  },
   "features": [
     {
       "name": "RIP7212"

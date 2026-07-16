@@ -24,6 +24,28 @@
       "standard": "EIP3091"
     }
   ],
+  "stables": [
+    {
+      "symbol": "wUSDT",
+      "type": "bridge",
+      "contract": "0x1487Db421F6B58e77bfefc905fDc1EDE5Fb85C7F"
+    },
+    {
+      "symbol": "wUSDC",
+      "type": "bridge",
+      "contract": "0xd979F41E12A69Aa82f04866444Ea91e8e8FaeFd9"
+    }
+  ],
+  "wrappedNativeToken": "0x110Ac02Ba3384Bc055c13A87766049a74517BedA",
+  "dex": {
+    "dex": "Apertum DEX",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x8bb8aA56642042A8c4dE698E801f2e54Ed5417dc",
+      "router": "0x73cf8b5c2F4920967Bd8e9dECDb18F9F1e12A29f"
+    },
+    "url": "https://dex-v1.apertum.io/"
+  },
   "features": [
     {
       "name": "RIP7212"

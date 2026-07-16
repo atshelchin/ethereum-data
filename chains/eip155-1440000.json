@@ -37,6 +37,23 @@
       "standard": "EIP3091"
     }
   ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0xa16148c6Ac9EDe0D82f0c52899e22a575284f131"
+    }
+  ],
+  "wrappedNativeToken": "0x7C21a90E3eCD3215d16c3BBe76a491f8f792d4Bf",
+  "dex": {
+    "dex": "XRiSE33",
+    "protocol": "solidly",
+    "contracts": {
+      "factory": "0xa9833699fbb0e3759a3c381deb43a61df99e8544",
+      "router": "0x518ee4FeA2a882D6807FBE82d61A6fd35eb013cC"
+    },
+    "url": "https://xrise33.com/"
+  },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }

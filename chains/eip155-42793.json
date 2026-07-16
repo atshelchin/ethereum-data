@@ -47,6 +47,15 @@
     }
   ],
   "wrappedNativeToken": "0xc9B53AB2679f573e480d01e0f49e2B5CFB7a3EAb",
+  "dex": {
+    "dex": "IguanaDEX",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0x093cCBAEcb0E0006c8BfFca92E9929d117fEC583",
+      "quoterV2": "0xaB26D8163eaF3Ac0c359E196D28837B496d40634"
+    },
+    "url": "https://www.iguanadex.com"
+  },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }

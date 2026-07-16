@@ -33,6 +33,23 @@
       "standard": "EIP3091"
     }
   ],
+  "stables": [
+    {
+      "symbol": "USDnR",
+      "type": "native",
+      "contract": "0xD48e565561416dE59DA1050ED70b8d75e8eF28f9"
+    }
+  ],
+  "wrappedNativeToken": "0x927C469E58Daab257Ea60B2D8c37bEDD2a203A54",
+  "dex": {
+    "dex": "FluxFlow V3",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0x69Be606be7Fd2d27C8f9821329c748c77d24FF4f",
+      "quoterV2": "0x4cfc01cE8bcEEC0371e4C03223F9d1E46622b4Ec"
+    },
+    "url": "https://fluxflow.gitbook.io/docs"
+  },
   "parent": {
     "type": "L2",
     "chain": "eip155-1"

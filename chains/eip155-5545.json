@@ -14,6 +14,23 @@
     "decimals": 18
   },
   "infoURL": "https://duckchain.io",
+  "stables": [
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0xbe138ad5d41fdc392ae0b61b09421987c1966cc3"
+    }
+  ],
+  "wrappedNativeToken": "0x7f9308e8d724e724ec31395f3af52e0593bb2e3f",
+  "dex": {
+    "dex": "Camelot V2 (DuckChain)",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x7d8c6B58BA2d40FC6E34C25f9A488067Fe0D2dB4",
+      "router": "0x10aA510d94E094Bd643677bd2964c3EE085Daffc"
+    },
+    "url": "https://app.camelot.exchange/"
+  },
   "shortName": "Duck-Chain-Mainnet",
   "chainId": 5545,
   "networkId": 5545,

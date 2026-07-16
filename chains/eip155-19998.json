@@ -33,5 +33,22 @@
       "url": "https://scan.superaichain.ai",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "stables": [
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x633061059d5dF08c09560e013bA6eB01C736EDd1"
+    }
+  ],
+  "wrappedNativeToken": "0x0B917CE7311d01a5605696CC9199c716295410c2",
+  "dex": {
+    "dex": "SuperAIChain Swap (Uniswap V2 fork)",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0xdf6961CC1C32AACA5aFBF49590EeEdD5f72e7BCc",
+      "router": "0x4fa6Ae45dCb51B131e0BdD7dc8A9DDfe4e33dDD6"
+    },
+    "url": "https://superaichain.ai"
+  }
 }

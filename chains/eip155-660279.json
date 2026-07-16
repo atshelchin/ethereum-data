@@ -22,6 +22,22 @@
   ],
   "infoURL": "https://xai.games",
   "wrappedNativeToken": "0x3fB787101DC6Be47cfe18aeEe15404dcC842e6AF",
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x1E3769Bd5fB2e9e9e7D4ED8667c947661F9A82E3"
+    }
+  ],
+  "dex": {
+    "dex": "Camelot",
+    "protocol": "algebra-v3",
+    "contracts": {
+      "factory": "0xD8676fBdfa5b56BB2298D452c9768f51e80e34AE",
+      "quoter": "0x89aee07E1dbaFc82f089b45FfC763738e9FfF226"
+    },
+    "url": "https://app.camelot.exchange"
+  },
   "features": [
     {
       "name": "RIP7212"

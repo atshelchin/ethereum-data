@@ -28,6 +28,16 @@
       "contract": "0x43F2376D5D03553aE72F4A8093bbe9de4336EB08"
     }
   ],
+  "wrappedNativeToken": "0x0CaCF669f8446BeCA826913a3c6B96aCD4b02a97",
+  "dex": {
+    "dex": "Uniswap V3 (Oku)",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0x346239972d1fa486FC4a521031BC81bFB7D6e8a4",
+      "quoterV2": "0x864DDc9B50B9A0dF676d826c9B9EDe9F8913a160"
+    },
+    "url": "https://oku.trade/dex/nibiru"
+  },
   "features": [
     {
       "name": "RIP7212"

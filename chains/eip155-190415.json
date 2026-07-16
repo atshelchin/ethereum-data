@@ -23,6 +23,23 @@
       "standard": "EIP3091"
     }
   ],
+  "stables": [
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0x401eCb1D350407f13ba348573E5630B83638E30D"
+    }
+  ],
+  "wrappedNativeToken": "0x82553CDA0bEd9262a879F9F7524cd20288B357AA",
+  "dex": {
+    "dex": "HPP Uniswap V2",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0xf799bf70ceb51e26efa1d9744be617bab7b88e41",
+      "router": "0x661aA4D2B0e3348125DEe6E75A28aD8E1e66f8a7"
+    },
+    "url": "https://explorer.hpp.io"
+  },
   "parent": {
     "type": "L2",
     "chain": "eip155-1",

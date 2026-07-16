@@ -24,6 +24,23 @@
       "standard": "EIP3091"
     }
   ],
+  "stables": [
+    {
+      "symbol": "mUSDC",
+      "type": "bridge",
+      "contract": "0x14f5f510B42D371352c605c0c1B972409b82c0F6"
+    }
+  ],
+  "wrappedNativeToken": "0x26A72EE66E2A9dBEC659Ba86d9683e26CEDBdE9c",
+  "dex": {
+    "dex": "MonsterSwap",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0xfa18064465c03b06131e3137ba142dfcBDE2A6e5",
+      "quoterV2": "0x06A4D201D55C485Fb54a174036A14275efC610f9"
+    },
+    "url": "https://www.monsterswap.org/"
+  },
   "redFlags": [
     "reusedChainId"
   ],

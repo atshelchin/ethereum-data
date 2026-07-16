@@ -40,6 +40,23 @@
       "standard": "EIP3091"
     }
   ],
+  "stables": [
+    {
+      "symbol": "MUSD",
+      "type": "native",
+      "contract": "0xdD468A1DDc392dcdbEf6db6e34E89AA338F9F186"
+    }
+  ],
+  "wrappedNativeToken": "0x7b7C000000000000000000000000000000000000",
+  "dex": {
+    "dex": "Tigris",
+    "protocol": "solidly",
+    "contracts": {
+      "factory": "0x83FE469C636C4081b87bA5b3Ae9991c6Ed104248",
+      "router": "0x16A76d3cd3C1e3CE843C6680d6B37E9116b5C706"
+    },
+    "url": "https://mezo.org/app"
+  },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }

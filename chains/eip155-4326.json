@@ -29,5 +29,15 @@
       "type": "bridge",
       "contract": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
+  "dex": {
+    "dex": "Kumbaya",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0x68b34591f662508076927803c567Cc8006988a09",
+      "quoterV2": "0x1F1a8dC7E138C34b503Ca080962aC10B75384a27"
+    },
+    "url": "https://kumbaya.xyz"
+  }
 }

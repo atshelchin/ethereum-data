@@ -48,6 +48,15 @@
     }
   ],
   "wrappedNativeToken": "0xD51BFa777609213A653a2CD067c9A0132a2D316A",
+  "dex": {
+    "dex": "Beam Swap (Uniswap V2)",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x662b526FB70EBB508962f3f61c9F735f687C8fA5",
+      "router": "0x965B104e250648d01d4B3b72BaC751Cde809D29E"
+    },
+    "url": "https://onbeam.com"
+  },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }

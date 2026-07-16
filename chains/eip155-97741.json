@@ -22,6 +22,28 @@
       "standard": "EIP3091"
     }
   ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x20fb684bfc1abaad3acec5712f2aa30bd494df74"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x06f69a40c33c5a4cd038bbe1da689d4d636ec448"
+    }
+  ],
+  "wrappedNativeToken": "0xf9cf4a16d26979b929be7176bac4e7084975fcb8",
+  "dex": {
+    "dex": "PepuSwap",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0x5984b8bf2d4db9c0acb1d7924762e4474d80c807",
+      "quoterV2": "0xd647b2D80b48e93613Aa6982b85f8909578b4829"
+    },
+    "url": "https://pepuswap.com/"
+  },
   "features": [
     {
       "name": "RIP7212"

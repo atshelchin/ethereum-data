@@ -56,6 +56,15 @@
     }
   ],
   "wrappedNativeToken": "0x3439153EB7AF838Ad19d56E1571FBD09333C2809",
+  "dex": {
+    "dex": "Uniswap V3",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0xA1160e73B63F322ae88cC2d8E700833e71D0b2a1",
+      "quoterV2": "0x728BD3eC25D5EDBafebB84F3d67367Cd9EBC7693"
+    },
+    "url": "https://app.uniswap.org"
+  },
   "features": [
     {
       "name": "RIP7212"

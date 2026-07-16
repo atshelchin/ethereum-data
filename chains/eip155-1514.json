@@ -26,6 +26,22 @@
     }
   ],
   "wrappedNativeToken": "0x1514000000000000000000000000000000000000",
+  "stables": [
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0xF1815bd50389c46847f0Bda824eC8da914045D14"
+    }
+  ],
+  "dex": {
+    "dex": "StoryHunt",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0xa111dDbE973094F949D78Ad755cd560F8737B7e2",
+      "quoterV2": "0x1434Ae03CfA29d314da73fC18013CCd04f100af6"
+    },
+    "url": "https://app.storyhunt.xyz/"
+  },
   "features": [
     {
       "name": "RIP7212"

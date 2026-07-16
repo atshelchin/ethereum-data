@@ -24,6 +24,23 @@
       "standard": "EIP3091"
     }
   ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x675C3ce7F43b00045a4Dab954AF36160fb57cB45"
+    }
+  ],
+  "wrappedNativeToken": "0x4Dc858482ddF1E4e07a3db6Ec28535B1c3fa993C",
+  "dex": {
+    "dex": "Uniswap V3",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0x3ba2c2803a1f169592a2253697408da2941ed209",
+      "quoterV2": "0x3F31930Cd4d6ADA3dfbc4102616b309cE38De66B"
+    },
+    "url": "https://appchain.xyz"
+  },
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
