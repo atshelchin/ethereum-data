@@ -44,5 +44,14 @@
   "wrappedNativeToken": "0x202C35e517Fa803B537565c40F0a6965D7204609",
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "dex": {
+    "dex": "MoraSwap",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0xd43F135f6667174f695ecB7DD2B5f953d161e4d1",
+      "router": "0x594e37B9F39f5D31DEc4a8c1cC4fe2E254153034"
+    },
+    "url": "https://moraswap.com"
   }
 }

@@ -33,5 +33,14 @@
   "wrappedNativeToken": "0x7D72b22a74A216Af4a002a1095C8C707d6eC1C5f",
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "dex": {
+    "dex": "WEMIX.Fi",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0xe1F36C7B919c9f893E2Cd30b471434Aa2494664A",
+      "router": "0x80a5A916FB355A8758f0a3e47891dc288DAC2665"
+    },
+    "url": "https://wemix.fi"
   }
 }

@@ -44,8 +44,17 @@
       "contract": "0x0ffa63502f957b66e61F87761cc240e51C74cee5"
     }
   ],
-  "wrappedNativeToken": "0x721EF6871f1c4Efe730Dce047D40D1743B886946",
+  "wrappedNativeToken": "0x677F7e16C7Dd57be1D4C8aD1244883214953DC47",
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "dex": {
+    "dex": "FanX Protocol",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0xE2918AA38088878546c1A18F2F9b1BC83297fdD3",
+      "router": "0x296c39985Fa3eB3B1D76C95245e8Ed44dA4348CF"
+    },
+    "url": "https://fanx.exchange"
   }
 }

@@ -42,8 +42,17 @@
       "contract": "0xef213441a85df4d7acbdae0cf78004e1e486bb96"
     }
   ],
-  "wrappedNativeToken": "0x967f8799aF07DF1534d48A95a5C9FEBE92c53ae0",
+  "wrappedNativeToken": "0x542fDA317318eBF1d3DEAf76E0b632741A7e677d",
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "dex": {
+    "dex": "Uniswap V3 (Oku)",
+    "protocol": "uniswap-v3",
+    "contracts": {
+      "factory": "0xaF37EC98A00FD63689CF3060BF3B6784E00caD82",
+      "quoterV2": "0xb51727c996C68E60F598A923a5006853cd2fEB31"
+    },
+    "url": "https://oku.trade"
   }
 }
