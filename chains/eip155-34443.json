@@ -33,12 +33,17 @@
     {
       "symbol": "USDC",
       "type": "bridge",
-      "contract": "0xd988097fb8612cc24eec14542bc03424c656005f"
+      "contract": "0xd988097fb8612cc24eeC14542bC03424c656005f"
     },
     {
       "symbol": "USDT",
       "type": "bridge",
-      "contract": "0xf0f161fda2712db8b566946122a5af183995e2ed"
+      "contract": "0xf0F161fDA2712DB8b566946122a5af183995e2eD"
+    },
+    {
+      "symbol": "DAI",
+      "type": "bridge",
+      "contract": "0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea"
     }
   ],
   "wrappedNativeToken": "0x4200000000000000000000000000000000000006",

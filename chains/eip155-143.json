@@ -44,6 +44,11 @@
       "symbol": "USDC",
       "type": "native",
       "contract": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603"
+    },
+    {
+      "symbol": "USDT0",
+      "type": "bridge",
+      "contract": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D"
     }
   ],
   "wrappedNativeToken": "0x760AfE86e5DE5fa0Ee542fc7B7b713e1c5425701",

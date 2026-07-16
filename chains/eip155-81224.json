@@ -32,6 +32,11 @@
       "symbol": "USDC",
       "type": "native",
       "contract": "0xd996633a415985DBd7D6D12f4A4343E31f5037cf"
+    },
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0xbbA60da06c2c5424f03f7434542280FCAd453d10"
     }
   ],
   "features": [

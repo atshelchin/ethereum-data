@@ -54,14 +54,19 @@
       "contract": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
     },
     {
-      "symbol": "USDbC",
-      "type": "bridge",
-      "contract": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA"
-    },
-    {
       "symbol": "USDT",
       "type": "bridge",
       "contract": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2"
+    },
+    {
+      "symbol": "DAI",
+      "type": "bridge",
+      "contract": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb"
+    },
+    {
+      "symbol": "USDbC",
+      "type": "bridge",
+      "contract": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA"
     }
   ],
   "wrappedNativeToken": "0x4200000000000000000000000000000000000006",

@@ -41,6 +41,16 @@
       "symbol": "USDC",
       "type": "native",
       "contract": "0x222365EF19F7947e5484218551B56bb3965Aa7aF"
+    },
+    {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0x78adD880A697070c1e765Ac44D65323a0DcCE913"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0xda6087E69C51E7D31b6DBAD276a3c44703DFdCAd"
     }
   ],
   "dex": {

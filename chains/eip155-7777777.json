@@ -27,7 +27,7 @@
     {
       "symbol": "USDC",
       "type": "bridge",
-      "contract": "0xCccCcccc7021b32EBb4e8C08314bD62F7c653EC4"
+      "contract": "0xCccCCccc7021b32EBb4e8C08314bD62F7c653EC4"
     }
   ],
   "wrappedNativeToken": "0x4200000000000000000000000000000000000006",

@@ -51,7 +51,12 @@
     {
       "symbol": "USDT",
       "type": "bridge",
-      "contract": "0x493257fd37edb34451f62edf8d2a0c418852ba4c"
+      "contract": "0x493257fD37EDB34451f62EDf8D2a0C418852bA4C"
+    },
+    {
+      "symbol": "DAI",
+      "type": "bridge",
+      "contract": "0x4B9eb6c0b6ea15176BBF62841C6B2A8a398cb656"
     }
   ],
   "wrappedNativeToken": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",

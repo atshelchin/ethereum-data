@@ -36,19 +36,29 @@
   ],
   "stables": [
     {
-      "symbol": "multiUSDC",
+      "symbol": "USDC.wh",
       "type": "bridge",
-      "contract": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b"
+      "contract": "0x931715FEE2d06333043d11F658C8CE934aC61D0c"
     },
     {
       "symbol": "axlUSDC",
       "type": "bridge",
-      "contract": "0xca01a1d0993565291051daff390892518acfad3a"
+      "contract": "0xCa01a1D0993565291051daFF390892518ACfAD3A"
     },
     {
-      "symbol": "multiUSDT",
+      "symbol": "xcUSDC",
       "type": "bridge",
-      "contract": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73"
+      "contract": "0xFFfffffF7D2B0B761Af01Ca8e25242976ac0aD7D"
+    },
+    {
+      "symbol": "USDT.wh",
+      "type": "bridge",
+      "contract": "0xc30E9cA94CF52f3Bf5692aaCF81353a27052c46f"
+    },
+    {
+      "symbol": "xcUSDT",
+      "type": "bridge",
+      "contract": "0xFFFFFFfFea09FB06d082fd1275CD48b191cbCD1d"
     }
   ],
   "wrappedNativeToken": "0xAcc15dC74880C9944775448304B263D191c6077F",

@@ -43,6 +43,11 @@
       "contract": "0xCfb1186F4e93D60E60a8bDd997427D1F33bc372B"
     },
     {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0xc7D67A9cBB121b3b0b9c053DD9f469523243379A"
+    },
+    {
       "symbol": "USDT0",
       "type": "bridge",
       "contract": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D"

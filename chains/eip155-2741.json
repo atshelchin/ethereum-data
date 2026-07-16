@@ -42,12 +42,17 @@
     {
       "symbol": "USDC.e",
       "type": "bridge",
-      "contract": "0x84A71ccD554Cc1b02749b35d22f684CC8ec987e1"
+      "contract": "0x84A71ccD554Cc1b02749b35d22F684CC8ec987e1"
     },
     {
       "symbol": "USDT",
       "type": "bridge",
-      "contract": "0x0709f39376deee2a2dfc94a58edeb2eb9df012bd"
+      "contract": "0x0709F39376dEEe2A2dfC94A58EdEb2Eb9DF012bD"
+    },
+    {
+      "symbol": "PYUSD0",
+      "type": "bridge",
+      "contract": "0x142cdc44890978B506e745bB3Bd11607B7f7faEf"
     }
   ],
   "wrappedNativeToken": "0x3439153EB7AF838Ad19d56E1571FBD09333C2809",

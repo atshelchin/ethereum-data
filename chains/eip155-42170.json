@@ -41,5 +41,17 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
-  }
+  },
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x750ba8b76187092B0D1E87E28daaf484d1b5273b"
+    },
+    {
+      "symbol": "DAI",
+      "type": "bridge",
+      "contract": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"
+    }
+  ]
 }

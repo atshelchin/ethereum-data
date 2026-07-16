@@ -21,6 +21,11 @@
       "symbol": "USDC",
       "type": "bridge",
       "contract": "0x0829F361A05D993d5CEb035cA6DF3446b060970b"
+    },
+    {
+      "symbol": "stgUSDT",
+      "type": "bridge",
+      "contract": "0x43F2376D5D03553aE72F4A8093bbe9de4336EB08"
     }
   ],
   "features": [

@@ -34,13 +34,7 @@
     },
     "url": "https://velodrome.finance"
   },
-  "stables": [
-    {
-      "symbol": "USDC",
-      "type": "bridge",
-      "contract": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
-    }
-  ],
+  "stables": [],
   "features": [
     {
       "name": "RIP7212"

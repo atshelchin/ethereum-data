@@ -34,9 +34,19 @@
   },
   "stables": [
     {
+      "symbol": "USDC.e",
+      "type": "bridge",
+      "contract": "0xF1815bd50389c46847f0Bda824eC8da914045D14"
+    },
+    {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8"
+    },
+    {
       "symbol": "ApeUSD",
       "type": "native",
-      "contract": "0xA2235d059F80e176D931Ef76b6C51953EB3fBDf4"
+      "contract": "0xA2235d059F80E176D931EF76B6c51953eB3Fbdf4"
     }
   ],
   "features": [

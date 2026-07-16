@@ -30,5 +30,12 @@
     {
       "name": "RIP7212"
     }
+  ],
+  "stables": [
+    {
+      "symbol": "USDC",
+      "type": "bridge",
+      "contract": "0x0B7007c13325C48911F73A2daD5FA5dCBf808aDc"
+    }
   ]
 }
