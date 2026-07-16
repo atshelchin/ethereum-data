@@ -60,6 +60,16 @@
       "symbol": "DAI",
       "type": "bridge",
       "contract": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3"
+    },
+    {
+      "symbol": "USD1",
+      "type": "native",
+      "contract": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d"
+    },
+    {
+      "symbol": "BUSD",
+      "type": "bridge",
+      "contract": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
     }
   ],
   "wrappedNativeToken": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
