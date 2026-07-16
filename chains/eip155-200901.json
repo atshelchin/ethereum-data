@@ -40,7 +40,16 @@
       "contract": "0xfe9f969faf8ad72a83b761138bf25de87eff9dd2"
     }
   ],
-  "wrappedNativeToken": "0x3e57d6946f893314324C975AA9CEBBdF3232967E",
+  "wrappedNativeToken": "0xfF204e2681A6fA0e2C3FaDe68a1B28fb90E4Fc5F",
+  "dex": {
+    "dex": "Macaron",
+    "protocol": "uniswap-v2",
+    "contracts": {
+      "factory": "0x1037e9078df7ab09b9af78b15d5e7aad7c1afdd0",
+      "router": "0xb0cc30795f9e0125575742cfa8e73d20d9966f81"
+    },
+    "url": "https://macaron.xyz/"
+  },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
   }

@@ -28,6 +28,11 @@
       "symbol": "USDC",
       "type": "bridge",
       "contract": "0xcdf764933b9a9ebb2c5da904b9715f3cf981572a"
+    },
+    {
+      "symbol": "WEMIX$",
+      "type": "native",
+      "contract": "0x8e81fcc2d4a3baa0ee9044e0d7e36f59c9bba9c1"
     }
   ],
   "wrappedNativeToken": "0x7D72b22a74A216Af4a002a1095C8C707d6eC1C5f",

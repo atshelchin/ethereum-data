@@ -48,10 +48,10 @@
   "wrappedNativeToken": "0x0Dc808adcE2099A9F62AA87D9670745AbA741746",
   "dex": {
     "dex": "QuickSwap",
-    "protocol": "algebra-v3",
+    "protocol": "uniswap-v3",
     "contracts": {
-      "factory": "0x411b0fAcC3489691f28ad58c47006AF5E3Ab3A28",
-      "quoter": "0xa15F0D7377B2A0C0c10db057f641beD21028FC89"
+      "factory": "0x56c2162254b0E4417288786eE402c2B41d4e181e",
+      "quoterV2": "0x3005827fB92A0cb7D0f65738D6D645d98A4Ad96b"
     },
     "url": "https://quickswap.exchange"
   },

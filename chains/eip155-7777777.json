@@ -35,8 +35,8 @@
     "dex": "Uniswap",
     "protocol": "uniswap-v3",
     "contracts": {
-      "factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
-      "quoterV2": "0x61fFE014bA17989E743c5F6cB21bF9697530B21e"
+      "factory": "0x7145F8aeef1f6510E92164038E1B6F8cB2c42Cbb",
+      "quoterV2": "0x11867e1b3348F3ce4FcC170BC5af3d23E07E64Df"
     },
     "url": "https://app.uniswap.org"
   },

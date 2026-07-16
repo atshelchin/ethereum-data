@@ -47,13 +47,13 @@
   ],
   "wrappedNativeToken": "0xA51894664A773981C6C112C43ce576f315d5b1B6",
   "dex": {
-    "dex": "Panko",
+    "dex": "Uniswap V3 (Oku)",
     "protocol": "uniswap-v3",
     "contracts": {
-      "factory": "0xB8CD97fC1542Aae929b32D16399fC83F269E1488",
-      "quoterV2": "0x49c3efF8ee0E24F1F4d0E4D2C4B97F12E6D7cA34"
+      "factory": "0x75FC67473A91335B5b8F8821277262a13B38c9b3",
+      "quoterV2": "0x807F4E281B7A3B324825C64ca53c69F0b418dE40"
     },
-    "url": "https://panko.finance"
+    "url": "https://oku.trade"
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"

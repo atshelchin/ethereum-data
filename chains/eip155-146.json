@@ -53,13 +53,13 @@
   ],
   "wrappedNativeToken": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
   "dex": {
-    "dex": "Aster",
-    "protocol": "solidly",
+    "dex": "SwapX",
+    "protocol": "algebra-v3",
     "contracts": {
-      "factory": "0xAAA20D08e59F6561f242b08513D36266C5A29415",
-      "router": "0xAAA45c8F5ef92a000a121d102F4e89278a711Faa"
+      "factory": "0x8121a3F8c4176E9765deEa0B95FA2BDfD3016794",
+      "quoter": "0xd74a9Bd1C98B2CbaB5823107eb2BE9C474bEe09A"
     },
-    "url": "https://aster.finance"
+    "url": "https://swapx.fi"
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"

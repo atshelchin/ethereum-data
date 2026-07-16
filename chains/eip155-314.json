@@ -61,13 +61,13 @@
   ],
   "wrappedNativeToken": "0x60E1773636CF5E4A227d9AC24F20fEca034ee25A",
   "dex": {
-    "dex": "SushiSwap",
-    "protocol": "uniswap-v2",
+    "dex": "Uniswap V3 (Oku)",
+    "protocol": "uniswap-v3",
     "contracts": {
-      "factory": "0xc35DADB65012eC5796536bD9864eD8773aBc74C4",
-      "router": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
+      "factory": "0xB4C47eD546Fc31E26470a186eC2C5F19eF09BA41",
+      "quoterV2": "0xE45C06922228A33fFf1ED54638A0db78f69F9780"
     },
-    "url": "https://www.sushi.com"
+    "url": "https://oku.trade"
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"

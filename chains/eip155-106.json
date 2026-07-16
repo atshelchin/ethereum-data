@@ -25,6 +25,11 @@
   ],
   "stables": [
     {
+      "symbol": "USDT",
+      "type": "bridge",
+      "contract": "0x01445C31581c354b7338AC35693AB2001B50b9aE"
+    },
+    {
       "symbol": "USDC",
       "type": "bridge",
       "contract": "0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844"
@@ -35,7 +40,7 @@
     "dex": "WagyuSwap",
     "protocol": "uniswap-v2",
     "contracts": {
-      "factory": "0x3C9F5a5BAD2443f00EEaFD2cB08f91a5d9bBb6b3",
+      "factory": "0x69f3212344a38b35844cce4864c2af9c717f35e3",
       "router": "0x3D1c58B6d4501E34DF37Cf0f664A58059a188F00"
     },
     "url": "https://wagyuswap.app"

@@ -55,13 +55,13 @@
   ],
   "wrappedNativeToken": "0x5300000000000000000000000000000000000004",
   "dex": {
-    "dex": "Ambient",
+    "dex": "Uniswap V3",
     "protocol": "uniswap-v3",
     "contracts": {
-      "factory": "0xaaaaAAAACB71BF2C8CaE522EA5fa455571A74106",
-      "quoterV2": "0x62223e90605845Cf5CC6DAE6E0de4CDA130d6DDf"
+      "factory": "0x70C62C8b8e801124A4Aa81ce07b637A3e83cb919",
+      "quoterV2": "0x2566e082Cb1656d22BCbe5644F5b997D194b5299"
     },
-    "url": "https://ambient.finance"
+    "url": "https://oku.trade/info/scroll"
   },
   "features": [
     {

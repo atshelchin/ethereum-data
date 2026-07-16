@@ -63,17 +63,22 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x82A618305706B14e7bcf2592D4B9324A366b6dAd",
+  "wrappedNativeToken": "0x1953cab0E5bFa6D4a9BAd6E05fD46C1cc6527a5a",
   "dex": {
-    "dex": "ETCswap",
-    "protocol": "uniswap-v2",
+    "dex": "ETCswap v3",
+    "protocol": "uniswap-v3",
     "contracts": {
-      "factory": "0x7F8D7095f2b2B17a927A6735D9AfB6dBCBe3Ba4c",
-      "router": "0x5F2EE81D4F3b3a413cE3F4C33C4D8e1eC5e00e7d"
+      "factory": "0x2624E907BcC04f93C8f29d7C7149a8700Ceb8cDC",
+      "quoterV2": "0x4d8c163400CB87Cbe1bae76dBf36A09FED85d39B"
     },
     "url": "https://etcswap.org"
   },
   "stables": [
+    {
+      "symbol": "USC",
+      "type": "bridge",
+      "contract": "0xDE093684c796204224BC081f937aa059D903c52a"
+    },
     {
       "symbol": "USDC",
       "type": "bridge",

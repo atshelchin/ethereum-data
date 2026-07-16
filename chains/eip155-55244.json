@@ -40,5 +40,15 @@
       "type": "bridge",
       "contract": "0x6c030c5CC283F791B26816f325b9C632d964F8A1"
     }
-  ]
+  ],
+  "wrappedNativeToken": "0x1fB719f10b56d7a85DCD32f27f897375fB21cfdd",
+  "dex": {
+    "dex": "Camelot V3",
+    "protocol": "algebra-v3",
+    "contracts": {
+      "factory": "0xCf4062Ee235BbeB4C7c0336ada689ed1c17547b6",
+      "quoter": "0xc908fab181c513BaaE4c92cEe7EEC22bD4AcF059"
+    },
+    "url": "https://docs.camelot.exchange/contracts/orbit-chains/superposition"
+  }
 }

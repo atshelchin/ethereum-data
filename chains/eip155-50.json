@@ -44,14 +44,13 @@
   ],
   "wrappedNativeToken": "0x951857744785E80e2De051c32EE7b25f9c458C42",
   "dex": {
-    "dex": "XSwap",
+    "dex": "Uniswap V3 (Oku)",
     "protocol": "uniswap-v3",
     "contracts": {
-      "factory": "0x0000000000000000000000000000000000000000",
-      "quoterV2": "0x0000000000000000000000000000000000000000"
+      "factory": "0xcb2436774C3e191c85056d248EF4260ce5f27A9D",
+      "quoterV2": "0x5911cB3633e764939edc2d92b7e1ad375Bb57649"
     },
-    "verified": false,
-    "url": "https://xswap.com"
+    "url": "https://oku.trade"
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"

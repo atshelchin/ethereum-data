@@ -48,13 +48,13 @@
   ],
   "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
   "dex": {
-    "dex": "Velodrome",
-    "protocol": "solidly",
+    "dex": "Kim",
+    "protocol": "algebra-v3",
     "contracts": {
-      "factory": "0xF1046053aa5682b4F9a81b5481394DA16BE5FF5a",
-      "router": "0xa062aE8A9c5e11aaA026fc2670B0D65cCc8B2858"
+      "factory": "0xB5F00c2C5f8821155D8ed27E31932CFD9DB3C5D5",
+      "quoter": "0x8678f0aBe08D30dC555F27c488551569A29B31Eb"
     },
-    "url": "https://velodrome.finance"
+    "url": "https://docs.kim.exchange/contracts/amm-v4/factory"
   },
   "features": [
     {

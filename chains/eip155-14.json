@@ -47,11 +47,11 @@
   ],
   "wrappedNativeToken": "0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d",
   "dex": {
-    "dex": "SparkDEX",
-    "protocol": "solidly",
+    "dex": "SparkDEX V3.1",
+    "protocol": "uniswap-v3",
     "contracts": {
-      "factory": "0xCe54D0A3fBB11495dC2Ecfd9C2BFCB4FC0F59221",
-      "router": "0x0B45B05A1EF0F76D7e8D84Fb6F1ebB1c3D2010a5"
+      "factory": "0x8A2578d23d4C532cC9A98FaD91C0523f5efDE652",
+      "quoterV2": "0x5B5513c55fd06e2658010c121c37b07fC8e8B705"
     },
     "url": "https://sparkdex.ai"
   },

@@ -27,8 +27,8 @@
     "dex": "Camelot",
     "protocol": "algebra-v3",
     "contracts": {
-      "factory": "0xBefC4b405041c5833f53412fF997ed2f697a2f37",
-      "quoter": "0xFe24b2cDfF01B644995bc248bA9497467d688F7B"
+      "factory": "0x10aA510d94E094Bd643677bd2964c3EE085Daffc",
+      "quoter": "0x60A186019F81bFD04aFc16c9C01804a04E79e68B"
     },
     "url": "https://app.camelot.exchange"
   },

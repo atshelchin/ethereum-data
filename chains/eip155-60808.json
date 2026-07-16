@@ -50,13 +50,13 @@
   ],
   "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
   "dex": {
-    "dex": "Velodrome",
-    "protocol": "solidly",
+    "dex": "Uniswap V3",
+    "protocol": "uniswap-v3",
     "contracts": {
-      "factory": "0xF1046053aa5682b4F9a81b5481394DA16BE5FF5a",
-      "router": "0xa062aE8A9c5e11aaA026fc2670B0D65cCc8B2858"
+      "factory": "0xcb2436774C3e191c85056d248EF4260ce5f27A9D",
+      "quoterV2": "0x6Aa54a43d7eEF5b239a18eed3Af4877f46522BCA"
     },
-    "url": "https://velodrome.finance"
+    "url": "https://oku.trade"
   },
   "features": [
     {

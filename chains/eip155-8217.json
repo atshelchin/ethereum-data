@@ -61,13 +61,13 @@
   ],
   "wrappedNativeToken": "0x19Aac5f612f524B754CA7e7c41cbFa2E981A4432",
   "dex": {
-    "dex": "KlaySwap",
-    "protocol": "uniswap-v2",
+    "dex": "DragonSwap V3",
+    "protocol": "uniswap-v3",
     "contracts": {
-      "factory": "0xEf71750C100f7918d6Ded239Ff1CF09E81dEA92C",
-      "router": "0xe0fbB27D0E7F3a397A67a9d4864D4f4DD7cF8cB9"
+      "factory": "0x7431A23897ecA6913D5c81666345D39F27d946A4",
+      "quoterV2": "0x673d88960D320909af24db6eE7665aF223fec060"
     },
-    "url": "https://klayswap.com"
+    "url": "https://dgswap.io"
   },
   "features": [
     {

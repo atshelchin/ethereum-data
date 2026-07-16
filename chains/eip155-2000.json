@@ -40,10 +40,10 @@
     "dex": "QuickSwap",
     "protocol": "uniswap-v2",
     "contracts": {
-      "factory": "0x06E0A71BFc23D5d0Eb6a1e8d5a0F22B340233443",
-      "router": "0xAEbCDBae00dD30a07Bef77Da3bdc99Dd56b5F3b4"
+      "factory": "0xC3550497E591Ac6ed7a7E03ffC711CfB7412E57F",
+      "router": "0xAF96E63f965374dB6514e8CF595fB0a3f4d7763c"
     },
-    "url": "https://quickswap.exchange"
+    "url": "https://docs.quickswap.exchange/overview/contracts-and-addresses"
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"

@@ -42,8 +42,8 @@
     "dex": "Velodrome",
     "protocol": "solidly",
     "contracts": {
-      "factory": "0xF1046053aa5682b4F9a81b5481394DA16BE5FF5a",
-      "router": "0xa062aE8A9c5e11aaA026fc2670B0D65cCc8B2858"
+      "factory": "0x31832f2a97Fd20664D76Cc421207669b55CE4BC0",
+      "router": "0x3a63171DD9BebF4D07BC782FECC7eb0b890C2A45"
     },
     "url": "https://velodrome.finance"
   },
