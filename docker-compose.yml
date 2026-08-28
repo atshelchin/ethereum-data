@@ -1,12 +1,13 @@
 services:
   ethereum-data:
-    # 本地构建;若使用 CI 推送的镜像,注释 build 并保留 image 即可
+    # Builds locally; to use the CI-published image instead,
+    # comment out `build` and keep `image`.
     build: .
     image: ghcr.io/atshelchin/ethereum-data:latest
     restart: unless-stopped
     ports:
       - "${PORT:-3000}:3000"
-    # 镜像已内置全部数据。如需让容器直接服务仓库工作区的数据
-    # (改数据不用重新构建镜像),取消下面的挂载:
+    # The image ships with all data baked in. To serve the repo working tree
+    # directly (edit data without rebuilding the image), uncomment:
     # volumes:
     #   - ./:/app/data:ro

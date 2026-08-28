@@ -1,6 +1,6 @@
-# Workers Static Assets 上传白名单(gitignore 语法):
-# 先忽略根目录下所有条目,再逐个放行需要发布的数据目录。
-# 新增数据目录时记得在这里加一行 !/<dir>/。
+# Upload allowlist for Workers Static Assets (gitignore syntax):
+# ignore everything at the root, then re-include the data directories.
+# When adding a new data directory, add a !/<dir>/ line here.
 /*
 !/assets/
 !/chains/

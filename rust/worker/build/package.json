@@ -1,0 +1,15 @@
+{
+  "files": [
+    "index_bg.wasm",
+    "index.js",
+    "index.d.ts"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "ethereum-data-worker",
+  "sideEffects": [
+    "./index.js"
+  ],
+  "type": "module",
+  "version": "1.0.0"
+}

@@ -4,11 +4,15 @@
   "scripts": {
     "build": "bun run scripts/generate-index.ts && bun run scripts/build-erc7730.ts",
     "build:erc7730": "bun run scripts/build-erc7730.ts",
+    "build:worker": "cargo install -q worker-build && cd rust/worker && worker-build --release && rm -f build/.gitignore",
     "dev": "bun run scripts/server.ts",
     "build:server": "bun run scripts/generate-index.ts && bun run scripts/build-exe.ts",
     "build:server:linux": "bun run scripts/generate-index.ts && bun run scripts/build-exe.ts bun-linux-x64"
   },
   "dependencies": {
     "fuse.js": "^7.1.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
   }
 }

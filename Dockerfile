@@ -1,7 +1,8 @@
-# 多阶段构建:rust/server 编译为静态二进制 + 数据目录 → 自包含镜像
+# Multi-stage build: compile rust/server to a static binary, then bake it
+# together with the data directories into a self-contained image.
 #
-# 注意:镜像内置的 index/ 是仓库中已提交/CI 生成的产物,
-# 构建镜像前请确保已运行 `bun run build`(生成 index/ 与 erc7730/)。
+# Note: run `bun run build` first — it generates index/ (and erc7730/),
+# which are copied into the image below.
 
 FROM rust:1-alpine AS builder
 RUN apk add --no-cache musl-dev

@@ -1,4 +1,4 @@
-# 控制 docker build context 体积:排除与镜像无关的大目录
+# Keep the docker build context small: exclude everything the image doesn't need
 .git
 .github
 dist

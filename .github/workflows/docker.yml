@@ -57,5 +57,5 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          # 如需 arm64 镜像,追加 linux/arm64(QEMU 交叉编译 Rust 会显著变慢)
+          # Add linux/arm64 if needed (QEMU cross-compiling Rust is much slower)
           platforms: linux/amd64

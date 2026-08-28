@@ -45,20 +45,36 @@ That's it. The image is self-contained (Rust binary + all data, ~360 MB).
 
 ### Option 2: Cloudflare Workers
 
-Requires: a Workers **paid** plan (the repo's ~29k files exceed the free plan's 20,000-asset limit), Wrangler ≥ 4.34, and Rust with the `wasm32-unknown-unknown` target.
+Requires a Workers **paid** plan — the repo's ~29k files exceed the free plan's 20,000-asset limit.
+
+Static files are served by [Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/) (fast, no Worker invocations); only `/api/*` runs the Rust Worker. The compiled Worker (`rust/worker/build/`) is **committed to the repo**, so deploying needs no Rust toolchain.
+
+**A. Connect GitHub (recommended)** — auto-deploys on every push:
+
+Cloudflare dashboard → **Workers & Pages → Create → Import a repository**, then:
+
+| Field | Value |
+| --- | --- |
+| Repository | `ethereum-data` |
+| Production branch | `main` |
+| Build command | `bun install && bun run build` |
+| Deploy command | `npx wrangler deploy` |
+
+**B. Manual, from your machine:**
 
 ```bash
-wrangler login    # once
-wrangler deploy
+bunx wrangler login    # once
+bunx wrangler deploy
 # → https://ethereum-data.<your-subdomain>.workers.dev
 ```
 
-Static files are served by [Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/) (fast, free, no Worker invocations); only `/api/*` runs the Rust Worker (WASM). To bind a custom domain, uncomment `routes` in `wrangler.toml`.
+To bind a custom domain, uncomment `routes` in `wrangler.toml` and deploy again.
 
-### Auto-deploy with GitHub Actions
+If you edit the Worker source (`rust/worker/`): install Rust with the `wasm32-unknown-unknown` target, run `bun run build:worker`, and commit the regenerated `rust/worker/build/`.
 
-- `.github/workflows/docker.yml` — builds and pushes the image to GHCR on every push to `main` (works out of the box)
-- `.github/workflows/cloudflare.yml` — deploys to Workers; add `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` repo secrets, then switch its trigger to `push` (see comments in the file)
+### Docker image CI
+
+`.github/workflows/docker.yml` builds and pushes the image to `ghcr.io/atshelchin/ethereum-data` on every push to `main` — works out of the box, no secrets needed.
 
 ### Local development
 
@@ -72,6 +88,7 @@ cargo run --manifest-path rust/Cargo.toml -p ethereum-data-server
 <summary>Implementation notes (read before touching rust/ or the CF config)</summary>
 
 - `rust/core` holds logic shared by the axum server (`rust/server`) and the CF Worker (`rust/worker`). The Cache-Control policy in `core` must stay in sync with the `_headers` file (which applies it on the CF side, where static files never reach Worker code).
+- `rust/worker/build/` (compiled WASM) is committed **on purpose** so Cloudflare Workers Builds can deploy without a Rust toolchain. After editing `rust/worker` sources, run `bun run build:worker` and commit the result — otherwise deploys ship the stale Worker.
 - `.assetsignore` is an allowlist of what gets uploaded to Workers Static Assets — add a `!/<dir>/` line when adding a new data directory.
 - Do **not** enable `lto`/`strip` in `rust/Cargo.toml`'s release profile — it breaks `worker-build` (wasm-bindgen `externref` error).
 - `wrangler dev` on the full repo crashes with EMFILE (it file-watches ~50k files). Use `bun run dev` or the Rust server locally; deploys are unaffected.
