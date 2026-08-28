@@ -17,7 +17,7 @@ curl https://ethereum-data.awesometools.dev/assets/eip155-1/0xdAC17F958D2ee523a2
 | [Direct Access API](#direct-access-api) | Fetch any chain / token / descriptor by URL |
 | [Search Index](#search-index) | Client-side fuzzy search with Fuse.js |
 | [Data Formats](#data-formats) | Schemas for chains and assets |
-| [Deployment](#deployment) | Self-host: Docker Compose or Cloudflare Workers |
+| [Deployment](#deployment) | Self-host: one-command Docker, Compose from source, or Cloudflare Workers |
 | [Contributing](#contributing) | Add chains, assets, fixes |
 
 ## Directory Structure
@@ -318,66 +318,87 @@ All chain-related identifiers follow the [CAIP-2](https://github.com/ChainAgnost
 
 ## Deployment
 
-The server is written in Rust (`rust/` workspace) and can be deployed two ways — pick one. Both serve the exact same API and files. Either way, **always run the build step first** — it generates the search indexes (`index/`) and ERC-7730 data:
+Three ways to run this service, from easiest to most involved. Each one is complete — follow it top to bottom and you end up with a working server.
+
+### Fastest: prebuilt Docker image (one command, nothing to build)
+
+1. Install [Docker Desktop](https://docs.docker.com/get-docker/) (Mac/Windows) or [Docker Engine](https://docs.docker.com/engine/install/) (Linux)
+2. Run:
+
+   ```bash
+   docker run -d --name ethereum-data -p 3000:3000 --restart unless-stopped ghcr.io/atshelchin/ethereum-data:latest
+   ```
+
+3. Open <http://localhost:3000> — you should see the search page. Done.
+
+To stop and remove it later: `docker rm -f ethereum-data`
+
+### Option 1: Docker Compose, built from source
+
+**Prerequisites:** [Git](https://git-scm.com/downloads), [Docker](https://docs.docker.com/get-docker/), and [Bun](https://bun.sh) (`curl -fsSL https://bun.sh/install | bash`).
 
 ```bash
+# 1. Get the code
+git clone https://github.com/atshelchin/ethereum-data.git
+cd ethereum-data
+
+# 2. Generate the search indexes (required before building the image)
 bun install
 bun run build
-```
 
-### Option 1: Docker Compose (self-hosted)
-
-```bash
+# 3. Build and start
 docker compose up -d
-# → http://localhost:3000
 ```
 
-That's it. The image is self-contained (Rust binary + all data, ~360 MB).
+Open <http://localhost:3000> to verify. The image is self-contained (Rust binary + all data, ~360 MB).
 
 - Use another port: `PORT=8080 docker compose up -d`
-- Prebuilt image (no local build): `docker pull ghcr.io/atshelchin/ethereum-data:latest`
-- Serve your local working tree instead of baked-in data: uncomment `volumes` in `docker-compose.yml`
+- Serve your local working tree instead of baked-in data (edit data without rebuilding): uncomment `volumes` in `docker-compose.yml`
 
-### Option 2: Cloudflare Workers
+### Option 2: Cloudflare Workers (public URL, auto-deploys from GitHub)
 
-Requires a Workers **paid** plan — the repo's ~29k files exceed the free plan's 20,000-asset limit.
+**Prerequisites:** a [GitHub account](https://github.com/signup) and a [Cloudflare account](https://dash.cloudflare.com/sign-up) on the Workers **paid** plan ($5/month — this repo's ~29k files exceed the free plan's 20,000-asset limit; upgrade under *Workers & Pages → Plans*).
 
-Static files are served by [Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/) (fast, no Worker invocations); only `/api/*` runs the Rust Worker. The compiled Worker (`rust/worker/build/`) is **committed to the repo**, so deploying needs no Rust toolchain.
+1. **Fork this repo**: click **Fork** at the top of this GitHub page, so the deployment tracks your own copy
+2. In the Cloudflare dashboard, go to **Workers & Pages → Create → Import a repository**, connect your GitHub account, and fill in:
 
-**A. Connect GitHub (recommended)** — auto-deploys on every push:
+   | Field | Value |
+   | --- | --- |
+   | Repository | your fork of `ethereum-data` |
+   | Production branch | `main` |
+   | Build command | `bun install && bun run build` |
+   | Deploy command | `npx wrangler deploy` |
 
-Cloudflare dashboard → **Workers & Pages → Create → Import a repository**, then:
+3. Click **Connect**. Cloudflare builds and deploys; when it finishes you get a public URL like `https://ethereum-data.<your-subdomain>.workers.dev`. Open `<that URL>/api/health` — it should answer `{"status":"ok", ...}`. Every future push to `main` redeploys automatically.
 
-| Field | Value |
-| --- | --- |
-| Repository | `ethereum-data` |
-| Production branch | `main` |
-| Build command | `bun install && bun run build` |
-| Deploy command | `npx wrangler deploy` |
+No Rust toolchain is involved: static files are served by [Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/), and the compiled Worker (`rust/worker/build/`) is committed to the repo.
 
-**B. Manual, from your machine:**
+<details>
+<summary>Alternative: deploy to Cloudflare manually from your machine</summary>
+
+With the repo cloned and built (steps 1–2 of Option 1):
 
 ```bash
-bunx wrangler login    # once
+bunx wrangler login    # opens a browser to authorize, once
 bunx wrangler deploy
 # → https://ethereum-data.<your-subdomain>.workers.dev
 ```
 
 To bind a custom domain, uncomment `routes` in `wrangler.toml` and deploy again.
 
-If you edit the Worker source (`rust/worker/`): install Rust with the `wasm32-unknown-unknown` target, run `bun run build:worker`, and commit the regenerated `rust/worker/build/`.
+</details>
 
-### Docker image CI
-
-`.github/workflows/docker.yml` builds and pushes the image to `ghcr.io/atshelchin/ethereum-data` on every push to `main` — works out of the box, no secrets needed.
-
-### Local development
+### For developers
 
 ```bash
 bun run dev        # Bun server on :3000 (scripts/server.ts)
 # or the Rust server (identical behavior):
 cargo run --manifest-path rust/Cargo.toml -p ethereum-data-server
 ```
+
+`.github/workflows/docker.yml` builds and pushes the image to `ghcr.io/atshelchin/ethereum-data` on every push to `main` — no secrets needed.
+
+If you edit the Worker source (`rust/worker/`): install Rust with the `wasm32-unknown-unknown` target, run `bun run build:worker`, and commit the regenerated `rust/worker/build/`.
 
 <details>
 <summary>Implementation notes (read before touching rust/ or the CF config)</summary>
