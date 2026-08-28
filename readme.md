@@ -306,9 +306,9 @@ All chain-related identifiers follow the [CAIP-2](https://github.com/ChainAgnost
 
 | Category               | Count  |
 | ---------------------- | ------ |
-| Chains                 | 2,602  |
-| Assets                 | 12,935 |
-| Supported Asset Chains | 49     |
+| Chains                 | 2,604  |
+| Assets                 | 12,944 |
+| Supported Asset Chains | 72     |
 | ERC-7730 Calldata      | 634    |
 | ERC-7730 EIP-712       | 197    |
 | ERC-7730 ERC Standards | 6      |
