@@ -1,0 +1,28 @@
+# Cloudflare Workers 部署配置
+# 静态文件走 Workers Static Assets(不消耗 Worker 调用),
+# 仅 /api/* 进入 rust/worker 编译出的 WASM Worker。
+#
+# 注意:本仓库约 2.9 万个静态文件,超过免费版 20,000 文件上限,
+# 需要 Workers 付费计划(Standard)+ wrangler >= 4.34。
+#
+# 部署:wrangler deploy(需先 bun run build 生成 index/ 与 erc7730/)
+
+name = "ethereum-data"
+main = "rust/worker/build/worker/shim.mjs"
+# 不要超过本地 wrangler 自带 workerd 支持的最大日期,否则 wrangler dev 起不来
+compatibility_date = "2026-05-07"
+
+[build]
+command = "cargo install -q worker-build && cd rust/worker && worker-build --release"
+
+[assets]
+directory = "."
+# 未命中文件时回退到 /index.html,与原 Bun 服务的 SPA 回退一致
+not_found_handling = "single-page-application"
+# 只有 /api/* 进入 Worker,其余请求由平台直接服务静态资产
+run_worker_first = ["/api/*"]
+
+# 绑定自定义域名时取消注释并按需修改:
+# routes = [
+#   { pattern = "ethereum-data.awesometools.dev", custom_domain = true }
+# ]

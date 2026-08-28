@@ -1,0 +1,17 @@
+# 控制 docker build context 体积:排除与镜像无关的大目录
+.git
+.github
+dist
+node_modules
+rust/target
+rust/worker/build
+.wrangler
+scripts
+*.md
+bun.lock
+package.json
+wrangler.toml
+_headers
+.assetsignore
+docker-compose.yml
+Dockerfile

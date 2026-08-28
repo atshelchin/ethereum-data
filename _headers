@@ -1,0 +1,25 @@
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+  Access-Control-Allow-Headers: *
+
+/chains/*
+  Cache-Control: public, max-age=3600
+
+/erc7730/*
+  Cache-Control: public, max-age=3600
+
+/assets/*
+  Cache-Control: public, max-age=86400
+
+/chainlogos/*
+  Cache-Control: public, max-age=86400
+
+/index/*
+  Cache-Control: public, max-age=86400
+
+/index.html
+  Cache-Control: public, max-age=3600
+
+/
+  Cache-Control: public, max-age=3600

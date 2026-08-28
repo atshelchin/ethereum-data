@@ -1,0 +1,48 @@
+name: Deploy to Cloudflare Workers
+
+# 需要先在仓库 Secrets 配置:
+#   CLOUDFLARE_API_TOKEN  (权限: Workers Scripts:Edit)
+#   CLOUDFLARE_ACCOUNT_ID
+# 配置完成后,可把下面的触发器改为 push -> main 实现自动部署。
+on:
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
+
+concurrency:
+  group: deploy-cloudflare
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: 1.3.8
+
+      - name: Generate indexes & erc7730
+        run: |
+          bun install
+          bun run build
+
+      - name: Setup Rust (wasm32)
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+
+      - name: Cache Rust build
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: rust
+
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

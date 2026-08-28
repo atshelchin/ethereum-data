@@ -4,3 +4,6 @@ dist
 .env
 scripts/manifest.ts
 tmp.json
+rust/target
+rust/worker/build
+.wrangler

@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = ["core", "server", "worker"]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+
+# 注意:不要在 release profile 开启 lto/strip/codegen-units=1 ——
+# 会导致 worker-build 的 wasm-bindgen 阶段报
+# "externref table required for catch wrappers" 而构建失败。

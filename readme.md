@@ -23,14 +23,60 @@ ethereum-data/
 
 ## Deployment
 
-This repository is designed for static hosting on Cloudflare Pages (or similar platforms).
+The server is written in Rust (`rust/` workspace) and can be deployed two ways — pick one. Both serve the exact same API and files. Either way, **always run the build step first** — it generates the search indexes (`index/`) and ERC-7730 data:
 
-**Cloudflare Pages Build Settings:**
+```bash
+bun install
+bun run build
+```
 
-- Build command: `bun run build`
-- Build output directory: `/` (root)
+### Option 1: Docker Compose (self-hosted)
 
-The build script generates Fuse.js search indexes from the original data directories.
+```bash
+docker compose up -d
+# → http://localhost:3000
+```
+
+That's it. The image is self-contained (Rust binary + all data, ~360 MB).
+
+- Use another port: `PORT=8080 docker compose up -d`
+- Prebuilt image (no local build): `docker pull ghcr.io/atshelchin/ethereum-data:latest`
+- Serve your local working tree instead of baked-in data: uncomment `volumes` in `docker-compose.yml`
+
+### Option 2: Cloudflare Workers
+
+Requires: a Workers **paid** plan (the repo's ~29k files exceed the free plan's 20,000-asset limit), Wrangler ≥ 4.34, and Rust with the `wasm32-unknown-unknown` target.
+
+```bash
+wrangler login    # once
+wrangler deploy
+# → https://ethereum-data.<your-subdomain>.workers.dev
+```
+
+Static files are served by [Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/) (fast, free, no Worker invocations); only `/api/*` runs the Rust Worker (WASM). To bind a custom domain, uncomment `routes` in `wrangler.toml`.
+
+### Auto-deploy with GitHub Actions
+
+- `.github/workflows/docker.yml` — builds and pushes the image to GHCR on every push to `main` (works out of the box)
+- `.github/workflows/cloudflare.yml` — deploys to Workers; add `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` repo secrets, then switch its trigger to `push` (see comments in the file)
+
+### Local development
+
+```bash
+bun run dev        # Bun server on :3000 (scripts/server.ts)
+# or the Rust server (identical behavior):
+cargo run --manifest-path rust/Cargo.toml -p ethereum-data-server
+```
+
+<details>
+<summary>Implementation notes (read before touching rust/ or the CF config)</summary>
+
+- `rust/core` holds logic shared by the axum server (`rust/server`) and the CF Worker (`rust/worker`). The Cache-Control policy in `core` must stay in sync with the `_headers` file (which applies it on the CF side, where static files never reach Worker code).
+- `.assetsignore` is an allowlist of what gets uploaded to Workers Static Assets — add a `!/<dir>/` line when adding a new data directory.
+- Do **not** enable `lto`/`strip` in `rust/Cargo.toml`'s release profile — it breaks `worker-build` (wasm-bindgen `externref` error).
+- `wrangler dev` on the full repo crashes with EMFILE (it file-watches ~50k files). Use `bun run dev` or the Rust server locally; deploys are unaffected.
+
+</details>
 
 ## Direct Access API
 
