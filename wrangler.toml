@@ -25,7 +25,14 @@ not_found_handling = "single-page-application"
 # Only /api/* invokes the Worker; everything else is served as static assets
 run_worker_first = ["/api/*"]
 
-# To bind a custom domain, uncomment and adjust:
-# routes = [
-#   { pattern = "ethereum-data.awesometools.dev", custom_domain = true }
-# ]
+# `ethereum-data.getvela.app` — the hostname the wallet ships as its built-in
+# chain-data endpoint since vela-wallet spec 060 — is bound to this worker out
+# of band, in the Cloudflare dashboard, and is deliberately NOT declared here:
+# listing it would put wrangler in charge of a binding it did not create, for
+# no gain.
+#
+# `ethereum-data.awesometools.dev`, the previous built-in default, is served by
+# a SEPARATE, older deployment of this same repo (verified 2026-09-17: it
+# answers /api/health as `ethereum-data` but does not serve chain 5042). It is
+# unaffected by `wrangler deploy` here, and it stays alive so installed wallets
+# and stored endpoint overrides that still name it keep working.
