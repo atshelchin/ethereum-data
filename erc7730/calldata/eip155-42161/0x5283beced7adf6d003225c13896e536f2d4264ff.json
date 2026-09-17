@@ -147,7 +147,7 @@
             "params": {
               "token": "0x0000000000000000000000000000000000000000",
               "nativeCurrencyAddress": "0x0000000000000000000000000000000000000000",
-              "threshold": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+              "threshold": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE",
               "message": "All"
             },
             "visible": "always"
@@ -185,7 +185,7 @@
             "params": {
               "token": "0x0000000000000000000000000000000000000000",
               "nativeCurrencyAddress": "0x0000000000000000000000000000000000000000",
-              "threshold": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+              "threshold": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE",
               "message": "All"
             },
             "visible": "always"

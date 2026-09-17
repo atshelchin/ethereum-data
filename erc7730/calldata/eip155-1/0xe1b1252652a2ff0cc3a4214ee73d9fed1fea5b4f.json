@@ -1,0 +1,67 @@
+{
+  "context": {
+    "$id": "Stablecoin Staking Yield USDC",
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 1,
+          "address": "0xe1b1252652A2FF0CC3A4214eE73d9FeD1FEa5b4f"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "owner": "Figment",
+    "info": {
+      "url": "https://figment.io/"
+    },
+    "constants": {
+      "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "underlyingTicker": "USDC"
+    }
+  },
+  "display": {
+    "formats": {
+      "deposit(uint256 assets, address lender)": {
+        "intent": "Deposit into Stablecoin Vault",
+        "fields": [
+          {
+            "path": "assets",
+            "label": "Amount to deposit",
+            "format": "tokenAmount",
+            "params": {
+              "token": "$.metadata.constants.underlyingToken"
+            },
+            "visible": "always"
+          },
+          {
+            "path": "lender",
+            "label": "Depositing wallet",
+            "format": "addressName",
+            "params": {
+              "types": [
+                "eoa",
+                "contract"
+              ]
+            },
+            "visible": "always"
+          }
+        ]
+      },
+      "requestRedeem(uint256 shares)": {
+        "intent": "Redeem from Stablecoin Vault",
+        "fields": [
+          {
+            "path": "shares",
+            "label": "Shares to redeem",
+            "format": "tokenAmount",
+            "params": {
+              "tokenPath": "@.to"
+            },
+            "visible": "always"
+          }
+        ]
+      }
+    }
+  }
+}

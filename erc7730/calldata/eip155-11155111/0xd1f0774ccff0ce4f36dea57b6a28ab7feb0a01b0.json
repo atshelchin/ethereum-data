@@ -1,0 +1,67 @@
+{
+  "context": {
+    "$id": "Stablecoin Staking Yield MUSDC",
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 11155111,
+          "address": "0xD1f0774ccff0CE4F36DeA57b6a28aB7FeB0a01B0"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "owner": "Figment",
+    "info": {
+      "url": "https://figment.io/"
+    },
+    "constants": {
+      "underlyingToken": "0xfd4f11A2aaE86165050688c85eC9ED6210C427A9",
+      "underlyingTicker": "MUSDC"
+    }
+  },
+  "display": {
+    "formats": {
+      "deposit(uint256 assets, address lender)": {
+        "intent": "Deposit into Stablecoin Vault",
+        "fields": [
+          {
+            "path": "assets",
+            "label": "Amount to deposit",
+            "format": "tokenAmount",
+            "params": {
+              "token": "$.metadata.constants.underlyingToken"
+            },
+            "visible": "always"
+          },
+          {
+            "path": "lender",
+            "label": "Depositing wallet",
+            "format": "addressName",
+            "params": {
+              "types": [
+                "eoa",
+                "contract"
+              ]
+            },
+            "visible": "always"
+          }
+        ]
+      },
+      "requestRedeem(uint256 shares)": {
+        "intent": "Redeem from Stablecoin Vault",
+        "fields": [
+          {
+            "path": "shares",
+            "label": "Shares to redeem",
+            "format": "tokenAmount",
+            "params": {
+              "tokenPath": "@.to"
+            },
+            "visible": "always"
+          }
+        ]
+      }
+    }
+  }
+}

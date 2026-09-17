@@ -9,8 +9,8 @@
           }
         ],
         "domain": {
-          "name": "Aave Token",
-          "version": "1"
+          "name": "Aave token V3",
+          "version": "2"
         }
       }
     },
@@ -33,7 +33,9 @@
               "label": "Max spending amount",
               "format": "tokenAmount",
               "params": {
-                "tokenPath": "@.to"
+                "tokenPath": "@.to",
+                "threshold": "0x8000000000000000000000000000000000000000000000000000000000000000",
+                "message": "Unlimited"
               },
               "visible": "always"
             },

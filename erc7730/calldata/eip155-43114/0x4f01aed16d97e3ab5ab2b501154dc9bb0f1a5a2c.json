@@ -31,7 +31,7 @@
       }
     },
     "constants": {
-      "max": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      "max": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
     },
     "contractName": "Lending Pool v2"
   },

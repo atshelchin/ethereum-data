@@ -1,5 +1,5 @@
 {
-  "0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9": {
+  "0xea2aa0a1be11a07ed86d755c93467f4f82362b452371d1ba94d1715123511acb": {
     "context": {
       "eip712": {
         "deployments": [
@@ -19,7 +19,7 @@
     },
     "display": {
       "formats": {
-        "Permit(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)": {
+        "Permit(address holder,address spender,uint256 nonce,uint256 expiry,bool allowed)": {
           "intent": "Authorize spending of tokens",
           "fields": [
             {
@@ -29,25 +29,23 @@
               "visible": "always"
             },
             {
-              "path": "value",
-              "label": "Max spending amount",
-              "format": "tokenAmount",
-              "params": {
-                "tokenPath": "@.to"
-              },
+              "path": "allowed",
+              "label": "Unlimited spending",
+              "format": "raw",
               "visible": "always"
             },
             {
-              "path": "deadline",
+              "path": "expiry",
               "label": "Valid until",
               "format": "date",
               "params": {
                 "encoding": "timestamp"
-              }
+              },
+              "visible": "always"
             },
             {
-              "label": "Owner",
-              "path": "owner",
+              "label": "Holder",
+              "path": "holder",
               "visible": "never"
             },
             {

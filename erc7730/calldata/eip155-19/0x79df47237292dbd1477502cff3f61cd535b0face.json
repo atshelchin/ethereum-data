@@ -15,7 +15,13 @@
     "info": {
       "url": "https://flare.network/"
     },
-    "contractName": "PollingFoundation-Songbird"
+    "contractName": "PollingFoundation-Songbird",
+    "enums": {
+      "voteType": {
+        "0": "Against",
+        "1": "For"
+      }
+    }
   },
   "display": {
     "formats": {
@@ -30,7 +36,10 @@
           },
           {
             "label": "Support",
-            "format": "raw",
+            "format": "enum",
+            "params": {
+              "$ref": "$.metadata.enums.voteType"
+            },
             "path": "#._support",
             "visible": "always"
           }

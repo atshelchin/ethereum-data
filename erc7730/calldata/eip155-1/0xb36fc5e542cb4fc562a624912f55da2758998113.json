@@ -6,6 +6,10 @@
         {
           "chainId": 1,
           "address": "0xb36fc5e542cb4fc562a624912f55da2758998113"
+        },
+        {
+          "chainId": 560048,
+          "address": "0xf92eff17ac8cef8e45dec00abdcd8788ecf83309"
         }
       ]
     }
@@ -20,7 +24,7 @@
   "display": {
     "formats": {
       "claimExitedAssets(uint256 positionTicket, uint256 timestamp, uint256 exitQueueIndex)": {
-        "intent": "claim exited assets",
+        "intent": "Claim exited assets",
         "fields": [
           {
             "label": "Position Ticket",
@@ -71,7 +75,7 @@
         ]
       },
       "enterExitQueue(uint256 shares, address receiver)": {
-        "intent": "enter exit queue",
+        "intent": "Enter exit queue",
         "fields": [
           {
             "label": "Shares to lock",
