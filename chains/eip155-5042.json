@@ -1,0 +1,37 @@
+{
+  "name": "Arc Network",
+  "chain": "Arc Network",
+  "icon": "arcnetwork",
+  "rpc": [
+    "https://rpc.mainnet.arc.io",
+    "https://arc.drpc.org",
+    "https://arc-rpc.publicnode.com",
+    "wss://rpc.mainnet.arc.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "infoURL": "https://arc.network",
+  "shortName": "arc",
+  "chainId": 5042,
+  "networkId": 5042,
+  "explorers": [
+    {
+      "name": "Arc Explorer",
+      "url": "https://explorer.arc.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "stables": [],
+  "features": [
+    {
+      "name": "RIP7212"
+    }
+  ],
+  "contracts": {
+    "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  }
+}

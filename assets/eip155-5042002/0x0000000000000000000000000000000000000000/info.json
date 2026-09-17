@@ -1,0 +1,32 @@
+{
+    "name": "USDC",
+    "website": "https://arc.io",
+    "description": "USDC is the native gas coin of Arc Testnet, carried at 18 decimals. The ERC-20 interface at 0x3600000000000000000000000000000000000000 (6 decimals) is a view over this same balance, not a separate token: list one or the other, never both.",
+    "explorer": "https://explorer.testnet.arc.io",
+    "type": "COIN",
+    "symbol": "USDC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x0000000000000000000000000000000000000000",
+    "tags": [
+        "stablecoin"
+    ],
+    "links": [
+        {
+            "name": "x",
+            "url": "https://x.com/circle"
+        },
+        {
+            "name": "docs",
+            "url": "https://docs.arc.io"
+        },
+        {
+            "name": "coinmarketcap",
+            "url": "https://coinmarketcap.com/currencies/usd-coin/"
+        },
+        {
+            "name": "coingecko",
+            "url": "https://coingecko.com/en/coins/usd-coin/"
+        }
+    ]
+}
