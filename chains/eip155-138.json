@@ -30,15 +30,20 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://info.defi-oracle.io/",
+  "infoURL": "https://d-bis.org",
   "shortName": "dfio-meta-main",
   "chainId": 138,
-  "networkId": 1,
+  "networkId": 138,
   "slip44": 60,
   "ens": {
     "registry": "0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85"
   },
   "explorers": [
+    {
+      "name": "Blockscout",
+      "url": "https://explorer.d-bis.org",
+      "standard": "EIP3091"
+    },
     {
       "name": "Blockscout Explorer",
       "url": "https://blockscout.defi-oracle.io",

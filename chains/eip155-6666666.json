@@ -18,6 +18,12 @@
   "explorers": [
     {
       "name": "Safe(AnWang) Testnet Explorer",
+      "url": "https://safe4testnet.anwang.com",
+      "icon": "safe-anwang",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Safe(AnWang) Testnet Explorer",
       "url": "http://safe4-testnet.anwang.com",
       "icon": "safe-anwang",
       "standard": "EIP3091"

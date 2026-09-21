@@ -23,5 +23,12 @@
   "shortName": "ault",
   "chainId": 904,
   "networkId": 904,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Ault Mainnet Explorer",
+      "url": "https://ault.explorer.orynt.tech",
+      "standard": "EIP3091",
+      "icon": "ault"
+    }
+  ]
 }

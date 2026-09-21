@@ -22,15 +22,31 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://docs.robinhood.com/chain/",
-  "shortName": "rh",
+  "infoURL": "https://docs.robinhood.com/chain",
+  "shortName": "robinhoodchain",
   "chainId": 4663,
   "networkId": 4663,
   "explorers": [
     {
+      "name": "robinscan",
+      "url": "https://robinscan.io",
+      "icon": "robinscan",
+      "standard": "EIP3091"
+    },
+    {
       "name": "blockscout",
       "url": "https://robinhoodchain.blockscout.com",
       "icon": "blockscout",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "hoodscan",
+      "url": "https://hoodscan.co",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "stonkscan",
+      "url": "https://stonkscan.io",
       "standard": "EIP3091"
     }
   ],
@@ -61,5 +77,6 @@
     "https://lb.routeme.sh/rpc/evm/4663": "limited",
     "https://rpc.nodeflare.app/robinhood/public": "none",
     "https://rpc-robinhood.blockmachine.io": "none"
-  }
+  },
+  "status": "active"
 }

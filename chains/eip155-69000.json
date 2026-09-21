@@ -16,9 +16,10 @@
   "networkId": 69000,
   "explorers": [
     {
-      "name": "Animechain explorer",
+      "name": "Animechain Explorer",
       "url": "https://explorer.anime.xyz",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "icon": "anime"
 }

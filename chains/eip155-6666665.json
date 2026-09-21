@@ -19,6 +19,12 @@
   "explorers": [
     {
       "name": "Safe(AnWang) Explorer",
+      "url": "https://safe4.anwang.com",
+      "icon": "safe-anwang",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Safe(AnWang) Explorer",
       "url": "http://safe4.anwang.com",
       "icon": "safe-anwang",
       "standard": "EIP3091"

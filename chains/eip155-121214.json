@@ -1,5 +1,5 @@
 {
-  "name": "Rome Testnet Martius",
+  "name": "Rome Martius Testnet",
   "chain": "ROME",
   "rpc": [
     "https://martius.testnet.romeprotocol.xyz"
@@ -8,8 +8,8 @@
     "https://deposit.testnet.romeprotocol.xyz"
   ],
   "nativeCurrency": {
-    "name": "RSOL",
-    "symbol": "RSOL",
+    "name": "USDC",
+    "symbol": "USDC",
     "decimals": 18
   },
   "infoURL": "https://rome.builders",
@@ -18,6 +18,12 @@
   "networkId": 121214,
   "icon": "rome",
   "explorers": [
+    {
+      "name": "Rome Via Martius",
+      "url": "https://via-martius.testnet.romeprotocol.xyz",
+      "icon": "rome",
+      "standard": "EIP3091"
+    },
     {
       "name": "Rome Testnet Martius Explorer",
       "url": "https://romescout-martius-i.testnet.romeprotocol.xyz",

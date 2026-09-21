@@ -1,6 +1,6 @@
 {
-  "name": "UB Smart Chain",
-  "chain": "USC",
+  "name": "ADI Network AB Testnet",
+  "chain": "ADI",
   "rpc": [
     "https://rpc.ab.testnet.adifoundation.ai/",
     "https://rpc.uschain.network",
@@ -9,15 +9,23 @@
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "UBC",
-    "symbol": "UBC",
+    "name": "ADI",
+    "symbol": "ADI",
     "decimals": 18
   },
-  "infoURL": "https://www.ubchain.site/",
-  "shortName": "usc",
+  "infoURL": "https://docs.adi.foundation",
+  "shortName": "adi-testnet",
   "chainId": 99999,
   "networkId": 99999,
   "rpcTracking": {
     "https://99999.rpc.thirdweb.com": "yes"
-  }
+  },
+  "title": "ADI Network AB Testnet (prev. UB Smart Chain)",
+  "explorers": [
+    {
+      "name": "ADI Testnet Explorer",
+      "url": "https://explorer.ab.testnet.adifoundation.ai",
+      "standard": "EIP3091"
+    }
+  ]
 }

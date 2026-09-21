@@ -1,7 +1,6 @@
 {
-  "name": "Condrieu",
-  "title": "Ethereum Verkle Testnet Condrieu",
-  "chain": "ETH",
+  "name": "CHEESE Blockchain",
+  "chain": "CHEESE",
   "rpc": [
     "https://cheesescan.com/rpc",
     "https://rpc1.cheesescan.com",
@@ -11,20 +10,20 @@
     "https://faucet.condrieu.ethdevops.io"
   ],
   "nativeCurrency": {
-    "name": "Condrieu Testnet Ether",
-    "symbol": "CTE",
+    "name": "CHEESE",
+    "symbol": "CHEESE",
     "decimals": 18
   },
-  "infoURL": "https://condrieu.ethdevops.io",
-  "shortName": "cndr",
+  "infoURL": "https://cheesescan.com",
+  "shortName": "cheese",
   "chainId": 69420,
   "networkId": 69420,
-  "slip44": 1,
   "explorers": [
     {
-      "name": "Condrieu explorer",
-      "url": "https://explorer.condrieu.ethdevops.io",
-      "standard": "none"
+      "name": "CHEESE Explorer",
+      "url": "https://cheesescan.com",
+      "standard": "EIP3091"
     }
-  ]
+  ],
+  "status": "incubating"
 }

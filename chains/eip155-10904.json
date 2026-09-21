@@ -23,5 +23,12 @@
   "shortName": "ault-testnet",
   "chainId": 10904,
   "networkId": 10904,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "Ault Testnet Explorer",
+      "url": "https://ault-testnet.explorer.orynt.tech",
+      "standard": "EIP3091",
+      "icon": "ault"
+    }
+  ]
 }

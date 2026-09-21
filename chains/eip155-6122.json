@@ -19,8 +19,17 @@
     "type": "L2",
     "chain": "eip155-1"
   },
-  "status": "incubating",
+  "status": "active",
   "rpcTracking": {
     "https://tea.drpc.org": "none"
-  }
+  },
+  "icon": "tea",
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.tea.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Asset Hub",
+  "name": "Polkadot",
   "chain": "DOT",
   "rpc": [
     "https://services.polkadothub-rpc.com/mainnet",
@@ -21,13 +21,20 @@
       "name": "EIP1559"
     }
   ],
-  "infoURL": "https://polkadot.network",
-  "shortName": "AH",
+  "infoURL": "https://polkadot.com",
+  "shortName": "dot",
   "chainId": 420420419,
   "networkId": 420420419,
-  "explorers": [],
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://blockscout.polkadot.io",
+      "standard": "EIP3091"
+    }
+  ],
   "rpcTracking": {
     "https://services.polkadothub-rpc.com/mainnet": "limited",
     "wss://services.polkadothub-rpc.com/mainnet": "limited"
-  }
+  },
+  "icon": "polkadot"
 }

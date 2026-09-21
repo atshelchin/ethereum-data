@@ -1,14 +1,14 @@
 {
-  "name": "The Ting Blockchain Testnet Explorer",
-  "chain": "Ting",
+  "name": "Ting Chain Testnet",
+  "chain": "tingchain",
   "rpc": [
     "https://rpc-testnet.tingscan.com",
     "wss://rpc-testnet.tingscan.com"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ton",
-    "symbol": "Ton",
+    "name": "Ting",
+    "symbol": "TING",
     "decimals": 18
   },
   "features": [
@@ -26,8 +26,9 @@
   "explorers": [
     {
       "name": "TingScan",
-      "url": "https://tingscan.com",
+      "url": "https://testnet.tingscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "title": "Ting Chain Testnet"
 }

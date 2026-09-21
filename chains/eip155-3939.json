@@ -11,8 +11,8 @@
     "symbol": "DOS",
     "decimals": 18
   },
-  "infoURL": "http://doschain.io/",
-  "shortName": "dost",
+  "infoURL": "https://doschain.com",
+  "shortName": "dos-test",
   "chainId": 3939,
   "networkId": 3939,
   "slip44": 1,
@@ -21,11 +21,12 @@
     {
       "name": "DOScan-Test",
       "url": "https://test.doscan.io",
-      "icon": "doschain",
+      "icon": "doscan",
       "standard": "EIP3091"
     }
   ],
   "rpcTracking": {
     "https://lb.routeme.sh/rpc/evm/3939": "limited"
-  }
+  },
+  "status": "active"
 }

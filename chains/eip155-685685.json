@@ -10,9 +10,17 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://www.gensyn.ai/",
-  "shortName": "gensyn-test",
+  "infoURL": "https://gensyn.network/",
+  "shortName": "gensyn-testnet",
   "chainId": 685685,
   "networkId": 685685,
-  "status": "incubating"
+  "status": "active",
+  "icon": "gensyn-testnet",
+  "explorers": [
+    {
+      "name": "Gensyn Testnet Explorer",
+      "url": "https://gensyn-testnet.explorer.alchemy.com",
+      "standard": "EIP3091"
+    }
+  ]
 }
