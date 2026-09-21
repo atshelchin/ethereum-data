@@ -3,7 +3,8 @@
   "chain": "BNI",
   "icon": "bitindi",
   "rpc": [
-    "https://mainnet-rpc.bitindi.org"
+    "https://mainnet-rpc.bitindi.org",
+    "https://4099.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.bitindi.org"
@@ -23,5 +24,8 @@
       "url": "https://bitindiscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://4099.rpc.thirdweb.com": "yes"
+  }
 }

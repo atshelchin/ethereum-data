@@ -3,7 +3,12 @@
   "chain": "Heco",
   "rpc": [
     "wss://ws-mainnet.hecochain.com",
-    "https://http-mainnet.hecochain.com"
+    "https://http-mainnet.hecochain.com",
+    "https://http-mainnet-node.huobichain.com",
+    "https://hecoapi.terminet.io/rpc",
+    "https://heco.drpc.org",
+    "wss://heco.drpc.org",
+    "https://128.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +28,10 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F"
+  "wrappedNativeToken": "0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F",
+  "rpcTracking": {
+    "https://heco.drpc.org": "none",
+    "wss://heco.drpc.org": "none",
+    "https://128.rpc.thirdweb.com": "yes"
+  }
 }

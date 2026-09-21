@@ -3,7 +3,8 @@
   "chain": "BCS",
   "rpc": [
     "wss://rpc-ws-mainnet.bcsdev.io",
-    "https://rpc-mainnet.bcsdev.io"
+    "https://rpc-mainnet.bcsdev.io",
+    "https://707.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.bcsdev.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://707.rpc.thirdweb.com": "yes"
+  }
 }

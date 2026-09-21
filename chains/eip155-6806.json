@@ -2,7 +2,9 @@
   "name": "RACE Testnet",
   "chain": "ETH",
   "rpc": [
-    "https://racetestnet.io/"
+    "https://racetestnet.io/",
+    "https://lb.routeme.sh/rpc/evm/6806",
+    "https://racetestnet.io"
   ],
   "faucets": [
     "https://faucet.racetestnet.io/"
@@ -39,5 +41,8 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/6806": "limited"
+  }
 }

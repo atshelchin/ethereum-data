@@ -2,7 +2,9 @@
   "name": "UCHAIN Mainnet",
   "chain": "UCHAIN",
   "rpc": [
-    "https://rpc.uchain.link/"
+    "https://rpc.uchain.link/",
+    "https://rpc.uchain.link",
+    "https://2112.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,5 +31,8 @@
       "url": "https://uchain.info",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2112.rpc.thirdweb.com": "yes"
+  }
 }

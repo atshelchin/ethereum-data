@@ -2,7 +2,8 @@
   "name": "Wonder Testnet",
   "chain": "WNDR",
   "rpc": [
-    "https://rpc.testnet.wonderchain.org"
+    "https://rpc.testnet.wonderchain.org",
+    "https://lb.routeme.sh/rpc/evm/96371"
   ],
   "faucets": [
     "https://wonderchain.org/faucet"
@@ -24,5 +25,8 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "status": "active",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/96371": "limited"
+  }
 }

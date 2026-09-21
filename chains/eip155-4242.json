@@ -5,7 +5,9 @@
   "rpc": [
     "https://rpc.chain.nexi.technology/",
     "https://chain.nexilix.com",
-    "https://chain.nexi.evmnode.online"
+    "https://chain.nexi.evmnode.online",
+    "https://rpc.chain.nexi.technology",
+    "https://4242.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +26,8 @@
       "url": "https://www.nexiscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://4242.rpc.thirdweb.com": "yes"
+  }
 }

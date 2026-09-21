@@ -1,0 +1,34 @@
+{
+  "name": "Infinite Improbability Drive Testnet",
+  "chain": "INFINITE",
+  "icon": "infinite",
+  "rpc": [
+    "https://evm-rpc-testnet.infinitedrive.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TestImprobability",
+    "symbol": "TEST42",
+    "decimals": 18
+  },
+  "infoURL": "https://infinitedrive.xyz",
+  "shortName": "infinite-testnet",
+  "chainId": 421018001,
+  "networkId": 421018001,
+  "explorers": [
+    {
+      "name": "Infinite Drive Explorer - Testnet",
+      "url": "https://testnet-scan.infinitedrive.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
+}

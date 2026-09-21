@@ -2,7 +2,10 @@
   "name": "Subtensor EVM",
   "chain": "Bittensor",
   "rpc": [
-    "https://lite.chain.opentensor.ai"
+    "https://lite.chain.opentensor.ai",
+    "https://lb.routeme.sh/rpc/evm/964",
+    "https://bittensor-lite-public.nodies.app",
+    "https://rpc.blockmachine.io"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -18,5 +21,10 @@
   "icon": "bittensor",
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/964": "limited",
+    "https://bittensor-lite-public.nodies.app": "limited",
+    "https://rpc.blockmachine.io": "none"
   }
 }

@@ -2,7 +2,8 @@
   "name": "Hybrid Chain Network Testnet",
   "chain": "HYBRID",
   "rpc": [
-    "https://rpc-testnet.hybridchain.ai/"
+    "https://rpc-testnet.hybridchain.ai/",
+    "https://rpc-testnet.hybridchain.ai"
   ],
   "faucets": [
     "https://faucet-testnet.hybridchain.ai"
@@ -25,5 +26,8 @@
       "url": "https://testnet.hybridscan.ai",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc-testnet.hybridchain.ai": "yes"
+  }
 }

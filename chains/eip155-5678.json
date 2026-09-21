@@ -3,7 +3,8 @@
   "chain": "TANGO",
   "rpc": [
     "wss://services.tanssi-testnet.network/dancelight-2001",
-    "https://services.tanssi-testnet.network/dancelight-2001"
+    "https://services.tanssi-testnet.network/dancelight-2001",
+    "https://5678.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://apps.tanssi.network/demo"
@@ -23,5 +24,8 @@
       "url": "https://dancelight-2001-blockscout.tanssi-chains.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://5678.rpc.thirdweb.com": "yes"
+  }
 }

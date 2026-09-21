@@ -1,7 +1,9 @@
 {
   "name": "Factory 127 Mainnet",
   "chain": "FETH",
-  "rpc": [],
+  "rpc": [
+    "https://127.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Factory 127 Token",
@@ -12,5 +14,8 @@
   "shortName": "feth",
   "chainId": 127,
   "networkId": 127,
-  "slip44": 127
+  "slip44": 127,
+  "rpcTracking": {
+    "https://127.rpc.thirdweb.com": "yes"
+  }
 }

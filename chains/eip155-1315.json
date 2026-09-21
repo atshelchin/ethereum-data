@@ -3,7 +3,18 @@
   "chain": "Story Aeneid Testnet",
   "rpc": [
     "https://aeneid.storyrpc.io",
-    "https://aeneid.datarpc.io"
+    "https://aeneid.datarpc.io",
+    "https://lb.routeme.sh/rpc/evm/1315",
+    "https://evm-aeneid-story.j-node.net",
+    "https://evmrpc-t.story.nodestake.org",
+    "https://json-rpc.story-aeneid.cumulo.me",
+    "https://lightnode-json-rpc-story.grandvalleys.com",
+    "https://story-testnet-evm.itrocket.net",
+    "https://rpc.ankr.com/story_aeneid_testnet",
+    "https://aeneid-evm-rpc.krews.xyz",
+    "https://story-aeneid-rpc.spidernode.net",
+    "https://evm-rpc.story.testnet.node75.org",
+    "https://story-aeneid-json-rpc.auranode.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +41,11 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1315": "limited",
+    "https://lightnode-json-rpc-story.grandvalleys.com": "none",
+    "https://story-testnet-evm.itrocket.net": "none",
+    "https://rpc.ankr.com/story_aeneid_testnet": "none"
   }
 }

@@ -7,7 +7,9 @@
     "https://us-west.lycanchain.com",
     "https://eu-north.lycanchain.com",
     "https://eu-west.lycanchain.com",
-    "https://asia-southeast.lycanchain.com"
+    "https://asia-southeast.lycanchain.com",
+    "https://rpc.lycanchain.com",
+    "https://721.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +28,8 @@
       "url": "https://explorer.lycanchain.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://721.rpc.thirdweb.com": "yes"
+  }
 }

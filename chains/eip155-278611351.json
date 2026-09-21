@@ -3,7 +3,8 @@
   "chain": "Razor Schain",
   "icon": "razornetwork",
   "rpc": [
-    "https://mainnet.skalenodes.com/v1/turbulent-unique-scheat"
+    "https://mainnet.skalenodes.com/v1/turbulent-unique-scheat",
+    "https://278611351.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.razorscan.io/"
@@ -23,5 +24,8 @@
       "url": "https://turbulent-unique-scheat.explorer.mainnet.skalenodes.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://278611351.rpc.thirdweb.com": "yes"
+  }
 }

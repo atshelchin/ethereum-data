@@ -3,7 +3,9 @@
   "chain": "FLX",
   "icon": "flacoin",
   "rpc": [
-    "https://flachain.flaexchange.top/"
+    "https://flachain.flaexchange.top/",
+    "https://flachain.flaexchange.top",
+    "https://29032022.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -29,5 +31,8 @@
       "url": "https://explorer.flaexchange.top",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://29032022.rpc.thirdweb.com": "yes"
+  }
 }

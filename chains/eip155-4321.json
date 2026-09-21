@@ -2,7 +2,8 @@
   "name": "Echos Chain",
   "chain": "Echos",
   "rpc": [
-    "https://rpc-echos-mainnet-0.t.conduit.xyz"
+    "https://rpc-echos-mainnet-0.t.conduit.xyz",
+    "https://4321.rpc.thirdweb.com"
   ],
   "features": [],
   "faucets": [],
@@ -21,5 +22,8 @@
       "url": "https://explorer.echos.fun",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://4321.rpc.thirdweb.com": "yes"
+  }
 }

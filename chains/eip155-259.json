@@ -2,7 +2,8 @@
   "name": "Neonlink Mainnet",
   "chain": "Neonlink",
   "rpc": [
-    "https://mainnet.neonlink.io"
+    "https://mainnet.neonlink.io",
+    "https://259.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "standard": "EIP3091",
       "icon": "neonlink"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://259.rpc.thirdweb.com": "yes"
+  }
 }

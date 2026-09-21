@@ -2,8 +2,14 @@
   "name": "TTcoin Smart Chain Mainnet",
   "chain": "TSC",
   "icon": "tscscan",
-  "rpc": ["https://mainnet-rpc.tscscan.com"],
-  "faucets": ["https://faucet.tscscan.com"],
+  "rpc": [
+    "https://mainnet-rpc.tscscan.com",
+    "https://lb.routeme.sh/rpc/evm/330844",
+    "https://330844.rpc.thirdweb.com"
+  ],
+  "faucets": [
+    "https://faucet.tscscan.com"
+  ],
   "nativeCurrency": {
     "name": "TTcoin",
     "symbol": "TC",
@@ -20,5 +26,9 @@
       "standard": "EIP3091",
       "icon": "tscscan"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/330844": "limited",
+    "https://330844.rpc.thirdweb.com": "yes"
+  }
 }

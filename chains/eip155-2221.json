@@ -6,7 +6,8 @@
     "https://evm.testnet.kava.io",
     "wss://wevm.testnet.kava.io",
     "wss://kava-testnet.drpc.org",
-    "https://kava-evm-testnet.rpc.thirdweb.com"
+    "https://kava-evm-testnet.rpc.thirdweb.com",
+    "https://lb.routeme.sh/rpc/evm/2221"
   ],
   "faucets": [
     "https://faucet.kava.io"
@@ -31,5 +32,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://kava-evm-testnet.rpc.thirdweb.com": "yes",
+    "https://lb.routeme.sh/rpc/evm/2221": "limited"
   }
 }

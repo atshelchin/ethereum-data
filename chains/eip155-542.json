@@ -2,7 +2,8 @@
   "name": "PAWCHAIN Testnet",
   "chain": "PAW",
   "rpc": [
-    "https://pawchainx.com/"
+    "https://pawchainx.com/",
+    "https://pawchainx.com"
   ],
   "faucets": [],
   "nativeCurrency": {

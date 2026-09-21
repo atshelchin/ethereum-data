@@ -1,26 +1,31 @@
 {
   "name": "Etho Protocol",
   "chain": "ETHO",
-  "rpc": ["https://rpc.ethoprotocol.com"],
-
+  "rpc": [
+    "https://rpc.ethoprotocol.com",
+    "https://lb.routeme.sh/rpc/evm/1313114",
+    "https://1313114.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Etho Protocol",
     "symbol": "ETHO",
     "decimals": 18
   },
-
   "infoURL": "https://ethoprotocol.com",
   "shortName": "etho",
   "chainId": 1313114,
   "networkId": 1313114,
   "slip44": 1313114,
-
   "explorers": [
     {
       "name": "blockscout",
       "url": "https://explorer.ethoprotocol.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1313114": "limited",
+    "https://1313114.rpc.thirdweb.com": "yes"
+  }
 }

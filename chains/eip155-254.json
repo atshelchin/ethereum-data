@@ -6,7 +6,8 @@
     "https://mainnet-rpc.swanchain.org",
     "https://mainnet-rpc-03.swanchain.org",
     "https://mainnet-rpc-01.swanchain.org",
-    "https://mainnet-rpc-04.swanchain.org"
+    "https://mainnet-rpc-04.swanchain.org",
+    "https://254.rpc.thirdweb.com"
   ],
   "faucets": [],
   "icon": "swan",
@@ -28,5 +29,8 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://254.rpc.thirdweb.com": "yes"
   }
 }

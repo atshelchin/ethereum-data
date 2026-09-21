@@ -5,7 +5,8 @@
   "rpc": [
     "wss://polygon-zkevm-testnet.drpc.org",
     "https://rpc.public.zkevm-test.net",
-    "https://polygon-zkevm-testnet.drpc.org"
+    "https://polygon-zkevm-testnet.drpc.org",
+    "https://endpoints.omniatech.io/v1/polygon-zkevm/testnet/public"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +25,8 @@
       "url": "https://explorer.public.zkevm-test.net",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://endpoints.omniatech.io/v1/polygon-zkevm/testnet/public": "none"
+  }
 }

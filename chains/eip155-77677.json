@@ -2,7 +2,8 @@
   "name": "Cycle Network Mainnet Sailboat",
   "chain": "ETH",
   "rpc": [
-    "https://sailboat-rpc-mainnet.cyclenetwork.io"
+    "https://sailboat-rpc-mainnet.cyclenetwork.io",
+    "https://77677.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +15,8 @@
   "shortName": "cycles",
   "chainId": 77677,
   "networkId": 77677,
-  "icon": "cycle"
+  "icon": "cycle",
+  "rpcTracking": {
+    "https://77677.rpc.thirdweb.com": "yes"
+  }
 }

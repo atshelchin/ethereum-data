@@ -2,7 +2,8 @@
   "name": "Pirl",
   "chain": "PIRL",
   "rpc": [
-    "https://wallrpc.pirl.io"
+    "https://wallrpc.pirl.io",
+    "https://3125659152.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +15,8 @@
   "shortName": "pirl",
   "chainId": 3125659152,
   "networkId": 3125659152,
-  "slip44": 164
+  "slip44": 164,
+  "rpcTracking": {
+    "https://3125659152.rpc.thirdweb.com": "yes"
+  }
 }

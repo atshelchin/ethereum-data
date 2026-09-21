@@ -5,7 +5,11 @@
   "chain": "ETH",
   "icon": "minato",
   "rpc": [
-    "https://rpc.minato.soneium.org"
+    "https://rpc.minato.soneium.org",
+    "https://lb.routeme.sh/rpc/evm/1946",
+    "https://soneium-minato.drpc.org",
+    "wss://soneium-minato.drpc.org",
+    "https://soneium-minato.rpc.sentio.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -39,5 +43,11 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1946": "limited",
+    "https://soneium-minato.drpc.org": "none",
+    "wss://soneium-minato.drpc.org": "none",
+    "https://soneium-minato.rpc.sentio.xyz": "limited"
   }
 }

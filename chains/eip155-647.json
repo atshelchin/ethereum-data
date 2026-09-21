@@ -3,7 +3,8 @@
   "chain": "SX",
   "icon": "SX",
   "rpc": [
-    "https://rpc.toronto.sx.technology"
+    "https://rpc.toronto.sx.technology",
+    "https://lb.routeme.sh/rpc/evm/647"
   ],
   "faucets": [
     "https://faucet.toronto.sx.technology"
@@ -24,5 +25,8 @@
       "url": "https://explorer.toronto.sx.technology",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/647": "limited"
+  }
 }

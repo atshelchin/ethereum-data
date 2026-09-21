@@ -1,8 +1,13 @@
 {
   "name": "KCC Testnet",
   "chain": "KCC",
-  "rpc": ["https://rpc-testnet.kcc.network"],
-  "faucets": ["https://faucet-testnet.kcc.network"],
+  "rpc": [
+    "https://rpc-testnet.kcc.network",
+    "https://lb.routeme.sh/rpc/evm/322"
+  ],
+  "faucets": [
+    "https://faucet-testnet.kcc.network"
+  ],
   "nativeCurrency": {
     "name": "KuCoin Testnet Token",
     "symbol": "tKCS",
@@ -19,5 +24,8 @@
       "url": "https://scan-testnet.kcc.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/322": "limited"
+  }
 }

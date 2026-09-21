@@ -2,7 +2,9 @@
   "name": "Phala Network",
   "chain": "ETH",
   "rpc": [
-    "https://rpc.phala.network"
+    "https://rpc.phala.network",
+    "https://lb.routeme.sh/rpc/evm/2035",
+    "https://2035.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -19,5 +21,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2035": "limited",
+    "https://2035.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "STRATO Mainnet",
   "chain": "STRATO",
   "rpc": [
-    "https://app.strato.nexus/rpc"
+    "https://app.strato.nexus/rpc",
+    "https://noderpc.strato.nexus/rpc"
   ],
   "faucets": [],
   "nativeCurrency": {

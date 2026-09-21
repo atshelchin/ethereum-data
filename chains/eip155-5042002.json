@@ -7,7 +7,9 @@
     "https://rpc.blockdaemon.testnet.arc.network",
     "https://rpc.testnet.arc.network",
     "wss://rpc.testnet.arc.network",
-    "wss://rpc.quicknode.testnet.arc.network"
+    "wss://rpc.quicknode.testnet.arc.network",
+    "https://arc-testnet.drpc.org",
+    "wss://arc-testnet.drpc.org"
   ],
   "faucets": [
     "https://faucet.circle.com/"
@@ -36,5 +38,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://arc-testnet.drpc.org": "none",
+    "wss://arc-testnet.drpc.org": "none"
   }
 }

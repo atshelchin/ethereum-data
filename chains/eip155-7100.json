@@ -3,7 +3,8 @@
   "title": "Nume",
   "chain": "Nume",
   "rpc": [
-    "https://rpc.numecrypto.com"
+    "https://rpc.numecrypto.com",
+    "https://7100.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "icon": "nume",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://7100.rpc.thirdweb.com": "yes"
+  }
 }

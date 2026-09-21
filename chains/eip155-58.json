@@ -10,7 +10,9 @@
     "http://dappnode3.ont.io:20339",
     "https://dappnode2.ont.io:10339",
     "http://dappnode4.ont.io:20339",
-    "https://dappnode4.ont.io:10339"
+    "https://dappnode4.ont.io:10339",
+    "https://lb.routeme.sh/rpc/evm/58",
+    "https://58.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -28,5 +30,9 @@
       "url": "https://explorer.ont.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/58": "limited",
+    "https://58.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "FHET",
   "rpc": [
     "wss://rpc-testnet.mindnetwork.xyz",
-    "https://rpc-testnet.mindnetwork.xyz"
+    "https://rpc-testnet.mindnetwork.xyz",
+    "https://lb.routeme.sh/rpc/evm/192940"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -19,5 +20,8 @@
   "infoURL": "https://mindnetwork.xyz",
   "shortName": "fhet",
   "chainId": 192940,
-  "networkId": 192940
+  "networkId": 192940,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/192940": "limited"
+  }
 }

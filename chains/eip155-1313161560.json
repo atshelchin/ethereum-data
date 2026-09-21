@@ -2,7 +2,9 @@
   "name": "PowerGold",
   "chain": "NEAR",
   "rpc": [
-    "https://powergold.aurora.dev"
+    "https://powergold.aurora.dev",
+    "https://lb.routeme.sh/rpc/evm/1313161560",
+    "https://1313161560.rpc.thirdweb.com"
   ],
   "icon": "powergold",
   "faucets": [],
@@ -21,5 +23,9 @@
       "url": "https://explorer.powergold.aurora.dev",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1313161560": "limited",
+    "https://1313161560.rpc.thirdweb.com": "yes"
+  }
 }

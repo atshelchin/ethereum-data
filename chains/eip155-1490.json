@@ -3,7 +3,8 @@
   "title": "Vitruveo is a blockchain for Creators",
   "chain": "Vitruveo",
   "rpc": [
-    "https://rpc.vitruveo.xyz"
+    "https://rpc.vitruveo.xyz",
+    "https://1490.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -28,5 +29,8 @@
       "icon": "vitruveo",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1490.rpc.thirdweb.com": "yes"
+  }
 }

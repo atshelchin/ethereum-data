@@ -1,14 +1,23 @@
 {
   "name": "CONET Cancun",
   "chain": "CONET Cancun",
-  "rpc": ["https://rpc.conet.network"],
+  "rpc": [
+    "https://rpc.conet.network",
+    "https://cancun-rpc.conet.network",
+    "https://conet.network",
+    "https://224433.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "CONET Cancun",
     "symbol": "CONET",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://conet.network",
   "shortName": "conet-cancun",
   "chainId": 224433,
@@ -21,5 +30,9 @@
       "url": "https://cancun.conet.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://conet.network": "none",
+    "https://224433.rpc.thirdweb.com": "yes"
+  }
 }

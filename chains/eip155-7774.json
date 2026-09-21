@@ -3,7 +3,8 @@
   "chain": "GDCC",
   "icon": "gdcc",
   "rpc": [
-    "https://mainnet-rpc-1.gdccscan.io"
+    "https://mainnet-rpc-1.gdccscan.io",
+    "https://7774.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://gdccscan.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://7774.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,7 +1,11 @@
 {
   "name": "AME Chain Mainnet",
   "chain": "AME",
-  "rpc": ["https://node1.amechain.io/"],
+  "rpc": [
+    "https://node1.amechain.io/",
+    "https://lb.routeme.sh/rpc/evm/180",
+    "https://node1.amechain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "AME",
@@ -18,5 +22,8 @@
       "url": "https://amescan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/180": "limited"
+  }
 }

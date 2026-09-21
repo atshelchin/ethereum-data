@@ -3,7 +3,8 @@
   "chain": "Yidark",
   "icon": "ydk",
   "rpc": [
-    "https://rpc.yidark.io"
+    "https://rpc.yidark.io",
+    "https://927.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://yidarkscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://927.rpc.thirdweb.com": "yes"
+  }
 }

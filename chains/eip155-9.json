@@ -2,8 +2,15 @@
   "name": "Quai Network Mainnet",
   "chain": "QUAI",
   "icon": "quai",
-  "rpc": ["https://rpc.quai.network/cyprus1"],
-  "features": [{ "name": "EIP155" }],
+  "rpc": [
+    "https://rpc.quai.network/cyprus1",
+    "https://9.rpc.thirdweb.com"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Quai",
@@ -14,12 +21,17 @@
   "shortName": "quai",
   "chainId": 9,
   "networkId": 9,
-  "redFlags": ["reusedChainId"],
+  "redFlags": [
+    "reusedChainId"
+  ],
   "explorers": [
     {
       "name": "Quaiscan",
       "url": "https://quaiscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://9.rpc.thirdweb.com": "yes"
+  }
 }

@@ -4,7 +4,9 @@
   "icon": "glide",
   "rpc": [
     "wss://rpc-api.glideprotocol.xyz/l1-rpc/",
-    "https://rpc-api.glideprotocol.xyz/l1-rpc/"
+    "https://rpc-api.glideprotocol.xyz/l1-rpc/",
+    "wss://rpc-api.glideprotocol.xyz/l1-rpc",
+    "https://rpc-api.glideprotocol.xyz/l1-rpc"
   ],
   "features": [
     {
@@ -25,5 +27,9 @@
   "chainId": 251,
   "networkId": 251,
   "slip44": 60,
-  "status": "active"
+  "status": "active",
+  "rpcTracking": {
+    "wss://rpc-api.glideprotocol.xyz/l1-rpc": "none",
+    "https://rpc-api.glideprotocol.xyz/l1-rpc": "none"
+  }
 }

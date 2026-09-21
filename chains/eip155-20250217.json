@@ -2,8 +2,19 @@
   "name": "Xphere Mainnet",
   "chain": "Xphere",
   "icon": "xphere",
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "rpc": ["https://en-bkk.x-phere.com"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "rpc": [
+    "https://en-bkk.x-phere.com",
+    "https://lb.routeme.sh/rpc/evm/20250217",
+    "https://rpc.ankr.com/xphere_mainnet"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Xphere",
@@ -20,5 +31,9 @@
       "url": "https://xp.tamsa.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/20250217": "limited",
+    "https://rpc.ankr.com/xphere_mainnet": "none"
+  }
 }

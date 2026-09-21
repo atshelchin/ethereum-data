@@ -2,7 +2,8 @@
   "name": "RedeCoin",
   "chain": "REDEV2",
   "rpc": [
-    "https://rpc2.redecoin.eu"
+    "https://rpc2.redecoin.eu",
+    "https://1972.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://explorer3.redecoin.eu",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1972.rpc.thirdweb.com": "yes"
+  }
 }

@@ -4,7 +4,10 @@
   "rpc": [
     "https://cronos-testnet.drpc.org",
     "https://evm-t3.cronos.org",
-    "wss://cronos-testnet.drpc.org"
+    "wss://cronos-testnet.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/338",
+    "https://endpoints.omniatech.io/v1/cronos/testnet/public",
+    "https://cro-testnet.gateway.tatum.io"
   ],
   "faucets": [
     "https://cronos.org/faucet"
@@ -28,5 +31,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/338": "limited",
+    "https://endpoints.omniatech.io/v1/cronos/testnet/public": "none",
+    "https://cro-testnet.gateway.tatum.io": "yes"
   }
 }

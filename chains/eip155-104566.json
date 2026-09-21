@@ -4,7 +4,10 @@
   "icon": "kaspaclassic",
   "rpc": [
     "https://api.kaspaclassic.world/",
-    "http://80.178.101.118:8000/"
+    "http://80.178.101.118:8000/",
+    "https://api.kaspaclassic.world",
+    "http://80.178.101.118:8000",
+    "https://104566.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +25,8 @@
       "url": "https://explorer.kaspaclassic.world",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://104566.rpc.thirdweb.com": "yes"
+  }
 }

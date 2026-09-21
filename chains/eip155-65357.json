@@ -2,7 +2,8 @@
   "name": "Vecno Mainnet",
   "chain": "VE",
   "rpc": [
-    "https://rpc.vecno.org"
+    "https://rpc.vecno.org",
+    "https://65357.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +31,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://65357.rpc.thirdweb.com": "yes"
+  }
 }

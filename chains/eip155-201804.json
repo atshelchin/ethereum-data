@@ -2,7 +2,8 @@
   "name": "Mythical Chain",
   "chain": "MYTH",
   "rpc": [
-    "https://chain-rpc.mythicalgames.com"
+    "https://chain-rpc.mythicalgames.com",
+    "https://201804.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +31,8 @@
       "icon": "mythical",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://201804.rpc.thirdweb.com": "yes"
+  }
 }

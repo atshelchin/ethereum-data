@@ -3,7 +3,10 @@
   "chain": "Sophon",
   "rpc": [
     "https://rpc.sophon.xyz",
-    "wss://rpc.sophon.xyz/ws"
+    "wss://rpc.sophon.xyz/ws",
+    "https://lb.routeme.sh/rpc/evm/50104",
+    "https://rpc-quicknode.sophon.xyz",
+    "https://50104.rpc.thirdweb.com"
   ],
   "nativeCurrency": {
     "name": "Sophon",
@@ -48,5 +51,10 @@
     },
     "url": "https://syncswap.xyz"
   },
-  "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/50104": "limited",
+    "https://rpc-quicknode.sophon.xyz": "yes",
+    "https://50104.rpc.thirdweb.com": "yes"
+  }
 }

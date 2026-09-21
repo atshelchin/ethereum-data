@@ -2,7 +2,9 @@
   "name": "0G-Galileo-Testnet",
   "chain": "0G-Testnet",
   "status": "deprecated",
-  "rpc": [],
+  "rpc": [
+    "https://evmrpc-testnet.0g.ai"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "A0GI",

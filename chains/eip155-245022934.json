@@ -4,7 +4,10 @@
   "rpc": [
     "https://neon-evm.drpc.org",
     "https://neon-proxy-mainnet.solana.p2p.org",
-    "wss://neon-evm.drpc.org"
+    "wss://neon-evm.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/245022934",
+    "https://neon-mainnet.everstake.one",
+    "https://245022934.rpc.thirdweb.com"
   ],
   "faucets": [],
   "icon": "neon",
@@ -53,5 +56,11 @@
       "router": "0x594e37B9F39f5D31DEc4a8c1cC4fe2E254153034"
     },
     "url": "https://moraswap.com"
+  },
+  "rpcTracking": {
+    "https://neon-evm.drpc.org": "none",
+    "wss://neon-evm.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/245022934": "limited",
+    "https://245022934.rpc.thirdweb.com": "yes"
   }
 }

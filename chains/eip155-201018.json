@@ -3,7 +3,8 @@
   "chain": "Alaya",
   "rpc": [
     "wss://openapi.alaya.network/ws",
-    "https://openapi.alaya.network/rpc"
+    "https://openapi.alaya.network/rpc",
+    "https://201018.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "url": "https://scan.alaya.network",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://201018.rpc.thirdweb.com": "yes"
+  }
 }

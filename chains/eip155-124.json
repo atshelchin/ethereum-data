@@ -5,7 +5,8 @@
   "chainId": 124,
   "networkId": 124,
   "rpc": [
-    "https://decentralized-web.tech/dw_rpc.php"
+    "https://decentralized-web.tech/dw_rpc.php",
+    "https://124.rpc.thirdweb.com"
   ],
   "faucets": [],
   "infoURL": "https://decentralized-web.tech/dw_chain.php",
@@ -13,5 +14,8 @@
     "name": "Decentralized Web Utility",
     "symbol": "DWU",
     "decimals": 18
+  },
+  "rpcTracking": {
+    "https://124.rpc.thirdweb.com": "yes"
   }
 }

@@ -4,7 +4,9 @@
   "icon": "europa",
   "rpc": [
     "https://mainnet.skalenodes.com/v1/elated-tan-skat",
-    "wss://mainnet.skalenodes.com/v1/elated-tan-skat"
+    "wss://mainnet.skalenodes.com/v1/elated-tan-skat",
+    "https://lb.routeme.sh/rpc/evm/2046399126",
+    "https://2046399126.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://ruby.exchange/faucet.html",
@@ -34,5 +36,9 @@
         "url": "https://ruby.exchange/bridge.html"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2046399126": "limited",
+    "https://2046399126.rpc.thirdweb.com": "yes"
   }
 }

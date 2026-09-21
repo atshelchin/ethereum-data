@@ -2,7 +2,8 @@
   "name": "Tajir Chain",
   "chain": "TJR",
   "rpc": [
-    "https://rpc.tajirchain.com"
+    "https://rpc.tajirchain.com",
+    "wss://ws.tajirchain.com"
   ],
   "nativeCurrency": {
     "name": "Tajir",

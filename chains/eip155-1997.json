@@ -2,7 +2,8 @@
   "name": "Kyoto",
   "chain": "KYOTO",
   "rpc": [
-    "https://rpc.kyotochain.io"
+    "https://rpc.kyotochain.io",
+    "https://1997.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +27,8 @@
       "url": "https://kyotoscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1997.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,7 +1,9 @@
 {
   "name": "Qitmeer Network Mixnet",
   "chain": "MEER",
-  "rpc": [],
+  "rpc": [
+    "https://8132.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Qitmeer Mixnet",
@@ -13,5 +15,8 @@
   "icon": "meer",
   "chainId": 8132,
   "networkId": 8132,
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://8132.rpc.thirdweb.com": "yes"
+  }
 }

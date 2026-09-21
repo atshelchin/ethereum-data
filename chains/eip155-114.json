@@ -9,7 +9,9 @@
     "https://flaretestnet-bundler.etherspot.io",
     "https://01-gravelines-005-01.rpc.tatum.io/ext/bc/C/rpc",
     "https://02-chicago-005-02.rpc.tatum.io/ext/bc/C/rpc",
-    "https://02-tokyo-005-03.rpc.tatum.io/ext/bc/C/rpc"
+    "https://02-tokyo-005-03.rpc.tatum.io/ext/bc/C/rpc",
+    "https://lb.routeme.sh/rpc/evm/114",
+    "https://flare-testnet.drpc.org"
   ],
   "features": [
     {
@@ -49,5 +51,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://flare-testnet-coston2.rpc.thirdweb.com": "yes",
+    "https://lb.routeme.sh/rpc/evm/114": "limited",
+    "https://flare-testnet.drpc.org": "none"
   }
 }

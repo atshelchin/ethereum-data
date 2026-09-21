@@ -4,7 +4,8 @@
   "chain": "Mintara",
   "icon": "mintara",
   "rpc": [
-    "https://subnets.avax.network/mintara/mainnet/rpc"
+    "https://subnets.avax.network/mintara/mainnet/rpc",
+    "https://1080.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "url": "https://subnets.avax.network/mintara",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1080.rpc.thirdweb.com": "yes"
+  }
 }

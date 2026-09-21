@@ -1,7 +1,10 @@
 {
   "name": "StreetDog Chain",
   "chain": "SDC",
-  "rpc": ["https://rpc.chain.streetdog.me"],
+  "rpc": [
+    "https://rpc.chain.streetdog.me",
+    "https://77778.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "StreetDog",
@@ -18,5 +21,8 @@
       "url": "https://chain.streetdog.me",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://77778.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,7 +1,9 @@
 {
   "name": "Help The Homeless",
   "chain": "mainnet",
-  "rpc": [],
+  "rpc": [
+    "https://7118.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Help The Homeless Coin",
@@ -14,5 +16,8 @@
   "networkId": 7118,
   "icon": "hth",
   "status": "incubating",
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://7118.rpc.thirdweb.com": "yes"
+  }
 }

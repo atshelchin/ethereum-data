@@ -2,7 +2,8 @@
   "name": "Xerom",
   "chain": "XERO",
   "rpc": [
-    "https://rpc.xerom.org"
+    "https://rpc.xerom.org",
+    "https://1313500.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://xerom.org",
   "shortName": "xero",
   "chainId": 1313500,
-  "networkId": 1313500
+  "networkId": 1313500,
+  "rpcTracking": {
+    "https://1313500.rpc.thirdweb.com": "yes"
+  }
 }

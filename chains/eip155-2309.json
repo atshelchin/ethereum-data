@@ -1,7 +1,9 @@
 {
   "name": "Arevia",
   "chain": "Arevia",
-  "rpc": [],
+  "rpc": [
+    "https://2309.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Arev",
@@ -13,5 +15,8 @@
   "chainId": 2309,
   "networkId": 2309,
   "explorers": [],
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://2309.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "BlockEx Mainnet",
   "chain": "BlockEx",
   "rpc": [
-    "https://rpc.blockex.biz"
+    "https://rpc.blockex.biz",
+    "https://221.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "http://explorer.blockex.biz",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://221.rpc.thirdweb.com": "yes"
+  }
 }

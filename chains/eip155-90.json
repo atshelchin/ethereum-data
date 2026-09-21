@@ -3,7 +3,8 @@
   "chain": "GAR",
   "icon": "garizon",
   "rpc": [
-    "https://s0.garizon.net/rpc"
+    "https://s0.garizon.net/rpc",
+    "https://90.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "garizon",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://90.rpc.thirdweb.com": "yes"
+  }
 }

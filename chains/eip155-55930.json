@@ -22,5 +22,9 @@
       "url": "https://dhscan.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "wss://services.datahaven-mainnet.network/mainnet": "limited",
+    "https://services.datahaven-mainnet.network/mainnet": "limited"
+  }
 }

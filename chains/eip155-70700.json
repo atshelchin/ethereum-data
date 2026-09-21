@@ -10,7 +10,9 @@
     "decimals": 18
   },
   "rpc": [
-    "https://rpc.apex.proofofplay.com"
+    "https://rpc.apex.proofofplay.com",
+    "https://lb.routeme.sh/rpc/evm/70700",
+    "https://70700.rpc.thirdweb.com"
   ],
   "faucets": [],
   "explorers": [
@@ -32,5 +34,9 @@
         "url": "https://relay.link/bridge/apex/"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/70700": "limited",
+    "https://70700.rpc.thirdweb.com": "yes"
   }
 }

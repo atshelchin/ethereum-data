@@ -3,7 +3,8 @@
   "chain": "VSC",
   "icon": "vectorsmartgas",
   "rpc": [
-    "https://rpc.vscblockchain.org"
+    "https://rpc.vscblockchain.org",
+    "https://420042.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -26,5 +27,8 @@
       "url": "https://explorer.vscblockchain.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://420042.rpc.thirdweb.com": "yes"
+  }
 }

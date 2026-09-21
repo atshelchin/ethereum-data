@@ -2,7 +2,8 @@
   "name": "Filenova Mainnet",
   "chain": "Filenova",
   "rpc": [
-    "https://rpc.filenova.org"
+    "https://rpc.filenova.org",
+    "https://579.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "filenova",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://579.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "shortName": "Liquichain",
   "chain": "LQC",
   "rpc": [
-    "https://mainnet.liquichain.io/rpc"
+    "https://mainnet.liquichain.io/rpc",
+    "https://1662.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
   ],
   "redFlags": [
     "reusedChainId"
-  ]
+  ],
+  "rpcTracking": {
+    "https://1662.rpc.thirdweb.com": "yes"
+  }
 }

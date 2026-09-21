@@ -2,7 +2,8 @@
   "name": "Empire Network",
   "chain": "EMPIRE",
   "rpc": [
-    "https://rpc.empirenetwork.io"
+    "https://rpc.empirenetwork.io",
+    "https://3693.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://explorer.empirenetwork.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://3693.rpc.thirdweb.com": "yes"
+  }
 }

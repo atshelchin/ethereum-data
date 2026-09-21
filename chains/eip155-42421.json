@@ -2,7 +2,9 @@
   "name": "Asset Chain Testnet",
   "chain": "Asset Chain",
   "rpc": [
-    "https://enugu-rpc.assetchain.org"
+    "https://enugu-rpc.assetchain.org",
+    "https://lb.routeme.sh/rpc/evm/42421",
+    "https://eth.nodebridge.xyz/assetchaintestnet/exec/b903e07d-54ee-4c4d-bffb-8b073e8163fa"
   ],
   "faucets": [
     "https://faucet.assetchain.org"
@@ -26,5 +28,8 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/42421": "limited"
   }
 }

@@ -2,7 +2,8 @@
   "name": "Metaplayerone Dubai Testnet",
   "chain": "MP1 Dubai-Testnet",
   "rpc": [
-    "https://rpc-dubai.mp1network.com/"
+    "https://rpc-dubai.mp1network.com/",
+    "https://rpc-dubai.mp1network.com"
   ],
   "faucets": [],
   "nativeCurrency": {

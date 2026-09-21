@@ -24,5 +24,9 @@
       "url": "https://testnet.dhscan.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "wss://services.datahaven-testnet.network/testnet": "limited",
+    "https://services.datahaven-testnet.network/testnet": "limited"
+  }
 }

@@ -33,5 +33,10 @@
       "url": "https://seleman.monarcaproject.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://seleman.monarcaproject.com/rpc": "none",
+    "https://seleman-edge.mineriafjs.workers.dev/rpc": "none",
+    "wss://seleman-ws.monarcaproject.com": "none"
+  }
 }

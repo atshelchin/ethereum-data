@@ -5,7 +5,11 @@
     "wss://cyber-testnet.alt.technology/ws",
     "wss://rpc.testnet.cyber.co/",
     "https://cyber-testnet.alt.technology/",
-    "https://rpc.testnet.cyber.co/"
+    "https://rpc.testnet.cyber.co/",
+    "https://lb.routeme.sh/rpc/evm/111557560",
+    "https://cyber-testnet.alt.technology",
+    "https://rpc.testnet.cyber.co",
+    "wss://rpc.testnet.cyber.co"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -33,5 +37,8 @@
         "url": "https://cyber-testnet.testnets.rollbridge.app/"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/111557560": "limited"
   }
 }

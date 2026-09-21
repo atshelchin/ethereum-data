@@ -3,7 +3,8 @@
   "chain": "Rangers",
   "icon": "rangers",
   "rpc": [
-    "https://cm.rangersprotocol.com/api/jsonrpc"
+    "https://cm.rangersprotocol.com/api/jsonrpc",
+    "https://38400.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://scan.rangersprotocol.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://38400.rpc.thirdweb.com": "yes"
+  }
 }

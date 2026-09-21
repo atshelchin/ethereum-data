@@ -3,8 +3,13 @@
   "title": "SKALE Calypso Hub Testnet",
   "chain": "giant-half-dual-testnet",
   "icon": "calypso",
-  "rpc": ["https://testnet.skalenodes.com/v1/giant-half-dual-testnet"],
-  "faucets": ["https://www.sfuelstation.com/"],
+  "rpc": [
+    "https://testnet.skalenodes.com/v1/giant-half-dual-testnet",
+    "https://lb.routeme.sh/rpc/evm/974399131"
+  ],
+  "faucets": [
+    "https://www.sfuelstation.com/"
+  ],
   "nativeCurrency": {
     "name": "sFUEL",
     "symbol": "sFUEL",
@@ -21,5 +26,8 @@
       "url": "https://giant-half-dual-testnet.explorer.testnet.skalenodes.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/974399131": "limited"
+  }
 }

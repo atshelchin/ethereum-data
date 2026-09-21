@@ -4,7 +4,8 @@
   "chain": "Wadzchain-Testnet",
   "icon": "wadz",
   "rpc": [
-    "https://rpc-testnet.wadzchain.io"
+    "https://rpc-testnet.wadzchain.io",
+    "https://rpc-testnet.w-chain.com"
   ],
   "faucets": [
     "https://faucet-testnet.wadzchain.io"

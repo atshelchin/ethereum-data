@@ -11,7 +11,8 @@
     "decimals": 18
   },
   "rpc": [
-    "https://rpc.wonnetwork.org"
+    "https://rpc.wonnetwork.org",
+    "https://686868.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.wondollars.org"
@@ -23,5 +24,8 @@
       "standard": "EIP3091"
     }
   ],
-  "infoURL": "https://wonnetwork.org"
+  "infoURL": "https://wonnetwork.org",
+  "rpcTracking": {
+    "https://686868.rpc.thirdweb.com": "yes"
+  }
 }

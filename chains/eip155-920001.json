@@ -2,7 +2,8 @@
   "name": "Posichain Devnet Shard 1",
   "chain": "PSC",
   "rpc": [
-    "https://api.s1.d.posichain.org"
+    "https://api.s1.d.posichain.org",
+    "https://920001.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.posichain.org/"
@@ -22,5 +23,8 @@
       "url": "https://explorer-devnet.posichain.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://920001.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,14 +1,21 @@
 {
   "name": "Jamton",
   "chain": "Jamton",
-  "rpc": ["https://rpc.jamton.network/"],
+  "rpc": [
+    "https://rpc.jamton.network/",
+    "https://rpc.jamton.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DOTON",
     "symbol": "DOTON",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://app.jamton.network/",
   "shortName": "jamton",
   "chainId": 5589,

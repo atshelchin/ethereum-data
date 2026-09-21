@@ -1,7 +1,10 @@
 {
   "name": "DPU Chain",
   "chain": "DPU",
-  "rpc": ["https://sc-rpc.dpu.ac.th"],
+  "rpc": [
+    "https://sc-rpc.dpu.ac.th",
+    "https://2611555.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DGC",
@@ -11,5 +14,8 @@
   "infoURL": "",
   "shortName": "DPU",
   "chainId": 2611555,
-  "networkId": 2611555
+  "networkId": 2611555,
+  "rpcTracking": {
+    "https://2611555.rpc.thirdweb.com": "yes"
+  }
 }

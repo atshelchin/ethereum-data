@@ -2,7 +2,8 @@
   "name": "ZKBase Mainnet",
   "chain": "ETH",
   "rpc": [
-    "https://mainnet-rpc.zkbase.app"
+    "https://mainnet-rpc.zkbase.app",
+    "https://1456.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -35,5 +36,8 @@
   },
   "redFlags": [
     "reusedChainId"
-  ]
+  ],
+  "rpcTracking": {
+    "https://1456.rpc.thirdweb.com": "yes"
+  }
 }

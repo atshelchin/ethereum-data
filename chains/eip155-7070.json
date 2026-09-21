@@ -3,7 +3,10 @@
   "chain": "Planq",
   "icon": "planq",
   "rpc": [
-    "https://evm-rpc.planq.network"
+    "https://evm-rpc.planq.network",
+    "https://planq-public.nodies.app",
+    "https://jsonrpc.planq.nodestake.top",
+    "https://7070.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +29,8 @@
       "url": "https://explorer.planq.network",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://7070.rpc.thirdweb.com": "yes"
+  }
 }

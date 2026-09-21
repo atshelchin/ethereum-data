@@ -2,7 +2,8 @@
   "name": "MetaDot Mainnet",
   "chain": "MTT",
   "rpc": [
-    "https://mainnet.metadot.network"
+    "https://mainnet.metadot.network",
+    "https://16000.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://metadot.network",
   "shortName": "mtt",
   "chainId": 16000,
-  "networkId": 16000
+  "networkId": 16000,
+  "rpcTracking": {
+    "https://16000.rpc.thirdweb.com": "yes"
+  }
 }

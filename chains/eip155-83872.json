@@ -2,7 +2,11 @@
   "name": "ZEDXION",
   "chain": "ZEDXION",
   "icon": "zedx",
-  "rpc": ["https://mainnet-rpc.zedscan.net"],
+  "rpc": [
+    "https://mainnet-rpc.zedscan.net",
+    "https://lb.routeme.sh/rpc/evm/83872",
+    "https://83872.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Zedxion",
@@ -19,5 +23,9 @@
       "url": "http://zedscan.net",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/83872": "limited",
+    "https://83872.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "Ennothem Mainnet Proterozoic",
   "chain": "ETMP",
   "rpc": [
-    "https://rpc.etm.network"
+    "https://rpc.etm.network",
+    "https://48.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "etmp",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://48.rpc.thirdweb.com": "yes"
+  }
 }

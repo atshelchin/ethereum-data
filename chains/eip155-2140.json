@@ -2,7 +2,9 @@
   "name": "Oneness Network",
   "chain": "Oneness",
   "rpc": [
-    "https://rpc.onenesslabs.io/"
+    "https://rpc.onenesslabs.io/",
+    "https://rpc.onenesslabs.io",
+    "https://2140.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +22,8 @@
       "url": "https://scan.onenesslabs.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2140.rpc.thirdweb.com": "yes"
+  }
 }

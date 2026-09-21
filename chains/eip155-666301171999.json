@@ -2,7 +2,9 @@
   "name": "PDC Mainnet",
   "chain": "IPDC",
   "rpc": [
-    "https://mainnet.ipdc.io/"
+    "https://mainnet.ipdc.io/",
+    "https://mainnet.ipdc.io",
+    "https://666301171999.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +22,8 @@
       "url": "https://scan.ipdc.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://666301171999.rpc.thirdweb.com": "yes"
+  }
 }

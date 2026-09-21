@@ -26,5 +26,12 @@
       "url": "https://explorer.neurovatic.ai",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc-usw.neurovatic.ai/rpc": "none",
+    "https://rpc-use.neurovatic.ai/rpc": "none",
+    "https://rpc-eu.neurovatic.ai/rpc": "none",
+    "https://rpc.neurovatic.ai/rpc": "none",
+    "https://rpc-apac.neurovatic.ai/rpc": "none"
+  }
 }

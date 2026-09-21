@@ -1,8 +1,18 @@
 {
   "name": "BC Hyper Chain Testnet",
   "chain": "BC Hyper Chain",
-  "rpc": ["https://rpc.bchscan.io"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://rpc.bchscan.io",
+    "https://rpc01.bchscan.io"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TEST VERSATIZE COIN",
@@ -20,5 +30,8 @@
       "url": "https://testnet.bchscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc01.bchscan.io": "none"
+  }
 }

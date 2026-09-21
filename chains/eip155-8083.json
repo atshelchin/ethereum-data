@@ -3,7 +3,8 @@
   "chain": "ShardeumTestnet",
   "icon": "shardeum",
   "rpc": [
-    "https://api-testnet.shardeum.org/"
+    "https://api-testnet.shardeum.org/",
+    "https://api-testnet.shardeum.org"
   ],
   "faucets": [],
   "nativeCurrency": {

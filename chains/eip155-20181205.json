@@ -7,7 +7,13 @@
     "https://rpc1.qkirpc.org",
     "https://rpc3.qkiscan.io",
     "https://rpc3.qkirpc.org",
-    "https://rpc2.qkirpc.org"
+    "https://rpc2.qkirpc.org",
+    "https://lb.routeme.sh/rpc/evm/20181205",
+    "https://hz.rpc.qkiscan.cn",
+    "https://rpc1.qkiscan.cn",
+    "https://rpc2.qkiscan.cn",
+    "https://rpc3.qkiscan.cn",
+    "https://20181205.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +31,9 @@
       "url": "https://qkiscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/20181205": "limited",
+    "https://20181205.rpc.thirdweb.com": "yes"
+  }
 }

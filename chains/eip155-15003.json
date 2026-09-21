@@ -2,7 +2,8 @@
   "name": "Immutable zkEVM Devnet",
   "chain": "Immutable zkEVM",
   "rpc": [
-    "https://rpc.dev.immutable.com"
+    "https://rpc.dev.immutable.com",
+    "https://15003.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://docs.immutable.com/docs/zkEVM/guides/faucet"
@@ -24,5 +25,8 @@
       "standard": "EIP3091",
       "icon": "immutable"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://15003.rpc.thirdweb.com": "yes"
+  }
 }

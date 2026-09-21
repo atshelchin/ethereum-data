@@ -2,7 +2,10 @@
   "name": "Metal L2",
   "chain": "Metal L2",
   "rpc": [
-    "https://rpc.metall2.com"
+    "https://rpc.metall2.com",
+    "https://lb.routeme.sh/rpc/evm/1750",
+    "https://metall2.drpc.org",
+    "wss://metall2.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -31,5 +34,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1750": "limited",
+    "https://metall2.drpc.org": "none",
+    "wss://metall2.drpc.org": "none"
   }
 }

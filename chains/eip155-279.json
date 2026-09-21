@@ -2,8 +2,19 @@
   "name": "BPX Chain",
   "chain": "BPX",
   "icon": "bpx",
-  "rpc": ["https://rpc.bpxchain.cc"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://rpc.bpxchain.cc",
+    "https://lb.routeme.sh/rpc/evm/279",
+    "https://279.rpc.thirdweb.com"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BPX",
@@ -20,5 +31,9 @@
       "url": "https://explorer.bpxchain.cc",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/279": "limited",
+    "https://279.rpc.thirdweb.com": "yes"
+  }
 }

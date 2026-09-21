@@ -4,7 +4,9 @@
   "icon": "etica",
   "rpc": [
     "https://eticamainnet.eticaprotocol.org",
-    "https://eticamainnet.eticascan.org"
+    "https://eticamainnet.eticascan.org",
+    "https://lb.routeme.sh/rpc/evm/61803",
+    "https://61803.rpc.thirdweb.com"
   ],
   "faucets": [
     "http://faucet.etica-stats.org/"
@@ -29,5 +31,9 @@
       "url": "http://explorer.etica-stats.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/61803": "limited",
+    "https://61803.rpc.thirdweb.com": "yes"
+  }
 }

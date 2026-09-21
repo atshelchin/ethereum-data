@@ -3,7 +3,10 @@
   "title": "HashKey Chain",
   "chain": "HashKey Chain",
   "rpc": [
-    "https://mainnet.hsk.xyz"
+    "https://mainnet.hsk.xyz",
+    "https://hashkey.drpc.org",
+    "wss://hashkey.drpc.org",
+    "https://177.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -41,5 +44,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://hashkey.drpc.org": "none",
+    "wss://hashkey.drpc.org": "none",
+    "https://177.rpc.thirdweb.com": "yes"
   }
 }

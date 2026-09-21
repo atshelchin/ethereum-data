@@ -6,7 +6,10 @@
     "https://tempo-rpc.publicnode.com",
     "wss://rpc.tempo.xyz",
     "https://rpc.mainnet.tempo.xyz",
-    "wss://rpc.mainnet.tempo.xyz"
+    "wss://rpc.mainnet.tempo.xyz",
+    "https://lb.routeme.sh/rpc/evm/4217",
+    "https://tempo-mainnet.drpc.org",
+    "wss://tempo-mainnet.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -51,5 +54,8 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/4217": "limited"
   }
 }

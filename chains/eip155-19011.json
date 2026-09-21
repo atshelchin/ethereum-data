@@ -2,7 +2,12 @@
   "name": "HOME Verse Mainnet",
   "chain": "HOME Verse",
   "icon": "home_verse",
-  "rpc": ["https://rpc.mainnet.oasys.homeverse.games/"],
+  "rpc": [
+    "https://rpc.mainnet.oasys.homeverse.games/",
+    "https://lb.routeme.sh/rpc/evm/19011",
+    "https://rpc.mainnet.oasys.homeverse.games",
+    "https://19011.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",
@@ -23,5 +28,9 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-248"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/19011": "limited",
+    "https://19011.rpc.thirdweb.com": "yes"
   }
 }

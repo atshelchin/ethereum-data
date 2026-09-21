@@ -4,7 +4,10 @@
   "icon": "palm",
   "rpc": [
     "https://palm-mainnet.infura.io/v3/${INFURA_API_KEY}",
-    "https://palm-mainnet.public.blastapi.io"
+    "https://palm-mainnet.public.blastapi.io",
+    "https://lb.routeme.sh/rpc/evm/11297108109",
+    "https://palm-mainnet.gateway.tatum.io",
+    "https://11297108109.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -27,5 +30,11 @@
       "url": "https://www.ondora.xyz/network/palm",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://palm-mainnet.public.blastapi.io": "limited",
+    "https://lb.routeme.sh/rpc/evm/11297108109": "limited",
+    "https://palm-mainnet.gateway.tatum.io": "yes",
+    "https://11297108109.rpc.thirdweb.com": "yes"
+  }
 }

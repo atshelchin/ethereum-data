@@ -3,7 +3,13 @@
   "chain": "okxchain",
   "rpc": [
     "https://exchainrpc.okex.org",
-    "https://okc-mainnet.gateway.pokt.network/v1/lb/6275309bea1b320039c893ff"
+    "https://okc-mainnet.gateway.pokt.network/v1/lb/6275309bea1b320039c893ff",
+    "https://lb.routeme.sh/rpc/evm/66",
+    "https://oktc-mainnet.public.blastapi.io",
+    "https://public.1rpc.io/oktc",
+    "https://oktc.drpc.org",
+    "wss://oktc.drpc.org",
+    "https://66.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +28,13 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x8F8526dbfd6E38E3D8307702cA8469Bae6C56C15"
+  "wrappedNativeToken": "0x8F8526dbfd6E38E3D8307702cA8469Bae6C56C15",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/66": "limited",
+    "https://oktc-mainnet.public.blastapi.io": "limited",
+    "https://public.1rpc.io/oktc": "none",
+    "https://oktc.drpc.org": "none",
+    "wss://oktc.drpc.org": "none",
+    "https://66.rpc.thirdweb.com": "yes"
+  }
 }

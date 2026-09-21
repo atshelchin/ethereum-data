@@ -6,7 +6,8 @@
     "wss://testnet-rpc.tangle.tools",
     "wss://testnet-rpc-archive.tangle.tools",
     "https://testnet-rpc.tangle.tools",
-    "https://testnet-rpc-archive.tangle.tools"
+    "https://testnet-rpc-archive.tangle.tools",
+    "https://lb.routeme.sh/rpc/evm/3799"
   ],
   "faucets": [
     "https://faucet.tangle.tools"
@@ -27,5 +28,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/3799": "limited"
+  }
 }

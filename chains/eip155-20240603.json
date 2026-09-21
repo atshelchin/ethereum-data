@@ -1,7 +1,11 @@
 {
   "name": "DBK Chain",
   "chain": "DBK Chain",
-  "rpc": ["https://rpc.mainnet.dbkchain.io"],
+  "rpc": [
+    "https://rpc.mainnet.dbkchain.io",
+    "https://lb.routeme.sh/rpc/evm/20240603",
+    "https://20240603.rpc.thirdweb.com"
+  ],
   "icon": "dbkchain",
   "faucets": [],
   "nativeCurrency": {
@@ -19,5 +23,9 @@
       "url": "https://scan.dbkchain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/20240603": "limited",
+    "https://20240603.rpc.thirdweb.com": "yes"
+  }
 }

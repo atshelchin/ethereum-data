@@ -1,0 +1,37 @@
+{
+  "name": "Forknet",
+  "chain": "Forknet",
+  "icon": "forknet",
+  "rpc": [
+    "https://rpc-forknet.t.conduit.xyz",
+    "wss://rpc-forknet.t.conduit.xyz",
+    "https://8338.rpc.thirdweb.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://forknet.io",
+  "shortName": "forknet",
+  "chainId": 8338,
+  "networkId": 8338,
+  "explorers": [
+    {
+      "name": "forkscan",
+      "url": "https://forkscan.org"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "rpcTracking": {
+    "https://8338.rpc.thirdweb.com": "yes"
+  }
+}

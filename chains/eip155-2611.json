@@ -2,7 +2,8 @@
   "name": "Redlight Chain Mainnet",
   "chain": "REDLC",
   "rpc": [
-    "https://dataseed2.redlightscan.finance"
+    "https://dataseed2.redlightscan.finance",
+    "https://2611.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://redlightscan.finance",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2611.rpc.thirdweb.com": "yes"
+  }
 }

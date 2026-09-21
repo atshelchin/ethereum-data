@@ -1,14 +1,25 @@
 {
   "name": "Decimal Smart Chain Testnet",
   "chain": "tDSC",
-  "rpc": ["https://testnet-val.decimalchain.com/web3/"],
+  "rpc": [
+    "https://testnet-val.decimalchain.com/web3/",
+    "https://lb.routeme.sh/rpc/evm/202020",
+    "https://testnet-val.decimalchain.com/web3"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Decimal",
     "symbol": "tDEL",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://decimalchain.com",
   "shortName": "tDSC",
   "chainId": 202020,
@@ -22,5 +33,8 @@
       "icon": "dsc",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/202020": "limited"
+  }
 }

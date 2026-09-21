@@ -4,7 +4,8 @@
   "chain": "onus",
   "rpc": [
     "wss://ws.onuschain.io",
-    "https://rpc.onuschain.io"
+    "https://rpc.onuschain.io",
+    "https://1975.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "icon": "onus",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1975.rpc.thirdweb.com": "yes"
+  }
 }

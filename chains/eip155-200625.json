@@ -2,7 +2,9 @@
   "name": "Akroma",
   "chain": "AKA",
   "rpc": [
-    "https://remote.akroma.io"
+    "https://remote.akroma.io",
+    "https://boot2.akroma.org",
+    "https://200625.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +16,8 @@
   "shortName": "aka",
   "chainId": 200625,
   "networkId": 200625,
-  "slip44": 200625
+  "slip44": 200625,
+  "rpcTracking": {
+    "https://200625.rpc.thirdweb.com": "yes"
+  }
 }

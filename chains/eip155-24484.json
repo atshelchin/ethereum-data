@@ -1,7 +1,9 @@
 {
   "name": "Webchain",
   "chain": "WEB",
-  "rpc": [],
+  "rpc": [
+    "https://24484.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Webchain Ether",
@@ -12,5 +14,8 @@
   "shortName": "web",
   "chainId": 24484,
   "networkId": 37129,
-  "slip44": 227
+  "slip44": 227,
+  "rpcTracking": {
+    "https://24484.rpc.thirdweb.com": "yes"
+  }
 }

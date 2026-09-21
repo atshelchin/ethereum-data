@@ -2,7 +2,8 @@
   "name": "Taycan",
   "chain": "Taycan",
   "rpc": [
-    "https://taycan-rpc.hupayx.io:8545"
+    "https://taycan-rpc.hupayx.io:8545",
+    "https://22023.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -28,5 +29,8 @@
       "standard": "none",
       "icon": "shuffle"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://22023.rpc.thirdweb.com": "yes"
+  }
 }

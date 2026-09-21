@@ -3,7 +3,8 @@
   "chain": "SDX",
   "rpc": [
     "wss://ss.swapdex.network",
-    "https://rpc.swapdex.network"
+    "https://rpc.swapdex.network",
+    "https://230.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://evm.swapdex.network",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://230.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,9 @@
   "name": "Vordium Legacy",
   "chain": "VORD",
   "icon": "vordium",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.grxchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Vordium",

@@ -2,7 +2,8 @@
   "name": "Galadriel Devnet",
   "chain": "Galadriel",
   "rpc": [
-    "https://devnet.galadriel.com"
+    "https://devnet.galadriel.com",
+    "https://696969.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://docs.galadriel.com/faucet"
@@ -22,5 +23,8 @@
       "url": "https://explorer.galadriel.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://696969.rpc.thirdweb.com": "yes"
+  }
 }

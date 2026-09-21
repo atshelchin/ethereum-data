@@ -2,7 +2,9 @@
   "name": "StreamuX Blockchain",
   "chain": "StreamuX",
   "rpc": [
-    "https://u0ma6t6heb:KDNwOsRDGcyM2Oeui1p431Bteb4rvcWkuPgQNHwB4FM@u0xy4x6x82-u0e2mg517m-rpc.us0-aws.kaleido.io/"
+    "https://u0ma6t6heb:KDNwOsRDGcyM2Oeui1p431Bteb4rvcWkuPgQNHwB4FM@u0xy4x6x82-u0e2mg517m-rpc.us0-aws.kaleido.io/",
+    "https://u0ma6t6heb:KDNwOsRDGcyM2Oeui1p431Bteb4rvcWkuPgQNHwB4FM@u0xy4x6x82-u0e2mg517m-rpc.us0-aws.kaleido.io",
+    "https://8098.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +15,8 @@
   "infoURL": "https://www.streamux.cloud",
   "shortName": "StreamuX",
   "chainId": 8098,
-  "networkId": 8098
+  "networkId": 8098,
+  "rpcTracking": {
+    "https://8098.rpc.thirdweb.com": "yes"
+  }
 }

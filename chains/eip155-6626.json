@@ -3,7 +3,8 @@
   "chain": "PixieChain",
   "rpc": [
     "wss://ws-mainnet.chain.pixie.xyz",
-    "https://http-mainnet.chain.pixie.xyz"
+    "https://http-mainnet.chain.pixie.xyz",
+    "https://6626.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://scan.chain.pixie.xyz",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://6626.rpc.thirdweb.com": "yes"
+  }
 }

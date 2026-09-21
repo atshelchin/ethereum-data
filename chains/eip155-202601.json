@@ -3,7 +3,8 @@
   "chain": "ronin",
   "rpc": [
     "https://ronin-saigon.drpc.org",
-    "https://saigon-testnet.roninchain.com/rpc"
+    "https://saigon-testnet.roninchain.com/rpc",
+    "https://ronin-saigon.gateway.tatum.io"
   ],
   "faucets": [
     "https://faucet.roninchain.com/"

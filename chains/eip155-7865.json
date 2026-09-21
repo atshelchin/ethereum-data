@@ -23,5 +23,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.powerloom.network": "yes"
+  }
 }

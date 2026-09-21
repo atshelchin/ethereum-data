@@ -3,7 +3,9 @@
   "chain": "Ancient8",
   "icon": "ancient8",
   "rpc": [
-    "https://rpc.ancient8.gg"
+    "https://rpc.ancient8.gg",
+    "https://lb.routeme.sh/rpc/evm/888888888",
+    "https://888888888.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,5 +31,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/888888888": "limited",
+    "https://888888888.rpc.thirdweb.com": "yes"
   }
 }

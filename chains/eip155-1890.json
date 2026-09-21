@@ -2,7 +2,12 @@
   "name": "Lightlink Phoenix Mainnet",
   "chain": "Lightlink Phoenix Mainnet",
   "icon": "lightlink",
-  "rpc": ["https://replicator.phoenix.lightlink.io/rpc/v1"],
+  "rpc": [
+    "https://replicator.phoenix.lightlink.io/rpc/v1",
+    "https://lb.routeme.sh/rpc/evm/1890",
+    "https://endpoints.omniatech.io/v1/lightlink/phoenix/public",
+    "https://1890.rpc.thirdweb.com"
+  ],
   "features": [
     {
       "name": "EIP155"
@@ -25,5 +30,10 @@
       "icon": "lightlink",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1890": "limited",
+    "https://endpoints.omniatech.io/v1/lightlink/phoenix/public": "none",
+    "https://1890.rpc.thirdweb.com": "yes"
+  }
 }

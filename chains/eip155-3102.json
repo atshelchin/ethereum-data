@@ -3,7 +3,8 @@
   "chain": "VFIEVMCC",
   "rpc": [
     "wss://fraa-dancebox-3050-rpc.a.dancebox.tanssi.network",
-    "https://fraa-dancebox-3050-rpc.a.dancebox.tanssi.network"
+    "https://fraa-dancebox-3050-rpc.a.dancebox.tanssi.network",
+    "https://3102.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +16,8 @@
   "shortName": "VFI",
   "chainId": 3102,
   "networkId": 3102,
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://3102.rpc.thirdweb.com": "yes"
+  }
 }

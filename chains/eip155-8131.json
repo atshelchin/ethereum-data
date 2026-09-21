@@ -4,7 +4,8 @@
   "rpc": [
     "https://testnet-qng.rpc.qitmeer.io",
     "https://testnet.meerlabs.com",
-    "https://meer.testnet.meerfans.club"
+    "https://meer.testnet.meerfans.club",
+    "https://lb.routeme.sh/rpc/evm/8131"
   ],
   "faucets": [
     "https://faucet.qitmeer.io"
@@ -27,5 +28,8 @@
       "url": "https://testnet-qng.qitmeer.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/8131": "limited"
+  }
 }

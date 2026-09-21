@@ -3,7 +3,8 @@
   "chain": "CCP",
   "rpc": [
     "ws://node106.cryptocoinpay.info:8546",
-    "http://node106.cryptocoinpay.info:8545"
+    "http://node106.cryptocoinpay.info:8545",
+    "https://10823.rpc.thirdweb.com"
   ],
   "faucets": [],
   "icon": "ccp",
@@ -22,5 +23,8 @@
       "url": "https://cryptocoinpay.info",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://10823.rpc.thirdweb.com": "yes"
+  }
 }

@@ -8,7 +8,14 @@
     "wss://harmony-0.drpc.org",
     "https://rpc.ankr.com/harmony",
     "https://1rpc.io/one",
-    "https://harmony-0.drpc.org"
+    "https://harmony-0.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/1666600000",
+    "https://public.1rpc.io/one",
+    "https://endpoints.omniatech.io/v1/harmony/mainnet-0/public",
+    "https://harmony.api.pocket.network",
+    "https://one-mainnet-s0.gateway.tatum.io",
+    "wss://harmony.api.pocket.network",
+    "https://1666600000.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -55,5 +62,16 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "wss://harmony-0.drpc.org": "none",
+    "https://harmony-0.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/1666600000": "limited",
+    "https://public.1rpc.io/one": "none",
+    "https://endpoints.omniatech.io/v1/harmony/mainnet-0/public": "none",
+    "https://harmony.api.pocket.network": "none",
+    "https://one-mainnet-s0.gateway.tatum.io": "yes",
+    "wss://harmony.api.pocket.network": "none",
+    "https://1666600000.rpc.thirdweb.com": "yes"
   }
 }

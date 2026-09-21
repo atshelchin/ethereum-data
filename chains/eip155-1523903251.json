@@ -3,7 +3,8 @@
   "title": "Haust Network Testnet",
   "chain": "haust-network-testnet",
   "rpc": [
-    "https://rpc-testnet.haust.app"
+    "https://rpc-testnet.haust.app",
+    "https://lb.routeme.sh/rpc/evm/1523903251"
   ],
   "features": [
     {
@@ -40,5 +41,8 @@
         "url": "https://bridge-testnet.haust.app"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1523903251": "limited"
   }
 }

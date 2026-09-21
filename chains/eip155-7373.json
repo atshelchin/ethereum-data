@@ -1,0 +1,24 @@
+{
+  "name": "CRYMAD Chain Mainnet L2 Network",
+  "chain": "CMX",
+  "icon": "crymadchain",
+  "rpc": [
+    "https://rpcl2.cmxofficial.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CRYMADX UTILITY",
+    "symbol": "CMX-U",
+    "decimals": 18
+  },
+  "infoURL": "https://cmxofficial.com/",
+  "shortName": "CMX-U",
+  "chainId": 7373,
+  "networkId": 7373,
+  "status": "active",
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ]
+}

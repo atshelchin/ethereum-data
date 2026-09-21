@@ -2,8 +2,15 @@
   "name": "Lisk Sepolia Testnet",
   "chain": "ETH",
   "icon": "lisk",
-  "rpc": ["https://rpc.sepolia-api.lisk.com"],
-  "faucets": ["https://app.optimism.io/faucet"],
+  "rpc": [
+    "https://rpc.sepolia-api.lisk.com",
+    "https://lb.routeme.sh/rpc/evm/4202",
+    "https://lisk-sepolia.drpc.org",
+    "wss://lisk-sepolia.drpc.org"
+  ],
+  "faucets": [
+    "https://app.optimism.io/faucet"
+  ],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -21,5 +28,10 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/4202": "limited",
+    "https://lisk-sepolia.drpc.org": "none",
+    "wss://lisk-sepolia.drpc.org": "none"
+  }
 }

@@ -10,7 +10,8 @@
     "decimals": 18
   },
   "rpc": [
-    "https://rpc.boss.proofofplay.com"
+    "https://rpc.boss.proofofplay.com",
+    "https://70701.rpc.thirdweb.com"
   ],
   "faucets": [],
   "explorers": [
@@ -34,5 +35,8 @@
         "url": "https://relay.link/bridge/boss/"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://70701.rpc.thirdweb.com": "yes"
   }
 }

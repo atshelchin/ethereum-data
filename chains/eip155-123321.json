@@ -2,7 +2,8 @@
   "name": "Gemchain",
   "chain": "Gemchain",
   "rpc": [
-    "https://evm-rpc.gemchain.org"
+    "https://evm-rpc.gemchain.org",
+    "https://123321.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://scan.gemchain.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://123321.rpc.thirdweb.com": "yes"
+  }
 }

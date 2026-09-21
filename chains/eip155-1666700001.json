@@ -1,8 +1,13 @@
 {
   "name": "Harmony Testnet Shard 1",
   "chain": "Harmony",
-  "rpc": ["https://api.s1.b.hmny.io"],
-  "faucets": ["https://faucet.pops.one"],
+  "rpc": [
+    "https://api.s1.b.hmny.io",
+    "https://lb.routeme.sh/rpc/evm/1666700001"
+  ],
+  "faucets": [
+    "https://faucet.pops.one"
+  ],
   "nativeCurrency": {
     "name": "ONE",
     "symbol": "ONE",
@@ -18,5 +23,8 @@
       "url": "https://explorer.testnet.harmony.one",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1666700001": "limited"
+  }
 }

@@ -2,7 +2,11 @@
   "name": "RARI Chain Mainnet",
   "chain": "RARI",
   "rpc": [
-    "https://rari.calderachain.xyz/http"
+    "https://rari.calderachain.xyz/http",
+    "https://lb.routeme.sh/rpc/evm/1380012617",
+    "https://mainnet.rpc.rarichain.org/http",
+    "wss://mainnet.rpc.rarichain.org/ws",
+    "https://1380012617.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +29,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1380012617": "limited",
+    "https://1380012617.rpc.thirdweb.com": "yes"
+  }
 }

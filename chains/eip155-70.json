@@ -5,7 +5,8 @@
     "wss://ws-mainnet.hoosmartchain.com",
     "wss://ws-mainnet2.hoosmartchain.com",
     "https://http-mainnet.hoosmartchain.com",
-    "https://http-mainnet2.hoosmartchain.com"
+    "https://http-mainnet2.hoosmartchain.com",
+    "https://70.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +25,8 @@
       "url": "https://www.hooscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://70.rpc.thirdweb.com": "yes"
+  }
 }

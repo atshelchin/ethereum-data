@@ -3,7 +3,9 @@
   "chain": "SIXNET",
   "icon": "six",
   "rpc": [
-    "https://sixnet-rpc-evm.sixprotocol.net"
+    "https://sixnet-rpc-evm.sixprotocol.net",
+    "https://lb.routeme.sh/rpc/evm/98",
+    "https://98.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,9 @@
       "standard": "none",
       "icon": "six"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/98": "limited",
+    "https://98.rpc.thirdweb.com": "yes"
+  }
 }

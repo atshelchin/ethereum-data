@@ -4,12 +4,17 @@
   "chain": "RBN",
   "chainId": 154,
   "networkId": 154,
-  "rpc": [],
+  "rpc": [
+    "https://154.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "infoURL": "https://redbelly.network",
   "nativeCurrency": {
     "name": "Redbelly Network Coin",
     "symbol": "RBNT",
     "decimals": 18
+  },
+  "rpcTracking": {
+    "https://154.rpc.thirdweb.com": "yes"
   }
 }

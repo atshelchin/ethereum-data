@@ -6,7 +6,10 @@
   "icon": "ethereumclassictestnet",
   "rpc": [
     "https://rpc.mordor.etccooperative.org",
-    "https://geth-mordor.etc-network.info"
+    "https://geth-mordor.etc-network.info",
+    "https://lb.routeme.sh/rpc/evm/63",
+    "https://0xrpc.io/mordor",
+    "wss://0xrpc.io/mordor"
   ],
   "features": [
     {
@@ -41,5 +44,11 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://geth-mordor.etc-network.info": "limited",
+    "https://lb.routeme.sh/rpc/evm/63": "limited",
+    "https://0xrpc.io/mordor": "none",
+    "wss://0xrpc.io/mordor": "none"
   }
 }

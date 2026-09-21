@@ -2,8 +2,18 @@
   "name": "CyberChain Mainnet",
   "chain": "XCC",
   "icon": "cyberchain",
-  "rpc": ["https://rpc.cyberchain.xyz/"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://rpc.cyberchain.xyz/",
+    "https://rpc.cyberchain.xyz"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "XCC",

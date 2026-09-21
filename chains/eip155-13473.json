@@ -4,7 +4,8 @@
   "rpc": [
     "https://rpc.testnet.immutable.com",
     "wss://immutable-zkevm-testnet.drpc.org",
-    "https://immutable-zkevm-testnet.drpc.org"
+    "https://immutable-zkevm-testnet.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/13473"
   ],
   "faucets": [
     "https://docs.immutable.com/docs/zkEVM/guides/faucet"
@@ -30,5 +31,8 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/13473": "limited"
   }
 }

@@ -4,9 +4,13 @@
   "icon": "titan",
   "rpc": [
     "https://mainnet.skalenodes.com/v1/parallel-stormy-spica",
-    "wss://mainnet.skalenodes.com/v1/ws/parallel-stormy-spica"
+    "wss://mainnet.skalenodes.com/v1/ws/parallel-stormy-spica",
+    "https://lb.routeme.sh/rpc/evm/1350216234",
+    "https://1350216234.rpc.thirdweb.com"
   ],
-  "faucets": ["https://sfuel.skale.network/"],
+  "faucets": [
+    "https://sfuel.skale.network/"
+  ],
   "nativeCurrency": {
     "name": "sFUEL",
     "symbol": "sFUEL",
@@ -22,5 +26,9 @@
       "url": "https://parallel-stormy-spica.explorer.mainnet.skalenodes.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1350216234": "limited",
+    "https://1350216234.rpc.thirdweb.com": "yes"
+  }
 }

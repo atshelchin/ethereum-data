@@ -1,7 +1,12 @@
 {
   "name": "Metadium Mainnet",
   "chain": "META",
-  "rpc": ["https://api.metadium.com/prod"],
+  "rpc": [
+    "https://api.metadium.com/prod",
+    "https://lb.routeme.sh/rpc/evm/11",
+    "https://api.metadium.com/dev",
+    "https://11.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Metadium Mainnet Ether",
@@ -12,5 +17,9 @@
   "shortName": "meta",
   "chainId": 11,
   "networkId": 11,
-  "slip44": 916
+  "slip44": 916,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/11": "limited",
+    "https://11.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,8 +1,12 @@
 {
   "name": "CENNZnet Rata",
   "chain": "CENNZnet",
-  "rpc": [],
-  "faucets": ["https://app-faucet.centrality.me"],
+  "rpc": [
+    "https://3000.rpc.thirdweb.com"
+  ],
+  "faucets": [
+    "https://app-faucet.centrality.me"
+  ],
   "nativeCurrency": {
     "name": "CPAY",
     "symbol": "CPAY",
@@ -12,5 +16,8 @@
   "shortName": "cennz-r",
   "chainId": 3000,
   "networkId": 3000,
-  "icon": "cennz"
+  "icon": "cennz",
+  "rpcTracking": {
+    "https://3000.rpc.thirdweb.com": "yes"
+  }
 }

@@ -5,7 +5,9 @@
   "rpc": [
     "https://rpc.testnet.chain.robinhood.com/rpc",
     "https://robinhood-sepolia-rpc.publicnode.com",
-    "wss://robinhood-sepolia-rpc.publicnode.com"
+    "wss://robinhood-sepolia-rpc.publicnode.com",
+    "https://rpc.testnet.chain.robinhood.com",
+    "https://robinhood-testnet.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -42,5 +44,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://robinhood-sepolia-rpc.publicnode.com": "none",
+    "wss://robinhood-sepolia-rpc.publicnode.com": "none",
+    "https://robinhood-testnet.drpc.org": "none"
   }
 }

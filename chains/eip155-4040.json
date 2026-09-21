@@ -3,7 +3,8 @@
   "chain": "CBR",
   "rpc": [
     "https://rpc-dev.carbonium.network/",
-    "https://server-testnet.carbonium.network"
+    "https://server-testnet.carbonium.network",
+    "https://rpc-dev.carbonium.network"
   ],
   "nativeCurrency": {
     "name": "Carbonium",

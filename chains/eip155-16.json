@@ -8,7 +8,8 @@
     "https://01-gravelines-004-01.rpc.tatum.io/ext/bc/C/rpc",
     "https://02-chicago-004-02.rpc.tatum.io/ext/bc/C/rpc",
     "https://02-tokyo-004-03.rpc.tatum.io/ext/bc/C/rpc",
-    "https://coston.enosys.global/ext/C/rpc"
+    "https://coston.enosys.global/ext/C/rpc",
+    "https://lb.routeme.sh/rpc/evm/16"
   ],
   "features": [
     {
@@ -48,5 +49,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://songbird-testnet-coston.rpc.thirdweb.com": "yes",
+    "https://lb.routeme.sh/rpc/evm/16": "limited"
   }
 }

@@ -1,7 +1,12 @@
 {
   "name": "Tomb Chain Mainnet",
   "chain": "Tomb Chain",
-  "rpc": ["https://rpc.tombchain.com/"],
+  "rpc": [
+    "https://rpc.tombchain.com/",
+    "https://lb.routeme.sh/rpc/evm/6969",
+    "https://rpc.tombchain.com",
+    "https://6969.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tomb",
@@ -12,7 +17,6 @@
   "shortName": "tombchain",
   "chainId": 6969,
   "networkId": 6969,
-
   "explorers": [
     {
       "name": "tombscout",
@@ -28,5 +32,9 @@
         "url": "https://lif3.com/bridge"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/6969": "limited",
+    "https://6969.rpc.thirdweb.com": "yes"
   }
 }

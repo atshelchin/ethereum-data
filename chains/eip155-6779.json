@@ -4,7 +4,10 @@
   "icon": "compverse",
   "rpc": [
     "https://rpc.compverse.io/",
-    "https://rpc-useast1.compverse.io/"
+    "https://rpc-useast1.compverse.io/",
+    "https://rpc.compverse.io",
+    "https://rpc-useast1.compverse.io",
+    "https://6779.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +26,8 @@
       "url": "https://scan.compverse.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://6779.rpc.thirdweb.com": "yes"
+  }
 }

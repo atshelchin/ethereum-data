@@ -3,7 +3,8 @@
   "chain": "Grok",
   "icon": "grokicon",
   "rpc": [
-    "https://mainnet-rpc.grokchain.dev"
+    "https://mainnet-rpc.grokchain.dev",
+    "https://72992.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://mainnet-explorer.grokchain.dev",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://72992.rpc.thirdweb.com": "yes"
+  }
 }

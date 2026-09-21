@@ -2,7 +2,11 @@
   "name": "Hizoco mainnet",
   "chain": "HZC",
   "icon": "hizoco",
-  "rpc": ["https://hizoco.net/rpc"],
+  "rpc": [
+    "https://hizoco.net/rpc",
+    "https://lb.routeme.sh/rpc/evm/80096",
+    "https://80096.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Hizoco",
@@ -19,5 +23,9 @@
       "url": "https://hizoco.net:38443",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/80096": "limited",
+    "https://80096.rpc.thirdweb.com": "yes"
+  }
 }

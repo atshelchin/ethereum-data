@@ -2,7 +2,8 @@
   "name": "Hertz Network Mainnet",
   "chain": "HTZ",
   "rpc": [
-    "https://mainnet-rpc.hertzscan.com"
+    "https://mainnet-rpc.hertzscan.com",
+    "https://26600.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +31,8 @@
       "icon": "hertz-network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://26600.rpc.thirdweb.com": "yes"
+  }
 }

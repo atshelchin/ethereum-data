@@ -4,7 +4,10 @@
   "status": "deprecated",
   "chain": "ETC",
   "icon": "ethereumclassictestnet",
-  "rpc": [],
+  "rpc": [
+    "https://www.ethercluster.com/morden",
+    "https://api-testnet.plato.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Morden Ether",

@@ -6,7 +6,10 @@
     "wss://londonpublic.alphabetnetwork.org/ws/",
     "wss://main-rpc.com/ws/",
     "https://londonpublic.alphabetnetwork.org",
-    "https://main-rpc.com"
+    "https://main-rpc.com",
+    "wss://londonpublic.alphabetnetwork.org/ws",
+    "wss://main-rpc.com/ws",
+    "https://111222333444.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +27,8 @@
       "url": "https://scan.alphabetnetwork.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://111222333444.rpc.thirdweb.com": "yes"
+  }
 }

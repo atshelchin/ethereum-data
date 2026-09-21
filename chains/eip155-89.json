@@ -1,7 +1,11 @@
 {
   "name": "Viction Testnet",
   "chain": "Viction",
-  "rpc": ["https://rpc-testnet.viction.xyz"],
+  "rpc": [
+    "https://rpc-testnet.viction.xyz",
+    "https://viction-testnet.drpc.org",
+    "wss://viction-testnet.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Viction",
@@ -12,5 +16,9 @@
   "shortName": "vict",
   "chainId": 89,
   "networkId": 89,
-  "slip44": 1
+  "slip44": 1,
+  "rpcTracking": {
+    "https://viction-testnet.drpc.org": "none",
+    "wss://viction-testnet.drpc.org": "none"
+  }
 }

@@ -3,7 +3,9 @@
   "chain": "Shardeum",
   "icon": "shardeum",
   "rpc": [
-    "https://liberty20.shardeum.org/"
+    "https://liberty20.shardeum.org/",
+    "https://liberty20.shardeum.org",
+    "https://dapps.shardeum.org"
   ],
   "faucets": [
     "https://faucet.liberty20.shardeum.org"
@@ -26,5 +28,8 @@
   ],
   "redFlags": [
     "reusedChainId"
-  ]
+  ],
+  "rpcTracking": {
+    "https://dapps.shardeum.org": "yes"
+  }
 }

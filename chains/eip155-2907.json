@@ -3,7 +3,8 @@
   "chain": "ELUX",
   "icon": "eluxchain",
   "rpc": [
-    "https://rpc.eluxscan.com"
+    "https://rpc.eluxscan.com",
+    "https://2907.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://eluxscan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2907.rpc.thirdweb.com": "yes"
+  }
 }

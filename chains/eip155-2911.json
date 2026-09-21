@@ -10,7 +10,8 @@
     "decimals": 18
   },
   "rpc": [
-    "https://rpc.hychain.com/http"
+    "https://rpc.hychain.com/http",
+    "https://2911.rpc.thirdweb.com"
   ],
   "faucets": [],
   "infoURL": "https://www.hychain.com",
@@ -31,5 +32,8 @@
         "url": "https://bridge.hychain.com"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://2911.rpc.thirdweb.com": "yes"
   }
 }

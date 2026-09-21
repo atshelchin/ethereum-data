@@ -10,7 +10,10 @@
     "decimals": 18
   },
   "rpc": [
-    "https://xai-chain.net/rpc"
+    "https://xai-chain.net/rpc",
+    "https://lb.routeme.sh/rpc/evm/660279",
+    "https://rpc.ankr.com/xai",
+    "https://660279.rpc.thirdweb.com"
   ],
   "faucets": [],
   "explorers": [
@@ -45,5 +48,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/660279": "limited",
+    "https://rpc.ankr.com/xai": "none",
+    "https://660279.rpc.thirdweb.com": "yes"
   }
 }

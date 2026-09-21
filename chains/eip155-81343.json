@@ -1,7 +1,9 @@
 {
   "name": "Amana Privnet",
   "chain": "MEER",
-  "rpc": [],
+  "rpc": [
+    "https://81343.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Amana Privnet",
@@ -13,5 +15,8 @@
   "icon": "meer",
   "chainId": 81343,
   "networkId": 81343,
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://81343.rpc.thirdweb.com": "yes"
+  }
 }

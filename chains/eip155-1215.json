@@ -3,7 +3,8 @@
   "chain": "ADF Chain",
   "icon": "addfillmain",
   "rpc": [
-    "https://mainnet.adftechnology.com/"
+    "https://mainnet.adftechnology.com/",
+    "https://mainnet.adftechnology.com"
   ],
   "faucets": [],
   "nativeCurrency": {

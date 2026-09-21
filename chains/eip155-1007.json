@@ -1,7 +1,10 @@
 {
   "name": "Newton Testnet",
   "chain": "NEW",
-  "rpc": ["https://rpc1.newchain.newtonproject.org"],
+  "rpc": [
+    "https://rpc1.newchain.newtonproject.org",
+    "https://lb.routeme.sh/rpc/evm/1007"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Newton",
@@ -12,5 +15,8 @@
   "shortName": "tnew",
   "chainId": 1007,
   "networkId": 1007,
-  "slip44": 1
+  "slip44": 1,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1007": "limited"
+  }
 }

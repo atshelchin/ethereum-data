@@ -2,7 +2,9 @@
   "name": "Dogether Mainnet",
   "chain": "Dogether",
   "rpc": [
-    "https://rpc.dogether.dog/"
+    "https://rpc.dogether.dog/",
+    "https://rpc.dogether.dog",
+    "https://1248.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +22,8 @@
       "url": "https://explorer.dogether.dog",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1248.rpc.thirdweb.com": "yes"
+  }
 }

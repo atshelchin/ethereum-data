@@ -1,7 +1,12 @@
 {
   "name": "REI Network",
   "chain": "REI",
-  "rpc": ["https://rpc.rei.network", "wss://rpc.rei.network"],
+  "rpc": [
+    "https://rpc.rei.network",
+    "wss://rpc.rei.network",
+    "https://lb.routeme.sh/rpc/evm/47805",
+    "https://47805.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "REI",
@@ -18,5 +23,9 @@
       "url": "https://scan.rei.network",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/47805": "limited",
+    "https://47805.rpc.thirdweb.com": "yes"
+  }
 }

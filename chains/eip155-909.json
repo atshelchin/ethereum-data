@@ -2,7 +2,9 @@
   "name": "Portal Fantasy Chain",
   "chain": "PF",
   "icon": "pf",
-  "rpc": [],
+  "rpc": [
+    "https://909.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Portal Fantasy Token",
@@ -14,5 +16,8 @@
   "chainId": 909,
   "networkId": 909,
   "explorers": [],
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://909.rpc.thirdweb.com": "yes"
+  }
 }

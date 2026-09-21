@@ -2,7 +2,8 @@
   "name": "Moca Chain Testnet",
   "chain": "Moca Chain",
   "rpc": [
-    "https://testnet-rpc.mechain.tech"
+    "https://testnet-rpc.mechain.tech",
+    "https://devnet-rpc.mocachain.org"
   ],
   "faucets": [
     "https://faucet.mechain.tech"

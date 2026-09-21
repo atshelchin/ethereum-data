@@ -4,7 +4,9 @@
   "rpc": [
     "https://metis-sepolia-rpc.publicnode.com",
     "https://sepolia.metisdevops.link",
-    "wss://metis-sepolia-rpc.publicnode.com"
+    "wss://metis-sepolia-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/59902",
+    "https://metis-sepolia.gateway.tenderly.co"
   ],
   "faucets": [
     "https://sepolia.faucet.metisdevops.link"
@@ -36,5 +38,11 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://metis-sepolia-rpc.publicnode.com": "none",
+    "wss://metis-sepolia-rpc.publicnode.com": "none",
+    "https://lb.routeme.sh/rpc/evm/59902": "limited",
+    "https://metis-sepolia.gateway.tenderly.co": "yes"
   }
 }

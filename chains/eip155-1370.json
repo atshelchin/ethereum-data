@@ -4,7 +4,9 @@
   "icon": "ramestta",
   "rpc": [
     "https://blockchain2.ramestta.com",
-    "https://blockchain.ramestta.com"
+    "https://blockchain.ramestta.com",
+    "https://lb.routeme.sh/rpc/evm/1370",
+    "https://1370.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,9 @@
       "icon": "ramestta",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1370": "limited",
+    "https://1370.rpc.thirdweb.com": "yes"
+  }
 }

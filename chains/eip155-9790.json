@@ -2,7 +2,12 @@
   "name": "Carbon EVM",
   "chain": "Carbon",
   "icon": "carbon",
-  "rpc": ["https://evm-api.carbon.network/"],
+  "rpc": [
+    "https://evm-api.carbon.network/",
+    "https://lb.routeme.sh/rpc/evm/9790",
+    "https://evm-api.carbon.network",
+    "https://9790.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "swth",
@@ -13,5 +18,9 @@
   "shortName": "carbon",
   "chainId": 9790,
   "networkId": 9790,
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/9790": "limited",
+    "https://9790.rpc.thirdweb.com": "yes"
+  }
 }

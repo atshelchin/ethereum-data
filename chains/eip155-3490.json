@@ -3,7 +3,9 @@
   "chain": "GTC",
   "icon": "gtc",
   "rpc": [
-    "https://gtc-dataseed.gtcscan.io/"
+    "https://gtc-dataseed.gtcscan.io/",
+    "https://gtc-dataseed.gtcscan.io",
+    "https://3490.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,8 @@
       "standard": "none",
       "icon": "gtc"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://3490.rpc.thirdweb.com": "yes"
+  }
 }

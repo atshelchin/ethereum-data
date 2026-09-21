@@ -6,7 +6,10 @@
   "rpc": [
     "https://testnet.coti.io/rpc",
     "https://testnet-magnus-validator.coti.io/rpc",
-    "https://testnet-minor-validator.coti.io/rpc"
+    "https://testnet-minor-validator.coti.io/rpc",
+    "https://lb.routeme.sh/rpc/evm/7082400",
+    "https://coti-test-rpc.Hyperflow.finance",
+    "wss://coti-test-rpc.Hyperflow.finance"
   ],
   "faucets": [
     "https://faucet.coti.io"
@@ -27,5 +30,8 @@
       "icon": "ethernal",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/7082400": "limited"
+  }
 }

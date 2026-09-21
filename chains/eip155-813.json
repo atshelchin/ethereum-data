@@ -9,7 +9,8 @@
     "https://evm-dataseed2.meerscan.io",
     "https://evm-dataseed3.meerscan.io",
     "https://evm-dataseed1.meerscan.io",
-    "https://mainnet.meerlabs.com"
+    "https://mainnet.meerlabs.com",
+    "https://813.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -36,5 +37,8 @@
       "url": "https://qng.meerscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://813.rpc.thirdweb.com": "yes"
+  }
 }

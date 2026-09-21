@@ -2,7 +2,8 @@
   "name": "Darwin Devnet",
   "chain": "Darwin",
   "rpc": [
-    "https://devnet-rpc.darwinchain.ai"
+    "https://devnet-rpc.darwinchain.ai",
+    "https://610.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://devnet-rpc.darwinchain.ai/faucet"
@@ -24,5 +25,8 @@
       "icon": "darwin",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://610.rpc.thirdweb.com": "yes"
+  }
 }

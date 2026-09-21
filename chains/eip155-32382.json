@@ -2,7 +2,8 @@
   "name": "Santiment Intelligence Network",
   "chain": "Santiment Intelligence Network",
   "rpc": [
-    "https://node.sanr.app"
+    "https://node.sanr.app",
+    "https://32382.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +31,8 @@
       "url": "https://app-explorer-pos.sanr.app",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://32382.rpc.thirdweb.com": "yes"
+  }
 }

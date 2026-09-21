@@ -2,7 +2,8 @@
   "name": "Lorenzo",
   "chain": "Lorenzo",
   "rpc": [
-    "https://rpc.lorenzo-protocol.xyz"
+    "https://rpc.lorenzo-protocol.xyz",
+    "https://8329.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -30,5 +31,8 @@
       "standard": "none",
       "icon": "lorenzo"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://8329.rpc.thirdweb.com": "yes"
+  }
 }

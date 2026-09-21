@@ -4,7 +4,10 @@
   "icon": "kusama",
   "rpc": [
     "https://eth-rpc-kusama.polkadot.io",
-    "wss://eth-rpc-kusama.polkadot.io"
+    "wss://eth-rpc-kusama.polkadot.io",
+    "https://eth-rpc.kusama.polkadot.io",
+    "wss://eth-rpc.kusama.polkadot.io",
+    "https://420420418.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -33,5 +36,8 @@
       "url": "https://blockscout-kusama.polkadot.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://420420418.rpc.thirdweb.com": "yes"
+  }
 }

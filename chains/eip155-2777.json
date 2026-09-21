@@ -2,7 +2,8 @@
   "name": "GM Network Mainnet",
   "chain": "GM Network Mainnet",
   "rpc": [
-    "https://rpc.gmnetwork.ai"
+    "https://rpc.gmnetwork.ai",
+    "https://2777.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "status": "active",
+  "rpcTracking": {
+    "https://2777.rpc.thirdweb.com": "yes"
+  }
 }

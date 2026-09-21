@@ -2,7 +2,8 @@
   "name": "Altar Testnet",
   "chain": "Altar",
   "rpc": [
-    "https://altar-rpc.ceremonies.ai/"
+    "https://altar-rpc.ceremonies.ai/",
+    "https://altar-rpc.ceremonies.ai"
   ],
   "faucets": [
     "https://sepoliafaucet.com/"

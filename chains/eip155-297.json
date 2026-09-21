@@ -2,9 +2,22 @@
   "name": "Hedera Previewnet",
   "chain": "Hedera",
   "icon": "hedera",
-  "rpc": ["https://previewnet.hashio.io/api"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "faucets": ["https://portal.hedera.com"],
+  "rpc": [
+    "https://previewnet.hashio.io/api",
+    "https://lb.routeme.sh/rpc/evm/297",
+    "https://297.rpc.thirdweb.com"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "faucets": [
+    "https://portal.hedera.com"
+  ],
   "nativeCurrency": {
     "name": "hbar",
     "symbol": "HBAR",
@@ -21,5 +34,9 @@
       "url": "https://hashscan.io/previewnet",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/297": "limited",
+    "https://297.rpc.thirdweb.com": "yes"
+  }
 }

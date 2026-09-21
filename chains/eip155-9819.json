@@ -3,7 +3,8 @@
   "chain": "IMP",
   "rpc": [
     "https://data-aws-mainnet.imperiumchain.com",
-    "https://data-aws2-mainnet.imperiumchain.com"
+    "https://data-aws2-mainnet.imperiumchain.com",
+    "https://9819.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.imperiumchain.com/"
@@ -25,5 +26,8 @@
       "url": "https://impscan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://9819.rpc.thirdweb.com": "yes"
+  }
 }

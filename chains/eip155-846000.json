@@ -2,7 +2,8 @@
   "name": "4GoodNetwork",
   "chain": "4GN",
   "rpc": [
-    "https://chain.deptofgood.com"
+    "https://chain.deptofgood.com",
+    "https://846000.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://bloqs4good.com",
   "shortName": "bloqs4good",
   "chainId": 846000,
-  "networkId": 846000
+  "networkId": 846000,
+  "rpcTracking": {
+    "https://846000.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "INOAI",
   "faucets": [],
   "rpc": [
-    "https://inoai-network.com"
+    "https://inoai-network.com",
+    "https://88559.rpc.thirdweb.com"
   ],
   "nativeCurrency": {
     "name": "InoAi",
@@ -21,5 +22,8 @@
       "url": "https://inoai.live",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://88559.rpc.thirdweb.com": "yes"
+  }
 }

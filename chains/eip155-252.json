@@ -6,7 +6,14 @@
     "https://fraxtal.drpc.org",
     "https://rpc.frax.com",
     "https://fraxtal.api.pocket.network",
-    "wss://fraxtal-rpc.publicnode.com"
+    "wss://fraxtal-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/252",
+    "wss://fraxtal.drpc.org",
+    "https://fraxtal.gateway.tenderly.co",
+    "https://node.histori.xyz/fraxtal-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
+    "https://rpc.swiftnodes.io/rpc/fraxtal",
+    "https://frax-mainnet.rpc.sentio.xyz",
+    "https://252.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -71,5 +78,16 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://fraxtal.drpc.org": "none",
+    "https://fraxtal.api.pocket.network": "none",
+    "https://lb.routeme.sh/rpc/evm/252": "limited",
+    "wss://fraxtal.drpc.org": "none",
+    "https://fraxtal.gateway.tenderly.co": "yes",
+    "https://node.histori.xyz/fraxtal-mainnet/8ry9f6t9dct1se2hlagxnd9n2a": "none",
+    "https://rpc.swiftnodes.io/rpc/fraxtal": "limited",
+    "https://frax-mainnet.rpc.sentio.xyz": "limited",
+    "https://252.rpc.thirdweb.com": "yes"
   }
 }

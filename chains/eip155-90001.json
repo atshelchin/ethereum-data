@@ -2,7 +2,8 @@
   "name": "Pundi AIFX Omnilayer Testnet",
   "chain": "PUNDIAI",
   "rpc": [
-    "https://testnet-fx-json-web3.functionx.io:8545"
+    "https://testnet-fx-json-web3.functionx.io:8545",
+    "https://lb.routeme.sh/rpc/evm/90001"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://testnet.pundiscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/90001": "limited"
+  }
 }

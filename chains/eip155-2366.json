@@ -3,7 +3,8 @@
   "chain": "KiteAI",
   "icon": "kite",
   "rpc": [
-    "https://rpc.gokite.ai"
+    "https://rpc.gokite.ai",
+    "https://kite.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -44,5 +45,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.gokite.ai": "none",
+    "https://kite.drpc.org": "none"
+  }
 }

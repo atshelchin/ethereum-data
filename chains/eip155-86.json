@@ -9,8 +9,14 @@
     "symbol": "GT",
     "decimals": 18
   },
-  "rpc": ["https://evm.gatenode.cc"],
-  "faucets": ["https://www.gatescan.org/faucet"],
+  "rpc": [
+    "https://evm.gatenode.cc",
+    "https://lb.routeme.sh/rpc/evm/86",
+    "https://86.rpc.thirdweb.com"
+  ],
+  "faucets": [
+    "https://www.gatescan.org/faucet"
+  ],
   "explorers": [
     {
       "name": "GateScan",
@@ -18,5 +24,9 @@
       "standard": "EIP3091"
     }
   ],
-  "infoURL": "https://www.gatechain.io"
+  "infoURL": "https://www.gatechain.io",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/86": "limited",
+    "https://86.rpc.thirdweb.com": "yes"
+  }
 }

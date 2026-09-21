@@ -7,7 +7,13 @@
     "https://bnb.boba.network",
     "https://boba-bnb.gateway.tenderly.co/",
     "https://gateway.tenderly.co/public/boba-bnb",
-    "https://replica.bnb.boba.network"
+    "https://replica.bnb.boba.network",
+    "https://lb.routeme.sh/rpc/evm/56288",
+    "https://boba-bnb.gateway.tenderly.co",
+    "https://boba-bnb.drpc.org",
+    "wss://boba-bnb.drpc.org",
+    "wss://boba-bnb.gateway.tenderly.co",
+    "https://56288.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -41,5 +47,13 @@
       "type": "bridge",
       "contract": "0x3a2213CaEbcf1727D7b3422B8Ef8Dd5654877f42"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://gateway.tenderly.co/public/boba-bnb": "yes",
+    "https://lb.routeme.sh/rpc/evm/56288": "limited",
+    "https://boba-bnb.gateway.tenderly.co": "yes",
+    "https://boba-bnb.drpc.org": "none",
+    "wss://boba-bnb.drpc.org": "none",
+    "https://56288.rpc.thirdweb.com": "yes"
+  }
 }

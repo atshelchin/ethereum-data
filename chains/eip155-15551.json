@@ -1,7 +1,10 @@
 {
   "name": "LoopNetwork Mainnet",
   "chain": "LoopNetwork",
-  "rpc": ["https://api.mainnetloop.com"],
+  "rpc": [
+    "https://api.mainnetloop.com",
+    "https://15551.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "LOOP",
@@ -18,5 +21,9 @@
       "url": "http://explorer.mainnetloop.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://api.mainnetloop.com": "limited",
+    "https://15551.rpc.thirdweb.com": "yes"
+  }
 }

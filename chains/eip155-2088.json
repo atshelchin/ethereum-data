@@ -4,9 +4,17 @@
   "icon": "altair",
   "rpc": [
     "wss://fullnode.altair.centrifuge.io",
-    "wss://altair.api.onfinality.io/public-ws"
+    "wss://altair.api.onfinality.io/public-ws",
+    "https://2088.rpc.thirdweb.com"
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Altair",
@@ -16,5 +24,8 @@
   "infoURL": "https://centrifuge.io",
   "shortName": "air",
   "chainId": 2088,
-  "networkId": 2088
+  "networkId": 2088,
+  "rpcTracking": {
+    "https://2088.rpc.thirdweb.com": "yes"
+  }
 }

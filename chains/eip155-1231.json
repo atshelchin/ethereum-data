@@ -2,7 +2,10 @@
   "name": "Ultron Mainnet",
   "chain": "Ultron",
   "icon": "ultron",
-  "rpc": ["https://ultron-rpc.net"],
+  "rpc": [
+    "https://ultron-rpc.net",
+    "https://1231.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ultron",
@@ -20,5 +23,8 @@
       "icon": "ultron",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1231.rpc.thirdweb.com": "yes"
+  }
 }

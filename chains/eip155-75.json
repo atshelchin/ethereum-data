@@ -6,7 +6,14 @@
     "https://node3-mainnet.decimalchain.com/web3/",
     "https://node2-mainnet.decimalchain.com/web3/",
     "https://node4-mainnet.decimalchain.com/web3/",
-    "https://node.decimalchain.com/web3/"
+    "https://node.decimalchain.com/web3/",
+    "https://lb.routeme.sh/rpc/evm/75",
+    "https://node.decimalchain.com/web3",
+    "https://node1-mainnet.decimalchain.com/web3",
+    "https://node2-mainnet.decimalchain.com/web3",
+    "https://node3-mainnet.decimalchain.com/web3",
+    "https://node4-mainnet.decimalchain.com/web3",
+    "https://75.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -34,5 +41,9 @@
       "icon": "dsc",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/75": "limited",
+    "https://75.rpc.thirdweb.com": "yes"
+  }
 }

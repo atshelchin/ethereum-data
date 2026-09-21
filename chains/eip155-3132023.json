@@ -2,7 +2,8 @@
   "name": "Sahara AI",
   "chain": "Sahara",
   "rpc": [
-    "https://mainnet.saharalabs.ai"
+    "https://mainnet.saharalabs.ai",
+    "https://3132023.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
   "chainId": 3132023,
   "networkId": 3132023,
   "icon": "sahara",
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://3132023.rpc.thirdweb.com": "yes"
+  }
 }

@@ -15,5 +15,8 @@
   "shortName": "bak",
   "chainId": 1236,
   "networkId": 1236,
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://rpc.brainark.online": "none"
+  }
 }

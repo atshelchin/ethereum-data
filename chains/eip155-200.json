@@ -2,7 +2,9 @@
   "name": "Arbitrum on xDai",
   "chain": "AOX",
   "rpc": [
-    "https://arbitrum.xdaichain.com/"
+    "https://arbitrum.xdaichain.com/",
+    "https://arbitrum.xdaichain.com",
+    "https://200.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +26,8 @@
   "parent": {
     "chain": "eip155-100",
     "type": "L2"
+  },
+  "rpcTracking": {
+    "https://200.rpc.thirdweb.com": "yes"
   }
 }

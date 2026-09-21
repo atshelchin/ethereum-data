@@ -1,0 +1,34 @@
+{
+  "name": "Tractsafe Testnet",
+  "chain": "TRCT",
+  "icon": "tractsafe",
+  "rpc": [
+    "https://tapi.tractsafe.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Tractsafe",
+    "symbol": "TRCT",
+    "decimals": 18
+  },
+  "infoURL": "https://tractsafe.com",
+  "shortName": "trct",
+  "chainId": 35935,
+  "networkId": 35935,
+  "explorers": [
+    {
+      "name": "tractsafescan",
+      "url": "https://testnet.tractsafe.com",
+      "icon": "tractsafe",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
+}

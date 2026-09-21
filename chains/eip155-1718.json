@@ -1,7 +1,11 @@
 {
   "name": "Palette Chain Mainnet",
   "chain": "PLT",
-  "rpc": ["https://palette-rpc.com:22000"],
+  "rpc": [
+    "https://palette-rpc.com:22000",
+    "https://lb.routeme.sh/rpc/evm/1718",
+    "https://1718.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Palette Token",
@@ -21,5 +25,9 @@
       "icon": "PLT",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1718": "limited",
+    "https://1718.rpc.thirdweb.com": "yes"
+  }
 }

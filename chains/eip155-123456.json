@@ -2,7 +2,11 @@
   "name": "ADIL Devnet",
   "chain": "ADIL",
   "icon": "adil",
-  "rpc": ["https://devnet.adilchain-rpc.io"],
+  "rpc": [
+    "https://devnet.adilchain-rpc.io",
+    "https://lb.routeme.sh/rpc/evm/123456",
+    "https://123456.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Devnet ADIL",
@@ -19,5 +23,9 @@
       "url": "https://devnet.adilchain-scan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/123456": "limited",
+    "https://123456.rpc.thirdweb.com": "yes"
+  }
 }

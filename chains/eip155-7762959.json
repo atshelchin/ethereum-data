@@ -2,7 +2,8 @@
   "name": "Musicoin",
   "chain": "MUSIC",
   "rpc": [
-    "https://mewapi.musicoin.tw"
+    "https://mewapi.musicoin.tw",
+    "https://7762959.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +15,8 @@
   "shortName": "music",
   "chainId": 7762959,
   "networkId": 7762959,
-  "slip44": 184
+  "slip44": 184,
+  "rpcTracking": {
+    "https://7762959.rpc.thirdweb.com": "yes"
+  }
 }

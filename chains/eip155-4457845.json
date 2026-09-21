@@ -3,7 +3,8 @@
   "chain": "ETH",
   "icon": "zero-sepolia",
   "rpc": [
-    "https://rpc.zerion.io/v1/zero-sepolia"
+    "https://rpc.zerion.io/v1/zero-sepolia",
+    "https://lb.routeme.sh/rpc/evm/4457845"
   ],
   "parent": {
     "type": "L2",
@@ -31,5 +32,8 @@
       "url": "https://explorer.zero.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/4457845": "limited"
+  }
 }

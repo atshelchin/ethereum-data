@@ -3,7 +3,9 @@
   "chain": "Yooldo Verse",
   "icon": "yooldo_verse",
   "rpc": [
-    "https://rpc.testnet.yooldo-verse.xyz/"
+    "https://rpc.testnet.yooldo-verse.xyz/",
+    "https://lb.routeme.sh/rpc/evm/50006",
+    "https://rpc.testnet.yooldo-verse.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +28,8 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-248"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/50006": "limited"
   }
 }

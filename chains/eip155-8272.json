@@ -3,7 +3,9 @@
   "chain": "Blockton Blockchain",
   "icon": "bton",
   "rpc": [
-    "https://rpc.blocktonscan.com/"
+    "https://rpc.blocktonscan.com/",
+    "https://rpc.blocktonscan.com",
+    "https://8272.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.blocktonscan.com/"
@@ -23,5 +25,8 @@
       "url": "https://blocktonscan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://8272.rpc.thirdweb.com": "yes"
+  }
 }

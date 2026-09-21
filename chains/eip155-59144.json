@@ -10,7 +10,17 @@
     "wss://rpc.linea.build",
     "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}",
     "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
-    "wss://linea-rpc.publicnode.com"
+    "wss://linea-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/59144",
+    "https://rpc.nodeflare.app/linea/public",
+    "https://public.1rpc.io/linea",
+    "https://linea.decubate.com",
+    "https://linea.therpc.io",
+    "https://rpc.poolz.finance/linea",
+    "https://api-linea-mainnet-archive.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+    "https://linea.rpc.sentio.xyz",
+    "https://rpc.swiftnodes.io/rpc/linea",
+    "https://59144.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -87,5 +97,20 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://linea-rpc.publicnode.com": "none",
+    "https://linea.drpc.org": "none",
+    "https://linea.api.pocket.network": "none",
+    "https://lb.routeme.sh/rpc/evm/59144": "limited",
+    "https://rpc.nodeflare.app/linea/public": "none",
+    "https://public.1rpc.io/linea": "none",
+    "https://linea.decubate.com": "none",
+    "https://linea.therpc.io": "limited",
+    "https://rpc.poolz.finance/linea": "limited",
+    "https://api-linea-mainnet-archive.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c": "limited",
+    "https://linea.rpc.sentio.xyz": "limited",
+    "https://rpc.swiftnodes.io/rpc/linea": "limited",
+    "https://59144.rpc.thirdweb.com": "yes"
   }
 }

@@ -1,7 +1,10 @@
 {
   "name": "HAPchain",
   "chain": "HAPchain",
-  "rpc": ["https://jsonrpc.hap.land"],
+  "rpc": [
+    "https://jsonrpc.hap.land",
+    "https://8794598.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "HAP",
@@ -20,5 +23,8 @@
       "standard": "none",
       "icon": "hap"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://8794598.rpc.thirdweb.com": "yes"
+  }
 }

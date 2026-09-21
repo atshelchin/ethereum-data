@@ -4,7 +4,9 @@
   "chain": "Bahamut",
   "icon": "bahamut",
   "rpc": [
-    "https://rpc1.ocean.bahamutchain.com"
+    "https://rpc1.ocean.bahamutchain.com",
+    "https://Bahamut-ocean-6h42j7.zeeve.net",
+    "https://4058.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -30,5 +32,9 @@
       "url": "https://ocean.ftnscan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://Bahamut-ocean-6h42j7.zeeve.net": "none",
+    "https://4058.rpc.thirdweb.com": "yes"
+  }
 }

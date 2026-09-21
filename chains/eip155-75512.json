@@ -1,7 +1,11 @@
 {
   "name": "GEEK Verse Mainnet",
   "chain": "GEEK",
-  "rpc": ["https://rpc.geekout-pte.com"],
+  "rpc": [
+    "https://rpc.geekout-pte.com",
+    "https://lb.routeme.sh/rpc/evm/75512",
+    "https://75512.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",
@@ -18,5 +22,9 @@
       "url": "https://explorer.geekout-pte.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/75512": "limited",
+    "https://75512.rpc.thirdweb.com": "yes"
+  }
 }

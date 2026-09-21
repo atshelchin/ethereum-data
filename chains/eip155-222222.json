@@ -23,7 +23,9 @@
     "https://rpc.cay.hydration.cloud",
     "https://rpc.parm.hydration.cloud",
     "https://rpc.roach.hydration.cloud",
-    "https://rpc.zipp.hydration.cloud"
+    "https://rpc.zipp.hydration.cloud",
+    "https://lb.routeme.sh/rpc/evm/222222",
+    "https://222222.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -42,5 +44,9 @@
       "url": "https://explorer.evm.hydration.cloud",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/222222": "limited",
+    "https://222222.rpc.thirdweb.com": "yes"
+  }
 }

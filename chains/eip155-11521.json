@@ -2,7 +2,8 @@
   "name": "SatsChain",
   "chain": "SatsChain",
   "rpc": [
-    "https://rpc-satschain-1.bevm.io"
+    "https://rpc-satschain-1.bevm.io",
+    "https://11521.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://scan-satschain.bevm.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://11521.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "HBIT",
   "rpc": [
     "https://mainnet-rpc.hashbit.org",
-    "https://rpc.hashbit.org"
+    "https://rpc.hashbit.org",
+    "https://11119.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.hashbit.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://11119.rpc.thirdweb.com": "yes"
+  }
 }

@@ -17,7 +17,17 @@
     "wss://moonbeam-rpc.publicnode.com",
     "wss://moonbeam.drpc.org",
     "https://moonbeam.public.blastapi.io",
-    "https://moonbeam-rpc.dwellir.com"
+    "https://moonbeam-rpc.dwellir.com",
+    "https://lb.routeme.sh/rpc/evm/1284",
+    "https://public.1rpc.io/glmr",
+    "https://moonbeam.therpc.io",
+    "https://endpoints.omniatech.io/v1/moonbeam/mainnet/public",
+    "https://moonbeam.public.curie.radiumblock.co/ws",
+    "https://rpc.poolz.finance/moonbeam",
+    "https://node.histori.xyz/moonbeam-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
+    "https://rpc.swiftnodes.io/rpc/moonbeam",
+    "wss://moonbeam.api.pocket.network",
+    "https://1284.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -80,5 +90,30 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://moonbeam.drpc.org": "none",
+    "https://rpc.api.moonbeam.network": "limited",
+    "https://moonbeam-rpc.publicnode.com": "none",
+    "https://moonbeam.api.onfinality.io/public": "limited",
+    "https://moonbeam.api.pocket.network": "none",
+    "https://moonbeam.unitedbloc.com": "limited",
+    "wss://wss.api.moonbeam.network": "limited",
+    "wss://moonbeam-rpc.dwellir.com": "limited",
+    "wss://moonbeam.api.onfinality.io/public-ws": "limited",
+    "wss://moonbeam.unitedbloc.com": "limited",
+    "wss://moonbeam-rpc.publicnode.com": "none",
+    "wss://moonbeam.drpc.org": "none",
+    "https://moonbeam-rpc.dwellir.com": "limited",
+    "https://lb.routeme.sh/rpc/evm/1284": "limited",
+    "https://public.1rpc.io/glmr": "none",
+    "https://moonbeam.therpc.io": "limited",
+    "https://endpoints.omniatech.io/v1/moonbeam/mainnet/public": "none",
+    "https://moonbeam.public.curie.radiumblock.co/ws": "none",
+    "https://rpc.poolz.finance/moonbeam": "limited",
+    "https://node.histori.xyz/moonbeam-mainnet/8ry9f6t9dct1se2hlagxnd9n2a": "none",
+    "https://rpc.swiftnodes.io/rpc/moonbeam": "limited",
+    "wss://moonbeam.api.pocket.network": "none",
+    "https://1284.rpc.thirdweb.com": "yes"
   }
 }

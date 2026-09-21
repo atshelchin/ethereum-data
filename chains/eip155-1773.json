@@ -3,7 +3,9 @@
   "chain": "mainnet",
   "rpc": [
     "https://tea.mining4people.com/rpc",
-    "http://172.104.194.36:8545"
+    "http://172.104.194.36:8545",
+    "http://138.197.152.181:8245",
+    "https://1773.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +26,8 @@
       "icon": "grams",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1773.rpc.thirdweb.com": "yes"
+  }
 }

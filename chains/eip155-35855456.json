@@ -2,7 +2,8 @@
   "name": "Joys Digital Mainnet",
   "chain": "JOYS",
   "rpc": [
-    "https://node.joys.digital"
+    "https://node.joys.digital",
+    "https://35855456.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://joys.digital",
   "shortName": "JOYS",
   "chainId": 35855456,
-  "networkId": 35855456
+  "networkId": 35855456,
+  "rpcTracking": {
+    "https://35855456.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,8 +2,13 @@
   "name": "BitTorrent Chain Donau",
   "chain": "BTTC",
   "icon": "bttc",
-  "rpc": ["https://pre-rpc.bt.io"],
-  "faucets": ["https://testfaucet.bt.io"],
+  "rpc": [
+    "https://pre-rpc.bt.io",
+    "https://lb.routeme.sh/rpc/evm/1029"
+  ],
+  "faucets": [
+    "https://testfaucet.bt.io"
+  ],
   "nativeCurrency": {
     "name": "BitTorrent",
     "symbol": "BTT",
@@ -20,5 +25,8 @@
       "url": "https://testnet.bttcscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1029": "limited"
+  }
 }

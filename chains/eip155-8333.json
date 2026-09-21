@@ -3,7 +3,9 @@
   "chain": "B3",
   "icon": "b3",
   "rpc": [
-    "https://mainnet-rpc.b3.fun"
+    "https://mainnet-rpc.b3.fun",
+    "https://lb.routeme.sh/rpc/evm/8333",
+    "https://8333.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +28,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/8333": "limited",
+    "https://8333.rpc.thirdweb.com": "yes"
+  }
 }

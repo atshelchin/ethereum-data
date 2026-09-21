@@ -3,7 +3,8 @@
   "chain": "Deamchain",
   "icon": "deam",
   "rpc": [
-    "https://mainnet.deamchain.com"
+    "https://mainnet.deamchain.com",
+    "https://136.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "standard": "EIP3091",
       "icon": "deam"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://136.rpc.thirdweb.com": "yes"
+  }
 }

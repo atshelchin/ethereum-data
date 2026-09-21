@@ -9,7 +9,11 @@
   "rpc": [
     "https://megaeth.drpc.org",
     "https://mainnet.megaeth.com/rpc",
-    "wss://mainnet.megaeth.com/ws"
+    "wss://mainnet.megaeth.com/ws",
+    "https://lb.routeme.sh/rpc/evm/4326",
+    "https://rpc-megaeth-mainnet.globalstake.io",
+    "wss://megaeth.drpc.org",
+    "https://megaeth.rpc.sentio.xyz"
   ],
   "faucets": [],
   "explorers": [],
@@ -41,5 +45,12 @@
       "quoterV2": "0x1F1a8dC7E138C34b503Ca080962aC10B75384a27"
     },
     "url": "https://kumbaya.xyz"
+  },
+  "rpcTracking": {
+    "https://megaeth.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/4326": "limited",
+    "https://rpc-megaeth-mainnet.globalstake.io": "limited",
+    "wss://megaeth.drpc.org": "none",
+    "https://megaeth.rpc.sentio.xyz": "limited"
   }
 }

@@ -1,8 +1,15 @@
 {
   "name": "Asset Chain Mainnet",
   "chain": "Asset Chain",
-  "rpc": ["https://mainnet-rpc.assetchain.org"],
-  "faucets": ["https://faucet.assetchain.org"],
+  "rpc": [
+    "https://mainnet-rpc.assetchain.org",
+    "https://lb.routeme.sh/rpc/evm/42420",
+    "https://eth.nodebridge.xyz/assetchain/exec/b2da3d33-5708-4f61-8d1e-2c677124c35a",
+    "https://42420.rpc.thirdweb.com"
+  ],
+  "faucets": [
+    "https://faucet.assetchain.org"
+  ],
   "nativeCurrency": {
     "name": "Real World Asset",
     "symbol": "RWA",
@@ -19,5 +26,9 @@
       "url": "https://scan.assetchain.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/42420": "limited",
+    "https://42420.rpc.thirdweb.com": "yes"
+  }
 }

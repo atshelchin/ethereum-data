@@ -2,7 +2,10 @@
   "name": "Connext Sepolia",
   "chain": "Connext Sepolia",
   "rpc": [
-    "https://rpc.connext-sepolia.gelato.digital/"
+    "https://rpc.connext-sepolia.gelato.digital/",
+    "https://lb.routeme.sh/rpc/evm/6398",
+    "https://rpc.connext-sepolia.gelato.digital",
+    "https://6398.rpc.thirdweb.com"
   ],
   "nativeCurrency": {
     "name": "ETH",
@@ -21,5 +24,9 @@
       "icon": "connext",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/6398": "limited",
+    "https://6398.rpc.thirdweb.com": "yes"
+  }
 }

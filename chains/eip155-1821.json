@@ -3,7 +3,10 @@
   "chain": "RUBY",
   "rpc": [
     "https://mainnet-data.rubychain.io/",
-    "https://mainnet.rubychain.io/"
+    "https://mainnet.rubychain.io/",
+    "https://mainnet-data.rubychain.io",
+    "https://mainnet.rubychain.io",
+    "https://1821.rpc.thirdweb.com"
   ],
   "nativeCurrency": {
     "name": "RUBY Smart Chain Native Token",
@@ -24,5 +27,8 @@
       "url": "https://rubyscan.net",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1821.rpc.thirdweb.com": "yes"
+  }
 }

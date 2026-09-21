@@ -4,7 +4,11 @@
   "rpc": [
     "https://evmrpc.irishub-1.irisnet.org",
     "wss://iris-evm.publicnode.com",
-    "https://iris-evm.publicnode.com"
+    "https://iris-evm.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/6688",
+    "https://iris-evm-rpc.publicnode.com",
+    "wss://iris-evm-rpc.publicnode.com",
+    "https://6688.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -35,5 +39,11 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/6688": "limited",
+    "https://iris-evm-rpc.publicnode.com": "none",
+    "wss://iris-evm-rpc.publicnode.com": "none",
+    "https://6688.rpc.thirdweb.com": "yes"
   }
 }

@@ -1,0 +1,30 @@
+{
+  "name": "HOLODAO Mainnet",
+  "chain": "HOLODAO",
+  "icon": "holo",
+  "rpc": [
+    "https://rpc.holodao.ai"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HOLO COIN",
+    "symbol": "HOLO",
+    "decimals": 18
+  },
+  "infoURL": "https://holodao.ai",
+  "shortName": "holo",
+  "chainId": 15675,
+  "networkId": 15675,
+  "explorers": [
+    {
+      "name": "holoscan",
+      "url": "https://holoscan.holodao.ai",
+      "icon": "holoscan"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ]
+}

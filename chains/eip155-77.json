@@ -4,7 +4,8 @@
   "rpc": [
     "wss://sokol.poa.network/wss",
     "ws://sokol.poa.network:8546",
-    "https://sokol.poa.network"
+    "https://sokol.poa.network",
+    "https://77.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://77.rpc.thirdweb.com": "yes"
+  }
 }

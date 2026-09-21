@@ -1,7 +1,11 @@
 {
   "name": "GoChain",
   "chain": "GO",
-  "rpc": ["https://rpc.gochain.io"],
+  "rpc": [
+    "https://rpc.gochain.io",
+    "https://lb.routeme.sh/rpc/evm/60",
+    "https://60.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GoChain Ether",
@@ -19,5 +23,9 @@
       "url": "https://explorer.gochain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/60": "limited",
+    "https://60.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "CLO",
   "icon": "callistonetwork",
   "rpc": [
-    "https://rpc.callistodao.org"
+    "https://rpc.callistodao.org",
+    "https://820.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.callistodao.org"
@@ -32,5 +33,8 @@
       "url": "https://explorer.callistodao.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://820.rpc.thirdweb.com": "yes"
+  }
 }

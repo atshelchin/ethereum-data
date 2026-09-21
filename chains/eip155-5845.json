@@ -3,7 +3,9 @@
   "chain": "Tangle",
   "rpc": [
     "wss://rpc.tangle.tools",
-    "https://rpc.tangle.tools"
+    "https://rpc.tangle.tools",
+    "https://lb.routeme.sh/rpc/evm/5845",
+    "https://5845.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,9 @@
       "standard": "EIP3091",
       "icon": "tangle"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/5845": "limited",
+    "https://5845.rpc.thirdweb.com": "yes"
+  }
 }

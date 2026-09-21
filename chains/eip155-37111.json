@@ -3,7 +3,10 @@
   "title": "Lens Network Sepolia Testnet",
   "chain": "Lens",
   "rpc": [
-    "https://rpc.testnet.lens.dev"
+    "https://rpc.testnet.lens.dev",
+    "https://lb.routeme.sh/rpc/evm/37111",
+    "https://lens-testnet.drpc.org",
+    "wss://lens-testnet.drpc.org"
   ],
   "faucets": [
     "https://www.alchemy.com/faucets/lens-sepolia"
@@ -38,5 +41,10 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/37111": "limited",
+    "https://lens-testnet.drpc.org": "none",
+    "wss://lens-testnet.drpc.org": "none"
+  }
 }

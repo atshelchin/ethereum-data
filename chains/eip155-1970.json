@@ -2,7 +2,8 @@
   "name": "Super Smart Chain Mainnet",
   "chain": "SCS",
   "rpc": [
-    "https://rpc.scschain.com"
+    "https://rpc.scschain.com",
+    "https://1970.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://scan.scschain.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1970.rpc.thirdweb.com": "yes"
+  }
 }

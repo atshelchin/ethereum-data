@@ -2,7 +2,8 @@
   "name": "CyberdeckNet",
   "chain": "cyberdeck",
   "rpc": [
-    "http://cybeth1.cyberdeck.eu:8545"
+    "http://cybeth1.cyberdeck.eu:8545",
+    "https://1146703430.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "icon": "cyberdeck",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1146703430.rpc.thirdweb.com": "yes"
+  }
 }

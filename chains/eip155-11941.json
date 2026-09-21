@@ -1,0 +1,29 @@
+{
+  "name": "NAKAM Chain",
+  "chain": "NKM",
+  "icon": "",
+  "rpc": [
+    "https://rpc.nakamcoin.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NAKAM",
+    "symbol": "NKM",
+    "decimals": 18
+  },
+  "infoURL": "https://nakamcoin.com",
+  "shortName": "nkm",
+  "chainId": 11941,
+  "networkId": 11941,
+  "explorers": [
+    {
+      "name": "NAKAM Explorer",
+      "url": "https://explorer.nakamcoin.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    "EVM Compatible",
+    "MetaMask Supported"
+  ]
+}

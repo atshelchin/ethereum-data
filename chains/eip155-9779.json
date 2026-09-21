@@ -2,7 +2,8 @@
   "name": "PepeNetwork Mainnet",
   "chain": "PepeNetwork",
   "rpc": [
-    "https://rpc-mainnet.pepenetwork.io"
+    "https://rpc-mainnet.pepenetwork.io",
+    "https://9779.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "pepenetwork",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://9779.rpc.thirdweb.com": "yes"
+  }
 }

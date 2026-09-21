@@ -1,7 +1,11 @@
 {
   "name": "Whitechain",
   "chain": "WBT",
-  "rpc": ["https://rpc.whitechain.io"],
+  "rpc": [
+    "https://rpc.whitechain.io",
+    "https://lb.routeme.sh/rpc/evm/1875",
+    "https://1875.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "WhiteBIT Coin",
@@ -19,5 +23,9 @@
       "url": "https://explorer.whitechain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1875": "limited",
+    "https://1875.rpc.thirdweb.com": "yes"
+  }
 }

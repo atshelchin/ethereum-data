@@ -4,7 +4,8 @@
   "icon": "milkomeda",
   "rpc": [
     "wss://rpc-mainnet-algorand-rollup.a1.milkomeda.com/ws",
-    "https://rpc-mainnet-algorand-rollup.a1.milkomeda.com"
+    "https://rpc-mainnet-algorand-rollup.a1.milkomeda.com",
+    "https://2002.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "url": "https://explorer-mainnet-algorand-rollup.a1.milkomeda.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2002.rpc.thirdweb.com": "yes"
+  }
 }

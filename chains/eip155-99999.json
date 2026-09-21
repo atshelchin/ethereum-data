@@ -2,7 +2,10 @@
   "name": "UB Smart Chain",
   "chain": "USC",
   "rpc": [
-    "https://rpc.ab.testnet.adifoundation.ai/"
+    "https://rpc.ab.testnet.adifoundation.ai/",
+    "https://rpc.uschain.network",
+    "https://rpc.ab.testnet.adifoundation.ai",
+    "https://99999.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +16,8 @@
   "infoURL": "https://www.ubchain.site/",
   "shortName": "usc",
   "chainId": 99999,
-  "networkId": 99999
+  "networkId": 99999,
+  "rpcTracking": {
+    "https://99999.rpc.thirdweb.com": "yes"
+  }
 }

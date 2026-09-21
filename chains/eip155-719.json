@@ -2,7 +2,10 @@
   "name": "Shibarium Beta",
   "chain": "Shibarium",
   "icon": "shibarium",
-  "rpc": ["https://puppynet.shibrpc.com"],
+  "rpc": [
+    "https://puppynet.shibrpc.com",
+    "https://719.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BONE",
@@ -19,5 +22,8 @@
       "url": "https://puppyscan.shib.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://719.rpc.thirdweb.com": "yes"
+  }
 }

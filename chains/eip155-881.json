@@ -1,7 +1,11 @@
 {
   "name": "Weber Governance Mainnet",
   "chain": "PTT",
-  "rpc": ["https://chain.myweber.org"],
+  "rpc": [
+    "https://chain.myweber.org",
+    "https://rpc.hypr.network",
+    "https://881.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "PALLET",
@@ -20,5 +24,8 @@
       "icon": "ptt",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://881.rpc.thirdweb.com": "yes"
+  }
 }

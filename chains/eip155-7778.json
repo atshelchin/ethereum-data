@@ -4,7 +4,8 @@
   "rpc": [
     "https://validator-mainnet.orenium.org",
     "https://rpc-oracle-mainnet.orenium.org",
-    "https://portalmainnet.orenium.org"
+    "https://portalmainnet.orenium.org",
+    "https://7778.rpc.thirdweb.com"
   ],
   "nativeCurrency": {
     "name": "ORENIUM",
@@ -25,5 +26,8 @@
       "url": "https://oreniumscan.org",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://7778.rpc.thirdweb.com": "yes"
+  }
 }

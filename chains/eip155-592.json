@@ -3,7 +3,19 @@
   "chain": "ASTR",
   "rpc": [
     "https://astar.api.onfinality.io/public",
-    "https://rpc.astar.network:8545"
+    "https://rpc.astar.network:8545",
+    "https://lb.routeme.sh/rpc/evm/592",
+    "https://evm.astar.network",
+    "https://astar.public.blastapi.io",
+    "https://getblock.io/nodes/bsc",
+    "https://public.1rpc.io/astr",
+    "https://astar-mainnet.g.alchemy.com/v2/demo",
+    "wss://astar.api.onfinality.io/public-ws",
+    "https://astar-rpc.dwellir.com",
+    "wss://astar-rpc.dwellir.com",
+    "https://astar.public.curie.radiumblock.co/http",
+    "https://astar.public.curie.radiumblock.co/ws",
+    "https://592.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -64,5 +76,19 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://astar.api.onfinality.io/public": "limited",
+    "https://lb.routeme.sh/rpc/evm/592": "limited",
+    "https://astar.public.blastapi.io": "limited",
+    "https://getblock.io/nodes/bsc": "none",
+    "https://public.1rpc.io/astr": "none",
+    "https://astar-mainnet.g.alchemy.com/v2/demo": "yes",
+    "wss://astar.api.onfinality.io/public-ws": "limited",
+    "https://astar-rpc.dwellir.com": "limited",
+    "wss://astar-rpc.dwellir.com": "limited",
+    "https://astar.public.curie.radiumblock.co/http": "none",
+    "https://astar.public.curie.radiumblock.co/ws": "none",
+    "https://592.rpc.thirdweb.com": "yes"
   }
 }

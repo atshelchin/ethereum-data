@@ -1,7 +1,10 @@
 {
   "name": "Kortho Mainnet",
   "chain": "Kortho Chain",
-  "rpc": ["https://www.kortho-chain.com"],
+  "rpc": [
+    "https://www.kortho-chain.com",
+    "https://2559.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "KorthoChain",
@@ -11,5 +14,8 @@
   "infoURL": "https://www.kortho.io/",
   "shortName": "ktoc",
   "chainId": 2559,
-  "networkId": 2559
+  "networkId": 2559,
+  "rpcTracking": {
+    "https://2559.rpc.thirdweb.com": "yes"
+  }
 }

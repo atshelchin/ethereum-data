@@ -2,7 +2,10 @@
   "name": "Oort MainnetDev",
   "title": "Oort MainnetDev",
   "chain": "MainnetDev",
-  "rpc": ["https://dev-rpc.oortech.com"],
+  "rpc": [
+    "https://dev-rpc.oortech.com",
+    "https://9700.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Oort",
@@ -21,5 +24,8 @@
       "standard": "none",
       "icon": "oort"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://9700.rpc.thirdweb.com": "yes"
+  }
 }

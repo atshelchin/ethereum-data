@@ -3,7 +3,11 @@
   "chain": "EDU Chain Testnet",
   "icon": "open-campus-codex",
   "rpc": [
-    "https://rpc.open-campus-codex.gelato.digital"
+    "https://rpc.open-campus-codex.gelato.digital",
+    "https://lb.routeme.sh/rpc/evm/656476",
+    "https://open-campus-codex-sepolia.drpc.org",
+    "wss://open-campus-codex-sepolia.drpc.org",
+    "https://rpc.testnet.educhain.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +34,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/656476": "limited",
+    "https://open-campus-codex-sepolia.drpc.org": "none",
+    "wss://open-campus-codex-sepolia.drpc.org": "none"
   }
 }

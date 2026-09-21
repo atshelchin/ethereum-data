@@ -7,7 +7,13 @@
     "https://soneium.drpc.org",
     "https://soneium-rpc.publicnode.com",
     "https://rpc.soneium.org",
-    "wss://soneium-rpc.publicnode.com"
+    "wss://soneium-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/1868",
+    "https://rpc.nodeflare.app/soneium/public",
+    "wss://soneium.drpc.org",
+    "https://soneium-mainnet.rpc.sentio.xyz",
+    "https://rpc.swiftnodes.io/rpc/soneium",
+    "https://1868.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -80,5 +86,14 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://soneium.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/1868": "limited",
+    "https://rpc.nodeflare.app/soneium/public": "none",
+    "wss://soneium.drpc.org": "none",
+    "https://soneium-mainnet.rpc.sentio.xyz": "limited",
+    "https://rpc.swiftnodes.io/rpc/soneium": "limited",
+    "https://1868.rpc.thirdweb.com": "yes"
   }
 }

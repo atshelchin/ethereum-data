@@ -3,7 +3,8 @@
   "chain": "Web3Games",
   "icon": "web3games",
   "rpc": [
-    "https://devnet.web3games.org/evm"
+    "https://devnet.web3games.org/evm",
+    "https://105.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer-devnet.web3games.org",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://105.rpc.thirdweb.com": "yes"
+  }
 }

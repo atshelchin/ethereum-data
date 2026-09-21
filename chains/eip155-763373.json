@@ -3,7 +3,10 @@
   "chain": "ETH",
   "rpc": [
     "https://rpc-gel-sepolia.inkonchain.com",
-    "wss://ws-gel-sepolia.inkonchain.com"
+    "wss://ws-gel-sepolia.inkonchain.com",
+    "https://lb.routeme.sh/rpc/evm/763373",
+    "https://ink-sepolia.drpc.org",
+    "wss://ink-sepolia.drpc.org"
   ],
   "faucets": [],
   "features": [
@@ -35,5 +38,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/763373": "limited",
+    "https://ink-sepolia.drpc.org": "none",
+    "wss://ink-sepolia.drpc.org": "none"
   }
 }

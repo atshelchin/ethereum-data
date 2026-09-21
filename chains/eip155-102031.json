@@ -2,7 +2,10 @@
   "name": "Creditcoin Testnet",
   "chain": "CTC",
   "icon": "creditcoin",
-  "rpc": ["https://rpc.cc3-testnet.creditcoin.network"],
+  "rpc": [
+    "https://rpc.cc3-testnet.creditcoin.network",
+    "https://creditcoin-testnet.drpc.org"
+  ],
   "features": [
     {
       "name": "EIP155"
@@ -28,5 +31,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://creditcoin-testnet.drpc.org": "none"
+  }
 }

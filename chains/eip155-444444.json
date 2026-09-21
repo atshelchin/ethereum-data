@@ -4,7 +4,8 @@
   "chain": "SYNDRSEPOLIA",
   "rpc": [
     "wss://sepolia.syndr.com/ws",
-    "https://sepolia.syndr.com/http"
+    "https://sepolia.syndr.com/http",
+    "https://lb.routeme.sh/rpc/evm/444444"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -31,5 +32,8 @@
         "url": "https://sepolia-bridge.syndr.com"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/444444": "limited"
   }
 }

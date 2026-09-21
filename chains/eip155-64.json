@@ -2,7 +2,8 @@
   "name": "Ellaism",
   "chain": "ELLA",
   "rpc": [
-    "https://jsonrpc.ellaism.org"
+    "https://jsonrpc.ellaism.org",
+    "https://64.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +15,8 @@
   "shortName": "ellaism",
   "chainId": 64,
   "networkId": 64,
-  "slip44": 163
+  "slip44": 163,
+  "rpcTracking": {
+    "https://64.rpc.thirdweb.com": "yes"
+  }
 }

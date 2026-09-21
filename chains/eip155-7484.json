@@ -4,7 +4,10 @@
   "icon": "raba",
   "rpc": [
     "wss://rpc.x.raba.app/ws/",
-    "https://rpc.x.raba.app/"
+    "https://rpc.x.raba.app/",
+    "https://rpc.x.raba.app",
+    "wss://rpc.x.raba.app/ws",
+    "https://7484.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +25,8 @@
       "url": "https://x.raba.app/explorer",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://7484.rpc.thirdweb.com": "yes"
+  }
 }

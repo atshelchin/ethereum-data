@@ -1,7 +1,10 @@
 {
   "name": "Theta Testnet",
   "chain": "Theta",
-  "rpc": ["https://eth-rpc-api-testnet.thetatoken.org/rpc"],
+  "rpc": [
+    "https://eth-rpc-api-testnet.thetatoken.org/rpc",
+    "https://lb.routeme.sh/rpc/evm/365"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Theta Fuel",
@@ -19,5 +22,8 @@
       "url": "https://testnet-explorer.thetatoken.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/365": "limited"
+  }
 }

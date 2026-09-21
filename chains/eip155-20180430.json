@@ -1,7 +1,11 @@
 {
   "name": "SmartMesh Mainnet",
   "chain": "Spectrum",
-  "rpc": ["https://jsonapi1.smartmesh.cn"],
+  "rpc": [
+    "https://jsonapi1.smartmesh.cn",
+    "https://lb.routeme.sh/rpc/evm/20180430",
+    "https://20180430.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "SmartMesh Native Token",
@@ -18,5 +22,9 @@
       "url": "https://spectrum.pub",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/20180430": "limited",
+    "https://20180430.rpc.thirdweb.com": "yes"
+  }
 }

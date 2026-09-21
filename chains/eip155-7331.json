@@ -3,7 +3,8 @@
   "chain": "KLY",
   "rpc": [
     "https://evm.klyntar.org/kly_evm_rpc",
-    "https://evm.klyntarscan.org/kly_evm_rpc"
+    "https://evm.klyntarscan.org/kly_evm_rpc",
+    "https://7331.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +26,8 @@
   "networkId": 7331,
   "icon": "klyntar",
   "explorers": [],
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://7331.rpc.thirdweb.com": "yes"
+  }
 }

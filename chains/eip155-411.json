@@ -4,7 +4,8 @@
   "status": "active",
   "icon": "pepechain",
   "rpc": [
-    "https://rpc.pepe-chain.vip"
+    "https://rpc.pepe-chain.vip",
+    "https://411.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "url": "https://explorer.pepe-chain.vip",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://411.rpc.thirdweb.com": "yes"
+  }
 }

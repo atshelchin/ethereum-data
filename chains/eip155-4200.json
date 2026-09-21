@@ -6,7 +6,12 @@
     "https://merlin.drpc.org",
     "https://rpc.merlinchain.io",
     "https://merlin-mainnet-enterprise.unifra.io",
-    "https://rpc-merlin.rockx.com"
+    "https://rpc-merlin.rockx.com",
+    "https://lb.routeme.sh/rpc/evm/4200",
+    "https://merlin.blockpi.network/v1/rpc/public",
+    "https://endpoints.omniatech.io/v1/merlin/mainnet/public",
+    "wss://merlin.drpc.org",
+    "https://4200.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -27,5 +32,13 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0xF6D226f9Dc15d9bB51182815b320D3fBE324e1bA"
+  "wrappedNativeToken": "0xF6D226f9Dc15d9bB51182815b320D3fBE324e1bA",
+  "rpcTracking": {
+    "https://merlin.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/4200": "limited",
+    "https://merlin.blockpi.network/v1/rpc/public": "limited",
+    "https://endpoints.omniatech.io/v1/merlin/mainnet/public": "none",
+    "wss://merlin.drpc.org": "none",
+    "https://4200.rpc.thirdweb.com": "yes"
+  }
 }

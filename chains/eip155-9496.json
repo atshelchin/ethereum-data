@@ -1,8 +1,13 @@
 {
   "name": "Load Alphanet",
   "chain": "LOAD",
-  "rpc": ["https://alphanet.load.network"],
-  "faucets": ["https://load.network/faucet"],
+  "rpc": [
+    "https://alphanet.load.network",
+    "https://lb.routeme.sh/rpc/evm/9496"
+  ],
+  "faucets": [
+    "https://load.network/faucet"
+  ],
   "nativeCurrency": {
     "name": "Testnet Load Token",
     "symbol": "tLOAD",
@@ -19,5 +24,8 @@
       "url": "https://explorer.load.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/9496": "limited"
+  }
 }

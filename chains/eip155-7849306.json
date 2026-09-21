@@ -3,7 +3,9 @@
   "chain": "Ozean Poseidon",
   "rpc": [
     "wss://ozean-testnet.rpc.caldera.xyz/ws",
-    "https://ozean-testnet.rpc.caldera.xyz/http"
+    "https://ozean-testnet.rpc.caldera.xyz/http",
+    "https://ozean-poseidon-testnet.drpc.org",
+    "wss://ozean-poseidon-testnet.drpc.org"
   ],
   "faucets": [
     "https://ozean-testnet.hub.caldera.xyz"
@@ -30,5 +32,9 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111"
+  },
+  "rpcTracking": {
+    "https://ozean-poseidon-testnet.drpc.org": "none",
+    "wss://ozean-poseidon-testnet.drpc.org": "none"
   }
 }

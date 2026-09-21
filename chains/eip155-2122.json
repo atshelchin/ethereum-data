@@ -3,7 +3,9 @@
   "chain": "METAD",
   "icon": "metad",
   "rpc": [
-    "https://rpc.metaplayer.one/"
+    "https://rpc.metaplayer.one/",
+    "https://rpc.metaplayer.one",
+    "https://2122.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,8 @@
       "icon": "metad",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2122.rpc.thirdweb.com": "yes"
+  }
 }

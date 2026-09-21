@@ -2,7 +2,8 @@
   "name": "MetaLink Network",
   "chain": "MetaLink",
   "rpc": [
-    "http://77.237.237.69:9933"
+    "http://77.237.237.69:9933",
+    "https://2004.rpc.thirdweb.com"
   ],
   "icon": "metaLink",
   "faucets": [],
@@ -21,5 +22,8 @@
       "url": "http://twoto3.com:3000",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2004.rpc.thirdweb.com": "yes"
+  }
 }

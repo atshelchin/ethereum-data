@@ -8,7 +8,16 @@
     "https://berachain-rpc.publicnode.com",
     "https://bera.api.pocket.network",
     "wss://berachain-rpc.publicnode.com",
-    "wss://rpc.berachain-apis.com"
+    "wss://rpc.berachain-apis.com",
+    "https://lb.routeme.sh/rpc/evm/80094",
+    "wss://berachain.drpc.org",
+    "https://berachain.therpc.io",
+    "https://berachain-mainnet.gateway.tatum.io",
+    "https://api-berachain-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+    "https://berachain.rpc.sentio.xyz",
+    "https://rpc.swiftnodes.io/rpc/berachain",
+    "wss://bera.api.pocket.network",
+    "https://80094.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -57,5 +66,21 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://berachain.drpc.org": "none",
+    "https://rpc.berachain-apis.com": "none",
+    "https://berachain-rpc.publicnode.com": "none",
+    "https://bera.api.pocket.network": "none",
+    "wss://rpc.berachain-apis.com": "none",
+    "https://lb.routeme.sh/rpc/evm/80094": "limited",
+    "wss://berachain.drpc.org": "none",
+    "https://berachain.therpc.io": "limited",
+    "https://berachain-mainnet.gateway.tatum.io": "yes",
+    "https://api-berachain-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c": "limited",
+    "https://berachain.rpc.sentio.xyz": "limited",
+    "https://rpc.swiftnodes.io/rpc/berachain": "limited",
+    "wss://bera.api.pocket.network": "none",
+    "https://80094.rpc.thirdweb.com": "yes"
   }
 }

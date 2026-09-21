@@ -2,9 +2,21 @@
   "name": "Basecamp",
   "chain": "CAMP",
   "icon": "camp",
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "rpc": ["https://rpc.basecamp.t.raas.gelato.cloud"],
-  "faucets": ["https://www.campnetwork.xyz/faucet_l1"],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "rpc": [
+    "https://rpc.basecamp.t.raas.gelato.cloud",
+    "https://lb.routeme.sh/rpc/evm/123420001114"
+  ],
+  "faucets": [
+    "https://www.campnetwork.xyz/faucet_l1"
+  ],
   "nativeCurrency": {
     "name": "Camp",
     "symbol": "CAMP",
@@ -22,5 +34,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/123420001114": "limited"
+  }
 }

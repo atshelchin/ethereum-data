@@ -2,7 +2,8 @@
   "name": "EthXY",
   "chain": "EthXY",
   "rpc": [
-    "https://rpc.ethxy.com"
+    "https://rpc.ethxy.com",
+    "https://969.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.ethxy.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://969.rpc.thirdweb.com": "yes"
+  }
 }

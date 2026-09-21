@@ -5,7 +5,8 @@
     "https://rpc.brochain.org",
     "http://rpc.brochain.org",
     "https://rpc.brochain.org/mainnet",
-    "http://rpc.brochain.org/mainnet"
+    "http://rpc.brochain.org/mainnet",
+    "https://108801.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "url": "https://explorer.brochain.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://108801.rpc.thirdweb.com": "yes"
+  }
 }

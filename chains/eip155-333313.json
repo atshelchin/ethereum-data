@@ -3,7 +3,8 @@
   "chain": "Bloom",
   "icon": "bloom",
   "rpc": [
-    "https://mainnet-rpc.bloomgenesis.com"
+    "https://mainnet-rpc.bloomgenesis.com",
+    "https://333313.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.bloomgenesis.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://333313.rpc.thirdweb.com": "yes"
+  }
 }

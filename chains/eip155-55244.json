@@ -2,7 +2,9 @@
   "name": "Superposition",
   "chain": "Superposition",
   "rpc": [
-    "https://rpc.superposition.so"
+    "https://rpc.superposition.so",
+    "https://lb.routeme.sh/rpc/evm/55244",
+    "https://55244.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -50,5 +52,10 @@
       "quoter": "0xc908fab181c513BaaE4c92cEe7EEC22bD4AcF059"
     },
     "url": "https://docs.camelot.exchange/contracts/orbit-chains/superposition"
+  },
+  "rpcTracking": {
+    "https://rpc.superposition.so": "yes",
+    "https://lb.routeme.sh/rpc/evm/55244": "limited",
+    "https://55244.rpc.thirdweb.com": "yes"
   }
 }

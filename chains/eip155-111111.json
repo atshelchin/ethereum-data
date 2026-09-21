@@ -3,7 +3,8 @@
   "chain": "SBR",
   "rpc": [
     "https://rpc.main.siberium.net",
-    "https://rpc.main.siberium.net.ru"
+    "https://rpc.main.siberium.net.ru",
+    "https://111111.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,5 +30,8 @@
       "icon": "siberium",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://111111.rpc.thirdweb.com": "yes"
+  }
 }

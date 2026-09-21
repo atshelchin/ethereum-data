@@ -9,7 +9,9 @@
     "https://evm.humans.stakepool.dev.br",
     "https://evm-rpc.mainnet.humans.zone",
     "https://json-rpc.humans.bh.rocks",
-    "https://evm-rpc.humans.huginn.tech"
+    "https://evm-rpc.humans.huginn.tech",
+    "https://lb.routeme.sh/rpc/evm/1089",
+    "https://1089.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -37,5 +39,10 @@
       "icon": "humans",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://humans-mainnet-evm.itrocket.net": "none",
+    "https://lb.routeme.sh/rpc/evm/1089": "limited",
+    "https://1089.rpc.thirdweb.com": "yes"
+  }
 }

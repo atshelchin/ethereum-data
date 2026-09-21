@@ -3,7 +3,8 @@
   "chain": "ETH",
   "rpc": [
     "wss://rpc.titan.tokamak.network",
-    "https://rpc.titan.tokamak.network"
+    "https://rpc.titan.tokamak.network",
+    "https://55004.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.titan.tokamak.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://55004.rpc.thirdweb.com": "yes"
+  }
 }

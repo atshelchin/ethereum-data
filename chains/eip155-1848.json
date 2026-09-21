@@ -4,7 +4,8 @@
   "rpc": [
     "https://json-rpc.mainnet.swisstronik.com",
     "https://json-rpc.mainnet.swisstronik.com/unencrypted/",
-    "wss://ws-rpc.mainnet.swisstronik.com"
+    "wss://ws-rpc.mainnet.swisstronik.com",
+    "https://json-rpc.mainnet.swisstronik.com/unencrypted"
   ],
   "faucets": [],
   "nativeCurrency": {

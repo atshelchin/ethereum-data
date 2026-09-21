@@ -2,7 +2,11 @@
   "name": "Kekchain",
   "chain": "kek",
   "rpc": [
-    "https://mainnet.kekchain.com"
+    "https://mainnet.kekchain.com",
+    "https://rpc2.kekchain.com",
+    "https://kek.interchained.org",
+    "https://kekchain.interchained.org",
+    "https://420420.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +26,8 @@
       "icon": "kek",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://420420.rpc.thirdweb.com": "yes"
+  }
 }

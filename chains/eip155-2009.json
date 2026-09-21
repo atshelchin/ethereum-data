@@ -1,7 +1,9 @@
 {
   "name": "CloudWalk Mainnet",
   "chain": "CloudWalk Mainnet",
-  "rpc": [],
+  "rpc": [
+    "https://2009.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "CloudWalk Native Token",
@@ -18,5 +20,8 @@
       "url": "https://explorer.mainnet.cloudwalk.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2009.rpc.thirdweb.com": "yes"
+  }
 }

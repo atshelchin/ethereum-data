@@ -3,7 +3,9 @@
   "chain": "Hela",
   "icon": "hela",
   "rpc": [
-    "https://mainnet-rpc.helachain.com"
+    "https://mainnet-rpc.helachain.com",
+    "https://lb.routeme.sh/rpc/evm/8668",
+    "https://8668.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +28,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/8668": "limited",
+    "https://8668.rpc.thirdweb.com": "yes"
+  }
 }

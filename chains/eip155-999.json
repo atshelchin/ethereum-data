@@ -12,7 +12,9 @@
     "https://rpc.hyperlend.finance",
     "https://rpc.nodeflare.app/hl/public",
     "wss://hyperliquid.drpc.org",
-    "https://gwan-ssl.wandevs.org:46891/"
+    "https://gwan-ssl.wandevs.org:46891/",
+    "https://lb.routeme.sh/rpc/evm/999",
+    "https://999.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -44,5 +46,11 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://hyperevm.rpc.sentio.xyz": "limited",
+    "https://rpc.nodeflare.app/hl/public": "none",
+    "https://lb.routeme.sh/rpc/evm/999": "limited",
+    "https://999.rpc.thirdweb.com": "yes"
   }
 }

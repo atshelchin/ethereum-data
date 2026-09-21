@@ -3,7 +3,8 @@
   "chain": "YETI",
   "rpc": [
     "https://api.nepalblockchain.dev",
-    "https://api.nepalblockchain.network"
+    "https://api.nepalblockchain.network",
+    "https://977.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.nepalblockchain.network"
@@ -16,5 +17,8 @@
   "infoURL": "https://nepalblockchain.network",
   "shortName": "yeti",
   "chainId": 977,
-  "networkId": 977
+  "networkId": 977,
+  "rpcTracking": {
+    "https://977.rpc.thirdweb.com": "yes"
+  }
 }

@@ -7,7 +7,12 @@
     "https://rpc-gel.inkonchain.com",
     "https://ink.api.pocket.network",
     "wss://rpc-gel.inkonchain.com",
-    "wss://rpc-qnd.inkonchain.com"
+    "wss://rpc-qnd.inkonchain.com",
+    "https://lb.routeme.sh/rpc/evm/57073",
+    "https://rpc.nodeflare.app/ink/public",
+    "https://ink-public.nodies.app",
+    "wss://ink.drpc.org",
+    "https://57073.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://inkonchain.com/faucet"
@@ -64,5 +69,14 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://ink.drpc.org": "none",
+    "https://ink.api.pocket.network": "none",
+    "https://lb.routeme.sh/rpc/evm/57073": "limited",
+    "https://rpc.nodeflare.app/ink/public": "none",
+    "https://ink-public.nodies.app": "limited",
+    "wss://ink.drpc.org": "none",
+    "https://57073.rpc.thirdweb.com": "yes"
   }
 }

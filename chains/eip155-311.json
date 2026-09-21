@@ -1,8 +1,15 @@
 {
   "name": "Omax Mainnet",
   "chain": "OMAX Chain",
-  "rpc": ["https://mainapi.omaxray.com", "https://mainapi.omaxscan.com"],
-  "faucets": ["https://faucet.omaxray.com/"],
+  "rpc": [
+    "https://mainapi.omaxray.com",
+    "https://mainapi.omaxscan.com",
+    "https://lb.routeme.sh/rpc/evm/311",
+    "https://311.rpc.thirdweb.com"
+  ],
+  "faucets": [
+    "https://faucet.omaxray.com/"
+  ],
   "nativeCurrency": {
     "name": "OMAX COIN",
     "symbol": "OMAX",
@@ -20,5 +27,9 @@
       "icon": "omaxray",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/311": "limited",
+    "https://311.rpc.thirdweb.com": "yes"
+  }
 }

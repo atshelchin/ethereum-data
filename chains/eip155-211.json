@@ -3,7 +3,8 @@
   "chain": "EDI",
   "rpc": [
     "https://app.freighttrust.net/ftn/${API_KEY}",
-    "http://13.57.207.168:3435"
+    "http://13.57.207.168:3435",
+    "https://211.rpc.thirdweb.com"
   ],
   "faucets": [
     "http://faucet.freight.sh"
@@ -16,5 +17,8 @@
   "infoURL": "https://freighttrust.com",
   "shortName": "EDI",
   "chainId": 211,
-  "networkId": 0
+  "networkId": 0,
+  "rpcTracking": {
+    "https://211.rpc.thirdweb.com": "yes"
+  }
 }

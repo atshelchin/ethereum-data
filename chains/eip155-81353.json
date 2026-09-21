@@ -1,7 +1,9 @@
 {
   "name": "Flana Privnet",
   "chain": "MEER",
-  "rpc": [],
+  "rpc": [
+    "https://81353.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Flana Privnet",
@@ -13,5 +15,8 @@
   "icon": "meer",
   "chainId": 81353,
   "networkId": 81353,
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://81353.rpc.thirdweb.com": "yes"
+  }
 }

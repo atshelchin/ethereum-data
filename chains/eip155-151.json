@@ -7,7 +7,10 @@
   "slip44": 824,
   "icon": "redbelly",
   "rpc": [
-    "https://governors.mainnet.redbelly.network"
+    "https://governors.mainnet.redbelly.network",
+    "https://rpc.ankr.com/redbelly_mainnet",
+    "https://api.uniblock.dev/uni/v1/json-rpc?chainId=151",
+    "https://151.rpc.thirdweb.com"
   ],
   "faucets": [],
   "infoURL": "https://redbelly.network",
@@ -26,5 +29,8 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://151.rpc.thirdweb.com": "yes"
   }
 }

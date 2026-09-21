@@ -3,7 +3,8 @@
   "chain": "G8C",
   "icon": "G8Chain",
   "rpc": [
-    "https://mainnet-rpc.oneg8.network"
+    "https://mainnet-rpc.oneg8.network",
+    "https://17171.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.oneg8.network"
@@ -23,5 +24,8 @@
       "url": "https://mainnet.oneg8.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://17171.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "GM Network Testnet",
   "chain": "GM Network Testnet",
   "rpc": [
-    "https://gmnetwork-testnet.alt.technology/"
+    "https://gmnetwork-testnet.alt.technology/",
+    "https://gmnetwork-testnet.alt.technology"
   ],
   "faucets": [],
   "nativeCurrency": {

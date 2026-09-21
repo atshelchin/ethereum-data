@@ -2,7 +2,8 @@
   "name": "Kingdom Chain",
   "chain": "KingdomChain",
   "rpc": [
-    "https://kingdomchain.observer/rpc"
+    "https://kingdomchain.observer/rpc",
+    "https://39916801.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -25,5 +26,8 @@
       "url": "https://www.beastkingdom.io/travelsong",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://39916801.rpc.thirdweb.com": "yes"
+  }
 }

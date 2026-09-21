@@ -2,7 +2,10 @@
   "name": "GANchain L1",
   "chain": "GAN",
   "icon": "gpu",
-  "rpc": ["https://rpc.gpu.net"],
+  "rpc": [
+    "https://rpc.gpu.net",
+    "https://lb.routeme.sh/rpc/evm/4048"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GPUnet",
@@ -19,5 +22,8 @@
       "url": "https://ganscan.gpu.net",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/4048": "limited"
+  }
 }

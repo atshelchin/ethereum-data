@@ -3,7 +3,11 @@
   "title": "GOAT Network",
   "chain": "GOAT",
   "rpc": [
-    "https://rpc.goat.network"
+    "https://rpc.goat.network",
+    "https://lb.routeme.sh/rpc/evm/2345",
+    "https://goat-mainnet-alpha.drpc.org",
+    "wss://goat-mainnet-alpha.drpc.org",
+    "https://rpc.ankr.com/goat_mainnet"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -52,5 +56,11 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2345": "limited",
+    "https://goat-mainnet-alpha.drpc.org": "none",
+    "wss://goat-mainnet-alpha.drpc.org": "none",
+    "https://rpc.ankr.com/goat_mainnet": "none"
   }
 }

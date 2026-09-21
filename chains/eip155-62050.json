@@ -3,7 +3,9 @@
   "chain": "ETH",
   "rpc": [
     "https://rpc-mainnet.optopia.ai",
-    "https://rpc-mainnet-2.optopia.ai"
+    "https://rpc-mainnet-2.optopia.ai",
+    "https://lb.routeme.sh/rpc/evm/62050",
+    "https://62050.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -37,5 +39,9 @@
         "url": "https://bridge.optopia.ai"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/62050": "limited",
+    "https://62050.rpc.thirdweb.com": "yes"
   }
 }

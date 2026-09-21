@@ -3,7 +3,8 @@
   "title": "Syndicate Frame Chain",
   "chain": "Syndicate Frame",
   "rpc": [
-    "https://rpc-frame.syndicate.io"
+    "https://rpc-frame.syndicate.io",
+    "https://5101.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -16,5 +17,8 @@
   "chainId": 5101,
   "networkId": 5101,
   "status": "incubating",
-  "icon": "syndicate"
+  "icon": "syndicate",
+  "rpcTracking": {
+    "https://5101.rpc.thirdweb.com": "yes"
+  }
 }

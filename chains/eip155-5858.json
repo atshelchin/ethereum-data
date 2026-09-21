@@ -2,7 +2,8 @@
   "name": "Chang Chain Foundation Mainnet",
   "chain": "ChangChain",
   "rpc": [
-    "https://rpc.cthscan.com/"
+    "https://rpc.cthscan.com/",
+    "https://rpc.cthscan.com"
   ],
   "faucets": [],
   "nativeCurrency": {

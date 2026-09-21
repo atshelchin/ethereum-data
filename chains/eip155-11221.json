@@ -2,7 +2,8 @@
   "name": "Shine Chain",
   "chain": "SC20",
   "rpc": [
-    "https://rpc.shinescan.io"
+    "https://rpc.shinescan.io",
+    "https://11221.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "shine",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://11221.rpc.thirdweb.com": "yes"
+  }
 }

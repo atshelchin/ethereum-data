@@ -3,7 +3,8 @@
   "title": "DoCoin Community Chain",
   "chain": "DoCoin",
   "rpc": [
-    "https://rpc.docoin.shop"
+    "https://rpc.docoin.shop",
+    "https://526916.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.docoin.shop",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://526916.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,9 @@
   "chain": "TCH",
   "rpc": [
     "https://rpc.thaichain.org",
-    "https://rpc.dome.cloud"
+    "https://rpc.dome.cloud",
+    "https://lb.routeme.sh/rpc/evm/7",
+    "https://7.rpc.thirdweb.com"
   ],
   "faucets": [],
   "features": [
@@ -33,5 +35,9 @@
       "url": "https://exp.thaichain.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/7": "limited",
+    "https://7.rpc.thirdweb.com": "yes"
+  }
 }

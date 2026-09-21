@@ -2,7 +2,11 @@
   "name": "ZEUS Mainnet",
   "chain": "ZEUSX",
   "icon": "zeusicon",
-  "rpc": ["https://mainnet-rpc.zeuschainscan.io"],
+  "rpc": [
+    "https://mainnet-rpc.zeuschainscan.io",
+    "https://lb.routeme.sh/rpc/evm/34504",
+    "https://34504.rpc.thirdweb.com"
+  ],
   "nativeCurrency": {
     "name": "The ZEUS Token",
     "symbol": "ZEUSX",
@@ -20,5 +24,9 @@
       "icon": "zeusicon",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/34504": "limited",
+    "https://34504.rpc.thirdweb.com": "yes"
+  }
 }

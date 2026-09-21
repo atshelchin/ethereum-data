@@ -5,7 +5,8 @@
   "rpc": [
     "https://mantis-rpc.phoenix-systems.io",
     "https://mantis-rpc.kore-technologies.ch",
-    "https://mantis-rpc.switch.ch"
+    "https://mantis-rpc.switch.ch",
+    "https://lb.routeme.sh/rpc/evm/96970"
   ],
   "faucets": [
     "https://mantis.switch.ch/faucet",
@@ -30,5 +31,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/96970": "limited"
+  }
 }

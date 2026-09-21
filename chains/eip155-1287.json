@@ -14,7 +14,9 @@
     "wss://moonbase.unitedbloc.com",
     "wss://moonbase-alpha.drpc.org",
     "https://moonbase-alpha.public.blastapi.io",
-    "https://moonbase-rpc.dwellir.com"
+    "https://moonbase-rpc.dwellir.com",
+    "https://lb.routeme.sh/rpc/evm/1287",
+    "https://1287.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.moonbeam.network/"
@@ -43,5 +45,17 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://moonbase-alpha.drpc.org": "none",
+    "https://moonbeam-alpha.api.onfinality.io/public": "limited",
+    "https://rpc.api.moonbase.moonbeam.network": "limited",
+    "https://moonbase.unitedbloc.com": "yes",
+    "wss://wss.api.moonbase.moonbeam.network": "limited",
+    "wss://moonbeam-alpha.api.onfinality.io/public-ws": "limited",
+    "wss://moonbase.unitedbloc.com": "yes",
+    "wss://moonbase-alpha.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/1287": "limited",
+    "https://1287.rpc.thirdweb.com": "yes"
   }
 }

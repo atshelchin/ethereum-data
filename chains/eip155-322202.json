@@ -3,7 +3,9 @@
   "title": "Parex Mainnet",
   "chain": "Parex",
   "rpc": [
-    "https://mainnet-rpc.parex.network"
+    "https://mainnet-rpc.parex.network",
+    "https://lb.routeme.sh/rpc/evm/322202",
+    "https://322202.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,9 @@
       "icon": "parexmain",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/322202": "limited",
+    "https://322202.rpc.thirdweb.com": "yes"
+  }
 }

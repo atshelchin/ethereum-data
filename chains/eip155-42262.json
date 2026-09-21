@@ -4,7 +4,11 @@
   "icon": "oasis",
   "rpc": [
     "https://emerald.oasis.io",
-    "wss://emerald.oasis.io/ws"
+    "wss://emerald.oasis.io/ws",
+    "https://lb.routeme.sh/rpc/evm/42262",
+    "https://public.1rpc.io/oasis/emerald",
+    "https://oasis-mainnet.gateway.tatum.io",
+    "https://42262.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +26,11 @@
       "url": "https://explorer.oasis.io/mainnet/emerald",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/42262": "limited",
+    "https://public.1rpc.io/oasis/emerald": "none",
+    "https://oasis-mainnet.gateway.tatum.io": "yes",
+    "https://42262.rpc.thirdweb.com": "yes"
+  }
 }

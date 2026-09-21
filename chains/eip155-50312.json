@@ -1,14 +1,22 @@
 {
   "name": "Somnia Testnet",
   "chain": "Somnia",
-  "rpc": ["https://dream-rpc.somnia.network"],
+  "rpc": [
+    "https://dream-rpc.somnia.network",
+    "https://lb.routeme.sh/rpc/evm/50312",
+    "https://api.infra.testnet.somnia.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Somnia Testnet",
     "symbol": "STT",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://somnia.network",
   "shortName": "SomniaTestnet",
   "chainId": 50312,
@@ -19,5 +27,8 @@
       "url": "https://somnia-testnet.socialscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/50312": "limited"
+  }
 }

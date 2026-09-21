@@ -2,7 +2,10 @@
   "name": "Hemi Sepolia",
   "chain": "ETH",
   "rpc": [
-    "https://testnet.rpc.hemi.network/rpc"
+    "https://testnet.rpc.hemi.network/rpc",
+    "https://lb.routeme.sh/rpc/evm/743111",
+    "https://hemi-testnet.drpc.org",
+    "wss://hemi-testnet.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -35,5 +38,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/743111": "limited",
+    "https://hemi-testnet.drpc.org": "none",
+    "wss://hemi-testnet.drpc.org": "none"
   }
 }

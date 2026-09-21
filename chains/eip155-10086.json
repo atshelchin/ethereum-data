@@ -2,7 +2,8 @@
   "name": "SJATSH",
   "chain": "ETH",
   "rpc": [
-    "http://geth.free.idcfengye.com"
+    "http://geth.free.idcfengye.com",
+    "https://10086.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://sjis.me",
   "shortName": "SJ",
   "chainId": 10086,
-  "networkId": 10086
+  "networkId": 10086,
+  "rpcTracking": {
+    "https://10086.rpc.thirdweb.com": "yes"
+  }
 }

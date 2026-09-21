@@ -2,8 +2,13 @@
   "name": "Dogechain Testnet",
   "chain": "DC",
   "icon": "dogechain",
-  "rpc": ["https://rpc-testnet.dogechain.dog"],
-  "faucets": ["https://faucet.dogechain.dog"],
+  "rpc": [
+    "https://rpc-testnet.dogechain.dog",
+    "https://lb.routeme.sh/rpc/evm/568"
+  ],
+  "faucets": [
+    "https://faucet.dogechain.dog"
+  ],
   "nativeCurrency": {
     "name": "Dogecoin",
     "symbol": "DOGE",
@@ -20,5 +25,8 @@
       "url": "https://explorer-testnet.dogechain.dog",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/568": "limited"
+  }
 }

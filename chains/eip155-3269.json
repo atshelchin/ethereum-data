@@ -1,7 +1,10 @@
 {
   "name": "Dubxcoin network",
   "chain": "DUBX",
-  "rpc": ["https://rpcmain.arabianchain.org"],
+  "rpc": [
+    "https://rpcmain.arabianchain.org",
+    "https://3269.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dubxcoin mainnet",
@@ -11,5 +14,8 @@
   "infoURL": "https://arabianchain.org",
   "shortName": "dubx",
   "chainId": 3269,
-  "networkId": 3269
+  "networkId": 3269,
+  "rpcTracking": {
+    "https://3269.rpc.thirdweb.com": "yes"
+  }
 }

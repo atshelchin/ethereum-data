@@ -25,5 +25,11 @@
       "icon": "lxpscan",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "wss://rpc.luxeports.com/ws": "none",
+    "wss://erpc.luxeports.com/ws": "none",
+    "https://rpc.luxeports.com": "none",
+    "https://erpc.luxeports.com": "none"
+  }
 }

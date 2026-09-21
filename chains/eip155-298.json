@@ -2,8 +2,17 @@
   "name": "Hedera Localnet",
   "chain": "Hedera",
   "icon": "hedera",
-  "rpc": [],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://298.rpc.thirdweb.com"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "hbar",
@@ -15,5 +24,8 @@
   "chainId": 298,
   "networkId": 298,
   "slip44": 3030,
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://298.rpc.thirdweb.com": "yes"
+  }
 }

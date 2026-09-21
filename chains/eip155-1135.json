@@ -4,7 +4,13 @@
   "icon": "lisk",
   "rpc": [
     "https://lisk.drpc.org",
-    "https://rpc.api.lisk.com"
+    "https://rpc.api.lisk.com",
+    "https://lb.routeme.sh/rpc/evm/1135",
+    "wss://lisk.drpc.org",
+    "https://lisk.gateway.tenderly.co",
+    "https://api-lisk-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+    "https://lisk-mainnet.gateway.tatum.io",
+    "https://1135.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -59,5 +65,14 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lisk.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/1135": "limited",
+    "wss://lisk.drpc.org": "none",
+    "https://lisk.gateway.tenderly.co": "yes",
+    "https://api-lisk-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c": "limited",
+    "https://lisk-mainnet.gateway.tatum.io": "yes",
+    "https://1135.rpc.thirdweb.com": "yes"
   }
 }

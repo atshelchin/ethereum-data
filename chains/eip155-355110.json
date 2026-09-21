@@ -9,7 +9,11 @@
       "name": "EIP1559"
     }
   ],
-  "rpc": ["https://mainnet.bitfinity.network"],
+  "rpc": [
+    "https://mainnet.bitfinity.network",
+    "https://lb.routeme.sh/rpc/evm/355110",
+    "https://355110.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitfinity Token",
@@ -27,5 +31,9 @@
       "icon": "bitfinity",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/355110": "limited",
+    "https://355110.rpc.thirdweb.com": "yes"
+  }
 }

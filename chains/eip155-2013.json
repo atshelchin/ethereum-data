@@ -1,7 +1,11 @@
 {
   "name": "Panarchy",
   "chain": "Panarchy",
-  "rpc": ["https://polytopia.org:8545"],
+  "rpc": [
+    "https://polytopia.org:8545",
+    "https://lb.routeme.sh/rpc/evm/2013",
+    "https://2013.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GAS",
@@ -11,5 +15,9 @@
   "infoURL": "https://polytopia.org/",
   "shortName": "panarchy",
   "chainId": 2013,
-  "networkId": 1
+  "networkId": 1,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2013": "limited",
+    "https://2013.rpc.thirdweb.com": "yes"
+  }
 }

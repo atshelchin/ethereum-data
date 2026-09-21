@@ -3,7 +3,8 @@
   "chain": "FAI",
   "rpc": [
     "wss://rpc_mainnet.xfair.ai",
-    "https://rpc_mainnet.xfair.ai"
+    "https://rpc_mainnet.xfair.ai",
+    "https://278.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -19,5 +20,8 @@
   "infoURL": "https://xfair.ai",
   "shortName": "fai",
   "chainId": 278,
-  "networkId": 278
+  "networkId": 278,
+  "rpcTracking": {
+    "https://278.rpc.thirdweb.com": "yes"
+  }
 }

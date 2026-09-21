@@ -2,7 +2,9 @@
   "name": "Bitchain Mainnet",
   "chain": "Bit",
   "rpc": [
-    "https://rpc.bitchain.biz/"
+    "https://rpc.bitchain.biz/",
+    "https://rpc.bitchain.biz",
+    "https://198.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +22,8 @@
       "url": "https://explorer.bitchain.biz",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://198.rpc.thirdweb.com": "yes"
+  }
 }

@@ -10,7 +10,8 @@
     "decimals": 18
   },
   "rpc": [
-    "https://rpc.etherfair.org"
+    "https://rpc.etherfair.org",
+    "https://513100.rpc.thirdweb.com"
   ],
   "faucets": [],
   "explorers": [
@@ -20,5 +21,8 @@
       "standard": "EIP3091"
     }
   ],
-  "infoURL": "https://etherfair.org/"
+  "infoURL": "https://etherfair.org/",
+  "rpcTracking": {
+    "https://513100.rpc.thirdweb.com": "yes"
+  }
 }

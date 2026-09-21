@@ -4,7 +4,12 @@
   "rpc": [
     "https://erpc.apothem.network",
     "https://apothem.xdcrpc.com",
-    "https://rpc.apothem.network"
+    "https://rpc.apothem.network",
+    "https://rpc.ankr.com/xdc_testnet",
+    "https://earpc.apothem.network",
+    "wss://eaws.apothem.network",
+    "https://xdc-testnet.drpc.org",
+    "https://51.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.apothem.network",
@@ -37,5 +42,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://xdc-testnet.drpc.org": "none",
+    "https://51.rpc.thirdweb.com": "yes"
   }
 }

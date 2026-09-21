@@ -2,7 +2,9 @@
   "name": "ETND Chain Mainnets",
   "chain": "ETND",
   "rpc": [
-    "https://rpc.node1.etnd.pro/"
+    "https://rpc.node1.etnd.pro/",
+    "https://rpc.node1.etnd.pro",
+    "https://131419.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,8 @@
       "icon": "ETND",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://131419.rpc.thirdweb.com": "yes"
+  }
 }

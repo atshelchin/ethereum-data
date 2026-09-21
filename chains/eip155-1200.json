@@ -4,7 +4,8 @@
   "chain": "CuckooAI",
   "rpc": [
     "wss://mainnet-rpc.cuckoo.network",
-    "https://mainnet-rpc.cuckoo.network"
+    "https://mainnet-rpc.cuckoo.network",
+    "https://1200.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "url": "https://scan.cuckoo.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1200.rpc.thirdweb.com": "yes"
+  }
 }

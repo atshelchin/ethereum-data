@@ -10,7 +10,17 @@
     "https://polygon-amoy-bor-rpc.publicnode.com",
     "https://polygon-amoy.api.onfinality.io/public",
     "wss://polygon-amoy-bor-rpc.publicnode.com",
-    "https://rpc.satelink.network/rpc/amoy"
+    "https://rpc.satelink.network/rpc/amoy",
+    "https://lb.routeme.sh/rpc/evm/80002",
+    "https://polygon-bor-amoy-rpc.publicnode.com",
+    "wss://polygon-bor-amoy-rpc.publicnode.com",
+    "https://polygon-amoy.blockpi.network/v1/rpc/private",
+    "https://polygon-amoy.gateway.tatum.io",
+    "https://polygon-amoy.gateway.tenderly.co",
+    "https://api.zan.top/polygon-amoy",
+    "https://polygon-amoy-public.nodies.app",
+    "https://polygon-amoy.therpc.io",
+    "wss://polygon-amoy.drpc.org"
   ],
   "faucets": [
     "https://faucet.polygon.technology/"
@@ -44,5 +54,21 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://polygon-amoy.drpc.org": "none",
+    "https://poly-amoy-testnet.api.pocket.network": "none",
+    "https://polygon-amoy.api.onfinality.io/public": "limited",
+    "https://rpc.satelink.network/rpc/amoy": "none",
+    "https://lb.routeme.sh/rpc/evm/80002": "limited",
+    "https://polygon-bor-amoy-rpc.publicnode.com": "none",
+    "wss://polygon-bor-amoy-rpc.publicnode.com": "none",
+    "https://polygon-amoy.blockpi.network/v1/rpc/private": "limited",
+    "https://polygon-amoy.gateway.tatum.io": "yes",
+    "https://polygon-amoy.gateway.tenderly.co": "yes",
+    "https://api.zan.top/polygon-amoy": "limited",
+    "https://polygon-amoy-public.nodies.app": "limited",
+    "https://polygon-amoy.therpc.io": "limited",
+    "wss://polygon-amoy.drpc.org": "none"
   }
 }

@@ -2,7 +2,9 @@
   "name": "Seele Mainnet",
   "chain": "Seele",
   "rpc": [
-    "https://rpc.seelen.pro/"
+    "https://rpc.seelen.pro/",
+    "https://rpc.seelen.pro",
+    "https://186.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +22,8 @@
       "url": "https://seeleview.net",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://186.rpc.thirdweb.com": "yes"
+  }
 }

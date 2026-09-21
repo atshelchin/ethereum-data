@@ -5,7 +5,8 @@
   "rpc": [
     "https://dataseed.mmtscan.io",
     "https://dataseed1.mmtscan.io",
-    "https://dataseed2.mmtscan.io"
+    "https://dataseed2.mmtscan.io",
+    "https://8898.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.mmtscan.io/"
@@ -27,5 +28,8 @@
       "standard": "EIP3091",
       "icon": "mmt"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://8898.rpc.thirdweb.com": "yes"
+  }
 }

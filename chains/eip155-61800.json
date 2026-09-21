@@ -2,7 +2,8 @@
   "name": "AxelChain Dev-Net",
   "chain": "AXEL",
   "rpc": [
-    "https://aium-rpc-dev.viacube.com"
+    "https://aium-rpc-dev.viacube.com",
+    "https://61800.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://devexplorer2.viacube.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://61800.rpc.thirdweb.com": "yes"
+  }
 }

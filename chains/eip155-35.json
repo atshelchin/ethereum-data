@@ -2,7 +2,8 @@
   "name": "TBWG Chain",
   "chain": "TBWG",
   "rpc": [
-    "https://rpc.tbwg.io"
+    "https://rpc.tbwg.io",
+    "https://35.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://tbwg.io",
   "shortName": "tbwg",
   "chainId": 35,
-  "networkId": 35
+  "networkId": 35,
+  "rpcTracking": {
+    "https://35.rpc.thirdweb.com": "yes"
+  }
 }

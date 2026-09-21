@@ -2,7 +2,9 @@
   "name": "Xterio Chain (ETH)",
   "chain": "Xterio",
   "rpc": [
-    "https://xterio-eth.alt.technology"
+    "https://xterio-eth.alt.technology",
+    "https://lb.routeme.sh/rpc/evm/2702128",
+    "https://2702128.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +22,9 @@
       "url": "https://eth.xterscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2702128": "limited",
+    "https://2702128.rpc.thirdweb.com": "yes"
+  }
 }

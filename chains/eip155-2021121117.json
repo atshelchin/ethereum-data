@@ -2,7 +2,8 @@
   "name": "DataHopper",
   "chain": "HOP",
   "rpc": [
-    "https://23.92.21.121:8545"
+    "https://23.92.21.121:8545",
+    "https://2021121117.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://www.DataHopper.com",
   "shortName": "hop",
   "chainId": 2021121117,
-  "networkId": 2021121117
+  "networkId": 2021121117,
+  "rpcTracking": {
+    "https://2021121117.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,8 +2,13 @@
   "name": "One World Chain Testnet",
   "chain": "One World Chain",
   "icon": "oneWorldChainIcon",
-  "rpc": ["https://testnet-rpc.oneworldchain.org"],
-  "faucets": ["https://faucet.oneworldchain.org"],
+  "rpc": [
+    "https://testnet-rpc.oneworldchain.org",
+    "https://lb.routeme.sh/rpc/evm/552981"
+  ],
+  "faucets": [
+    "https://faucet.oneworldchain.org"
+  ],
   "nativeCurrency": {
     "name": "OWCT",
     "symbol": "OWCT",
@@ -19,5 +24,8 @@
       "url": "https://testnet.oneworldchain.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/552981": "limited"
+  }
 }

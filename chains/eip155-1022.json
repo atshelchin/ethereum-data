@@ -1,7 +1,9 @@
 {
   "name": "Sakura",
   "chain": "Sakura",
-  "rpc": [],
+  "rpc": [
+    "https://1022.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sakura",
@@ -11,5 +13,8 @@
   "infoURL": "https://clover.finance/sakura",
   "shortName": "sku",
   "chainId": 1022,
-  "networkId": 1022
+  "networkId": 1022,
+  "rpcTracking": {
+    "https://1022.rpc.thirdweb.com": "yes"
+  }
 }

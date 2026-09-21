@@ -1,0 +1,34 @@
+{
+  "name": "MIZUHIKI Mainnet",
+  "chain": "MIZU",
+  "icon": "https://mizuhiki.io/mizuhiki-logo-256.png",
+  "rpc": [
+    "https://rpc.mizuhiki.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MIZU",
+    "symbol": "MIZU",
+    "decimals": 18
+  },
+  "infoURL": "https://mizuhiki.io/",
+  "shortName": "mizuhiki",
+  "chainId": 6498,
+  "networkId": 6498,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://mizuhiki.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
+}

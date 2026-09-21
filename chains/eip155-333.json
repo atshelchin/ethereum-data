@@ -2,7 +2,8 @@
   "name": "EthStorage Mainnet",
   "chain": "EthStorage",
   "rpc": [
-    "https://rpc.mainnet.ethstorage.io:9540"
+    "https://rpc.mainnet.ethstorage.io:9540",
+    "https://333.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1"
+  },
+  "rpcTracking": {
+    "https://333.rpc.thirdweb.com": "yes"
   }
 }

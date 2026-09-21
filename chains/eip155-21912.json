@@ -3,7 +3,8 @@
   "chain": "BSL",
   "rpc": [
     "ws://rpc-mainnet.nftruth.io:8645",
-    "http://rpc-mainnet.nftruth.io:8545"
+    "http://rpc-mainnet.nftruth.io:8545",
+    "https://21912.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://scan.nftruth.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://21912.rpc.thirdweb.com": "yes"
+  }
 }

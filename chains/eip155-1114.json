@@ -3,7 +3,8 @@
   "chain": "Core",
   "icon": "core",
   "rpc": [
-    "https://rpc.test2.btcs.network/"
+    "https://rpc.test2.btcs.network/",
+    "https://rpc.test2.btcs.network"
   ],
   "features": [
     {

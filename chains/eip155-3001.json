@@ -2,7 +2,8 @@
   "name": "CENNZnet Nikau",
   "chain": "CENNZnet",
   "rpc": [
-    "https://nikau.centrality.me/public"
+    "https://nikau.centrality.me/public",
+    "https://3001.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://app-faucet.centrality.me"
@@ -23,5 +24,8 @@
       "url": "https://www.uncoverexplorer.com/?network=Nikau",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://3001.rpc.thirdweb.com": "yes"
+  }
 }

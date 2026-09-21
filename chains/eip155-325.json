@@ -1,7 +1,10 @@
 {
   "name": "GRVT Exchange",
   "chain": "ETH",
-  "rpc": ["https://rpc.grvt.io"],
+  "rpc": [
+    "https://rpc.grvt.io",
+    "https://325.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",
@@ -13,5 +16,8 @@
   "chainId": 325,
   "networkId": 325,
   "icon": "grvt",
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://325.rpc.thirdweb.com": "yes"
+  }
 }

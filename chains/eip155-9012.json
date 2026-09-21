@@ -2,7 +2,8 @@
   "name": "BerylBit Mainnet",
   "chain": "BRB",
   "rpc": [
-    "https://mainnet.berylbit.io"
+    "https://mainnet.berylbit.io",
+    "https://9012.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://t.me/BerylBit"
@@ -23,5 +24,8 @@
       "url": "https://explorer.berylbit.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://9012.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "name": "LoraChain Mainnet",
+  "chain": "LRB",
+  "icon": "lorachain",
+  "rpc": [
+    "https://rpc.lorachain.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LRB",
+    "symbol": "LRB",
+    "decimals": 18
+  },
+  "infoURL": "https://www.deeplink.world",
+  "shortName": "lrb",
+  "chainId": 6359,
+  "networkId": 6359,
+  "explorers": [
+    {
+      "name": "lorachain",
+      "url": "https://explorer.lorachain.org",
+      "icon": "lorachain",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
+}

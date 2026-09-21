@@ -2,7 +2,9 @@
   "name": "Metal L2 Testnet",
   "chain": "Metal L2 Testnet",
   "rpc": [
-    "https://testnet.rpc.metall2.com"
+    "https://testnet.rpc.metall2.com",
+    "https://metall2-testnet.drpc.org",
+    "wss://metall2-testnet.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +32,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://metall2-testnet.drpc.org": "none",
+    "wss://metall2-testnet.drpc.org": "none"
   }
 }

@@ -2,7 +2,8 @@
   "name": "XO Market",
   "chain": "XO",
   "rpc": [
-    "https://rpc-mainnet-2.xo.market/"
+    "https://rpc-mainnet-2.xo.market/",
+    "https://rpc-mainnet-2.xo.market"
   ],
   "faucets": [],
   "nativeCurrency": {

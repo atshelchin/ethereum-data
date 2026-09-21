@@ -3,7 +3,8 @@
   "chain": "MARO Blockchain",
   "icon": "MARO",
   "rpc": [
-    "https://rpc-mainnet.ma.ro"
+    "https://rpc-mainnet.ma.ro",
+    "https://8848.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://scan.ma.ro/#",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://8848.rpc.thirdweb.com": "yes"
+  }
 }

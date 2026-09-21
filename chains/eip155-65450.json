@@ -1,7 +1,11 @@
 {
   "name": "Scolcoin Mainnet",
   "chain": "SCOLWEI",
-  "rpc": ["https://mainnet-rpc.scolcoin.com"],
+  "rpc": [
+    "https://mainnet-rpc.scolcoin.com",
+    "https://lb.routeme.sh/rpc/evm/65450",
+    "https://65450.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Scolcoin",
@@ -24,5 +28,9 @@
       "url": "https://explorador.scolcoin.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/65450": "limited",
+    "https://65450.rpc.thirdweb.com": "yes"
+  }
 }

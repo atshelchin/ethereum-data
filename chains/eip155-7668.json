@@ -3,7 +3,9 @@
   "chain": "TRN",
   "rpc": [
     "https://root.rootnet.live/archive",
-    "wss://root.rootnet.live/archive/ws"
+    "wss://root.rootnet.live/archive/ws",
+    "https://lb.routeme.sh/rpc/evm/7668",
+    "https://7668.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +23,9 @@
       "url": "https://explorer.rootnet.live",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/7668": "limited",
+    "https://7668.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "SVRN",
   "icon": "soverun",
   "rpc": [
-    "https://mainnet-rpc.soverun.com"
+    "https://mainnet-rpc.soverun.com",
+    "https://10101010.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.soverun.com"
@@ -23,5 +24,8 @@
       "url": "https://explorer.soverun.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://10101010.rpc.thirdweb.com": "yes"
+  }
 }

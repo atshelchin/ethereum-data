@@ -4,7 +4,10 @@
   "rpc": [
     "https://wemix.drpc.org",
     "https://api.wemix.com",
-    "wss://ws.wemix.com"
+    "wss://ws.wemix.com",
+    "https://lb.routeme.sh/rpc/evm/1111",
+    "wss://wemix.drpc.org",
+    "https://1111.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -47,5 +50,11 @@
       "router": "0x80a5A916FB355A8758f0a3e47891dc288DAC2665"
     },
     "url": "https://wemix.fi"
+  },
+  "rpcTracking": {
+    "https://wemix.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/1111": "limited",
+    "wss://wemix.drpc.org": "none",
+    "https://1111.rpc.thirdweb.com": "yes"
   }
 }

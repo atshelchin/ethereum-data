@@ -17,7 +17,26 @@
     "wss://sepolia.drpc.org",
     "https://rpc.sepolia.org",
     "https://rpc2.sepolia.org",
-    "https://xrpc.cl/sepolia"
+    "https://xrpc.cl/sepolia",
+    "https://lb.routeme.sh/rpc/evm/11155111",
+    "https://eth-sepolia.g.alchemy.com/v2/demo",
+    "https://eth-sepolia.public.blastapi.io",
+    "https://eth-sepolia-public.unifra.io",
+    "https://gateway.tenderly.co/public/sepolia",
+    "https://sphinx.shardeum.org",
+    "https://dapps.shardeum.org",
+    "https://api.zan.top/eth-sepolia",
+    "https://rpc.notadegen.com/eth/sepolia",
+    "https://public.1rpc.io/sepolia",
+    "https://public.stackup.sh/api/v1/node/ethereum-sepolia",
+    "https://ethereum-sepolia-public.nodies.app",
+    "https://endpoints.omniatech.io/v1/eth/sepolia/public",
+    "https://0xrpc.io/sep",
+    "wss://0xrpc.io/sep",
+    "https://ethereum-sepolia.therpc.io",
+    "https://ethereum-sepolia.gateway.tatum.io",
+    "https://sepolia.rpc.sentio.xyz",
+    "wss://eth-sepolia-testnet.api.pocket.network"
   ],
   "faucets": [
     "http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"
@@ -56,5 +75,30 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://eth-sepolia.api.onfinality.io/public": "limited",
+    "https://sepolia.gateway.tenderly.co": "yes",
+    "https://ethereum-sepolia-rpc.publicnode.com": "none",
+    "https://eth-sepolia-testnet.api.pocket.network": "none",
+    "wss://ethereum-sepolia-rpc.publicnode.com": "none",
+    "https://lb.routeme.sh/rpc/evm/11155111": "limited",
+    "https://eth-sepolia.g.alchemy.com/v2/demo": "yes",
+    "https://eth-sepolia.public.blastapi.io": "limited",
+    "https://eth-sepolia-public.unifra.io": "limited",
+    "https://gateway.tenderly.co/public/sepolia": "yes",
+    "https://sphinx.shardeum.org": "yes",
+    "https://dapps.shardeum.org": "yes",
+    "https://api.zan.top/eth-sepolia": "limited",
+    "https://public.1rpc.io/sepolia": "none",
+    "https://public.stackup.sh/api/v1/node/ethereum-sepolia": "limited",
+    "https://ethereum-sepolia-public.nodies.app": "limited",
+    "https://endpoints.omniatech.io/v1/eth/sepolia/public": "none",
+    "https://0xrpc.io/sep": "none",
+    "wss://0xrpc.io/sep": "none",
+    "https://ethereum-sepolia.therpc.io": "limited",
+    "https://ethereum-sepolia.gateway.tatum.io": "yes",
+    "https://sepolia.rpc.sentio.xyz": "limited",
+    "wss://eth-sepolia-testnet.api.pocket.network": "none"
   }
 }

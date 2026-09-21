@@ -2,8 +2,14 @@
   "name": "HUMAN Protocol",
   "title": "HUMAN Protocol",
   "chain": "wan-red-ain",
-  "rpc": ["https://mainnet.skalenodes.com/v1/wan-red-ain"],
-  "faucets": ["https://dashboard.humanprotocol.org/faucet"],
+  "rpc": [
+    "https://mainnet.skalenodes.com/v1/wan-red-ain",
+    "https://lb.routeme.sh/rpc/evm/1273227453",
+    "https://1273227453.rpc.thirdweb.com"
+  ],
+  "faucets": [
+    "https://dashboard.humanprotocol.org/faucet"
+  ],
   "nativeCurrency": {
     "name": "sFUEL",
     "symbol": "sFUEL",
@@ -20,5 +26,9 @@
       "icon": "human",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1273227453": "limited",
+    "https://1273227453.rpc.thirdweb.com": "yes"
+  }
 }

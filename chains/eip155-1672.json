@@ -3,7 +3,9 @@
   "chain": "Pharos",
   "icon": "pharos",
   "rpc": [
-    "https://rpc.pharos.xyz"
+    "https://rpc.pharos.xyz",
+    "https://infra.originstake.com/pharos/evm",
+    "https://pharos.drpc.org"
   ],
   "features": [
     {
@@ -30,5 +32,9 @@
       "icon": "pharos",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://infra.originstake.com/pharos/evm": "none",
+    "https://pharos.drpc.org": "none"
+  }
 }

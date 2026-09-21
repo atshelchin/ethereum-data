@@ -3,7 +3,9 @@
   "chain": "MCH Verse",
   "icon": "mch_verse",
   "rpc": [
-    "https://rpc.oasys.mycryptoheroes.net"
+    "https://rpc.oasys.mycryptoheroes.net",
+    "https://lb.routeme.sh/rpc/evm/29548",
+    "https://29548.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +32,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/29548": "limited",
+    "https://29548.rpc.thirdweb.com": "yes"
+  }
 }

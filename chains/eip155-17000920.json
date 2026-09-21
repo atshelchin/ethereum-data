@@ -2,7 +2,8 @@
   "name": "Lambda Chain Testnet",
   "chain": "Lambda Chain",
   "rpc": [
-    "https://testnrpc.lambda.im/"
+    "https://testnrpc.lambda.im/",
+    "https://testnrpc.lambda.im"
   ],
   "faucets": [],
   "nativeCurrency": {

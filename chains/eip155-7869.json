@@ -2,7 +2,9 @@
   "name": "Powerloom Mainnet V2",
   "chain": "Powerloom Mainnet V2",
   "rpc": [
-    "https://rpc-v2.powerloom.network"
+    "https://rpc-v2.powerloom.network",
+    "https://lb.routeme.sh/rpc/evm/7869",
+    "https://7869.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -28,5 +30,10 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc-v2.powerloom.network": "yes",
+    "https://lb.routeme.sh/rpc/evm/7869": "limited",
+    "https://7869.rpc.thirdweb.com": "yes"
+  }
 }

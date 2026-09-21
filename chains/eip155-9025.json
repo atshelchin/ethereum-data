@@ -4,7 +4,8 @@
   "rpc": [
     "wss://wss-nodes.nexablockscan.io",
     "https://rpc-nodes.nexablockscan.io",
-    "https://rpc-nodes-delta.nexablockscan.io"
+    "https://rpc-nodes-delta.nexablockscan.io",
+    "https://9025.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +25,8 @@
       "standard": "none",
       "icon": "nexaChain"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://9025.rpc.thirdweb.com": "yes"
+  }
 }

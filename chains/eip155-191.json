@@ -3,7 +3,8 @@
   "chain": "FFG",
   "icon": "ffgIcon",
   "rpc": [
-    "https://rpc.filefilego.com/rpc"
+    "https://rpc.filefilego.com/rpc",
+    "https://191.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -22,5 +23,8 @@
   "infoURL": "https://filefilego.com",
   "shortName": "ffg",
   "chainId": 191,
-  "networkId": 191
+  "networkId": 191,
+  "rpcTracking": {
+    "https://191.rpc.thirdweb.com": "yes"
+  }
 }

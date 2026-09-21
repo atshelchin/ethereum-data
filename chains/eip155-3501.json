@@ -2,7 +2,9 @@
   "name": "JFIN Chain",
   "chain": "JFIN",
   "rpc": [
-    "https://rpc.jfinchain.com"
+    "https://rpc.jfinchain.com",
+    "https://lb.routeme.sh/rpc/evm/3501",
+    "https://3501.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://rpc.jfinchain.com": "limited",
+    "https://lb.routeme.sh/rpc/evm/3501": "limited",
+    "https://3501.rpc.thirdweb.com": "yes"
   }
 }

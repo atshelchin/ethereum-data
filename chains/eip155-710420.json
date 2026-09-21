@@ -2,7 +2,8 @@
   "name": "Tiltyard Mainnet Subnet",
   "chain": "TILTYARD",
   "rpc": [
-    "https://subnets.avax.network/tiltyard/mainnet/rpc"
+    "https://subnets.avax.network/tiltyard/mainnet/rpc",
+    "https://710420.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -28,5 +29,8 @@
       "url": "https://subnets.avax.network/tiltyard",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://710420.rpc.thirdweb.com": "yes"
+  }
 }

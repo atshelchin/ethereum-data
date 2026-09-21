@@ -2,7 +2,9 @@
   "name": "Zilliqa 2 EVM devnet",
   "chain": "ZIL",
   "rpc": [
-    "https://api.zq2-devnet.zilliqa.com"
+    "https://api.zq2-devnet.zilliqa.com",
+    "https://lb.routeme.sh/rpc/evm/33469",
+    "https://33469.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.zq2-devnet.zilliqa.com"
@@ -23,5 +25,9 @@
       "url": "https://explorer.zq2-devnet.zilliqa.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/33469": "limited",
+    "https://33469.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "DYNO Mainnet",
   "chain": "DYNO",
   "rpc": [
-    "https://api.dynoprotocol.com"
+    "https://api.dynoprotocol.com",
+    "https://3966.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.dynoscan.io"
@@ -22,5 +23,8 @@
       "url": "https://dynoscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://3966.rpc.thirdweb.com": "yes"
+  }
 }

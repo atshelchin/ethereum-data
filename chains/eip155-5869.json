@@ -3,7 +3,8 @@
   "chain": "RBD",
   "rpc": [
     "https://proxy.wegochain.io",
-    "http://wallet.wegochain.io:7764"
+    "http://wallet.wegochain.io:7764",
+    "https://5869.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://scan2.wegochain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://5869.rpc.thirdweb.com": "yes"
+  }
 }

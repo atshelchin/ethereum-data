@@ -32,5 +32,9 @@
       "url": "https://app.bie.ai/explorer",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.bie.ai": "none",
+    "https://api.bie.ai": "none"
+  }
 }

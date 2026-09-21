@@ -2,7 +2,9 @@
   "name": "Haic",
   "chain": "Haic",
   "rpc": [
-    "https://orig.haichain.io/"
+    "https://orig.haichain.io/",
+    "https://orig.haichain.io",
+    "https://803.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +15,8 @@
   "infoURL": "https://www.haichain.io/",
   "shortName": "haic",
   "chainId": 803,
-  "networkId": 803
+  "networkId": 803,
+  "rpcTracking": {
+    "https://803.rpc.thirdweb.com": "yes"
+  }
 }

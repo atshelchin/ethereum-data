@@ -3,7 +3,9 @@
   "chain": "Fluence Testnet",
   "rpc": [
     "wss://ws.testnet.fluence.dev/",
-    "https://rpc.testnet.fluence.dev/"
+    "https://rpc.testnet.fluence.dev/",
+    "https://rpc.testnet.fluence.dev",
+    "wss://ws.testnet.fluence.dev"
   ],
   "faucets": [],
   "nativeCurrency": {

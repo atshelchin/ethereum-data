@@ -3,7 +3,8 @@
   "chain": "Saakuru",
   "icon": "saakuru",
   "rpc": [
-    "https://rpc-testnet.saakuru.network"
+    "https://rpc-testnet.saakuru.network",
+    "https://lb.routeme.sh/rpc/evm/247253"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "url": "https://explorer-testnet.saakuru.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/247253": "limited"
+  }
 }

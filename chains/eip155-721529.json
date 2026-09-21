@@ -3,7 +3,8 @@
   "chain": "ERAM",
   "icon": "eram",
   "rpc": [
-    "https://mainnet-rpc.eramscan.com"
+    "https://mainnet-rpc.eramscan.com",
+    "https://721529.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://eramscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://721529.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,10 @@
   "chain": "TresLeches",
   "rpc": [
     "https://rpc.tresleches.finance/",
-    "https://rpc.treschain.io/"
+    "https://rpc.treschain.io/",
+    "https://rpc.tresleches.finance",
+    "https://rpc.treschain.io",
+    "https://6066.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +26,8 @@
       "icon": "treslechesexplorer",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://6066.rpc.thirdweb.com": "yes"
+  }
 }

@@ -4,7 +4,9 @@
   "chain": "BOAT",
   "icon": "boat",
   "rpc": [
-    "https://rpc0.come.boat/"
+    "https://rpc0.come.boat/",
+    "https://rpc0.come.boat",
+    "https://8047.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +26,8 @@
       "icon": "boat",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://8047.rpc.thirdweb.com": "yes"
+  }
 }

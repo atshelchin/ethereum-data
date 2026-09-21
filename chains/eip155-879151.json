@@ -2,7 +2,9 @@
   "name": "BlocX Mainnet",
   "chain": "BLX",
   "rpc": [
-    "https://mainnet-rpc.blxscan.com/"
+    "https://mainnet-rpc.blxscan.com/",
+    "https://mainnet-rpc.blxscan.com",
+    "https://879151.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,8 @@
       "icon": "blx",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://879151.rpc.thirdweb.com": "yes"
+  }
 }

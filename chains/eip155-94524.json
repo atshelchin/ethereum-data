@@ -2,7 +2,8 @@
   "name": "XCHAIN",
   "chain": "XCHAIN",
   "rpc": [
-    "https://xchain-rpc.kuma.bid"
+    "https://xchain-rpc.kuma.bid",
+    "https://94524.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://xchain-explorer.kuma.bid",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://94524.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "Nollie Skatechain Testnet",
   "chain": "Skatechain",
   "rpc": [
-    "https://nollie-rpc.skatechain.org/"
+    "https://nollie-rpc.skatechain.org/",
+    "https://nollie-rpc.skatechain.org"
   ],
   "faucets": [],
   "nativeCurrency": {

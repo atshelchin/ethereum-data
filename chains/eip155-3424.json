@@ -3,7 +3,8 @@
   "chain": "EVO",
   "icon": "evolveIcon",
   "rpc": [
-    "https://rpc.evoexplorer.com"
+    "https://rpc.evoexplorer.com",
+    "https://3424.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://evoexplorer.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://3424.rpc.thirdweb.com": "yes"
+  }
 }

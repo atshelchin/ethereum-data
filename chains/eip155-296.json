@@ -3,7 +3,9 @@
   "chain": "Hedera",
   "icon": "hedera",
   "rpc": [
-    "https://testnet.hashio.io/api"
+    "https://testnet.hashio.io/api",
+    "https://lb.routeme.sh/rpc/evm/296",
+    "https://296.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -55,5 +57,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/296": "limited",
+    "https://296.rpc.thirdweb.com": "yes"
   }
 }

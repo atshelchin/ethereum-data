@@ -3,7 +3,8 @@
   "chain": "OPENPIECE",
   "icon": "openpiece",
   "rpc": [
-    "https://mainnet.openpiece.io"
+    "https://mainnet.openpiece.io",
+    "https://54.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://bellyscan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://54.rpc.thirdweb.com": "yes"
+  }
 }

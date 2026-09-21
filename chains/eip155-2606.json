@@ -9,7 +9,8 @@
     "https://rpc1.pocrnet.ca-dag.work",
     "https://rpc2.pocrnet.ca-dag.work",
     "wss://rpc1.pocrnet.ca-dag.work/ws",
-    "wss://rpc2.pocrnet.ca-dag.work/ws"
+    "wss://rpc2.pocrnet.ca-dag.work/ws",
+    "https://lb.routeme.sh/rpc/evm/2606"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,5 +30,8 @@
       "icon": "pocr",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2606": "limited"
+  }
 }

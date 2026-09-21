@@ -4,7 +4,9 @@
   "icon": "glide",
   "rpc": [
     "wss://rpc-api.glideprotocol.xyz/l2-rpc/",
-    "https://rpc-api.glideprotocol.xyz/l2-rpc/"
+    "https://rpc-api.glideprotocol.xyz/l2-rpc/",
+    "wss://rpc-api.glideprotocol.xyz/l2-rpc",
+    "https://rpc-api.glideprotocol.xyz/l2-rpc"
   ],
   "features": [
     {
@@ -36,5 +38,9 @@
     "type": "L2",
     "chain": "eip155-251"
   },
-  "status": "active"
+  "status": "active",
+  "rpcTracking": {
+    "wss://rpc-api.glideprotocol.xyz/l2-rpc": "none",
+    "https://rpc-api.glideprotocol.xyz/l2-rpc": "none"
+  }
 }

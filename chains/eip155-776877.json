@@ -2,7 +2,8 @@
   "name": "Modularium",
   "chain": "EVMCC",
   "rpc": [
-    "https://fraa-dancebox-3035-rpc.a.dancebox.tanssi.network"
+    "https://fraa-dancebox-3035-rpc.a.dancebox.tanssi.network",
+    "https://776877.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://tanssi-evmexplorer.netlify.app/?rpcUrl=https://fraa-dancebox-3035-rpc.a.dancebox.tanssi.network",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://776877.rpc.thirdweb.com": "yes"
+  }
 }

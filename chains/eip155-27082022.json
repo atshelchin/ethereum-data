@@ -3,7 +3,8 @@
   "chain": "EXL",
   "icon": "exl",
   "rpc": [
-    "https://rpc.exlscan.com"
+    "https://rpc.exlscan.com",
+    "https://27082022.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "exl",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://27082022.rpc.thirdweb.com": "yes"
+  }
 }

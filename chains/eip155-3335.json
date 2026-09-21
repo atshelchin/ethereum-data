@@ -2,7 +2,8 @@
   "name": "QuarkChain L2 Beta Testnet",
   "chain": "QuarkChain",
   "rpc": [
-    "https://rpc.beta.testnet.l2.quarkchain.io:8545"
+    "https://rpc.beta.testnet.l2.quarkchain.io:8545",
+    "https://3335.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +26,8 @@
       "url": "https://explorer.beta.testnet.l2.quarkchain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://3335.rpc.thirdweb.com": "yes"
+  }
 }

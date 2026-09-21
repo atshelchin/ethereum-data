@@ -4,7 +4,9 @@
   "chain": "RBN",
   "chainId": 152,
   "networkId": 152,
-  "rpc": [],
+  "rpc": [
+    "https://152.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "infoURL": "https://redbelly.network",
   "nativeCurrency": {
@@ -12,5 +14,8 @@
     "symbol": "RBNT",
     "decimals": 18
   },
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://152.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "prm",
   "icon": "prmIcon",
   "rpc": [
-    "https://mainnet-rpc.prmscan.org"
+    "https://mainnet-rpc.prmscan.org",
+    "https://39656.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://prmscan.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://39656.rpc.thirdweb.com": "yes"
+  }
 }

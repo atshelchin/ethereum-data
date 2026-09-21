@@ -2,7 +2,8 @@
   "name": "DAX CHAIN",
   "chain": "DAX",
   "rpc": [
-    "https://rpc.prodax.io"
+    "https://rpc.prodax.io",
+    "https://142.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://prodax.io/",
   "shortName": "dax",
   "chainId": 142,
-  "networkId": 142
+  "networkId": 142,
+  "rpcTracking": {
+    "https://142.rpc.thirdweb.com": "yes"
+  }
 }

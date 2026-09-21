@@ -2,7 +2,8 @@
   "name": "PAXB Mainnet",
   "chain": "PAXB",
   "rpc": [
-    "https://chain.paxb.io"
+    "https://chain.paxb.io",
+    "https://6701.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "paxb",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://6701.rpc.thirdweb.com": "yes"
+  }
 }

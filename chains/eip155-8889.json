@@ -1,7 +1,11 @@
 {
   "name": "Vyvo Smart Chain",
   "chain": "VSC",
-  "rpc": ["https://vsc-dataseed.vyvo.org:8889"],
+  "rpc": [
+    "https://vsc-dataseed.vyvo.org:8889",
+    "https://lb.routeme.sh/rpc/evm/8889",
+    "https://8889.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "VSC",
@@ -11,5 +15,9 @@
   "infoURL": "https://vsc-dataseed.vyvo.org",
   "shortName": "vsc",
   "chainId": 8889,
-  "networkId": 8889
+  "networkId": 8889,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/8889": "limited",
+    "https://8889.rpc.thirdweb.com": "yes"
+  }
 }

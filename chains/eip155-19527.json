@@ -2,7 +2,9 @@
   "name": "Magnet Network",
   "chain": "Magnet",
   "rpc": [
-    "https://magnet-rpc.magport.io/"
+    "https://magnet-rpc.magport.io/",
+    "https://magnet-rpc.magport.io",
+    "https://19527.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +16,8 @@
   "shortName": "mgt",
   "chainId": 19527,
   "networkId": 19527,
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://19527.rpc.thirdweb.com": "yes"
+  }
 }

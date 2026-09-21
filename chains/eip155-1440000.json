@@ -4,7 +4,11 @@
   "icon": "xrplevm",
   "rpc": [
     "https://rpc.xrplevm.org",
-    "wss://ws.xrplevm.org"
+    "wss://ws.xrplevm.org",
+    "https://xrplevm.buildintheshade.com",
+    "wss://xrplevm.buildintheshade.com",
+    "https://xrpl.drpc.org",
+    "wss://xrpl.drpc.org"
   ],
   "features": [
     {
@@ -56,5 +60,11 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://xrplevm.buildintheshade.com": "limited",
+    "wss://xrplevm.buildintheshade.com": "limited",
+    "https://xrpl.drpc.org": "none",
+    "wss://xrpl.drpc.org": "none"
   }
 }

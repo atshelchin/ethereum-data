@@ -2,7 +2,8 @@
   "name": "Denergy Testnet",
   "chain": "DEN",
   "rpc": [
-    "https://rpc.denergytestnet.com/"
+    "https://rpc.denergytestnet.com/",
+    "https://rpc.denergytestnet.com"
   ],
   "faucets": [],
   "nativeCurrency": {

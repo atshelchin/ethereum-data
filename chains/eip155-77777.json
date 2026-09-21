@@ -3,7 +3,9 @@
   "chain": "Toronet",
   "icon": "toronet",
   "rpc": [
-    "https://www.toronet.org/rpc2/"
+    "https://www.toronet.org/rpc2/",
+    "https://www.toronet.org/rpc2",
+    "https://77777.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +26,8 @@
       "url": "https://toronet.org/explorer",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://77777.rpc.thirdweb.com": "yes"
+  }
 }

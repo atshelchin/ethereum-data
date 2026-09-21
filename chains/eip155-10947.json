@@ -4,7 +4,8 @@
   "icon": "quadrans",
   "rpc": [
     "https://rpctest.quadrans.io",
-    "https://rpctest2.quadrans.io"
+    "https://rpctest2.quadrans.io",
+    "https://lb.routeme.sh/rpc/evm/10947"
   ],
   "faucets": [
     "https://faucetpage.quadrans.io"
@@ -26,5 +27,8 @@
       "icon": "quadrans",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/10947": "limited"
+  }
 }

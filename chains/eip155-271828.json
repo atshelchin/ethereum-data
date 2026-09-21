@@ -6,7 +6,8 @@
     "https://erpc.rope.network",
     "https://erpc.datachain.network",
     "wss://ws.datachain.network",
-    "wss://ws.rope.network"
+    "wss://ws.rope.network",
+    "https://ws.datachain.network"
   ],
   "faucets": [
     "https://faucet.datachain.network"

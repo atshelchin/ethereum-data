@@ -3,8 +3,17 @@
   "title": "Neura Devnet",
   "chain": "NEURA",
   "icon": "neura",
-  "rpc": [],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://268.rpc.thirdweb.com"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Devnet Ankr",
@@ -17,5 +26,8 @@
   "networkId": 268,
   "explorers": [],
   "status": "incubating",
-  "slip44": 1
+  "slip44": 1,
+  "rpcTracking": {
+    "https://268.rpc.thirdweb.com": "yes"
+  }
 }

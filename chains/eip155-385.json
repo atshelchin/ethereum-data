@@ -2,7 +2,8 @@
   "name": "Lisinski",
   "chain": "CRO",
   "rpc": [
-    "https://rpc-bitfalls1.lisinski.online"
+    "https://rpc-bitfalls1.lisinski.online",
+    "https://385.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://pipa.lisinski.online"
@@ -15,5 +16,8 @@
   "infoURL": "https://lisinski.online",
   "shortName": "lisinski",
   "chainId": 385,
-  "networkId": 385
+  "networkId": 385,
+  "rpcTracking": {
+    "https://385.rpc.thirdweb.com": "yes"
+  }
 }

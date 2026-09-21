@@ -4,7 +4,9 @@
   "icon": "worldland",
   "rpc": [
     "https://seoul.worldland.foundation",
-    "https://seoul2.worldland.foundation"
+    "https://seoul2.worldland.foundation",
+    "https://lb.routeme.sh/rpc/evm/103",
+    "https://103.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,9 @@
       "url": "https://scan.worldland.foundation",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/103": "limited",
+    "https://103.rpc.thirdweb.com": "yes"
+  }
 }

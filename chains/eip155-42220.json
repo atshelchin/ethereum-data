@@ -17,7 +17,15 @@
     "https://rpc.ankr.com/celo",
     "https://celo.api.onfinality.io/public",
     "wss://forno.celo.org/ws",
-    "wss://celo-rpc.publicnode.com"
+    "wss://celo-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/42220",
+    "https://rpc.celocolombia.org",
+    "https://celo-mainnet.gateway.tatum.io",
+    "wss://celo.drpc.org",
+    "https://celo-json-rpc.stakely.io",
+    "https://api-celo-mainnet-archive.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+    "https://rpc.swiftnodes.io/rpc/celo",
+    "https://42220.rpc.thirdweb.com"
   ],
   "faucets": [],
   "infoURL": "https://docs.celo.org/",
@@ -81,5 +89,17 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://celo.drpc.org": "none",
+    "https://rpc.ankr.com/celo": "limited",
+    "https://celo.api.onfinality.io/public": "limited",
+    "https://lb.routeme.sh/rpc/evm/42220": "limited",
+    "https://celo-mainnet.gateway.tatum.io": "yes",
+    "wss://celo.drpc.org": "none",
+    "https://celo-json-rpc.stakely.io": "none",
+    "https://api-celo-mainnet-archive.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c": "limited",
+    "https://rpc.swiftnodes.io/rpc/celo": "limited",
+    "https://42220.rpc.thirdweb.com": "yes"
   }
 }

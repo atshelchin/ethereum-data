@@ -4,7 +4,8 @@
   "icon": "lachain-network",
   "rpc": [
     "https://rpc.testnet.lachain.network",
-    "https://lachain-testnet.rpc-nodes.cedalio.dev"
+    "https://lachain-testnet.rpc-nodes.cedalio.dev",
+    "https://lb.routeme.sh/rpc/evm/418"
   ],
   "faucets": [
     "https://faucet.lachain.network"
@@ -29,5 +30,8 @@
       "url": "https://testexplorer.lachain.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/418": "limited"
+  }
 }

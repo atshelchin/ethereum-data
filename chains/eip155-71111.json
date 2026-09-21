@@ -4,7 +4,12 @@
   "rpc": [
     "https://rpc-mainnet-2.guapcoinx.com/",
     "https://rpc-mainnet-1.guapcoinx.com/",
-    "https://rpc-mainnet.guapcoinx.com/"
+    "https://rpc-mainnet.guapcoinx.com/",
+    "https://lb.routeme.sh/rpc/evm/71111",
+    "https://rpc-mainnet.guapcoinx.com",
+    "https://rpc-mainnet-1.guapcoinx.com",
+    "https://rpc-mainnet-2.guapcoinx.com",
+    "https://71111.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +29,9 @@
       "standard": "none",
       "icon": "guapcoinx"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/71111": "limited",
+    "https://71111.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "Liveplex OracleEVM",
   "chain": "Liveplex OracleEVM Network",
   "rpc": [
-    "https://rpc.oracle.liveplex.io"
+    "https://rpc.oracle.liveplex.io",
+    "https://50001.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +15,9 @@
   "shortName": "LOE",
   "chainId": 50001,
   "networkId": 50001,
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://rpc.oracle.liveplex.io": "yes",
+    "https://50001.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,7 +1,11 @@
 {
   "name": "Bullions Smart Chain",
   "chain": "Bullions",
-  "rpc": ["https://rpc.bullionsx.org"],
+  "rpc": [
+    "https://rpc.bullionsx.org",
+    "https://lb.routeme.sh/rpc/evm/8732",
+    "https://8732.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bullions",
@@ -19,5 +23,9 @@
       "url": "https://bullionscan.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/8732": "limited",
+    "https://8732.rpc.thirdweb.com": "yes"
+  }
 }

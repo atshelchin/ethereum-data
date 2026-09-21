@@ -4,7 +4,9 @@
   "rpc": [
     "https://rpc.zklink.io",
     "https://zklink-nova.api.pocket.network",
-    "wss://rpc.zklink.io"
+    "wss://rpc.zklink.io",
+    "https://lb.routeme.sh/rpc/evm/810180",
+    "https://810180.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -35,5 +37,9 @@
       }
     ]
   },
-  "wrappedNativeToken": "0x8280a4e7D5B3B658ec4580d3Bc30f5e50454F169"
+  "wrappedNativeToken": "0x8280a4e7D5B3B658ec4580d3Bc30f5e50454F169",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/810180": "limited",
+    "https://810180.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,9 @@
   "chain": "DeFiVerse Testnet",
   "icon": "defiverse",
   "rpc": [
-    "https://rpc-testnet.defi-verse.org/"
+    "https://rpc-testnet.defi-verse.org/",
+    "https://lb.routeme.sh/rpc/evm/17117",
+    "https://rpc-testnet.defi-verse.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,8 @@
       "icon": "defiverse",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/17117": "limited"
+  }
 }

@@ -3,7 +3,8 @@
   "title": "XCAP Mainnet",
   "chain": "XCAP",
   "rpc": [
-    "https://xcap-mainnet.relay.xcap.network/znzvh2ueyvm2yts5fv5gnul395jbkfb2/rpc1"
+    "https://xcap-mainnet.relay.xcap.network/znzvh2ueyvm2yts5fv5gnul395jbkfb2/rpc1",
+    "https://9322252.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://9322252.rpc.thirdweb.com": "yes"
+  }
 }

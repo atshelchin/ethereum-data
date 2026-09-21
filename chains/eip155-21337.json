@@ -2,7 +2,8 @@
   "name": "CENNZnet Azalea",
   "chain": "CENNZnet",
   "rpc": [
-    "https://cennznet.unfrastructure.io/public"
+    "https://cennznet.unfrastructure.io/public",
+    "https://21337.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://uncoverexplorer.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://21337.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,11 @@
   "name": "Stable Mainnet",
   "chain": "Stable",
   "rpc": [
-    "https://rpc.stable.xyz"
+    "https://rpc.stable.xyz",
+    "https://lb.routeme.sh/rpc/evm/988",
+    "https://stable-mainnet.rpc.sentio.xyz",
+    "https://stable.drpc.org",
+    "https://988.rpc.thirdweb.com"
   ],
   "faucets": [],
   "features": [
@@ -47,5 +51,11 @@
       "type": "bridge",
       "contract": "0x99aF3EeA856556646C98c8B9b2548Fe815240750"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/988": "limited",
+    "https://stable-mainnet.rpc.sentio.xyz": "limited",
+    "https://stable.drpc.org": "limited",
+    "https://988.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,8 +1,19 @@
 {
   "name": "J2O Taro",
   "chain": "TARO",
-  "rpc": ["https://rpc.j2o.io"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://rpc.j2o.io",
+    "https://lb.routeme.sh/rpc/evm/35011",
+    "https://35011.rpc.thirdweb.com"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TARO Coin",
@@ -20,5 +31,10 @@
       "icon": "j2otaro",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.j2o.io": "limited",
+    "https://lb.routeme.sh/rpc/evm/35011": "limited",
+    "https://35011.rpc.thirdweb.com": "yes"
+  }
 }

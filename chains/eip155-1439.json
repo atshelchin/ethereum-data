@@ -6,7 +6,9 @@
     "https://k8s.testnet.json-rpc.injective.network",
     "https://injectiveevm-testnet-rpc.polkachu.com",
     "wss://k8s.testnet.ws.injective.network",
-    "wss://injectiveevm-testnet-rpc.polkachu.com"
+    "wss://injectiveevm-testnet-rpc.polkachu.com",
+    "https://testnet.sentry.chain.json-rpc.injective.network",
+    "wss://testnet.sentry.chain.json-rpc.injective.network"
   ],
   "features": [
     {

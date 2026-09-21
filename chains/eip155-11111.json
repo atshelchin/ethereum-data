@@ -3,7 +3,8 @@
   "chain": "WAGMI",
   "icon": "wagmi",
   "rpc": [
-    "https://subnets.avax.network/wagmi/wagmi-chain-testnet/rpc"
+    "https://subnets.avax.network/wagmi/wagmi-chain-testnet/rpc",
+    "https://api.trywagmi.xyz/rpc"
   ],
   "faucets": [
     "https://faucet.avax.network/?subnet=wagmi"

@@ -2,7 +2,8 @@
   "name": "Tres Testnet",
   "chain": "TresLeches",
   "rpc": [
-    "https://rpc-test.tresleches.finance/"
+    "https://rpc-test.tresleches.finance/",
+    "https://rpc-test.tresleches.finance"
   ],
   "faucets": [
     "http://faucet.tresleches.finance:8080"

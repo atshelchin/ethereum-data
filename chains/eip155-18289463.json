@@ -2,7 +2,8 @@
   "name": "IOLite",
   "chain": "ILT",
   "rpc": [
-    "https://net.iolite.io"
+    "https://net.iolite.io",
+    "https://18289463.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://iolite.io",
   "shortName": "ilt",
   "chainId": 18289463,
-  "networkId": 18289463
+  "networkId": 18289463,
+  "rpcTracking": {
+    "https://18289463.rpc.thirdweb.com": "yes"
+  }
 }

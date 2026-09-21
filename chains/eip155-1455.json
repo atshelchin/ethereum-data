@@ -3,7 +3,9 @@
   "chain": "Ctex Scan Blockchain",
   "icon": "ctex",
   "rpc": [
-    "https://mainnet-rpc.ctexscan.com/"
+    "https://mainnet-rpc.ctexscan.com/",
+    "https://mainnet-rpc.ctexscan.com",
+    "https://1455.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.ctexscan.com"
@@ -23,5 +25,8 @@
       "url": "https://ctexscan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1455.rpc.thirdweb.com": "yes"
+  }
 }

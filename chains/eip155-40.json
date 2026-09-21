@@ -4,7 +4,12 @@
   "rpc": [
     "https://rpc.telos.net",
     "https://telos.drpc.org",
-    "wss://telos.drpc.org"
+    "wss://telos.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/40",
+    "https://public.1rpc.io/telos/evm",
+    "https://rpc.ankr.com/telos",
+    "https://rpc.poolz.finance/telos",
+    "https://40.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -47,5 +52,15 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://rpc.telos.net": "limited",
+    "https://telos.drpc.org": "none",
+    "wss://telos.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/40": "limited",
+    "https://public.1rpc.io/telos/evm": "none",
+    "https://rpc.ankr.com/telos": "limited",
+    "https://rpc.poolz.finance/telos": "limited",
+    "https://40.rpc.thirdweb.com": "yes"
   }
 }

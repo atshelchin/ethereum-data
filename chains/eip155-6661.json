@@ -2,7 +2,8 @@
   "name": "Cybria Mainnet",
   "chain": "CYBA",
   "rpc": [
-    "https://rpc-mainnet.cybria.io"
+    "https://rpc-mainnet.cybria.io",
+    "https://6661.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -39,5 +40,8 @@
         "url": "https://app.optimism.io/bridge"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://6661.rpc.thirdweb.com": "yes"
   }
 }

@@ -2,7 +2,10 @@
   "name": "Orbinum",
   "chain": "ORB",
   "icon": "orbinum",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-1.orbinum.io",
+    "https://rpc-2.orbinum.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ORB",

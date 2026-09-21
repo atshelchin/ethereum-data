@@ -4,7 +4,10 @@
   "icon": "oasis",
   "rpc": [
     "https://sapphire.oasis.io",
-    "wss://sapphire.oasis.io/ws"
+    "wss://sapphire.oasis.io/ws",
+    "https://lb.routeme.sh/rpc/evm/23294",
+    "https://public.1rpc.io/oasis/sapphire",
+    "https://23294.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +29,10 @@
   "wrappedNativeToken": "0x21C718C22D52d0F3a789b752D4c2fD5908a8A733",
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/23294": "limited",
+    "https://public.1rpc.io/oasis/sapphire": "none",
+    "https://23294.rpc.thirdweb.com": "yes"
   }
 }

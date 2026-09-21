@@ -5,7 +5,8 @@
   "rpc": [
     "https://msc-rpc.movoscan.com",
     "https://msc-rpc.movochain.org",
-    "https://msc-rpc.movoswap.com"
+    "https://msc-rpc.movoswap.com",
+    "https://2049.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +26,8 @@
       "icon": "movoscan",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2049.rpc.thirdweb.com": "yes"
+  }
 }

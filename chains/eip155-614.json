@@ -1,7 +1,11 @@
 {
   "name": "Graphlinq Blockchain Mainnet",
   "chain": "GLQ Blockchain",
-  "rpc": ["https://glq-dataseed.graphlinq.io"],
+  "rpc": [
+    "https://glq-dataseed.graphlinq.io",
+    "https://lb.routeme.sh/rpc/evm/614",
+    "https://614.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GLQ",
@@ -18,5 +22,9 @@
       "url": "https://explorer.graphlinq.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/614": "limited",
+    "https://614.rpc.thirdweb.com": "yes"
+  }
 }

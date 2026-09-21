@@ -1,0 +1,22 @@
+{
+  "name": "Shinzo Testnet",
+  "chain": "SHNZ",
+  "icon": "shinzo",
+  "rpc": [
+    "https://shinzo-testnet.web3cdn.rest",
+    "wss://shinzo-testnet.web3cdn.rest",
+    "http://testnet.shinzo.network:8545"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shinzo",
+    "symbol": "SHNZ",
+    "decimals": 18
+  },
+  "infoURL": "https://shinzo.network",
+  "shortName": "shinzo-testnet",
+  "chainId": 91273001,
+  "networkId": 91273001,
+  "explorers": [],
+  "features": []
+}

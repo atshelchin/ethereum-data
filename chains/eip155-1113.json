@@ -1,7 +1,10 @@
 {
   "name": "B2 Hub Testnet",
   "chain": "BSQ",
-  "rpc": ["https://testnet-hub-rpc.bsquared.network"],
+  "rpc": [
+    "https://testnet-hub-rpc.bsquared.network",
+    "https://lb.routeme.sh/rpc/evm/1113"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BSquared Token",
@@ -20,5 +23,8 @@
       "icon": "bsquare",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1113": "limited"
+  }
 }

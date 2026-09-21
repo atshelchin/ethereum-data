@@ -2,7 +2,8 @@
   "name": "OpenChain Mainnet",
   "chain": "OpenChain",
   "rpc": [
-    "https://baas-rpc.luniverse.io:18545?lChainId=1641349324562974539"
+    "https://baas-rpc.luniverse.io:18545?lChainId=1641349324562974539",
+    "https://474142.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://sidescan.luniverse.io/1641349324562974539",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://474142.rpc.thirdweb.com": "yes"
+  }
 }

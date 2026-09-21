@@ -2,7 +2,9 @@
   "name": "Symplexia Smart Chain",
   "chain": "Plexchain",
   "rpc": [
-    "https://plex-rpc.plexfinance.us"
+    "https://plex-rpc.plexfinance.us",
+    "https://lb.routeme.sh/rpc/evm/1149",
+    "https://1149.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,9 @@
       "icon": "plexchain",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1149": "limited",
+    "https://1149.rpc.thirdweb.com": "yes"
+  }
 }

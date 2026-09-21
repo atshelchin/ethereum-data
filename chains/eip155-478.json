@@ -5,7 +5,8 @@
   "icon": "form",
   "rpc": [
     "wss://rpc.form.network/ws",
-    "https://rpc.form.network/http"
+    "https://rpc.form.network/http",
+    "https://478.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -45,5 +46,8 @@
       }
     ]
   },
-  "status": "active"
+  "status": "active",
+  "rpcTracking": {
+    "https://478.rpc.thirdweb.com": "yes"
+  }
 }

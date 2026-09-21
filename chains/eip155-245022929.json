@@ -2,7 +2,9 @@
   "name": "Neon EVM Devnet Rollup",
   "chain": "Solana",
   "rpc": [
-    "https://devnet.rollup.neonevm.org/"
+    "https://devnet.rollup.neonevm.org/",
+    "https://devnet.rollup.neonevm.org",
+    "https://245022929.rpc.thirdweb.com"
   ],
   "faucets": [],
   "icon": "neon",
@@ -15,5 +17,8 @@
   "shortName": "neonevm-devnet-rollup",
   "chainId": 245022929,
   "networkId": 245022929,
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://245022929.rpc.thirdweb.com": "yes"
+  }
 }

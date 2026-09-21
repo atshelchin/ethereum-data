@@ -2,7 +2,11 @@
   "name": "Canxium Mainnet",
   "chain": "CAU",
   "icon": "canxium",
-  "rpc": ["https://rpc.canxium.org"],
+  "rpc": [
+    "https://rpc.canxium.org",
+    "https://lb.routeme.sh/rpc/evm/3003",
+    "https://3003.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Canxium",
@@ -19,5 +23,9 @@
       "url": "https://explorer.canxium.org",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/3003": "limited",
+    "https://3003.rpc.thirdweb.com": "yes"
+  }
 }

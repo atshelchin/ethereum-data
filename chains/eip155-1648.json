@@ -4,7 +4,8 @@
   "networkId": 1648,
   "chain": "Pivotal",
   "rpc": [
-    "https://mainnet.pivotalprotocol.com"
+    "https://mainnet.pivotalprotocol.com",
+    "https://1648.rpc.thirdweb.com"
   ],
   "faucets": [],
   "shortName": "pivotal-mainnet",
@@ -20,5 +21,8 @@
       "url": "https://pivotalscan.xyz",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1648.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "Volley",
   "icon": "volley",
   "rpc": [
-    "https://main-rpc.volleychain.com"
+    "https://main-rpc.volleychain.com",
+    "https://9981.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://volleyscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://9981.rpc.thirdweb.com": "yes"
+  }
 }

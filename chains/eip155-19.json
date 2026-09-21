@@ -9,7 +9,11 @@
     "https://01-vinthill-006-02.rpc.tatum.io/ext/bc/C/rpc",
     "https://02-tokyo-006-03.rpc.tatum.io/ext/bc/C/rpc",
     "https://songbird.enosys.global/ext/C/rpc",
-    "https://songbird.solidifi.app/ext/C/rpc"
+    "https://songbird.solidifi.app/ext/C/rpc",
+    "https://lb.routeme.sh/rpc/evm/19",
+    "https://rpc.ftso.au/songbird",
+    "https://flare-songbird.gateway.tatum.io",
+    "https://19.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -44,5 +48,10 @@
   "wrappedNativeToken": "0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED",
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/19": "limited",
+    "https://flare-songbird.gateway.tatum.io": "yes",
+    "https://19.rpc.thirdweb.com": "yes"
   }
 }

@@ -9,7 +9,18 @@
     "https://taiko-rpc.publicnode.com",
     "https://rpc.ankr.com/taiko",
     "https://taiko.api.pocket.network",
-    "wss://taiko-rpc.publicnode.com"
+    "wss://taiko-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/167000",
+    "https://rpc.taiko.xyz",
+    "https://rpc.taiko.tools",
+    "wss://taiko.drpc.org",
+    "https://taiko-mainnet.rpc.porters.xyz/taiko-public",
+    "https://taiko-mainnet.gateway.tenderly.co",
+    "https://taiko-json-rpc.stakely.io",
+    "https://taiko.therpc.io",
+    "https://rpc.swiftnodes.io/rpc/taiko",
+    "https://taiko.rpc.sentio.xyz",
+    "https://167000.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -57,5 +68,20 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://taiko.drpc.org": "none",
+    "https://rpc.ankr.com/taiko": "none",
+    "https://taiko.api.pocket.network": "none",
+    "https://lb.routeme.sh/rpc/evm/167000": "limited",
+    "https://rpc.taiko.tools": "none",
+    "wss://taiko.drpc.org": "none",
+    "https://taiko-mainnet.rpc.porters.xyz/taiko-public": "none",
+    "https://taiko-mainnet.gateway.tenderly.co": "yes",
+    "https://taiko-json-rpc.stakely.io": "none",
+    "https://taiko.therpc.io": "limited",
+    "https://rpc.swiftnodes.io/rpc/taiko": "limited",
+    "https://taiko.rpc.sentio.xyz": "limited",
+    "https://167000.rpc.thirdweb.com": "yes"
   }
 }

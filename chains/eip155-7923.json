@@ -3,7 +3,8 @@
   "chain": "DTBX",
   "icon": "dotblox",
   "rpc": [
-    "https://rpc.dotblox.io"
+    "https://rpc.dotblox.io",
+    "https://7923.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.dotblox.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://7923.rpc.thirdweb.com": "yes"
+  }
 }

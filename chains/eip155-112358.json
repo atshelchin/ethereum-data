@@ -4,7 +4,9 @@
   "icon": "metao",
   "rpc": [
     "https://rpc.metachain.one",
-    "https://rpc2.metachain.one"
+    "https://rpc2.metachain.one",
+    "https://lb.routeme.sh/rpc/evm/112358",
+    "https://112358.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,9 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/112358": "limited",
+    "https://112358.rpc.thirdweb.com": "yes"
+  }
 }

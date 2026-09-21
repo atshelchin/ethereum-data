@@ -2,7 +2,8 @@
   "name": "Lightstreams Mainnet",
   "chain": "PHT",
   "rpc": [
-    "https://node.mainnet.lightstreams.io"
+    "https://node.mainnet.lightstreams.io",
+    "https://163.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://explorer.lightstreams.io",
   "shortName": "pht",
   "chainId": 163,
-  "networkId": 163
+  "networkId": 163,
+  "rpcTracking": {
+    "https://163.rpc.thirdweb.com": "yes"
+  }
 }

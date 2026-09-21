@@ -3,7 +3,9 @@
   "chain": "ETH",
   "icon": "patex",
   "rpc": [
-    "https://rpc.patex.io/"
+    "https://rpc.patex.io/",
+    "https://rpc.patex.io",
+    "https://789.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +32,8 @@
       "icon": "patex",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://789.rpc.thirdweb.com": "yes"
+  }
 }

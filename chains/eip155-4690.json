@@ -1,8 +1,13 @@
 {
   "name": "IoTeX Network Testnet",
   "chain": "iotex.io",
-  "rpc": ["https://babel-api.testnet.iotex.io"],
-  "faucets": ["https://faucet.iotex.io/"],
+  "rpc": [
+    "https://babel-api.testnet.iotex.io",
+    "https://lb.routeme.sh/rpc/evm/4690"
+  ],
+  "faucets": [
+    "https://faucet.iotex.io/"
+  ],
   "nativeCurrency": {
     "name": "IoTeX",
     "symbol": "IOTX",
@@ -19,5 +24,8 @@
       "url": "https://testnet.iotexscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/4690": "limited"
+  }
 }

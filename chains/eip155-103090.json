@@ -3,7 +3,8 @@
   "chain": "crystal",
   "rpc": [
     "https://evm.cryptocurrencydevs.org",
-    "https://rpc.crystaleum.org"
+    "https://rpc.crystaleum.org",
+    "https://103090.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "icon": "crystal",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://103090.rpc.thirdweb.com": "yes"
+  }
 }

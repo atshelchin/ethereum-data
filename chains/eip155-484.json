@@ -11,7 +11,9 @@
     }
   ],
   "rpc": [
-    "https://rpc.camp.raas.gelato.cloud"
+    "https://rpc.camp.raas.gelato.cloud",
+    "https://rpc-mainnet.campnetwork.xyz",
+    "https://484.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -31,5 +33,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://484.rpc.thirdweb.com": "yes"
+  }
 }

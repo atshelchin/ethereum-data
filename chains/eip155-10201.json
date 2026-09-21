@@ -4,7 +4,8 @@
   "rpc": [
     "https://rpc.maxxchain.org",
     "https://rpc1.maxxchain.org",
-    "https://rpc2.maxxchain.org"
+    "https://rpc2.maxxchain.org",
+    "https://10201.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.maxxchain.org"
@@ -25,5 +26,8 @@
       "url": "https://explorer.maxxchain.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://10201.rpc.thirdweb.com": "yes"
+  }
 }

@@ -4,7 +4,8 @@
   "chain": "LAOS Sigma Testnet",
   "rpc": [
     "wss://rpc.laossigma.laosfoundation.io",
-    "https://rpc.laossigma.laosfoundation.io"
+    "https://rpc.laossigma.laosfoundation.io",
+    "https://lb.routeme.sh/rpc/evm/62850"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/62850": "limited"
+  }
 }

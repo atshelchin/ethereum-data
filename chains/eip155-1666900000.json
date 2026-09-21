@@ -1,7 +1,11 @@
 {
   "name": "Harmony Devnet Shard 0",
   "chain": "Harmony",
-  "rpc": ["https://api.s0.ps.hmny.io"],
+  "rpc": [
+    "https://api.s0.ps.hmny.io",
+    "https://lb.routeme.sh/rpc/evm/1666900000",
+    "https://1666900000.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ONE",
@@ -12,5 +16,9 @@
   "shortName": "hmy-ps-s0",
   "chainId": 1666900000,
   "networkId": 1666900000,
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1666900000": "limited",
+    "https://1666900000.rpc.thirdweb.com": "yes"
+  }
 }

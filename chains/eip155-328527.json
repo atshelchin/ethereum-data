@@ -4,7 +4,8 @@
   "icon": "nal",
   "rpc": [
     "wss://wss.nal.network",
-    "https://rpc.nal.network"
+    "https://rpc.nal.network",
+    "https://328527.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,9 @@
       "url": "https://scan.nal.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.nal.network": "yes",
+    "https://328527.rpc.thirdweb.com": "yes"
+  }
 }

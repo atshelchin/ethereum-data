@@ -4,7 +4,10 @@
   "icon": "qie",
   "rpc": [
     "https://rpc-main1.qiblockchain.online/",
-    "https://rpc-main2.qiblockchain.online/"
+    "https://rpc-main2.qiblockchain.online/",
+    "https://rpc-main1.qiblockchain.online",
+    "https://rpc-main2.qiblockchain.online",
+    "https://5656.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +25,8 @@
       "url": "https://mainnet.qiblockchain.online",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://5656.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,11 @@
   "name": "K2 Mainnet",
   "chain": "K2",
   "icon": "karak",
-  "rpc": ["https://rpc.karak.network"],
+  "rpc": [
+    "https://rpc.karak.network",
+    "https://lb.routeme.sh/rpc/evm/2410",
+    "https://2410.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -23,5 +27,9 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2410": "limited",
+    "https://2410.rpc.thirdweb.com": "yes"
   }
 }

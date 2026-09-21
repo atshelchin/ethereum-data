@@ -8,7 +8,11 @@
     "wss://rpc.sepolia.linea.build",
     "https://linea-sepolia.infura.io/v3/${INFURA_API_KEY}",
     "wss://linea-sepolia.infura.io/ws/v3/${INFURA_API_KEY}",
-    "wss://linea-sepolia-rpc.publicnode.com"
+    "wss://linea-sepolia-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/59141",
+    "https://linea-sepolia.drpc.org",
+    "wss://linea-sepolia.drpc.org",
+    "https://linea-sepolia.therpc.io"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -53,5 +57,11 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/59141": "limited",
+    "https://linea-sepolia.drpc.org": "none",
+    "wss://linea-sepolia.drpc.org": "none",
+    "https://linea-sepolia.therpc.io": "limited"
   }
 }

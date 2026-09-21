@@ -2,7 +2,9 @@
   "name": "Lambda Chain Mainnet",
   "chain": "Lambda Chain",
   "rpc": [
-    "https://nrpc.lambda.im/"
+    "https://nrpc.lambda.im/",
+    "https://nrpc.lambda.im",
+    "https://56026.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,8 @@
       "url": "https://scan.lambda.im",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://56026.rpc.thirdweb.com": "yes"
+  }
 }

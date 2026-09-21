@@ -3,7 +3,13 @@
   "chain": "Rootstock",
   "rpc": [
     "https://public-node.rsk.co",
-    "https://mycrypto.rsk.co"
+    "https://mycrypto.rsk.co",
+    "https://lb.routeme.sh/rpc/evm/30",
+    "https://rootstock.drpc.org",
+    "wss://rootstock.drpc.org",
+    "https://rootstock-mainnet.public.blastapi.io",
+    "https://rsk-mainnet.gateway.tatum.io",
+    "https://30.rpc.thirdweb.com"
   ],
   "faucets": [],
   "icon": "rootstock",
@@ -54,5 +60,13 @@
       "quoterV2": "0xb51727c996C68E60F598A923a5006853cd2fEB31"
     },
     "url": "https://oku.trade"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/30": "limited",
+    "https://rootstock.drpc.org": "none",
+    "wss://rootstock.drpc.org": "none",
+    "https://rootstock-mainnet.public.blastapi.io": "limited",
+    "https://rsk-mainnet.gateway.tatum.io": "yes",
+    "https://30.rpc.thirdweb.com": "yes"
   }
 }

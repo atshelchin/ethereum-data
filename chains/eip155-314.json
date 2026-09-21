@@ -8,7 +8,15 @@
     "https://rpc.ankr.com/filecoin",
     "https://filfox.info/rpc/v1",
     "wss://filecoin.drpc.org",
-    "https://filecoin-mainnet.chainstacklabs.com/rpc/v1"
+    "https://filecoin-mainnet.chainstacklabs.com/rpc/v1",
+    "https://lb.routeme.sh/rpc/evm/314",
+    "https://api.node.glif.io",
+    "https://node.filutils.com/rpc/v1",
+    "https://filecoin.chainup.net/rpc/v1",
+    "https://infura.sftproject.io/filecoin/rpc/v1",
+    "https://api.chain.love/rpc/v1",
+    "https://filecoin.lava.build",
+    "https://314.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -72,5 +80,15 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://filecoin.drpc.org": "none",
+    "https://rpc.ankr.com/filecoin": "limited",
+    "wss://filecoin.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/314": "limited",
+    "https://filecoin.chainup.net/rpc/v1": "limited",
+    "https://infura.sftproject.io/filecoin/rpc/v1": "yes",
+    "https://filecoin.lava.build": "yes",
+    "https://314.rpc.thirdweb.com": "yes"
   }
 }

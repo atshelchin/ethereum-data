@@ -11,7 +11,11 @@
     "wss://bahamut-rpc.publicnode.com",
     "https://rpc1.ftnscan.io",
     "https://rpc2.ftnscan.io",
-    "https://bahamut-rpc.publicnode.com"
+    "https://bahamut-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/5165",
+    "https://Bahamut-mainnet-2h93.zeeve.net",
+    "https://rpc.ankr.com/bahamut",
+    "https://5165.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -42,5 +46,13 @@
       "url": "https://ftnscan.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "wss://bahamut-rpc.publicnode.com": "none",
+    "https://bahamut-rpc.publicnode.com": "none",
+    "https://lb.routeme.sh/rpc/evm/5165": "limited",
+    "https://Bahamut-mainnet-2h93.zeeve.net": "none",
+    "https://rpc.ankr.com/bahamut": "none",
+    "https://5165.rpc.thirdweb.com": "yes"
+  }
 }

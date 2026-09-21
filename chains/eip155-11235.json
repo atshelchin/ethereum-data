@@ -6,7 +6,14 @@
     "https://rpc.eth.haqq.network",
     "https://haqq.drpc.org",
     "wss://haqq-evm-rpc.publicnode.com",
-    "wss://haqq.drpc.org"
+    "wss://haqq.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/11235",
+    "https://haqq-evm.publicnode.com",
+    "wss://haqq-evm.publicnode.com",
+    "https://evm.haqq.sh",
+    "wss://evm-ws.haqq.sh",
+    "https://haqq-mainnet.gateway.tatum.io",
+    "https://11235.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -49,5 +56,16 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://haqq.drpc.org": "none",
+    "wss://haqq.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/11235": "limited",
+    "https://haqq-evm.publicnode.com": "none",
+    "wss://haqq-evm.publicnode.com": "none",
+    "https://evm.haqq.sh": "none",
+    "wss://evm-ws.haqq.sh": "none",
+    "https://haqq-mainnet.gateway.tatum.io": "yes",
+    "https://11235.rpc.thirdweb.com": "yes"
   }
 }

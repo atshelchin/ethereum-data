@@ -2,7 +2,8 @@
   "name": "ThaiChain 2.0 ThaiFi",
   "chain": "TCH",
   "rpc": [
-    "https://rpc.thaifi.com"
+    "https://rpc.thaifi.com",
+    "https://17.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://exp.thaifi.com",
   "shortName": "tfi",
   "chainId": 17,
-  "networkId": 17
+  "networkId": 17,
+  "rpcTracking": {
+    "https://17.rpc.thirdweb.com": "yes"
+  }
 }

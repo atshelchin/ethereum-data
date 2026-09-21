@@ -2,7 +2,10 @@
   "name": "Stability Testnet",
   "chain": "stabilityTestnet",
   "icon": "stabilitytestnet",
-  "rpc": ["https://free.testnet.stabilityprotocol.com"],
+  "rpc": [
+    "https://free.testnet.stabilityprotocol.com",
+    "https://lb.routeme.sh/rpc/evm/20180427"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FREE",
@@ -20,5 +23,8 @@
       "url": "https://stability-testnet.blockscout.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/20180427": "limited"
+  }
 }

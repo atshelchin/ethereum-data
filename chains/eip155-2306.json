@@ -1,7 +1,11 @@
 {
   "name": "Ebro Network",
   "chain": "ebro",
-  "rpc": ["https://greendinoswap.com"],
+  "rpc": [
+    "https://greendinoswap.com",
+    "https://lb.routeme.sh/rpc/evm/2306",
+    "https://2306.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ebro",
@@ -11,5 +15,9 @@
   "infoURL": "https://www.ebrochain.com",
   "shortName": "ebro",
   "chainId": 2306,
-  "networkId": 2306
+  "networkId": 2306,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2306": "limited",
+    "https://2306.rpc.thirdweb.com": "yes"
+  }
 }

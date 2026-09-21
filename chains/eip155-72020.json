@@ -21,5 +21,8 @@
       "url": "https://eavscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.eavscan.com": "limited"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "Autobahn Network",
   "chain": "TXL",
   "rpc": [
-    "https://rpc.autobahn.network"
+    "https://rpc.autobahn.network",
+    "https://45000.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "autobahn",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://45000.rpc.thirdweb.com": "yes"
+  }
 }

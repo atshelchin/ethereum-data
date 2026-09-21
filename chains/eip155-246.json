@@ -3,7 +3,9 @@
   "chain": "Energy Web Chain",
   "rpc": [
     "https://rpc.energyweb.org",
-    "wss://rpc.energyweb.org/ws"
+    "wss://rpc.energyweb.org/ws",
+    "https://lb.routeme.sh/rpc/evm/246",
+    "https://246.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,9 @@
       "standard": "none"
     }
   ],
-  "wrappedNativeToken": "0x6b3bd0478DF0eC4984b168Db0E12A539Cc0c83cd"
+  "wrappedNativeToken": "0x6b3bd0478DF0eC4984b168Db0E12A539Cc0c83cd",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/246": "limited",
+    "https://246.rpc.thirdweb.com": "yes"
+  }
 }

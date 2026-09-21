@@ -2,7 +2,8 @@
   "name": "QuarkChain L2 Mainnet",
   "chain": "QuarkChain",
   "rpc": [
-    "https://mainnet-l2-ethapi.quarkchain.io"
+    "https://mainnet-l2-ethapi.quarkchain.io",
+    "https://100011.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -17,5 +18,8 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-100000"
+  },
+  "rpcTracking": {
+    "https://100011.rpc.thirdweb.com": "yes"
   }
 }

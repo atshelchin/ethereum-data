@@ -10,7 +10,8 @@
     }
   ],
   "rpc": [
-    "https://testnet.bitfinity.network"
+    "https://testnet.bitfinity.network",
+    "https://lb.routeme.sh/rpc/evm/355113"
   ],
   "faucets": [
     "https://bitfinity.network/faucet"
@@ -37,5 +38,8 @@
       "icon": "dexguru",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/355113": "limited"
+  }
 }

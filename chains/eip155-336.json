@@ -7,7 +7,12 @@
     "wss://shiden.public.blastapi.io",
     "wss://shiden-rpc.dwellir.com",
     "https://shiden-rpc.dwellir.com",
-    "https://shiden.public.blastapi.io"
+    "https://shiden.public.blastapi.io",
+    "https://lb.routeme.sh/rpc/evm/336",
+    "https://rpc.shiden.astar.network:8545",
+    "https://shiden.public.curie.radiumblock.co/http",
+    "https://shiden.public.curie.radiumblock.co/ws",
+    "https://336.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -37,5 +42,15 @@
   "wrappedNativeToken": "0x0f933Dc137D21cA519ae4C7E93f87a4C8EF365Ef",
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://shiden.api.onfinality.io/public": "limited",
+    "wss://shiden-rpc.dwellir.com": "limited",
+    "https://shiden-rpc.dwellir.com": "limited",
+    "https://shiden.public.blastapi.io": "limited",
+    "https://lb.routeme.sh/rpc/evm/336": "limited",
+    "https://shiden.public.curie.radiumblock.co/http": "none",
+    "https://shiden.public.curie.radiumblock.co/ws": "none",
+    "https://336.rpc.thirdweb.com": "yes"
   }
 }

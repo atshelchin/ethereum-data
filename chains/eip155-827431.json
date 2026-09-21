@@ -3,7 +3,8 @@
   "chain": "CURVE",
   "icon": "curveIcon",
   "rpc": [
-    "https://mainnet-rpc.curvescan.io"
+    "https://mainnet-rpc.curvescan.io",
+    "https://827431.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://curvescan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://827431.rpc.thirdweb.com": "yes"
+  }
 }

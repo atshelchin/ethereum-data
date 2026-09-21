@@ -2,7 +2,10 @@
   "name": "ZEUS Testnet",
   "chain": "tZEUS",
   "icon": "zeusicon",
-  "rpc": ["https://testnet-rpc.zeuschainscan.io"],
+  "rpc": [
+    "https://testnet-rpc.zeuschainscan.io",
+    "https://lb.routeme.sh/rpc/evm/7244"
+  ],
   "nativeCurrency": {
     "name": "The ZEUS Token",
     "symbol": "ZEUSX",
@@ -12,7 +15,9 @@
   "shortName": "ZEUS-Testnet",
   "chainId": 7244,
   "networkId": 7244,
-  "faucets": ["https://faucet.zeuschainscan.io"],
+  "faucets": [
+    "https://faucet.zeuschainscan.io"
+  ],
   "explorers": [
     {
       "name": "ZEUS Testnet Explorer",
@@ -20,5 +25,8 @@
       "icon": "zeusicon",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/7244": "limited"
+  }
 }

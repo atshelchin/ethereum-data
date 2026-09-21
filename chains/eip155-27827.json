@@ -2,7 +2,8 @@
   "name": "zeroone Mainnet Subnet",
   "chain": "ZEROONEMAI",
   "rpc": [
-    "https://subnets.avax.network/zeroonemai/mainnet/rpc"
+    "https://subnets.avax.network/zeroonemai/mainnet/rpc",
+    "https://27827.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -28,5 +29,8 @@
       "url": "https://subnets.avax.network/zeroonemai",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://27827.rpc.thirdweb.com": "yes"
+  }
 }

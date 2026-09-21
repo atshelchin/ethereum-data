@@ -1,7 +1,14 @@
 {
   "name": "BEVM Canary",
   "chain": "ChainX",
-  "rpc": ["https://rpc-canary-1.bevm.io/", "https://rpc-canary-2.bevm.io/"],
+  "rpc": [
+    "https://rpc-canary-1.bevm.io/",
+    "https://rpc-canary-2.bevm.io/",
+    "https://lb.routeme.sh/rpc/evm/1501",
+    "https://rpc-canary-1.bevm.io",
+    "https://rpc-canary-2.bevm.io",
+    "https://1501.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",
@@ -19,5 +26,9 @@
       "url": "https://scan-canary.bevm.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1501": "limited",
+    "https://1501.rpc.thirdweb.com": "yes"
+  }
 }

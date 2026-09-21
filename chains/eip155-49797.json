@@ -1,7 +1,10 @@
 {
   "name": "Energi Testnet",
   "chain": "NRG",
-  "rpc": ["https://nodeapi.test.energi.network"],
+  "rpc": [
+    "https://nodeapi.test.energi.network",
+    "https://lb.routeme.sh/rpc/evm/49797"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Energi",
@@ -12,5 +15,8 @@
   "shortName": "tnrg",
   "chainId": 49797,
   "networkId": 49797,
-  "slip44": 1
+  "slip44": 1,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/49797": "limited"
+  }
 }

@@ -2,7 +2,10 @@
   "name": "bokuto",
   "chain": "bokuto",
   "rpc": [
-    "https://rpc-bokuto.katanarpc.com"
+    "https://rpc-bokuto.katanarpc.com",
+    "https://katana-testnet.drpc.org",
+    "wss://katana-testnet.drpc.org",
+    "https://subnets.avax.network/cx/mainnet/rpc"
   ],
   "faucets": [
     "https://faucet.katana.tools"
@@ -35,5 +38,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://katana-testnet.drpc.org": "none",
+    "wss://katana-testnet.drpc.org": "none"
+  }
 }

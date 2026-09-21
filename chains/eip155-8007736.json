@@ -2,7 +2,8 @@
   "name": "Plian Mainnet Subchain 1",
   "chain": "Plian",
   "rpc": [
-    "https://mainnet.plian.io/child_0"
+    "https://mainnet.plian.io/child_0",
+    "https://8007736.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +25,8 @@
   "parent": {
     "chain": "eip155-2099156",
     "type": "L2"
+  },
+  "rpcTracking": {
+    "https://8007736.rpc.thirdweb.com": "yes"
   }
 }

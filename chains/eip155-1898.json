@@ -3,7 +3,8 @@
   "chain": "BON",
   "rpc": [
     "ws://rpc.boyanet.org:8546",
-    "http://rpc.boyanet.org:8545"
+    "http://rpc.boyanet.org:8545",
+    "https://1898.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.boyanet.org:4001",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1898.rpc.thirdweb.com": "yes"
+  }
 }

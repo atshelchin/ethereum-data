@@ -4,7 +4,8 @@
   "rpc": [
     "https://rpc-1-testnet.exorium.net",
     "https://rpc-2-testnet.exorium.net",
-    "https://rpc-testnet.exoscan.net/"
+    "https://rpc-testnet.exoscan.net/",
+    "https://rpc-testnet.exoscan.net"
   ],
   "faucets": [
     "https://faucet-testnet.exorium.net"

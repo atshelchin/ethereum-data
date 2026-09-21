@@ -17,7 +17,11 @@
     "wss://moonriver-rpc.publicnode.com",
     "wss://moonriver.drpc.org",
     "https://moonriver.public.blastapi.io",
-    "https://moonriver-rpc.dwellir.com"
+    "https://moonriver-rpc.dwellir.com",
+    "https://lb.routeme.sh/rpc/evm/1285",
+    "https://rpc.swiftnodes.io/rpc/moonriver",
+    "wss://moonriver.api.pocket.network",
+    "https://1285.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -54,5 +58,24 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://rpc.api.moonriver.moonbeam.network": "limited",
+    "https://moonriver-rpc.publicnode.com": "none",
+    "https://moonriver.unitedbloc.com": "yes",
+    "https://moonriver.api.pocket.network": "none",
+    "https://moonriver.api.onfinality.io/public": "limited",
+    "https://moonriver.drpc.org": "none",
+    "wss://wss.api.moonriver.moonbeam.network": "limited",
+    "wss://moonriver-rpc.dwellir.com": "limited",
+    "wss://moonriver.api.onfinality.io/public-ws": "limited",
+    "wss://moonriver.unitedbloc.com": "yes",
+    "wss://moonriver-rpc.publicnode.com": "none",
+    "wss://moonriver.drpc.org": "none",
+    "https://moonriver-rpc.dwellir.com": "limited",
+    "https://lb.routeme.sh/rpc/evm/1285": "limited",
+    "https://rpc.swiftnodes.io/rpc/moonriver": "limited",
+    "wss://moonriver.api.pocket.network": "none",
+    "https://1285.rpc.thirdweb.com": "yes"
   }
 }

@@ -1,7 +1,9 @@
 {
   "name": "Setheum",
   "chain": "Setheum",
-  "rpc": [],
+  "rpc": [
+    "https://258.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Setheum",
@@ -11,5 +13,8 @@
   "infoURL": "https://setheum.xyz",
   "shortName": "setm",
   "chainId": 258,
-  "networkId": 258
+  "networkId": 258,
+  "rpcTracking": {
+    "https://258.rpc.thirdweb.com": "yes"
+  }
 }

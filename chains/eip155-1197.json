@@ -3,7 +3,8 @@
   "chain": "IORA",
   "icon": "iorachain",
   "rpc": [
-    "https://dataseed.iorachain.com"
+    "https://dataseed.iorachain.com",
+    "https://1197.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.iorachain.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1197.rpc.thirdweb.com": "yes"
+  }
 }

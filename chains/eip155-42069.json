@@ -1,7 +1,9 @@
 {
   "name": "pegglecoin",
   "chain": "42069",
-  "rpc": [],
+  "rpc": [
+    "https://42069.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "pegglecoin",
@@ -11,5 +13,8 @@
   "infoURL": "https://teampeggle.com",
   "shortName": "PC",
   "chainId": 42069,
-  "networkId": 42069
+  "networkId": 42069,
+  "rpcTracking": {
+    "https://42069.rpc.thirdweb.com": "yes"
+  }
 }

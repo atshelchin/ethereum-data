@@ -10,7 +10,9 @@
     "wss://rpc.syscoin.org/wss",
     "wss://syscoin-evm.publicnode.com",
     "wss://syscoin-evm-rpc.publicnode.com",
-    "https://syscoin.public-rpc.com"
+    "https://syscoin.public-rpc.com",
+    "https://lb.routeme.sh/rpc/evm/57",
+    "https://rpc.ankr.com/syscoin"
   ],
   "faucets": [
     "https://faucet.syscoin.org"
@@ -30,5 +32,12 @@
       "url": "https://explorer.syscoin.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://syscoin-evm.publicnode.com": "none",
+    "https://57.rpc.thirdweb.com": "yes",
+    "wss://syscoin-evm.publicnode.com": "none",
+    "https://lb.routeme.sh/rpc/evm/57": "limited",
+    "https://rpc.ankr.com/syscoin": "limited"
+  }
 }

@@ -2,7 +2,12 @@
   "name": "Shyft Mainnet",
   "chain": "SHYFT",
   "icon": "shyft",
-  "rpc": ["https://rpc.shyft.network/"],
+  "rpc": [
+    "https://rpc.shyft.network/",
+    "https://lb.routeme.sh/rpc/evm/7341",
+    "https://rpc.shyft.network",
+    "https://7341.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Shyft",
@@ -20,5 +25,9 @@
       "url": "https://bx.shyft.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/7341": "limited",
+    "https://7341.rpc.thirdweb.com": "yes"
+  }
 }

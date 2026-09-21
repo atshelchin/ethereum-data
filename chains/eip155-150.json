@@ -3,7 +3,8 @@
   "chain": "FIVENET",
   "icon": "six",
   "rpc": [
-    "https://rpc-evm.fivenet.sixprotocol.net"
+    "https://rpc-evm.fivenet.sixprotocol.net",
+    "https://lb.routeme.sh/rpc/evm/150"
   ],
   "faucets": [
     "https://faucet.sixprotocol.net"
@@ -27,5 +28,8 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/150": "limited"
   }
 }

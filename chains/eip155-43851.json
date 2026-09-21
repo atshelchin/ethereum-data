@@ -2,7 +2,8 @@
   "name": "ZKFair Testnet",
   "chain": "ETH",
   "rpc": [
-    "https://testnet-rpc.zkfair.io"
+    "https://testnet-rpc.zkfair.io",
+    "https://endpoints.omniatech.io/v1/zkfair/testnet/public"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -31,5 +32,8 @@
       "icon": "zkfair",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://endpoints.omniatech.io/v1/zkfair/testnet/public": "none"
+  }
 }

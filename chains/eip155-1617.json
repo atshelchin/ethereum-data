@@ -2,7 +2,8 @@
   "name": "Ethereum Inscription Mainnet",
   "chain": "ETINS",
   "rpc": [
-    "https://rpc.etins.org"
+    "https://rpc.etins.org",
+    "https://1617.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -28,5 +29,8 @@
       "url": "https://explorer.etins.org",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1617.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,9 @@
   "name": "Godwoken Mainnet",
   "chain": "GWT",
   "rpc": [
-    "https://v1.mainnet.godwoken.io/rpc"
+    "https://v1.mainnet.godwoken.io/rpc",
+    "https://lb.routeme.sh/rpc/evm/71402",
+    "https://71402.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +22,9 @@
       "url": "https://v1.gwscan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/71402": "limited",
+    "https://71402.rpc.thirdweb.com": "yes"
+  }
 }

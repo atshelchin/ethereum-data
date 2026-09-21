@@ -2,7 +2,11 @@
   "name": "Miexs Smartchain",
   "chain": "MiexsSmartchain",
   "icon": "miexs",
-  "rpc": ["https://mainnet-rpc.miexs.com"],
+  "rpc": [
+    "https://mainnet-rpc.miexs.com",
+    "https://lb.routeme.sh/rpc/evm/761412",
+    "https://761412.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Miexs Coin",
@@ -19,5 +23,9 @@
       "url": "https://miexs.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/761412": "limited",
+    "https://761412.rpc.thirdweb.com": "yes"
+  }
 }

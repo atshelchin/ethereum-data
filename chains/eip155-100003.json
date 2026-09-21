@@ -3,7 +3,9 @@
   "chain": "QuarkChain",
   "rpc": [
     "http://eth-jrpc.mainnet.quarkchain.io:39002",
-    "https://mainnet-s2-ethapi.quarkchain.io"
+    "https://mainnet-s2-ethapi.quarkchain.io",
+    "https://lb.routeme.sh/rpc/evm/100003",
+    "https://100003.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +27,9 @@
       "url": "https://mainnet.quarkchain.io/2",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/100003": "limited",
+    "https://100003.rpc.thirdweb.com": "yes"
+  }
 }

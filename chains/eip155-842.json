@@ -4,7 +4,8 @@
   "icon": "taraxa",
   "rpc": [
     "https://rpc.testnet.taraxa.io/",
-    "https://ws.testnet.taraxa.io"
+    "https://ws.testnet.taraxa.io",
+    "https://rpc.testnet.taraxa.io"
   ],
   "faucets": [
     "https://explorer.testnet.taraxa.io/faucet"

@@ -2,7 +2,8 @@
   "name": "Helios Chain Testnet",
   "chain": "Helios Chain",
   "rpc": [
-    "https://testnet1.helioschainlabs.org"
+    "https://testnet1.helioschainlabs.org",
+    "https://42000.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://testnet.helioschain.network"
@@ -36,5 +37,8 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "status": "active",
+  "rpcTracking": {
+    "https://42000.rpc.thirdweb.com": "yes"
+  }
 }

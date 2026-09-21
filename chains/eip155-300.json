@@ -4,7 +4,11 @@
   "rpc": [
     "https://zksync-sepolia.drpc.org",
     "https://sepolia.era.zksync.dev",
-    "wss://zksync-sepolia.drpc.org"
+    "wss://zksync-sepolia.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/300",
+    "https://endpoints.omniatech.io/v1/zksync-era/sepolia/public",
+    "https://rpc.ankr.com/zksync_era_sepolia",
+    "https://zksync-sepolia.api.onfinality.io/public"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -45,5 +49,11 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/300": "limited",
+    "https://endpoints.omniatech.io/v1/zksync-era/sepolia/public": "none",
+    "https://rpc.ankr.com/zksync_era_sepolia": "none",
+    "https://zksync-sepolia.api.onfinality.io/public": "limited"
   }
 }

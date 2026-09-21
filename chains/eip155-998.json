@@ -2,7 +2,11 @@
   "name": "Hyperliquid EVM Testnet",
   "chain": "HYPE",
   "rpc": [
-    "https://api.hyperliquid-testnet.xyz/evm"
+    "https://api.hyperliquid-testnet.xyz/evm",
+    "https://lb.routeme.sh/rpc/evm/998",
+    "https://rpc.hyperliquid-testnet.xyz/evm",
+    "https://spectrum-01.simplystaking.xyz/hyperliquid-tn-rpc/evm",
+    "https://rpcs.chain.link/hyperevm/testnet"
   ],
   "features": [
     {
@@ -25,5 +29,10 @@
   "explorers": [],
   "redFlags": [
     "reusedChainId"
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/998": "limited",
+    "https://spectrum-01.simplystaking.xyz/hyperliquid-tn-rpc/evm": "yes",
+    "https://rpcs.chain.link/hyperevm/testnet": "yes"
+  }
 }

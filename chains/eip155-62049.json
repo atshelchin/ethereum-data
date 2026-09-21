@@ -2,7 +2,8 @@
   "name": "OPTOPIA Testnet",
   "chain": "ETH",
   "rpc": [
-    "https://rpc-testnet.optopia.ai"
+    "https://rpc-testnet.optopia.ai",
+    "https://lb.routeme.sh/rpc/evm/62049"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -36,5 +37,8 @@
         "url": "https://bridge-testnet.optopia.ai"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/62049": "limited"
   }
 }

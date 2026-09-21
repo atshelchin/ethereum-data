@@ -2,7 +2,8 @@
   "name": "Web3Q Galileo",
   "chain": "Web3Q",
   "rpc": [
-    "https://galileo.web3q.io:8545"
+    "https://galileo.web3q.io:8545",
+    "https://3334.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://explorer.galileo.web3q.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://3334.rpc.thirdweb.com": "yes"
+  }
 }

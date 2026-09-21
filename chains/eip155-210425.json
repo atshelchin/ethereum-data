@@ -3,7 +3,9 @@
   "chain": "PlatON",
   "rpc": [
     "https://openapi2.platon.network/rpc",
-    "wss://openapi2.platon.network/ws"
+    "wss://openapi2.platon.network/ws",
+    "https://lb.routeme.sh/rpc/evm/210425",
+    "https://210425.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +27,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/210425": "limited",
+    "https://210425.rpc.thirdweb.com": "yes"
   }
 }

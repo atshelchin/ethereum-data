@@ -4,7 +4,9 @@
   "chain": "arena-z",
   "rpc": [
     "wss://ws.arena-z.gg",
-    "https://rpc.arena-z.gg"
+    "https://rpc.arena-z.gg",
+    "https://lb.routeme.sh/rpc/evm/7897",
+    "https://7897.rpc.thirdweb.com"
   ],
   "nativeCurrency": {
     "name": "Ether",
@@ -33,5 +35,9 @@
         "url": "https://bridge.gelato.network/bridge/arena-z"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/7897": "limited",
+    "https://7897.rpc.thirdweb.com": "yes"
   }
 }

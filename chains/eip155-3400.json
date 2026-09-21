@@ -2,7 +2,9 @@
   "name": "Paribu Net Mainnet",
   "chain": "PRB",
   "rpc": [
-    "https://rpc.paribu.network"
+    "https://rpc.paribu.network",
+    "https://lb.routeme.sh/rpc/evm/3400",
+    "https://3400.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +23,9 @@
       "url": "https://explorer.paribu.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/3400": "limited",
+    "https://3400.rpc.thirdweb.com": "yes"
+  }
 }

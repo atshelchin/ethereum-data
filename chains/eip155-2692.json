@@ -1,14 +1,20 @@
 {
   "name": "Splendor Testnet",
   "chain": "SPLD-TESTNET",
-  "rpc": ["https://testnet-rpc.splendor.org"],
+  "rpc": [
+    "https://testnet-rpc.splendor.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Splendor Test Token",
     "symbol": "SPLDT",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://splendor.org",
   "shortName": "spldt",
   "chainId": 2692,
@@ -21,5 +27,8 @@
       "icon": "splendor",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://testnet-rpc.splendor.org": "none"
+  }
 }

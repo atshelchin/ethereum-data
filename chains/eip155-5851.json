@@ -10,7 +10,8 @@
     "https://polaris1.ont.io:10339",
     "https://polaris2.ont.io:10339",
     "https://polaris4.ont.io:10339",
-    "https://polaris3.ont.io:10339"
+    "https://polaris3.ont.io:10339",
+    "https://lb.routeme.sh/rpc/evm/5851"
   ],
   "faucets": [
     "https://developer.ont.io/"
@@ -34,5 +35,8 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/5851": "limited"
   }
 }

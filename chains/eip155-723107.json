@@ -2,7 +2,8 @@
   "name": "TixChain Testnet",
   "chain": "TIXCHAIN",
   "rpc": [
-    "https://subnets.avax.network/tixchain/testnet/rpc"
+    "https://subnets.avax.network/tixchain/testnet/rpc",
+    "https://lb.routeme.sh/rpc/evm/723107"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +26,8 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/723107": "limited"
+  }
 }

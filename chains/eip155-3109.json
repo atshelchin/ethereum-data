@@ -2,7 +2,8 @@
   "name": "SatoshiVM Alpha Mainnet",
   "chain": "SatoshiVM",
   "rpc": [
-    "https://alpha-rpc-node-http.svmscan.io"
+    "https://alpha-rpc-node-http.svmscan.io",
+    "https://3109.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +15,8 @@
   "shortName": "SAVM",
   "chainId": 3109,
   "networkId": 3109,
-  "icon": "satoshivm"
+  "icon": "satoshivm",
+  "rpcTracking": {
+    "https://3109.rpc.thirdweb.com": "yes"
+  }
 }

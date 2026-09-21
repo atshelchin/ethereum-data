@@ -1,14 +1,27 @@
 {
   "name": "BlockX Mainnet",
   "chain": "blockx",
-  "rpc": ["https://web3.blockxnet.com"],
-  "faucets": ["https://ping.blockxnet.com/blockx/faucet"],
+  "rpc": [
+    "https://web3.blockxnet.com",
+    "https://lb.routeme.sh/rpc/evm/19191",
+    "https://19191.rpc.thirdweb.com"
+  ],
+  "faucets": [
+    "https://ping.blockxnet.com/blockx/faucet"
+  ],
   "nativeCurrency": {
     "name": "BCX",
     "symbol": "BCX",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://www.blockxnet.com/",
   "shortName": "bcx",
   "chainId": 19191,
@@ -24,5 +37,9 @@
       "url": "https://ping.pub/BlockX",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/19191": "limited",
+    "https://19191.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "Furtheon",
   "chain": "Furtheon Network",
   "rpc": [
-    "https://rpc.furtheon.org"
+    "https://rpc.furtheon.org",
+    "https://308.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "http://furthscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://308.rpc.thirdweb.com": "yes"
+  }
 }

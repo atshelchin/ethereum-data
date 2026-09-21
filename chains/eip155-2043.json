@@ -3,7 +3,9 @@
   "chain": "NEUROWEB",
   "rpc": [
     "https://astrosat.origintrail.network",
-    "wss://parachain-rpc.origin-trail.network"
+    "wss://parachain-rpc.origin-trail.network",
+    "https://lb.routeme.sh/rpc/evm/2043",
+    "https://2043.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +16,9 @@
   "infoURL": "https://neuroweb.ai",
   "shortName": "NEURO",
   "chainId": 2043,
-  "networkId": 2043
+  "networkId": 2043,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2043": "limited",
+    "https://2043.rpc.thirdweb.com": "yes"
+  }
 }

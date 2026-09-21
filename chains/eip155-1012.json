@@ -1,7 +1,11 @@
 {
   "name": "Newton",
   "chain": "NEW",
-  "rpc": ["https://global.rpc.mainnet.newtonproject.org"],
+  "rpc": [
+    "https://global.rpc.mainnet.newtonproject.org",
+    "https://lb.routeme.sh/rpc/evm/1012",
+    "https://1012.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Newton",
@@ -11,5 +15,9 @@
   "infoURL": "https://www.newtonproject.org/",
   "shortName": "new",
   "chainId": 1012,
-  "networkId": 1012
+  "networkId": 1012,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1012": "limited",
+    "https://1012.rpc.thirdweb.com": "yes"
+  }
 }

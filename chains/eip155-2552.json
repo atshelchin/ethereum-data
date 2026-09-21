@@ -4,7 +4,9 @@
   "chain": "Bahamut",
   "icon": "bahamut",
   "rpc": [
-    "https://horizon-fastex-testnet.zeeve.net"
+    "https://horizon-fastex-testnet.zeeve.net",
+    "https://lb.routeme.sh/rpc/evm/2552",
+    "https://rpc.ankr.com/bahamut_horizon"
   ],
   "features": [
     {
@@ -30,5 +32,9 @@
       "url": "https://horizon.ftnscan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2552": "limited",
+    "https://rpc.ankr.com/bahamut_horizon": "none"
+  }
 }

@@ -4,7 +4,13 @@
   "rpc": [
     "https://plasma.drpc.org",
     "https://plasma.api.onfinality.io/public",
-    "https://rpc.plasma.to"
+    "https://rpc.plasma.to",
+    "https://lb.routeme.sh/rpc/evm/9745",
+    "https://rpc.nodeflare.app/plasma/public",
+    "wss://plasma.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/plasma",
+    "https://plasma-mainnet.gateway.tatum.io",
+    "https://9745.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +32,15 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://plasma.drpc.org": "none",
+    "https://plasma.api.onfinality.io/public": "limited",
+    "https://lb.routeme.sh/rpc/evm/9745": "limited",
+    "https://rpc.nodeflare.app/plasma/public": "none",
+    "wss://plasma.drpc.org": "none",
+    "https://rpc.swiftnodes.io/rpc/plasma": "limited",
+    "https://plasma-mainnet.gateway.tatum.io": "yes",
+    "https://9745.rpc.thirdweb.com": "yes"
   }
 }

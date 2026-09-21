@@ -2,7 +2,8 @@
   "name": "Smart Layer Network",
   "chain": "SLN",
   "rpc": [
-    "https://rpc.main.smartlayer.network"
+    "https://rpc.main.smartlayer.network",
+    "https://5169.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://explorer.main.smartlayer.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://5169.rpc.thirdweb.com": "yes"
+  }
 }

@@ -4,7 +4,8 @@
   "rpc": [
     "https://sgrpc.doken.dev",
     "https://nyrpc.doken.dev",
-    "https://ukrpc.doken.dev"
+    "https://ukrpc.doken.dev",
+    "https://61916.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +25,8 @@
       "icon": "doken",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://61916.rpc.thirdweb.com": "yes"
+  }
 }

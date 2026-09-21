@@ -3,7 +3,8 @@
   "chain": "Astra",
   "rpc": [
     "https://rpc.astranaut.io",
-    "https://rpc1.astranaut.io"
+    "https://rpc1.astranaut.io",
+    "https://11110.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,5 +30,8 @@
       "standard": "none",
       "icon": "astra"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://11110.rpc.thirdweb.com": "yes"
+  }
 }

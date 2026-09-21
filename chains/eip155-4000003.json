@@ -2,7 +2,8 @@
   "name": "AltLayer Zero Gas Network",
   "chain": "ETH",
   "rpc": [
-    "https://zero.alt.technology"
+    "https://zero.alt.technology",
+    "https://4000003.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +31,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://4000003.rpc.thirdweb.com": "yes"
+  }
 }

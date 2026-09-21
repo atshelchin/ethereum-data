@@ -3,7 +3,8 @@
   "chain": "VYO",
   "rpc": [
     "https://rpc-gw-1.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc",
-    "https://rpc-gw-2.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc"
+    "https://rpc-gw-2.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc",
+    "https://7771777.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -36,5 +37,8 @@
     "type": "L2",
     "chain": "eip155-43114",
     "bridges": []
+  },
+  "rpcTracking": {
+    "https://7771777.rpc.thirdweb.com": "yes"
   }
 }

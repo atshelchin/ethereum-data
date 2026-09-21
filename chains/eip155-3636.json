@@ -3,7 +3,8 @@
   "chain": "BOTANIX",
   "icon": "botanix",
   "rpc": [
-    "https://node.botanixlabs.dev"
+    "https://node.botanixlabs.dev",
+    "https://rpc.ankr.com/botanix_testnet"
   ],
   "faucets": [
     "https://faucet.botanixlabs.dev"
@@ -24,5 +25,8 @@
       "url": "https://testnet.botanixscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.ankr.com/botanix_testnet": "none"
+  }
 }

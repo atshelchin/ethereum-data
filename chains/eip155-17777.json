@@ -3,7 +3,10 @@
   "chain": "EOS",
   "icon": "eos",
   "rpc": [
-    "https://api.evm.eosnetwork.com"
+    "https://api.evm.eosnetwork.com",
+    "https://lb.routeme.sh/rpc/evm/17777",
+    "https://eos-mainnet.gateway.tatum.io",
+    "https://17777.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +25,11 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0xc00592aA41D32D137dC480d9f6d0Df19b860104F"
+  "wrappedNativeToken": "0xc00592aA41D32D137dC480d9f6d0Df19b860104F",
+  "rpcTracking": {
+    "https://api.evm.eosnetwork.com": "yes",
+    "https://lb.routeme.sh/rpc/evm/17777": "limited",
+    "https://eos-mainnet.gateway.tatum.io": "yes",
+    "https://17777.rpc.thirdweb.com": "yes"
+  }
 }

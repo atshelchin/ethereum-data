@@ -6,7 +6,14 @@
     "wss://fantom-testnet.drpc.org",
     "https://rpc.testnet.fantom.network",
     "https://fantom-testnet-rpc.publicnode.com",
-    "https://fantom-testnet.drpc.org"
+    "https://fantom-testnet.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/4002",
+    "https://endpoints.omniatech.io/v1/fantom/testnet/public",
+    "https://fantom-testnet.public.blastapi.io",
+    "https://fantom.api.onfinality.io/public",
+    "https://fantom-testnet.api.onfinality.io/public",
+    "https://fantom-testnet.therpc.io",
+    "https://fantom-testnet.gateway.tatum.io"
   ],
   "faucets": [
     "https://faucet.fantom.network"
@@ -29,5 +36,16 @@
       "icon": "ftmscan",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "wss://fantom-testnet-rpc.publicnode.com": "none",
+    "https://fantom-testnet-rpc.publicnode.com": "none",
+    "https://lb.routeme.sh/rpc/evm/4002": "limited",
+    "https://endpoints.omniatech.io/v1/fantom/testnet/public": "none",
+    "https://fantom-testnet.public.blastapi.io": "limited",
+    "https://fantom.api.onfinality.io/public": "limited",
+    "https://fantom-testnet.api.onfinality.io/public": "limited",
+    "https://fantom-testnet.therpc.io": "limited",
+    "https://fantom-testnet.gateway.tatum.io": "yes"
+  }
 }

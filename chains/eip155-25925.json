@@ -3,9 +3,12 @@
   "chain": "KUB",
   "rpc": [
     "https://rpc-testnet.bitkubchain.io",
-    "wss://wss-testnet.bitkubchain.io"
+    "wss://wss-testnet.bitkubchain.io",
+    "https://lb.routeme.sh/rpc/evm/25925"
   ],
-  "faucets": ["https://faucet.kubchain.com"],
+  "faucets": [
+    "https://faucet.kubchain.com"
+  ],
   "nativeCurrency": {
     "name": "KUB Coin",
     "symbol": "tKUB",
@@ -24,5 +27,8 @@
       "standard": "none",
       "icon": "kub"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/25925": "limited"
+  }
 }

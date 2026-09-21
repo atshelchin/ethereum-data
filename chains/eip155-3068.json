@@ -4,7 +4,9 @@
   "chain": "BFC",
   "rpc": [
     "https://public-02.mainnet.bifrostnetwork.com/rpc",
-    "https://public-01.mainnet.bifrostnetwork.com/rpc"
+    "https://public-01.mainnet.bifrostnetwork.com/rpc",
+    "https://lb.routeme.sh/rpc/evm/3068",
+    "https://3068.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,9 @@
       "url": "https://explorer.mainnet.bifrostnetwork.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/3068": "limited",
+    "https://3068.rpc.thirdweb.com": "yes"
+  }
 }

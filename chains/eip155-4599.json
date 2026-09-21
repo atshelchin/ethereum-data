@@ -1,0 +1,34 @@
+{
+  "name": "GTBS Chain",
+  "chain": "GTBS",
+  "icon": "gtbs",
+  "rpc": [
+    "https://mainnet-rpc.gtbsblockchain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "GTBS",
+    "symbol": "GTBS",
+    "decimals": 18
+  },
+  "infoURL": "https://gtbs.live",
+  "shortName": "gtbs",
+  "chainId": 4599,
+  "networkId": 4599,
+  "explorers": [
+    {
+      "name": "gtbs",
+      "url": "https://gtbsblockchain.com",
+      "icon": "gtbs",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
+}

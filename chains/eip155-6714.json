@@ -1,0 +1,34 @@
+{
+  "name": "ANUBIS Mainnet",
+  "chain": "ANUBIS",
+  "icon": "https://browser.anubispace.org/images/anubis_icon_800.png",
+  "rpc": [
+    "https://rpc.anubispace.org"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "gasDAI",
+    "symbol": "gasDAI",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.anubispace.org",
+  "shortName": "anubi",
+  "chainId": 6714,
+  "networkId": 6714,
+  "explorers": [
+    {
+      "name": "browser",
+      "url": "https://browser.anubispace.org",
+      "icon": "https://browser.anubispace.org/images/anubis_icon_800.png",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
+}

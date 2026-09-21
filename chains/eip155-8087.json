@@ -3,7 +3,8 @@
   "chain": "USD",
   "icon": "edollar",
   "rpc": [
-    "https://rpc.e-dollar.org"
+    "https://rpc.e-dollar.org",
+    "https://8087.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +16,8 @@
   "shortName": "E-Dollar",
   "chainId": 8087,
   "networkId": 8087,
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://8087.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,10 @@
   "name": "Htmlcoin Mainnet",
   "chain": "mainnet",
   "rpc": [
-    "https://janus.htmlcoin.com/api/"
+    "https://janus.htmlcoin.com/api/",
+    "https://janus.htmlcoin.dev/janus",
+    "https://janus.htmlcoin.com/api",
+    "https://4444.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://gruvin.me/htmlcoin"
@@ -25,5 +28,8 @@
       "icon": "htmlcoin",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://4444.rpc.thirdweb.com": "yes"
+  }
 }

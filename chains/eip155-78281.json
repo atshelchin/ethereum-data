@@ -6,7 +6,9 @@
     "https://dragonfly-rpc.block-spirit.ch",
     "https://dragonfly-rpc.phoenix-systems.io",
     "https://dragonfly-rpc.kore-technologies.ch",
-    "https://dragonfly-rpc.switch.ch"
+    "https://dragonfly-rpc.switch.ch",
+    "https://lb.routeme.sh/rpc/evm/78281",
+    "https://78281.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +27,9 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/78281": "limited",
+    "https://78281.rpc.thirdweb.com": "yes"
+  }
 }

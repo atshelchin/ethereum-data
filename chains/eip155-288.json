@@ -9,7 +9,14 @@
     "wss://boba-ethereum.gateway.tenderly.co/",
     "wss://gateway.tenderly.co/public/boba-ethereum",
     "wss://boba-eth.drpc.org",
-    "https://replica.boba.network"
+    "https://replica.boba.network",
+    "https://lb.routeme.sh/rpc/evm/288",
+    "https://public.1rpc.io/boba/eth",
+    "https://boba.api.pocket.network",
+    "https://api-boba-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+    "wss://boba.api.pocket.network",
+    "wss://boba-ethereum.gateway.tenderly.co",
+    "https://288.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -66,5 +73,17 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://boba-eth.drpc.org": "none",
+    "https://gateway.tenderly.co/public/boba-ethereum": "yes",
+    "https://boba-ethereum.gateway.tenderly.co": "yes",
+    "wss://boba-eth.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/288": "limited",
+    "https://public.1rpc.io/boba/eth": "none",
+    "https://boba.api.pocket.network": "none",
+    "https://api-boba-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c": "limited",
+    "wss://boba.api.pocket.network": "none",
+    "https://288.rpc.thirdweb.com": "yes"
   }
 }

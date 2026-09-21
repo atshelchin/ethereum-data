@@ -3,7 +3,9 @@
   "title": "Z Chain",
   "chain": "Z",
   "rpc": [
-    "https://rpc.zchain.org"
+    "https://rpc.zchain.org",
+    "https://lb.routeme.sh/rpc/evm/9369",
+    "https://9369.rpc.thirdweb.com"
   ],
   "faucets": [],
   "features": [
@@ -40,5 +42,9 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/9369": "limited",
+    "https://9369.rpc.thirdweb.com": "yes"
   }
 }

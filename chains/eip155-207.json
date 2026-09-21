@@ -3,7 +3,9 @@
   "chain": "VinuChain",
   "rpc": [
     "https://vinuchain-rpc.com",
-    "https://rpc.vinuchain.org"
+    "https://rpc.vinuchain.org",
+    "https://lb.routeme.sh/rpc/evm/207",
+    "https://207.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,9 @@
       "icon": "vinuscan",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/207": "limited",
+    "https://207.rpc.thirdweb.com": "yes"
+  }
 }

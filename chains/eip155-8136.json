@@ -1,7 +1,9 @@
 {
   "name": "Mizana",
   "chain": "MEER",
-  "rpc": [],
+  "rpc": [
+    "https://8136.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Mizana Mainnet",
@@ -13,5 +15,8 @@
   "icon": "meer",
   "chainId": 8136,
   "networkId": 8136,
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://8136.rpc.thirdweb.com": "yes"
+  }
 }

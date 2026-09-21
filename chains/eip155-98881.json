@@ -3,7 +3,8 @@
   "title": "Ebi Chain",
   "chain": "Ebi",
   "rpc": [
-    "https://rpc.ebi.xyz"
+    "https://rpc.ebi.xyz",
+    "https://98881.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +16,8 @@
   "shortName": "ebi",
   "chainId": 98881,
   "networkId": 98881,
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://98881.rpc.thirdweb.com": "yes"
+  }
 }

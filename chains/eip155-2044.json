@@ -2,7 +2,8 @@
   "name": "Shrapnel Subnet",
   "chain": "shrapnel",
   "rpc": [
-    "https://subnets.avax.network/shrapnel/mainnet/rpc"
+    "https://subnets.avax.network/shrapnel/mainnet/rpc",
+    "https://2044.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://www.shrapnel.com/",
   "shortName": "Shrapnel",
   "chainId": 2044,
-  "networkId": 2044
+  "networkId": 2044,
+  "rpcTracking": {
+    "https://2044.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,11 @@
   "name": "EIOB Mainnet",
   "chain": "EIOB",
   "icon": "eiob",
-  "rpc": ["https://rpc.eiob.xyz"],
+  "rpc": [
+    "https://rpc.eiob.xyz",
+    "https://lb.routeme.sh/rpc/evm/612",
+    "https://612.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "EIOB",
@@ -19,5 +23,9 @@
       "url": "https://explorer.eiob.xyz",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/612": "limited",
+    "https://612.rpc.thirdweb.com": "yes"
+  }
 }

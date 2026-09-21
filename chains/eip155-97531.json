@@ -3,7 +3,8 @@
   "chain": "Green Chain",
   "icon": "greenchain",
   "rpc": [
-    "https://node.greenchain.app/rpc/"
+    "https://node.greenchain.app/rpc/",
+    "https://node.greenchain.app/rpc"
   ],
   "faucets": [],
   "nativeCurrency": {

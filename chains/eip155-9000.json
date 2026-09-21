@@ -5,7 +5,26 @@
     "wss://evmos-testnet-evm-rpc.publicnode.com",
     "https://evmos-testnet.lava.build",
     "https://eth.bd.evmos.dev:8545",
-    "https://evmos-testnet-evm-rpc.publicnode.com"
+    "https://evmos-testnet-evm-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/9000",
+    "https://evmos-testnet-json.qubelabs.io",
+    "https://evmos-tjson.antrixy.org",
+    "https://evmos-testnet-rpc.kingsuper.services",
+    "https://rpc.evmos.test.theamsolutions.info",
+    "https://api.evmos-test.theamsolutions.info",
+    "https://rpc-evm.testnet.evmos.dragonstake.io",
+    "https://evmos-testnet-rpc.stake-town.com",
+    "https://evmos-testnet-jsonrpc.stake-town.com",
+    "https://jsonrpc-t.evmos.nodestake.top",
+    "https://evmos-testnet-jsonrpc.autostake.com",
+    "https://evmos-testnet-jsonrpc.alkadeta.com",
+    "https://evm-rpc.evmost.silentvalidator.com",
+    "https://testnet-evm-rpc-evmos.hoodrun.io",
+    "https://alphab.ai/rpc/eth/evmos_testnet",
+    "https://t-evmos-jsonrpc.kalia.network",
+    "https://jsonrpc-evmos-testnet.mzonder.com",
+    "https://evmos-testnet.drpc.org",
+    "wss://evmos-testnet.drpc.org"
   ],
   "faucets": [
     "https://faucet.evmos.dev"
@@ -28,5 +47,8 @@
       "standard": "none",
       "icon": "evmos"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/9000": "limited"
+  }
 }

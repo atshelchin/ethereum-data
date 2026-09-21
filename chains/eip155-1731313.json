@@ -2,7 +2,8 @@
   "name": "Turkey Demo Dev",
   "chain": "ETH",
   "rpc": [
-    "https://devchain-poa.huabeizhenxuan.com"
+    "https://devchain-poa.huabeizhenxuan.com",
+    "https://1731313.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "",
   "shortName": "TDD",
   "chainId": 1731313,
-  "networkId": 1731313
+  "networkId": 1731313,
+  "rpcTracking": {
+    "https://1731313.rpc.thirdweb.com": "yes"
+  }
 }

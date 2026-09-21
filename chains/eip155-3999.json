@@ -1,7 +1,11 @@
 {
   "name": "YuanChain Mainnet",
   "chain": "YCC",
-  "rpc": ["https://mainnet.yuan.org/eth"],
+  "rpc": [
+    "https://mainnet.yuan.org/eth",
+    "https://lb.routeme.sh/rpc/evm/3999",
+    "https://3999.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "YCC",
@@ -19,5 +23,9 @@
       "url": "https://mainnet.yuan.org",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/3999": "limited",
+    "https://3999.rpc.thirdweb.com": "yes"
+  }
 }

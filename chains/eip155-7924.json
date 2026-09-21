@@ -11,7 +11,9 @@
     "decimals": 18
   },
   "rpc": [
-    "https://mainnet-rpc.mochain.app/"
+    "https://mainnet-rpc.mochain.app/",
+    "https://mainnet-rpc.mochain.app",
+    "https://7924.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.mochain.app/"
@@ -23,5 +25,8 @@
       "standard": "none"
     }
   ],
-  "infoURL": "https://mochain.app"
+  "infoURL": "https://mochain.app",
+  "rpcTracking": {
+    "https://7924.rpc.thirdweb.com": "yes"
+  }
 }

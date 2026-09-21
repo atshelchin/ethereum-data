@@ -2,14 +2,24 @@
   "name": "BasedAI",
   "title": "BasedAI",
   "chain": "BasedAI",
-  "rpc": ["https://mainnet.basedaibridge.com/rpc/"],
+  "rpc": [
+    "https://mainnet.basedaibridge.com/rpc/",
+    "https://mainnet.basedaibridge.com/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BasedAI",
     "symbol": "BASED",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://getbased.ai",
   "shortName": "basedai",
   "chainId": 32323,

@@ -1,7 +1,9 @@
 {
   "name": "Oort Huygens",
   "chain": "Huygens",
-  "rpc": [],
+  "rpc": [
+    "https://971.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Oort",
@@ -12,5 +14,8 @@
   "shortName": "Huygens",
   "chainId": 971,
   "networkId": 971,
-  "icon": "ccn"
+  "icon": "ccn",
+  "rpcTracking": {
+    "https://971.rpc.thirdweb.com": "yes"
+  }
 }

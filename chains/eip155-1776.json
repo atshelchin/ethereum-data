@@ -6,7 +6,10 @@
     "https://sentry.evm-rpc.injective.network",
     "https://injectiveevm-rpc.polkachu.com",
     "wss://sentry.evm-ws.injective.network",
-    "wss://injectiveevm-ws.polkachu.com"
+    "wss://injectiveevm-ws.polkachu.com",
+    "https://injective-evm-rpc.scvsecurity.io",
+    "wss://injective-evm-ws.scvsecurity.io",
+    "https://1776.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -39,5 +42,8 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://1776.rpc.thirdweb.com": "yes"
   }
 }

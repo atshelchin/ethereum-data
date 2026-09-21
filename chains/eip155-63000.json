@@ -4,7 +4,8 @@
   "chain": "ECS",
   "rpc": [
     "https://rpc.esync.network",
-    "https://rpc.ecredits.com"
+    "https://rpc.ecredits.com",
+    "https://63000.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +25,8 @@
       "icon": "esync",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://63000.rpc.thirdweb.com": "yes"
+  }
 }

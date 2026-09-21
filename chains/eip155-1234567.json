@@ -3,7 +3,8 @@
   "chain": "SHARECLE",
   "icon": "sharecle",
   "rpc": [
-    "https://mainnet.sharecle.com"
+    "https://mainnet.sharecle.com",
+    "https://1234567.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "standard": "none",
       "icon": "sharecle"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1234567.rpc.thirdweb.com": "yes"
+  }
 }

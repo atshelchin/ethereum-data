@@ -6,7 +6,15 @@
     "https://rpc.ankr.com/kaia",
     "https://kaia.api.pocket.network",
     "https://klaytn.drpc.org",
-    "https://klaytn.api.onfinality.io/public"
+    "https://klaytn.api.onfinality.io/public",
+    "https://lb.routeme.sh/rpc/evm/8217",
+    "https://alpha-hardworking-orb.kaia-mainnet.quiknode.pro",
+    "https://kaia-public.nodies.app",
+    "https://public.1rpc.io/klay",
+    "https://kaia.therpc.io",
+    "https://kaia-mainnet.gateway.tatum.io",
+    "wss://klaytn.drpc.org",
+    "https://8217.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -75,5 +83,19 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://rpc.ankr.com/kaia": "limited",
+    "https://kaia.api.pocket.network": "none",
+    "https://klaytn.drpc.org": "none",
+    "https://klaytn.api.onfinality.io/public": "limited",
+    "https://lb.routeme.sh/rpc/evm/8217": "limited",
+    "https://alpha-hardworking-orb.kaia-mainnet.quiknode.pro": "yes",
+    "https://kaia-public.nodies.app": "limited",
+    "https://public.1rpc.io/klay": "none",
+    "https://kaia.therpc.io": "limited",
+    "https://kaia-mainnet.gateway.tatum.io": "limited",
+    "wss://klaytn.drpc.org": "none",
+    "https://8217.rpc.thirdweb.com": "yes"
   }
 }

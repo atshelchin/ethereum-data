@@ -1,0 +1,37 @@
+{
+  "name": "Morph Hoodi",
+  "chain": "ETH",
+  "icon": "https://icons.llamao.fi/icons/chains/rsz_morph.jpg",
+  "rpc": [
+    "https://morph-hoodi.drpc.org",
+    "https://rpc-hoodi.morphl2.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.morphl2.io",
+  "shortName": "morph",
+  "chainId": 2910,
+  "networkId": 2910,
+  "explorers": [
+    {
+      "name": "Morph Hoodi Testnet Explorer",
+      "url": "https://explorer-hoodi.morphl2.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "rpcTracking": {
+    "https://morph-hoodi.drpc.org": "none"
+  }
+}

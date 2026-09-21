@@ -3,7 +3,8 @@
   "chain": "Saakuru",
   "icon": "saakuru",
   "rpc": [
-    "https://rpc.saakuru.network"
+    "https://rpc.saakuru.network",
+    "https://7225878.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.saakuru.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://7225878.rpc.thirdweb.com": "yes"
+  }
 }

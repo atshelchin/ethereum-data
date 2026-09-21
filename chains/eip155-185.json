@@ -4,7 +4,8 @@
   "rpc": [
     "https://rpc.mintchain.io",
     "https://global.rpc.mintchain.io",
-    "https://asia.rpc.mintchain.io"
+    "https://asia.rpc.mintchain.io",
+    "https://185.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +25,8 @@
       "icon": "mint",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://185.rpc.thirdweb.com": "yes"
+  }
 }

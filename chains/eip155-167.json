@@ -3,7 +3,10 @@
   "chain": "ATOSHI",
   "icon": "atoshi",
   "rpc": [
-    "https://node.atoshi.io/"
+    "https://node.atoshi.io/",
+    "https://node.atoshi.io",
+    "https://node2.atoshi.io",
+    "https://node3.atoshi.io"
   ],
   "faucets": [],
   "nativeCurrency": {

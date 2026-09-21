@@ -1,7 +1,13 @@
 {
   "name": "NEAR Protocol",
   "chain": "NEAR",
-  "rpc": ["https://eth-rpc.mainnet.near.org"],
+  "rpc": [
+    "https://eth-rpc.mainnet.near.org",
+    "https://near.drpc.org",
+    "wss://near.drpc.org",
+    "https://near-mainnet.gateway.tatum.io",
+    "https://397.rpc.thirdweb.com"
+  ],
   "icon": "near",
   "faucets": [],
   "nativeCurrency": {
@@ -19,5 +25,11 @@
       "url": "https://eth-explorer.near.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://near.drpc.org": "none",
+    "wss://near.drpc.org": "none",
+    "https://near-mainnet.gateway.tatum.io": "yes",
+    "https://397.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,8 +2,14 @@
   "name": "Puppynet",
   "chain": "Puppynet",
   "icon": "shibarium",
-  "rpc": ["https://puppynet.shibrpc.com"],
-  "faucets": ["https://shibarium.shib.io/faucet"],
+  "rpc": [
+    "https://puppynet.shibrpc.com",
+    "https://lb.routeme.sh/rpc/evm/157",
+    "https://157.rpc.thirdweb.com"
+  ],
+  "faucets": [
+    "https://shibarium.shib.io/faucet"
+  ],
   "nativeCurrency": {
     "name": "BONE",
     "symbol": "BONE",
@@ -19,5 +25,9 @@
       "url": "https://puppyscan.shib.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/157": "limited",
+    "https://157.rpc.thirdweb.com": "yes"
+  }
 }

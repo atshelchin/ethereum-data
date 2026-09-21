@@ -3,7 +3,8 @@
   "chain": "ITANI",
   "rpc": [
     "https://rpc.itaninetworkchain.com/jsonrpc",
-    "https://node.itaninetworkchain.com/jsonrpc"
+    "https://node.itaninetworkchain.com/jsonrpc",
+    "https://relay.itaninetworkchain.com/jsonrpc"
   ],
   "features": [
     {
@@ -27,5 +28,9 @@
       "standard": "EIP3091"
     }
   ],
-  "icon": "itani"
+  "icon": "itani",
+  "rpcTracking": {
+    "https://node.itaninetworkchain.com/jsonrpc": "none",
+    "https://relay.itaninetworkchain.com/jsonrpc": "none"
+  }
 }

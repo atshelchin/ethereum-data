@@ -3,7 +3,9 @@
   "chain": "NCN",
   "rpc": [
     "https://nc-rpc-prd1.neurochain.io",
-    "https://nc-rpc-prd2.neurochain.io"
+    "https://nc-rpc-prd2.neurochain.io",
+    "https://lb.routeme.sh/rpc/evm/313",
+    "https://313.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,5 +31,9 @@
       "url": "https://ncnscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/313": "limited",
+    "https://313.rpc.thirdweb.com": "yes"
+  }
 }

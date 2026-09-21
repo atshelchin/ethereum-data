@@ -2,7 +2,8 @@
   "name": "UPchain Mainnet",
   "chain": "UPchain",
   "rpc": [
-    "https://rpc.uniport.network"
+    "https://rpc.uniport.network",
+    "https://336666.rpc.thirdweb.com"
   ],
   "nativeCurrency": {
     "name": "UBTC",
@@ -27,5 +28,8 @@
       "icon": "up",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://336666.rpc.thirdweb.com": "yes"
+  }
 }

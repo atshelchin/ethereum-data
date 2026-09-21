@@ -2,7 +2,9 @@
   "name": "Lyra Chain",
   "chain": "Lyra",
   "rpc": [
-    "https://rpc.lyra.finance"
+    "https://rpc.lyra.finance",
+    "https://lb.routeme.sh/rpc/evm/957",
+    "https://957.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -36,5 +38,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/957": "limited",
+    "https://957.rpc.thirdweb.com": "yes"
   }
 }

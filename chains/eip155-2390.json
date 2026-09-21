@@ -6,7 +6,8 @@
   "rpc": [
     "https://turin.rpc.tac.build",
     "https://rpc.ankr.com/tac_turin",
-    "https://turin-ws.rpc.tac.build"
+    "https://turin-ws.rpc.tac.build",
+    "https://lb.routeme.sh/rpc/evm/2390"
   ],
   "faucets": [
     "https://turin.faucet.tac.build/"
@@ -27,5 +28,9 @@
       "url": "https://turin.explorer.tac.build",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.ankr.com/tac_turin": "none",
+    "https://lb.routeme.sh/rpc/evm/2390": "limited"
+  }
 }

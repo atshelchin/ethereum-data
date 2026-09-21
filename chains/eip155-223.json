@@ -7,7 +7,10 @@
     "https://b2-mainnet.alt.technology",
     "https://rpc.ankr.com/b2",
     "https://rpc.bsquared.network",
-    "https://b2-mainnet-public.s.chainbase.com"
+    "https://b2-mainnet-public.s.chainbase.com",
+    "https://lb.routeme.sh/rpc/evm/223",
+    "https://b2-mainnet.rpc.sentio.xyz",
+    "https://223.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -36,5 +39,10 @@
         "url": "https://www.bsquared.network/bridge"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/223": "limited",
+    "https://b2-mainnet.rpc.sentio.xyz": "limited",
+    "https://223.rpc.thirdweb.com": "yes"
   }
 }

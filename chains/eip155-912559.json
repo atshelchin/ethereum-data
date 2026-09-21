@@ -12,7 +12,8 @@
     "decimals": 18
   },
   "rpc": [
-    "https://rpc.evm.dusk-3.devnet.astria.org"
+    "https://rpc.evm.dusk-3.devnet.astria.org",
+    "https://912559.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.evm.dusk-3.devnet.astria.org/"
@@ -23,5 +24,8 @@
       "url": "https://explorer.evm.dusk-3.devnet.astria.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://912559.rpc.thirdweb.com": "yes"
+  }
 }

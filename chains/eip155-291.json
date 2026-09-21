@@ -2,7 +2,10 @@
   "name": "Orderly Mainnet",
   "chain": "ETH",
   "rpc": [
-    "https://rpc.orderly.network"
+    "https://rpc.orderly.network",
+    "https://lb.routeme.sh/rpc/evm/291",
+    "https://orderly.drpc.org",
+    "https://291.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -27,5 +30,10 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/291": "limited",
+    "https://orderly.drpc.org": "none",
+    "https://291.rpc.thirdweb.com": "yes"
+  }
 }

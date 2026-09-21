@@ -2,7 +2,8 @@
   "name": "Digit Soul Smart Chain",
   "chain": "DGS",
   "rpc": [
-    "https://dsc-rpc.digitsoul.co.th"
+    "https://dsc-rpc.digitsoul.co.th",
+    "https://6363.rpc.thirdweb.com"
   ],
   "faucets": [],
   "icon": "pnet",
@@ -14,5 +15,8 @@
   "infoURL": "",
   "shortName": "DGS",
   "chainId": 6363,
-  "networkId": 6363
+  "networkId": 6363,
+  "rpcTracking": {
+    "https://6363.rpc.thirdweb.com": "yes"
+  }
 }

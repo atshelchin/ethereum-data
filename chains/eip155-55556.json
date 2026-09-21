@@ -3,7 +3,8 @@
   "chain": "REI",
   "icon": "reichain",
   "rpc": [
-    "https://rei-testnet-rpc.moonrhythm.io"
+    "https://rei-testnet-rpc.moonrhythm.io",
+    "https://lb.routeme.sh/rpc/evm/55556"
   ],
   "faucets": [
     "http://kururu.finance/faucet?chainId=55556"
@@ -24,5 +25,8 @@
       "url": "https://testnet.reiscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/55556": "limited"
+  }
 }

@@ -3,7 +3,9 @@
   "chain": "OptimusZ7",
   "icon": "OZ7Icon",
   "rpc": [
-    "https://rpc.optimusz7.com"
+    "https://rpc.optimusz7.com",
+    "https://lb.routeme.sh/rpc/evm/9797",
+    "https://9797.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +23,9 @@
       "url": "https://explorer.optimusz7.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/9797": "limited",
+    "https://9797.rpc.thirdweb.com": "yes"
+  }
 }

@@ -4,7 +4,14 @@
   "rpc": [
     "https://babel-api.mainnet.iotex.io",
     "https://iotex.api.pocket.network",
-    "https://iotex.api.onfinality.io/public"
+    "https://iotex.api.onfinality.io/public",
+    "https://lb.routeme.sh/rpc/evm/4689",
+    "https://babel-api.mainnet.iotex.one",
+    "https://babel-api.fastblocks.io",
+    "https://rpc.depinscan.io/iotex",
+    "https://rpc.chainanalytics.org/iotex",
+    "https://iotex-network.rpc.thirdweb.com",
+    "https://api-iotex-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +29,11 @@
       "url": "https://iotexscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://iotex.api.onfinality.io/public": "limited",
+    "https://lb.routeme.sh/rpc/evm/4689": "limited",
+    "https://iotex-network.rpc.thirdweb.com": "yes",
+    "https://api-iotex-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c": "limited"
+  }
 }

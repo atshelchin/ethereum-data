@@ -13,7 +13,15 @@
     "https://arbitrum-nova.drpc.org",
     "https://nova.arbitrum.io/rpc",
     "https://arbitrum-nova-rpc.publicnode.com",
-    "wss://arbitrum-nova-rpc.publicnode.com"
+    "wss://arbitrum-nova-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/42170",
+    "https://rpc.nodeflare.app/nova/public",
+    "https://arbitrum-nova.public.blastapi.io",
+    "https://arb-nova-mainnet.gateway.tatum.io",
+    "https://arbitrum-nova.gateway.tenderly.co",
+    "https://docs-demo.nova-mainnet.quiknode.pro",
+    "wss://arbitrum-nova.drpc.org",
+    "https://42170.rpc.thirdweb.com"
   ],
   "faucets": [],
   "explorers": [
@@ -63,5 +71,18 @@
       "router": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "url": "https://www.sushi.com/swap"
+  },
+  "rpcTracking": {
+    "https://arbitrum-nova.drpc.org": "none",
+    "https://arbitrum-nova-rpc.publicnode.com": "none",
+    "wss://arbitrum-nova-rpc.publicnode.com": "none",
+    "https://lb.routeme.sh/rpc/evm/42170": "limited",
+    "https://rpc.nodeflare.app/nova/public": "none",
+    "https://arbitrum-nova.public.blastapi.io": "limited",
+    "https://arb-nova-mainnet.gateway.tatum.io": "yes",
+    "https://arbitrum-nova.gateway.tenderly.co": "yes",
+    "https://docs-demo.nova-mainnet.quiknode.pro": "yes",
+    "wss://arbitrum-nova.drpc.org": "none",
+    "https://42170.rpc.thirdweb.com": "yes"
   }
 }

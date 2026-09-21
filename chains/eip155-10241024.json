@@ -1,7 +1,11 @@
 {
   "name": "AlienX Mainnet",
   "chain": "AlienX Mainnet",
-  "rpc": ["https://rpc.alienxchain.io/http"],
+  "rpc": [
+    "https://rpc.alienxchain.io/http",
+    "https://lb.routeme.sh/rpc/evm/10241024",
+    "https://10241024.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ethereum",
@@ -19,5 +23,9 @@
       "url": "https://explorer.alienxchain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/10241024": "limited",
+    "https://10241024.rpc.thirdweb.com": "yes"
+  }
 }

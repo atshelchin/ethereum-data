@@ -2,7 +2,8 @@
   "name": "ZKasino Mainnet",
   "chain": "ZKasino",
   "rpc": [
-    "https://rpc.zkas.zeeve.net"
+    "https://rpc.zkas.zeeve.net",
+    "https://88800.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://explorer.zkas.zeeve.net",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://88800.rpc.thirdweb.com": "yes"
+  }
 }

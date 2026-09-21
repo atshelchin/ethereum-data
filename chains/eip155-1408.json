@@ -1,0 +1,32 @@
+{
+  "name": "VFlow",
+  "chain": "VFL",
+  "icon": "ethereum",
+  "rpc": [
+    "wss://vflow-rpc.zkverify.io",
+    "https://vflow-rpc.zkverify.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "zkVerify",
+    "symbol": "VFY",
+    "decimals": 18
+  },
+  "infoURL": "https://zkverify.io",
+  "shortName": "vfl",
+  "chainId": 1408,
+  "networkId": 1408,
+  "explorers": [
+    {
+      "name": "subscan",
+      "url": "https://vflow.subscan.io",
+      "icon": "subscan",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ]
+}

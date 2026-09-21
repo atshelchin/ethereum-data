@@ -3,7 +3,8 @@
   "chain": "TPBX",
   "icon": "tipboxcoinIcon",
   "rpc": [
-    "https://mainnet-rpc.tipboxcoin.net"
+    "https://mainnet-rpc.tipboxcoin.net",
+    "https://404040.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.tipboxcoin.net"
@@ -23,5 +24,8 @@
       "url": "https://tipboxcoin.net",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://404040.rpc.thirdweb.com": "yes"
+  }
 }

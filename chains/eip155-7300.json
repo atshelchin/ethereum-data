@@ -2,7 +2,11 @@
   "name": "XPLA Verse",
   "chain": "XPLA Verse",
   "icon": "xpla_verse",
-  "rpc": ["https://rpc-xpla-verse.xpla.dev"],
+  "rpc": [
+    "https://rpc-xpla-verse.xpla.dev",
+    "https://lb.routeme.sh/rpc/evm/7300",
+    "https://7300.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",
@@ -23,5 +27,9 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-248"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/7300": "limited",
+    "https://7300.rpc.thirdweb.com": "yes"
   }
 }

@@ -3,7 +3,10 @@
   "title": "CheeseChain",
   "chain": "CHEESE",
   "rpc": [
-    "https://rpc.cheesechain.xyz"
+    "https://rpc.cheesechain.xyz",
+    "https://rpc.cheesechain.xyz/http",
+    "https://cheesechain.calderachain.xyz/http",
+    "wss://cheesechain.calderachain.xyz/ws"
   ],
   "faucets": [],
   "nativeCurrency": {

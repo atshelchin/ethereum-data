@@ -3,7 +3,9 @@
   "chain": "DFK",
   "icon": "dfk",
   "rpc": [
-    "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc"
+    "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc",
+    "https://avax-dfk.api.pocket.network",
+    "https://53935.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -44,5 +46,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://avax-dfk.api.pocket.network": "none",
+    "https://53935.rpc.thirdweb.com": "yes"
+  }
 }

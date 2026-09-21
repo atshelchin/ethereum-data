@@ -2,7 +2,10 @@
   "name": "Skate Mainnet",
   "chain": "ETH",
   "rpc": [
-    "https://rpc.skatechain.org/"
+    "https://rpc.skatechain.org/",
+    "https://rpc.liquidchain.net",
+    "https://rpc.xlcscan.com",
+    "https://rpc.skatechain.org"
   ],
   "faucets": [],
   "nativeCurrency": {

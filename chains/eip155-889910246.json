@@ -3,7 +3,8 @@
   "title": "PTCESCAN Mainnet",
   "chain": "PTCE",
   "rpc": [
-    "https://rpc.ptcscan.io"
+    "https://rpc.ptcscan.io",
+    "https://889910246.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://ptcscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://889910246.rpc.thirdweb.com": "yes"
+  }
 }

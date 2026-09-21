@@ -2,7 +2,11 @@
   "name": "DCpay Mainnet",
   "chain": "DCpay",
   "icon": "dcpayIcon",
-  "rpc": ["https://rpc.dcpay.io"],
+  "rpc": [
+    "https://rpc.dcpay.io",
+    "https://lb.routeme.sh/rpc/evm/21223",
+    "https://21223.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DCP",
@@ -19,5 +23,9 @@
       "url": "https://mainnet.dcpay.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/21223": "limited",
+    "https://21223.rpc.thirdweb.com": "yes"
+  }
 }

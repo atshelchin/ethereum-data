@@ -2,7 +2,9 @@
   "name": "Zilliqa EVM Devnet",
   "chain": "ZIL",
   "rpc": [
-    "https://api.devnet.zilliqa.com/"
+    "https://api.devnet.zilliqa.com/",
+    "https://api.devnet.zilliqa.com",
+    "https://33385.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.devnet.zilliqa.com/"
@@ -23,5 +25,8 @@
       "url": "https://otterscan.devnet.zilliqa.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://33385.rpc.thirdweb.com": "yes"
+  }
 }

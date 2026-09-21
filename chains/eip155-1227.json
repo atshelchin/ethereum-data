@@ -3,7 +3,8 @@
   "chain": "BTCP Testnet",
   "icon": "btcprotocol",
   "rpc": [
-    "https://testnet-chain.btcprotocol.io/"
+    "https://testnet-chain.btcprotocol.io/",
+    "https://testnet-chain.btcprotocol.io"
   ],
   "faucets": [],
   "nativeCurrency": {

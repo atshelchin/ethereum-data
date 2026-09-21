@@ -2,8 +2,14 @@
   "name": "Gold Smart Chain Mainnet",
   "chain": "STAND",
   "icon": "stand",
-  "rpc": ["https://rpc-mainnet.goldsmartchain.com"],
-  "faucets": ["https://faucet.goldsmartchain.com"],
+  "rpc": [
+    "https://rpc-mainnet.goldsmartchain.com",
+    "https://lb.routeme.sh/rpc/evm/6789",
+    "https://6789.rpc.thirdweb.com"
+  ],
+  "faucets": [
+    "https://faucet.goldsmartchain.com"
+  ],
   "nativeCurrency": {
     "name": "Standard in Gold",
     "symbol": "STAND",
@@ -19,5 +25,9 @@
       "url": "https://mainnet.goldsmartchain.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/6789": "limited",
+    "https://6789.rpc.thirdweb.com": "yes"
+  }
 }

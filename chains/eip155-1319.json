@@ -6,7 +6,11 @@
     "https://aia-dataseed2.aiachain.org",
     "https://aia-dataseed1.aiachain.org",
     "https://aia-dataseed3.aiachain.org",
-    "https://aia-dataseed4.aiachain.org"
+    "https://aia-dataseed4.aiachain.org",
+    "https://lb.routeme.sh/rpc/evm/1319",
+    "https://aiachain.bycrpc.com",
+    "https://aiachain.znodes.net",
+    "https://1319.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +28,9 @@
       "url": "https://aiascan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1319": "limited",
+    "https://1319.rpc.thirdweb.com": "yes"
+  }
 }

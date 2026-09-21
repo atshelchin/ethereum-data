@@ -2,7 +2,8 @@
   "name": "PHI Network v2",
   "chain": "PHI",
   "rpc": [
-    "https://connect.phi.network"
+    "https://connect.phi.network",
+    "https://144.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "phi",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://144.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,7 +1,10 @@
 {
   "name": "Tron Nile",
   "chain": "TRON",
-  "rpc": ["https://nile.trongrid.io/jsonrpc"],
+  "rpc": [
+    "https://nile.trongrid.io/jsonrpc",
+    "https://lb.routeme.sh/rpc/evm/3448148188"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tron",
@@ -20,5 +23,8 @@
       "icon": "tron",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/3448148188": "limited"
+  }
 }

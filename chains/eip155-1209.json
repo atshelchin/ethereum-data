@@ -2,7 +2,8 @@
   "name": "SaitaBlockChain(SBC)",
   "chain": "SaitaBlockChain(SBC)",
   "rpc": [
-    "https://rpc-nodes.saitascan.io"
+    "https://rpc-nodes.saitascan.io",
+    "https://1209.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "standard": "none",
       "icon": "SaitaBlockChain(SBC)"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1209.rpc.thirdweb.com": "yes"
+  }
 }

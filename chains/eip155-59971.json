@@ -2,7 +2,9 @@
   "name": "Genesys Code Mainnet",
   "chain": "GCODE",
   "rpc": [
-    "https://mainnet.genesyscode.io/"
+    "https://mainnet.genesyscode.io/",
+    "https://mainnet.genesyscode.io",
+    "https://59971.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,8 @@
       "icon": "genesyscode",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://59971.rpc.thirdweb.com": "yes"
+  }
 }

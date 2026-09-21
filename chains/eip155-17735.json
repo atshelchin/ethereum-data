@@ -3,7 +3,8 @@
   "chain": "ESPT",
   "icon": "esports",
   "rpc": [
-    "https://esportsblock.org/rpc/"
+    "https://esportsblock.org/rpc/",
+    "https://esportsblock.org/rpc"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -1,7 +1,11 @@
 {
   "name": "Denergy Network",
   "chain": "DEN",
-  "rpc": ["https://rpc.d.energy/"],
+  "rpc": [
+    "https://rpc.d.energy/",
+    "https://rpc.d.energy",
+    "https://369369.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "WATT",
@@ -20,5 +24,8 @@
       "icon": "denergy",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://369369.rpc.thirdweb.com": "yes"
+  }
 }

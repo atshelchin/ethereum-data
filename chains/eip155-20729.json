@@ -2,7 +2,8 @@
   "name": "Callisto Testnet",
   "chain": "CLO",
   "rpc": [
-    "https://testnet-rpc.callisto.network/"
+    "https://testnet-rpc.callisto.network/",
+    "https://testnet-rpc.callisto.network"
   ],
   "faucets": [
     "https://faucet.callisto.network/"

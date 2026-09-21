@@ -3,7 +3,8 @@
   "chain": "BIGSB",
   "rpc": [
     "wss://market.bigsb.io",
-    "https://market.bigsb.io"
+    "https://market.bigsb.io",
+    "https://2137.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +16,8 @@
   "shortName": "bigsb",
   "chainId": 2137,
   "networkId": 2137,
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://2137.rpc.thirdweb.com": "yes"
+  }
 }

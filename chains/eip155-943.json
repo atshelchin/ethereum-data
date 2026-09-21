@@ -12,7 +12,8 @@
     "https://rpc.v4.testnet.pulsechain.com",
     "wss://rpc.v4.testnet.pulsechain.com",
     "wss://pulsechain-testnet-rpc.publicnode.com",
-    "wss://rpc-testnet-pulsechain.g4mm4.io"
+    "wss://rpc-testnet-pulsechain.g4mm4.io",
+    "https://lb.routeme.sh/rpc/evm/943"
   ],
   "features": [
     {
@@ -47,5 +48,10 @@
       "url": "https://otter-testnet-pulsechain.g4mm4.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://pulsechain-testnet-rpc.publicnode.com": "none",
+    "wss://pulsechain-testnet-rpc.publicnode.com": "none",
+    "https://lb.routeme.sh/rpc/evm/943": "limited"
+  }
 }

@@ -3,7 +3,9 @@
   "chain": "SX",
   "icon": "SX",
   "rpc": [
-    "https://rpc.sx-rollup-testnet.t.raas.gelato.cloud"
+    "https://rpc.sx-rollup-testnet.t.raas.gelato.cloud",
+    "https://lb.routeme.sh/rpc/evm/79479957",
+    "https://rpc-rollup.toronto.sx.technology"
   ],
   "faucets": [
     "https://faucet.toronto.sx.technology"
@@ -28,5 +30,8 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/79479957": "limited"
   }
 }

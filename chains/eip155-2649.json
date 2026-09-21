@@ -1,7 +1,12 @@
 {
   "name": "AILayer Mainnet",
   "chain": "AILayer",
-  "rpc": ["https://mainnet-rpc.ailayer.xyz", "wss://mainnet-rpc.ailayer.xyz"],
+  "rpc": [
+    "https://mainnet-rpc.ailayer.xyz",
+    "wss://mainnet-rpc.ailayer.xyz",
+    "https://lb.routeme.sh/rpc/evm/2649",
+    "https://2649.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",
@@ -20,5 +25,9 @@
       "icon": "ailayer",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2649": "limited",
+    "https://2649.rpc.thirdweb.com": "yes"
+  }
 }

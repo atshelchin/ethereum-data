@@ -2,7 +2,8 @@
   "name": "Block Chain LOL Berachain Testnet",
   "chain": "Block Chain LOL Berachain",
   "rpc": [
-    "https://block-chain.alt.technology"
+    "https://block-chain.alt.technology",
+    "wss://block-chain.alt.technology/ws"
   ],
   "faucets": [
     "https://faucet.block-chain.lol/"

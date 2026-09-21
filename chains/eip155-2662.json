@@ -2,7 +2,9 @@
   "name": "APEX",
   "status": "incubating",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://2662.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -18,5 +20,8 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1"
+  },
+  "rpcTracking": {
+    "https://2662.rpc.thirdweb.com": "yes"
   }
 }

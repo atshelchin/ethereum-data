@@ -3,7 +3,8 @@
   "chain": "MRK",
   "icon": "merklescan",
   "rpc": [
-    "https://marklechain-rpc.merklescan.com"
+    "https://marklechain-rpc.merklescan.com",
+    "https://1909.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://merklescan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1909.rpc.thirdweb.com": "yes"
+  }
 }

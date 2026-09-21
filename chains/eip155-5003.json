@@ -2,7 +2,11 @@
   "name": "Mantle Sepolia Testnet",
   "chain": "ETH",
   "rpc": [
-    "https://rpc.sepolia.mantle.xyz"
+    "https://rpc.sepolia.mantle.xyz",
+    "https://lb.routeme.sh/rpc/evm/5003",
+    "https://endpoints.omniatech.io/v1/mantle/sepolia/public",
+    "https://mantle-sepolia.drpc.org",
+    "wss://mantle-sepolia.drpc.org"
   ],
   "faucets": [
     "https://faucet.sepolia.mantle.xyz"
@@ -31,5 +35,11 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/5003": "limited",
+    "https://endpoints.omniatech.io/v1/mantle/sepolia/public": "none",
+    "https://mantle-sepolia.drpc.org": "none",
+    "wss://mantle-sepolia.drpc.org": "none"
   }
 }

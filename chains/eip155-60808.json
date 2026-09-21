@@ -6,7 +6,13 @@
     "https://bob.drpc.org",
     "wss://rpc.gobob.xyz",
     "wss://bob-mainnet.public.blastapi.io",
-    "https://bob-mainnet.public.blastapi.io"
+    "https://bob-mainnet.public.blastapi.io",
+    "https://lb.routeme.sh/rpc/evm/60808",
+    "https://rpc.nodeflare.app/bob/public",
+    "wss://bob.drpc.org",
+    "https://bob.gateway.tenderly.co",
+    "https://bob.rpc.sentio.xyz",
+    "https://60808.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -66,5 +72,14 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://bob.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/60808": "limited",
+    "https://rpc.nodeflare.app/bob/public": "none",
+    "wss://bob.drpc.org": "none",
+    "https://bob.gateway.tenderly.co": "yes",
+    "https://bob.rpc.sentio.xyz": "limited",
+    "https://60808.rpc.thirdweb.com": "yes"
   }
 }

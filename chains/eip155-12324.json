@@ -11,7 +11,8 @@
     "decimals": 18
   },
   "rpc": [
-    "https://rpc-mainnet.l3x.com"
+    "https://rpc-mainnet.l3x.com",
+    "https://12324.rpc.thirdweb.com"
   ],
   "faucets": [],
   "explorers": [
@@ -30,5 +31,8 @@
         "url": "https://bridge.arbitrum.io"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://12324.rpc.thirdweb.com": "yes"
   }
 }

@@ -3,7 +3,8 @@
   "chain": "WTT",
   "rpc": [
     "wss://rpc.cadaut.com/ws",
-    "https://rpc.cadaut.com"
+    "https://rpc.cadaut.com",
+    "https://1202.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.cadaut.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1202.rpc.thirdweb.com": "yes"
+  }
 }

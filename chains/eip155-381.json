@@ -2,7 +2,8 @@
   "name": "ZKAmoeba Mainnet",
   "chain": "FIL",
   "rpc": [
-    "https://rpc.mainnet.zkamoeba.com/rpc"
+    "https://rpc.mainnet.zkamoeba.com/rpc",
+    "https://381.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -31,5 +32,8 @@
         "url": "https://www.zkamoeba.com/en/bridge"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://381.rpc.thirdweb.com": "yes"
   }
 }

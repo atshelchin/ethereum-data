@@ -3,7 +3,8 @@
   "chain": "Genesis",
   "rpc": [
     "wss://genesis-gn.com",
-    "https://genesis-gn.com"
+    "https://genesis-gn.com",
+    "https://9100.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +15,8 @@
   "infoURL": "https://genesis-gn.com",
   "shortName": "GENEC",
   "chainId": 9100,
-  "networkId": 9100
+  "networkId": 9100,
+  "rpcTracking": {
+    "https://9100.rpc.thirdweb.com": "yes"
+  }
 }

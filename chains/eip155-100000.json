@@ -2,7 +2,8 @@
   "name": "QuarkChain Mainnet Root",
   "chain": "QuarkChain",
   "rpc": [
-    "http://jrpc.mainnet.quarkchain.io:38391"
+    "http://jrpc.mainnet.quarkchain.io:38391",
+    "https://100000.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://www.quarkchain.io",
   "shortName": "qkc-r",
   "chainId": 100000,
-  "networkId": 100000
+  "networkId": 100000,
+  "rpcTracking": {
+    "https://100000.rpc.thirdweb.com": "yes"
+  }
 }

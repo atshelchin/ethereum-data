@@ -3,7 +3,8 @@
   "chain": "SIN2",
   "faucets": [],
   "rpc": [
-    "https://rpc2.siriusnet.io"
+    "https://rpc2.siriusnet.io",
+    "https://217.rpc.thirdweb.com"
   ],
   "icon": "siriusnet",
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://scan.siriusnet.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://217.rpc.thirdweb.com": "yes"
+  }
 }

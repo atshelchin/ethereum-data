@@ -2,7 +2,9 @@
   "name": "AIW3 Mainnet",
   "chain": "AIW3",
   "status": "incubating",
-  "rpc": [],
+  "rpc": [
+    "https://2045.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",
@@ -14,5 +16,8 @@
   "chainId": 2045,
   "networkId": 2045,
   "icon": "aiw3",
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://2045.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "NGL",
   "icon": "ngl",
   "rpc": [
-    "https://evm-testnet.entangle.fi"
+    "https://evm-testnet.entangle.fi",
+    "https://lb.routeme.sh/rpc/evm/33133"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +16,8 @@
   "shortName": "tngl",
   "chainId": 33133,
   "networkId": 33133,
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/33133": "limited"
+  }
 }

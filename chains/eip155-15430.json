@@ -3,7 +3,8 @@
   "chain": "KYMTC",
   "icon": "kymtc",
   "rpc": [
-    "https://mainnet-rpc.kymaticscan.online"
+    "https://mainnet-rpc.kymaticscan.online",
+    "https://15430.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "kymtc",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://15430.rpc.thirdweb.com": "yes"
+  }
 }

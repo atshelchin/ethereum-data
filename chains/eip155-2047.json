@@ -1,7 +1,10 @@
 {
   "name": "Stratos Testnet",
   "chain": "STOS",
-  "rpc": ["https://web3-rpc-mesos.thestratos.org"],
+  "rpc": [
+    "https://web3-rpc-mesos.thestratos.org",
+    "https://lb.routeme.sh/rpc/evm/2047"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "STOS",
@@ -24,5 +27,8 @@
       "url": "https://big-dipper-mesos.thestratos.org",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2047": "limited"
+  }
 }

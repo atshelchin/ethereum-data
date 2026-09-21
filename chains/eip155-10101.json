@@ -4,7 +4,8 @@
   "rpc": [
     "https://eu.mainnet.xixoio.com",
     "https://us.mainnet.xixoio.com",
-    "https://asia.mainnet.xixoio.com"
+    "https://asia.mainnet.xixoio.com",
+    "https://10101.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +16,8 @@
   "infoURL": "https://www.xixoio.com/",
   "shortName": "GEN",
   "chainId": 10101,
-  "networkId": 10101
+  "networkId": 10101,
+  "rpcTracking": {
+    "https://10101.rpc.thirdweb.com": "yes"
+  }
 }

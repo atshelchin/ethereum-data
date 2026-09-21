@@ -1,7 +1,11 @@
 {
   "name": "BounceBit Mainnet",
   "chain": "BounceBit",
-  "rpc": ["https://fullnode-mainnet.bouncebitapi.com/"],
+  "rpc": [
+    "https://fullnode-mainnet.bouncebitapi.com/",
+    "https://fullnode-mainnet.bouncebitapi.com",
+    "https://6001.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BounceBit",
@@ -19,5 +23,8 @@
       "url": "https://bbscan.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://6001.rpc.thirdweb.com": "yes"
+  }
 }

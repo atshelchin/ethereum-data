@@ -1,14 +1,23 @@
 {
   "name": "CamDL Testnet",
   "chain": "CADL",
-  "rpc": ["https://rpc1.testnet.camdl.gov.kh/"],
-  "faucets": ["https://faucet.testnet.camdl.gov.kh/"],
+  "rpc": [
+    "https://rpc1.testnet.camdl.gov.kh/",
+    "https://rpc1.testnet.camdl.gov.kh"
+  ],
+  "faucets": [
+    "https://faucet.testnet.camdl.gov.kh/"
+  ],
   "nativeCurrency": {
     "name": "CADL",
     "symbol": "CADL",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://camdl.gov.kh/",
   "shortName": "camdl-testnet",
   "chainId": 395,

@@ -3,7 +3,8 @@
   "title": "ZKSats Mainnet",
   "chain": "ZKSats",
   "rpc": [
-    "https://mainnet.zksats.io"
+    "https://mainnet.zksats.io",
+    "https://305.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "icon": "zksats",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://305.rpc.thirdweb.com": "yes"
+  }
 }

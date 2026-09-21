@@ -2,7 +2,8 @@
   "name": "PepChain Churchill",
   "chain": "PEP",
   "rpc": [
-    "https://churchill-rpc.pepchain.io"
+    "https://churchill-rpc.pepchain.io",
+    "https://13371337.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://pepchain.io",
   "shortName": "tpep",
   "chainId": 13371337,
-  "networkId": 13371337
+  "networkId": 13371337,
+  "rpcTracking": {
+    "https://13371337.rpc.thirdweb.com": "yes"
+  }
 }

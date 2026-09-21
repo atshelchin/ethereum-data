@@ -4,7 +4,10 @@
   "icon": "oasys",
   "rpc": [
     "https://rpc.mainnet.oasys.games",
-    "https://oasys.api.pocket.network"
+    "https://oasys.api.pocket.network",
+    "https://lb.routeme.sh/rpc/evm/248",
+    "wss://ws.mainnet.oasys.games",
+    "https://248.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +26,10 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x5200000000000000000000000000000000000001"
+  "wrappedNativeToken": "0x5200000000000000000000000000000000000001",
+  "rpcTracking": {
+    "https://oasys.api.pocket.network": "none",
+    "https://lb.routeme.sh/rpc/evm/248": "limited",
+    "https://248.rpc.thirdweb.com": "yes"
+  }
 }

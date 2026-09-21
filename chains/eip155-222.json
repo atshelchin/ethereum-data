@@ -2,7 +2,13 @@
   "name": "Permission",
   "chain": "ASK",
   "rpc": [
-    "https://blockchain-api-mainnet.permission.io/rpc"
+    "https://blockchain-api-mainnet.permission.io/rpc",
+    "https://mainnet-rpc.iopn.tech",
+    "https://mainnet-rpc2.iopn.tech",
+    "https://mainnet-rpc3.iopn.tech",
+    "wss://mainnet-rpc.iopn.tech/ws",
+    "wss://mainnet-rpc2.iopn.tech/ws",
+    "wss://mainnet-rpc3.iopn.tech/ws"
   ],
   "faucets": [],
   "nativeCurrency": {

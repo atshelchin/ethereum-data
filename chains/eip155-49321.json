@@ -2,7 +2,8 @@
   "name": "GUNZ Testnet",
   "chain": "tGUN",
   "rpc": [
-    "https://rpc.gunz.dev/ext/bc/ryk9vkvNuKtewME2PeCgybo9sdWXGmCkBrrx4VPuZPdVdAak8/rpc"
+    "https://rpc.gunz.dev/ext/bc/ryk9vkvNuKtewME2PeCgybo9sdWXGmCkBrrx4VPuZPdVdAak8/rpc",
+    "https://lb.routeme.sh/rpc/evm/49321"
   ],
   "faucets": [],
   "features": [
@@ -35,5 +36,8 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/49321": "limited"
   }
 }

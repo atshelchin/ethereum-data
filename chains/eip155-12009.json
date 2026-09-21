@@ -3,7 +3,8 @@
   "chain": "SATS",
   "icon": "satoshichain",
   "rpc": [
-    "https://mainnet-rpc.satoshichain.io"
+    "https://mainnet-rpc.satoshichain.io",
+    "https://12009.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://satoshiscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://12009.rpc.thirdweb.com": "yes"
+  }
 }

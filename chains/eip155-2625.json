@@ -1,8 +1,13 @@
 {
   "name": "Whitechain Testnet",
   "chain": "WBT",
-  "rpc": ["https://rpc-testnet.whitechain.io"],
-  "faucets": ["https://testnet.whitechain.io/faucet"],
+  "rpc": [
+    "https://rpc-testnet.whitechain.io",
+    "https://lb.routeme.sh/rpc/evm/2625"
+  ],
+  "faucets": [
+    "https://testnet.whitechain.io/faucet"
+  ],
   "nativeCurrency": {
     "name": "WhiteBIT Coin",
     "symbol": "WBT",
@@ -20,5 +25,8 @@
       "url": "https://testnet.whitechain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2625": "limited"
+  }
 }

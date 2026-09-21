@@ -3,7 +3,10 @@
   "chain": "DeFiVerse",
   "icon": "defiverse",
   "rpc": [
-    "https://rpc.defi-verse.org/"
+    "https://rpc.defi-verse.org/",
+    "https://lb.routeme.sh/rpc/evm/16116",
+    "https://rpc.defi-verse.org",
+    "https://16116.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +29,9 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-248"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/16116": "limited",
+    "https://16116.rpc.thirdweb.com": "yes"
   }
 }

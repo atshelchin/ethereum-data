@@ -4,7 +4,9 @@
   "icon": "brnkc",
   "rpc": [
     "https://brnkc-mainnet.bearnetwork.net",
-    "https://brnkc-mainnet1.bearnetwork.net"
+    "https://brnkc-mainnet1.bearnetwork.net",
+    "https://lb.routeme.sh/rpc/evm/641230",
+    "https://641230.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,9 @@
       "url": "https://brnkscan.bearnetwork.net",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/641230": "limited",
+    "https://641230.rpc.thirdweb.com": "yes"
+  }
 }

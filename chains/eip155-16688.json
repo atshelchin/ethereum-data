@@ -1,8 +1,18 @@
 {
   "name": "IRIShub Testnet",
   "chain": "IRIShub",
-  "rpc": ["https://evmrpc.nyancat.irisnet.org"],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://evmrpc.nyancat.irisnet.org",
+    "https://lb.routeme.sh/rpc/evm/16688"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Eris",
@@ -22,5 +32,8 @@
       "standard": "none",
       "icon": "nyancat"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/16688": "limited"
+  }
 }

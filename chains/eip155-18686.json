@@ -2,7 +2,12 @@
   "name": "MXC zkEVM Moonchain",
   "chain": "MXC zkEVM",
   "icon": "mxczkevm",
-  "rpc": ["https://rpc.mxc.com"],
+  "rpc": [
+    "https://rpc.mxc.com",
+    "https://lb.routeme.sh/rpc/evm/18686",
+    "wss://rpc.mxc.com/ws",
+    "https://18686.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "MXC zkEVM Moonchain",
@@ -19,5 +24,11 @@
       "url": "https://explorer.moonchain.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.mxc.com": "none",
+    "https://lb.routeme.sh/rpc/evm/18686": "limited",
+    "wss://rpc.mxc.com/ws": "none",
+    "https://18686.rpc.thirdweb.com": "yes"
+  }
 }

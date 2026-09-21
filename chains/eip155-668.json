@@ -2,7 +2,8 @@
   "name": "JuncaChain",
   "chain": "JuncaChain",
   "rpc": [
-    "https://rpc.juncachain.com"
+    "https://rpc.juncachain.com",
+    "https://668.rpc.thirdweb.com"
   ],
   "nativeCurrency": {
     "name": "JuncaChain Native Token",
@@ -20,5 +21,8 @@
       "url": "https://scan.juncachain.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://668.rpc.thirdweb.com": "yes"
+  }
 }

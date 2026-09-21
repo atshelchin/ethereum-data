@@ -35,5 +35,9 @@
     }
   ],
   "status": "active",
-  "redFlags": []
+  "redFlags": [],
+  "rpcTracking": {
+    "wss://ws-testnet.dilithium3.com": "none",
+    "https://rpc-testnet.dilithium3.com": "none"
+  }
 }

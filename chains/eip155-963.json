@@ -1,9 +1,21 @@
 {
   "name": "BTC20 Smart Chain",
   "chain": "BTC20",
-  "rpc": ["https://rpc.bitcoincode.technology/"],
+  "rpc": [
+    "https://rpc.bitcoincode.technology/",
+    "https://lb.routeme.sh/rpc/evm/963",
+    "https://rpc.bitcoincode.technology",
+    "https://963.rpc.thirdweb.com"
+  ],
   "faucets": [],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "nativeCurrency": {
     "name": "BTCC",
     "symbol": "BTCC",
@@ -20,5 +32,9 @@
       "url": "https://scan.bitcoincode.technology",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/963": "limited",
+    "https://963.rpc.thirdweb.com": "yes"
+  }
 }

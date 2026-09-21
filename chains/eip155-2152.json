@@ -2,7 +2,9 @@
   "name": "Findora Mainnet",
   "chain": "Findora",
   "rpc": [
-    "https://rpc-mainnet.findora.org"
+    "https://rpc-mainnet.findora.org",
+    "https://lb.routeme.sh/rpc/evm/2152",
+    "https://2152.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +22,9 @@
       "url": "https://evm.findorascan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2152": "limited",
+    "https://2152.rpc.thirdweb.com": "yes"
+  }
 }

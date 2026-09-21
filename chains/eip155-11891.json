@@ -1,7 +1,11 @@
 {
   "name": "Polygon Supernet Arianee",
   "chain": "Arianee",
-  "rpc": ["https://rpc.polygonsupernet.public.arianee.net"],
+  "rpc": [
+    "https://rpc.polygonsupernet.public.arianee.net",
+    "https://lb.routeme.sh/rpc/evm/11891",
+    "https://11891.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Arianee",
@@ -22,5 +26,9 @@
   "parent": {
     "chain": "eip155-1",
     "type": "L2"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/11891": "limited",
+    "https://11891.rpc.thirdweb.com": "yes"
   }
 }

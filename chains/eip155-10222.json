@@ -3,7 +3,9 @@
   "chain": "GLC",
   "icon": "glc",
   "rpc": [
-    "https://glc-dataseed.glscan.io/"
+    "https://glc-dataseed.glscan.io/",
+    "https://glc-dataseed.glscan.io",
+    "https://10222.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,9 @@
       "standard": "none",
       "icon": "glc"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://glc-dataseed.glscan.io": "yes",
+    "https://10222.rpc.thirdweb.com": "yes"
+  }
 }

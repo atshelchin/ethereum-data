@@ -2,7 +2,9 @@
   "name": "Espento Mainnet",
   "chain": "SPENT",
   "rpc": [
-    "https://rpc.escscan.com/"
+    "https://rpc.escscan.com/",
+    "https://rpc.escscan.com",
+    "https://9911.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,8 @@
       "icon": "espento",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://9911.rpc.thirdweb.com": "yes"
+  }
 }

@@ -36,5 +36,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://84841.rpc.thirdweb.com": "yes"
+  }
 }

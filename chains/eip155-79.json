@@ -8,7 +8,15 @@
     "https://dataserver-asia-2.zenithchain.co/",
     "https://dataserver-asia-5.zenithchain.co/",
     "https://dataserver-asia-6.zenithchain.co/",
-    "https://dataserver-asia-7.zenithchain.co/"
+    "https://dataserver-asia-7.zenithchain.co/",
+    "https://dataserver-us-1.zenithchain.co",
+    "https://dataserver-asia-3.zenithchain.co",
+    "https://dataserver-asia-4.zenithchain.co",
+    "https://dataserver-asia-2.zenithchain.co",
+    "https://dataserver-asia-5.zenithchain.co",
+    "https://dataserver-asia-6.zenithchain.co",
+    "https://dataserver-asia-7.zenithchain.co",
+    "https://79.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +34,8 @@
       "url": "https://scan.zenithchain.co",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://79.rpc.thirdweb.com": "yes"
+  }
 }

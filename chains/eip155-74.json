@@ -1,7 +1,14 @@
 {
   "name": "IDChain Mainnet",
   "chain": "IDChain",
-  "rpc": ["https://idchain.one/rpc/", "wss://idchain.one/ws/"],
+  "rpc": [
+    "https://idchain.one/rpc/",
+    "wss://idchain.one/ws/",
+    "https://lb.routeme.sh/rpc/evm/74",
+    "https://idchain.one/rpc",
+    "wss://idchain.one/ws",
+    "https://74.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "EIDI",
@@ -19,5 +26,9 @@
       "url": "https://explorer.idchain.one",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/74": "limited",
+    "https://74.rpc.thirdweb.com": "yes"
+  }
 }

@@ -5,7 +5,9 @@
   "chain": "ETH",
   "icon": "lumia",
   "rpc": [
-    "https://mainnet-rpc.lumia.org"
+    "https://mainnet-rpc.lumia.org",
+    "https://lb.routeme.sh/rpc/evm/994873017",
+    "https://994873017.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -34,5 +36,9 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/994873017": "limited",
+    "https://994873017.rpc.thirdweb.com": "yes"
   }
 }

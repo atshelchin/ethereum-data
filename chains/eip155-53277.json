@@ -2,7 +2,8 @@
   "name": "DOID",
   "chain": "DOID",
   "rpc": [
-    "https://rpc.doid.tech"
+    "https://rpc.doid.tech",
+    "https://53277.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +31,8 @@
       "icon": "doid",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://53277.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "Abyss Protocol",
   "chain": "Abyss Protocol Testnet",
   "rpc": [
-    "https://testnet.rpc.abyssprotocol.ai/"
+    "https://testnet.rpc.abyssprotocol.ai/",
+    "https://testnet.rpc.abyssprotocol.ai"
   ],
   "faucets": [
     "https://faucet.abyssprotocol.ai/"

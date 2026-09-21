@@ -9,7 +9,15 @@
     "https://arb-sepolia-testnet.api.pocket.network",
     "https://arbitrum-sepolia.api.onfinality.io/public",
     "https://arbitrum-sepolia.infura.io/v3/${INFURA_API_KEY}",
-    "wss://arbitrum-sepolia-rpc.publicnode.com"
+    "wss://arbitrum-sepolia-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/421614",
+    "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public",
+    "https://public.stackup.sh/api/v1/node/arbitrum-sepolia",
+    "https://arbitrum-sepolia.gateway.tenderly.co",
+    "https://api.zan.top/arb-sepolia",
+    "wss://arbitrum-sepolia.drpc.org",
+    "https://arbitrum-sepolia.therpc.io",
+    "https://arbitrum-sepolia-testnet.api.pocket.network"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -50,5 +58,17 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://arbitrum-sepolia.drpc.org": "none",
+    "https://arbitrum-sepolia.api.onfinality.io/public": "limited",
+    "https://lb.routeme.sh/rpc/evm/421614": "limited",
+    "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public": "none",
+    "https://public.stackup.sh/api/v1/node/arbitrum-sepolia": "limited",
+    "https://arbitrum-sepolia.gateway.tenderly.co": "yes",
+    "https://api.zan.top/arb-sepolia": "limited",
+    "wss://arbitrum-sepolia.drpc.org": "none",
+    "https://arbitrum-sepolia.therpc.io": "limited",
+    "https://arbitrum-sepolia-testnet.api.pocket.network": "none"
   }
 }

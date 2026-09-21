@@ -4,7 +4,9 @@
   "status": "active",
   "rpc": [
     "wss://wss.omega.omni.network",
-    "https://omega.omni.network"
+    "https://omega.omni.network",
+    "https://lb.routeme.sh/rpc/evm/164",
+    "https://164.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -29,5 +31,9 @@
       "url": "https://omega.omniscan.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/164": "limited",
+    "https://164.rpc.thirdweb.com": "yes"
+  }
 }

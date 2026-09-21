@@ -2,7 +2,8 @@
   "name": "BTCIX Network",
   "chain": "BTCIX",
   "rpc": [
-    "https://seed.btcix.org/rpc"
+    "https://seed.btcix.org/rpc",
+    "https://19845.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://btcixscan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://19845.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,9 @@
   "name": "Gesoten Verse Testnet",
   "chain": "Gesoten Verse",
   "rpc": [
-    "https://rpc.testnet.verse.gesoten.com/"
+    "https://rpc.testnet.verse.gesoten.com/",
+    "https://lb.routeme.sh/rpc/evm/42801",
+    "https://rpc.testnet.verse.gesoten.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,8 @@
       "url": "https://explorer.testnet.verse.gesoten.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/42801": "limited"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "Shardeum",
   "icon": "shardeum",
   "rpc": [
-    "https://liberty10.shardeum.org/"
+    "https://liberty10.shardeum.org/",
+    "https://liberty10.shardeum.org"
   ],
   "faucets": [
     "https://faucet.liberty10.shardeum.org"

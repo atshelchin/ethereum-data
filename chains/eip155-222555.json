@@ -2,7 +2,8 @@
   "name": "DeepL Mainnet",
   "chain": "DEEPL",
   "rpc": [
-    "https://rpc.deeplnetwork.org"
+    "https://rpc.deeplnetwork.org",
+    "https://222555.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +31,8 @@
       "icon": "deepl",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://222555.rpc.thirdweb.com": "yes"
+  }
 }

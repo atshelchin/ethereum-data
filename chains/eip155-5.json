@@ -9,7 +9,16 @@
     "wss://goerli.gateway.tenderly.co",
     "https://rpc.goerli.mudit.blog/",
     "https://ethereum-goerli-rpc.publicnode.com",
-    "https://goerli.gateway.tenderly.co"
+    "https://goerli.gateway.tenderly.co",
+    "https://endpoints.omniatech.io/v1/eth/goerli/public",
+    "https://eth-goerli.public.blastapi.io",
+    "https://eth-goerli.g.alchemy.com/v2/demo",
+    "https://eth-goerli.api.onfinality.io/public",
+    "https://rpc.goerli.eth.gateway.fm",
+    "https://gateway.tenderly.co/public/goerli",
+    "https://builder-rpc1.0xblockswap.com",
+    "https://builder-rpc2.0xblockswap.com",
+    "https://rpc.goerli.mudit.blog"
   ],
   "faucets": [
     "http://fauceth.komputing.org?chain=5&address=${ADDRESS}",
@@ -41,5 +50,18 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "wss://ethereum-goerli-rpc.publicnode.com": "none",
+    "https://ethereum-goerli-rpc.publicnode.com": "none",
+    "https://goerli.gateway.tenderly.co": "yes",
+    "https://endpoints.omniatech.io/v1/eth/goerli/public": "none",
+    "https://eth-goerli.public.blastapi.io": "limited",
+    "https://eth-goerli.g.alchemy.com/v2/demo": "yes",
+    "https://eth-goerli.api.onfinality.io/public": "limited",
+    "https://rpc.goerli.eth.gateway.fm": "yes",
+    "https://gateway.tenderly.co/public/goerli": "yes",
+    "https://builder-rpc1.0xblockswap.com": "yes",
+    "https://builder-rpc2.0xblockswap.com": "yes"
+  }
 }

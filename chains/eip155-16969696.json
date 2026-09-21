@@ -3,7 +3,8 @@
   "chain": "PRIVIX",
   "rpc": [
     "wss://mainnet-rpc.privixchain.xyz/ws",
-    "https://mainnet-rpc.privixchain.xyz/"
+    "https://mainnet-rpc.privixchain.xyz/",
+    "https://mainnet-rpc.privixchain.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {

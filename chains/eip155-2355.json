@@ -4,7 +4,8 @@
   "chain": "Silicon",
   "rpc": [
     "https://rpc.silicon.network",
-    "https://silicon-mainnet.nodeinfra.com"
+    "https://silicon-mainnet.nodeinfra.com",
+    "https://2355.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -28,9 +29,16 @@
     "type": "L2",
     "chain": "eip155-1",
     "bridges": [
-      { "url": "https://bridge.silicon.network" },
-      { "url": "https://bridge.orbitchain.io" }
+      {
+        "url": "https://bridge.silicon.network"
+      },
+      {
+        "url": "https://bridge.orbitchain.io"
+      }
     ]
   },
-  "status": "active"
+  "status": "active",
+  "rpcTracking": {
+    "https://2355.rpc.thirdweb.com": "yes"
+  }
 }

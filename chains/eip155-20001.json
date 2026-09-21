@@ -11,7 +11,8 @@
     "decimals": 18
   },
   "rpc": [
-    "https://mainnet-http-rpc.camelark.com"
+    "https://mainnet-http-rpc.camelark.com",
+    "https://20001.rpc.thirdweb.com"
   ],
   "faucets": [],
   "explorers": [
@@ -21,5 +22,8 @@
       "standard": "EIP3091"
     }
   ],
-  "infoURL": "https://www.camelark.com"
+  "infoURL": "https://www.camelark.com",
+  "rpcTracking": {
+    "https://20001.rpc.thirdweb.com": "yes"
+  }
 }

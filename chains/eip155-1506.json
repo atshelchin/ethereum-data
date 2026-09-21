@@ -2,7 +2,8 @@
   "name": "Sherpax Mainnet",
   "chain": "Sherpax Mainnet",
   "rpc": [
-    "https://mainnet.sherpax.io/rpc"
+    "https://mainnet.sherpax.io/rpc",
+    "https://1506.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://evm.sherpax.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1506.rpc.thirdweb.com": "yes"
+  }
 }

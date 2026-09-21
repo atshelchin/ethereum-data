@@ -5,7 +5,17 @@
   "rpc": [
     "https://polygon-zkevm.drpc.org",
     "https://zkevm-rpc.com",
-    "wss://polygon-zkevm.drpc.org"
+    "wss://polygon-zkevm.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/1101",
+    "https://rpc.polygon-zkevm.gateway.fm",
+    "https://public.1rpc.io/polygon/zkevm",
+    "https://polygon-zkevm-mainnet.public.blastapi.io",
+    "https://polygon-zkevm-public.nodies.app",
+    "https://endpoints.omniatech.io/v1/polygon-zkevm/mainnet/public",
+    "https://node.histori.xyz/polygon-zkevm-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
+    "https://poly-zkevm.api.pocket.network",
+    "wss://poly-zkevm.api.pocket.network",
+    "https://1101.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -59,5 +69,18 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://polygon-zkevm.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/1101": "limited",
+    "https://rpc.polygon-zkevm.gateway.fm": "yes",
+    "https://public.1rpc.io/polygon/zkevm": "none",
+    "https://polygon-zkevm-mainnet.public.blastapi.io": "limited",
+    "https://polygon-zkevm-public.nodies.app": "limited",
+    "https://endpoints.omniatech.io/v1/polygon-zkevm/mainnet/public": "none",
+    "https://node.histori.xyz/polygon-zkevm-mainnet/8ry9f6t9dct1se2hlagxnd9n2a": "none",
+    "https://poly-zkevm.api.pocket.network": "none",
+    "wss://poly-zkevm.api.pocket.network": "none",
+    "https://1101.rpc.thirdweb.com": "yes"
   }
 }

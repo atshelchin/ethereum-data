@@ -2,7 +2,16 @@
   "name": "Elastos Smart Chain",
   "chain": "ETH",
   "rpc": [
-    "https://api.elastos.io/eth"
+    "https://api.elastos.io/eth",
+    "https://lb.routeme.sh/rpc/evm/20",
+    "https://api.elastos.io/esc",
+    "https://api.trinity-tech.io/esc",
+    "https://api2.elastos.io/esc",
+    "https://api2.elastos.net/esc",
+    "https://api2.elastos.io/eth",
+    "https://api2.elastos.net/eth",
+    "https://rpc.glidefinance.io",
+    "https://20.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +29,9 @@
       "url": "https://esc.elastos.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/20": "limited",
+    "https://20.rpc.thirdweb.com": "yes"
+  }
 }

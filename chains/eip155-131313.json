@@ -1,9 +1,20 @@
 {
   "name": "Odyssey Chain (Testnet)",
   "chain": "DIONE",
-  "rpc": ["https://testnode.dioneprotocol.com/ext/bc/D/rpc"],
-  "faucets": ["https://faucet.dioneprotocol.com/"],
-  "features": [{ "name": "EIP155" }],
+  "rpc": [
+    "https://testnode.dioneprotocol.com/ext/bc/D/rpc",
+    "https://lb.routeme.sh/rpc/evm/131313",
+    "https://odyssey.nownodes.io",
+    "wss://odyssey.nownodes.io/wss"
+  ],
+  "faucets": [
+    "https://faucet.dioneprotocol.com/"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://www.dioneprotocol.com/",
   "shortName": "DIONE",
   "chainId": 131313,
@@ -13,5 +24,10 @@
     "name": "DIONE",
     "symbol": "DIONE",
     "decimals": 18
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/131313": "limited",
+    "https://odyssey.nownodes.io": "yes",
+    "wss://odyssey.nownodes.io/wss": "yes"
   }
 }

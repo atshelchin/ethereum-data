@@ -6,7 +6,10 @@
     "wss://base-goerli-rpc.publicnode.com",
     "https://goerli.base.org",
     "https://base-goerli.gateway.tenderly.co",
-    "https://base-goerli-rpc.publicnode.com"
+    "https://base-goerli-rpc.publicnode.com",
+    "https://base-goerli.diamondswap.org/rpc",
+    "https://base-goerli.public.blastapi.io",
+    "https://gateway.tenderly.co/public/base-goerli"
   ],
   "faucets": [
     "https://www.coinbase.com/faucets/base-ethereum-goerli-faucet"
@@ -40,5 +43,13 @@
       "icon": "dexguru",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "wss://base-goerli-rpc.publicnode.com": "none",
+    "https://base-goerli.gateway.tenderly.co": "yes",
+    "https://base-goerli-rpc.publicnode.com": "none",
+    "https://base-goerli.diamondswap.org/rpc": "limited",
+    "https://base-goerli.public.blastapi.io": "limited",
+    "https://gateway.tenderly.co/public/base-goerli": "yes"
+  }
 }

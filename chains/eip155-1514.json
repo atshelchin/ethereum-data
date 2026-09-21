@@ -6,7 +6,25 @@
     "https://story-rpc.publicnode.com",
     "https://rpc.ankr.com/story_mainnet",
     "wss://story-rpc.publicnode.com",
-    "https://mainnet.datarpc.io"
+    "https://mainnet.datarpc.io",
+    "https://lb.routeme.sh/rpc/evm/1514",
+    "https://story-evm-rpc.spidernode.net",
+    "https://evm-rpc.story.mainnet.dteam.tech",
+    "https://infra.originstake.com/story/evm",
+    "https://lightnode-json-rpc-mainnet-story.grandvalleys.com",
+    "https://story-mainnet-evm.itrocket.net",
+    "https://evm-rpc-story.j-node.net",
+    "https://story-evm-rpc.krews.xyz",
+    "https://evmrpc.story.nodestake.org",
+    "https://story-mainnet.zenithnode.xyz",
+    "https://evm-rpc.story.silentvalidator.com",
+    "https://story-mainnet-evmrpc.mandragora.io",
+    "https://rpc-storyevm.aldebaranode.xyz",
+    "https://evm.story.cumulo.me",
+    "https://evm-rpc-archive.story.node75.org",
+    "https://story-json-rpc.stakely.io",
+    "https://rpc.swiftnodes.io/rpc/story",
+    "https://1514.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -50,5 +68,16 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://rpc.ankr.com/story_mainnet": "none",
+    "https://lb.routeme.sh/rpc/evm/1514": "limited",
+    "https://evm-rpc.story.mainnet.dteam.tech": "none",
+    "https://infra.originstake.com/story/evm": "none",
+    "https://lightnode-json-rpc-mainnet-story.grandvalleys.com": "none",
+    "https://story-mainnet-evm.itrocket.net": "none",
+    "https://story-json-rpc.stakely.io": "none",
+    "https://rpc.swiftnodes.io/rpc/story": "limited",
+    "https://1514.rpc.thirdweb.com": "yes"
   }
 }

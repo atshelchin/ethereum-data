@@ -5,7 +5,9 @@
   "rpc": [
     "https://connect.novanetwork.io",
     "https://0x57.redjackstudio.com",
-    "https://rpc.novanetwork.io:9070"
+    "https://rpc.novanetwork.io:9070",
+    "https://dev.rpc.novanetwork.io",
+    "https://87.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,10 @@
       "url": "https://explorer.novanetwork.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.novanetwork.io:9070": "none",
+    "https://dev.rpc.novanetwork.io": "none",
+    "https://87.rpc.thirdweb.com": "yes"
+  }
 }

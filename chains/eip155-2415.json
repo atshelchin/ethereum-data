@@ -3,7 +3,8 @@
   "chain": "XODEX",
   "rpc": [
     "https://mainnet.xo-dex.com/rpc",
-    "https://xo-dex.io"
+    "https://xo-dex.io",
+    "https://2415.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "standard": "EIP3091",
       "icon": "xodex"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2415.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "ENULS",
   "rpc": [
     "https://evmapi.nuls.io",
-    "https://evmapi2.nuls.io"
+    "https://evmapi2.nuls.io",
+    "https://119.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "icon": "enuls",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://119.rpc.thirdweb.com": "yes"
+  }
 }

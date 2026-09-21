@@ -2,8 +2,14 @@
   "name": "SKALE Calypso Hub",
   "chain": "honorable-steel-rasalhague",
   "icon": "calypso",
-  "rpc": ["https://mainnet.skalenodes.com/v1/honorable-steel-rasalhague"],
-  "faucets": ["https://sfuel.dirtroad.dev"],
+  "rpc": [
+    "https://mainnet.skalenodes.com/v1/honorable-steel-rasalhague",
+    "https://lb.routeme.sh/rpc/evm/1564830818",
+    "https://1564830818.rpc.thirdweb.com"
+  ],
+  "faucets": [
+    "https://sfuel.dirtroad.dev"
+  ],
   "nativeCurrency": {
     "name": "sFUEL",
     "symbol": "sFUEL",
@@ -19,5 +25,9 @@
       "url": "https://honorable-steel-rasalhague.explorer.mainnet.skalenodes.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1564830818": "limited",
+    "https://1564830818.rpc.thirdweb.com": "yes"
+  }
 }

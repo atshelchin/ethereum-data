@@ -2,7 +2,8 @@
   "name": "Catecoin Chain Mainnet",
   "chain": "Catechain",
   "rpc": [
-    "https://send.catechain.com"
+    "https://send.catechain.com",
+    "https://1618.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://catechain.com",
   "shortName": "cate",
   "chainId": 1618,
-  "networkId": 1618
+  "networkId": 1618,
+  "rpcTracking": {
+    "https://1618.rpc.thirdweb.com": "yes"
+  }
 }

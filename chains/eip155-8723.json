@@ -2,7 +2,8 @@
   "name": "TOOL Global Mainnet",
   "chain": "OLO",
   "rpc": [
-    "https://mainnet-web3.wolot.io"
+    "https://mainnet-web3.wolot.io",
+    "https://8723.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://www.olo.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://8723.rpc.thirdweb.com": "yes"
+  }
 }

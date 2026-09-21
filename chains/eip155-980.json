@@ -3,7 +3,8 @@
   "chain": "TOP",
   "icon": "top",
   "rpc": [
-    "https://ethapi.topnetwork.org"
+    "https://ethapi.topnetwork.org",
+    "https://980.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://www.topscan.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://980.rpc.thirdweb.com": "yes"
+  }
 }

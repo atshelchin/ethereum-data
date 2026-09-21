@@ -3,8 +3,16 @@
   "title": "IOTA EVM Testnet",
   "chain": "IOTA EVM",
   "icon": "iotaevm",
-  "rpc": ["https://json-rpc.evm.testnet.iotaledger.net"],
-  "faucets": ["https://evm-toolkit.evm.testnet.iotaledger.net"],
+  "rpc": [
+    "https://json-rpc.evm.testnet.iotaledger.net",
+    "https://evm-toolkit-api.evm.testnet.iotaledger.net",
+    "https://iota-testnet-evm.public.blastapi.io",
+    "https://rpc.ankr.com/iota_evm_testnet",
+    "https://iota-testnet.gateway.tatum.io"
+  ],
+  "faucets": [
+    "https://evm-toolkit.evm.testnet.iotaledger.net"
+  ],
   "nativeCurrency": {
     "name": "IOTA",
     "symbol": "IOTA",
@@ -20,5 +28,10 @@
       "url": "https://explorer.evm.testnet.iotaledger.net",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://iota-testnet-evm.public.blastapi.io": "limited",
+    "https://rpc.ankr.com/iota_evm_testnet": "none",
+    "https://iota-testnet.gateway.tatum.io": "yes"
+  }
 }

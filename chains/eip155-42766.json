@@ -2,7 +2,12 @@
   "name": "ZKFair Mainnet",
   "title": "ZKFair Mainnet",
   "chain": "ZKFair",
-  "rpc": ["https://rpc.zkfair.io"],
+  "rpc": [
+    "https://rpc.zkfair.io",
+    "https://lb.routeme.sh/rpc/evm/42766",
+    "https://endpoints.omniatech.io/v1/zkfair/mainnet/public",
+    "https://42766.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "USDC Token",
@@ -25,6 +30,15 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://wallet.zkfair.io" }]
+    "bridges": [
+      {
+        "url": "https://wallet.zkfair.io"
+      }
+    ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/42766": "limited",
+    "https://endpoints.omniatech.io/v1/zkfair/mainnet/public": "none",
+    "https://42766.rpc.thirdweb.com": "yes"
   }
 }

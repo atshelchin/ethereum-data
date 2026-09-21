@@ -3,7 +3,8 @@
   "chain": "P12",
   "icon": "p12",
   "rpc": [
-    "https://rpc-chain.p12.games"
+    "https://rpc-chain.p12.games",
+    "https://20736.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,5 +30,8 @@
       "url": "https://explorer.p12.games",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://20736.rpc.thirdweb.com": "yes"
+  }
 }

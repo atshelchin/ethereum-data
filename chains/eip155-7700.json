@@ -5,7 +5,16 @@
     "https://canto.gravitychain.io/",
     "https://canto.slingshot.finance",
     "https://canto-rpc.ansybl.io",
-    "https://mainnode.plexnode.org:8545"
+    "https://mainnode.plexnode.org:8545",
+    "https://lb.routeme.sh/rpc/evm/7700",
+    "https://canto.gravitychain.io",
+    "https://canto.evm.chandrastation.com",
+    "https://jsonrpc.canto.nodestake.top",
+    "https://canto.dexvaults.com",
+    "wss://canto.gravitychain.io:8546",
+    "wss://canto.dexvaults.com/ws",
+    "https://canto.dexrouting.com",
+    "https://7700.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -35,5 +44,9 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x826551890Dc65655a0Aceca109aB11AbDbD7a07B"
+  "wrappedNativeToken": "0x826551890Dc65655a0Aceca109aB11AbDbD7a07B",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/7700": "limited",
+    "https://7700.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "Shinarium",
   "icon": "shinarium",
   "rpc": [
-    "https://mainnet.shinarium.org"
+    "https://mainnet.shinarium.org",
+    "https://214.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://shinascan.shinarium.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://214.rpc.thirdweb.com": "yes"
+  }
 }

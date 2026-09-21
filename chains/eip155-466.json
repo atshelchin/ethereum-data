@@ -3,7 +3,9 @@
   "chain": "AppChain",
   "rpc": [
     "https://rpc.appchain.xyz/http",
-    "wss://rpc.appchain.xyz/ws"
+    "wss://rpc.appchain.xyz/ws",
+    "https://lb.routeme.sh/rpc/evm/466",
+    "https://466.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -57,5 +59,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/466": "limited",
+    "https://466.rpc.thirdweb.com": "yes"
   }
 }

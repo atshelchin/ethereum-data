@@ -3,7 +3,8 @@
   "chain": "CLD",
   "icon": "cloudtx",
   "rpc": [
-    "https://mainnet-rpc.cloudtx.finance"
+    "https://mainnet-rpc.cloudtx.finance",
+    "https://31223.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://scan.cloudtx.finance",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://31223.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,7 +1,9 @@
 {
   "name": "MOAC mainnet",
   "chain": "MOAC",
-  "rpc": [],
+  "rpc": [
+    "https://1099.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "MOAC",
@@ -19,5 +21,8 @@
       "url": "https://explorer.moac.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1099.rpc.thirdweb.com": "yes"
+  }
 }

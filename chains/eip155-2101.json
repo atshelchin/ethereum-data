@@ -2,7 +2,8 @@
   "name": "Ecoball Testnet Espuma",
   "chain": "ECO",
   "rpc": [
-    "https://api.ecoball.org/espuma/"
+    "https://api.ecoball.org/espuma/",
+    "https://api.ecoball.org/espuma"
   ],
   "faucets": [],
   "nativeCurrency": {

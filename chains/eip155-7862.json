@@ -5,7 +5,11 @@
   "rpc": [
     "https://node1-mainnet-new.maalscan.io/",
     "https://node2-mainnet-new.maalscan.io/",
-    "https://node3-mainnet-new.maalscan.io/"
+    "https://node3-mainnet-new.maalscan.io/",
+    "https://node1-mainnet-new.maalscan.io",
+    "https://node2-mainnet-new.maalscan.io",
+    "https://node3-mainnet-new.maalscan.io",
+    "https://7862.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +27,8 @@
       "url": "https://v2.maalscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://7862.rpc.thirdweb.com": "yes"
+  }
 }

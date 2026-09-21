@@ -3,7 +3,8 @@
   "chain": "LBRY",
   "icon": "lbry",
   "rpc": [
-    "https://lbry.nl/rpc"
+    "https://lbry.nl/rpc",
+    "https://19600.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -28,5 +29,8 @@
       "icon": "lbry",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://19600.rpc.thirdweb.com": "yes"
+  }
 }

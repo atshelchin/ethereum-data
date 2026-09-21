@@ -3,7 +3,8 @@
   "chain": "ETH",
   "icon": "zytron",
   "rpc": [
-    "https://linea-testnet-zytron.zypher.game/"
+    "https://linea-testnet-zytron.zypher.game/",
+    "https://linea-testnet-zytron.zypher.game"
   ],
   "faucets": [],
   "nativeCurrency": {

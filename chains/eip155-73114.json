@@ -4,7 +4,10 @@
   "icon": "icbnetwork",
   "rpc": [
     "https://rpc1-testnet.icbnetwork.info/",
-    "https://rpc2-testnet.icbnetwork.info/"
+    "https://rpc2-testnet.icbnetwork.info/",
+    "https://lb.routeme.sh/rpc/evm/73114",
+    "https://rpc1-testnet.icbnetwork.info",
+    "https://rpc2-testnet.icbnetwork.info"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +25,8 @@
       "url": "https://testnet.icbscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/73114": "limited"
+  }
 }

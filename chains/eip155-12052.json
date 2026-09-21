@@ -2,7 +2,8 @@
   "name": "Singularity ZERO Mainnet",
   "chain": "ZERO",
   "rpc": [
-    "https://zerorpc.singularity.gold"
+    "https://zerorpc.singularity.gold",
+    "https://12052.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://zeroscan.singularity.gold"
@@ -23,5 +24,8 @@
       "url": "https://zeroscan.singularity.gold",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://12052.rpc.thirdweb.com": "yes"
+  }
 }

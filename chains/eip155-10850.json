@@ -2,7 +2,8 @@
   "name": "Lamina1 Identity",
   "chain": "Lamina1 Identity",
   "rpc": [
-    "https://subnets.avax.network/lamina1id/mainnet/rpc"
+    "https://subnets.avax.network/lamina1id/mainnet/rpc",
+    "https://10850.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -29,5 +30,8 @@
       "url": "https://subnets.avax.network/lamina1id",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://10850.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "COF",
   "icon": "codefin",
   "rpc": [
-    "https://chain-rpc.codefin.pro"
+    "https://chain-rpc.codefin.pro",
+    "https://9223.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.codefin.pro",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://9223.rpc.thirdweb.com": "yes"
+  }
 }

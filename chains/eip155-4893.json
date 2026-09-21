@@ -3,7 +3,8 @@
   "chain": "GC",
   "icon": "globelchain",
   "rpc": [
-    "https://rpc.gcscan.io"
+    "https://rpc.gcscan.io",
+    "https://4893.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://gcscan.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://4893.rpc.thirdweb.com": "yes"
+  }
 }

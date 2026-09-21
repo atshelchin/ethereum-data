@@ -3,7 +3,8 @@
   "chain": "PLYR",
   "icon": "plyr",
   "rpc": [
-    "https://subnets.avax.network/plyr/mainnet/rpc"
+    "https://subnets.avax.network/plyr/mainnet/rpc",
+    "https://16180.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.plyr.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://16180.rpc.thirdweb.com": "yes"
+  }
 }

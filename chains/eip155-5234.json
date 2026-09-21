@@ -1,7 +1,11 @@
 {
   "name": "Humanode Mainnet",
   "chain": "HMND",
-  "rpc": ["https://explorer-rpc-http.mainnet.stages.humanode.io"],
+  "rpc": [
+    "https://explorer-rpc-http.mainnet.stages.humanode.io",
+    "https://lb.routeme.sh/rpc/evm/5234",
+    "https://5234.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "eHMND",
@@ -20,5 +24,9 @@
       "standard": "EIP3091",
       "icon": "subscan"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/5234": "limited",
+    "https://5234.rpc.thirdweb.com": "yes"
+  }
 }

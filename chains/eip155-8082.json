@@ -3,7 +3,9 @@
   "chain": "Shardeum",
   "icon": "shardeum",
   "rpc": [
-    "https://sphinx.shardeum.org/"
+    "https://sphinx.shardeum.org/",
+    "https://sphinx.shardeum.org",
+    "https://8082.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet-sphinx.shardeum.org/"
@@ -26,5 +28,9 @@
   ],
   "redFlags": [
     "reusedChainId"
-  ]
+  ],
+  "rpcTracking": {
+    "https://sphinx.shardeum.org": "yes",
+    "https://8082.rpc.thirdweb.com": "yes"
+  }
 }

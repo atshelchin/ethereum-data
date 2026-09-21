@@ -3,7 +3,8 @@
   "chain": "LA",
   "icon": "lachain-io",
   "rpc": [
-    "https://rpc-mainnet.lachain.io"
+    "https://rpc-mainnet.lachain.io",
+    "https://225.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://scan.lachain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://225.rpc.thirdweb.com": "yes"
+  }
 }

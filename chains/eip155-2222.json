@@ -15,7 +15,14 @@
     "wss://wevm.kava-rpc.com",
     "wss://kava.drpc.org",
     "https://kava-rpc.gateway.pokt.network",
-    "https://kava-evm.rpc.thirdweb.com"
+    "https://kava-evm.rpc.thirdweb.com",
+    "https://lb.routeme.sh/rpc/evm/2222",
+    "https://kava-public.nodies.app",
+    "https://evm.kava.chainstacklabs.com",
+    "wss://wevm.kava.chainstacklabs.com",
+    "https://node.histori.xyz/kava-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
+    "https://kava.therpc.io",
+    "https://rpc.swiftnodes.io/rpc/kava"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -65,5 +72,23 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://evm.kava-rpc.com": "limited",
+    "https://kava.drpc.org": "none",
+    "https://kava-evm-rpc.publicnode.com": "none",
+    "https://rpc.ankr.com/kava_evm": "limited",
+    "https://kava.api.onfinality.io/public": "limited",
+    "https://kava.api.pocket.network": "none",
+    "wss://kava-evm-rpc.publicnode.com": "none",
+    "wss://kava.drpc.org": "none",
+    "https://kava-evm.rpc.thirdweb.com": "yes",
+    "https://lb.routeme.sh/rpc/evm/2222": "limited",
+    "https://kava-public.nodies.app": "limited",
+    "https://evm.kava.chainstacklabs.com": "yes",
+    "wss://wevm.kava.chainstacklabs.com": "yes",
+    "https://node.histori.xyz/kava-mainnet/8ry9f6t9dct1se2hlagxnd9n2a": "none",
+    "https://kava.therpc.io": "limited",
+    "https://rpc.swiftnodes.io/rpc/kava": "limited"
   }
 }

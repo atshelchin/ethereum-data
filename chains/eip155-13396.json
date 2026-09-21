@@ -3,7 +3,8 @@
   "chain": "MASA",
   "icon": "masa",
   "rpc": [
-    "https://subnets.avax.network/masanetwork/mainnet/rpc"
+    "https://subnets.avax.network/masanetwork/mainnet/rpc",
+    "https://13396.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -26,5 +27,8 @@
       "url": "https://subnets.avax.network/masa",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://13396.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "Mix",
   "chain": "MIX",
   "rpc": [
-    "https://rpc2.mix-blockchain.org:8647"
+    "https://rpc2.mix-blockchain.org:8647",
+    "https://76.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +15,8 @@
   "shortName": "mix",
   "chainId": 76,
   "networkId": 76,
-  "slip44": 76
+  "slip44": 76,
+  "rpcTracking": {
+    "https://76.rpc.thirdweb.com": "yes"
+  }
 }

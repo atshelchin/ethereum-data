@@ -2,7 +2,9 @@
   "name": "Bitica Chain Mainnet",
   "chain": "BDCC",
   "rpc": [
-    "https://mainnet-rpc.biticablockchain.com/"
+    "https://mainnet-rpc.biticablockchain.com/",
+    "https://mainnet-rpc.biticablockchain.com",
+    "https://188710.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +22,8 @@
       "url": "https://biticablockchain.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://188710.rpc.thirdweb.com": "yes"
+  }
 }

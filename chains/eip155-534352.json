@@ -10,7 +10,21 @@
     "https://scroll.api.pocket.network",
     "wss://scroll-rpc.publicnode.com",
     "https://rpc.ankr.com/scroll",
-    "https://scroll-mainnet.chainstacklabs.com"
+    "https://scroll-mainnet.chainstacklabs.com",
+    "https://lb.routeme.sh/rpc/evm/534352",
+    "https://rpc-scroll.icecreamswap.com",
+    "https://scroll-mainnet.public.blastapi.io",
+    "https://scroll-mainnet-public.unifra.io",
+    "https://public.1rpc.io/scroll",
+    "https://scroll-public.nodies.app",
+    "https://endpoints.omniatech.io/v1/scroll/mainnet/public",
+    "https://scroll.therpc.io",
+    "https://api-scroll-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+    "wss://scroll.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/scroll",
+    "https://scroll.rpc.sentio.xyz",
+    "https://rpc-scroll.blockmachine.io",
+    "https://534352.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -72,5 +86,24 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://scroll.drpc.org": "none",
+    "https://scroll.api.onfinality.io/public": "limited",
+    "https://scroll.api.pocket.network": "none",
+    "https://rpc.ankr.com/scroll": "none",
+    "https://lb.routeme.sh/rpc/evm/534352": "limited",
+    "https://scroll-mainnet.public.blastapi.io": "limited",
+    "https://scroll-mainnet-public.unifra.io": "limited",
+    "https://public.1rpc.io/scroll": "none",
+    "https://scroll-public.nodies.app": "limited",
+    "https://endpoints.omniatech.io/v1/scroll/mainnet/public": "none",
+    "https://scroll.therpc.io": "limited",
+    "https://api-scroll-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c": "limited",
+    "wss://scroll.drpc.org": "none",
+    "https://rpc.swiftnodes.io/rpc/scroll": "limited",
+    "https://scroll.rpc.sentio.xyz": "limited",
+    "https://rpc-scroll.blockmachine.io": "none",
+    "https://534352.rpc.thirdweb.com": "yes"
   }
 }

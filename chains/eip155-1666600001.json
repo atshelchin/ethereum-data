@@ -4,7 +4,10 @@
   "rpc": [
     "https://api.s1.t.hmny.io",
     "wss://harmony-1.drpc.org",
-    "https://harmony-1.drpc.org"
+    "https://harmony-1.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/1666600001",
+    "https://s1.api.harmony.one",
+    "https://1666600001.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +26,11 @@
       "url": "https://explorer.harmony.one/blocks/shard/1",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "wss://harmony-1.drpc.org": "none",
+    "https://harmony-1.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/1666600001": "limited",
+    "https://1666600001.rpc.thirdweb.com": "yes"
+  }
 }

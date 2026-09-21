@@ -1,7 +1,14 @@
 {
   "name": "MintMe.com Coin",
   "chain": "MINTME",
-  "rpc": ["https://node1.mintme.com"],
+  "rpc": [
+    "https://node1.mintme.com",
+    "https://lb.routeme.sh/rpc/evm/24734",
+    "https://node.1000x.ch",
+    "https://0xrpc.io/mint",
+    "wss://0xrpc.io/mint",
+    "https://24734.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "MintMe.com Coin",
@@ -11,5 +18,11 @@
   "infoURL": "https://www.mintme.com",
   "shortName": "mintme",
   "chainId": 24734,
-  "networkId": 37480
+  "networkId": 37480,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/24734": "limited",
+    "https://0xrpc.io/mint": "none",
+    "wss://0xrpc.io/mint": "none",
+    "https://24734.rpc.thirdweb.com": "yes"
+  }
 }

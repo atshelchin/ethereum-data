@@ -3,7 +3,9 @@
   "chain": "ETH",
   "rpc": [
     "wss://rpc.redstonechain.com",
-    "https://rpc.redstonechain.com"
+    "https://rpc.redstonechain.com",
+    "https://lb.routeme.sh/rpc/evm/690",
+    "https://690.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -33,5 +35,9 @@
       }
     ]
   },
-  "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/690": "limited",
+    "https://690.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "CIC Chain Mainnet",
   "chain": "CIC",
   "rpc": [
-    "https://xapi.cicscan.com"
+    "https://xapi.cicscan.com",
+    "https://1353.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "cicchain",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1353.rpc.thirdweb.com": "yes"
+  }
 }

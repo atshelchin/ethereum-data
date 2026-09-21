@@ -1,0 +1,26 @@
+{
+  "name": "LightchainAI Testnet",
+  "chain": "LCAI",
+  "icon": "lcai",
+  "rpc": [
+    "https://rpc.testnet.lightchain.ai"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LightchainAI",
+    "symbol": "LCAI",
+    "decimals": 18
+  },
+  "infoURL": "https://lightchain.ai",
+  "shortName": "lcai-t",
+  "chainId": 8200,
+  "networkId": 8200,
+  "explorers": [
+    {
+      "name": "Lightchain Testnet Explorer",
+      "url": "https://testnet.lightscan.app",
+      "icon": "lcai",
+      "standard": "EIP3091"
+    }
+  ]
+}

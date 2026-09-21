@@ -3,13 +3,23 @@
   "title": "MemeCore",
   "chain": "MemeCore",
   "icon": "memecore",
-  "rpc": ["https://rpc.memecore.net", "wss://ws.memecore.net"],
+  "rpc": [
+    "https://rpc.memecore.net",
+    "wss://ws.memecore.net"
+  ],
   "nativeCurrency": {
     "name": "M",
     "symbol": "M",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "infoURL": "https://memecore.com",
   "shortName": "m",
@@ -31,5 +41,9 @@
       "url": "https://blockscout.memecore.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.memecore.net": "none",
+    "wss://ws.memecore.net": "none"
+  }
 }

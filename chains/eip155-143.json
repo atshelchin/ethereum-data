@@ -3,7 +3,26 @@
   "chain": "MON",
   "icon": "monad",
   "rpc": [
-    "https://rpc.monad.xyz"
+    "https://rpc.monad.xyz",
+    "https://lb.routeme.sh/rpc/evm/143",
+    "https://monad-mainnet.api.onfinality.io/public",
+    "https://monad-mainnet.drpc.org",
+    "https://monad-mainnet-rpc.spidernode.net",
+    "https://infra.originstake.com/monad/evm",
+    "https://monad-mainnet.gateway.tatum.io",
+    "https://monad-mainnet.rpc.sentio.xyz",
+    "https://monad-rpc.huginn.tech",
+    "wss://wss.monad-rpc.huginn.tech",
+    "https://gm.monad.at.htw.tech",
+    "wss://gm.monad.at.htw.tech",
+    "https://rpc.swiftnodes.io/rpc/monad",
+    "https://rpc1.monad.xyz",
+    "https://rpc2.monad.xyz",
+    "https://rpc3.monad.xyz",
+    "https://rpc4.monad.xyz",
+    "https://rpc-mainnet.monadinfra.com",
+    "https://monad.rpc.blxrbdn.com",
+    "https://143.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -63,5 +82,19 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/143": "limited",
+    "https://monad-mainnet.api.onfinality.io/public": "limited",
+    "https://monad-mainnet.drpc.org": "none",
+    "https://infra.originstake.com/monad/evm": "none",
+    "https://monad-mainnet.gateway.tatum.io": "yes",
+    "https://monad-mainnet.rpc.sentio.xyz": "limited",
+    "https://monad-rpc.huginn.tech": "none",
+    "wss://wss.monad-rpc.huginn.tech": "none",
+    "https://gm.monad.at.htw.tech": "none",
+    "wss://gm.monad.at.htw.tech": "none",
+    "https://rpc.swiftnodes.io/rpc/monad": "limited",
+    "https://143.rpc.thirdweb.com": "yes"
   }
 }

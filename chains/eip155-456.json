@@ -2,7 +2,11 @@
   "name": "ARZIO Chain",
   "chain": "ARZIO",
   "icon": "arzio",
-  "rpc": ["https://chain-rpc.arzio.co"],
+  "rpc": [
+    "https://chain-rpc.arzio.co",
+    "https://lb.routeme.sh/rpc/evm/456",
+    "https://456.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ARZIO",
@@ -19,5 +23,9 @@
       "url": "https://scan.arzio.co",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/456": "limited",
+    "https://456.rpc.thirdweb.com": "yes"
+  }
 }

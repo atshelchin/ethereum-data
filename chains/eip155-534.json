@@ -3,7 +3,9 @@
   "chain": "Candle",
   "rpc": [
     "https://candle-rpc.com/",
-    "https://rpc.cndlchain.com"
+    "https://rpc.cndlchain.com",
+    "https://candle-rpc.com",
+    "https://534.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,8 @@
       "url": "https://candleexplorer.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://534.rpc.thirdweb.com": "yes"
+  }
 }

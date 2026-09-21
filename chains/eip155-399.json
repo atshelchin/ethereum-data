@@ -12,7 +12,8 @@
   },
   "rpc": [
     "wss://ws.nativ3.network",
-    "https://rpc.nativ3.network"
+    "https://rpc.nativ3.network",
+    "https://399.rpc.thirdweb.com"
   ],
   "faucets": [],
   "explorers": [
@@ -31,5 +32,8 @@
         "url": "https://bridge.nativ3.network"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://399.rpc.thirdweb.com": "yes"
   }
 }

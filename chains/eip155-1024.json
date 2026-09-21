@@ -2,7 +2,8 @@
   "name": "CLV Parachain",
   "chain": "CLV",
   "rpc": [
-    "https://api-para.clover.finance"
+    "https://api-para.clover.finance",
+    "https://1024.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://clv.org",
   "shortName": "clv",
   "chainId": 1024,
-  "networkId": 1024
+  "networkId": 1024,
+  "rpcTracking": {
+    "https://1024.rpc.thirdweb.com": "yes"
+  }
 }

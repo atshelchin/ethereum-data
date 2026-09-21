@@ -2,7 +2,9 @@
   "name": "Tycooncoin",
   "chain": "TYCON",
   "rpc": [
-    "https://mainnet-rpc.tycoscan.com"
+    "https://mainnet-rpc.tycoscan.com",
+    "https://lb.routeme.sh/rpc/evm/3630",
+    "https://3630.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +15,9 @@
   "infoURL": "",
   "shortName": "TYCON",
   "chainId": 3630,
-  "networkId": 3630
+  "networkId": 3630,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/3630": "limited",
+    "https://3630.rpc.thirdweb.com": "yes"
+  }
 }

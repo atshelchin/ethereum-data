@@ -2,7 +2,8 @@
   "name": "Humans.ai Testnet",
   "chain": "Humans Testnet",
   "rpc": [
-    "https://evm-rpc.testnet.humans.zone"
+    "https://evm-rpc.testnet.humans.zone",
+    "https://humans-testnet-evm.itrocket.net"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
   "chainId": 4139,
   "networkId": 4139,
   "slip44": 1,
-  "icon": "humans-dark"
+  "icon": "humans-dark",
+  "rpcTracking": {
+    "https://humans-testnet-evm.itrocket.net": "none"
+  }
 }

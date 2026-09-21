@@ -4,7 +4,9 @@
   "rpc": [
     "https://maizenet-rpc.usecorn.com",
     "https://mainnet.corn-rpc.com",
-    "https://rpc.ankr.com/corn_maizenet"
+    "https://rpc.ankr.com/corn_maizenet",
+    "https://lb.routeme.sh/rpc/evm/21000000",
+    "https://21000000.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -62,5 +64,12 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://maizenet-rpc.usecorn.com": "none",
+    "https://mainnet.corn-rpc.com": "none",
+    "https://rpc.ankr.com/corn_maizenet": "none",
+    "https://lb.routeme.sh/rpc/evm/21000000": "limited",
+    "https://21000000.rpc.thirdweb.com": "yes"
   }
 }

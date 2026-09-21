@@ -6,7 +6,8 @@
     "https://node0.treasurenet.io",
     "https://node1.treasurenet.io",
     "https://node2.treasurenet.io",
-    "https://node3.treasurenet.io"
+    "https://node3.treasurenet.io",
+    "https://5002.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -30,5 +31,8 @@
       "icon": "treasurenet",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://5002.rpc.thirdweb.com": "yes"
+  }
 }

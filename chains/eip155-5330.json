@@ -3,7 +3,11 @@
   "chain": "ETH",
   "rpc": [
     "https://mainnet.superseed.xyz",
-    "wss://mainnet.superseed.xyz"
+    "wss://mainnet.superseed.xyz",
+    "https://lb.routeme.sh/rpc/evm/5330",
+    "https://superseed.drpc.org",
+    "wss://superseed.drpc.org",
+    "https://5330.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -54,5 +58,11 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/5330": "limited",
+    "https://superseed.drpc.org": "none",
+    "wss://superseed.drpc.org": "none",
+    "https://5330.rpc.thirdweb.com": "yes"
   }
 }

@@ -3,7 +3,9 @@
   "chain": "NGL",
   "icon": "ngl",
   "rpc": [
-    "https://json-rpc.entangle.fi"
+    "https://json-rpc.entangle.fi",
+    "https://lb.routeme.sh/rpc/evm/33033",
+    "https://33033.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +23,9 @@
       "url": "https://explorer.entangle.fi",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/33033": "limited",
+    "https://33033.rpc.thirdweb.com": "yes"
+  }
 }

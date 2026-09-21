@@ -4,7 +4,8 @@
   "icon": "bitrock",
   "rpc": [
     "https://connect.bit-rock.io",
-    "https://brockrpc.io"
+    "https://brockrpc.io",
+    "https://7171.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "url": "https://brockscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://7171.rpc.thirdweb.com": "yes"
+  }
 }

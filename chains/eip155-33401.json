@@ -2,7 +2,8 @@
   "name": "SlingShot",
   "chain": "SLING",
   "rpc": [
-    "https://rpc.slingshotdao.com"
+    "https://rpc.slingshotdao.com",
+    "https://33401.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -27,5 +28,8 @@
       "icon": "slingshot",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://33401.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "Rangers",
   "icon": "rangers",
   "rpc": [
-    "https://robin-cm.rangersprotocol.com/api/jsonrpc"
+    "https://robin-cm.rangersprotocol.com/api/jsonrpc",
+    "https://38401.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://robin-faucet.rangersprotocol.com"
@@ -23,5 +24,8 @@
       "url": "https://robin-rangersscan.rangersprotocol.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://38401.rpc.thirdweb.com": "yes"
+  }
 }

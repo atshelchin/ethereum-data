@@ -3,7 +3,8 @@
   "chain": "CVERSE",
   "icon": "chain_verse",
   "rpc": [
-    "https://rpc.chainverse.info"
+    "https://rpc.chainverse.info",
+    "https://5555.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.chainverse.info",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://5555.rpc.thirdweb.com": "yes"
+  }
 }

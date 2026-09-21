@@ -5,7 +5,8 @@
     "https://rpc-mainnet-5.vrcscan.com",
     "https://rpc-mainnet-6.vrcscan.com",
     "https://rpc-mainnet-7.vrcscan.com",
-    "https://rpc-mainnet-8.vrcscan.com"
+    "https://rpc-mainnet-8.vrcscan.com",
+    "https://713.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,5 +30,8 @@
       "standard": "EIP3091"
     }
   ],
-  "icon": "vrcscan"
+  "icon": "vrcscan",
+  "rpcTracking": {
+    "https://713.rpc.thirdweb.com": "yes"
+  }
 }

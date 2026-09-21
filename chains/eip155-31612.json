@@ -11,7 +11,10 @@
     "wss://rpc-ws-internal.mezo.org",
     "https://rpc_evm-mezo.imperator.co",
     "https://mezo-mainnet.boar.network",
-    "wss://mezo-mainnet.boar.network"
+    "wss://mezo-mainnet.boar.network",
+    "https://lb.routeme.sh/rpc/evm/31612",
+    "https://mezo.drpc.org",
+    "wss://mezo.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -62,5 +65,10 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/31612": "limited",
+    "https://mezo.drpc.org": "none",
+    "wss://mezo.drpc.org": "none"
   }
 }

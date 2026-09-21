@@ -3,7 +3,8 @@
   "chain": "XANAChain",
   "rpc": [
     "https://rpc-testnet.c8ntinuum.com",
-    "https://rpc-testnet.c8ntinuum.link"
+    "https://rpc-testnet.c8ntinuum.link",
+    "https://8888.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +26,8 @@
   ],
   "redFlags": [
     "reusedChainId"
-  ]
+  ],
+  "rpcTracking": {
+    "https://8888.rpc.thirdweb.com": "yes"
+  }
 }

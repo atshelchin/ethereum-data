@@ -2,7 +2,8 @@
   "name": "Swan Proxima Testnet",
   "chain": "SWAN",
   "rpc": [
-    "https://rpc-proxima.swanchain.io"
+    "https://rpc-proxima.swanchain.io",
+    "https://lb.routeme.sh/rpc/evm/20241133"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -28,5 +29,8 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/20241133": "limited"
   }
 }

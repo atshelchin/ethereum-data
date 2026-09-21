@@ -1,0 +1,38 @@
+{
+  "name": "Infinite Drive",
+  "chain": "INFINITE",
+  "icon": "infinite",
+  "rpc": [
+    "https://evm-rpc-infinite.mschihuahua.org",
+    "https://evm.infinitedrive.xyz"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Improbability",
+    "symbol": "42",
+    "decimals": 18
+  },
+  "infoURL": "https://infinitedrive.xyz",
+  "shortName": "infinite",
+  "chainId": 421018,
+  "networkId": 421018,
+  "explorers": [
+    {
+      "name": "Infinite Drive Explorer",
+      "url": "https://scan.infinitedrive.xyz",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "rpcTracking": {
+    "https://evm-rpc-infinite.mschihuahua.org": "none"
+  }
+}

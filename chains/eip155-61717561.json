@@ -3,7 +3,9 @@
   "chain": "AQUA",
   "rpc": [
     "https://c.onical.org",
-    "https://tx.aquacha.in/api"
+    "https://tx.aquacha.in/api",
+    "https://lb.routeme.sh/rpc/evm/61717561",
+    "https://61717561.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://aquacha.in/faucet"
@@ -17,5 +19,9 @@
   "shortName": "aqua",
   "chainId": 61717561,
   "networkId": 61717561,
-  "slip44": 61717561
+  "slip44": 61717561,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/61717561": "limited",
+    "https://61717561.rpc.thirdweb.com": "yes"
+  }
 }

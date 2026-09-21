@@ -1,7 +1,11 @@
 {
   "name": "Coinbit Mainnet",
   "chain": "Coinbit",
-  "rpc": ["https://coinbit-rpc-mainnet.chain.sbcrypto.app"],
+  "rpc": [
+    "https://coinbit-rpc-mainnet.chain.sbcrypto.app",
+    "https://lb.routeme.sh/rpc/evm/112",
+    "https://112.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Gas IDR",
@@ -20,5 +24,9 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/112": "limited",
+    "https://112.rpc.thirdweb.com": "yes"
+  }
 }

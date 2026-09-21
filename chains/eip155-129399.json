@@ -2,7 +2,8 @@
   "name": "Tatara Testnet",
   "chain": "Tatara",
   "rpc": [
-    "https://rpc.tatara.katanarpc.com/"
+    "https://rpc.tatara.katanarpc.com/",
+    "https://rpc.tatara.katanarpc.com"
   ],
   "faucets": [],
   "nativeCurrency": {

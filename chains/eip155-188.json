@@ -2,7 +2,9 @@
   "name": "BMC Mainnet",
   "chain": "BMC",
   "rpc": [
-    "https://mainnet.bmcchain.com/"
+    "https://mainnet.bmcchain.com/",
+    "https://mainnet.bmcchain.com",
+    "https://188.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +22,8 @@
       "url": "https://bmc.blockmeta.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://188.rpc.thirdweb.com": "yes"
+  }
 }

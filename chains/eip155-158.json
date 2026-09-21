@@ -9,7 +9,10 @@
       "name": "EIP1559"
     }
   ],
-  "rpc": ["https://dataseed.roburna.com"],
+  "rpc": [
+    "https://dataseed.roburna.com",
+    "https://158.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Roburna",
@@ -27,5 +30,8 @@
       "url": "https://rbascan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://158.rpc.thirdweb.com": "yes"
+  }
 }

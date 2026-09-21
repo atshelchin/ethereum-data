@@ -8,7 +8,18 @@
     "https://rpc.soniclabs.com",
     "https://sonic.api.onfinality.io/public",
     "wss://sonic-rpc.publicnode.com",
-    "wss://sonic.drpc.org"
+    "wss://sonic.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/146",
+    "https://rpc.nodeflare.app/sonic/public",
+    "https://rpc.ankr.com/sonic_mainnet",
+    "wss://sonic.callstaticrpc.com",
+    "https://sonic.therpc.io",
+    "https://sonic-json-rpc.stakely.io",
+    "https://api-sonic-mainnet-archive.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+    "https://sonic-mainnet.rpc.sentio.xyz",
+    "https://rpc.swiftnodes.io/rpc/sonic",
+    "https://sonic-mainnet.gateway.tatum.io",
+    "https://146.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -64,5 +75,22 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://sonic.drpc.org": "none",
+    "https://sonic.api.pocket.network": "none",
+    "https://sonic.api.onfinality.io/public": "limited",
+    "wss://sonic.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/146": "limited",
+    "https://rpc.nodeflare.app/sonic/public": "none",
+    "https://rpc.ankr.com/sonic_mainnet": "limited",
+    "wss://sonic.callstaticrpc.com": "none",
+    "https://sonic.therpc.io": "limited",
+    "https://sonic-json-rpc.stakely.io": "none",
+    "https://api-sonic-mainnet-archive.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c": "limited",
+    "https://sonic-mainnet.rpc.sentio.xyz": "limited",
+    "https://rpc.swiftnodes.io/rpc/sonic": "limited",
+    "https://sonic-mainnet.gateway.tatum.io": "yes",
+    "https://146.rpc.thirdweb.com": "yes"
   }
 }

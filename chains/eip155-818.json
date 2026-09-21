@@ -8,7 +8,8 @@
     "https://dataseed-us1.beonechain.com",
     "https://dataseed-us2.beonechain.com",
     "https://dataseed-uk1.beonechain.com",
-    "https://dataseed-uk2.beonechain.com"
+    "https://dataseed-uk2.beonechain.com",
+    "https://818.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -27,5 +28,8 @@
       "url": "https://beonescan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://818.rpc.thirdweb.com": "yes"
+  }
 }

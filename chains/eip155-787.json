@@ -3,9 +3,20 @@
   "chain": "ACA",
   "rpc": [
     "https://eth-rpc-acala.aca-api.network",
-    "wss://eth-rpc-acala.aca-api.network"
+    "wss://eth-rpc-acala.aca-api.network",
+    "https://lb.routeme.sh/rpc/evm/787",
+    "https://eth-rpc-acala.aca-staging.network",
+    "https://rpc.evm.acala.network",
+    "https://787.rpc.thirdweb.com"
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Acala Token",
@@ -23,5 +34,9 @@
       "url": "https://blockscout.acala.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/787": "limited",
+    "https://787.rpc.thirdweb.com": "yes"
+  }
 }

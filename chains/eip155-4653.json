@@ -3,7 +3,8 @@
   "title": "Gold Chain",
   "chain": "Gold",
   "rpc": [
-    "https://chain-rpc.gold.dev"
+    "https://chain-rpc.gold.dev",
+    "https://4653.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -16,5 +17,8 @@
   "chainId": 4653,
   "networkId": 4653,
   "status": "incubating",
-  "icon": "gold"
+  "icon": "gold",
+  "rpcTracking": {
+    "https://4653.rpc.thirdweb.com": "yes"
+  }
 }

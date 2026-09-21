@@ -2,7 +2,9 @@
   "name": "Neo X Testnet T4",
   "chain": "Neo X",
   "rpc": [
-    "https://testnet.rpc.banelabs.org/"
+    "https://testnet.rpc.banelabs.org/",
+    "https://lb.routeme.sh/rpc/evm/12227332",
+    "https://testnet.rpc.banelabs.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +32,8 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/12227332": "limited"
   }
 }

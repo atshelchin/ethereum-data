@@ -3,7 +3,8 @@
   "chain": "DCSM",
   "icon": "dcsmIcon",
   "rpc": [
-    "https://rpc.decentraconnect.io"
+    "https://rpc.decentraconnect.io",
+    "https://19224.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://decentraconnect.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://19224.rpc.thirdweb.com": "yes"
+  }
 }

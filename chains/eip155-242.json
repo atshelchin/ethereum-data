@@ -5,7 +5,8 @@
   "rpc": [
     "https://rpcurl.mainnet.plgchain.com",
     "https://rpcurl.plgchain.blockchain.evmnode.online",
-    "https://rpcurl.mainnet.plgchain.plinga.technology"
+    "https://rpcurl.mainnet.plgchain.plinga.technology",
+    "https://242.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "url": "https://www.plgscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://242.rpc.thirdweb.com": "yes"
+  }
 }

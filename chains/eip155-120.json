@@ -3,7 +3,8 @@
   "chain": "ENULS",
   "rpc": [
     "https://beta.evmapi.nuls.io",
-    "https://beta.evmapi2.nuls.io"
+    "https://beta.evmapi2.nuls.io",
+    "https://lb.routeme.sh/rpc/evm/120"
   ],
   "faucets": [
     "http://faucet.nuls.io"
@@ -26,5 +27,8 @@
       "icon": "enuls",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/120": "limited"
+  }
 }

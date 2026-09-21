@@ -3,7 +3,8 @@
   "chain": "Aternos",
   "icon": "aternos",
   "rpc": [
-    "https://rpc.aternoschain.com"
+    "https://rpc.aternoschain.com",
+    "https://12020.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.aternoschain.com"
@@ -24,5 +25,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://12020.rpc.thirdweb.com": "yes"
+  }
 }

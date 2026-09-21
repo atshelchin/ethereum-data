@@ -5,7 +5,8 @@
   "chain": "ETH",
   "icon": "astar",
   "rpc": [
-    "https://rpc.startale.com/astar-zkevm"
+    "https://rpc.startale.com/astar-zkevm",
+    "https://3776.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -48,5 +49,8 @@
     },
     "url": "https://quickswap.exchange"
   },
-  "wrappedNativeToken": "0x4F9A0e7FD2Bf6067db6994CF12E4495Df938E6e9"
+  "wrappedNativeToken": "0x4F9A0e7FD2Bf6067db6994CF12E4495Df938E6e9",
+  "rpcTracking": {
+    "https://3776.rpc.thirdweb.com": "yes"
+  }
 }

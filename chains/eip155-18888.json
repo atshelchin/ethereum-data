@@ -5,7 +5,8 @@
     "https://titan-json-rpc.titanlab.io",
     "https://titan-json-rpc-tokyo.titanlab.io",
     "https://titan-json-rpc-seoul.titanlab.io",
-    "https://titan-json-rpc-hongkong.titanlab.io"
+    "https://titan-json-rpc-hongkong.titanlab.io",
+    "https://18888.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +27,8 @@
       "standard": "none",
       "icon": "titan_tkx"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://18888.rpc.thirdweb.com": "yes"
+  }
 }

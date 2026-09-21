@@ -3,7 +3,8 @@
   "chain": "$EL",
   "icon": "eLiberty",
   "rpc": [
-    "https://rpc.eliberty.ngo"
+    "https://rpc.eliberty.ngo",
+    "https://990.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.eliberty.ngo"
@@ -23,5 +24,8 @@
       "url": "https://explorer.eliberty.ngo",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://990.rpc.thirdweb.com": "yes"
+  }
 }

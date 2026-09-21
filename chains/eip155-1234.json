@@ -4,7 +4,9 @@
   "chain": "STEP",
   "icon": "step",
   "rpc": [
-    "https://rpc.step.network"
+    "https://rpc.step.network",
+    "https://lb.routeme.sh/rpc/evm/1234",
+    "https://1234.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -54,5 +56,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1234": "limited",
+    "https://1234.rpc.thirdweb.com": "yes"
+  }
 }

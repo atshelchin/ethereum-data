@@ -7,7 +7,10 @@
     "wss://real.drpc.org",
     "https://rpc.realforreal.gelato.digital",
     "https://tangible-real.gateway.tenderly.co",
-    "https://real.drpc.org"
+    "https://real.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/111188",
+    "wss://tangible-real.gateway.tenderly.co",
+    "https://111188.rpc.thirdweb.com"
   ],
   "nativeCurrency": {
     "name": "re.al Ether",
@@ -57,5 +60,13 @@
     },
     "url": "https://www.pearl.exchange"
   },
-  "wrappedNativeToken": "0x90c6E93849E06EC7478ba24522329d14A5954Df4"
+  "wrappedNativeToken": "0x90c6E93849E06EC7478ba24522329d14A5954Df4",
+  "rpcTracking": {
+    "wss://real.drpc.org": "none",
+    "https://tangible-real.gateway.tenderly.co": "yes",
+    "https://real.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/111188": "limited",
+    "wss://tangible-real.gateway.tenderly.co": "yes",
+    "https://111188.rpc.thirdweb.com": "yes"
+  }
 }

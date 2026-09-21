@@ -2,7 +2,8 @@
   "name": "EtherInc",
   "chain": "ETI",
   "rpc": [
-    "https://api.einc.io/jsonrpc/mainnet"
+    "https://api.einc.io/jsonrpc/mainnet",
+    "https://101.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +15,8 @@
   "shortName": "eti",
   "chainId": 101,
   "networkId": 1,
-  "slip44": 464
+  "slip44": 464,
+  "rpcTracking": {
+    "https://101.rpc.thirdweb.com": "yes"
+  }
 }

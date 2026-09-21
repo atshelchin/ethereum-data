@@ -2,7 +2,10 @@
   "name": "Zora Sepolia Testnet",
   "chain": "ETH",
   "rpc": [
-    "https://sepolia.rpc.zora.energy"
+    "https://sepolia.rpc.zora.energy",
+    "https://lb.routeme.sh/rpc/evm/999999999",
+    "https://zora-sepolia.drpc.org",
+    "wss://zora-sepolia.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +33,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/999999999": "limited",
+    "https://zora-sepolia.drpc.org": "none",
+    "wss://zora-sepolia.drpc.org": "none"
   }
 }

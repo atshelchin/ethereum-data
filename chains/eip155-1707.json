@@ -2,7 +2,11 @@
   "name": "TBSI Mainnet",
   "title": "Thai Blockchain Service Infrastructure Mainnet",
   "chain": "TBSI",
-  "rpc": ["https://rpc.blockchain.or.th"],
+  "rpc": [
+    "https://rpc.blockchain.or.th",
+    "https://lb.routeme.sh/rpc/evm/1707",
+    "https://1707.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Jinda",
@@ -19,5 +23,9 @@
       "url": "https://exp.blockchain.or.th",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1707": "limited",
+    "https://1707.rpc.thirdweb.com": "yes"
+  }
 }

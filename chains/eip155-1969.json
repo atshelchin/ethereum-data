@@ -1,8 +1,13 @@
 {
   "name": "Super Smart Chain Testnet",
   "chain": "TSCS",
-  "rpc": ["https://testnetrpc.scschain.com"],
-  "faucets": ["https://testnet.scschain.com"],
+  "rpc": [
+    "https://testnetrpc.scschain.com",
+    "https://lb.routeme.sh/rpc/evm/1969"
+  ],
+  "faucets": [
+    "https://testnet.scschain.com"
+  ],
   "nativeCurrency": {
     "name": "Super Chain Native Token",
     "symbol": "TSCS",
@@ -20,5 +25,8 @@
       "url": "https://testnetscan.scschain.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1969": "limited"
+  }
 }

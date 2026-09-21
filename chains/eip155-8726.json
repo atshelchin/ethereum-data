@@ -1,7 +1,11 @@
 {
   "name": "Storagechain Mainnet",
   "chain": "Storagechain",
-  "rpc": ["https://mainnet-validator.storagechain.io"],
+  "rpc": [
+    "https://mainnet-validator.storagechain.io",
+    "https://lb.routeme.sh/rpc/evm/8726",
+    "https://8726.rpc.thirdweb.com"
+  ],
   "icon": "storagechain",
   "faucets": [],
   "shortName": "stor",
@@ -19,5 +23,9 @@
       "url": "https://explorer-storagechain.invo.zone/?network=StorageChain",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/8726": "limited",
+    "https://8726.rpc.thirdweb.com": "yes"
+  }
 }

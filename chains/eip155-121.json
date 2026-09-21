@@ -9,7 +9,12 @@
     "https://rcl-dataseed1.rclsidechain.com",
     "https://rcl-dataseed2.rclsidechain.com",
     "https://rcl-dataseed3.rclsidechain.com",
-    "https://rcl-dataseed4.rclsidechain.com"
+    "https://rcl-dataseed4.rclsidechain.com",
+    "wss://rcl-dataseed1.rclsidechain.com/v1",
+    "wss://rcl-dataseed2.rclsidechain.com/v1",
+    "wss://rcl-dataseed3.rclsidechain.com/v1",
+    "wss://rcl-dataseed4.rclsidechain.com/v1",
+    "https://121.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -28,5 +33,8 @@
       "url": "https://rclscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://121.rpc.thirdweb.com": "yes"
+  }
 }

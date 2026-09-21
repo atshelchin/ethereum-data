@@ -1,19 +1,31 @@
 {
   "name": "CamDL Mainnet",
   "chain": "CADL",
-  "rpc": ["https://rpc1.camdl.gov.kh/"],
-  "faucets": ["https://faucet.camdl.gov.kh/"],
+  "rpc": [
+    "https://rpc1.camdl.gov.kh/",
+    "https://rpc1.camdl.gov.kh",
+    "https://95.rpc.thirdweb.com"
+  ],
+  "faucets": [
+    "https://faucet.camdl.gov.kh/"
+  ],
   "nativeCurrency": {
     "name": "CADL",
     "symbol": "CADL",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://camdl.gov.kh/",
   "shortName": "camdl",
   "chainId": 95,
   "networkId": 95,
-  "redFlags": ["reusedChainId"],
+  "redFlags": [
+    "reusedChainId"
+  ],
   "icon": "camdl",
   "explorers": [
     {
@@ -22,5 +34,8 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "status": "active",
+  "rpcTracking": {
+    "https://95.rpc.thirdweb.com": "yes"
+  }
 }

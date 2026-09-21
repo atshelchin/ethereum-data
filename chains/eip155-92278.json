@@ -2,7 +2,9 @@
   "name": "Miracle Chain",
   "chain": "MIRACLE",
   "rpc": [
-    "https://rpc.miracleplay.io"
+    "https://rpc.miracleplay.io",
+    "https://lb.routeme.sh/rpc/evm/92278",
+    "https://92278.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -27,5 +29,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/92278": "limited",
+    "https://92278.rpc.thirdweb.com": "yes"
+  }
 }

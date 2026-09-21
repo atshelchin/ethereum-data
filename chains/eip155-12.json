@@ -1,7 +1,10 @@
 {
   "name": "Metadium Testnet",
   "chain": "META",
-  "rpc": ["https://api.metadium.com/dev"],
+  "rpc": [
+    "https://api.metadium.com/dev",
+    "https://lb.routeme.sh/rpc/evm/12"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Metadium Testnet Ether",
@@ -12,5 +15,8 @@
   "shortName": "kal",
   "chainId": 12,
   "networkId": 12,
-  "slip44": 1
+  "slip44": 1,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/12": "limited"
+  }
 }

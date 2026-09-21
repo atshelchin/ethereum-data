@@ -2,7 +2,11 @@
   "name": "Lit Chain Mainnet",
   "chain": "LITKEY",
   "icon": "lit",
-  "rpc": ["https://lit-chain-rpc.litprotocol.com"],
+  "rpc": [
+    "https://lit-chain-rpc.litprotocol.com",
+    "https://lb.routeme.sh/rpc/evm/175200",
+    "https://175200.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Lit Protocol",
@@ -20,5 +24,9 @@
       "icon": "lit",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/175200": "limited",
+    "https://175200.rpc.thirdweb.com": "yes"
+  }
 }

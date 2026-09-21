@@ -4,7 +4,8 @@
   "icon": "palm",
   "rpc": [
     "https://palm-testnet.infura.io/v3/${INFURA_API_KEY}",
-    "https://palm-testnet.public.blastapi.io"
+    "https://palm-testnet.public.blastapi.io",
+    "https://lb.routeme.sh/rpc/evm/11297108099"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -28,5 +29,9 @@
       "url": "https://www.ondora.xyz/network/palm-testnet",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://palm-testnet.public.blastapi.io": "limited",
+    "https://lb.routeme.sh/rpc/evm/11297108099": "limited"
+  }
 }

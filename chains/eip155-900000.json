@@ -3,7 +3,8 @@
   "chain": "PSC",
   "rpc": [
     "https://api.posichain.org",
-    "https://api.s0.posichain.org"
+    "https://api.s0.posichain.org",
+    "https://900000.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.posichain.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://900000.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,10 @@
   "chain": "EDU Chain",
   "icon": "occ-mainnet",
   "rpc": [
-    "https://rpc.edu-chain.raas.gelato.cloud"
+    "https://rpc.edu-chain.raas.gelato.cloud",
+    "https://lb.routeme.sh/rpc/evm/41923",
+    "https://rpc.educhain.xyz",
+    "https://41923.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://bridge.gelato.network/bridge/edu-chain"
@@ -54,5 +57,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/41923": "limited",
+    "https://41923.rpc.thirdweb.com": "yes"
   }
 }

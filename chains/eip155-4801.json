@@ -5,7 +5,10 @@
     "https://worldchain-sepolia.gateway.tenderly.co",
     "https://worldchain-sepolia.g.alchemy.com/public",
     "https://4801.rpc.thirdweb.com",
-    "wss://worldchain-sepolia.gateway.tenderly.co"
+    "wss://worldchain-sepolia.gateway.tenderly.co",
+    "https://lb.routeme.sh/rpc/evm/4801",
+    "https://worldchain-sepolia.drpc.org",
+    "wss://worldchain-sepolia.drpc.org"
   ],
   "faucets": [
     "https://www.alchemy.com/faucets/world-chain-sepolia",
@@ -50,5 +53,11 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://4801.rpc.thirdweb.com": "yes",
+    "https://lb.routeme.sh/rpc/evm/4801": "limited",
+    "https://worldchain-sepolia.drpc.org": "none",
+    "wss://worldchain-sepolia.drpc.org": "none"
   }
 }

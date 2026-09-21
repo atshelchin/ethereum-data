@@ -3,7 +3,8 @@
   "chain": "CMP",
   "rpc": [
     "wss://mainnet.block.caduceus.foundation",
-    "https://mainnet.block.caduceus.foundation"
+    "https://mainnet.block.caduceus.foundation",
+    "https://256256.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://mainnet.scan.caduceus.foundation",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://256256.rpc.thirdweb.com": "yes"
+  }
 }

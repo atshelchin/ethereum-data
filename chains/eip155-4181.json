@@ -3,7 +3,8 @@
   "chain": "PHI V1",
   "rpc": [
     "https://rpc1.phi.network",
-    "https://rpc2.phi.network"
+    "https://rpc2.phi.network",
+    "https://4181.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "icon": "phi",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://4181.rpc.thirdweb.com": "yes"
+  }
 }

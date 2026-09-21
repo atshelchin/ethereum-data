@@ -2,7 +2,10 @@
   "name": "Abstract Sepolia Testnet",
   "chain": "Abstract Sepolia Testnet",
   "rpc": [
-    "https://api.testnet.abs.xyz"
+    "https://api.testnet.abs.xyz",
+    "https://lb.routeme.sh/rpc/evm/11124",
+    "https://abstract-sepolia.drpc.org",
+    "wss://abstract-sepolia.drpc.org"
   ],
   "faucets": [
     "https://faucet.triangleplatform.com/abstract/testnet"
@@ -39,5 +42,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/11124": "limited",
+    "https://abstract-sepolia.drpc.org": "none",
+    "wss://abstract-sepolia.drpc.org": "none"
   }
 }

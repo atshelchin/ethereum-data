@@ -1,17 +1,28 @@
 {
   "name": "AppLayer Testnet",
   "chain": "AppLayer",
-  "rpc": ["https://testnet-api.applayer.com"],
-  "faucets": ["https://testnet-faucet.applayer.com"],
+  "rpc": [
+    "https://testnet-api.applayer.com",
+    "https://lb.routeme.sh/rpc/evm/75338"
+  ],
+  "faucets": [
+    "https://testnet-faucet.applayer.com"
+  ],
   "nativeCurrency": {
     "name": "AppLayer",
     "symbol": "APPL",
     "decimals": 18
   },
   "features": [
-    { "name": "EIP55" },
-    { "name": "EIP155" },
-    { "name": "EIP1559" }
+    {
+      "name": "EIP55"
+    },
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
   ],
   "infoURL": "https://applayer.com",
   "shortName": "applayer-testnet",
@@ -23,5 +34,8 @@
       "url": "https://testnet-explorer.applayer.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/75338": "limited"
+  }
 }

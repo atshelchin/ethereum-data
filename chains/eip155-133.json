@@ -3,7 +3,10 @@
   "title": "HashKey Chain Testnet",
   "chain": "HashKey Chain Testnet",
   "rpc": [
-    "https://testnet.hsk.xyz"
+    "https://testnet.hsk.xyz",
+    "https://hashkeychain-testnet.alt.technology",
+    "https://hashkey-testnet.drpc.org",
+    "wss://hashkey-testnet.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +29,9 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111"
+  },
+  "rpcTracking": {
+    "https://hashkey-testnet.drpc.org": "none",
+    "wss://hashkey-testnet.drpc.org": "none"
   }
 }

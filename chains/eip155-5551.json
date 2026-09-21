@@ -2,7 +2,8 @@
   "name": "Nahmii 2 Mainnet",
   "chain": "Nahmii",
   "rpc": [
-    "https://l2.nahmii.io"
+    "https://l2.nahmii.io",
+    "https://5551.rpc.thirdweb.com"
   ],
   "status": "active",
   "faucets": [],
@@ -32,5 +33,8 @@
         "url": "https://n2.bridge.nahmii.io"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://5551.rpc.thirdweb.com": "yes"
   }
 }

@@ -3,7 +3,8 @@
   "chain": "Lovely",
   "icon": "lovely",
   "rpc": [
-    "https://rpc.lovely.network"
+    "https://rpc.lovely.network",
+    "https://730.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://scan.lovely.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://730.rpc.thirdweb.com": "yes"
+  }
 }

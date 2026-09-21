@@ -1,8 +1,14 @@
 {
   "name": "VELO Labs Mainnet",
   "chain": "NOVA chain",
-  "rpc": ["https://nova.velo.org"],
-  "faucets": ["https://nova-faucet.velo.org"],
+  "rpc": [
+    "https://nova.velo.org",
+    "https://lb.routeme.sh/rpc/evm/56789",
+    "https://56789.rpc.thirdweb.com"
+  ],
+  "faucets": [
+    "https://nova-faucet.velo.org"
+  ],
   "nativeCurrency": {
     "name": "Nova",
     "symbol": "NOVA",
@@ -19,5 +25,9 @@
       "url": "https://novascan.velo.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/56789": "limited",
+    "https://56789.rpc.thirdweb.com": "yes"
+  }
 }

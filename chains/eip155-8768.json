@@ -3,7 +3,8 @@
   "chain": "TMY",
   "icon": "tmychain",
   "rpc": [
-    "https://node1.tmyblockchain.org/rpc"
+    "https://node1.tmyblockchain.org/rpc",
+    "https://8768.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.tmychain.org/"
@@ -16,5 +17,8 @@
   "infoURL": "https://tmychain.org/",
   "shortName": "tmy",
   "chainId": 8768,
-  "networkId": 8768
+  "networkId": 8768,
+  "rpcTracking": {
+    "https://8768.rpc.thirdweb.com": "yes"
+  }
 }

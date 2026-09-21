@@ -3,15 +3,25 @@
   "chain": "ETH",
   "rpc": [
     "https://blessnet-sepolia-testnet.rpc.caldera.xyz/http",
-    "wss://blessnet-sepolia-testnet.rpc.caldera.xyz/ws"
+    "wss://blessnet-sepolia-testnet.rpc.caldera.xyz/ws",
+    "https://lb.routeme.sh/rpc/evm/11145513"
   ],
-  "faucets": ["https://blessnet-sepolia-testnet.hub.caldera.xyz"],
+  "faucets": [
+    "https://blessnet-sepolia-testnet.hub.caldera.xyz"
+  ],
   "nativeCurrency": {
     "name": "Bless",
     "symbol": "BLESS",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://blessnet.io",
   "shortName": "bless-sepolia",
   "chainId": 11145513,
@@ -29,7 +39,12 @@
     "type": "L2",
     "chain": "eip155-421614",
     "bridges": [
-      { "url": "https://blessnet-sepolia-testnet.bridge.caldera.xyz" }
+      {
+        "url": "https://blessnet-sepolia-testnet.bridge.caldera.xyz"
+      }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/11145513": "limited"
   }
 }

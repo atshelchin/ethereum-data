@@ -7,7 +7,10 @@
     "https://7000.rpc.thirdweb.com",
     "https://zeta-chain.drpc.org",
     "https://zetachain-evm.blockpi.network/v1/rpc/public",
-    "https://zetachain-mainnet.public.blastapi.io"
+    "https://zetachain-mainnet.public.blastapi.io",
+    "https://lb.routeme.sh/rpc/evm/7000",
+    "wss://zeta-chain.drpc.org",
+    "https://api-zetachain-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -66,5 +69,15 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://zetachain-mainnet.g.allthatnode.com/archive/evm": "yes",
+    "https://7000.rpc.thirdweb.com": "yes",
+    "https://zeta-chain.drpc.org": "none",
+    "https://zetachain-evm.blockpi.network/v1/rpc/public": "limited",
+    "https://zetachain-mainnet.public.blastapi.io": "limited",
+    "https://lb.routeme.sh/rpc/evm/7000": "limited",
+    "wss://zeta-chain.drpc.org": "none",
+    "https://api-zetachain-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c": "limited"
   }
 }

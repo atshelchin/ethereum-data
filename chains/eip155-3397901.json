@@ -3,7 +3,8 @@
   "chain": "ETH",
   "icon": "funki",
   "rpc": [
-    "https://funki-testnet.alt.technology"
+    "https://funki-testnet.alt.technology",
+    "https://lb.routeme.sh/rpc/evm/3397901"
   ],
   "faucets": [
     "https://funkichain.com/portfolio"
@@ -33,5 +34,8 @@
       "url": "https://testnet.funkiscan.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/3397901": "limited"
+  }
 }

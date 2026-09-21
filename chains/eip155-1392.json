@@ -3,7 +3,8 @@
   "chain": "Joseon",
   "icon": "joseon",
   "rpc": [
-    "https://rpc.modchain.net/blockchain.joseon.com/rpc"
+    "https://rpc.modchain.net/blockchain.joseon.com/rpc",
+    "https://1392.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://www.blockexplorer.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1392.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,11 @@
   "chain": "Sei",
   "rpc": [
     "https://evm-rpc-testnet.sei-apis.com",
-    "wss://evm-ws-testnet.sei-apis.com"
+    "wss://evm-ws-testnet.sei-apis.com",
+    "https://lb.routeme.sh/rpc/evm/1328",
+    "https://sei-testnet.drpc.org",
+    "https://sei-testnet-public.nodies.app",
+    "wss://sei-testnet.drpc.org"
   ],
   "faucets": [
     "https://atlantic-2.app.sei.io/faucet"
@@ -27,5 +31,11 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1328": "limited",
+    "https://sei-testnet.drpc.org": "none",
+    "https://sei-testnet-public.nodies.app": "limited",
+    "wss://sei-testnet.drpc.org": "none"
   }
 }

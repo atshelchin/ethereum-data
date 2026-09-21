@@ -3,7 +3,8 @@
   "chain": "smartBCHTest",
   "rpc": [
     "https://rpc-testnet.smartbch.org",
-    "https://smartbch.devops.cash/testnet"
+    "https://smartbch.devops.cash/testnet",
+    "https://mainnet.ethereumpow.org"
   ],
   "faucets": [],
   "nativeCurrency": {

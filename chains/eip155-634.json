@@ -1,7 +1,11 @@
 {
   "name": "Avocado",
   "chain": "Avocado",
-  "rpc": ["https://rpc.avocado.instadapp.io"],
+  "rpc": [
+    "https://rpc.avocado.instadapp.io",
+    "https://lb.routeme.sh/rpc/evm/634",
+    "https://634.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "USDC",
@@ -20,5 +24,9 @@
       "icon": "avocado",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/634": "limited",
+    "https://634.rpc.thirdweb.com": "yes"
+  }
 }

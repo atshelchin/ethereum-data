@@ -2,7 +2,8 @@
   "name": "Vela1 Chain Mainnet",
   "chain": "VELA1",
   "rpc": [
-    "https://rpc.velaverse.io"
+    "https://rpc.velaverse.io",
+    "https://555.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://exp.velaverse.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://555.rpc.thirdweb.com": "yes"
+  }
 }

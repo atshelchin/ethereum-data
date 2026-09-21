@@ -2,7 +2,8 @@
   "name": "Beagle Messaging Chain",
   "chain": "BMC",
   "rpc": [
-    "https://beagle.chat/eth"
+    "https://beagle.chat/eth",
+    "https://1515.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.beagle.chat/"
@@ -22,5 +23,8 @@
       "url": "https://eth.beagle.chat",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1515.rpc.thirdweb.com": "yes"
+  }
 }

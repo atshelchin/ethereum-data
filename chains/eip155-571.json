@@ -3,7 +3,8 @@
   "chain": "MTC",
   "icon": "metachain",
   "rpc": [
-    "https://rpc.metatime.com"
+    "https://rpc.metatime.com",
+    "https://571.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -30,5 +31,8 @@
       "url": "https://explorer.metatime.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://571.rpc.thirdweb.com": "yes"
+  }
 }

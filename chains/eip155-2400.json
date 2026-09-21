@@ -3,7 +3,8 @@
   "chain": "TCG Verse",
   "icon": "tcg_verse",
   "rpc": [
-    "https://rpc.tcgverse.xyz"
+    "https://rpc.tcgverse.xyz",
+    "https://2400.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +26,8 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-248"
+  },
+  "rpcTracking": {
+    "https://2400.rpc.thirdweb.com": "yes"
   }
 }

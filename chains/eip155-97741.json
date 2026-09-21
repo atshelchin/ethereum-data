@@ -3,7 +3,9 @@
   "chain": "PEPU",
   "icon": "pepu",
   "rpc": [
-    "https://rpc-pepu-v2-mainnet-0.t.conduit.xyz"
+    "https://rpc-pepu-v2-mainnet-0.t.conduit.xyz",
+    "https://lb.routeme.sh/rpc/evm/97741",
+    "https://97741.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -48,5 +50,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/97741": "limited",
+    "https://97741.rpc.thirdweb.com": "yes"
+  }
 }

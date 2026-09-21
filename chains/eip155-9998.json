@@ -2,7 +2,8 @@
   "name": "Ztc Mainnet",
   "chain": "ZTC",
   "rpc": [
-    "https://zitcoin.us"
+    "https://zitcoin.us",
+    "https://9998.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://ztc.best",
   "shortName": "ZTC",
   "chainId": 9998,
-  "networkId": 9998
+  "networkId": 9998,
+  "rpcTracking": {
+    "https://9998.rpc.thirdweb.com": "yes"
+  }
 }

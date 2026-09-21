@@ -8,7 +8,8 @@
     "https://rpc2.eniac.network",
     "https://enirpc.com",
     "https://rpc1.eniac.network",
-    "wss://rpc.eniac.network/ws/"
+    "wss://rpc.eniac.network/ws/",
+    "wss://rpc.eniac.network/ws"
   ],
   "faucets": [],
   "nativeCurrency": {

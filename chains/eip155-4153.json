@@ -3,7 +3,8 @@
   "chain": "ETH",
   "rpc": [
     "https://rpc.risechain.com/",
-    "wss://rpc.risechain.com/ws"
+    "wss://rpc.risechain.com/ws",
+    "https://rpc.risechain.com"
   ],
   "faucets": [],
   "nativeCurrency": {

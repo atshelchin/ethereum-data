@@ -12,7 +12,9 @@
     "https://mainnet-rpc2.areum.network",
     "https://mainnet-rpc3.areum.network",
     "https://mainnet-rpc4.areum.network",
-    "https://mainnet-rpc5.areum.network"
+    "https://mainnet-rpc5.areum.network",
+    "https://lb.routeme.sh/rpc/evm/463",
+    "https://463.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +32,9 @@
       "url": "https://areonscan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/463": "limited",
+    "https://463.rpc.thirdweb.com": "yes"
+  }
 }

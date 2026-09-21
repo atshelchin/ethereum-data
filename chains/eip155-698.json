@@ -3,7 +3,10 @@
   "chain": "Matchain",
   "icon": "matchain",
   "rpc": [
-    "https://rpc.matchain.io"
+    "https://rpc.matchain.io",
+    "https://lb.routeme.sh/rpc/evm/698",
+    "https://rpc.ankr.com/matchain_mainnet",
+    "https://698.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -57,5 +60,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/698": "limited",
+    "https://698.rpc.thirdweb.com": "yes"
   }
 }

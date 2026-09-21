@@ -2,7 +2,11 @@
   "name": "Adil Chain V2 Mainnet",
   "chain": "ADIL",
   "icon": "adil",
-  "rpc": ["https://adilchain-rpc.io"],
+  "rpc": [
+    "https://adilchain-rpc.io",
+    "https://lb.routeme.sh/rpc/evm/7576",
+    "https://7576.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ADIL",
@@ -19,5 +23,9 @@
       "url": "https://adilchain-scan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/7576": "limited",
+    "https://7576.rpc.thirdweb.com": "yes"
+  }
 }

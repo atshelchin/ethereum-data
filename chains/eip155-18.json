@@ -4,7 +4,8 @@
   "rpc": [
     "https://testnet-rpc.thundercore.com",
     "wss://thundercore-testnet.drpc.org",
-    "https://thundercore-testnet.drpc.org"
+    "https://thundercore-testnet.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/18"
   ],
   "faucets": [
     "https://faucet-testnet.thundercore.com"
@@ -25,5 +26,8 @@
       "url": "https://explorer-testnet.thundercore.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/18": "limited"
+  }
 }

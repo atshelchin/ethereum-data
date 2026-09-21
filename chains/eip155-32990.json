@@ -2,7 +2,9 @@
   "name": "Zilliqa EVM Isolated Server",
   "chain": "ZIL",
   "rpc": [
-    "https://zilliqa-isolated-server.zilliqa.com/"
+    "https://zilliqa-isolated-server.zilliqa.com/",
+    "https://zilliqa-isolated-server.zilliqa.com",
+    "https://32990.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://dev-wallet.zilliqa.com/faucet?network=isolated_server"
@@ -23,5 +25,8 @@
       "url": "https://devex.zilliqa.com/?network=https://zilliqa-isolated-server.zilliqa.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://32990.rpc.thirdweb.com": "yes"
+  }
 }

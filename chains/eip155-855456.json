@@ -3,7 +3,8 @@
   "chain": "EVMCC",
   "rpc": [
     "wss://fraa-flashbox-4643-rpc.a.stagenet.tanssi.network",
-    "https://fraa-flashbox-4643-rpc.a.stagenet.tanssi.network"
+    "https://fraa-flashbox-4643-rpc.a.stagenet.tanssi.network",
+    "https://855456.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,5 +30,8 @@
       "icon": "dodao",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://855456.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "ultrapro",
   "icon": "ultrapro",
   "rpc": [
-    "https://mainnet-rpc.ultraproscan.io"
+    "https://mainnet-rpc.ultraproscan.io",
+    "https://473861.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -30,5 +31,8 @@
       "icon": "ultrapro",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://473861.rpc.thirdweb.com": "yes"
+  }
 }

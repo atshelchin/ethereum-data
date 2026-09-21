@@ -2,7 +2,8 @@
   "name": "Blucrates",
   "chain": "BLU",
   "rpc": [
-    "https://data.bluchain.pro"
+    "https://data.bluchain.pro",
+    "https://727.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +15,8 @@
   "shortName": "blu",
   "chainId": 727,
   "networkId": 727,
-  "slip44": 727
+  "slip44": 727,
+  "rpcTracking": {
+    "https://727.rpc.thirdweb.com": "yes"
+  }
 }

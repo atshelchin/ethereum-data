@@ -2,7 +2,8 @@
   "name": "AmaxSmartchain",
   "chain": "AmaxSmartchain",
   "rpc": [
-    "https://rpc.amaxchain.io"
+    "https://rpc.amaxchain.io",
+    "https://662.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +25,8 @@
   ],
   "redFlags": [
     "reusedChainId"
-  ]
+  ],
+  "rpcTracking": {
+    "https://662.rpc.thirdweb.com": "yes"
+  }
 }

@@ -4,7 +4,9 @@
   "icon": "xrplevm",
   "rpc": [
     "https://rpc.testnet.xrplevm.org",
-    "wss://ws.testnet.xrplevm.org"
+    "wss://ws.testnet.xrplevm.org",
+    "https://xrplevm-testnet.buildintheshade.com",
+    "wss://xrplevm-testnet.buildintheshade.com"
   ],
   "features": [
     {
@@ -39,5 +41,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://xrplevm-testnet.buildintheshade.com": "limited",
+    "wss://xrplevm-testnet.buildintheshade.com": "limited"
   }
 }

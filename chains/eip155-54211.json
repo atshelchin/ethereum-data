@@ -2,7 +2,10 @@
   "name": "Haqq Chain Testnet",
   "chain": "TestEdge2",
   "rpc": [
-    "https://rpc.eth.testedge2.haqq.network"
+    "https://rpc.eth.testedge2.haqq.network",
+    "https://lb.routeme.sh/rpc/evm/54211",
+    "https://haqq-testnet.drpc.org",
+    "wss://haqq-testnet.drpc.org"
   ],
   "faucets": [
     "https://testedge2.haqq.network"
@@ -31,5 +34,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/54211": "limited",
+    "https://haqq-testnet.drpc.org": "none",
+    "wss://haqq-testnet.drpc.org": "none"
   }
 }

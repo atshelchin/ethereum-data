@@ -1,7 +1,10 @@
 {
   "name": "Evrice Network",
   "chain": "EVC",
-  "rpc": ["https://meta.evrice.com"],
+  "rpc": [
+    "https://meta.evrice.com",
+    "https://1010.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Evrice",
@@ -12,5 +15,8 @@
   "shortName": "EVC",
   "chainId": 1010,
   "networkId": 1010,
-  "slip44": 1020
+  "slip44": 1020,
+  "rpcTracking": {
+    "https://1010.rpc.thirdweb.com": "yes"
+  }
 }

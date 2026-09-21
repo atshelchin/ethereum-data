@@ -2,7 +2,11 @@
   "name": "PandoProject Mainnet",
   "chain": "PandoProject",
   "icon": "pando",
-  "rpc": ["https://eth-rpc-api.pandoproject.org/rpc"],
+  "rpc": [
+    "https://eth-rpc-api.pandoproject.org/rpc",
+    "https://lb.routeme.sh/rpc/evm/3601",
+    "https://3601.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "pando-token",
@@ -19,5 +23,9 @@
       "url": "https://explorer.pandoproject.org",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/3601": "limited",
+    "https://3601.rpc.thirdweb.com": "yes"
+  }
 }

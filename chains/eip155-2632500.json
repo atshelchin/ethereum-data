@@ -10,7 +10,22 @@
     "decimals": 18
   },
   "rpc": [
-    "https://mainnet.coti.io/rpc"
+    "https://mainnet.coti.io/rpc",
+    "https://lb.routeme.sh/rpc/evm/2632500",
+    "https://coti-rpc.Hyperflow.finance",
+    "wss://coti-rpc.Hyperflow.finance",
+    "https://rpc.poolz.finance/coti",
+    "https://tokyo.fullnode.mainnet.coti.io/rpc",
+    "wss://tokyo.fullnode.mainnet.coti.io/ws",
+    "https://virginia.fullnode.mainnet.coti.io/rpc",
+    "wss://virginia.fullnode.mainnet.coti.io/ws",
+    "https://new-york.fullnode.mainnet.coti.io/rpc",
+    "wss://new-york.fullnode.mainnet.coti.io/ws",
+    "https://community-enabler-1.fullnode.mainnet.coti.io/rpc",
+    "wss://community-enabler-1.fullnode.mainnet.coti.io/ws",
+    "https://mainnet.innovunode.io/rpc",
+    "wss://mainnet.innovunode.io/ws",
+    "https://2632500.rpc.thirdweb.com"
   ],
   "faucets": [],
   "explorers": [
@@ -37,5 +52,10 @@
       "type": "bridge",
       "contract": "0xf1Feebc4376c68B7003450ae66343Ae59AB37D3C"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2632500": "limited",
+    "https://rpc.poolz.finance/coti": "limited",
+    "https://2632500.rpc.thirdweb.com": "yes"
+  }
 }

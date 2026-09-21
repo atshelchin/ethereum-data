@@ -2,7 +2,8 @@
   "name": "Boyaa Mainnet",
   "chain": "BYC",
   "rpc": [
-    "https://rpc.boyaa.network"
+    "https://rpc.boyaa.network",
+    "https://434.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.mainnet.boyaa.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://434.rpc.thirdweb.com": "yes"
+  }
 }

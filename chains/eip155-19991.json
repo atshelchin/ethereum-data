@@ -2,7 +2,10 @@
   "name": "Ultra EVM Network",
   "chain": "Ultra",
   "icon": "ultra",
-  "rpc": ["https://evm.ultra.eosusa.io"],
+  "rpc": [
+    "https://evm.ultra.eosusa.io",
+    "https://19991.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ultra Token",
@@ -19,5 +22,8 @@
       "url": "https://evmexplorer.ultra.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://19991.rpc.thirdweb.com": "yes"
+  }
 }

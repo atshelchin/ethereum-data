@@ -3,7 +3,9 @@
   "title": "Doma",
   "chain": "ETH",
   "rpc": [
-    "https://rpc.doma.xyz"
+    "https://rpc.doma.xyz",
+    "https://doma.drpc.org",
+    "wss://doma.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -53,5 +55,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://doma.drpc.org": "none",
+    "wss://doma.drpc.org": "none"
   }
 }

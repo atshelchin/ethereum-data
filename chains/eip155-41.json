@@ -4,7 +4,9 @@
   "rpc": [
     "https://rpc.testnet.telos.net",
     "wss://telos-testnet.drpc.org",
-    "https://telos-testnet.drpc.org"
+    "https://telos-testnet.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/41",
+    "https://testnet.telos.net/evm"
   ],
   "faucets": [
     "https://app.telos.net/testnet/developers"
@@ -28,5 +30,8 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/41": "limited"
   }
 }

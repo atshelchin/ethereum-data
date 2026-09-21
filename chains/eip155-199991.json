@@ -3,7 +3,8 @@
   "chain": "MAZZE Testnet",
   "icon": "mazze",
   "rpc": [
-    "https://testnet-rpc.mazze.io/"
+    "https://testnet-rpc.mazze.io/",
+    "https://testnet-rpc.mazze.io"
   ],
   "faucets": [
     "https://faucet.mazze.io/"

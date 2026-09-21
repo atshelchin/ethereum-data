@@ -9,7 +9,8 @@
     "https://rpc-testnet.onfachain.com",
     "https://rpc-testnet.onfachain.net",
     "wss://ws-testnet.onfachain.com",
-    "wss://ws-testnet.onfachain.net"
+    "wss://ws-testnet.onfachain.net",
+    "https://rpc.onfa.io"
   ],
   "faucets": [],
   "nativeCurrency": {

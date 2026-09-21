@@ -2,7 +2,9 @@
   "name": "Galactica-Reticulum",
   "chain": "Galactica Testnet",
   "rpc": [
-    "https://evm-rpc-http-reticulum.galactica.com/"
+    "https://evm-rpc-http-reticulum.galactica.com/",
+    "https://lb.routeme.sh/rpc/evm/9302",
+    "https://evm-rpc-http-reticulum.galactica.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +22,8 @@
       "url": "https://explorer-reticulum.galactica.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/9302": "limited"
+  }
 }

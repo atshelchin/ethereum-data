@@ -3,7 +3,8 @@
   "chain": "Genesys",
   "icon": "genesys",
   "rpc": [
-    "https://rpc.genesys.network"
+    "https://rpc.genesys.network",
+    "https://16507.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://gchainexplorer.genesys.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://16507.rpc.thirdweb.com": "yes"
+  }
 }

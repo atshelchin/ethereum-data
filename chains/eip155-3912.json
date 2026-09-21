@@ -2,7 +2,8 @@
   "name": "DRAC Network",
   "chain": "DRAC",
   "rpc": [
-    "https://www.dracscan.com/rpc"
+    "https://www.dracscan.com/rpc",
+    "https://3912.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://www.dracscan.io/faucet"
@@ -31,5 +32,8 @@
       "url": "https://www.dracscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://3912.rpc.thirdweb.com": "yes"
+  }
 }

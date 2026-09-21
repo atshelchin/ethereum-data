@@ -2,7 +2,8 @@
   "name": "Nexa MetaNet",
   "chain": "NEXA",
   "rpc": [
-    "https://nexa.sh/metanet"
+    "https://nexa.sh/metanet",
+    "https://29223.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "standard": "none",
       "icon": "nexashell"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://29223.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,7 +1,11 @@
 {
   "name": "Ntity Mainnet",
   "chain": "Ntity",
-  "rpc": ["https://rpc.ntity.io"],
+  "rpc": [
+    "https://rpc.ntity.io",
+    "https://lb.routeme.sh/rpc/evm/197710212030",
+    "https://197710212030.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ntity",
@@ -20,5 +24,9 @@
       "icon": "ntity",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/197710212030": "limited",
+    "https://197710212030.rpc.thirdweb.com": "yes"
+  }
 }

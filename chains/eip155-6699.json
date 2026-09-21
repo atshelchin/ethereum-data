@@ -3,7 +3,8 @@
   "title": "OX Chain",
   "chain": "OX",
   "rpc": [
-    "https://rpc.oxscan.io"
+    "https://rpc.oxscan.io",
+    "https://6699.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +16,8 @@
   "shortName": "ox-chain",
   "chainId": 6699,
   "networkId": 6699,
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://6699.rpc.thirdweb.com": "yes"
+  }
 }

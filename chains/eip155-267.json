@@ -4,7 +4,8 @@
   "chain": "NEURA",
   "icon": "neura",
   "rpc": [
-    "https://rpc.ankr.com/neura_testnet"
+    "https://rpc.ankr.com/neura_testnet",
+    "https://lb.routeme.sh/rpc/evm/267"
   ],
   "features": [
     {
@@ -44,5 +45,8 @@
   "slip44": 1,
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/267": "limited"
   }
 }

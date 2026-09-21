@@ -21,5 +21,8 @@
       "url": "https://ladyscan.us",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://ladyrpc.us/rpc": "none"
+  }
 }

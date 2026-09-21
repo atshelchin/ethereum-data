@@ -5,7 +5,9 @@
     "https://evm.shidoscan.net",
     "https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/rpc",
     "wss://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/ws",
-    "wss://wss.shidoscan.net"
+    "wss://wss.shidoscan.net",
+    "https://lb.routeme.sh/rpc/evm/9008",
+    "https://9008.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +27,9 @@
       "standard": "none",
       "icon": "shidoChain"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/9008": "limited",
+    "https://9008.rpc.thirdweb.com": "yes"
+  }
 }

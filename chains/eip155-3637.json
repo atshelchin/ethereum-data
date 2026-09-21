@@ -3,7 +3,8 @@
   "chain": "BOTANIX",
   "icon": "botanix",
   "rpc": [
-    "https://rpc.botanixlabs.com"
+    "https://rpc.botanixlabs.com",
+    "https://rpc.ankr.com/botanix_mainnet"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +25,8 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://rpc.ankr.com/botanix_mainnet": "none"
   }
 }

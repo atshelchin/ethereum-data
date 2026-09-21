@@ -5,7 +5,8 @@
   "rpc": [
     "https://rpc.jovay.io",
     "https://api.zan.top/node/v1/jovay/mainnet/${ZAN_API_KEY}",
-    "wss://api.zan.top/node/ws/v1/jovay/mainnet/${ZAN_API_KEY}"
+    "wss://api.zan.top/node/ws/v1/jovay/mainnet/${ZAN_API_KEY}",
+    "https://jovay.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -34,5 +35,8 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://jovay.drpc.org": "none"
+  }
 }

@@ -1,7 +1,15 @@
 {
   "name": "CoinEx Smart Chain Mainnet",
   "chain": "CSC",
-  "rpc": ["https://rpc.coinex.net"],
+  "rpc": [
+    "https://rpc.coinex.net",
+    "https://lb.routeme.sh/rpc/evm/52",
+    "https://rpc1.coinex.net",
+    "https://rpc2.coinex.net",
+    "https://rpc3.coinex.net",
+    "https://rpc4.coinex.net",
+    "https://52.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "CoinEx Chain Native Token",
@@ -18,5 +26,9 @@
       "url": "https://www.coinex.net",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/52": "limited",
+    "https://52.rpc.thirdweb.com": "yes"
+  }
 }

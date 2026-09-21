@@ -8,7 +8,9 @@
   "icon": "syndr",
   "rpc": [
     "wss://rpc.syndr.com/ws",
-    "https://rpc.syndr.com"
+    "https://rpc.syndr.com",
+    "https://lb.routeme.sh/rpc/evm/404",
+    "https://404.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -32,5 +34,9 @@
         "url": "https://bridge.syndr.com"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/404": "limited",
+    "https://404.rpc.thirdweb.com": "yes"
   }
 }

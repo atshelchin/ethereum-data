@@ -8,7 +8,14 @@
     "https://optimism-sepolia-rpc.publicnode.com",
     "https://op-sepolia-testnet.api.pocket.network",
     "wss://optimism-sepolia.drpc.org",
-    "wss://optimism-sepolia-rpc.publicnode.com"
+    "wss://optimism-sepolia-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/11155420",
+    "https://public.stackup.sh/api/v1/node/optimism-sepolia",
+    "https://endpoints.omniatech.io/v1/op/sepolia/public",
+    "https://optimism-sepolia.gateway.tenderly.co",
+    "https://api.zan.top/opt-sepolia",
+    "https://optimism-sepolia-public.nodies.app",
+    "https://optimism-sepolia.therpc.io"
   ],
   "faucets": [
     "https://app.optimism.io/faucet"
@@ -43,5 +50,16 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://optimism-sepolia.api.onfinality.io/public": "limited",
+    "https://op-sepolia-testnet.api.pocket.network": "none",
+    "https://lb.routeme.sh/rpc/evm/11155420": "limited",
+    "https://public.stackup.sh/api/v1/node/optimism-sepolia": "limited",
+    "https://endpoints.omniatech.io/v1/op/sepolia/public": "none",
+    "https://optimism-sepolia.gateway.tenderly.co": "yes",
+    "https://api.zan.top/opt-sepolia": "limited",
+    "https://optimism-sepolia-public.nodies.app": "limited",
+    "https://optimism-sepolia.therpc.io": "limited"
   }
 }

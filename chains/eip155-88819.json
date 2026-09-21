@@ -2,14 +2,25 @@
   "name": "Unit Zero Stagenet",
   "chain": "Unit Zero",
   "icon": "unitzero",
-  "rpc": ["https://rpc-stagenet.unit0.dev"],
+  "rpc": [
+    "https://rpc-stagenet.unit0.dev",
+    "https://lb.routeme.sh/rpc/evm/88819",
+    "https://88819.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "UNIT0",
     "symbol": "UNIT0",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://units.network",
   "shortName": "unit0-stagenet",
   "chainId": 88819,
@@ -20,5 +31,9 @@
       "url": "https://explorer-stagenet.unit0.dev",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/88819": "limited",
+    "https://88819.rpc.thirdweb.com": "yes"
+  }
 }

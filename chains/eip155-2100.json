@@ -2,7 +2,9 @@
   "name": "Ecoball Mainnet",
   "chain": "ECO",
   "rpc": [
-    "https://api.ecoball.org/ecoball/"
+    "https://api.ecoball.org/ecoball/",
+    "https://api.ecoball.org/ecoball",
+    "https://2100.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +22,8 @@
       "url": "https://scan.ecoball.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2100.rpc.thirdweb.com": "yes"
+  }
 }

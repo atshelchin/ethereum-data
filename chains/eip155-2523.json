@@ -2,7 +2,9 @@
   "name": "Fraxtal Hoodi Testnet",
   "chain": "FRAX",
   "rpc": [
-    "https://rpc.testnet.frax.com"
+    "https://rpc.testnet.frax.com",
+    "https://fraxtal-testnet.drpc.org",
+    "wss://fraxtal-testnet.drpc.org"
   ],
   "faucets": [
     "https://faucet.testnet.frax.com/"
@@ -24,5 +26,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://fraxtal-testnet.drpc.org": "none",
+    "wss://fraxtal-testnet.drpc.org": "none"
+  }
 }

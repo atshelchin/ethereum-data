@@ -2,7 +2,8 @@
   "name": "Qubetics Alpha Testnet",
   "chain": "Qubetics Alpha Testnet",
   "rpc": [
-    "https://alphatestnet-evm-rpc.qubetics.work/"
+    "https://alphatestnet-evm-rpc.qubetics.work/",
+    "https://alphatestnet-evm-rpc.qubetics.work"
   ],
   "faucets": [
     "https://alphatestnet-explorer.qubetics.work/faucet"

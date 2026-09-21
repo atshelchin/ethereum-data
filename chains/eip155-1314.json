@@ -2,7 +2,8 @@
   "name": "Alyx Mainnet",
   "chain": "ALYX",
   "rpc": [
-    "https://rpc.alyxchain.com"
+    "https://rpc.alyxchain.com",
+    "https://1314.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "standard": "EIP3091"
     }
   ],
-  "icon": "alyx"
+  "icon": "alyx",
+  "rpcTracking": {
+    "https://1314.rpc.thirdweb.com": "yes"
+  }
 }

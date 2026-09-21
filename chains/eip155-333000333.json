@@ -3,7 +3,8 @@
   "title": "Meld Mainnet",
   "chain": "MELD",
   "rpc": [
-    "https://rpc-1.meld.com"
+    "https://rpc-1.meld.com",
+    "https://333000333.rpc.thirdweb.com"
   ],
   "faucets": [],
   "features": [],
@@ -30,5 +31,8 @@
       "icon": "meld",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://333000333.rpc.thirdweb.com": "yes"
+  }
 }

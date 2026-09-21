@@ -5,7 +5,18 @@
     "https://manta-pacific.drpc.org",
     "https://pacific-rpc.manta.network/http",
     "wss://manta-pacific.drpc.org",
-    "wss://manta-atlantic-rpc.publicnode.com"
+    "wss://manta-atlantic-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/169",
+    "https://public.1rpc.io/manta",
+    "https://manta-pacific-gascap.calderachain.xyz/http",
+    "https://www.tencentcloud-rpc.com/v2/manta/manta-rpc",
+    "https://r1.pacific.manta.systems/http",
+    "https://manta.nirvanalabs.xyz/mantapublic",
+    "https://manta-pacific.calderachain.xyz/http",
+    "wss://manta-pacific.calderachain.xyz/ws",
+    "https://endpoints.omniatech.io/v1/manta-pacific/mainnet/public",
+    "https://manta-pacific-mainnet.rpc.sentio.xyz",
+    "https://169.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -57,5 +68,14 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://manta-pacific.drpc.org": "none",
+    "wss://manta-pacific.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/169": "limited",
+    "https://public.1rpc.io/manta": "none",
+    "https://endpoints.omniatech.io/v1/manta-pacific/mainnet/public": "none",
+    "https://manta-pacific-mainnet.rpc.sentio.xyz": "limited",
+    "https://169.rpc.thirdweb.com": "yes"
   }
 }

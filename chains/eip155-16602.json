@@ -1,8 +1,13 @@
 {
   "name": "0G-Testnet-Galileo",
   "chain": "0G-Testnet",
-  "rpc": ["https://evmrpc-testnet.0g.ai"],
-  "faucets": ["https://faucet.0g.ai"],
+  "rpc": [
+    "https://evmrpc-testnet.0g.ai",
+    "https://lb.routeme.sh/rpc/evm/16602"
+  ],
+  "faucets": [
+    "https://faucet.0g.ai"
+  ],
   "nativeCurrency": {
     "name": "0G",
     "symbol": "0G",
@@ -19,5 +24,8 @@
       "url": "https://chainscan-galileo.0g.ai",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/16602": "limited"
+  }
 }

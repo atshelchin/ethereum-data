@@ -3,7 +3,8 @@
   "chain": "Taf ECO Chain",
   "icon": "taf",
   "rpc": [
-    "https://mainnet.tafchain.com/v1"
+    "https://mainnet.tafchain.com/v1",
+    "https://224168.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://ecoscan.tafchain.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://224168.rpc.thirdweb.com": "yes"
+  }
 }

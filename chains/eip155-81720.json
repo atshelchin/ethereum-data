@@ -3,7 +3,8 @@
   "chain": "QNET",
   "icon": "qnet",
   "rpc": [
-    "https://rpc.quantumscan.org"
+    "https://rpc.quantumscan.org",
+    "https://81720.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://quantumscan.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://81720.rpc.thirdweb.com": "yes"
+  }
 }

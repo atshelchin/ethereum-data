@@ -2,7 +2,9 @@
   "name": "Everclear Mainnet",
   "chain": "Everclear Mainnet",
   "rpc": [
-    "https://rpc.everclear.raas.gelato.cloud"
+    "https://rpc.everclear.raas.gelato.cloud",
+    "https://everclear.drpc.org",
+    "wss://everclear.drpc.org"
   ],
   "nativeCurrency": {
     "name": "ETH",
@@ -21,5 +23,9 @@
       "icon": "everclear",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://everclear.drpc.org": "none",
+    "wss://everclear.drpc.org": "none"
+  }
 }

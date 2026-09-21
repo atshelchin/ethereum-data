@@ -5,7 +5,9 @@
   "rpc": [
     "https://rpc2.mainnet.lachain.network",
     "https://rpc1.mainnet.lachain.network",
-    "https://lachain.rpc-nodes.cedalio.dev"
+    "https://lachain.rpc-nodes.cedalio.dev",
+    "https://lb.routeme.sh/rpc/evm/274",
+    "https://274.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -31,5 +33,9 @@
       "url": "https://explorer.lachain.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/274": "limited",
+    "https://274.rpc.thirdweb.com": "yes"
+  }
 }

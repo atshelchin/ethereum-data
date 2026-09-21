@@ -1,7 +1,10 @@
 {
   "name": "Firenze test network",
   "chain": "ETH",
-  "rpc": ["https://ethnode.primusmoney.com/firenze"],
+  "rpc": [
+    "https://ethnode.primusmoney.com/firenze",
+    "https://lb.routeme.sh/rpc/evm/78110"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Firenze Ether",
@@ -12,5 +15,8 @@
   "shortName": "firenze",
   "chainId": 78110,
   "networkId": 78110,
-  "slip44": 1
+  "slip44": 1,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/78110": "limited"
+  }
 }

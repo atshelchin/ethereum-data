@@ -3,7 +3,8 @@
   "chain": "QuarkChain",
   "rpc": [
     "http://eth-jrpc.mainnet.quarkchain.io:39007",
-    "https://mainnet-s7-ethapi.quarkchain.io"
+    "https://mainnet-s7-ethapi.quarkchain.io",
+    "https://100008.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +26,8 @@
       "url": "https://mainnet.quarkchain.io/7",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://100008.rpc.thirdweb.com": "yes"
+  }
 }

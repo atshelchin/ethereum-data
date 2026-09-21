@@ -2,7 +2,8 @@
   "name": "Linqto Devnet",
   "chain": "LNQ",
   "rpc": [
-    "https://linqto-dev.com"
+    "https://linqto-dev.com",
+    "https://84.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://explorer.linqto-dev.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://84.rpc.thirdweb.com": "yes"
+  }
 }

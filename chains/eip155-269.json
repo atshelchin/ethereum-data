@@ -1,8 +1,15 @@
 {
   "name": "High Performance Blockchain",
   "chain": "HPB",
-  "rpc": ["https://hpbnode.com", "wss://ws.hpbnode.com"],
-  "faucets": ["https://myhpbwallet.com/"],
+  "rpc": [
+    "https://hpbnode.com",
+    "wss://ws.hpbnode.com",
+    "https://lb.routeme.sh/rpc/evm/269",
+    "https://269.rpc.thirdweb.com"
+  ],
+  "faucets": [
+    "https://myhpbwallet.com/"
+  ],
   "nativeCurrency": {
     "name": "High Performance Blockchain Ether",
     "symbol": "HPB",
@@ -19,5 +26,9 @@
       "url": "https://hscan.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/269": "limited",
+    "https://269.rpc.thirdweb.com": "yes"
+  }
 }

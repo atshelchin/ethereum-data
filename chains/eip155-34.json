@@ -2,7 +2,11 @@
   "name": "SecureChain Mainnet",
   "chain": "SCAI",
   "icon": "scaiIcon",
-  "rpc": ["https://mainnet-rpc.scai.network"],
+  "rpc": [
+    "https://mainnet-rpc.scai.network",
+    "https://lb.routeme.sh/rpc/evm/34",
+    "https://34.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "SecureChain",
@@ -13,12 +17,18 @@
   "shortName": "scai",
   "chainId": 34,
   "networkId": 34,
-  "redFlags": ["reusedChainId"],
+  "redFlags": [
+    "reusedChainId"
+  ],
   "explorers": [
     {
       "name": "SecureChain Mainnet",
       "url": "https://explorer.securechain.ai",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/34": "limited",
+    "https://34.rpc.thirdweb.com": "yes"
+  }
 }

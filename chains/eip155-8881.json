@@ -7,7 +7,8 @@
     "https://quartz.api.onfinality.io/public-ws",
     "https://eu-rpc-quartz.unique.network",
     "https://asia-rpc-quartz.unique.network",
-    "https://us-rpc-quartz.unique.network"
+    "https://us-rpc-quartz.unique.network",
+    "https://8881.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +26,8 @@
       "url": "https://uniquescan.io/quartz",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://8881.rpc.thirdweb.com": "yes"
+  }
 }

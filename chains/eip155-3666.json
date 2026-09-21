@@ -1,7 +1,10 @@
 {
   "name": "Jouleverse Mainnet",
   "chain": "Jouleverse",
-  "rpc": ["https://rpc.jnsdao.com:8503"],
+  "rpc": [
+    "https://rpc.jnsdao.com:8503",
+    "https://3666.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "J",
@@ -18,5 +21,8 @@
       "url": "https://jscan.jnsdao.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://3666.rpc.thirdweb.com": "yes"
+  }
 }

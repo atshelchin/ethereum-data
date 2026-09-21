@@ -3,7 +3,8 @@
   "chain": "AmStar",
   "icon": "amstar",
   "rpc": [
-    "https://mainnet-rpc.amstarscan.com"
+    "https://mainnet-rpc.amstarscan.com",
+    "https://1388.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://mainnet.amstarscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1388.rpc.thirdweb.com": "yes"
+  }
 }

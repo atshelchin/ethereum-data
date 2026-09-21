@@ -3,7 +3,8 @@
   "chain": "ReDeFi",
   "icon": "redefi",
   "rpc": [
-    "https://layer2.redefi.world"
+    "https://layer2.redefi.world",
+    "https://1899.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "url": "https://scanlayer2.redefi.world",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1899.rpc.thirdweb.com": "yes"
+  }
 }

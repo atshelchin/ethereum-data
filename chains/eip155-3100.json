@@ -3,7 +3,8 @@
   "chain": "EVMCC",
   "rpc": [
     "wss://fraa-flashbox-2800-rpc.a.stagenet.tanssi.network",
-    "https://fraa-flashbox-2800-rpc.a.stagenet.tanssi.network"
+    "https://fraa-flashbox-2800-rpc.a.stagenet.tanssi.network",
+    "https://3100.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +16,8 @@
   "shortName": "Immu3",
   "chainId": 3100,
   "networkId": 3100,
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://3100.rpc.thirdweb.com": "yes"
+  }
 }

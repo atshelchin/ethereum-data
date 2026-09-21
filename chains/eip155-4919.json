@@ -3,7 +3,8 @@
   "chain": "XVM",
   "icon": "venidium",
   "rpc": [
-    "https://rpc.venidium.io"
+    "https://rpc.venidium.io",
+    "https://4919.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://evm.venidiumexplorer.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://4919.rpc.thirdweb.com": "yes"
+  }
 }

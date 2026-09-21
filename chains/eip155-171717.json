@@ -4,7 +4,8 @@
   "chain": "Wadzchain-Mainnet",
   "icon": "wadz",
   "rpc": [
-    "https://rpc.wadzchain.io"
+    "https://rpc.wadzchain.io",
+    "https://rpc.w-chain.com"
   ],
   "faucets": [],
   "nativeCurrency": {

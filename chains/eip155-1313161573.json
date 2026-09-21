@@ -1,7 +1,10 @@
 {
   "name": "Tuxappcoin",
   "chain": "NEAR",
-  "rpc": ["https://rpc-0x4e454165.aurora-cloud.dev"],
+  "rpc": [
+    "https://rpc-0x4e454165.aurora-cloud.dev",
+    "https://lb.routeme.sh/rpc/evm/1313161573"
+  ],
   "icon": "tuxa",
   "faucets": [],
   "nativeCurrency": {
@@ -19,5 +22,8 @@
       "url": "https://explorer.tuxa.aurora.dev",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1313161573": "limited"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "ALPH",
   "rpc": [
     "wss://rpc.alph.network",
-    "https://rpc.alph.network"
+    "https://rpc.alph.network",
+    "https://8738.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.alph.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://8738.rpc.thirdweb.com": "yes"
+  }
 }

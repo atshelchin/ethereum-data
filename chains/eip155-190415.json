@@ -2,7 +2,9 @@
   "name": "HPP Mainnet",
   "chain": "ETH",
   "rpc": [
-    "https://mainnet.hpp.io"
+    "https://mainnet.hpp.io",
+    "https://lb.routeme.sh/rpc/evm/190415",
+    "https://190415.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -56,5 +58,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/190415": "limited",
+    "https://190415.rpc.thirdweb.com": "yes"
   }
 }

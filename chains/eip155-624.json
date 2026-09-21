@@ -2,7 +2,8 @@
   "name": "Binary Mainnet",
   "chain": "The Binary Holdings",
   "rpc": [
-    "https://rpc.zero.thebinaryholdings.com"
+    "https://rpc.zero.thebinaryholdings.com",
+    "https://624.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://explorer.thebinaryholdings.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://624.rpc.thirdweb.com": "yes"
+  }
 }

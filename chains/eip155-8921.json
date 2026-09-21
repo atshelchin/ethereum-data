@@ -1,7 +1,11 @@
 {
   "name": "Algen Layer2",
   "chain": "ALG L2",
-  "rpc": ["https://rpc.alg2.algen.network"],
+  "rpc": [
+    "https://rpc.alg2.algen.network",
+    "https://lb.routeme.sh/rpc/evm/8921",
+    "https://8921.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ALG",
@@ -24,5 +28,9 @@
   "parent": {
     "chain": "eip155-8911",
     "type": "shard"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/8921": "limited",
+    "https://8921.rpc.thirdweb.com": "yes"
   }
 }

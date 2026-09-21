@@ -8,7 +8,8 @@
     "wss://ws-mainnet-us.cube.network",
     "https://http-mainnet.cube.network",
     "https://http-mainnet-sg.cube.network",
-    "https://http-mainnet-us.cube.network"
+    "https://http-mainnet-us.cube.network",
+    "https://1818.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -27,5 +28,8 @@
       "url": "https://cubescan.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1818.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,7 +1,9 @@
 {
   "name": "Bronos Mainnet",
   "chain": "Bronos",
-  "rpc": [],
+  "rpc": [
+    "https://1039.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BRO",
@@ -20,5 +22,8 @@
       "standard": "none",
       "icon": "bronos"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1039.rpc.thirdweb.com": "yes"
+  }
 }

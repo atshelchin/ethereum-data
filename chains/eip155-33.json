@@ -2,7 +2,8 @@
   "name": "GoodData Mainnet",
   "chain": "GooD",
   "rpc": [
-    "https://rpc.goodata.io"
+    "https://rpc.goodata.io",
+    "https://33.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://www.goodata.org",
   "shortName": "GooD",
   "chainId": 33,
-  "networkId": 33
+  "networkId": 33,
+  "rpcTracking": {
+    "https://33.rpc.thirdweb.com": "yes"
+  }
 }

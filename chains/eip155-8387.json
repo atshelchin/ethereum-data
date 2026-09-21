@@ -3,7 +3,9 @@
   "title": "The Dracones Mainnet",
   "chain": "FUCK",
   "rpc": [
-    "https://api.dracones.net/"
+    "https://api.dracones.net/",
+    "https://api.dracones.net",
+    "https://8387.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -16,5 +18,8 @@
   "chainId": 8387,
   "networkId": 8387,
   "icon": "dracones",
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://8387.rpc.thirdweb.com": "yes"
+  }
 }

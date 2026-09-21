@@ -2,7 +2,10 @@
   "name": "WorldLand Testnet",
   "chain": "Worldland",
   "icon": "worldland",
-  "rpc": ["https://gwangju.worldland.foundation"],
+  "rpc": [
+    "https://gwangju.worldland.foundation",
+    "https://lb.routeme.sh/rpc/evm/10395"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Worldland",
@@ -20,5 +23,8 @@
       "url": "https://testscan.worldland.foundation",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/10395": "limited"
+  }
 }

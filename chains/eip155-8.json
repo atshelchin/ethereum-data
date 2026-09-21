@@ -4,7 +4,9 @@
   "rpc": [
     "https://rpc.c8ntinuum.com",
     "https://rpc.c8ntinuum.io",
-    "https://rpc.c8ntinuum.link"
+    "https://rpc.c8ntinuum.link",
+    "https://rpc.octano.dev",
+    "https://8.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,8 @@
       "url": "https://ubiqscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://8.rpc.thirdweb.com": "yes"
+  }
 }

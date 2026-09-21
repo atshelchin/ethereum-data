@@ -2,7 +2,8 @@
   "name": "Capital Exchange",
   "chain": "CXM",
   "rpc": [
-    "https://rpcs.marschain.net/"
+    "https://rpcs.marschain.net/",
+    "https://rpcs.marschain.net"
   ],
   "features": [
     {

@@ -2,7 +2,8 @@
   "name": "PandaSea Mainnet",
   "chain": "PandaSea",
   "rpc": [
-    "https://rpc1.pandasea.io"
+    "https://rpc1.pandasea.io",
+    "https://7776.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://pandaseascan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://7776.rpc.thirdweb.com": "yes"
+  }
 }

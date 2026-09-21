@@ -3,7 +3,8 @@
   "chain": "HIGHBURY",
   "rpc": [
     "https://highbury.furya.io",
-    "https://rest.furya.io"
+    "https://rest.furya.io",
+    "https://710.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "standard": "EIP3091",
       "icon": "highbury"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://710.rpc.thirdweb.com": "yes"
+  }
 }

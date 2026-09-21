@@ -2,7 +2,11 @@
   "name": "One World Chain Mainnet",
   "chain": "One World Chain",
   "icon": "oneWorldChainIcon",
-  "rpc": ["https://mainnet-rpc.oneworldchain.org"],
+  "rpc": [
+    "https://mainnet-rpc.oneworldchain.org",
+    "https://lb.routeme.sh/rpc/evm/309075",
+    "https://309075.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OWCT",
@@ -19,5 +23,9 @@
       "url": "https://mainnet.oneworldchain.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/309075": "limited",
+    "https://309075.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "Athereum",
   "chain": "ATH",
   "rpc": [
-    "https://ava.network:21015/ext/evm/rpc"
+    "https://ava.network:21015/ext/evm/rpc",
+    "https://43110.rpc.thirdweb.com"
   ],
   "faucets": [
     "http://athfaucet.ava.network//?address=${ADDRESS}"
@@ -15,5 +16,8 @@
   "infoURL": "https://athereum.ava.network",
   "shortName": "avaeth",
   "chainId": 43110,
-  "networkId": 43110
+  "networkId": 43110,
+  "rpcTracking": {
+    "https://43110.rpc.thirdweb.com": "yes"
+  }
 }

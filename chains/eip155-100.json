@@ -15,7 +15,21 @@
     "https://gnosis-mainnet.public.blastapi.io",
     "https://gnosis.api.onfinality.io/public",
     "https://gnosis.blockpi.network/v1/rpc/public",
-    "https://web3endpoints.com/gnosischain-mainnet"
+    "https://web3endpoints.com/gnosischain-mainnet",
+    "https://lb.routeme.sh/rpc/evm/100",
+    "https://xdai-archive.blockscout.com",
+    "https://gnosis-public.nodies.app",
+    "https://rpc.ap-southeast-1.gateway.fm/v4/gnosis/non-archival/mainnet",
+    "https://endpoints.omniatech.io/v1/gnosis/mainnet/public",
+    "https://public.1rpc.io/gnosis",
+    "https://gno-mainnet.gateway.tatum.io",
+    "https://gnosis.therpc.io",
+    "https://gnosis.api.pocket.network",
+    "https://public-gno-mainnet.fastnode.io",
+    "wss://gnosis.drpc.org",
+    "https://rpc.swiftnodes.io/rpc/gnosis",
+    "wss://gnosis.api.pocket.network",
+    "https://100.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://gnosisfaucet.com",
@@ -80,5 +94,26 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://gnosis-rpc.publicnode.com": "none",
+    "https://gnosis.drpc.org": "none",
+    "https://rpc.gnosis.gateway.fm": "yes",
+    "wss://gnosis-rpc.publicnode.com": "none",
+    "https://gnosis-mainnet.public.blastapi.io": "limited",
+    "https://gnosis.api.onfinality.io/public": "limited",
+    "https://lb.routeme.sh/rpc/evm/100": "limited",
+    "https://gnosis-public.nodies.app": "limited",
+    "https://rpc.ap-southeast-1.gateway.fm/v4/gnosis/non-archival/mainnet": "yes",
+    "https://endpoints.omniatech.io/v1/gnosis/mainnet/public": "none",
+    "https://public.1rpc.io/gnosis": "none",
+    "https://gno-mainnet.gateway.tatum.io": "yes",
+    "https://gnosis.therpc.io": "limited",
+    "https://gnosis.api.pocket.network": "none",
+    "https://public-gno-mainnet.fastnode.io": "none",
+    "wss://gnosis.drpc.org": "none",
+    "https://rpc.swiftnodes.io/rpc/gnosis": "limited",
+    "wss://gnosis.api.pocket.network": "none",
+    "https://100.rpc.thirdweb.com": "yes"
   }
 }

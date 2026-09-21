@@ -6,7 +6,9 @@
     "https://services.polkadothub-rpc.com/testnet",
     "https://eth-rpc-testnet.polkadot.io",
     "wss://services.polkadothub-rpc.com/testnet",
-    "wss://eth-rpc-testnet.polkadot.io"
+    "wss://eth-rpc-testnet.polkadot.io",
+    "https://eth-rpc.testnet.polkadot.io",
+    "wss://eth-rpc.testnet.polkadot.io"
   ],
   "faucets": [
     "https://faucet.polkadot.io/"
@@ -37,5 +39,9 @@
       "url": "https://blockscout-testnet.polkadot.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://services.polkadothub-rpc.com/testnet": "limited",
+    "wss://services.polkadothub-rpc.com/testnet": "limited"
+  }
 }

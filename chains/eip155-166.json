@@ -4,7 +4,8 @@
   "status": "active",
   "rpc": [
     "wss://wss.mainnet.nomina.io",
-    "https://mainnet.nomina.io"
+    "https://mainnet.nomina.io",
+    "https://166.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -29,5 +30,8 @@
       "url": "https://nomscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://166.rpc.thirdweb.com": "yes"
+  }
 }

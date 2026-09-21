@@ -3,7 +3,9 @@
   "chain": "TRITANIUM",
   "rpc": [
     "https://nodetestnet-station-one.tritanium.network/",
-    "https://nodetestnet-station-two.tritanium.network/"
+    "https://nodetestnet-station-two.tritanium.network/",
+    "https://nodetestnet-station-one.tritanium.network",
+    "https://nodetestnet-station-two.tritanium.network"
   ],
   "faucets": [
     "https://faucet.tritanium.network"

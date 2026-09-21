@@ -2,7 +2,9 @@
   "name": "Quokkacoin Mainnet",
   "chain": "Qkacoin",
   "rpc": [
-    "https://rpc.qkacoin.org"
+    "https://rpc.qkacoin.org",
+    "http://rpc.qkacoin.org:8548",
+    "https://2077.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +22,8 @@
       "url": "https://explorer.qkacoin.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2077.rpc.thirdweb.com": "yes"
+  }
 }

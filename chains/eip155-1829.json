@@ -4,7 +4,9 @@
   "rpc": [
     "https://rpc.playblock.io",
     "https://playnance.drpc.org",
-    "wss://ws.playblock.io"
+    "wss://ws.playblock.io",
+    "https://lb.routeme.sh/rpc/evm/1829",
+    "https://1829.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -37,5 +39,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1829": "limited",
+    "https://1829.rpc.thirdweb.com": "yes"
+  }
 }

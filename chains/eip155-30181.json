@@ -1,0 +1,34 @@
+{
+  "name": "AICChain Testnet",
+  "chain": "tAIC",
+  "icon": "https://aic-assets.aicchain.io/android-chrome-192x192.png",
+  "rpc": [
+    "https://testrpc.aicchain.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AICChain Testnet",
+    "symbol": "tAIC",
+    "decimals": 18
+  },
+  "infoURL": "https://www.aicchain.io",
+  "shortName": "taic",
+  "chainId": 30181,
+  "networkId": 30181,
+  "explorers": [
+    {
+      "name": "AICChain Testnet Explorer",
+      "url": "https://testscan.aicchain.io",
+      "icon": "aic",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
+}

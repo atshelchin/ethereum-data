@@ -2,7 +2,11 @@
   "name": "OneLedger Mainnet",
   "chain": "OLT",
   "icon": "oneledger",
-  "rpc": ["https://mainnet-rpc.oneledger.network"],
+  "rpc": [
+    "https://mainnet-rpc.oneledger.network",
+    "https://lb.routeme.sh/rpc/evm/311752642",
+    "https://311752642.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OLT",
@@ -19,5 +23,9 @@
       "url": "https://mainnet-explorer.oneledger.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/311752642": "limited",
+    "https://311752642.rpc.thirdweb.com": "yes"
+  }
 }

@@ -4,7 +4,13 @@
   "rpc": [
     "https://sepolia.unichain.org",
     "https://unichain-sepolia-rpc.publicnode.com",
-    "wss://unichain-sepolia-rpc.publicnode.com"
+    "wss://unichain-sepolia-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/1301",
+    "https://endpoints.omniatech.io/v1/unichain/sepolia/public",
+    "https://unichain-sepolia.api.onfinality.io/public",
+    "https://unichain-sepolia.drpc.org",
+    "wss://unichain-sepolia.drpc.org",
+    "https://unichain-sepolia.therpc.io"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -36,5 +42,14 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://unichain-sepolia-rpc.publicnode.com": "none",
+    "https://lb.routeme.sh/rpc/evm/1301": "limited",
+    "https://endpoints.omniatech.io/v1/unichain/sepolia/public": "none",
+    "https://unichain-sepolia.api.onfinality.io/public": "limited",
+    "https://unichain-sepolia.drpc.org": "none",
+    "wss://unichain-sepolia.drpc.org": "none",
+    "https://unichain-sepolia.therpc.io": "limited"
   }
 }

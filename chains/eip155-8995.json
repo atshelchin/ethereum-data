@@ -1,8 +1,14 @@
 {
   "name": "bloxberg",
   "chain": "bloxberg",
-  "rpc": ["https://core.bloxberg.org"],
-  "faucets": ["https://faucet.bloxberg.org/"],
+  "rpc": [
+    "https://core.bloxberg.org",
+    "https://lb.routeme.sh/rpc/evm/8995",
+    "https://8995.rpc.thirdweb.com"
+  ],
+  "faucets": [
+    "https://faucet.bloxberg.org/"
+  ],
   "nativeCurrency": {
     "name": "BERG",
     "symbol": "U+25B3",
@@ -11,5 +17,9 @@
   "infoURL": "https://bloxberg.org",
   "shortName": "berg",
   "chainId": 8995,
-  "networkId": 8995
+  "networkId": 8995,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/8995": "limited",
+    "https://8995.rpc.thirdweb.com": "yes"
+  }
 }

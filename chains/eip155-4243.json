@@ -4,7 +4,8 @@
   "icon": "nexi",
   "rpc": [
     "https://chain.nexiv2.nexilix.com",
-    "https://rpc.chainv1.nexi.technology"
+    "https://rpc.chainv1.nexi.technology",
+    "https://4243.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "url": "https://www.nexiscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://4243.rpc.thirdweb.com": "yes"
+  }
 }

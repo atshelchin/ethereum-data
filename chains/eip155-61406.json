@@ -2,7 +2,8 @@
   "name": "KaiChain",
   "chain": "KaiChain",
   "rpc": [
-    "https://mainnet-rpc.kaichain.net"
+    "https://mainnet-rpc.kaichain.net",
+    "https://61406.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://explorer.kaichain.net",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://61406.rpc.thirdweb.com": "yes"
+  }
 }

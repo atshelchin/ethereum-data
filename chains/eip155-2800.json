@@ -4,7 +4,8 @@
   "icon": "aere",
   "rpc": [
     "https://rpc.aere.network",
-    "https://rpc2.aere.network"
+    "https://rpc2.aere.network",
+    "https://2800.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -30,5 +31,8 @@
       "url": "https://explorer.aere.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2800.rpc.thirdweb.com": "yes"
+  }
 }

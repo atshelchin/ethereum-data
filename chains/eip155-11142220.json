@@ -31,7 +31,11 @@
     ]
   },
   "rpc": [
-    "https://forno.celo-sepolia.celo-testnet.org"
+    "https://forno.celo-sepolia.celo-testnet.org",
+    "https://rpc.ankr.com/celo_sepolia",
+    "https://celo-sepolia.gateway.tatum.io",
+    "https://celo-sepolia.drpc.org",
+    "wss://celo-sepolia.drpc.org"
   ],
   "faucets": [
     "https://faucet.celo.org"
@@ -47,5 +51,11 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://rpc.ankr.com/celo_sepolia": "none",
+    "https://celo-sepolia.gateway.tatum.io": "yes",
+    "https://celo-sepolia.drpc.org": "none",
+    "wss://celo-sepolia.drpc.org": "none"
   }
 }

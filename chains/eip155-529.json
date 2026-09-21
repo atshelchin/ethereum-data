@@ -3,7 +3,8 @@
   "chain": "FIRE",
   "rpc": [
     "https://rpc-mainnet.thefirechain.com",
-    "https://rpc-mainnet.firestation.io"
+    "https://rpc-mainnet.firestation.io",
+    "https://529.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -17,5 +18,8 @@
   "networkId": 529,
   "icon": "firechain",
   "explorers": [],
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://529.rpc.thirdweb.com": "yes"
+  }
 }

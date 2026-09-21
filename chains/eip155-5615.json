@@ -2,7 +2,8 @@
   "name": "Arcturus Testneet",
   "chain": "Arcturus",
   "rpc": [
-    "https://rpc-testnet.arcturuschain.io/"
+    "https://rpc-testnet.arcturuschain.io/",
+    "https://rpc-testnet.arcturuschain.io"
   ],
   "faucets": [
     "https://faucet.arcturuschain.io"

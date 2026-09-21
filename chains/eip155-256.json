@@ -3,7 +3,8 @@
   "chain": "Heco",
   "rpc": [
     "wss://ws-testnet.hecochain.com",
-    "https://http-testnet.hecochain.com"
+    "https://http-testnet.hecochain.com",
+    "https://hecotestapi.terminet.io/rpc"
   ],
   "faucets": [
     "https://scan-testnet.hecochain.com/faucet"

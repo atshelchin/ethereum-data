@@ -3,7 +3,8 @@
   "chain": "ETH",
   "icon": "any",
   "rpc": [
-    "https://geth.anytype.io"
+    "https://geth.anytype.io",
+    "https://1701.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://evm.anytype.io/faucet"
@@ -24,5 +25,8 @@
       "icon": "any",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1701.rpc.thirdweb.com": "yes"
+  }
 }

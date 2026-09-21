@@ -1,7 +1,12 @@
 {
   "name": "Endurance Smart Chain Mainnet",
   "chain": "ACE",
-  "rpc": ["https://rpc-endurance.fusionist.io/"],
+  "rpc": [
+    "https://rpc-endurance.fusionist.io/",
+    "https://lb.routeme.sh/rpc/evm/648",
+    "https://rpc-endurance.fusionist.io",
+    "https://648.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Endurance Chain Native Token",
@@ -18,5 +23,9 @@
       "url": "https://explorer.endurance.fusionist.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/648": "limited",
+    "https://648.rpc.thirdweb.com": "yes"
+  }
 }

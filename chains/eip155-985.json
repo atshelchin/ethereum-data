@@ -3,7 +3,9 @@
   "chain": "MEMO",
   "rpc": [
     "wss://chain.metamemo.one:16801",
-    "https://chain.metamemo.one:8501"
+    "https://chain.metamemo.one:8501",
+    "https://lb.routeme.sh/rpc/evm/985",
+    "https://985.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.metamemo.one/"
@@ -25,5 +27,9 @@
       "icon": "memo",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/985": "limited",
+    "https://985.rpc.thirdweb.com": "yes"
+  }
 }

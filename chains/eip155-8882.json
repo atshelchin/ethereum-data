@@ -6,7 +6,8 @@
     "https://rpc-opal.unique.network",
     "https://us-rpc-opal.unique.network",
     "https://eu-rpc-opal.unique.network",
-    "https://asia-rpc-opal.unique.network"
+    "https://asia-rpc-opal.unique.network",
+    "https://lb.routeme.sh/rpc/evm/8882"
   ],
   "faucets": [
     "https://t.me/unique2faucet_opal_bot"
@@ -27,5 +28,8 @@
       "url": "https://uniquescan.io/opal",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/8882": "limited"
+  }
 }

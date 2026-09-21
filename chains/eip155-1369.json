@@ -3,7 +3,8 @@
   "chain": "ZAFIC",
   "icon": "zafirium",
   "rpc": [
-    "https://mainnet.zakumi.io"
+    "https://mainnet.zakumi.io",
+    "https://1369.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.zakumi.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1369.rpc.thirdweb.com": "yes"
+  }
 }

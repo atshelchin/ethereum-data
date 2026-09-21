@@ -22,5 +22,8 @@
       "icon": "rannta",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.rannta.com": "none"
+  }
 }

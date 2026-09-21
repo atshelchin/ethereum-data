@@ -1,7 +1,10 @@
 {
   "name": "Storagechain Testnet",
   "chain": "Storagechain",
-  "rpc": ["https://testnet-validator.storagechain.io"],
+  "rpc": [
+    "https://testnet-validator.storagechain.io",
+    "https://lb.routeme.sh/rpc/evm/8727"
+  ],
   "icon": "storagechain",
   "faucets": [],
   "nativeCurrency": {
@@ -19,5 +22,8 @@
       "url": "https://explorer-storagechain.invo.zone/?network=StorageChain%20Testnet",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/8727": "limited"
+  }
 }

@@ -3,7 +3,8 @@
   "title": "TAPROOT Mainnet",
   "chain": "TAPROOT CHAIN",
   "rpc": [
-    "https://rpc.taprootchain.io"
+    "https://rpc.taprootchain.io",
+    "https://911.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "icon": "taproot",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://911.rpc.thirdweb.com": "yes"
+  }
 }

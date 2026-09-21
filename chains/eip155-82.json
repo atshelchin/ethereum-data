@@ -2,7 +2,10 @@
   "name": "Meter Mainnet",
   "chain": "METER",
   "rpc": [
-    "https://rpc.meter.io"
+    "https://rpc.meter.io",
+    "https://lb.routeme.sh/rpc/evm/82",
+    "https://rpc-meter.jellypool.xyz",
+    "https://82.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.meter.io"
@@ -26,5 +29,10 @@
   "wrappedNativeToken": "0xfAC315d105E5A7fe2174B3EB1f95C257A9A5e271",
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/82": "limited",
+    "https://rpc-meter.jellypool.xyz": "yes",
+    "https://82.rpc.thirdweb.com": "yes"
   }
 }

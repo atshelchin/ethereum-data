@@ -5,7 +5,12 @@
     "https://smartbch.greyh.at",
     "https://rpc-mainnet.smartbch.org",
     "https://smartbch.fountainhead.cash/mainnet",
-    "https://smartbch.devops.cash/mainnet"
+    "https://smartbch.devops.cash/mainnet",
+    "https://lb.routeme.sh/rpc/evm/10000",
+    "https://global.uat.cash",
+    "https://rpc.uatvo.com",
+    "https://bch-mainnet.gateway.tatum.io",
+    "https://10000.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -16,5 +21,10 @@
   "infoURL": "https://smartbch.org/",
   "shortName": "smartbch",
   "chainId": 10000,
-  "networkId": 10000
+  "networkId": 10000,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/10000": "limited",
+    "https://bch-mainnet.gateway.tatum.io": "yes",
+    "https://10000.rpc.thirdweb.com": "yes"
+  }
 }

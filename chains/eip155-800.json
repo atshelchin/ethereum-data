@@ -3,7 +3,8 @@
   "chain": "Lucid",
   "icon": "lucid",
   "rpc": [
-    "https://rpc.lucidcoin.io"
+    "https://rpc.lucidcoin.io",
+    "https://800.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.lucidcoin.io"
@@ -23,5 +24,8 @@
       "url": "https://explorer.lucidcoin.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://800.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,9 @@
   "name": "BRC Chain Mainnet",
   "chain": "BRC",
   "rpc": [
-    "https://rpc.brcchain.io"
+    "https://rpc.brcchain.io",
+    "https://hoodi.drpc.org",
+    "https://12123.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.brcchain.io"
@@ -23,5 +25,9 @@
       "url": "https://scan.brcchain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://hoodi.drpc.org": "none",
+    "https://12123.rpc.thirdweb.com": "yes"
+  }
 }

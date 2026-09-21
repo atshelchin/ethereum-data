@@ -2,7 +2,9 @@
   "name": "HALO Mainnet",
   "chain": "HALO",
   "rpc": [
-    "https://nodes.halo.land"
+    "https://nodes.halo.land",
+    "https://lb.routeme.sh/rpc/evm/1280",
+    "https://1280.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +22,9 @@
       "url": "https://browser.halo.land",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1280": "limited",
+    "https://1280.rpc.thirdweb.com": "yes"
+  }
 }

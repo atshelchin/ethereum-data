@@ -4,7 +4,9 @@
   "chain": "KCC",
   "icon": "kol",
   "rpc": [
-    "https://rpc-mainnet.kinggamer.org/"
+    "https://rpc-mainnet.kinggamer.org/",
+    "https://rpc-mainnet.kinggamer.org",
+    "https://2425.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +26,8 @@
       "icon": "kol",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2425.rpc.thirdweb.com": "yes"
+  }
 }

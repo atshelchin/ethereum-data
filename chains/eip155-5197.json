@@ -4,7 +4,8 @@
   "icon": "eraswap",
   "rpc": [
     "https://mainnet.eraswap.network",
-    "https://rpc-mumbai.mainnet.eraswap.network"
+    "https://rpc-mumbai.mainnet.eraswap.network",
+    "https://5197.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +16,8 @@
   "infoURL": "https://eraswap.info/",
   "shortName": "es",
   "chainId": 5197,
-  "networkId": 5197
+  "networkId": 5197,
+  "rpcTracking": {
+    "https://5197.rpc.thirdweb.com": "yes"
+  }
 }

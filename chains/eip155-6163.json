@@ -1,0 +1,34 @@
+{
+  "name": "Blockmaze Testnet",
+  "chain": "BLOCKMAZE",
+  "icon": "BMZ",
+  "rpc": [
+    "https://evm-rpc-arc.testnet.stackflow.site",
+    "wss://evm-ws.testnet.stackflow.site",
+    "https://evm-rpc.testnet.stackflow.site"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BMZ",
+    "symbol": "BMZ",
+    "decimals": 18
+  },
+  "infoURL": "https://blockmaze.com",
+  "shortName": "BMZ",
+  "chainId": 6163,
+  "networkId": 6163,
+  "explorers": [
+    {
+      "name": "Blockmaze testnet explorer",
+      "url": "https://explorer.testnet.stackflow.site"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
+}

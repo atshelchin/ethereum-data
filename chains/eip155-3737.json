@@ -2,7 +2,9 @@
   "name": "Crossbell",
   "chain": "Crossbell",
   "rpc": [
-    "https://rpc.crossbell.io"
+    "https://rpc.crossbell.io",
+    "https://lb.routeme.sh/rpc/evm/3737",
+    "https://3737.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.crossbell.io"
@@ -23,5 +25,9 @@
       "url": "https://scan.crossbell.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/3737": "limited",
+    "https://3737.rpc.thirdweb.com": "yes"
+  }
 }

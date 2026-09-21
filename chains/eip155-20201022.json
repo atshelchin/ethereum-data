@@ -5,7 +5,9 @@
     "https://pegorpc.com",
     "https://node1.pegorpc.com",
     "https://node2.pegorpc.com",
-    "https://node3.pegorpc.com"
+    "https://node3.pegorpc.com",
+    "https://lb.routeme.sh/rpc/evm/20201022",
+    "https://20201022.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +26,9 @@
       "url": "https://scan.pego.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/20201022": "limited",
+    "https://20201022.rpc.thirdweb.com": "yes"
+  }
 }

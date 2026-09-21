@@ -2,7 +2,8 @@
   "name": "QuarkChain Devnet Root",
   "chain": "QuarkChain",
   "rpc": [
-    "http://jrpc.devnet.quarkchain.io:38391"
+    "http://jrpc.devnet.quarkchain.io:38391",
+    "https://110000.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://www.quarkchain.io",
   "shortName": "qkc-d-r",
   "chainId": 110000,
-  "networkId": 110000
+  "networkId": 110000,
+  "rpcTracking": {
+    "https://110000.rpc.thirdweb.com": "yes"
+  }
 }

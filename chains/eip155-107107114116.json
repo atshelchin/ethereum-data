@@ -2,7 +2,9 @@
   "name": "Kakarot Sepolia Deprecated",
   "chain": "ETH",
   "icon": "kakarot",
-  "rpc": [],
+  "rpc": [
+    "https://107107114116.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -18,5 +20,8 @@
     "type": "L2",
     "chain": "eip155-11155111",
     "bridges": []
+  },
+  "rpcTracking": {
+    "https://107107114116.rpc.thirdweb.com": "yes"
   }
 }

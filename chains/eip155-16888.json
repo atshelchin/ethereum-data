@@ -2,8 +2,13 @@
   "name": "IVAR Chain Testnet",
   "chain": "IVAR",
   "icon": "ivar",
-  "rpc": ["https://testnet-rpc.ivarex.com"],
-  "faucets": ["https://tfaucet.ivarex.com/"],
+  "rpc": [
+    "https://testnet-rpc.ivarex.com",
+    "https://lb.routeme.sh/rpc/evm/16888"
+  ],
+  "faucets": [
+    "https://tfaucet.ivarex.com/"
+  ],
   "nativeCurrency": {
     "name": "tIvar",
     "symbol": "tIVAR",
@@ -20,5 +25,8 @@
       "url": "https://testnet.ivarscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/16888": "limited"
+  }
 }

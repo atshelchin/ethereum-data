@@ -2,7 +2,8 @@
   "name": "Hydra Chain",
   "chain": "HYDRA",
   "rpc": [
-    "https://rpc-mainnet.hydrachain.org"
+    "https://rpc-mainnet.hydrachain.org",
+    "https://4488.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -33,5 +34,8 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://4488.rpc.thirdweb.com": "yes"
   }
 }

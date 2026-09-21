@@ -2,7 +2,8 @@
   "name": "Frenchain",
   "chain": "fren",
   "rpc": [
-    "https://rpc-02.frenscan.io"
+    "https://rpc-02.frenscan.io",
+    "https://44444.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "fren",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://44444.rpc.thirdweb.com": "yes"
+  }
 }

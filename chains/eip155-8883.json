@@ -6,7 +6,8 @@
     "https://rpc-sapphire.unique.network",
     "https://us-rpc-sapphire.unique.network",
     "https://eu-rpc-sapphire.unique.network",
-    "https://asia-rpc-sapphire.unique.network"
+    "https://asia-rpc-sapphire.unique.network",
+    "https://8883.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +25,8 @@
       "url": "https://uniquescan.io/sapphire",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://8883.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,8 +2,13 @@
   "name": "TBSI Testnet",
   "title": "Thai Blockchain Service Infrastructure Testnet",
   "chain": "TBSI",
-  "rpc": ["https://rpc.testnet.blockchain.or.th"],
-  "faucets": ["https://faucet.blockchain.or.th"],
+  "rpc": [
+    "https://rpc.testnet.blockchain.or.th",
+    "https://lb.routeme.sh/rpc/evm/1708"
+  ],
+  "faucets": [
+    "https://faucet.blockchain.or.th"
+  ],
   "nativeCurrency": {
     "name": "Jinda",
     "symbol": "JINDA",
@@ -20,5 +25,8 @@
       "url": "https://exp.testnet.blockchain.or.th",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1708": "limited"
+  }
 }

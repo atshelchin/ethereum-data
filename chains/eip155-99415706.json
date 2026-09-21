@@ -2,7 +2,8 @@
   "name": "Joys Digital TestNet",
   "chain": "TOYS",
   "rpc": [
-    "https://toys.joys.cash/"
+    "https://toys.joys.cash/",
+    "https://toys.joys.cash"
   ],
   "faucets": [
     "https://faucet.joys.digital/"

@@ -3,7 +3,8 @@
   "chain": "Nordek",
   "icon": "nordek",
   "rpc": [
-    "https://mainnet-rpc.nordekscan.com"
+    "https://mainnet-rpc.nordekscan.com",
+    "https://81041.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://nordekscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://81041.rpc.thirdweb.com": "yes"
+  }
 }

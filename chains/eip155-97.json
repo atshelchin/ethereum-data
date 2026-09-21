@@ -12,7 +12,16 @@
     "https://data-seed-prebsc-2-s3.bnbchain.org:8545",
     "https://bnb-testnet.api.onfinality.io/public",
     "wss://bsc-testnet-rpc.publicnode.com",
-    "https://bsc-rpc-public.chainpulse.cc/testnet"
+    "https://bsc-rpc-public.chainpulse.cc/testnet",
+    "https://lb.routeme.sh/rpc/evm/97",
+    "https://bsctestapi.terminet.io/rpc",
+    "https://bsc-testnet.public.blastapi.io",
+    "https://api.zan.top/bsc-testnet",
+    "https://public.stackup.sh/api/v1/node/bsc-testnet",
+    "https://endpoints.omniatech.io/v1/bsc/testnet/public",
+    "wss://bsc-testnet.drpc.org",
+    "https://bsc-testnet.therpc.io",
+    "https://bsc-testnet.rpc.sentio.xyz"
   ],
   "faucets": [
     "https://testnet.bnbchain.org/faucet-smart"
@@ -41,5 +50,20 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://bsc-testnet.drpc.org": "none",
+    "https://bsc-testnet-rpc.publicnode.com": "none",
+    "https://bnb-testnet.api.onfinality.io/public": "limited",
+    "wss://bsc-testnet-rpc.publicnode.com": "none",
+    "https://bsc-rpc-public.chainpulse.cc/testnet": "limited",
+    "https://lb.routeme.sh/rpc/evm/97": "limited",
+    "https://bsc-testnet.public.blastapi.io": "limited",
+    "https://api.zan.top/bsc-testnet": "limited",
+    "https://public.stackup.sh/api/v1/node/bsc-testnet": "limited",
+    "https://endpoints.omniatech.io/v1/bsc/testnet/public": "none",
+    "wss://bsc-testnet.drpc.org": "none",
+    "https://bsc-testnet.therpc.io": "limited",
+    "https://bsc-testnet.rpc.sentio.xyz": "limited"
   }
 }

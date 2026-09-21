@@ -2,7 +2,8 @@
   "name": "Susono",
   "chain": "SUS",
   "rpc": [
-    "https://gateway.opn.network/node/ext/bc/2VsZe5DstWw2bfgdx3YbjKcMsJnNDjni95sZorBEdk9L9Qr9Fr/rpc"
+    "https://gateway.opn.network/node/ext/bc/2VsZe5DstWw2bfgdx3YbjKcMsJnNDjni95sZorBEdk9L9Qr9Fr/rpc",
+    "https://13812.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "http://explorer.opn.network",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://13812.rpc.thirdweb.com": "yes"
+  }
 }

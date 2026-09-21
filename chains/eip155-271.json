@@ -3,7 +3,9 @@
   "chain": "EGON",
   "icon": "egonicon",
   "rpc": [
-    "https://rpc.egonscan.com"
+    "https://rpc.egonscan.com",
+    "https://lb.routeme.sh/rpc/evm/271",
+    "https://271.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +23,9 @@
       "url": "https://egonscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/271": "limited",
+    "https://271.rpc.thirdweb.com": "yes"
+  }
 }

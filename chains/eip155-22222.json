@@ -3,7 +3,8 @@
   "chain": "ETH",
   "icon": "nautilus",
   "rpc": [
-    "https://api.nautilus.nautchain.xyz"
+    "https://api.nautilus.nautchain.xyz",
+    "https://22222.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "standard": "EIP3091",
       "icon": "nautilus"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://22222.rpc.thirdweb.com": "yes"
+  }
 }

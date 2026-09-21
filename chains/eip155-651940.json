@@ -2,7 +2,11 @@
   "name": "ALL Mainnet",
   "chain": "ALL",
   "icon": "alltra",
-  "rpc": ["https://mainnet-rpc.alltra.global"],
+  "rpc": [
+    "https://mainnet-rpc.alltra.global",
+    "https://lb.routeme.sh/rpc/evm/651940",
+    "https://651940.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ALL",
@@ -19,5 +23,9 @@
       "url": "https://alltra.global",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/651940": "limited",
+    "https://651940.rpc.thirdweb.com": "yes"
+  }
 }

@@ -4,7 +4,10 @@
   "status": "incubating",
   "rpc": [
     "https://evm-rpc-ql1.foxxone.one",
-    "https://rpc.qom.one"
+    "https://rpc.qom.one",
+    "https://lb.routeme.sh/rpc/evm/766",
+    "https://evm-rpc-ql1.mschihuahua.org",
+    "https://766.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +27,11 @@
       "icon": "qom",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://evm-rpc-ql1.foxxone.one": "none",
+    "https://lb.routeme.sh/rpc/evm/766": "limited",
+    "https://evm-rpc-ql1.mschihuahua.org": "none",
+    "https://766.rpc.thirdweb.com": "yes"
+  }
 }

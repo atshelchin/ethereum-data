@@ -8,7 +8,15 @@
     "wss://scroll-sepolia-rpc.publicnode.com",
     "https://rpc.ankr.com/scroll_sepolia_testnet",
     "https://scroll-sepolia.chainstacklabs.com",
-    "https://scroll-testnet-public.unifra.io"
+    "https://scroll-testnet-public.unifra.io",
+    "https://lb.routeme.sh/rpc/evm/534351",
+    "https://scroll-public.scroll-testnet.quiknode.pro",
+    "https://scroll-sepolia.drpc.org",
+    "https://scroll-sepolia-public.nodies.app",
+    "http://scroll-sepolia-rpc.01no.de:8545",
+    "https://endpoints.omniatech.io/v1/scroll/sepolia/public",
+    "https://scroll-sepolia.therpc.io",
+    "wss://scroll-sepolia.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -44,5 +52,17 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://rpc.ankr.com/scroll_sepolia_testnet": "none",
+    "https://scroll-sepolia.chainstacklabs.com": "yes",
+    "https://scroll-testnet-public.unifra.io": "limited",
+    "https://lb.routeme.sh/rpc/evm/534351": "limited",
+    "https://scroll-public.scroll-testnet.quiknode.pro": "yes",
+    "https://scroll-sepolia.drpc.org": "none",
+    "https://scroll-sepolia-public.nodies.app": "limited",
+    "https://endpoints.omniatech.io/v1/scroll/sepolia/public": "none",
+    "https://scroll-sepolia.therpc.io": "limited",
+    "wss://scroll-sepolia.drpc.org": "none"
   }
 }

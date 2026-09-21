@@ -1,7 +1,10 @@
 {
   "name": "Bitharvest Chain Testnet",
   "chain": "Bitharvest Chain Testnet",
-  "rpc": ["https://rpc-testnet.bthscan.io/"],
+  "rpc": [
+    "https://rpc-testnet.bthscan.io/",
+    "https://rpc-testnet.bthscan.io"
+  ],
   "features": [
     {
       "name": "EIP1559"

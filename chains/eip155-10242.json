@@ -3,7 +3,8 @@
   "chain": "AA",
   "icon": "arthera",
   "rpc": [
-    "https://rpc.arthera.net"
+    "https://rpc.arthera.net",
+    "https://10242.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://10242.rpc.thirdweb.com": "yes"
+  }
 }

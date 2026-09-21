@@ -3,7 +3,8 @@
   "chain": "DM2 Verse",
   "icon": "dm2verse",
   "rpc": [
-    "https://rpc.dm2verse.dmm.com"
+    "https://rpc.dm2verse.dmm.com",
+    "https://68770.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +26,8 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-248"
+  },
+  "rpcTracking": {
+    "https://68770.rpc.thirdweb.com": "yes"
   }
 }

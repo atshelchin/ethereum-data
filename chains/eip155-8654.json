@@ -2,7 +2,8 @@
   "name": "Toki Network",
   "chain": "TOKI",
   "rpc": [
-    "https://mainnet.buildwithtoki.com/v0/rpc"
+    "https://mainnet.buildwithtoki.com/v0/rpc",
+    "https://8654.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +16,8 @@
   "chainId": 8654,
   "networkId": 8654,
   "icon": "toki",
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://8654.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "Fluent Developer Preview",
   "chain": "Fluent",
   "rpc": [
-    "https://rpc.dev.gblend.xyz"
+    "https://rpc.dev.gblend.xyz",
+    "https://lb.routeme.sh/rpc/evm/20993"
   ],
   "faucets": [
     "https://faucet.dev.gblend.xyz"
@@ -22,5 +23,8 @@
       "url": "https://blockscout.dev.gblend.xyz",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/20993": "limited"
+  }
 }

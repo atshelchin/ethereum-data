@@ -3,7 +3,8 @@
   "chain": "tFNC",
   "icon": "fnc",
   "rpc": [
-    "https://testnet-rpc.foundryscan.org/"
+    "https://testnet-rpc.foundryscan.org/",
+    "https://testnet-rpc.foundryscan.org"
   ],
   "faucets": [
     "https://faucet.foundryscan.org"

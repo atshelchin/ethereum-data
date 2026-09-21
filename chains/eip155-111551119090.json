@@ -3,7 +3,8 @@
   "chain": "ETH",
   "rpc": [
     "https://rpc.thanos-sepolia.tokamak.network",
-    "wss://rpc.thanos-sepolia.tokamak.network"
+    "wss://rpc.thanos-sepolia.tokamak.network",
+    "https://lb.routeme.sh/rpc/evm/111551119090"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.thanos-sepolia.tokamak.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/111551119090": "limited"
+  }
 }

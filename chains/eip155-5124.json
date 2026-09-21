@@ -6,7 +6,9 @@
     "https://gcp-1.seismictest.net/rpc",
     "https://gcp-2.seismictest.net/rpc",
     "wss://gcp-1.seismictest.net/ws",
-    "wss://gcp-2.seismictest.net/ws"
+    "wss://gcp-2.seismictest.net/ws",
+    "https://testnet-1.seismictest.net/rpc",
+    "https://hyperevm-mainnet.gateway.tatum.io"
   ],
   "faucets": [
     "https://faucet-2.seismicdev.net/"
@@ -31,5 +33,9 @@
       "url": "https://explorer-2.seismicdev.net",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://testnet-1.seismictest.net/rpc": "none",
+    "https://hyperevm-mainnet.gateway.tatum.io": "yes"
+  }
 }

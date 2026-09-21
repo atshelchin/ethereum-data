@@ -1,7 +1,10 @@
 {
   "name": "VeChain",
   "chain": "VeChain",
-  "rpc": ["https://rpc-mainnet.vechain.energy"],
+  "rpc": [
+    "https://rpc-mainnet.vechain.energy",
+    "https://100009.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "VeChain",
@@ -23,5 +26,8 @@
       "url": "https://explore.vechain.org",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://100009.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,12 @@
   "name": "omChain Mainnet",
   "chain": "OML",
   "icon": "omlira",
-  "rpc": ["https://seed.omchain.io"],
+  "rpc": [
+    "https://seed.omchain.io",
+    "https://lb.routeme.sh/rpc/evm/21816",
+    "https://seed.omlira.com",
+    "https://21816.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "omChain",
@@ -19,5 +24,9 @@
       "url": "https://explorer.omchain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/21816": "limited",
+    "https://21816.rpc.thirdweb.com": "yes"
+  }
 }

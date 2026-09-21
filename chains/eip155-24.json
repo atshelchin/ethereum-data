@@ -3,7 +3,8 @@
   "chain": "KAI",
   "icon": "kardiachain",
   "rpc": [
-    "https://rpc.kardiachain.io"
+    "https://rpc.kardiachain.io",
+    "https://24.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -17,5 +18,8 @@
   "networkId": 0,
   "redFlags": [
     "reusedChainId"
-  ]
+  ],
+  "rpcTracking": {
+    "https://24.rpc.thirdweb.com": "yes"
+  }
 }

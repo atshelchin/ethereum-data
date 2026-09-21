@@ -3,7 +3,8 @@
   "chain": "DIODE",
   "rpc": [
     "wss://staging.diode.io:8443/ws",
-    "https://staging.diode.io:8443/"
+    "https://staging.diode.io:8443/",
+    "https://staging.diode.io:8443"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -4,7 +4,9 @@
   "rpc": [
     "wss://neon-evm-devnet.drpc.org",
     "https://devnet.neonevm.org",
-    "https://neon-evm-devnet.drpc.org"
+    "https://neon-evm-devnet.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/245022926",
+    "https://245022926.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://neonfaucet.org"
@@ -31,5 +33,11 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "wss://neon-evm-devnet.drpc.org": "none",
+    "https://neon-evm-devnet.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/245022926": "limited",
+    "https://245022926.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "title": "REXX Mainnet",
   "chain": "REXX",
   "rpc": [
-    "https://rpc.rexxnetwork.com"
+    "https://rpc.rexxnetwork.com",
+    "https://888882.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://rexxnetwork.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://888882.rpc.thirdweb.com": "yes"
+  }
 }

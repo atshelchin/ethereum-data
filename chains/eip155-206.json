@@ -2,7 +2,8 @@
   "name": "VinuChain Testnet",
   "chain": "VinuChain Testnet",
   "rpc": [
-    "https://vinufoundation-rpc.com"
+    "https://vinufoundation-rpc.com",
+    "https://testnet-rpc.vinuchain.org"
   ],
   "faucets": [],
   "nativeCurrency": {

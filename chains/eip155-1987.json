@@ -2,7 +2,8 @@
   "name": "EtherGem",
   "chain": "EGEM",
   "rpc": [
-    "https://jsonrpc.egem.io/custom"
+    "https://jsonrpc.egem.io/custom",
+    "https://1987.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +15,8 @@
   "shortName": "egem",
   "chainId": 1987,
   "networkId": 1987,
-  "slip44": 1987
+  "slip44": 1987,
+  "rpcTracking": {
+    "https://1987.rpc.thirdweb.com": "yes"
+  }
 }

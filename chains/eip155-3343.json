@@ -1,7 +1,10 @@
 {
   "name": "Edge",
   "chain": "ETH",
-  "rpc": ["https://edge-mainnet.g.alchemy.com/public"],
+  "rpc": [
+    "https://edge-mainnet.g.alchemy.com/public",
+    "https://edge.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -18,5 +21,8 @@
       "url": "https://edge-mainnet.explorer.alchemy.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://edge.drpc.org": "none"
+  }
 }

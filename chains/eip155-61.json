@@ -10,7 +10,14 @@
     "https://etc.etcdesktop.com",
     "https://geth-at.etc-network.info",
     "https://besu-at.etc-network.info",
-    "https://etc.mytokenpocket.vip"
+    "https://etc.mytokenpocket.vip",
+    "https://lb.routeme.sh/rpc/evm/61",
+    "https://rpc.etcmc.xyz",
+    "https://0xrpc.io/etc",
+    "wss://0xrpc.io/etc",
+    "https://ethereum-classic-mainnet.gateway.tatum.io",
+    "https://rpc.swiftnodes.io/rpc/etc",
+    "https://61.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -89,5 +96,15 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://etc.rivet.link": "none",
+    "https://lb.routeme.sh/rpc/evm/61": "limited",
+    "https://rpc.etcmc.xyz": "none",
+    "https://0xrpc.io/etc": "none",
+    "wss://0xrpc.io/etc": "none",
+    "https://ethereum-classic-mainnet.gateway.tatum.io": "none",
+    "https://rpc.swiftnodes.io/rpc/etc": "limited",
+    "https://61.rpc.thirdweb.com": "yes"
   }
 }

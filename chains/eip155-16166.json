@@ -1,7 +1,10 @@
 {
   "name": "Cypherium Mainnet",
   "chain": "CPH",
-  "rpc": ["https://pubnodes.cypherium.io/rpc"],
+  "rpc": [
+    "https://pubnodes.cypherium.io/rpc",
+    "https://make-cph-great-again.community"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Cypherium",

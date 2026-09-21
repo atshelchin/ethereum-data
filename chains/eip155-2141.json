@@ -2,7 +2,8 @@
   "name": "Oneness TestNet",
   "chain": "Oneness-Testnet",
   "rpc": [
-    "https://rpc.testnet.onenesslabs.io/"
+    "https://rpc.testnet.onenesslabs.io/",
+    "https://rpc.testnet.onenesslabs.io"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -3,7 +3,12 @@
   "chain": "ETH",
   "rpc": [
     "https://rpc.zora.energy/",
-    "https://zora.drpc.org"
+    "https://zora.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/7777777",
+    "https://rpc.zora.energy",
+    "wss://zora.drpc.org",
+    "https://api-zora-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+    "https://7777777.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -47,5 +52,12 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://zora.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/7777777": "limited",
+    "wss://zora.drpc.org": "none",
+    "https://api-zora-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c": "limited",
+    "https://7777777.rpc.thirdweb.com": "yes"
   }
 }

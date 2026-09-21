@@ -3,7 +3,8 @@
   "chain": "Imversed",
   "rpc": [
     "https://jsonrpc.imversed.network",
-    "https://ws-jsonrpc.imversed.network"
+    "https://ws-jsonrpc.imversed.network",
+    "https://5555555.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,5 +30,8 @@
       "icon": "imversed",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://5555555.rpc.thirdweb.com": "yes"
+  }
 }

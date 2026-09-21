@@ -2,7 +2,11 @@
   "name": "Global Trust Network",
   "chain": "GTN",
   "icon": "gtn",
-  "rpc": ["https://gtn.stabilityprotocol.com"],
+  "rpc": [
+    "https://gtn.stabilityprotocol.com",
+    "https://lb.routeme.sh/rpc/evm/101010",
+    "https://101010.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FREE",
@@ -20,5 +24,11 @@
       "standard": "EIP3091"
     }
   ],
-  "redFlags": ["reusedChainId"]
+  "redFlags": [
+    "reusedChainId"
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/101010": "limited",
+    "https://101010.rpc.thirdweb.com": "yes"
+  }
 }

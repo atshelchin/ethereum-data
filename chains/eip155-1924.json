@@ -3,7 +3,11 @@
   "chain": "ETH",
   "rpc": [
     "https://swell-testnet.alt.technology",
-    "https://rpc.ankr.com/swell-testnet"
+    "https://rpc.ankr.com/swell-testnet",
+    "https://lb.routeme.sh/rpc/evm/1924",
+    "https://rpc.ankr.com/swell_sepolia",
+    "https://swell-testnet.drpc.org",
+    "wss://swell-testnet.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +26,11 @@
       "url": "https://swell-testnet-explorer.alt.technology",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1924": "limited",
+    "https://rpc.ankr.com/swell_sepolia": "none",
+    "https://swell-testnet.drpc.org": "none",
+    "wss://swell-testnet.drpc.org": "none"
+  }
 }

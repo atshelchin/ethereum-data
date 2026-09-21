@@ -5,7 +5,10 @@
   "rpc": [
     "https://testnet-node1.meronscan.ai/",
     "https://testnet-node2.meronscan.ai/",
-    "https://testnet-node3.meronscan.ai/"
+    "https://testnet-node3.meronscan.ai/",
+    "https://testnet-node1.meronscan.ai",
+    "https://testnet-node2.meronscan.ai",
+    "https://testnet-node3.meronscan.ai"
   ],
   "faucets": [],
   "nativeCurrency": {

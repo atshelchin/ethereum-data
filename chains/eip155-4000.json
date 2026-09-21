@@ -1,7 +1,11 @@
 {
   "name": "Ozone Chain Mainnet",
   "chain": "OZONE",
-  "rpc": ["https://node1.ozonechain.io"],
+  "rpc": [
+    "https://node1.ozonechain.io",
+    "https://lb.routeme.sh/rpc/evm/4000",
+    "https://4000.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OZONE",
@@ -19,5 +23,9 @@
       "url": "https://ozonescan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/4000": "limited",
+    "https://4000.rpc.thirdweb.com": "yes"
+  }
 }

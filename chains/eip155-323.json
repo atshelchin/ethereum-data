@@ -3,7 +3,8 @@
   "chain": "BUYCEX",
   "rpc": [
     "wss://socket.buycex.net",
-    "https://rpc.buycex.net"
+    "https://rpc.buycex.net",
+    "https://323.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://323.rpc.thirdweb.com": "yes"
+  }
 }

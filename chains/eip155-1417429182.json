@@ -3,7 +3,8 @@
   "title": "Zephyr Testnet",
   "chain": "Zephyr-testnet",
   "rpc": [
-    "https://zephyr-rpc.eu-north-2.gateway.fm"
+    "https://zephyr-rpc.eu-north-2.gateway.fm",
+    "https://lb.routeme.sh/rpc/evm/1417429182"
   ],
   "faucets": [
     "https://zephyr-faucet.eu-north-2.gateway.fm"
@@ -37,5 +38,8 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1417429182": "limited"
   }
 }

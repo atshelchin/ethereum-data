@@ -3,7 +3,8 @@
   "chain": "Bandai Namco Research Verse",
   "icon": "bnken",
   "rpc": [
-    "https://rpc.main.oasvrs.bnken.net"
+    "https://rpc.main.oasvrs.bnken.net",
+    "https://876.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +26,8 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-248"
+  },
+  "rpcTracking": {
+    "https://876.rpc.thirdweb.com": "yes"
   }
 }

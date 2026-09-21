@@ -5,7 +5,14 @@
     "https://rpc.fuse.io",
     "https://fuse.api.pocket.network",
     "wss://fuse.drpc.org",
-    "https://fuse.drpc.org"
+    "https://fuse.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/122",
+    "https://fuse-public.nodies.app",
+    "https://fuse-mainnet.chainstacklabs.com",
+    "https://fuse.api.onfinality.io/public",
+    "https://fuse.liquify.com",
+    "wss://fuse.api.pocket.network",
+    "https://122.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -50,5 +57,17 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://fuse.api.pocket.network": "none",
+    "wss://fuse.drpc.org": "none",
+    "https://fuse.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/122": "limited",
+    "https://fuse-public.nodies.app": "limited",
+    "https://fuse-mainnet.chainstacklabs.com": "yes",
+    "https://fuse.api.onfinality.io/public": "limited",
+    "https://fuse.liquify.com": "yes",
+    "wss://fuse.api.pocket.network": "none",
+    "https://122.rpc.thirdweb.com": "yes"
   }
 }

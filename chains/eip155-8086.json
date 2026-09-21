@@ -3,7 +3,8 @@
   "chain": "BTC",
   "icon": "BTCChain",
   "rpc": [
-    "https://rpc.bitcoinevm.org"
+    "https://rpc.bitcoinevm.org",
+    "https://8086.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +16,8 @@
   "shortName": "Bitcoin",
   "chainId": 8086,
   "networkId": 8086,
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://8086.rpc.thirdweb.com": "yes"
+  }
 }

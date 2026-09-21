@@ -4,7 +4,9 @@
   "icon": "taraxa",
   "rpc": [
     "https://rpc.mainnet.taraxa.io/",
-    "https://ws.mainnet.taraxa.io"
+    "https://ws.mainnet.taraxa.io",
+    "https://rpc.mainnet.taraxa.io",
+    "https://841.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +32,8 @@
       "standard": "none",
       "icon": "taraxa"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://841.rpc.thirdweb.com": "yes"
+  }
 }

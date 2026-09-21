@@ -3,7 +3,9 @@
   "chain": "Automata Mainnet",
   "rpc": [
     "https://rpc.ata.network",
-    "https://automata-mainnet.alt.technology/"
+    "https://automata-mainnet.alt.technology/",
+    "https://automata-mainnet.alt.technology",
+    "https://65536.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -27,5 +29,8 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://65536.rpc.thirdweb.com": "yes"
+  }
 }

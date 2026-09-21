@@ -2,7 +2,8 @@
   "name": "Qubetics Testnet",
   "chain": "Qubetics Testnet",
   "rpc": [
-    "https://rpc-testnet.qubetics.work/"
+    "https://rpc-testnet.qubetics.work/",
+    "https://rpc-testnet.qubetics.work"
   ],
   "faucets": [
     "https://testnet.qubetics.work/faucet"

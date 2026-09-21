@@ -2,7 +2,12 @@
   "name": "Excelon Mainnet",
   "chain": "XLON",
   "icon": "xlon",
-  "rpc": ["https://edgewallet1.xlon.org/"],
+  "rpc": [
+    "https://edgewallet1.xlon.org/",
+    "https://lb.routeme.sh/rpc/evm/22052002",
+    "https://edgewallet1.xlon.org",
+    "https://22052002.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Excelon",
@@ -19,5 +24,9 @@
       "url": "https://explorer.excelon.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/22052002": "limited",
+    "https://22052002.rpc.thirdweb.com": "yes"
+  }
 }

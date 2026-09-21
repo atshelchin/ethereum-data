@@ -3,7 +3,9 @@
   "chain": "Zircuit Garfield Testnet",
   "icon": "zircuit",
   "rpc": [
-    "https://garfield-testnet.zircuit.com/"
+    "https://garfield-testnet.zircuit.com/",
+    "https://garfield-testnet.zircuit.com",
+    "wss://garfield-testnet.zircuit.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +32,9 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://garfield-testnet.zircuit.com": "none",
+    "wss://garfield-testnet.zircuit.com": "none"
   }
 }

@@ -3,7 +3,9 @@
   "chain": "Sophon Testnet",
   "rpc": [
     "wss://rpc.testnet.sophon.xyz/ws",
-    "https://rpc.testnet.sophon.xyz"
+    "https://rpc.testnet.sophon.xyz",
+    "https://lb.routeme.sh/rpc/evm/531050104",
+    "https://rpc-quicknode.testnet.sophon.xyz"
   ],
   "nativeCurrency": {
     "name": "Sophon",
@@ -31,5 +33,9 @@
         "url": "https://portal.testnet.sophon.xyz/bridge"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/531050104": "limited",
+    "https://rpc-quicknode.testnet.sophon.xyz": "yes"
   }
 }

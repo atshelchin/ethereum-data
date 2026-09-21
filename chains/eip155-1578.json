@@ -1,8 +1,16 @@
 {
   "name": "StarCHAIN",
   "chain": "StarCHAIN",
-  "rpc": ["https://rpc.starworksglobal.com"],
-  "features": [{ "name": "EIP155" }],
+  "rpc": [
+    "https://rpc.starworksglobal.com",
+    "https://lb.routeme.sh/rpc/evm/1578",
+    "https://1578.rpc.thirdweb.com"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "STARX",
@@ -19,5 +27,9 @@
       "url": "https://starchainscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1578": "limited",
+    "https://1578.rpc.thirdweb.com": "yes"
+  }
 }

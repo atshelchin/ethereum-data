@@ -7,7 +7,12 @@
     "https://rpc.chiliz.com",
     "https://chiliz-rpc.publicnode.com",
     "https://rpc.ankr.com/chiliz",
-    "wss://chiliz-rpc.publicnode.com"
+    "wss://chiliz-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/88888",
+    "https://chiliz-mainnet.gateway.tatum.io",
+    "https://api-chiliz-mainnet-archive.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+    "https://rpc.swiftnodes.io/rpc/chiliz",
+    "https://88888.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://spicy-faucet.chiliz.com",
@@ -56,5 +61,13 @@
       "router": "0x296c39985Fa3eB3B1D76C95245e8Ed44dA4348CF"
     },
     "url": "https://fanx.exchange"
+  },
+  "rpcTracking": {
+    "https://rpc.ankr.com/chiliz": "none",
+    "https://lb.routeme.sh/rpc/evm/88888": "limited",
+    "https://chiliz-mainnet.gateway.tatum.io": "yes",
+    "https://api-chiliz-mainnet-archive.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c": "limited",
+    "https://rpc.swiftnodes.io/rpc/chiliz": "limited",
+    "https://88888.rpc.thirdweb.com": "yes"
   }
 }

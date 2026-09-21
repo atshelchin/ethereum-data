@@ -2,7 +2,13 @@
   "icon": "diode",
   "name": "Diode Prenet",
   "chain": "DIODE",
-  "rpc": ["https://prenet.diode.io:8443/", "wss://prenet.diode.io:8443/ws"],
+  "rpc": [
+    "https://prenet.diode.io:8443/",
+    "wss://prenet.diode.io:8443/ws",
+    "https://lb.routeme.sh/rpc/evm/15",
+    "https://prenet.diode.io:8443",
+    "https://15.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Diodes",
@@ -12,5 +18,9 @@
   "infoURL": "https://diode.io/prenet",
   "shortName": "diode",
   "chainId": 15,
-  "networkId": 15
+  "networkId": 15,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/15": "limited",
+    "https://15.rpc.thirdweb.com": "yes"
+  }
 }

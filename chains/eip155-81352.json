@@ -1,7 +1,9 @@
 {
   "name": "Flana Mixnet",
   "chain": "MEER",
-  "rpc": [],
+  "rpc": [
+    "https://81352.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Flana Mixnet",
@@ -13,5 +15,8 @@
   "icon": "meer",
   "chainId": 81352,
   "networkId": 81352,
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://81352.rpc.thirdweb.com": "yes"
+  }
 }

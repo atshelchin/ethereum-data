@@ -2,7 +2,11 @@
   "name": "DeFiChain EVM Network Mainnet",
   "chain": "defichain-evm",
   "status": "incubating",
-  "rpc": [],
+  "rpc": [
+    "https://dmc.mydefichain.com/mainnet",
+    "https://dmc01.mydefichain.com/mainnet",
+    "https://1130.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DeFiChain",
@@ -15,5 +19,8 @@
   "networkId": 1130,
   "slip44": 1130,
   "icon": "defichain-network",
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://1130.rpc.thirdweb.com": "yes"
+  }
 }

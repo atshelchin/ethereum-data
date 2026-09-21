@@ -2,7 +2,9 @@
   "name": "Theta Mainnet",
   "chain": "Theta",
   "rpc": [
-    "https://eth-rpc-api.thetatoken.org/rpc"
+    "https://eth-rpc-api.thetatoken.org/rpc",
+    "https://lb.routeme.sh/rpc/evm/361",
+    "https://361.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +23,9 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x4dc08b15ea0e10b96c41aec22fab934ba15c983e"
+  "wrappedNativeToken": "0x4dc08b15ea0e10b96c41aec22fab934ba15c983e",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/361": "limited",
+    "https://361.rpc.thirdweb.com": "yes"
+  }
 }

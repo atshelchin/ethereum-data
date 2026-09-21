@@ -3,7 +3,8 @@
   "chain": "Graphite",
   "rpc": [
     "https://anon-entrypoint-1.atgraphite.com",
-    "wss://ws-anon-entrypoint-1.atgraphite.com"
+    "wss://ws-anon-entrypoint-1.atgraphite.com",
+    "https://440017.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "url": "https://main.atgraphite.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://440017.rpc.thirdweb.com": "yes"
+  }
 }

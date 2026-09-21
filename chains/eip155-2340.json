@@ -7,7 +7,9 @@
     "https://rpc.ankr.com/atleta_olympia",
     "https://atleta-testnet.htw.tech/",
     "https://public-atleta.nownodes.io",
-    "https://public-atla-testnet.fastnode.io"
+    "https://public-atla-testnet.fastnode.io",
+    "https://lb.routeme.sh/rpc/evm/2340",
+    "https://atleta-testnet.htw.tech"
   ],
   "faucets": [
     "https://app-olympia.atleta.network/faucet"
@@ -36,5 +38,9 @@
       "url": "https://polkadot-explorer.atleta.network/#/explorer",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.ankr.com/atleta_olympia": "none",
+    "https://lb.routeme.sh/rpc/evm/2340": "limited"
+  }
 }

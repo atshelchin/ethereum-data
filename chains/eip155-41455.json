@@ -4,7 +4,10 @@
   "icon": "aleph-zero",
   "rpc": [
     "wss://ws.alephzero.raas.gelato.cloud",
-    "https://rpc.alephzero.raas.gelato.cloud"
+    "https://rpc.alephzero.raas.gelato.cloud",
+    "https://lb.routeme.sh/rpc/evm/41455",
+    "https://alephzero.drpc.org",
+    "wss://alephzero.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -35,5 +38,10 @@
       "type": "bridge",
       "contract": "0xD648529D4803d3467bA8850577BEd4e4b8Ae583C"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/41455": "limited",
+    "https://alephzero.drpc.org": "none",
+    "wss://alephzero.drpc.org": "none"
+  }
 }

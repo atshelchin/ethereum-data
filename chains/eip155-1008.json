@@ -2,7 +2,9 @@
   "name": "Eurus Mainnet",
   "chain": "EUN",
   "rpc": [
-    "https://mainnet.eurus.network/"
+    "https://mainnet.eurus.network/",
+    "https://mainnet.eurus.network",
+    "https://1008.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,8 @@
       "icon": "eurus",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1008.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,7 +1,16 @@
 {
   "name": "Genesis L1",
   "chain": "genesis",
-  "rpc": ["https://rpc.genesisl1.org"],
+  "rpc": [
+    "https://rpc.genesisl1.org",
+    "https://evm.gl1infra.online",
+    "https://api.lcserve.net",
+    "https://api.lcserve.org",
+    "https://genesisl1.evm.utsa.tech",
+    "https://evm.vicky.gl1infra.online",
+    "https://evm.genesisl1.firsttensor.com",
+    "https://29.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "L1 coin",
@@ -18,5 +27,8 @@
       "url": "https://explorer.genesisl1.org",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://29.rpc.thirdweb.com": "yes"
+  }
 }

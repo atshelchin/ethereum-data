@@ -1,7 +1,9 @@
 {
   "name": "Mizana Mixnet",
   "chain": "MEER",
-  "rpc": [],
+  "rpc": [
+    "https://81362.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Mizana Mixnet",
@@ -13,5 +15,8 @@
   "icon": "meer",
   "chainId": 81362,
   "networkId": 81362,
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://81362.rpc.thirdweb.com": "yes"
+  }
 }

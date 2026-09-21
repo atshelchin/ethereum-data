@@ -3,7 +3,8 @@
   "chain": "OMNIA",
   "icon": "omnia",
   "rpc": [
-    "https://rpc.omniaverse.io"
+    "https://rpc.omniaverse.io",
+    "https://2342.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://www.omniaverse.io"
@@ -23,5 +24,8 @@
       "url": "https://scan.omniaverse.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2342.rpc.thirdweb.com": "yes"
+  }
 }

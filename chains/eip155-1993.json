@@ -2,7 +2,10 @@
   "name": "B3 Sepolia Testnet",
   "chain": "B3 Sepolia Testnet",
   "icon": "b3",
-  "rpc": ["https://sepolia.b3.fun"],
+  "rpc": [
+    "https://sepolia.b3.fun",
+    "https://lb.routeme.sh/rpc/evm/1993"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",
@@ -19,5 +22,8 @@
       "url": "https://sepolia.explorer.b3.fun",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1993": "limited"
+  }
 }

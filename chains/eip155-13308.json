@@ -2,7 +2,8 @@
   "name": "Credit Smart Chain",
   "chain": "CREDIT",
   "rpc": [
-    "https://rpc.creditsmartchain.com"
+    "https://rpc.creditsmartchain.com",
+    "https://13308.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +31,8 @@
       "icon": "credit",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://13308.rpc.thirdweb.com": "yes"
+  }
 }

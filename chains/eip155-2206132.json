@@ -3,7 +3,8 @@
   "chain": "PlatON",
   "rpc": [
     "wss://devnet2openapi.platon.network/ws",
-    "https://devnet2openapi.platon.network/rpc"
+    "https://devnet2openapi.platon.network/rpc",
+    "https://lb.routeme.sh/rpc/evm/2206132"
   ],
   "faucets": [
     "https://devnet2faucet.platon.network/faucet"
@@ -25,5 +26,8 @@
       "url": "https://devnet2scan.platon.network",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2206132": "limited"
+  }
 }

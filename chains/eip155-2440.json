@@ -3,7 +3,14 @@
   "chain": "Atleta",
   "rpc": [
     "https://rpc.mainnet.atleta.network",
-    "wss://rpc.mainnet.atleta.network"
+    "wss://rpc.mainnet.atleta.network",
+    "https://rpc.atleta.mainnet.dteam.tech",
+    "wss://rpc.atleta.mainnet.dteam.tech",
+    "https://rpc.ankr.com/atleta_mainnet",
+    "https://public-atla-mainnet.fastnode.io",
+    "https://rpc.atleta.at.htw.tech",
+    "wss://rpc.atleta.at.htw.tech",
+    "https://atleta.nownodes.io"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +37,14 @@
       "url": "https://polkadot-explorer.atleta.network/#/explorer",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.atleta.mainnet.dteam.tech": "none",
+    "wss://rpc.atleta.mainnet.dteam.tech": "none",
+    "https://rpc.ankr.com/atleta_mainnet": "none",
+    "https://public-atla-mainnet.fastnode.io": "none",
+    "https://rpc.atleta.at.htw.tech": "yes",
+    "wss://rpc.atleta.at.htw.tech": "yes",
+    "https://atleta.nownodes.io": "yes"
+  }
 }

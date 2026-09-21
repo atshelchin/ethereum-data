@@ -2,7 +2,8 @@
   "name": "NumBlock Chain",
   "chain": "NumBlock",
   "rpc": [
-    "https://rpc-mainnet.numblock.org"
+    "https://rpc-mainnet.numblock.org",
+    "https://5112023.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "standard": "none",
       "icon": "NumBlock"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://5112023.rpc.thirdweb.com": "yes"
+  }
 }

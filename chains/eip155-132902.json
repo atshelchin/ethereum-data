@@ -4,7 +4,8 @@
   "chain": "formtestnet",
   "rpc": [
     "wss://sepolia-rpc.form.network/ws",
-    "https://sepolia-rpc.form.network/http"
+    "https://sepolia-rpc.form.network/http",
+    "https://lb.routeme.sh/rpc/evm/132902"
   ],
   "features": [
     {
@@ -41,5 +42,8 @@
         "url": "https://sepolia-op-bridge.form.network"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/132902": "limited"
   }
 }

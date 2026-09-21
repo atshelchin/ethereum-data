@@ -2,7 +2,8 @@
   "name": "cheapETH",
   "chain": "cheapETH",
   "rpc": [
-    "https://node.cheapeth.org/rpc"
+    "https://node.cheapeth.org/rpc",
+    "https://777.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +14,8 @@
   "infoURL": "https://cheapeth.org/",
   "shortName": "cth",
   "chainId": 777,
-  "networkId": 777
+  "networkId": 777,
+  "rpcTracking": {
+    "https://777.rpc.thirdweb.com": "yes"
+  }
 }

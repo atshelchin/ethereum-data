@@ -1,14 +1,23 @@
 {
   "name": "ProtoJumbo Testnet",
   "chain": "Jumbo",
-  "rpc": ["https://testnode.jumbochain.org"],
-  "faucets": ["https://protojumbo.jumbochain.org/faucet-smart"],
+  "rpc": [
+    "https://testnode.jumbochain.org",
+    "https://lb.routeme.sh/rpc/evm/234"
+  ],
+  "faucets": [
+    "https://protojumbo.jumbochain.org/faucet-smart"
+  ],
   "nativeCurrency": {
     "name": "JNFTC",
     "symbol": "JNFTC",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://jumbochain.org",
   "shortName": "ProtoJumbo",
   "chainId": 234,
@@ -20,5 +29,8 @@
       "url": "https://protojumbo.jumbochain.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/234": "limited"
+  }
 }

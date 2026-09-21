@@ -5,7 +5,8 @@
   "icon": "k-laos",
   "rpc": [
     "wss://rpc.klaos.laosfoundation.io",
-    "https://rpc.klaos.laosfoundation.io"
+    "https://rpc.klaos.laosfoundation.io",
+    "https://2718.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +25,8 @@
       "icon": "k-laos",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2718.rpc.thirdweb.com": "yes"
+  }
 }

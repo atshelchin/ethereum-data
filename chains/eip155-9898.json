@@ -2,7 +2,11 @@
   "name": "Larissa Chain",
   "title": "Larissa Chain",
   "chain": "Larissa",
-  "rpc": ["https://rpc.larissa.network"],
+  "rpc": [
+    "https://rpc.larissa.network",
+    "https://lb.routeme.sh/rpc/evm/9898",
+    "https://9898.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Larissa",
@@ -22,5 +26,9 @@
       "url": "https://scan.larissa.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/9898": "limited",
+    "https://9898.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "name": "Mawari Mainnet",
+  "chain": "MAWARI",
+  "icon": "mawari",
+  "rpc": [
+    "https://rpc.mawari.net/http",
+    "wss://rpc.mawari.net/ws"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "MAWARI",
+    "symbol": "MAWARI",
+    "decimals": 18
+  },
+  "infoURL": "https://mawari.net",
+  "shortName": "mawari",
+  "chainId": 1576,
+  "networkId": 1576,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://explorer.mainnet.mawari.net",
+      "standard": "EIP3091"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
+}

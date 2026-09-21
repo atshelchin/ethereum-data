@@ -1,7 +1,10 @@
 {
   "name": "Popcateum Mainnet",
   "chain": "POPCATEUM",
-  "rpc": ["https://dataseed.popcateum.org"],
+  "rpc": [
+    "https://dataseed.popcateum.org",
+    "https://1213.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Popcat",
@@ -18,5 +21,8 @@
       "url": "https://explorer.popcateum.org",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1213.rpc.thirdweb.com": "yes"
+  }
 }

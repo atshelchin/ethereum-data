@@ -2,7 +2,9 @@
   "name": "Btachain",
   "chain": "btachain",
   "rpc": [
-    "https://dataseed1.btachain.com/"
+    "https://dataseed1.btachain.com/",
+    "https://dataseed1.btachain.com",
+    "https://1657.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -13,5 +15,8 @@
   "infoURL": "https://bitcoinasset.io/",
   "shortName": "bta",
   "chainId": 1657,
-  "networkId": 1657
+  "networkId": 1657,
+  "rpcTracking": {
+    "https://1657.rpc.thirdweb.com": "yes"
+  }
 }

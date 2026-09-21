@@ -10,7 +10,8 @@
     "decimals": 18
   },
   "rpc": [
-    "https://connect.opulent-x.com"
+    "https://connect.opulent-x.com",
+    "https://41500.rpc.thirdweb.com"
   ],
   "faucets": [],
   "infoURL": "https://beta.opulent-x.com",
@@ -20,5 +21,8 @@
       "url": "https://explorer.opulent-x.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://41500.rpc.thirdweb.com": "yes"
+  }
 }

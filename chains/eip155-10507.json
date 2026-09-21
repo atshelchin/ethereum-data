@@ -3,7 +3,9 @@
   "chain": "NUM",
   "icon": "num",
   "rpc": [
-    "https://mainnetrpc.num.network"
+    "https://mainnetrpc.num.network",
+    "https://lb.routeme.sh/rpc/evm/10507",
+    "https://10507.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +28,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/10507": "limited",
+    "https://10507.rpc.thirdweb.com": "yes"
+  }
 }

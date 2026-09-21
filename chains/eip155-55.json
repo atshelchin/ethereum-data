@@ -7,7 +7,14 @@
     "https://rpc-3.zyx.network/",
     "https://rpc-4.zyx.network/",
     "https://rpc-5.zyx.network/",
-    "https://rpc-6.zyx.network/"
+    "https://rpc-6.zyx.network/",
+    "https://rpc-1.zyx.network",
+    "https://rpc-2.zyx.network",
+    "https://rpc-3.zyx.network",
+    "https://rpc-5.zyx.network",
+    "https://rpc-4.zyx.network",
+    "https://rpc-6.zyx.network",
+    "https://55.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -25,5 +32,8 @@
       "url": "https://zyxscan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://55.rpc.thirdweb.com": "yes"
+  }
 }

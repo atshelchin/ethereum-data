@@ -2,7 +2,11 @@
   "name": "Poodl Mainnet",
   "chain": "Poodl",
   "icon": "poodlIcon",
-  "rpc": ["https://rpc.poodl.org"],
+  "rpc": [
+    "https://rpc.poodl.org",
+    "https://lb.routeme.sh/rpc/evm/15259",
+    "https://15259.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Poodl",
@@ -19,5 +23,9 @@
       "url": "https://explorer.poodl.org",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/15259": "limited",
+    "https://15259.rpc.thirdweb.com": "yes"
+  }
 }

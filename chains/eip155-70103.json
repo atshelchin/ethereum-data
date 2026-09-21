@@ -1,7 +1,12 @@
 {
   "name": "Thinkium Mainnet Chain 103",
   "chain": "Thinkium",
-  "rpc": ["https://proxy103.thinkiumrpc.net/"],
+  "rpc": [
+    "https://proxy103.thinkiumrpc.net/",
+    "https://lb.routeme.sh/rpc/evm/70103",
+    "https://proxy103.thinkiumrpc.net",
+    "https://70103.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TKM",
@@ -18,5 +23,9 @@
       "url": "https://chain103.thinkiumscan.net",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/70103": "limited",
+    "https://70103.rpc.thirdweb.com": "yes"
+  }
 }

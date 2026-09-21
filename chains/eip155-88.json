@@ -3,7 +3,10 @@
   "chain": "Viction",
   "rpc": [
     "https://viction.drpc.org",
-    "https://rpc.viction.xyz"
+    "https://rpc.viction.xyz",
+    "wss://viction.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/88",
+    "https://88.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -40,5 +43,11 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://viction.drpc.org": "none",
+    "wss://viction.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/88": "limited",
+    "https://88.rpc.thirdweb.com": "yes"
   }
 }

@@ -4,7 +4,8 @@
   "icon": "mainnetz",
   "rpc": [
     "https://mainnet-rpc.mainnetz.io",
-    "https://eu-rpc.mainnetz.io"
+    "https://eu-rpc.mainnetz.io",
+    "https://2016.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "url": "https://explorer.mainnetz.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2016.rpc.thirdweb.com": "yes"
+  }
 }

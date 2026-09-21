@@ -4,7 +4,10 @@
   "icon": "hedera",
   "rpc": [
     "https://mainnet.hashio.io/api",
-    "https://hedera.linkpool.pro"
+    "https://hedera.linkpool.pro",
+    "https://lb.routeme.sh/rpc/evm/295",
+    "https://295.rpc.thirdweb.com",
+    "https://mainnet.hedera.api.hgraph.io/rpc"
   ],
   "features": [
     {
@@ -42,5 +45,10 @@
       "standard": "none"
     }
   ],
-  "wrappedNativeToken": "0x0000000000000000000000000000000000163b5a"
+  "wrappedNativeToken": "0x0000000000000000000000000000000000163b5a",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/295": "limited",
+    "https://295.rpc.thirdweb.com": "yes",
+    "https://mainnet.hedera.api.hgraph.io/rpc": "none"
+  }
 }

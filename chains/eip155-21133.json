@@ -3,7 +3,8 @@
   "chain": "AAH",
   "rpc": [
     "https://rpc.c4ex.net",
-    "https://rpc.aah.name"
+    "https://rpc.aah.name",
+    "https://21133.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://t.me/c4eiAirdrop"
@@ -24,5 +25,8 @@
       "icon": "aah",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://21133.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,10 @@
   "chain": "ICPlaza",
   "icon": "icplaza",
   "rpc": [
-    "https://rpcmainnet.ic-plaza.org/"
+    "https://rpcmainnet.ic-plaza.org/",
+    "https://rpc1.icplaza.pro",
+    "https://rpcmainnet.ic-plaza.org",
+    "https://142857.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +24,9 @@
       "url": "https://browsemainnet.ic-plaza.org/index",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc1.icplaza.pro": "yes",
+    "https://142857.rpc.thirdweb.com": "yes"
+  }
 }

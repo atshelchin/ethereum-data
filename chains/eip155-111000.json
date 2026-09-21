@@ -2,7 +2,8 @@
   "name": "Siberium Test Network",
   "chain": "SBR",
   "rpc": [
-    "https://rpc.test.siberium.net"
+    "https://rpc.test.siberium.net",
+    "https://lb.routeme.sh/rpc/evm/111000"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "icon": "siberium",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/111000": "limited"
+  }
 }

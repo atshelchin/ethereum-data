@@ -4,7 +4,9 @@
   "icon": "bora",
   "rpc": [
     "https://public-node.api.boraportal.com/bora/mainnet",
-    "https://public-node.api.boraportal.io/bora/mainnet"
+    "https://public-node.api.boraportal.io/bora/mainnet",
+    "https://lb.routeme.sh/rpc/evm/77001",
+    "https://77001.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,9 @@
       "url": "https://scope.boraportal.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/77001": "limited",
+    "https://77001.rpc.thirdweb.com": "yes"
+  }
 }

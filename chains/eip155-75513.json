@@ -1,7 +1,10 @@
 {
   "name": "GEEK Verse Testnet",
   "chain": "GEEK Test",
-  "rpc": ["https://rpc-testnet.geekout-pte.com"],
+  "rpc": [
+    "https://rpc-testnet.geekout-pte.com",
+    "https://lb.routeme.sh/rpc/evm/75513"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",
@@ -18,5 +21,8 @@
       "url": "https://explorer-testnet.geekout-pte.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/75513": "limited"
+  }
 }

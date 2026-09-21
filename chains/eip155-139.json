@@ -3,7 +3,8 @@
   "chain": "WOOP",
   "icon": "woopchain",
   "rpc": [
-    "https://rpc.woop.ai/rpc"
+    "https://rpc.woop.ai/rpc",
+    "https://139.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -29,5 +30,8 @@
       "url": "https://explorer.wikiwoop.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://139.rpc.thirdweb.com": "yes"
+  }
 }

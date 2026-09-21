@@ -2,7 +2,9 @@
   "name": "PLAYA3ULL GAMES",
   "chain": "3ULL",
   "rpc": [
-    "https://api.mainnet.playa3ull.games"
+    "https://api.mainnet.playa3ull.games",
+    "https://lb.routeme.sh/rpc/evm/3011",
+    "https://3011.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -30,5 +32,9 @@
       "icon": "playa3ull",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/3011": "limited",
+    "https://3011.rpc.thirdweb.com": "yes"
+  }
 }

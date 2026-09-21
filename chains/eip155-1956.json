@@ -2,7 +2,8 @@
   "name": "AIW3 Testnet",
   "chain": "AIW3",
   "rpc": [
-    "https://rpc-testnet.aiw3.io/"
+    "https://rpc-testnet.aiw3.io/",
+    "https://rpc-testnet.aiw3.io"
   ],
   "faucets": [],
   "nativeCurrency": {

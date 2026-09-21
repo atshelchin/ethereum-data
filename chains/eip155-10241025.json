@@ -3,7 +3,8 @@
   "chain": "ALIENX Hal",
   "rpc": [
     "https://hal-rpc.alienxchain.io/http",
-    "https://hal.rpc.caldera.xyz/http"
+    "https://hal.rpc.caldera.xyz/http",
+    "https://lb.routeme.sh/rpc/evm/10241025"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "url": "https://hal-explorer.alienxchain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/10241025": "limited"
+  }
 }

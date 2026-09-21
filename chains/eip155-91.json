@@ -3,7 +3,8 @@
   "chain": "GAR",
   "icon": "garizon",
   "rpc": [
-    "https://s1.garizon.net/rpc"
+    "https://s1.garizon.net/rpc",
+    "https://91.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +27,8 @@
   "parent": {
     "chain": "eip155-90",
     "type": "shard"
+  },
+  "rpcTracking": {
+    "https://91.rpc.thirdweb.com": "yes"
   }
 }

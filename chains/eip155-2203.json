@@ -1,7 +1,10 @@
 {
   "name": "Bitcoin EVM",
   "chain": "Bitcoin EVM",
-  "rpc": ["https://connect.bitcoinevm.com"],
+  "rpc": [
+    "https://connect.bitcoinevm.com",
+    "https://2203.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin",
@@ -20,5 +23,8 @@
       "icon": "ebtc",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2203.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "Ambros Chain Mainnet",
   "chain": "ambroschain",
   "rpc": [
-    "https://api.ambros.network"
+    "https://api.ambros.network",
+    "https://880.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://ambrosscan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://880.rpc.thirdweb.com": "yes"
+  }
 }

@@ -5,7 +5,19 @@
     "https://dymension.drpc.org",
     "wss://dymension-evm-rpc.publicnode.com",
     "https://dymension-evm.blockpi.network/v1/rpc/public",
-    "https://dymension-evm-rpc.publicnode.com"
+    "https://dymension-evm-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/1100",
+    "https://jsonrpc.dymension.nodestake.org",
+    "https://rollapp.jrpc.cumulo.com.es",
+    "https://dymension.liquify.com/json-rpc",
+    "https://dymension-evm.kynraze.com",
+    "wss://dymension.drpc.org",
+    "https://rpc.mainnet.dymension.aviaone.com",
+    "https://evm.rpc.mainnet.dymension.aviaone.com",
+    "wss://evm.webSocket.mainnet.dymension.aviaone.com",
+    "https://dymension.api.onfinality.io/public",
+    "https://rpc.swiftnodes.io/rpc/dymension",
+    "https://1100.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +36,11 @@
       "url": "https://dym.fyi",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1100": "limited",
+    "https://dymension.api.onfinality.io/public": "limited",
+    "https://rpc.swiftnodes.io/rpc/dymension": "limited",
+    "https://1100.rpc.thirdweb.com": "yes"
+  }
 }

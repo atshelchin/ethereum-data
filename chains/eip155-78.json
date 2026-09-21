@@ -1,7 +1,11 @@
 {
   "name": "PrimusChain mainnet",
   "chain": "PC",
-  "rpc": ["https://ethnode.primusmoney.com/mainnet"],
+  "rpc": [
+    "https://ethnode.primusmoney.com/mainnet",
+    "https://lb.routeme.sh/rpc/evm/78",
+    "https://78.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Primus Ether",
@@ -11,5 +15,9 @@
   "infoURL": "https://primusmoney.com",
   "shortName": "primuschain",
   "chainId": 78,
-  "networkId": 78
+  "networkId": 78,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/78": "limited",
+    "https://78.rpc.thirdweb.com": "yes"
+  }
 }

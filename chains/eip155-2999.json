@@ -1,7 +1,13 @@
 {
   "name": "BitYuan Mainnet",
   "chain": "BTY",
-  "rpc": ["https://mainnet.bityuan.com/eth"],
+  "rpc": [
+    "https://mainnet.bityuan.com/eth",
+    "https://lb.routeme.sh/rpc/evm/2999",
+    "https://node1.bityuan.com/eth",
+    "https://node2.bityuan.com/eth",
+    "https://2999.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTY",
@@ -19,5 +25,9 @@
       "url": "https://mainnet.bityuan.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2999": "limited",
+    "https://2999.rpc.thirdweb.com": "yes"
+  }
 }

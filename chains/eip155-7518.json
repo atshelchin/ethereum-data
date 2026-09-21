@@ -1,7 +1,11 @@
 {
   "name": "MEVerse Chain Mainnet",
   "chain": "MEVerse",
-  "rpc": ["https://rpc.meversemainnet.io"],
+  "rpc": [
+    "https://rpc.meversemainnet.io",
+    "https://lb.routeme.sh/rpc/evm/7518",
+    "https://7518.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "MEVerse",
@@ -20,5 +24,9 @@
       "standard": "none",
       "icon": "meverse"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/7518": "limited",
+    "https://7518.rpc.thirdweb.com": "yes"
+  }
 }

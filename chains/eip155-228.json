@@ -3,7 +3,8 @@
   "chain": "FHE",
   "rpc": [
     "wss://rpc-mainnet.mindnetwork.xyz",
-    "https://rpc-mainnet.mindnetwork.xyz"
+    "https://rpc-mainnet.mindnetwork.xyz",
+    "https://228.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -19,5 +20,8 @@
   "infoURL": "https://mindnetwork.xyz",
   "shortName": "fhe",
   "chainId": 228,
-  "networkId": 228
+  "networkId": 228,
+  "rpcTracking": {
+    "https://228.rpc.thirdweb.com": "yes"
+  }
 }

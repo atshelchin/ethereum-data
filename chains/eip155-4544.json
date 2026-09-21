@@ -1,8 +1,13 @@
 {
   "name": "Emoney Network Testnet",
   "chain": "Emoney",
-  "rpc": ["https://testnet.emoney.network/"],
-  "faucets": ["https://faucet.emoney.network/faucet"],
+  "rpc": [
+    "https://testnet.emoney.network/",
+    "https://testnet.emoney.network"
+  ],
+  "faucets": [
+    "https://faucet.emoney.network/faucet"
+  ],
   "nativeCurrency": {
     "name": "Emoney Network",
     "symbol": "EMYC",

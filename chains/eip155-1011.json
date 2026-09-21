@@ -3,7 +3,8 @@
   "title": "Rebuschain Mainnet",
   "chain": "REBUS",
   "rpc": [
-    "https://apievm.rebuschain.com/rpc"
+    "https://apievm.rebuschain.com/rpc",
+    "https://1011.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,5 +30,8 @@
       "icon": "rebus",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1011.rpc.thirdweb.com": "yes"
+  }
 }

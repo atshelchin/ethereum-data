@@ -4,7 +4,9 @@
   "icon": "maal-test",
   "rpc": [
     "https://node-testnet.maalscan.io/",
-    "https://node2-testnet.maalscan.io/"
+    "https://node2-testnet.maalscan.io/",
+    "https://node-testnet.maalscan.io",
+    "https://node2-testnet.maalscan.io"
   ],
   "faucets": [
     "https://faucet-new-testnet.maalscan.io/"

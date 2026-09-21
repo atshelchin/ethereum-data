@@ -2,7 +2,9 @@
   "name": "POA Network Core",
   "chain": "POA",
   "rpc": [
-    "https://core.poa.network"
+    "https://core.poa.network",
+    "https://core.poanetwork.dev",
+    "https://99.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://99.rpc.thirdweb.com": "yes"
+  }
 }

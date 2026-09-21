@@ -2,7 +2,8 @@
   "name": "Dexit Network",
   "chain": "DXT",
   "rpc": [
-    "https://dxt.dexit.network"
+    "https://dxt.dexit.network",
+    "https://877.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.dexit.network"
@@ -22,5 +23,8 @@
       "url": "https://dxtscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://877.rpc.thirdweb.com": "yes"
+  }
 }

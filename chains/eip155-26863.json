@@ -4,7 +4,8 @@
   "rpc": [
     "https://rpc1.oasischain.io",
     "https://rpc2.oasischain.io",
-    "https://rpc3.oasischain.io"
+    "https://rpc3.oasischain.io",
+    "https://26863.rpc.thirdweb.com"
   ],
   "faucets": [
     "http://faucet.oasischain.io"
@@ -24,5 +25,8 @@
       "url": "https://scan.oasischain.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://26863.rpc.thirdweb.com": "yes"
+  }
 }

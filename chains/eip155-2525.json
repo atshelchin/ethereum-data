@@ -3,7 +3,9 @@
   "chain": "inEVM",
   "icon": "inevm",
   "rpc": [
-    "https://mainnet.rpc.inevm.com/http"
+    "https://mainnet.rpc.inevm.com/http",
+    "https://lb.routeme.sh/rpc/evm/2525",
+    "https://2525.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -16,5 +18,9 @@
   "chainId": 2525,
   "networkId": 2525,
   "explorers": [],
-  "status": "active"
+  "status": "active",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2525": "limited",
+    "https://2525.rpc.thirdweb.com": "yes"
+  }
 }

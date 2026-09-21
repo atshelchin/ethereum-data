@@ -1,7 +1,11 @@
 {
   "name": "Movement EVM",
   "chain": "MOVE",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.movementnetwork.xyz/v1",
+    "https://movement.lava.build",
+    "https://3073.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Move",
@@ -20,5 +24,9 @@
       "standard": "none"
     }
   ],
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://movement.lava.build": "yes",
+    "https://3073.rpc.thirdweb.com": "yes"
+  }
 }

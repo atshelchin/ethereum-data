@@ -2,7 +2,11 @@
   "name": "Doric Network",
   "chain": "DRC",
   "icon": "doric",
-  "rpc": ["https://mainnet.doric.network"],
+  "rpc": [
+    "https://mainnet.doric.network",
+    "https://lb.routeme.sh/rpc/evm/1717",
+    "https://1717.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Doric Native Token",
@@ -19,5 +23,9 @@
       "url": "https://explorer.doric.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1717": "limited",
+    "https://1717.rpc.thirdweb.com": "yes"
+  }
 }

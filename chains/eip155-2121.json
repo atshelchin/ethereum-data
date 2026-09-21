@@ -2,7 +2,8 @@
   "name": "Catena Mainnet",
   "chain": "CMCX",
   "rpc": [
-    "https://rpc1.catenarpc.com"
+    "https://rpc1.catenarpc.com",
+    "https://2121.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,5 +30,8 @@
       "url": "https://catenascan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2121.rpc.thirdweb.com": "yes"
+  }
 }

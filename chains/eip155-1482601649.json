@@ -4,9 +4,13 @@
   "icon": "nebula",
   "rpc": [
     "https://mainnet.skalenodes.com/v1/green-giddy-denebola",
-    "wss://mainnet-proxy.skalenodes.com/v1/ws/green-giddy-denebola"
+    "wss://mainnet-proxy.skalenodes.com/v1/ws/green-giddy-denebola",
+    "https://lb.routeme.sh/rpc/evm/1482601649",
+    "https://1482601649.rpc.thirdweb.com"
   ],
-  "faucets": ["https://sfuel.skale.network/"],
+  "faucets": [
+    "https://sfuel.skale.network/"
+  ],
   "nativeCurrency": {
     "name": "sFUEL",
     "symbol": "sFUEL",
@@ -22,5 +26,9 @@
       "url": "https://green-giddy-denebola.explorer.mainnet.skalenodes.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1482601649": "limited",
+    "https://1482601649.rpc.thirdweb.com": "yes"
+  }
 }

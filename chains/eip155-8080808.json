@@ -3,7 +3,8 @@
   "chain": "Hokum",
   "icon": "hokum",
   "rpc": [
-    "https://mainnet.hokum.gg"
+    "https://mainnet.hokum.gg",
+    "https://8080808.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.hokum.gg",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://8080808.rpc.thirdweb.com": "yes"
+  }
 }

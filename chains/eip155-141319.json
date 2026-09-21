@@ -3,7 +3,8 @@
   "title": "MagApeChain",
   "chain": "MagApe",
   "rpc": [
-    "https://testnet-api.magape.io/chain/"
+    "https://testnet-api.magape.io/chain/",
+    "https://testnet-api.magape.io/chain"
   ],
   "faucets": [],
   "nativeCurrency": {

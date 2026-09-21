@@ -3,7 +3,8 @@
   "chain": "KLC",
   "icon": "kalarchain",
   "rpc": [
-    "https://rpc-api.kalarchain.tech"
+    "https://rpc-api.kalarchain.tech",
+    "https://1379.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "kalarscan",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1379.rpc.thirdweb.com": "yes"
+  }
 }

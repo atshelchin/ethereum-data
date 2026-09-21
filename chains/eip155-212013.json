@@ -5,7 +5,8 @@
     "https://rpc.heima-parachain.heima.network",
     "wss://rpc.heima-parachain.heima.network",
     "wss://litentry-rpc.dwellir.com",
-    "https://litentry-rpc.dwellir.com"
+    "https://litentry-rpc.dwellir.com",
+    "https://lb.routeme.sh/rpc/evm/212013"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,5 +30,8 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/212013": "limited"
+  }
 }

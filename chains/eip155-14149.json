@@ -1,7 +1,10 @@
 {
   "name": "Bitharvest Chain Mainnet",
   "chain": "Bitharvest Chain Mainnet",
-  "rpc": ["https://rpc.bthscan.io/"],
+  "rpc": [
+    "https://rpc.bthscan.io/",
+    "https://rpc.bthscan.io"
+  ],
   "features": [
     {
       "name": "EIP1559"

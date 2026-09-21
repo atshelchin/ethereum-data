@@ -1,7 +1,9 @@
 {
   "name": "Movement EVM Devnet",
   "chain": "MOVE",
-  "rpc": [],
+  "rpc": [
+    "https://30731.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Move",
@@ -20,5 +22,8 @@
       "standard": "none"
     }
   ],
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://30731.rpc.thirdweb.com": "yes"
+  }
 }

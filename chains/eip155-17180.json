@@ -2,7 +2,8 @@
   "name": "Palette Chain Testnet",
   "chain": "PLT",
   "rpc": [
-    "https://palette-opennet.com:22000"
+    "https://palette-opennet.com:22000",
+    "https://lb.routeme.sh/rpc/evm/17180"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +25,8 @@
       "icon": "PLT",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/17180": "limited"
+  }
 }

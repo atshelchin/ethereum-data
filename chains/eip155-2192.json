@@ -2,7 +2,9 @@
   "name": "SnaxChain",
   "chain": "ETH",
   "rpc": [
-    "https://mainnet.snaxchain.io"
+    "https://mainnet.snaxchain.io",
+    "https://snaxchain.drpc.org",
+    "wss://snaxchain.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,9 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
+  "rpcTracking": {
+    "https://snaxchain.drpc.org": "none",
+    "wss://snaxchain.drpc.org": "none"
+  }
 }

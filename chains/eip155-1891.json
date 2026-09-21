@@ -2,13 +2,19 @@
   "name": "Lightlink Pegasus Testnet",
   "chain": "Lightlink Pegasus Testnet",
   "icon": "lightlink",
-  "rpc": ["https://replicator.pegasus.lightlink.io/rpc/v1"],
+  "rpc": [
+    "https://replicator.pegasus.lightlink.io/rpc/v1",
+    "https://lb.routeme.sh/rpc/evm/1891",
+    "https://endpoints.omniatech.io/v1/lightlink/pegasus/public"
+  ],
   "features": [
     {
       "name": "EIP155"
     }
   ],
-  "faucets": ["https://faucet.pegasus.lightlink.io/"],
+  "faucets": [
+    "https://faucet.pegasus.lightlink.io/"
+  ],
   "nativeCurrency": {
     "name": "Ethereum",
     "symbol": "ETH",
@@ -26,5 +32,9 @@
       "icon": "lightlink",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1891": "limited",
+    "https://endpoints.omniatech.io/v1/lightlink/pegasus/public": "none"
+  }
 }

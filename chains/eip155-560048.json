@@ -4,7 +4,12 @@
   "chain": "ETH",
   "icon": "ethereum",
   "rpc": [
-    "https://rpc.hoodi.ethpandaops.io"
+    "https://rpc.hoodi.ethpandaops.io",
+    "https://lb.routeme.sh/rpc/evm/560048",
+    "https://0xrpc.io/hoodi",
+    "wss://0xrpc.io/hoodi",
+    "https://ethereum-hoodi.gateway.tatum.io",
+    "https://hoodi.rpc.sentio.xyz"
   ],
   "features": [
     {
@@ -40,5 +45,12 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/560048": "limited",
+    "https://0xrpc.io/hoodi": "none",
+    "wss://0xrpc.io/hoodi": "none",
+    "https://ethereum-hoodi.gateway.tatum.io": "yes",
+    "https://hoodi.rpc.sentio.xyz": "limited"
   }
 }

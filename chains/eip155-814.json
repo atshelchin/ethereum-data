@@ -4,7 +4,8 @@
   "chain": "Firechain",
   "rpc": [
     "https://rpc-zkevm.thefirechain.com",
-    "https://rpc-zkevm.firestation.io"
+    "https://rpc-zkevm.firestation.io",
+    "https://814.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +27,8 @@
         "url": "https://zkevm-bridge-rpc.thefirechain.com"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://814.rpc.thirdweb.com": "yes"
   }
 }

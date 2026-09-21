@@ -3,7 +3,8 @@
   "chain": "Shido Testnet",
   "rpc": [
     "wss://wss-testnet-nodes.shidoscan.com",
-    "https://rpc-testnet-nodes.shidoscan.com"
+    "https://rpc-testnet-nodes.shidoscan.com",
+    "https://lb.routeme.sh/rpc/evm/9007"
   ],
   "faucets": [
     "https://testnet.shidoscan.com/faucet"
@@ -25,5 +26,8 @@
       "standard": "none",
       "icon": "shidoChain"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/9007": "limited"
+  }
 }

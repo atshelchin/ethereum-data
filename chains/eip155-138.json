@@ -13,7 +13,8 @@
     "wss://ws.rpc.d-bis.org",
     "wss://ws.rpc2.d-bis.org",
     "https://rpc.public-0138.defi-oracle.io",
-    "wss://rpc.public-0138.defi-oracle.io"
+    "wss://rpc.public-0138.defi-oracle.io",
+    "https://138.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -48,5 +49,8 @@
       "url": "https://explorer.defi-oracle.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://138.rpc.thirdweb.com": "yes"
+  }
 }

@@ -4,7 +4,10 @@
   "chain": "ETH",
   "rpc": [
     "wss://ws.arb-blueberry.gelato.digital",
-    "https://rpc.arb-blueberry.gelato.digital"
+    "https://rpc.arb-blueberry.gelato.digital",
+    "https://lb.routeme.sh/rpc/evm/88153591557",
+    "https://arb-blueberry-testnet.drpc.org",
+    "wss://arb-blueberry-testnet.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -34,5 +37,10 @@
       }
     ]
   },
-  "status": "active"
+  "status": "active",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/88153591557": "limited",
+    "https://arb-blueberry-testnet.drpc.org": "none",
+    "wss://arb-blueberry-testnet.drpc.org": "none"
+  }
 }

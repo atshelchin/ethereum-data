@@ -3,7 +3,8 @@
   "title": "BESC Mainnet",
   "chain": "BESC",
   "rpc": [
-    "https://mainnet-rpc.bescscan.io"
+    "https://mainnet-rpc.bescscan.io",
+    "https://535037.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://Bescscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://535037.rpc.thirdweb.com": "yes"
+  }
 }

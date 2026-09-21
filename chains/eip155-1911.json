@@ -3,7 +3,8 @@
   "chain": "ETH",
   "icon": "scalind",
   "rpc": [
-    "https://rpc.scalind.com"
+    "https://rpc.scalind.com",
+    "https://1911.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.scalind.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1911.rpc.thirdweb.com": "yes"
+  }
 }

@@ -4,7 +4,11 @@
   "rpc": [
     "https://rpc-mainnet.kcc.network",
     "https://kcc.mytokenpocket.vip",
-    "https://public-rpc.blockpi.io/http/kcc"
+    "https://public-rpc.blockpi.io/http/kcc",
+    "https://lb.routeme.sh/rpc/evm/321",
+    "https://kcc-rpc.com",
+    "https://kcs-mainnet.gateway.tatum.io",
+    "https://321.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +28,10 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x4446Fc4eb47f2f6586f9fAAb68B3498F86C07521"
+  "wrappedNativeToken": "0x4446Fc4eb47f2f6586f9fAAb68B3498F86C07521",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/321": "limited",
+    "https://kcs-mainnet.gateway.tatum.io": "yes",
+    "https://321.rpc.thirdweb.com": "yes"
+  }
 }

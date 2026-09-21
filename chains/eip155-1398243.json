@@ -3,7 +3,8 @@
   "chain": "Automata Testnet",
   "rpc": [
     "https://rpc-testnet.ata.network",
-    "https://automata-testnet.alt.technology"
+    "https://automata-testnet.alt.technology",
+    "https://lb.routeme.sh/rpc/evm/1398243"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "url": "https://explorer-testnet.ata.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1398243": "limited"
+  }
 }

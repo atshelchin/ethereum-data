@@ -11,7 +11,10 @@
     "https://01-gravelines-003-01.rpc.tatum.io/ext/bc/C/rpc",
     "https://01-vinthill-003-02.rpc.tatum.io/ext/bc/C/rpc",
     "https://flare.enosys.global/ext/C/rpc",
-    "https://flare.solidifi.app/ext/C/rpc"
+    "https://flare.solidifi.app/ext/C/rpc",
+    "https://lb.routeme.sh/rpc/evm/14",
+    "https://flare-mainnet.gateway.tatum.io",
+    "https://flare.drpc.org"
   ],
   "features": [
     {
@@ -62,5 +65,11 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://flare.rpc.thirdweb.com": "yes",
+    "https://lb.routeme.sh/rpc/evm/14": "limited",
+    "https://flare-mainnet.gateway.tatum.io": "yes",
+    "https://flare.drpc.org": "none"
   }
 }

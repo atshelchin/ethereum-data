@@ -2,7 +2,9 @@
   "name": "Lif3 Chain",
   "chain": "lif3chain",
   "rpc": [
-    "https://rpc.lif3.com"
+    "https://rpc.lif3.com",
+    "https://lb.routeme.sh/rpc/evm/8869",
+    "https://8869.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -26,5 +28,9 @@
       "url": "https://lif3scout.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/8869": "limited",
+    "https://8869.rpc.thirdweb.com": "yes"
+  }
 }

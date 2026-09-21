@@ -3,7 +3,8 @@
   "chain": "BLXQ",
   "icon": "blxq",
   "rpc": [
-    "https://mainnet.blxq.org"
+    "https://mainnet.blxq.org",
+    "https://1108.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "blxq",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1108.rpc.thirdweb.com": "yes"
+  }
 }

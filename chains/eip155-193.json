@@ -2,7 +2,8 @@
   "name": "Crypto Emergency",
   "chain": "CEM",
   "rpc": [
-    "https://cemchain.com"
+    "https://cemchain.com",
+    "https://193.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://cemscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://193.rpc.thirdweb.com": "yes"
+  }
 }

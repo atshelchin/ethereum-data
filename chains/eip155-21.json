@@ -2,7 +2,8 @@
   "name": "Elastos Smart Chain Testnet",
   "chain": "ETH",
   "rpc": [
-    "https://api-testnet.elastos.io/eth"
+    "https://api-testnet.elastos.io/eth",
+    "https://lb.routeme.sh/rpc/evm/21"
   ],
   "faucets": [
     "https://esc-faucet.elastos.io/"
@@ -22,5 +23,8 @@
       "url": "https://esc-testnet.elastos.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/21": "limited"
+  }
 }

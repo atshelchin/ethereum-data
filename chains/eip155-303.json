@@ -2,7 +2,8 @@
   "name": "Neurochain Testnet",
   "chain": "NCN",
   "rpc": [
-    "https://nc-rpc-test1.neurochain.io"
+    "https://nc-rpc-test1.neurochain.io",
+    "https://lb.routeme.sh/rpc/evm/303"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -29,5 +30,8 @@
       "url": "https://testnet.ncnscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/303": "limited"
+  }
 }

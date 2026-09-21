@@ -2,7 +2,8 @@
   "name": "Geo Genesis",
   "chain": "Geo Genesis",
   "rpc": [
-    "https://rpc-geo-genesis-h0q2s21xx8.t.conduit.xyz/"
+    "https://rpc-geo-genesis-h0q2s21xx8.t.conduit.xyz/",
+    "https://rpc-geo-genesis-h0q2s21xx8.t.conduit.xyz"
   ],
   "features": [
     {

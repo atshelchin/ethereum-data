@@ -1,8 +1,15 @@
 {
   "name": "IOPN Testnet",
   "chain": "IOPN Testnet",
-  "rpc": ["https://testnet-rpc.iopn.tech"],
-  "faucets": ["https://faucet.iopn.tech"],
+  "rpc": [
+    "https://testnet-rpc.iopn.tech",
+    "https://testnet-rpc2.iopn.tech",
+    "wss://testnet-rpc.iopn.tech/ws",
+    "wss://testnet-rpc2.iopn.tech/ws"
+  ],
+  "faucets": [
+    "https://faucet.iopn.tech"
+  ],
   "nativeCurrency": {
     "name": "OPN",
     "symbol": "OPN",

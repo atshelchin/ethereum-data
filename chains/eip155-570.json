@@ -4,7 +4,11 @@
   "rpc": [
     "https://rpc.rollux.com",
     "wss://rpc.rollux.com/wss",
-    "https://rpc.ankr.com/rollux"
+    "https://rpc.ankr.com/rollux",
+    "https://lb.routeme.sh/rpc/evm/570",
+    "https://rollux.rpc.syscoin.org",
+    "wss://rollux.rpc.syscoin.org/wss",
+    "https://570.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://rollux.id/faucet"
@@ -25,5 +29,10 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
+  "rpcTracking": {
+    "https://rpc.ankr.com/rollux": "none",
+    "https://lb.routeme.sh/rpc/evm/570": "limited",
+    "https://570.rpc.thirdweb.com": "yes"
+  }
 }

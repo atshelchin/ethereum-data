@@ -1,7 +1,9 @@
 {
   "name": "PlayFi Mainnet",
   "chain": "PLAY",
-  "rpc": [],
+  "rpc": [
+    "https://161212.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Play",
@@ -13,5 +15,8 @@
   "chainId": 161212,
   "networkId": 161212,
   "explorers": [],
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://161212.rpc.thirdweb.com": "yes"
+  }
 }

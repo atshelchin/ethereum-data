@@ -5,7 +5,9 @@
   "rpc": [
     "https://datarpc3.xsc.pub",
     "https://datarpc2.xsc.pub",
-    "https://datarpc1.xsc.pub"
+    "https://datarpc1.xsc.pub",
+    "https://lb.routeme.sh/rpc/evm/520",
+    "https://520.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://xsc.pub/faucet"
@@ -25,5 +27,9 @@
       "url": "https://xscscan.pub",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/520": "limited",
+    "https://520.rpc.thirdweb.com": "yes"
+  }
 }

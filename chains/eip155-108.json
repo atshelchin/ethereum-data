@@ -4,7 +4,11 @@
   "rpc": [
     "https://mainnet-rpc.thundercore.io",
     "https://mainnet-rpc.thundertoken.net",
-    "https://mainnet-rpc.thundercore.com"
+    "https://mainnet-rpc.thundercore.com",
+    "https://lb.routeme.sh/rpc/evm/108",
+    "https://thundercore.drpc.org",
+    "wss://thundercore.drpc.org",
+    "https://108.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +28,11 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x413cEFeA29F2d07B8F2acFA69d92466B9535f717"
+  "wrappedNativeToken": "0x413cEFeA29F2d07B8F2acFA69d92466B9535f717",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/108": "limited",
+    "https://thundercore.drpc.org": "none",
+    "wss://thundercore.drpc.org": "none",
+    "https://108.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "TRUST",
   "icon": "intuition",
   "rpc": [
-    "https://rpc.intuition.systems"
+    "https://rpc.intuition.systems",
+    "https://intuition.calderachain.xyz/http"
   ],
   "faucets": [],
   "nativeCurrency": {

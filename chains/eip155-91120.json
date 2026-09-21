@@ -4,7 +4,12 @@
   "chain": "MetaDAP",
   "icon": "metadap",
   "faucets": [],
-  "rpc": ["https://rpc.chain.metadap.io", "wss://rpc-ws.chain.metadap.io"],
+  "rpc": [
+    "https://rpc.chain.metadap.io",
+    "wss://rpc-ws.chain.metadap.io",
+    "https://lb.routeme.sh/rpc/evm/91120",
+    "https://91120.rpc.thirdweb.com"
+  ],
   "nativeCurrency": {
     "name": "DAP",
     "symbol": "DAP",
@@ -20,5 +25,9 @@
       "url": "https://explorer.chain.metadap.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/91120": "limited",
+    "https://91120.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,8 +1,13 @@
 {
   "name": "Humanode Testnet 5 Israfel",
   "chain": "Humanode Testnet 5",
-  "rpc": ["https://explorer-rpc-http.testnet5.stages.humanode.io"],
-  "faucets": ["https://t.me/HumanodeTestnet5FaucetBot"],
+  "rpc": [
+    "https://explorer-rpc-http.testnet5.stages.humanode.io",
+    "https://lb.routeme.sh/rpc/evm/14853"
+  ],
+  "faucets": [
+    "https://t.me/HumanodeTestnet5FaucetBot"
+  ],
   "nativeCurrency": {
     "name": "eHMND",
     "symbol": "eHMND",
@@ -14,5 +19,8 @@
   "networkId": 14853,
   "slip44": 1,
   "icon": "humanode",
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/14853": "limited"
+  }
 }

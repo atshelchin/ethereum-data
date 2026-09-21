@@ -1,0 +1,33 @@
+{
+  "name": "Sintrop Impact Blockchain",
+  "chain": "SINTROP",
+  "icon": "https://www.sintrop.com/assets/images/icon-chain.png",
+  "rpc": [
+    "https://rpc.sintrop.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sintrop",
+    "symbol": "SIN",
+    "decimals": 18
+  },
+  "infoURL": "https://sintrop.com",
+  "shortName": "sin",
+  "chainId": 250225,
+  "networkId": 250225,
+  "explorers": [
+    {
+      "name": "Sintrop Explorer",
+      "url": "https://explorer.sintrop.com",
+      "icon": "https://www.sintrop.com/assets/images/icon-chain.png"
+    }
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ]
+}

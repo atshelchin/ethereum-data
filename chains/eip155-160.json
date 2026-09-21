@@ -1,7 +1,11 @@
 {
   "name": "Armonia Eva Chain Mainnet",
   "chain": "Eva",
-  "rpc": ["https://evascan.io/api/eth-rpc/"],
+  "rpc": [
+    "https://evascan.io/api/eth-rpc/",
+    "https://evascan.io/api/eth-rpc",
+    "https://160.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Armonia Multichain Native Token",
@@ -12,5 +16,8 @@
   "shortName": "eva",
   "chainId": 160,
   "networkId": 160,
-  "status": "incubating"
+  "status": "incubating",
+  "rpcTracking": {
+    "https://160.rpc.thirdweb.com": "yes"
+  }
 }

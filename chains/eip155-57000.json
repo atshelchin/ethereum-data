@@ -6,7 +6,8 @@
     "wss://rpc-tanenbaum.rollux.com/wss",
     "wss://rollux.rpc.tanenbaum.io/wss",
     "https://rpc-tanenbaum.rollux.com",
-    "https://rollux.rpc.tanenbaum.io"
+    "https://rollux.rpc.tanenbaum.io",
+    "https://rpc.ankr.com/rollux_testnet"
   ],
   "faucets": [
     "https://rollux.id/faucetapp"
@@ -27,5 +28,8 @@
       "url": "https://rollux.tanenbaum.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://rpc.ankr.com/rollux_testnet": "none"
+  }
 }

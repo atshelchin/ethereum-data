@@ -4,7 +4,8 @@
   "chain": "HIK",
   "icon": "hik",
   "rpc": [
-    "https://rpc-testnet.hika.network/"
+    "https://rpc-testnet.hika.network/",
+    "https://rpc-testnet.hika.network"
   ],
   "faucets": [],
   "nativeCurrency": {

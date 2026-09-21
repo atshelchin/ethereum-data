@@ -2,7 +2,11 @@
   "name": "Vana",
   "chain": "Vana",
   "rpc": [
-    "https://rpc.vana.org/"
+    "https://rpc.vana.org/",
+    "https://rpc.vana.org",
+    "https://evm-rpc-vana.josephtran.xyz",
+    "https://evm-rpc-vana.j-node.net",
+    "https://islander-vana-rpc.spidernode.net"
   ],
   "nativeCurrency": {
     "name": "Vana",

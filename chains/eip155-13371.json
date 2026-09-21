@@ -4,7 +4,10 @@
   "rpc": [
     "https://rpc.immutable.com",
     "wss://immutable-zkevm.drpc.org",
-    "https://immutable-zkevm.drpc.org"
+    "https://immutable-zkevm.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/13371",
+    "https://immutable.gateway.tenderly.co",
+    "https://13371.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://docs.immutable.com/docs/zkEVM/guides/faucet"
@@ -51,5 +54,12 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "wss://immutable-zkevm.drpc.org": "none",
+    "https://immutable-zkevm.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/13371": "limited",
+    "https://immutable.gateway.tenderly.co": "yes",
+    "https://13371.rpc.thirdweb.com": "yes"
   }
 }

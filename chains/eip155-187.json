@@ -2,7 +2,8 @@
   "name": "Dojima",
   "chain": "Dojima",
   "rpc": [
-    "https://rpc-d11k.dojima.network"
+    "https://rpc-d11k.dojima.network",
+    "https://187.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.dojima.network",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://187.rpc.thirdweb.com": "yes"
+  }
 }

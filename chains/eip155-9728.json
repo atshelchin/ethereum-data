@@ -7,7 +7,8 @@
     "wss://boba-bnb-testnet.gateway.tenderly.co",
     "https://testnet.bnb.boba.network",
     "https://replica.testnet.bnb.boba.network",
-    "https://boba-bnb-testnet.gateway.tenderly.co"
+    "https://boba-bnb-testnet.gateway.tenderly.co",
+    "https://lb.routeme.sh/rpc/evm/9728"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -35,5 +36,8 @@
         "url": "https://gateway.boba.network"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/9728": "limited"
   }
 }

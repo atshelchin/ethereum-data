@@ -2,7 +2,8 @@
   "name": "Peerpay",
   "chain": "P2P",
   "rpc": [
-    "https://peerpay.su.gy/p2p"
+    "https://peerpay.su.gy/p2p",
+    "https://6502.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +15,8 @@
   "shortName": "Peerpay",
   "chainId": 6502,
   "networkId": 6502,
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://6502.rpc.thirdweb.com": "yes"
+  }
 }

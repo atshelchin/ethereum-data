@@ -3,7 +3,8 @@
   "chain": "DEXALOT",
   "icon": "dexalot",
   "rpc": [
-    "https://subnets.avax.network/dexalot/mainnet/rpc"
+    "https://subnets.avax.network/dexalot/mainnet/rpc",
+    "https://432204.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +27,8 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://432204.rpc.thirdweb.com": "yes"
+  }
 }

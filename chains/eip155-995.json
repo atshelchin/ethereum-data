@@ -2,7 +2,9 @@
   "name": "5ireChain Mainnet",
   "chain": "5ireChain",
   "rpc": [
-    "https://rpc.5ire.network"
+    "https://rpc.5ire.network",
+    "https://lb.routeme.sh/rpc/evm/995",
+    "https://995.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,9 @@
       "standard": "none",
       "icon": "5ireChain"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/995": "limited",
+    "https://995.rpc.thirdweb.com": "yes"
+  }
 }

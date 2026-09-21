@@ -3,7 +3,14 @@
   "chain": "X Layer",
   "rpc": [
     "https://testrpc.xlayer.tech",
-    "https://xlayertestrpc.okx.com"
+    "https://xlayertestrpc.okx.com",
+    "https://lb.routeme.sh/rpc/evm/1952",
+    "https://endpoints.omniatech.io/v1/xlayer/testnet/public",
+    "https://rpc.ankr.com/xlayer_testnet",
+    "https://xlayer-testnet.drpc.org",
+    "wss://xlayer-testnet.drpc.org",
+    "https://moonbase-rpc.dwellir.com",
+    "wss://moonbase-rpc.dwellir.com"
   ],
   "faucets": [
     "https://www.okx.com/xlayer/faucet"
@@ -27,5 +34,8 @@
       "standard": "EIP3091"
     }
   ],
-  "status": "active"
+  "status": "active",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1952": "limited"
+  }
 }

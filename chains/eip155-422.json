@@ -3,7 +3,8 @@
   "chain": "VRD",
   "icon": "viridis",
   "rpc": [
-    "https://mainnet-rpc.vrd.network"
+    "https://mainnet-rpc.vrd.network",
+    "https://422.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://explorer.vrd.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://422.rpc.thirdweb.com": "yes"
+  }
 }

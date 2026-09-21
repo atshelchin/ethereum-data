@@ -2,7 +2,8 @@
   "name": "MetaNova Verse",
   "chain": "MNV",
   "rpc": [
-    "https://web3.metanovaverse.com"
+    "https://web3.metanovaverse.com",
+    "https://10096.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +27,8 @@
       "url": "https://ping.metanovaverse.com/metanovaverse",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://10096.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,8 @@
   "name": "SlingShot Testnet",
   "chain": "SLING",
   "rpc": [
-    "https://rpc-dependent-emerald-whippet-gh6kch3nen.t.conduit.xyz"
+    "https://rpc-dependent-emerald-whippet-gh6kch3nen.t.conduit.xyz",
+    "https://lb.routeme.sh/rpc/evm/97435"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -27,5 +28,8 @@
       "icon": "slingshot",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/97435": "limited"
+  }
 }

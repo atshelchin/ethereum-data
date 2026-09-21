@@ -2,7 +2,10 @@
   "name": "Mars Credit",
   "chain": "MARS",
   "rpc": [
-    "https://rpc.marscredit.xyz:443"
+    "https://rpc.marscredit.xyz:443",
+    "https://lb.routeme.sh/rpc/evm/110110",
+    "https://rpc.marscredit.xyz",
+    "https://110110.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -17,5 +20,10 @@
   "slip44": 1,
   "icon": "marscredit",
   "explorers": [],
-  "redFlags": []
+  "redFlags": [],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/110110": "limited",
+    "https://rpc.marscredit.xyz": "none",
+    "https://110110.rpc.thirdweb.com": "yes"
+  }
 }

@@ -2,7 +2,11 @@
   "name": "LAVITA Mainnet",
   "chain": "LAVITA",
   "icon": "lavita",
-  "rpc": ["https://tsub360890-eth-rpc.thetatoken.org/rpc"],
+  "rpc": [
+    "https://tsub360890-eth-rpc.thetatoken.org/rpc",
+    "https://lb.routeme.sh/rpc/evm/360890",
+    "https://360890.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "vTFUEL",
@@ -20,5 +24,9 @@
       "icon": "lavita",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/360890": "limited",
+    "https://360890.rpc.thirdweb.com": "yes"
+  }
 }

@@ -1,7 +1,11 @@
 {
   "name": "ELA-DID-Sidechain Mainnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://api.trinity-tech.io/eid",
+    "https://api.elastos.io/eid",
+    "https://22.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Elastos",
@@ -11,5 +15,8 @@
   "infoURL": "https://www.elastos.org/",
   "shortName": "eladid",
   "chainId": 22,
-  "networkId": 22
+  "networkId": 22,
+  "rpcTracking": {
+    "https://22.rpc.thirdweb.com": "yes"
+  }
 }

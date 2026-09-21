@@ -4,7 +4,9 @@
   "icon": "funki",
   "rpc": [
     "https://rpc-mainnet.funkichain.com",
-    "wss://rpc-mainnet.funkichain.com"
+    "wss://rpc-mainnet.funkichain.com",
+    "https://lb.routeme.sh/rpc/evm/33979",
+    "https://33979.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -32,5 +34,9 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/33979": "limited",
+    "https://33979.rpc.thirdweb.com": "yes"
+  }
 }

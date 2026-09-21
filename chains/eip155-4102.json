@@ -2,7 +2,10 @@
   "name": "AIOZ Network Testnet",
   "chain": "AIOZ",
   "icon": "aioz",
-  "rpc": ["https://eth-ds.testnet.aioz.network"],
+  "rpc": [
+    "https://eth-ds.testnet.aioz.network",
+    "https://lb.routeme.sh/rpc/evm/4102"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "testAIOZ",
@@ -20,5 +23,8 @@
       "url": "https://testnet.explorer.aioz.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/4102": "limited"
+  }
 }

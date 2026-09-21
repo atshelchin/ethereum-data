@@ -3,7 +3,8 @@
   "title": "MAPO Testnet Makalu",
   "chain": "MAPO",
   "rpc": [
-    "https://testnet-rpc.maplabs.io"
+    "https://testnet-rpc.maplabs.io",
+    "https://lb.routeme.sh/rpc/evm/212"
   ],
   "faucets": [
     "https://faucet.mapprotocol.io"
@@ -23,5 +24,8 @@
       "url": "https://testnet.maposcan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/212": "limited"
+  }
 }

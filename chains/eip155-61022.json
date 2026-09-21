@@ -4,7 +4,8 @@
   "chain": "Orange Chain",
   "rpc": [
     "https://rpc.orangechain.xyz",
-    "https://hk-rpc.orangechain.xyz"
+    "https://hk-rpc.orangechain.xyz",
+    "https://61022.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +25,8 @@
       "icon": "orange",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://61022.rpc.thirdweb.com": "yes"
+  }
 }

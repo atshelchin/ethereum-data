@@ -3,7 +3,8 @@
   "title": "Oort Ascraeus",
   "chain": "Ascraeus",
   "rpc": [
-    "https://ascraeus-rpc.oortech.com"
+    "https://ascraeus-rpc.oortech.com",
+    "https://972.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +24,8 @@
       "standard": "none",
       "icon": "oort"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://972.rpc.thirdweb.com": "yes"
+  }
 }

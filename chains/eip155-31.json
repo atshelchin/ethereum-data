@@ -3,7 +3,10 @@
   "chain": "Rootstock",
   "rpc": [
     "https://mycrypto.testnet.rsk.co",
-    "https://public-node.testnet.rsk.co"
+    "https://public-node.testnet.rsk.co",
+    "https://lb.routeme.sh/rpc/evm/31",
+    "https://rootstock-testnet.drpc.org",
+    "wss://rootstock-testnet.drpc.org"
   ],
   "faucets": [
     "https://faucet.rsk.co/"
@@ -28,5 +31,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/31": "limited",
+    "https://rootstock-testnet.drpc.org": "none",
+    "wss://rootstock-testnet.drpc.org": "none"
   }
 }

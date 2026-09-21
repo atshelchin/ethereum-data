@@ -2,7 +2,9 @@
   "name": "Polynomial",
   "chain": "Polynomial",
   "rpc": [
-    "https://rpc.polynomial.fi"
+    "https://rpc.polynomial.fi",
+    "https://lb.routeme.sh/rpc/evm/8008",
+    "https://8008.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -23,5 +25,9 @@
       "icon": "polynomial"
     }
   ],
-  "wrappedNativeToken": "0x4200000000000000000000000000000000000006"
+  "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/8008": "limited",
+    "https://8008.rpc.thirdweb.com": "yes"
+  }
 }

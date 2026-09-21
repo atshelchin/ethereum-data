@@ -2,7 +2,8 @@
   "name": "Edgeless Network",
   "chain": "Edgeless",
   "rpc": [
-    "https://rpc.edgeless.network/http"
+    "https://rpc.edgeless.network/http",
+    "https://2026.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -25,5 +26,8 @@
       "url": "https://explorer.edgeless.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2026.rpc.thirdweb.com": "yes"
+  }
 }

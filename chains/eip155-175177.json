@@ -3,7 +3,8 @@
   "chain": "LPC",
   "icon": "lit",
   "rpc": [
-    "https://chain-rpc.litprotocol.com/http"
+    "https://chain-rpc.litprotocol.com/http",
+    "https://lb.routeme.sh/rpc/evm/175177"
   ],
   "faucets": [
     "https://faucet.litprotocol.com"
@@ -24,5 +25,8 @@
       "icon": "lit",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/175177": "limited"
+  }
 }

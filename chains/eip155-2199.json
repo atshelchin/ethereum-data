@@ -3,7 +3,8 @@
   "chain": "MSN",
   "rpc": [
     "wss://rpc.moonsama.com/ws",
-    "https://rpc.moonsama.com"
+    "https://rpc.moonsama.com",
+    "https://2199.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://multiverse.moonsama.com/faucet"
@@ -26,5 +27,8 @@
       "icon": "blockscout",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2199.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,9 @@
   "title": "Vizing Mainnet",
   "chain": "Vizing Mainnet",
   "rpc": [
-    "https://rpc.vizing.com"
+    "https://rpc.vizing.com",
+    "https://lb.routeme.sh/rpc/evm/28518",
+    "https://28518.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -32,5 +34,9 @@
         "url": "https://bridge.vizing.com"
       }
     ]
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/28518": "limited",
+    "https://28518.rpc.thirdweb.com": "yes"
   }
 }

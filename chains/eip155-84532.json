@@ -6,7 +6,17 @@
     "https://sepolia.base.org",
     "https://base-sepolia-rpc.publicnode.com",
     "https://base-sepolia-testnet.api.pocket.network",
-    "wss://base-sepolia-rpc.publicnode.com"
+    "wss://base-sepolia-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/84532",
+    "https://rpc.notadegen.com/base/sepolia",
+    "https://public.stackup.sh/api/v1/node/base-sepolia",
+    "https://base-sepolia.gateway.tenderly.co",
+    "wss://base-sepolia.drpc.org",
+    "https://base-sepolia-public.nodies.app",
+    "https://base-sepolia.therpc.io",
+    "https://base-sepolia.api.onfinality.io/public",
+    "https://base-testnet.api.pocket.network",
+    "https://base-sepolia.rpc.sentio.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -40,5 +50,17 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://base-sepolia.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/84532": "limited",
+    "https://public.stackup.sh/api/v1/node/base-sepolia": "limited",
+    "https://base-sepolia.gateway.tenderly.co": "yes",
+    "wss://base-sepolia.drpc.org": "none",
+    "https://base-sepolia-public.nodies.app": "limited",
+    "https://base-sepolia.therpc.io": "limited",
+    "https://base-sepolia.api.onfinality.io/public": "limited",
+    "https://base-testnet.api.pocket.network": "none",
+    "https://base-sepolia.rpc.sentio.xyz": "limited"
   }
 }

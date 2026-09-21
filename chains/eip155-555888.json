@@ -4,7 +4,8 @@
   "status": "active",
   "chain": "DUSTBOY",
   "rpc": [
-    "https://dustboy-rpc.jibl2.com/"
+    "https://dustboy-rpc.jibl2.com/",
+    "https://dustboy-rpc.jibl2.com"
   ],
   "faucets": [],
   "nativeCurrency": {

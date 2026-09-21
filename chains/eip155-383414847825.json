@@ -2,9 +2,19 @@
   "name": "Zeniq",
   "chain": "ZENIQ",
   "icon": "zeniq",
-  "rpc": ["https://api.zeniq.network"],
-  "features": [{ "name": "EIP155" }],
-  "faucets": ["https://faucet.nomo.zone/", "https://faucet.zeniq.net/"],
+  "rpc": [
+    "https://api.zeniq.network",
+    "https://383414847825.rpc.thirdweb.com"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
+  "faucets": [
+    "https://faucet.nomo.zone/",
+    "https://faucet.zeniq.net/"
+  ],
   "nativeCurrency": {
     "name": "Zeniq",
     "symbol": "ZENIQ",
@@ -30,5 +40,8 @@
       "icon": "zeniq",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://383414847825.rpc.thirdweb.com": "yes"
+  }
 }

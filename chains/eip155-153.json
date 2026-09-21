@@ -7,7 +7,8 @@
   "icon": "redbelly",
   "slip44": 1,
   "rpc": [
-    "https://governors.testnet.redbelly.network"
+    "https://governors.testnet.redbelly.network",
+    "https://lb.routeme.sh/rpc/evm/153"
   ],
   "faucets": [],
   "infoURL": "https://redbelly.network",
@@ -26,5 +27,8 @@
   "status": "active",
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/153": "limited"
   }
 }

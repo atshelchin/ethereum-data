@@ -2,7 +2,10 @@
   "name": "Oasys Testnet",
   "chain": "Oasys",
   "icon": "oasys",
-  "rpc": ["https://rpc.testnet.oasys.games"],
+  "rpc": [
+    "https://rpc.testnet.oasys.games",
+    "https://lb.routeme.sh/rpc/evm/9372"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",
@@ -19,5 +22,8 @@
       "url": "https://explorer.testnet.oasys.games",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/9372": "limited"
+  }
 }

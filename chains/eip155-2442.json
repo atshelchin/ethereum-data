@@ -3,7 +3,10 @@
   "title": "Polygon zkEVM Cardona Testnet",
   "chain": "Polygon",
   "rpc": [
-    "https://rpc.cardona.zkevm-rpc.com"
+    "https://rpc.cardona.zkevm-rpc.com",
+    "https://lb.routeme.sh/rpc/evm/2442",
+    "https://polygon-zkevm-cardona.drpc.org",
+    "wss://polygon-zkevm-cardona.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -34,5 +37,10 @@
   },
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/2442": "limited",
+    "https://polygon-zkevm-cardona.drpc.org": "none",
+    "wss://polygon-zkevm-cardona.drpc.org": "none"
   }
 }

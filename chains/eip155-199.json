@@ -5,7 +5,10 @@
   "rpc": [
     "https://rpc.bt.io",
     "https://bittorrent.drpc.org",
-    "wss://bittorrent.drpc.org"
+    "wss://bittorrent.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/199",
+    "https://rpc.bittorrentchain.io",
+    "https://199.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -24,5 +27,9 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x23181F21DEa5936e24163FFABa4Ea3B316B57f3c"
+  "wrappedNativeToken": "0x23181F21DEa5936e24163FFABa4Ea3B316B57f3c",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/199": "limited",
+    "https://199.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "PDA",
   "icon": "pda",
   "rpc": [
-    "https://subnets.avax.network/playdappne/mainnet/rpc"
+    "https://subnets.avax.network/playdappne/mainnet/rpc",
+    "https://504441.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -26,5 +27,8 @@
       "url": "https://subnets.avax.network/playdappne",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://504441.rpc.thirdweb.com": "yes"
+  }
 }

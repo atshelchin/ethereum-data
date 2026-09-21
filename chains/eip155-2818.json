@@ -7,7 +7,9 @@
     "https://rpc.morphl2.io",
     "https://rpc-quicknode.morphl2.io",
     "wss://rpc.morphl2.io:8443",
-    "wss://rpc-quicknode.morphl2.io"
+    "wss://rpc-quicknode.morphl2.io",
+    "https://lb.routeme.sh/rpc/evm/2818",
+    "https://2818.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -70,5 +72,10 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://morph.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/2818": "limited",
+    "https://2818.rpc.thirdweb.com": "yes"
   }
 }

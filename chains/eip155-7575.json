@@ -2,8 +2,13 @@
   "name": "ADIL Testnet",
   "chain": "ADIL",
   "icon": "adil",
-  "rpc": ["https://testnet.adilchain-rpc.io"],
-  "faucets": ["https://testnet-faucet.adil-scan.io"],
+  "rpc": [
+    "https://testnet.adilchain-rpc.io",
+    "https://lb.routeme.sh/rpc/evm/7575"
+  ],
+  "faucets": [
+    "https://testnet-faucet.adil-scan.io"
+  ],
   "nativeCurrency": {
     "name": "Testnet ADIL",
     "symbol": "ADIL",
@@ -20,5 +25,8 @@
       "url": "https://testnet.adilchain-scan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/7575": "limited"
+  }
 }

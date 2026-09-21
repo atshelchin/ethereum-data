@@ -3,7 +3,8 @@
   "chain": "PRIVIX",
   "rpc": [
     "wss://testnet-rpc.privixchain.xyz/ws",
-    "https://testnet-rpc.privixchain.xyz/"
+    "https://testnet-rpc.privixchain.xyz/",
+    "https://testnet-rpc.privixchain.xyz"
   ],
   "faucets": [
     "https://faucet.privixchain.xyz"

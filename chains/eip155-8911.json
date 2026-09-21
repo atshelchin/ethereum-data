@@ -1,7 +1,11 @@
 {
   "name": "Algen",
   "chain": "ALG",
-  "rpc": ["https://rpc.algen.network"],
+  "rpc": [
+    "https://rpc.algen.network",
+    "https://lb.routeme.sh/rpc/evm/8911",
+    "https://8911.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ALG",
@@ -20,5 +24,9 @@
       "icon": "alg",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/8911": "limited",
+    "https://8911.rpc.thirdweb.com": "yes"
+  }
 }

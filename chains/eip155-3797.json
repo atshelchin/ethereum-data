@@ -4,7 +4,9 @@
   "rpc": [
     "https://elves-core1.alvey.io",
     "https://elves-core3.alvey.io",
-    "https://elves-core2.alvey.io"
+    "https://elves-core2.alvey.io",
+    "https://lb.routeme.sh/rpc/evm/3797",
+    "https://3797.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,9 @@
       "url": "https://alveyscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/3797": "limited",
+    "https://3797.rpc.thirdweb.com": "yes"
+  }
 }

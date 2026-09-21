@@ -4,7 +4,8 @@
   "icon": "mindchain",
   "rpc": [
     "wss://testnet-msc.mindchain.info/ws",
-    "https://testnet-msc.mindchain.info/"
+    "https://testnet-msc.mindchain.info/",
+    "https://testnet-msc.mindchain.info"
   ],
   "faucets": [
     "https://faucet.mindchain.info/"

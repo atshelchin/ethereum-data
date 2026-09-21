@@ -3,7 +3,9 @@
   "chain": "SX",
   "icon": "SX",
   "rpc": [
-    "https://rpc.sx-rollup.gelato.digital"
+    "https://rpc.sx-rollup.gelato.digital",
+    "https://rpc-rollup.sx.technology",
+    "https://4162.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -26,5 +28,8 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1"
+  },
+  "rpcTracking": {
+    "https://4162.rpc.thirdweb.com": "yes"
   }
 }

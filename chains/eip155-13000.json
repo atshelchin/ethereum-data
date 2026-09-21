@@ -2,7 +2,8 @@
   "name": "SPS",
   "chain": "SPS",
   "rpc": [
-    "https://rpc.ssquad.games"
+    "https://rpc.ssquad.games",
+    "https://13000.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "http://spsscan.ssquad.games",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://13000.rpc.thirdweb.com": "yes"
+  }
 }

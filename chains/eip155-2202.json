@@ -3,7 +3,8 @@
   "chain": "ABN",
   "icon": "antofy",
   "rpc": [
-    "https://rpc.antofy.io"
+    "https://rpc.antofy.io",
+    "https://2202.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.antofy.io"
@@ -23,5 +24,8 @@
       "url": "https://antofyscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2202.rpc.thirdweb.com": "yes"
+  }
 }

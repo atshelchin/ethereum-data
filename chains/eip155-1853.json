@@ -3,7 +3,8 @@
   "chain": "HighOctane Subnet",
   "rpc": [
     "wss://subnets.avax.network/highoctane/mainnet/ws",
-    "https://subnets.avax.network/highoctane/mainnet/rpc"
+    "https://subnets.avax.network/highoctane/mainnet/rpc",
+    "https://1853.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -31,5 +32,8 @@
       "icon": "highOctane",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1853.rpc.thirdweb.com": "yes"
+  }
 }

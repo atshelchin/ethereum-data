@@ -5,9 +5,12 @@
   "icon": "nebula",
   "rpc": [
     "https://testnet.skalenodes.com/v1/lanky-ill-funny-testnet",
-    "wss://testnet.skalenodes.com/v1/ws/lanky-ill-funny-testnet"
+    "wss://testnet.skalenodes.com/v1/ws/lanky-ill-funny-testnet",
+    "https://lb.routeme.sh/rpc/evm/37084624"
   ],
-  "faucets": ["https://www.sfuelstation.com/"],
+  "faucets": [
+    "https://www.sfuelstation.com/"
+  ],
   "nativeCurrency": {
     "name": "sFUEL",
     "symbol": "sFUEL",
@@ -24,5 +27,8 @@
       "url": "https://lanky-ill-funny-testnet.explorer.testnet.skalenodes.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/37084624": "limited"
+  }
 }

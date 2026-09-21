@@ -2,7 +2,11 @@
   "name": "DeFiChain EVM Network Testnet",
   "chain": "defichain-evm-testnet",
   "status": "incubating",
-  "rpc": [],
+  "rpc": [
+    "https://dmc.mydefichain.com/testnet",
+    "https://dmc01.mydefichain.com/testnet",
+    "https://eth.testnet.ocean.jellyfishsdk.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DeFiChain",

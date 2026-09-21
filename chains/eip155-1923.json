@@ -4,7 +4,10 @@
   "rpc": [
     "https://swell-mainnet.alt.technology",
     "https://swell.drpc.org",
-    "https://rpc.ankr.com/swell"
+    "https://rpc.ankr.com/swell",
+    "https://lb.routeme.sh/rpc/evm/1923",
+    "https://swell-mainnet.rpc.sentio.xyz",
+    "https://1923.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -42,5 +45,11 @@
   ],
   "contracts": {
     "safeProxyFactory": "0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67"
+  },
+  "rpcTracking": {
+    "https://rpc.ankr.com/swell": "none",
+    "https://lb.routeme.sh/rpc/evm/1923": "limited",
+    "https://swell-mainnet.rpc.sentio.xyz": "limited",
+    "https://1923.rpc.thirdweb.com": "yes"
   }
 }

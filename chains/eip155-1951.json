@@ -2,7 +2,8 @@
   "name": "D-Chain Mainnet",
   "chain": "D-Chain",
   "rpc": [
-    "https://mainnet.d-chain.network/ext/bc/2ZiR1Bro5E59siVuwdNuRFzqL95NkvkbzyLBdrsYR9BLSHV7H4/rpc"
+    "https://mainnet.d-chain.network/ext/bc/2ZiR1Bro5E59siVuwdNuRFzqL95NkvkbzyLBdrsYR9BLSHV7H4/rpc",
+    "https://1951.rpc.thirdweb.com"
   ],
   "nativeCurrency": {
     "name": "DOINX",
@@ -14,5 +15,8 @@
   "networkId": 1951,
   "icon": "dchain",
   "faucets": [],
-  "infoURL": ""
+  "infoURL": "",
+  "rpcTracking": {
+    "https://1951.rpc.thirdweb.com": "yes"
+  }
 }

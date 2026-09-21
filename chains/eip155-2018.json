@@ -3,7 +3,8 @@
   "title": "Public Mint Devnet",
   "chain": "PublicMint",
   "rpc": [
-    "https://rpc.dev.publicmint.io:8545"
+    "https://rpc.dev.publicmint.io:8545",
+    "https://2018.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "url": "https://explorer.dev.publicmint.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2018.rpc.thirdweb.com": "yes"
+  }
 }

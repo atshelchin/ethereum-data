@@ -5,7 +5,10 @@
   "rpc": [
     "https://shibarium.drpc.org",
     "https://rpc.shibarium.shib.io",
-    "https://shib.nownodes.io"
+    "https://shib.nownodes.io",
+    "wss://shibarium.drpc.org",
+    "https://rpc.shibrpc.com",
+    "https://109.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -45,5 +48,10 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://shibarium.drpc.org": "none",
+    "wss://shibarium.drpc.org": "none",
+    "https://109.rpc.thirdweb.com": "yes"
+  }
 }

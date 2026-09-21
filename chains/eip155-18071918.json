@@ -2,7 +2,9 @@
   "name": "Mande Network Mainnet",
   "chain": "Mande",
   "rpc": [
-    "https://mande-mainnet.public.blastapi.io"
+    "https://mande-mainnet.public.blastapi.io",
+    "https://lb.routeme.sh/rpc/evm/18071918",
+    "https://18071918.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,9 @@
       "icon": "fyi",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/18071918": "limited",
+    "https://18071918.rpc.thirdweb.com": "yes"
+  }
 }

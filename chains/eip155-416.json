@@ -3,7 +3,9 @@
   "chain": "SX",
   "icon": "SX",
   "rpc": [
-    "https://rpc.sx.technology"
+    "https://rpc.sx.technology",
+    "https://lb.routeme.sh/rpc/evm/416",
+    "https://416.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +23,9 @@
       "url": "https://explorer.sx.technology",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/416": "limited",
+    "https://416.rpc.thirdweb.com": "yes"
+  }
 }

@@ -4,7 +4,9 @@
   "icon": "multivac",
   "rpc": [
     "https://rpc-eu.mtv.ac",
-    "https://rpc.mtv.ac"
+    "https://rpc.mtv.ac",
+    "https://lb.routeme.sh/rpc/evm/62621",
+    "https://62621.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +24,9 @@
       "url": "https://e.mtv.ac",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/62621": "limited",
+    "https://62621.rpc.thirdweb.com": "yes"
+  }
 }

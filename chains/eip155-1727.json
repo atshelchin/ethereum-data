@@ -2,7 +2,8 @@
   "name": "Ethpar Mainnet",
   "chain": "ETP",
   "rpc": [
-    "https://rpc01.ethpar.net/"
+    "https://rpc01.ethpar.net/",
+    "https://rpc01.ethpar.net"
   ],
   "faucets": [],
   "nativeCurrency": {

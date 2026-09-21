@@ -3,7 +3,9 @@
   "chain": "MATH",
   "rpc": [
     "https://mathchain-asia.maiziqianbao.net/rpc",
-    "https://mathchain-us.maiziqianbao.net/rpc"
+    "https://mathchain-us.maiziqianbao.net/rpc",
+    "https://mathchain.maiziqianbao.net/rpc",
+    "https://1139.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -14,5 +16,8 @@
   "infoURL": "https://mathchain.org",
   "shortName": "MATH",
   "chainId": 1139,
-  "networkId": 1139
+  "networkId": 1139,
+  "rpcTracking": {
+    "https://1139.rpc.thirdweb.com": "yes"
+  }
 }

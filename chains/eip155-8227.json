@@ -2,7 +2,8 @@
   "name": "Space Subnet",
   "chain": "SPACE",
   "rpc": [
-    "https://subnets.avax.network/space/mainnet/rpc"
+    "https://subnets.avax.network/space/mainnet/rpc",
+    "https://8227.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -28,5 +29,8 @@
       "url": "https://subnets.avax.network/space",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://8227.rpc.thirdweb.com": "yes"
+  }
 }

@@ -7,7 +7,13 @@
     "https://rpc.coredao.org/",
     "https://rpc.ankr.com/core",
     "https://rpc-core.icecreamswap.com",
-    "wss://core.drpc.org"
+    "wss://core.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/1116",
+    "https://rpc.coredao.org",
+    "wss://ws.coredao.org",
+    "https://public.1rpc.io/core",
+    "https://api.zan.top/core-mainnet",
+    "https://1116.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -35,5 +41,14 @@
       "standard": "EIP3091"
     }
   ],
-  "wrappedNativeToken": "0x191E94fa59739e188dcE837F7f6978d77727D988"
+  "wrappedNativeToken": "0x191E94fa59739e188dcE837F7f6978d77727D988",
+  "rpcTracking": {
+    "https://core.drpc.org": "none",
+    "https://rpc.ankr.com/core": "limited",
+    "wss://core.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/1116": "limited",
+    "https://public.1rpc.io/core": "none",
+    "https://api.zan.top/core-mainnet": "limited",
+    "https://1116.rpc.thirdweb.com": "yes"
+  }
 }

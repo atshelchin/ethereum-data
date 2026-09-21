@@ -1,7 +1,11 @@
 {
   "name": "Uptick Mainnet",
   "chain": "Uptick",
-  "rpc": ["https://json-rpc.uptick.network"],
+  "rpc": [
+    "https://json-rpc.uptick.network",
+    "https://lb.routeme.sh/rpc/evm/117",
+    "https://117.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Uptick",
@@ -20,5 +24,9 @@
       "icon": "uptick",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/117": "limited",
+    "https://117.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "title": "An L1, carbon-neutral, tree-planting, metaverse dedicated blockchain created by VulcanForged",
   "chain": "Atlantis",
   "rpc": [
-    "https://rpc.atlantischain.network"
+    "https://rpc.atlantischain.network",
+    "https://lb.routeme.sh/rpc/evm/1338"
   ],
   "faucets": [
     "https://faucet.atlantischain.network"
@@ -23,5 +24,8 @@
       "url": "https://blockscout.atlantischain.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/1338": "limited"
+  }
 }

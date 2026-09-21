@@ -6,7 +6,9 @@
     "https://42.rpc.thirdweb.com",
     "https://rpc.mainnet.lukso.network",
     "wss://ws-rpc.mainnet.lukso.network",
-    "https://rpc.lukso.sigmacore.io"
+    "https://rpc.lukso.sigmacore.io",
+    "https://lb.routeme.sh/rpc/evm/42",
+    "https://public-lukso.nownodes.io"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -35,5 +37,11 @@
   ],
   "redFlags": [
     "reusedChainId"
-  ]
+  ],
+  "rpcTracking": {
+    "https://42.rpc.thirdweb.com": "yes",
+    "https://rpc.lukso.sigmacore.io": "none",
+    "https://lb.routeme.sh/rpc/evm/42": "limited",
+    "https://public-lukso.nownodes.io": "yes"
+  }
 }

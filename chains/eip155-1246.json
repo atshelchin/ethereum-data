@@ -2,7 +2,10 @@
   "name": "OM Platform Mainnet",
   "chain": "omplatform",
   "rpc": [
-    "https://rpc-cnx.omplatform.com/"
+    "https://rpc-cnx.omplatform.com/",
+    "https://rpc.omplatform.com",
+    "https://rpc-cnx.omplatform.com",
+    "https://1246.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +23,8 @@
       "url": "https://omscan.omplatform.com",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://1246.rpc.thirdweb.com": "yes"
+  }
 }

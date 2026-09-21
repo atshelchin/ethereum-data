@@ -3,7 +3,11 @@
   "chain": "CronosZkEVMMainnet",
   "rpc": [
     "https://mainnet.zkevm.cronos.org",
-    "https://cronos-zkevm.drpc.org"
+    "https://cronos-zkevm.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/388",
+    "wss://cronos-zkevm.drpc.org",
+    "https://cronos-zkevm.rpc.sentio.xyz",
+    "https://388.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -43,5 +47,12 @@
     {
       "name": "RIP7212"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://cronos-zkevm.drpc.org": "none",
+    "https://lb.routeme.sh/rpc/evm/388": "limited",
+    "wss://cronos-zkevm.drpc.org": "none",
+    "https://cronos-zkevm.rpc.sentio.xyz": "limited",
+    "https://388.rpc.thirdweb.com": "yes"
+  }
 }

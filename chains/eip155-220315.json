@@ -1,14 +1,24 @@
 {
   "name": "Mas Mainnet",
   "chain": "MAS",
-  "rpc": ["http://node.masnet.ai:8545"],
+  "rpc": [
+    "http://node.masnet.ai:8545",
+    "https://220315.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Master Bank",
     "symbol": "MAS",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "infoURL": "https://masterbank.org",
   "shortName": "mas",
   "chainId": 220315,
@@ -20,5 +30,8 @@
       "url": "https://explorer.masnet.ai",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://220315.rpc.thirdweb.com": "yes"
+  }
 }

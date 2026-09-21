@@ -3,9 +3,12 @@
   "chain": "Volta",
   "rpc": [
     "https://volta-rpc.energyweb.org",
-    "wss://volta-rpc.energyweb.org/ws"
+    "wss://volta-rpc.energyweb.org/ws",
+    "https://lb.routeme.sh/rpc/evm/73799"
   ],
-  "faucets": ["https://voltafaucet.energyweb.org"],
+  "faucets": [
+    "https://voltafaucet.energyweb.org"
+  ],
   "nativeCurrency": {
     "name": "Volta Token",
     "symbol": "VT",
@@ -15,5 +18,8 @@
   "shortName": "vt",
   "chainId": 73799,
   "networkId": 73799,
-  "slip44": 1
+  "slip44": 1,
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/73799": "limited"
+  }
 }

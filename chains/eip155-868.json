@@ -4,7 +4,11 @@
   "rpc": [
     "https://mainnet-data1.fantasiachain.com/",
     "https://mainnet-data2.fantasiachain.com/",
-    "https://mainnet-data3.fantasiachain.com/"
+    "https://mainnet-data3.fantasiachain.com/",
+    "https://mainnet-data1.fantasiachain.com",
+    "https://mainnet-data2.fantasiachain.com",
+    "https://mainnet-data3.fantasiachain.com",
+    "https://868.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +26,8 @@
       "url": "https://explorer.fantasiachain.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://868.rpc.thirdweb.com": "yes"
+  }
 }

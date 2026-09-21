@@ -3,7 +3,8 @@
   "chain": "ambnet",
   "icon": "airdao",
   "rpc": [
-    "https://network.ambrosus.io"
+    "https://network.ambrosus.io",
+    "https://16718.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://airdao.io/explorer",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://16718.rpc.thirdweb.com": "yes"
+  }
 }

@@ -3,7 +3,8 @@
   "chain": "LiquidLayer",
   "icon": "lila",
   "rpc": [
-    "https://mainnet.liquidlayer.network"
+    "https://mainnet.liquidlayer.network",
+    "https://25186.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -21,5 +22,8 @@
       "url": "https://scan.liquidlayer.network",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://25186.rpc.thirdweb.com": "yes"
+  }
 }

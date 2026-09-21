@@ -4,9 +4,15 @@
   "rpc": [
     "https://sepolia.blast.io",
     "https://blast-sepolia.drpc.org",
-    "wss://blast-sepolia.drpc.org"
+    "wss://blast-sepolia.drpc.org",
+    "https://lb.routeme.sh/rpc/evm/168587773",
+    "https://endpoints.omniatech.io/v1/blast/sepolia/public",
+    "https://blast-testnet-public.nodies.app",
+    "https://rpc.ankr.com/blast_testnet_sepolia"
   ],
-  "faucets": ["https://faucet.quicknode.com/blast/sepolia"],
+  "faucets": [
+    "https://faucet.quicknode.com/blast/sepolia"
+  ],
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -28,5 +34,11 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111"
+  },
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/168587773": "limited",
+    "https://endpoints.omniatech.io/v1/blast/sepolia/public": "none",
+    "https://blast-testnet-public.nodies.app": "limited",
+    "https://rpc.ankr.com/blast_testnet_sepolia": "none"
   }
 }

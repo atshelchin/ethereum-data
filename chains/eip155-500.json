@@ -1,7 +1,11 @@
 {
   "name": "Camino C-Chain",
   "chain": "CAM",
-  "rpc": ["https://api.camino.network/ext/bc/C/rpc"],
+  "rpc": [
+    "https://api.camino.network/ext/bc/C/rpc",
+    "https://lb.routeme.sh/rpc/evm/500",
+    "https://500.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Camino",
@@ -19,5 +23,9 @@
       "url": "https://suite.camino.network/explorer",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/500": "limited",
+    "https://500.rpc.thirdweb.com": "yes"
+  }
 }

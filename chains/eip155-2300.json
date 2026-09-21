@@ -2,7 +2,8 @@
   "name": "BOMB Chain",
   "chain": "BOMB",
   "rpc": [
-    "https://rpc.bombchain.com"
+    "https://rpc.bombchain.com",
+    "https://2300.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "url": "https://bombscan.com",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://2300.rpc.thirdweb.com": "yes"
+  }
 }

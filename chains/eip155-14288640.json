@@ -3,7 +3,8 @@
   "chain": "anduschain",
   "rpc": [
     "wss://rpc.anduschain.io/ws",
-    "https://rpc.anduschain.io/rpc"
+    "https://rpc.anduschain.io/rpc",
+    "https://14288640.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -22,5 +23,8 @@
       "icon": "daon",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://14288640.rpc.thirdweb.com": "yes"
+  }
 }

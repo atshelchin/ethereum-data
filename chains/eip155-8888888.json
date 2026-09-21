@@ -2,7 +2,9 @@
   "name": "Quarix",
   "chain": "Quarix",
   "status": "incubating",
-  "rpc": [],
+  "rpc": [
+    "https://8888888.rpc.thirdweb.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "QARE",
@@ -14,5 +16,8 @@
   "chainId": 8888888,
   "networkId": 8888888,
   "icon": "quarix",
-  "explorers": []
+  "explorers": [],
+  "rpcTracking": {
+    "https://8888888.rpc.thirdweb.com": "yes"
+  }
 }

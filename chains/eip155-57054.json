@@ -4,7 +4,12 @@
   "rpc": [
     "wss://sonic-blaze-rpc.publicnode.com",
     "https://rpc.blaze.soniclabs.com",
-    "https://sonic-blaze-rpc.publicnode.com"
+    "https://sonic-blaze-rpc.publicnode.com",
+    "https://lb.routeme.sh/rpc/evm/57054",
+    "https://rpc.ankr.com/sonic_blaze_testnet",
+    "https://sonic-testnet.drpc.org",
+    "wss://sonic-testnet.drpc.org",
+    "https://sonic-blaze.therpc.io"
   ],
   "faucets": [
     "https://blaze.soniclabs.com/account"
@@ -23,5 +28,12 @@
   "shortName": "blaze",
   "chainId": 57054,
   "networkId": 57054,
-  "icon": "sonic"
+  "icon": "sonic",
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/57054": "limited",
+    "https://rpc.ankr.com/sonic_blaze_testnet": "limited",
+    "https://sonic-testnet.drpc.org": "none",
+    "wss://sonic-testnet.drpc.org": "none",
+    "https://sonic-blaze.therpc.io": "limited"
+  }
 }

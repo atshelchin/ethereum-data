@@ -2,7 +2,8 @@
   "name": "ONIGIRI Subnet",
   "chain": "ONIGIRI",
   "rpc": [
-    "https://subnets.avax.network/onigiri/mainnet/rpc"
+    "https://subnets.avax.network/onigiri/mainnet/rpc",
+    "https://5040.rpc.thirdweb.com"
   ],
   "features": [
     {
@@ -29,5 +30,8 @@
       "url": "https://subnets.avax.network/onigiri",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://5040.rpc.thirdweb.com": "yes"
+  }
 }

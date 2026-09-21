@@ -3,7 +3,9 @@
   "chain": "BC Hyper Chain",
   "rpc": [
     "https://datahub-asia02.bchscan.io/",
-    "https://mainapi.bchscan.io"
+    "https://mainapi.bchscan.io",
+    "https://datahub-asia01.bchscan.io",
+    "https://datahub-asia02.bchscan.io"
   ],
   "features": [
     {
@@ -30,5 +32,9 @@
       "url": "https://bchscan.io",
       "standard": "EIP3091"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://datahub-asia01.bchscan.io": "none",
+    "https://datahub-asia02.bchscan.io": "none"
+  }
 }

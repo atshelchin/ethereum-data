@@ -3,7 +3,13 @@
   "title": "Lens mainnet",
   "chain": "Lens",
   "rpc": [
-    "https://rpc.lens.xyz"
+    "https://rpc.lens.xyz",
+    "https://lb.routeme.sh/rpc/evm/232",
+    "https://light-icy-dinghy.lens-mainnet.quiknode.pro",
+    "https://lens-mainnet.g.alchemy.com/public",
+    "https://lens.drpc.org",
+    "wss://lens.drpc.org",
+    "https://232.rpc.thirdweb.com"
   ],
   "faucets": [],
   "chainId": 232,
@@ -48,5 +54,13 @@
       "type": "bridge",
       "contract": "0x88F08E304EC4f90D644Cec3Fb69b8aD414acf884"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://lb.routeme.sh/rpc/evm/232": "limited",
+    "https://light-icy-dinghy.lens-mainnet.quiknode.pro": "yes",
+    "https://lens-mainnet.g.alchemy.com/public": "yes",
+    "https://lens.drpc.org": "none",
+    "wss://lens.drpc.org": "none",
+    "https://232.rpc.thirdweb.com": "yes"
+  }
 }

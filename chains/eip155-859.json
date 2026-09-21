@@ -2,7 +2,8 @@
   "name": "Zeeth Chain Dev",
   "chain": "ZeethChainDev",
   "rpc": [
-    "https://rpc.dev.zeeth.io"
+    "https://rpc.dev.zeeth.io",
+    "https://859.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -20,5 +21,8 @@
       "url": "https://explorer.dev.zeeth.io",
       "standard": "none"
     }
-  ]
+  ],
+  "rpcTracking": {
+    "https://859.rpc.thirdweb.com": "yes"
+  }
 }
