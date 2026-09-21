@@ -3,7 +3,9 @@
   "title": "Hika Network Testnet",
   "chain": "HIK",
   "icon": "hik",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.hika.network/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Hik Token",

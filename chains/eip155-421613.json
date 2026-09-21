@@ -12,7 +12,9 @@
     "decimals": 18
   },
   "rpc": [
-    "wss://arbitrum-goerli.publicnode.com"
+    "wss://arbitrum-goerli.publicnode.com",
+    "https://goerli-rollup.arbitrum.io/rpc",
+    "https://arbitrum-goerli.publicnode.com"
   ],
   "faucets": [],
   "infoURL": "https://arbitrum.io/",

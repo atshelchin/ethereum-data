@@ -2,7 +2,9 @@
   "name": "Vizing Mainnet",
   "title": "Vizing Mainnet",
   "chain": "Vizing Mainnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.vizing.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

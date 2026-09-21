@@ -1,7 +1,9 @@
 {
   "name": "Uzmi Network Mainnet",
   "chain": "UZMI",
-  "rpc": [],
+  "rpc": [
+    "https://network.uzmigames.com.br/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "UZMI",

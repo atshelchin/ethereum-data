@@ -4,7 +4,8 @@
   "faucets": [],
   "icon": "otc",
   "rpc": [
-    "wss://rpc.otc.run"
+    "wss://rpc.otc.run",
+    "https://rpc.otc.run"
   ],
   "nativeCurrency": {
     "name": "OTC",

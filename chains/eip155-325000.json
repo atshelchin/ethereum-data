@@ -10,7 +10,9 @@
       "name": "EIP1559"
     }
   ],
-  "rpc": [],
+  "rpc": [
+    "https://rpc-campnetwork.xyz"
+  ],
   "faucets": [
     "https://www.campnetwork.xyz/faucet"
   ],

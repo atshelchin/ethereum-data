@@ -2,7 +2,8 @@
   "name": "Garnet Holesky",
   "chain": "ETH",
   "rpc": [
-    "wss://rpc.garnetchain.com"
+    "wss://rpc.garnetchain.com",
+    "https://rpc.garnetchain.com"
   ],
   "faucets": [],
   "nativeCurrency": {

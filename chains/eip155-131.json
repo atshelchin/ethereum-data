@@ -2,7 +2,10 @@
   "name": "Engram Testnet",
   "chain": "tGRAM",
   "icon": "engram",
-  "rpc": [],
+  "rpc": [
+    "https://tokioswift.engram.tech",
+    "https://tokio-archive.engram.tech"
+  ],
   "features": [
     {
       "name": "EIP155"

@@ -1,7 +1,9 @@
 {
   "name": "SlingShot",
   "chain": "SLING",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.slingshotdao.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sling",

@@ -1,7 +1,10 @@
 {
   "name": "Godwoken Testnet v1",
   "chain": "GWT",
-  "rpc": [],
+  "rpc": [
+    "https://godwoken-testnet-v1.ckbapp.dev",
+    "https://v1.testnet.godwoken.io/rpc"
+  ],
   "faucets": [
     "https://testnet.bridge.godwoken.io"
   ],

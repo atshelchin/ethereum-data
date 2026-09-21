@@ -1,7 +1,9 @@
 {
   "name": "X1 Network",
   "chain": "X1",
-  "rpc": [],
+  "rpc": [
+    "https://x1-testnet.xen.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "XN",

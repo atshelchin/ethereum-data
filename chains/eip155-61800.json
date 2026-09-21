@@ -1,7 +1,9 @@
 {
   "name": "AxelChain Dev-Net",
   "chain": "AXEL",
-  "rpc": [],
+  "rpc": [
+    "https://aium-rpc-dev.viacube.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Axelium",

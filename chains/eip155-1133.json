@@ -2,7 +2,10 @@
   "name": "DeFiMetaChain Changi Testnet",
   "icon": "defichain-network",
   "chain": "DFI",
-  "rpc": [],
+  "rpc": [
+    "https://dmc.mydefichain.com/changi",
+    "https://testnet-dmc.mydefichain.com:20551"
+  ],
   "faucets": [
     "http://tc04.mydefichain.com/faucet"
   ],

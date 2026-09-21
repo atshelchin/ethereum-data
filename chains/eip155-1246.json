@@ -1,7 +1,9 @@
 {
   "name": "OM Platform Mainnet",
   "chain": "omplatform",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-cnx.omplatform.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OMCOIN",

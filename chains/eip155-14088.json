@@ -2,7 +2,9 @@
   "name": "Zeroth Testnet",
   "chain": "Zeroth",
   "icon": "zeroth",
-  "rpc": [],
+  "rpc": [
+    "https://test-my.zeroth.run"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Zeroth",

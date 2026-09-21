@@ -2,7 +2,9 @@
   "name": "Bitcichain Testnet",
   "chain": "TBITCI",
   "icon": "bitci",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.bitcichain.com"
+  ],
   "faucets": [
     "https://faucet.bitcichain.com"
   ],

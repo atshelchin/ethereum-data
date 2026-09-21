@@ -3,7 +3,10 @@
   "chain": "ETH",
   "rpc": [
     "wss://base-goerli.gateway.tenderly.co",
-    "wss://base-goerli-rpc.publicnode.com"
+    "wss://base-goerli-rpc.publicnode.com",
+    "https://goerli.base.org",
+    "https://base-goerli.gateway.tenderly.co",
+    "https://base-goerli-rpc.publicnode.com"
   ],
   "faucets": [
     "https://www.coinbase.com/faucets/base-ethereum-goerli-faucet"

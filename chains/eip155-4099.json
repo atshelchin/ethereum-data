@@ -2,7 +2,9 @@
   "name": "Bitindi Mainnet",
   "chain": "BNI",
   "icon": "bitindi",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc.bitindi.org"
+  ],
   "faucets": [
     "https://faucet.bitindi.org"
   ],

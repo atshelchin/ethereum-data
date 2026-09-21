@@ -1,7 +1,9 @@
 {
   "name": "Aarma Mainnet",
   "chain": "Aarma",
-  "rpc": [],
+  "rpc": [
+    "https://aarmarpc.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Aarma",

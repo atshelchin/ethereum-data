@@ -2,7 +2,13 @@
   "name": "Quartz by Unique",
   "icon": "quartz",
   "chain": "UNQ",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-quartz.unique.network",
+    "https://quartz.api.onfinality.io/public-ws",
+    "https://eu-rpc-quartz.unique.network",
+    "https://asia-rpc-quartz.unique.network",
+    "https://us-rpc-quartz.unique.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Quartz",

@@ -4,7 +4,8 @@
   "chain": "LAOS",
   "icon": "laos",
   "rpc": [
-    "wss://arrakis.gorengine.com/own"
+    "wss://arrakis.gorengine.com/own",
+    "https://arrakis.gorengine.com/own"
   ],
   "faucets": [],
   "nativeCurrency": {

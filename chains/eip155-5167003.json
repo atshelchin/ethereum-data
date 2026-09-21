@@ -2,7 +2,9 @@
   "name": "MXC Wannsee zkEVM Testnet",
   "chain": "MXC zkEVM",
   "icon": "mxc",
-  "rpc": [],
+  "rpc": [
+    "https://wannsee-rpc.mxc.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "MXC Wannsee zkEVM Testnet",

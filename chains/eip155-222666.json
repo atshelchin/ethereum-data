@@ -1,7 +1,9 @@
 {
   "name": "DeepL Testnet",
   "chain": "DEEPL",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.deeplnetwork.org"
+  ],
   "faucets": [
     "https://faucet.deeplnetwork.org"
   ],

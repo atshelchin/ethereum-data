@@ -4,7 +4,8 @@
   "status": "deprecated",
   "icon": "nebula",
   "rpc": [
-    "wss://staging-v3.skalenodes.com/v1/ws/staging-faint-slimy-achird"
+    "wss://staging-v3.skalenodes.com/v1/ws/staging-faint-slimy-achird",
+    "https://staging-v3.skalenodes.com/v1/staging-faint-slimy-achird"
   ],
   "faucets": [
     "https://sfuel.dirtroad.dev/staging"

@@ -1,7 +1,9 @@
 {
   "name": "QuarkChain Mainnet Root",
   "chain": "QuarkChain",
-  "rpc": [],
+  "rpc": [
+    "http://jrpc.mainnet.quarkchain.io:38391"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",

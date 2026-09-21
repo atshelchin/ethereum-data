@@ -1,7 +1,9 @@
 {
   "name": "ONIGIRI Subnet",
   "chain": "ONIGIRI",
-  "rpc": [],
+  "rpc": [
+    "https://subnets.avax.network/onigiri/mainnet/rpc"
+  ],
   "features": [
     {
       "name": "EIP155"

@@ -2,7 +2,9 @@
   "name": "Iora Chain",
   "chain": "IORA",
   "icon": "iorachain",
-  "rpc": [],
+  "rpc": [
+    "https://dataseed.iorachain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Iora",

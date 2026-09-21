@@ -1,7 +1,9 @@
 {
   "name": "Eurus Testnet",
   "chain": "EUN",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.eurus.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Eurus",

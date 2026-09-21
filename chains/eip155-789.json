@@ -2,7 +2,9 @@
   "name": "Patex",
   "chain": "ETH",
   "icon": "patex",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.patex.io/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

@@ -2,7 +2,9 @@
   "name": "Metacces Mainnet",
   "chain": "Metacces Mainnet",
   "icon": "metacces",
-  "rpc": [],
+  "rpc": [
+    "https://oli.accesscan.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Metacces",

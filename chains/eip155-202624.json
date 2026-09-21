@@ -13,7 +13,8 @@
     "decimals": 18
   },
   "rpc": [
-    "wss://jellie-rpc-wss.twala.io/"
+    "wss://jellie-rpc-wss.twala.io/",
+    "https://jellie-rpc.twala.io/"
   ],
   "faucets": [],
   "infoURL": "https://twala.io/",

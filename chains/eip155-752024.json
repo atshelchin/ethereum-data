@@ -1,7 +1,9 @@
 {
   "name": "Ternoa Testnet",
   "chain": "Ternoa",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.zkevm.ternoa.network"
+  ],
   "faucets": [
     "https://faucet.zkevm.ternoa.network"
   ],

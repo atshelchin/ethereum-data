@@ -2,7 +2,9 @@
   "name": "KYMTC Testnet",
   "chain": "KYMTC",
   "icon": "kymtc",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.kymaticscan.online"
+  ],
   "faucets": [
     "https://faucet.kymaticscan.online"
   ],

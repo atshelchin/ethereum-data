@@ -3,7 +3,12 @@
   "chain": "XOC",
   "icon": "xone_main",
   "rpc": [
-    "wss://rpc.xone.org"
+    "wss://rpc.xone.org",
+    "https://rpc.xone.org",
+    "https://rpc-node-1.xone.org",
+    "https://rpc-node-2.xone.org",
+    "https://rpc-node-3.xone.org",
+    "https://rpc-node-4.xone.org"
   ],
   "features": [
     {

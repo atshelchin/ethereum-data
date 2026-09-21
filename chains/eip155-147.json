@@ -2,7 +2,9 @@
   "name": "Flag Mainnet",
   "chain": "Flag",
   "icon": "flag",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc.flagscan.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Flag",

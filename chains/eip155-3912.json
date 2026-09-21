@@ -1,7 +1,9 @@
 {
   "name": "DRAC Network",
   "chain": "DRAC",
-  "rpc": [],
+  "rpc": [
+    "https://www.dracscan.com/rpc"
+  ],
   "faucets": [
     "https://www.dracscan.io/faucet"
   ],

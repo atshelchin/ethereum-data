@@ -1,7 +1,9 @@
 {
   "name": "Oone Chain Mainnet",
   "chain": "OONE",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.oonechain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OONE",

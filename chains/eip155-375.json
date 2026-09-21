@@ -1,7 +1,9 @@
 {
   "name": "zkXPLA Mainnet",
   "chain": "zkXPLA",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.zkxpla.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

@@ -1,7 +1,10 @@
 {
   "name": "Neurochain Mainnet",
   "chain": "NCN",
-  "rpc": [],
+  "rpc": [
+    "https://nc-rpc-prd1.neurochain.io",
+    "https://nc-rpc-prd2.neurochain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Neurochain",

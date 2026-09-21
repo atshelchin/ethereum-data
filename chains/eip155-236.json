@@ -2,7 +2,9 @@
   "name": "Deamchain Testnet",
   "chain": "Deamchain",
   "icon": "deam",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.deamchain.com"
+  ],
   "faucets": [
     "https://faucet.deamchain.com"
   ],

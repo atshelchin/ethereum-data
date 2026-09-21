@@ -1,7 +1,9 @@
 {
   "name": "Lummio Network",
   "chain": "Lummio Network",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.lummio.net"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Lummio Reward Points",

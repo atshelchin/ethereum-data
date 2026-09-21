@@ -4,7 +4,9 @@
   "chain": "BirdLayer",
   "icon": "birdlayer",
   "rpc": [
-    "wss://rpc.birdlayer.xyz/ws"
+    "wss://rpc.birdlayer.xyz/ws",
+    "https://rpc.birdlayer.xyz",
+    "https://rpc1.birdlayer.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {

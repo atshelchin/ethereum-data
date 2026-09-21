@@ -2,7 +2,9 @@
   "name": "Nume",
   "title": "Nume",
   "chain": "Nume",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.numecrypto.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dai Stablecoin",

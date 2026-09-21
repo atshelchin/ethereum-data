@@ -3,7 +3,8 @@
   "chain": "FSN",
   "icon": "fusion",
   "rpc": [
-    "wss://testnet.fusionnetwork.io"
+    "wss://testnet.fusionnetwork.io",
+    "https://testnet.fusionnetwork.io"
   ],
   "features": [
     {

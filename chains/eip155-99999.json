@@ -1,7 +1,9 @@
 {
   "name": "UB Smart Chain",
   "chain": "USC",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.ab.testnet.adifoundation.ai/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "UBC",

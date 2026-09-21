@@ -2,7 +2,9 @@
   "name": "SatoshiChain Testnet",
   "chain": "SATS",
   "icon": "satoshichain",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.satoshichain.io"
+  ],
   "faucets": [
     "https://faucet.satoshichain.io"
   ],

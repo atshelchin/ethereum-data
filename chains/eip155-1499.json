@@ -2,7 +2,9 @@
   "name": "iDos Games Chain Testnet",
   "chain": "IGC",
   "icon": "igc-testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.idos.games"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "iDos Games Coin",

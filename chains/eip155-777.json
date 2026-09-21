@@ -1,7 +1,9 @@
 {
   "name": "cheapETH",
   "chain": "cheapETH",
-  "rpc": [],
+  "rpc": [
+    "https://node.cheapeth.org/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "cTH",

@@ -6,7 +6,10 @@
     "https://goerli.infura.io/v3/${INFURA_API_KEY}",
     "wss://goerli.infura.io/v3/${INFURA_API_KEY}",
     "wss://ethereum-goerli-rpc.publicnode.com",
-    "wss://goerli.gateway.tenderly.co"
+    "wss://goerli.gateway.tenderly.co",
+    "https://rpc.goerli.mudit.blog/",
+    "https://ethereum-goerli-rpc.publicnode.com",
+    "https://goerli.gateway.tenderly.co"
   ],
   "faucets": [
     "http://fauceth.komputing.org?chain=5&address=${ADDRESS}",

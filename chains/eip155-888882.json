@@ -2,7 +2,9 @@
   "name": "REXX Mainnet",
   "title": "REXX Mainnet",
   "chain": "REXX",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.rexxnetwork.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "REXX",

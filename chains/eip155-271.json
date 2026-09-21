@@ -2,7 +2,9 @@
   "name": "EgonCoin Mainnet",
   "chain": "EGON",
   "icon": "egonicon",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.egonscan.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "EgonCoin",

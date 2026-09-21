@@ -1,7 +1,9 @@
 {
   "name": "DOID Testnet",
   "chain": "DOID",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.doid.tech"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DOID",

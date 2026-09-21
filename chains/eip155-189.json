@@ -1,7 +1,9 @@
 {
   "name": "BMC Testnet",
   "chain": "BMC",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.bmcchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTM",

@@ -1,7 +1,9 @@
 {
   "name": "GoChain Testnet",
   "chain": "GO",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.gochain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GoChain Coin",

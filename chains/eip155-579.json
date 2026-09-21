@@ -1,7 +1,9 @@
 {
   "name": "Filenova Mainnet",
   "chain": "Filenova",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.filenova.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Filecoin",

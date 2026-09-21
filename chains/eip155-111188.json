@@ -4,7 +4,10 @@
   "chain": "re.al",
   "rpc": [
     "wss://ws.realforreal.gelato.digital",
-    "wss://real.drpc.org"
+    "wss://real.drpc.org",
+    "https://rpc.realforreal.gelato.digital",
+    "https://tangible-real.gateway.tenderly.co",
+    "https://real.drpc.org"
   ],
   "nativeCurrency": {
     "name": "re.al Ether",

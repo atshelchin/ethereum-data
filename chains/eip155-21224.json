@@ -2,7 +2,9 @@
   "name": "DCpay Testnet",
   "chain": "DCpay",
   "icon": "dcpayIcon",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.dcpay.io"
+  ],
   "faucets": [
     "https://faucet.dcpay.io"
   ],

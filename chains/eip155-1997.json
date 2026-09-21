@@ -1,7 +1,9 @@
 {
   "name": "Kyoto",
   "chain": "KYOTO",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.kyotochain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kyoto",

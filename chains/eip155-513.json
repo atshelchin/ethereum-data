@@ -2,7 +2,9 @@
   "name": "Double-A Chain Testnet",
   "chain": "AAC",
   "icon": "aac",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.acuteangle.com"
+  ],
   "faucets": [
     "https://scan-testnet.acuteangle.com/faucet"
   ],

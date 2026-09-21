@@ -2,7 +2,9 @@
   "name": "LBRY Mainnet",
   "chain": "LBRY",
   "icon": "lbry",
-  "rpc": [],
+  "rpc": [
+    "https://lbry.nl/rpc"
+  ],
   "features": [
     {
       "name": "EIP155"

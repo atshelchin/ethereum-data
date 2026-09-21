@@ -2,7 +2,9 @@
   "name": "GLScan",
   "chain": "GLC",
   "icon": "glc",
-  "rpc": [],
+  "rpc": [
+    "https://glc-dataseed.glscan.io/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GLC",

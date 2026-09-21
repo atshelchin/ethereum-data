@@ -1,7 +1,9 @@
 {
   "name": "Lorenzo",
   "chain": "Lorenzo",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.lorenzo-protocol.xyz"
+  ],
   "features": [
     {
       "name": "EIP155"

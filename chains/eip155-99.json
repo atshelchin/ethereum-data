@@ -1,7 +1,9 @@
 {
   "name": "POA Network Core",
   "chain": "POA",
-  "rpc": [],
+  "rpc": [
+    "https://core.poa.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "POA Network Core Ether",

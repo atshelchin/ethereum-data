@@ -3,7 +3,8 @@
   "title": "OP Celestia Raspberry Testnet",
   "chain": "ETH",
   "rpc": [
-    "wss://ws.opcelestia-raspberry.gelato.digital"
+    "wss://ws.opcelestia-raspberry.gelato.digital",
+    "https://rpc.opcelestia-raspberry.gelato.digital"
   ],
   "faucets": [],
   "nativeCurrency": {

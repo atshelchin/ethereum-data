@@ -2,7 +2,9 @@
   "name": "Chronicle - Lit Protocol Testnet",
   "chain": "LPC",
   "icon": "lit",
-  "rpc": [],
+  "rpc": [
+    "https://chain-rpc.litprotocol.com/http"
+  ],
   "faucets": [
     "https://faucet.litprotocol.com"
   ],

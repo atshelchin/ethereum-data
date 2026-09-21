@@ -5,7 +5,8 @@
     "https://kava-testnet.drpc.org",
     "https://evm.testnet.kava.io",
     "wss://wevm.testnet.kava.io",
-    "wss://kava-testnet.drpc.org"
+    "wss://kava-testnet.drpc.org",
+    "https://kava-evm-testnet.rpc.thirdweb.com"
   ],
   "faucets": [
     "https://faucet.kava.io"

@@ -2,7 +2,8 @@
   "name": "BigShortBets Testnet",
   "chain": "BIGSB Testnet",
   "rpc": [
-    "wss://test-market.bigsb.network"
+    "wss://test-market.bigsb.network",
+    "https://test-market.bigsb.network"
   ],
   "faucets": [],
   "nativeCurrency": {

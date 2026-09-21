@@ -6,7 +6,8 @@
     "https://rpc.onfachain.net",
     "https://rpc.onfachain.com",
     "wss://ws.onfachain.com",
-    "wss://ws.onfachain.net"
+    "wss://ws.onfachain.net",
+    "https://main.onfachain.net"
   ],
   "faucets": [],
   "nativeCurrency": {

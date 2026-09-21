@@ -2,7 +2,9 @@
   "name": "Viridis Testnet",
   "chain": "VRD",
   "icon": "viridis",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.vrd.network"
+  ],
   "faucets": [
     "https://faucet.vrd.network"
   ],

@@ -5,7 +5,9 @@
     "https://shiden.api.onfinality.io/public",
     "wss://shiden.api.onfinality.io/public-ws",
     "wss://shiden.public.blastapi.io",
-    "wss://shiden-rpc.dwellir.com"
+    "wss://shiden-rpc.dwellir.com",
+    "https://shiden-rpc.dwellir.com",
+    "https://shiden.public.blastapi.io"
   ],
   "faucets": [],
   "nativeCurrency": {

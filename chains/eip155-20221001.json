@@ -1,7 +1,9 @@
 {
   "name": "SoonChain Sepolia Devnet",
   "chain": "SoonChain Devnet Sepolia",
-  "rpc": [],
+  "rpc": [
+    "https://sepolia.rpc.soonchain.ai"
+  ],
   "faucets": [
     "https://console.optimism.io/faucet"
   ],

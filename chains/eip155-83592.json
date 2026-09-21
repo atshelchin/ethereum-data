@@ -2,7 +2,8 @@
   "name": "Katron AI Mainnet",
   "chain": "KTN",
   "rpc": [
-    "https://blockchain-rpc1.katronai.com"
+    "https://blockchain-rpc1.katronai.com",
+    "https://blockchain-rpc2.katronai.com"
   ],
   "faucets": [],
   "nativeCurrency": {

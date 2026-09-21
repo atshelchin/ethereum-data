@@ -2,7 +2,12 @@
   "name": "Treasurenet Mainnet Alpha",
   "chain": "Treasurenet Mainnet Alpha",
   "icon": "treasurenet",
-  "rpc": [],
+  "rpc": [
+    "https://node0.treasurenet.io",
+    "https://node1.treasurenet.io",
+    "https://node2.treasurenet.io",
+    "https://node3.treasurenet.io"
+  ],
   "features": [
     {
       "name": "EIP155"

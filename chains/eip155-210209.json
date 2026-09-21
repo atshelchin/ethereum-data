@@ -1,7 +1,9 @@
 {
   "name": "Sorian",
   "chain": "SOR",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.sorian.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sorian",

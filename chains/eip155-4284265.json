@@ -3,7 +3,9 @@
   "title": "Zuux chain testnet",
   "chain": "zuuxchain",
   "icon": "zuuxchain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.zuux.network"
+  ],
   "features": [
     {
       "name": "none"

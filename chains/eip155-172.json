@@ -2,7 +2,8 @@
   "name": "Latam-Blockchain Resil Testnet",
   "chain": "Resil",
   "rpc": [
-    "wss://ws.latam-blockchain.com"
+    "wss://ws.latam-blockchain.com",
+    "https://rpc.latam-blockchain.com"
   ],
   "faucets": [
     "https://faucet.latam-blockchain.com"

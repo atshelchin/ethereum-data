@@ -2,7 +2,8 @@
   "name": "Humanity Protocol testnet",
   "chain": "Humanity",
   "rpc": [
-    "https://humanity-testnet.g.alchemy.com/public"
+    "https://humanity-testnet.g.alchemy.com/public",
+    "https://rpc.testnet.humanity.org"
   ],
   "faucets": [
     "https://faucets.alchemy.com/faucets/humanity-testnet"

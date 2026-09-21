@@ -1,7 +1,9 @@
 {
   "name": "POC Testnet",
   "chain": "POC",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.pochain.io"
+  ],
   "faucets": [
     "https://www.pochain.io/poc-faucet"
   ],

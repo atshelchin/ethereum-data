@@ -1,7 +1,9 @@
 {
   "name": "PAYSCAN CHAIN",
   "chain": "PAYSCAN CHAIN",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.payscan.live"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "PYZ",

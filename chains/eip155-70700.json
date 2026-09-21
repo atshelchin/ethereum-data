@@ -9,7 +9,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": [
+    "https://rpc.apex.proofofplay.com"
+  ],
   "faucets": [],
   "explorers": [
     {

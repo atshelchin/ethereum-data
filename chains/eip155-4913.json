@@ -1,7 +1,10 @@
 {
   "name": "OEV Network",
   "chain": "oev-network",
-  "rpc": [],
+  "rpc": [
+    "https://oev.rpc.api3.org",
+    "https://oev-network.calderachain.xyz/http"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

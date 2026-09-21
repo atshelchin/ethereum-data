@@ -1,7 +1,9 @@
 {
   "name": "KaiChain",
   "chain": "KaiChain",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc.kaichain.net"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "KaiChain Native Token",

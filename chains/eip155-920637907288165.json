@@ -2,7 +2,9 @@
   "name": "Kakarot Starknet Sepolia",
   "chain": "ETH",
   "icon": "kakarot",
-  "rpc": [],
+  "rpc": [
+    "https://sepolia-rpc.kakarot.org"
+  ],
   "faucets": [
     "https://sepolia-faucet.kakarot.org/"
   ],

@@ -1,7 +1,9 @@
 {
   "name": "PGN (Public Goods Network)",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.publicgoods.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

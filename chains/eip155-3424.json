@@ -2,7 +2,9 @@
   "name": "EVOLVE Mainnet",
   "chain": "EVO",
   "icon": "evolveIcon",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.evoexplorer.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Evolve",

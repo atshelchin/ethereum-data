@@ -3,7 +3,8 @@
   "chain": "Gotas",
   "icon": "gotas",
   "rpc": [
-    "wss://services.tanssi-mainnet.network/tanssi-2006"
+    "wss://services.tanssi-mainnet.network/tanssi-2006",
+    "https://services.tanssi-mainnet.network/tanssi-2006"
   ],
   "faucets": [],
   "nativeCurrency": {

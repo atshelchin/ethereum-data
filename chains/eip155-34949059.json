@@ -3,7 +3,8 @@
   "title": "Citronus-Citro",
   "chain": "citronus-citro",
   "rpc": [
-    "wss://testnet-ws.eh-dev.app"
+    "wss://testnet-ws.eh-dev.app",
+    "https://rpc.citro-testnet.t.raas.gelato.cloud"
   ],
   "nativeCurrency": {
     "name": "Citronus",

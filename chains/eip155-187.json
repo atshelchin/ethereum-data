@@ -1,7 +1,9 @@
 {
   "name": "Dojima",
   "chain": "Dojima",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-d11k.dojima.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dojima",

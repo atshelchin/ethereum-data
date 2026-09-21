@@ -1,7 +1,9 @@
 {
   "name": "AMA Mainnet",
   "chain": "AMA",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc.ama.one"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "AMA",

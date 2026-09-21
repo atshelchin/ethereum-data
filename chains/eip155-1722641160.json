@@ -3,7 +3,8 @@
   "title": "Silicon zkEVM Sepolia Testnet",
   "chain": "Silicon",
   "rpc": [
-    "https://silicon-testnet.nodeinfra.com"
+    "https://silicon-testnet.nodeinfra.com",
+    "https://rpc-sepolia.silicon.network"
   ],
   "faucets": [],
   "nativeCurrency": {

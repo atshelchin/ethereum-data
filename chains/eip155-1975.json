@@ -3,7 +3,8 @@
   "title": "ONUS Chain Mainnet",
   "chain": "onus",
   "rpc": [
-    "wss://ws.onuschain.io"
+    "wss://ws.onuschain.io",
+    "https://rpc.onuschain.io"
   ],
   "faucets": [],
   "nativeCurrency": {

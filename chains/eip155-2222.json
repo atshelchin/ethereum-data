@@ -13,7 +13,9 @@
     "wss://wevm.kava.io",
     "wss://kava-evm-rpc.publicnode.com",
     "wss://wevm.kava-rpc.com",
-    "wss://kava.drpc.org"
+    "wss://kava.drpc.org",
+    "https://kava-rpc.gateway.pokt.network",
+    "https://kava-evm.rpc.thirdweb.com"
   ],
   "faucets": [],
   "nativeCurrency": {

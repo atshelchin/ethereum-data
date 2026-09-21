@@ -2,7 +2,9 @@
   "name": "Kronobit Mainnet",
   "title": "Kronobit Mainnet",
   "chain": "KNB",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc.qbitscan.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kronobit",

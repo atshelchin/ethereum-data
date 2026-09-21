@@ -1,7 +1,9 @@
 {
   "name": "AlveyChain Testnet",
   "chain": "tALV",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.alvey.io"
+  ],
   "faucets": [
     "https://faucet.alveytestnet.com"
   ],

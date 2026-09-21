@@ -1,7 +1,9 @@
 {
   "name": "0XTade",
   "chain": "0XTade Chain",
-  "rpc": [],
+  "rpc": [
+    "https://node.0xtchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "0XT",

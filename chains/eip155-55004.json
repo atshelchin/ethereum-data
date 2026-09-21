@@ -2,7 +2,8 @@
   "name": "Titan",
   "chain": "ETH",
   "rpc": [
-    "wss://rpc.titan.tokamak.network"
+    "wss://rpc.titan.tokamak.network",
+    "https://rpc.titan.tokamak.network"
   ],
   "faucets": [],
   "nativeCurrency": {

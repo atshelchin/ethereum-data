@@ -1,7 +1,9 @@
 {
   "name": "Tetron Testnet Smart Chain",
   "chain": "Tetron Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://test-rpc.tscscan.org"
+  ],
   "faucets": [],
   "features": [
     {

@@ -1,7 +1,9 @@
 {
   "name": "Cycle Network Mainnet Frigate",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://frigate-rpc-mainnet.cyclenetwork.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

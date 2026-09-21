@@ -1,7 +1,9 @@
 {
   "name": "UPchain Mainnet",
   "chain": "UPchain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.uniport.network"
+  ],
   "nativeCurrency": {
     "name": "UBTC",
     "symbol": "UBTC",

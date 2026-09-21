@@ -3,7 +3,8 @@
   "title": "Cuckoo Chain",
   "chain": "CuckooAI",
   "rpc": [
-    "wss://mainnet-rpc.cuckoo.network"
+    "wss://mainnet-rpc.cuckoo.network",
+    "https://mainnet-rpc.cuckoo.network"
   ],
   "faucets": [],
   "nativeCurrency": {

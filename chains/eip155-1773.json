@@ -1,7 +1,10 @@
 {
   "name": "PartyChain",
   "chain": "mainnet",
-  "rpc": [],
+  "rpc": [
+    "https://tea.mining4people.com/rpc",
+    "http://172.104.194.36:8545"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Grams",

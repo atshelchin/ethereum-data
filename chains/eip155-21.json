@@ -1,7 +1,9 @@
 {
   "name": "Elastos Smart Chain Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://api-testnet.elastos.io/eth"
+  ],
   "faucets": [
     "https://esc-faucet.elastos.io/"
   ],

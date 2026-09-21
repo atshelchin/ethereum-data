@@ -1,7 +1,9 @@
 {
   "name": "Juneo EUR1-Chain",
   "chain": "Juneo EUR1-Chain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.juneo-mainnet.network/ext/bc/EUR1/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "EUR1",

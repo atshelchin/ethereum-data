@@ -1,7 +1,9 @@
 {
   "name": "Paribu Net Testnet",
   "chain": "PRB",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.paribuscan.com"
+  ],
   "faucets": [
     "https://faucet.paribuscan.com"
   ],

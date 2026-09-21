@@ -1,7 +1,9 @@
 {
   "name": "StarCHAIN Testnet",
   "chain": "StarCHAIN",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc1.starworksglobal.com"
+  ],
   "features": [
     {
       "name": "EIP155"

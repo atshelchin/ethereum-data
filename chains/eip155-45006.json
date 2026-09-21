@@ -1,7 +1,9 @@
 {
   "name": "Juneo USD1-Chain",
   "chain": "Juneo USD1-Chain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.juneo-mainnet.network/ext/bc/USD1/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "USD1",

@@ -1,7 +1,9 @@
 {
   "name": "Testnet Pika",
   "chain": "tPKA",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc1.pikascan.com"
+  ],
   "faucets": [],
   "icon": "testnetpsc",
   "nativeCurrency": {

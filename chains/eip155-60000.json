@@ -1,7 +1,9 @@
 {
   "name": "Thinkium Testnet Chain 0",
   "chain": "Thinkium",
-  "rpc": [],
+  "rpc": [
+    "https://test.thinkiumrpc.net/"
+  ],
   "faucets": [
     "https://www.thinkiumdev.net/faucet"
   ],

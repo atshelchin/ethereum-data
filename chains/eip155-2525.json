@@ -2,7 +2,9 @@
   "name": "inEVM Mainnet",
   "chain": "inEVM",
   "icon": "inevm",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.rpc.inevm.com/http"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Injective",

@@ -1,0 +1,18 @@
+{
+  "name": "KWALA",
+  "chain": "KWALA",
+  "icon": "kwala",
+  "rpc": [
+    "https://rpc-ohio.kwala.network"
+  ],
+  "nativeCurrency": {
+    "name": "KWALA",
+    "symbol": "KWALA",
+    "decimals": 18
+  },
+  "faucets": [],
+  "infoURL": "https://kwala.network",
+  "shortName": "kwala",
+  "chainId": 1905,
+  "networkId": 1905
+}

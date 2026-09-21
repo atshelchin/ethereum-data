@@ -1,7 +1,9 @@
 {
   "name": "Neutrinos TestNet",
   "chain": "NEUTR",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.neutrinoschain.com"
+  ],
   "faucets": [
     "https://neutrinoschain.com/faucet"
   ],

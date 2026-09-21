@@ -5,7 +5,8 @@
     "https://mainnet.storyrpc.io",
     "https://story-rpc.publicnode.com",
     "https://rpc.ankr.com/story_mainnet",
-    "wss://story-rpc.publicnode.com"
+    "wss://story-rpc.publicnode.com",
+    "https://mainnet.datarpc.io"
   ],
   "faucets": [],
   "nativeCurrency": {

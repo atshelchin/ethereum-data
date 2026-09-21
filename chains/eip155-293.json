@@ -1,7 +1,9 @@
 {
   "name": "DaVinci",
   "chain": "DCOIN",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.davinci.bz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DaVinci",

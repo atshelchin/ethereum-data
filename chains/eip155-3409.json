@@ -2,7 +2,9 @@
   "name": "Pepe Unchained",
   "chain": "PEPU",
   "icon": "pepu",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-pepe-unchained-gupg0lo9wf.t.conduit.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "PEPU",

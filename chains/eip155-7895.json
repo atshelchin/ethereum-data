@@ -1,7 +1,9 @@
 {
   "name": "ARDENIUM Athena",
   "chain": "ATHENA",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-athena.ardescan.com/"
+  ],
   "faucets": [
     "https://faucet-athena.ardescan.com/"
   ],

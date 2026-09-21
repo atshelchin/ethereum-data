@@ -1,7 +1,9 @@
 {
   "name": "SnaxChain",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.snaxchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

@@ -5,7 +5,8 @@
   "icon": "coti",
   "rpc": [
     "https://testnet.coti.io/rpc",
-    "https://testnet-magnus-validator.coti.io/rpc"
+    "https://testnet-magnus-validator.coti.io/rpc",
+    "https://testnet-minor-validator.coti.io/rpc"
   ],
   "faucets": [
     "https://faucet.coti.io"

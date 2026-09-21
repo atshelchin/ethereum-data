@@ -1,7 +1,9 @@
 {
   "name": "Kingdom Chain",
   "chain": "KingdomChain",
-  "rpc": [],
+  "rpc": [
+    "https://kingdomchain.observer/rpc"
+  ],
   "features": [
     {
       "name": "EIP155"

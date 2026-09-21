@@ -2,7 +2,8 @@
   "name": "BlockChain Station Testnet",
   "chain": "BCS",
   "rpc": [
-    "wss://rpc-ws-testnet.bcsdev.io"
+    "wss://rpc-ws-testnet.bcsdev.io",
+    "https://rpc-testnet.bcsdev.io"
   ],
   "faucets": [
     "https://faucet.bcsdev.io"

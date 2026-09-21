@@ -1,7 +1,10 @@
 {
   "name": "Zether Mainnet",
   "chain": "Zether",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.zether.org",
+    "https://rpc.zthscan.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Zether",

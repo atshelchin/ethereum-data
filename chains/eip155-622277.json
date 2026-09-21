@@ -2,7 +2,11 @@
   "name": "Hypra Mainnet",
   "chain": "HYP",
   "rpc": [
-    "https://hypra.rpc.thirdweb.com"
+    "https://hypra.rpc.thirdweb.com",
+    "https://rpc.hypra.network",
+    "https://rpc.rethereum.org",
+    "https://rethereum.rpc.restratagem.com",
+    "https://rpc.rthcentral.org"
   ],
   "faucets": [],
   "nativeCurrency": {

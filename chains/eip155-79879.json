@@ -2,7 +2,9 @@
   "name": "Gold Smart Chain Testnet",
   "chain": "STAND",
   "icon": "standTestnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.goldsmartchain.com"
+  ],
   "faucets": [
     "https://faucet.goldsmartchain.com"
   ],

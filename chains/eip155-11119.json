@@ -1,7 +1,10 @@
 {
   "name": "HashBit Mainnet",
   "chain": "HBIT",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc.hashbit.org",
+    "https://rpc.hashbit.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "HashBit Native Token",

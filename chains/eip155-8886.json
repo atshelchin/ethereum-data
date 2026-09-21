@@ -1,7 +1,10 @@
 {
   "name": "Avenium Testnet",
   "chain": "AVE",
-  "rpc": [],
+  "rpc": [
+    "https://eu-testnet.avenium.io/",
+    "https://connect-testnet.avenium.io"
+  ],
   "faucets": [
     "https://faucet-testnet.avenium.io"
   ],

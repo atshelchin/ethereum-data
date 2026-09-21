@@ -3,7 +3,8 @@
   "title": "Volmex",
   "chain": "volmex",
   "rpc": [
-    "wss://ws.volmex.t.raas.gelato.cloud"
+    "wss://ws.volmex.t.raas.gelato.cloud",
+    "https://rpc.volmex.t.raas.gelato.cloud"
   ],
   "nativeCurrency": {
     "name": "Ether",

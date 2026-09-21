@@ -1,7 +1,9 @@
 {
   "name": "Rome Testnet Martius",
   "chain": "ROME",
-  "rpc": [],
+  "rpc": [
+    "https://martius.testnet.romeprotocol.xyz"
+  ],
   "faucets": [
     "https://deposit.testnet.romeprotocol.xyz"
   ],

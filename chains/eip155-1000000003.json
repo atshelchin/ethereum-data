@@ -1,7 +1,9 @@
 {
   "name": "DeInfra Devnet3",
   "chain": "DeInfraDev3",
-  "rpc": [],
+  "rpc": [
+    "https://c3n1.thepower.io/jsonrpc"
+  ],
   "faucets": [
     "https://faucet.thepower.io/"
   ],

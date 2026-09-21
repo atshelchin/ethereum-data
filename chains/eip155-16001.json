@@ -1,7 +1,9 @@
 {
   "name": "MetaDot Testnet",
   "chain": "MTTTest",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.metadot.network"
+  ],
   "faucets": [
     "https://faucet.metadot.network/"
   ],

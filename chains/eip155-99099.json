@@ -2,7 +2,9 @@
   "name": "eLiberty Testnet",
   "chain": "$EL",
   "icon": "eLiberty",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.eliberty.ngo"
+  ],
   "faucets": [
     "https://faucet.eliberty.ngo"
   ],

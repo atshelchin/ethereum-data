@@ -2,7 +2,9 @@
   "name": "Corn",
   "chain": "BTCN",
   "rpc": [
-    "https://maizenet-rpc.usecorn.com"
+    "https://maizenet-rpc.usecorn.com",
+    "https://mainnet.corn-rpc.com",
+    "https://rpc.ankr.com/corn_maizenet"
   ],
   "faucets": [],
   "nativeCurrency": {

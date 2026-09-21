@@ -1,7 +1,9 @@
 {
   "name": "Laika Testnet",
   "chain": "LAIKA",
-  "rpc": [],
+  "rpc": [
+    "https://testnetrpc1.laikachain.dog"
+  ],
   "faucets": [
     "https://laikachain.dog/faucets"
   ],

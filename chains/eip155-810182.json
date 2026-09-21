@@ -2,7 +2,8 @@
   "name": "zkLink Nova Goerli Testnet",
   "chain": "ETH",
   "rpc": [
-    "wss://goerli.rpc.zklink.io"
+    "wss://goerli.rpc.zklink.io",
+    "https://goerli.rpc.zklink.io"
   ],
   "faucets": [],
   "nativeCurrency": {

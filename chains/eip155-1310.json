@@ -2,7 +2,9 @@
   "name": "COINZAX",
   "chain": "ZAX",
   "icon": "coinzaxIcon",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.coinzax.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "COINZAX",

@@ -1,7 +1,9 @@
 {
   "name": "Teleport",
   "chain": "Teleport",
-  "rpc": [],
+  "rpc": [
+    "https://evm-rpc.teleport.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tele",

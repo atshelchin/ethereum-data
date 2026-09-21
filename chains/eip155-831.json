@@ -1,7 +1,9 @@
 {
   "name": "CheckDot Blockchain Devnet",
   "chain": "CDT Blockchain",
-  "rpc": [],
+  "rpc": [
+    "https://devnet.checkdot.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "CDT",

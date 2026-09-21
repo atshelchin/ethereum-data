@@ -2,7 +2,9 @@
   "name": "BinaryChain Testnet",
   "chain": "BinaryChain",
   "icon": "binary",
-  "rpc": [],
+  "rpc": [
+    "https://rpctestnet.binarychain.org"
+  ],
   "faucets": [
     "https://faucet.testnet.binarychain.org"
   ],

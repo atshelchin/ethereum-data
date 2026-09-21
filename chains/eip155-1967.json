@@ -3,7 +3,8 @@
   "title": "Metatime Testnet Eleanor",
   "chain": "MTC",
   "rpc": [
-    "wss://ws.metatime.com/eleanor"
+    "wss://ws.metatime.com/eleanor",
+    "https://rpc.metatime.com/eleanor"
   ],
   "faucets": [
     "https://faucet.metatime.com/eleanor"

@@ -2,7 +2,9 @@
   "name": "ARK Testnet",
   "chain": "ARK",
   "icon": "ark",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.mainsailhq.com/rpc"
+  ],
   "faucets": [
     "https://faucet.mainsailhq.com"
   ],

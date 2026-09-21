@@ -3,7 +3,9 @@
   "chain": "Shibarium",
   "icon": "shibarium",
   "rpc": [
-    "https://shibarium.drpc.org"
+    "https://shibarium.drpc.org",
+    "https://rpc.shibarium.shib.io",
+    "https://shib.nownodes.io"
   ],
   "faucets": [],
   "nativeCurrency": {

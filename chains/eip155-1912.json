@@ -1,7 +1,9 @@
 {
   "name": "Ruby Smart Chain Testnet",
   "chain": "RUBY",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rchain.rubychain.io/"
+  ],
   "nativeCurrency": {
     "name": "RUBY Smart Chain Native Token",
     "symbol": "tRUBY",

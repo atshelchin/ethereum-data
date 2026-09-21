@@ -1,7 +1,9 @@
 {
   "name": "Vision - Vpioneer Test Chain",
   "chain": "Vision-Vpioneer",
-  "rpc": [],
+  "rpc": [
+    "https://vpioneer.infragrid.v.network/ethereum/compatible"
+  ],
   "faucets": [
     "https://vpioneerfaucet.visionscan.org"
   ],

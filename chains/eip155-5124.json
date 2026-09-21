@@ -1,14 +1,26 @@
 {
   "name": "Seismic devnet",
   "chain": "Seismic",
-  "rpc": ["https://node-2.seismicdev.net/rpc"],
-  "faucets": ["https://faucet-2.seismicdev.net/"],
+  "rpc": [
+    "https://node-2.seismicdev.net/rpc",
+    "https://gcp-1.seismictest.net/rpc",
+    "https://gcp-2.seismictest.net/rpc",
+    "wss://gcp-1.seismictest.net/ws",
+    "wss://gcp-2.seismictest.net/ws"
+  ],
+  "faucets": [
+    "https://faucet-2.seismicdev.net/"
+  ],
   "nativeCurrency": {
     "name": "Seismic Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "infoURL": "https://seismic.systems",
   "shortName": "seismic-devnet",
   "chainId": 5124,

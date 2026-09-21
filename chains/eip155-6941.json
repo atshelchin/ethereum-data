@@ -1,7 +1,9 @@
 {
   "name": "Monolythium",
   "chain": "LYTH",
-  "rpc": [],
+  "rpc": [
+    "https://evm.mainnet.mononodes.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Lythium",

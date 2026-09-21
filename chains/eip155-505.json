@@ -1,7 +1,9 @@
 {
   "name": "DotOne Smart Chain",
   "chain": "DOTO",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.dotone.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Doto",

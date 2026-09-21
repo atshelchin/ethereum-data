@@ -1,7 +1,9 @@
 {
   "name": "Taycan",
   "chain": "Taycan",
-  "rpc": [],
+  "rpc": [
+    "https://taycan-rpc.hupayx.io:8545"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "shuffle",

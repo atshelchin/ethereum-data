@@ -2,7 +2,10 @@
   "name": "KaspaClassic Mainnet",
   "chain": "KaspaClassic",
   "icon": "kaspaclassic",
-  "rpc": [],
+  "rpc": [
+    "https://api.kaspaclassic.world/",
+    "http://80.178.101.118:8000/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "KaspaClassic",

@@ -1,7 +1,9 @@
 {
   "name": "AmaxSmartchain",
   "chain": "AmaxSmartchain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.amaxchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "amax",

@@ -1,7 +1,10 @@
 {
   "name": "Astra",
   "chain": "Astra",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.astranaut.io",
+    "https://rpc1.astranaut.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Astra",

@@ -2,7 +2,9 @@
   "name": "HyperonChain TestNet",
   "chain": "HPN",
   "icon": "hyperonchain",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.hyperonchain.com"
+  ],
   "faucets": [
     "https://faucet.hyperonchain.com"
   ],

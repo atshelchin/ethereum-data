@@ -3,7 +3,8 @@
   "title": "Form Testnet",
   "chain": "formtestnet",
   "rpc": [
-    "wss://sepolia-rpc.form.network/ws"
+    "wss://sepolia-rpc.form.network/ws",
+    "https://sepolia-rpc.form.network/http"
   ],
   "features": [
     {

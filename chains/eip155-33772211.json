@@ -3,7 +3,10 @@
   "chain": "XOC",
   "icon": "xone_test",
   "rpc": [
-    "wss://rpc-testnet.xone.org"
+    "wss://rpc-testnet.xone.org",
+    "https://rpc-testnet.xone.plus",
+    "https://rpc-testnet.xone.org",
+    "https://rpc-testnet.knight.center"
   ],
   "features": [
     {

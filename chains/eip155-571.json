@@ -2,7 +2,9 @@
   "name": "MetaChain Mainnet",
   "chain": "MTC",
   "icon": "metachain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.metatime.com"
+  ],
   "features": [
     {
       "name": "EIP155"

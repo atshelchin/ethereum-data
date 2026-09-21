@@ -2,7 +2,9 @@
   "name": "WoopChain Mainnet",
   "chain": "WOOP",
   "icon": "woopchain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.woop.ai/rpc"
+  ],
   "features": [
     {
       "name": "EIP155"

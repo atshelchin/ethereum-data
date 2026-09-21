@@ -1,7 +1,9 @@
 {
   "name": "Story Testnet",
   "chain": "Story Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.storyrpc.io"
+  ],
   "faucets": [
     "https://faucet.story.foundation"
   ],

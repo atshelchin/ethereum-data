@@ -3,7 +3,9 @@
   "chain": "PC",
   "status": "active",
   "icon": "pepechain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.pepe-chain.vip"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Pepe",

@@ -2,7 +2,9 @@
   "name": "ARK Mainnet",
   "chain": "ARK",
   "icon": "ark",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.ark.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ARK Token",

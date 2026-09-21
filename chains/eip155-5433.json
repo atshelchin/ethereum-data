@@ -2,7 +2,9 @@
   "name": "Inertia Scan",
   "chain": "IRTA",
   "icon": "inertiascan",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.inertiascan.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Inertia",

@@ -2,7 +2,9 @@
   "name": "Dxchain Mainnet",
   "chain": "Dxchain",
   "icon": "dx",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.dxchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dxchain",

@@ -1,7 +1,9 @@
 {
   "name": "OPTOPIA Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.optopia.ai"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

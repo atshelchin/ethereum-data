@@ -4,7 +4,8 @@
   "rpc": [
     "https://rpc.fuse.io",
     "https://fuse.api.pocket.network",
-    "wss://fuse.drpc.org"
+    "wss://fuse.drpc.org",
+    "https://fuse.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

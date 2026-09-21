@@ -1,7 +1,9 @@
 {
   "name": "BTCIX Network",
   "chain": "BTCIX",
-  "rpc": [],
+  "rpc": [
+    "https://seed.btcix.org/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTCIX Network",

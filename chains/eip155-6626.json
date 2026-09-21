@@ -2,7 +2,8 @@
   "name": "Pixie Chain Mainnet",
   "chain": "PixieChain",
   "rpc": [
-    "wss://ws-mainnet.chain.pixie.xyz"
+    "wss://ws-mainnet.chain.pixie.xyz",
+    "https://http-mainnet.chain.pixie.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {

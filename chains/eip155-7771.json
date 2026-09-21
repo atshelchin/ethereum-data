@@ -2,7 +2,9 @@
   "name": "Bitrock Testnet",
   "chain": "Bitrock",
   "icon": "bitrock",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.bit-rock.io"
+  ],
   "faucets": [
     "https://faucet.bit-rock.io"
   ],

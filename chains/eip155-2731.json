@@ -1,7 +1,9 @@
 {
   "name": "Elizabeth Testnet",
   "chain": "Elizabeth",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.timenetwork.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TIME",

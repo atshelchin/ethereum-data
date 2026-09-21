@@ -2,7 +2,8 @@
   "name": "Alaya Dev Testnet",
   "chain": "Alaya",
   "rpc": [
-    "wss://devnetopenapi.alaya.network/ws"
+    "wss://devnetopenapi.alaya.network/ws",
+    "https://devnetopenapi.alaya.network/rpc"
   ],
   "faucets": [
     "https://faucet.alaya.network/faucet/?id=f93426c0887f11eb83b900163e06151c"

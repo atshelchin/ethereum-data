@@ -1,7 +1,9 @@
 {
   "name": "SUR Blockchain Network",
   "chain": "SUR",
-  "rpc": [],
+  "rpc": [
+    "https://sur.nilin.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Suren",

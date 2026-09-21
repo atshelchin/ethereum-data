@@ -1,7 +1,9 @@
 {
   "name": "DeepL Mainnet",
   "chain": "DEEPL",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.deeplnetwork.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DeepL",

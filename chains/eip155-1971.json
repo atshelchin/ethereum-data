@@ -3,7 +3,8 @@
   "title": "Atelier Test Network",
   "chain": "ALTR",
   "rpc": [
-    "wss://1971.network/atlr"
+    "wss://1971.network/atlr",
+    "https://1971.network/atlr"
   ],
   "faucets": [],
   "nativeCurrency": {

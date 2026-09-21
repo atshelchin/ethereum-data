@@ -1,7 +1,9 @@
 {
   "name": "Namefi Chain Mainnet",
   "chain": "NFIC",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.chain.namefi.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Namefi Coin",

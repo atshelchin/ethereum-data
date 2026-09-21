@@ -1,7 +1,9 @@
 {
   "name": "Lif3 Chain",
   "chain": "lif3chain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.lif3.com"
+  ],
   "features": [
     {
       "name": "EIP155"

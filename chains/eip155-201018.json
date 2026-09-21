@@ -2,7 +2,8 @@
   "name": "Alaya Mainnet",
   "chain": "Alaya",
   "rpc": [
-    "wss://openapi.alaya.network/ws"
+    "wss://openapi.alaya.network/ws",
+    "https://openapi.alaya.network/rpc"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -1,7 +1,9 @@
 {
   "name": "Phoenix Mainnet",
   "chain": "Phoenix",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.phoenixplorer.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Phoenix",

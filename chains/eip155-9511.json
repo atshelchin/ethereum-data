@@ -1,7 +1,9 @@
 {
   "name": "Colossus Sepolia Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.colossus.credit"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",

@@ -1,7 +1,9 @@
 {
   "name": "Sepolia PGN (Public Goods Network)",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://sepolia.publicgoods.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",

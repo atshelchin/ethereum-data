@@ -1,7 +1,9 @@
 {
   "name": "BRC Chain Mainnet",
   "chain": "BRC",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.brcchain.io"
+  ],
   "faucets": [
     "https://faucet.brcchain.io"
   ],

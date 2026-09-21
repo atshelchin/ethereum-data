@@ -2,7 +2,9 @@
   "name": "Bandai Namco Research Verse Mainnet",
   "chain": "Bandai Namco Research Verse",
   "icon": "bnken",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.main.oasvrs.bnken.net"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",

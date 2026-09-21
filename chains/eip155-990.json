@@ -2,7 +2,9 @@
   "name": "eLiberty Mainnet",
   "chain": "$EL",
   "icon": "eLiberty",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.eliberty.ngo"
+  ],
   "faucets": [
     "https://faucet.eliberty.ngo"
   ],

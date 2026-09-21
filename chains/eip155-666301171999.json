@@ -1,7 +1,9 @@
 {
   "name": "PDC Mainnet",
   "chain": "IPDC",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.ipdc.io/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "PDC",

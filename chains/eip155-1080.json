@@ -3,7 +3,9 @@
   "title": "Mintara Mainnet",
   "chain": "Mintara",
   "icon": "mintara",
-  "rpc": [],
+  "rpc": [
+    "https://subnets.avax.network/mintara/mainnet/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "MINTARA",

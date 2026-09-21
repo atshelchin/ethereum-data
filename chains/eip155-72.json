@@ -1,7 +1,9 @@
 {
   "name": "DxChain Testnet",
   "chain": "DxChain",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-http.dxchain.com"
+  ],
   "faucets": [
     "https://faucet.dxscan.io"
   ],

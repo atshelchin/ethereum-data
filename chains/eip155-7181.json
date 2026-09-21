@@ -1,7 +1,9 @@
 {
   "name": "UXLINK One Testnet",
   "chain": "UXLINK One",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-sepolia.uxlinkone.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "UXLINK",

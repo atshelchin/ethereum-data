@@ -3,7 +3,9 @@
   "title": "DustBoy IoT",
   "status": "active",
   "chain": "DUSTBOY",
-  "rpc": [],
+  "rpc": [
+    "https://dustboy-rpc.jibl2.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

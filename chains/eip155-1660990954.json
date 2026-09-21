@@ -2,7 +2,9 @@
   "name": "Status Network Sepolia",
   "title": "Status Network Sepolia",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://public.sepolia.rpc.status.network"
+  ],
   "faucets": [
     "https://faucet.status.network/"
   ],

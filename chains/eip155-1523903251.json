@@ -2,7 +2,9 @@
   "name": "Haust Network Testnet",
   "title": "Haust Network Testnet",
   "chain": "haust-network-testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.haust.app"
+  ],
   "features": [
     {
       "name": "EIP155"

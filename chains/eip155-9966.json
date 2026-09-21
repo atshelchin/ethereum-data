@@ -1,7 +1,10 @@
 {
   "name": "UXER TESTNET NETWORK",
   "chain": "UXER",
-  "rpc": [],
+  "rpc": [
+    "https://dev-testnet.uxer.network",
+    "https://data-cloud-testnet.uxer.network"
+  ],
   "faucets": [
     "https://faucet.uxer.network"
   ],

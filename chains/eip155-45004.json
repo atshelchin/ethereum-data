@@ -1,7 +1,9 @@
 {
   "name": "Juneo DAI1-Chain",
   "chain": "Juneo DAI1-Chain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.juneo-mainnet.network/ext/bc/DAI1/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DAI1",

@@ -1,7 +1,9 @@
 {
   "name": "Integra Testnet Ormos",
   "chain": "Integra",
-  "rpc": [],
+  "rpc": [
+    "https://ormos.integralayer.com/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Integra",

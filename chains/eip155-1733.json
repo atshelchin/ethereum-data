@@ -1,7 +1,9 @@
 {
   "name": "Fuga Testnet",
   "chain": "Fuga",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.fuga.blue"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FUGA",

@@ -1,7 +1,9 @@
 {
   "name": "STB Testnet",
   "chain": "STB Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.quorum.sps.dev.kode.ru/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "STB",

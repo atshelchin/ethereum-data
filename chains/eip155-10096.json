@@ -1,7 +1,9 @@
 {
   "name": "MetaNova Verse",
   "chain": "MNV",
-  "rpc": [],
+  "rpc": [
+    "https://web3.metanovaverse.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "MNV",

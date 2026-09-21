@@ -1,7 +1,9 @@
 {
   "name": "Plian Mainnet Subchain 1",
   "chain": "Plian",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.plian.io/child_0"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Plian Token",

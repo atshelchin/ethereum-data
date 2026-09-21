@@ -1,7 +1,9 @@
 {
   "name": "R5 Network Testnet",
   "chain": "r5testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.r5.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Test R5",

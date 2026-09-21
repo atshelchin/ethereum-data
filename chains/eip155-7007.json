@@ -1,7 +1,9 @@
 {
   "name": "BST Chain",
   "chain": "BSTC",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.bstchain.io/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BST Chain",

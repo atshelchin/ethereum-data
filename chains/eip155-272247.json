@@ -1,7 +1,9 @@
 {
   "name": "Nxy Area 51",
   "chain": "NXY",
-  "rpc": [],
+  "rpc": [
+    "https://nxy.social/testnet"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Nxy",

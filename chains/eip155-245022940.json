@@ -2,7 +2,9 @@
   "name": "Neon EVM TestNet",
   "status": "deprecated",
   "chain": "Solana",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.neonevm.org"
+  ],
   "faucets": [],
   "icon": "neon",
   "nativeCurrency": {

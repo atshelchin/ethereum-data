@@ -1,7 +1,9 @@
 {
   "name": "Musicoin",
   "chain": "MUSIC",
-  "rpc": [],
+  "rpc": [
+    "https://mewapi.musicoin.tw"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Musicoin",

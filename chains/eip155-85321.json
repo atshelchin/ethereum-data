@@ -1,7 +1,9 @@
 {
   "name": "GDPR Testnet",
   "chain": "GDPR",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.gdprchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GDPR",

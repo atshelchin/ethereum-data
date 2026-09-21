@@ -3,7 +3,8 @@
   "chain": "DLT",
   "icon": "dilithium3",
   "rpc": [
-    "wss://ws-testnet.dilithium3.com"
+    "wss://ws-testnet.dilithium3.com",
+    "https://rpc-testnet.dilithium3.com"
   ],
   "faucets": [
     "https://faucet-testnet.dilithium3.com"

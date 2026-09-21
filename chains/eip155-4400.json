@@ -1,7 +1,9 @@
 {
   "name": "Credit Smart Chain Mainnet",
   "chain": "CREDIT",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.creditsmartchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Credit",

@@ -2,7 +2,8 @@
   "name": "PlatON Dev Testnet2",
   "chain": "PlatON",
   "rpc": [
-    "wss://devnet2openapi.platon.network/ws"
+    "wss://devnet2openapi.platon.network/ws",
+    "https://devnet2openapi.platon.network/rpc"
   ],
   "faucets": [
     "https://devnet2faucet.platon.network/faucet"

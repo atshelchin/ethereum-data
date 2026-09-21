@@ -1,7 +1,9 @@
 {
   "name": "Star Social Testnet",
   "chain": "SNS",
-  "rpc": [],
+  "rpc": [
+    "https://avastar.cc/ext/bc/C/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Social",

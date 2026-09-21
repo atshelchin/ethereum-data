@@ -2,7 +2,8 @@
   "name": "Titan Sepolia",
   "chain": "ETH",
   "rpc": [
-    "wss://rpc.titan-sepolia.tokamak.network/ws"
+    "wss://rpc.titan-sepolia.tokamak.network/ws",
+    "https://rpc.titan-sepolia.tokamak.network"
   ],
   "faucets": [],
   "nativeCurrency": {

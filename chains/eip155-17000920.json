@@ -1,7 +1,9 @@
 {
   "name": "Lambda Chain Testnet",
   "chain": "Lambda Chain",
-  "rpc": [],
+  "rpc": [
+    "https://testnrpc.lambda.im/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",

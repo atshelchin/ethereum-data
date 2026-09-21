@@ -1,7 +1,9 @@
 {
   "name": "Lumoz Chain Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.lumoz.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Lumoz Testnet Token",

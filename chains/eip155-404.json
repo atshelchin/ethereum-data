@@ -7,7 +7,8 @@
   "networkId": 404,
   "icon": "syndr",
   "rpc": [
-    "wss://rpc.syndr.com/ws"
+    "wss://rpc.syndr.com/ws",
+    "https://rpc.syndr.com"
   ],
   "faucets": [],
   "nativeCurrency": {

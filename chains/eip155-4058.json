@@ -3,7 +3,9 @@
   "title": "Bahamut ocean",
   "chain": "Bahamut",
   "icon": "bahamut",
-  "rpc": [],
+  "rpc": [
+    "https://rpc1.ocean.bahamutchain.com"
+  ],
   "features": [
     {
       "name": "EIP155"

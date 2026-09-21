@@ -1,7 +1,9 @@
 {
   "name": "Vecno Mainnet",
   "chain": "VE",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.vecno.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Vecno",

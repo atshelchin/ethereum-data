@@ -1,7 +1,9 @@
 {
   "name": "Ozone Chain Testnet",
   "chain": "OZONE",
-  "rpc": [],
+  "rpc": [
+    "https://node2.testnet.ozonechain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OZONE",

@@ -2,7 +2,9 @@
   "name": "Nexis Network Testnet",
   "chain": "Nexis Network",
   "icon": "nexis",
-  "rpc": [],
+  "rpc": [
+    "https://evm-testnet.nexis.network"
+  ],
   "faucets": [
     "https://evm-faucet.nexis.network"
   ],

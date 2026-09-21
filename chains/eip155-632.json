@@ -1,7 +1,9 @@
 {
   "name": "NFB Chain",
   "chain": "NFB Chain",
-  "rpc": [],
+  "rpc": [
+    "https://node.nfbchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "NFBCoin",

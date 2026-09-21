@@ -8,7 +8,10 @@
     "wss://ws_evm-mezo.imperator.co",
     "wss://rpc-ws.mezo.boar.network",
     "wss://mainnet.mezo.public.validationcloud.io",
-    "wss://rpc-ws-internal.mezo.org"
+    "wss://rpc-ws-internal.mezo.org",
+    "https://rpc_evm-mezo.imperator.co",
+    "https://mezo-mainnet.boar.network",
+    "wss://mezo-mainnet.boar.network"
   ],
   "faucets": [],
   "nativeCurrency": {

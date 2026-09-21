@@ -1,7 +1,9 @@
 {
   "name": "GoldXChain Testnet",
   "chain": "GoldXTestnet",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.goldxchain.io"
+  ],
   "faucets": [
     "https://faucet.goldxchain.io"
   ],

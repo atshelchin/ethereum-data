@@ -3,7 +3,9 @@
   "chain": "Bobafuji Testnet",
   "status": "deprecated",
   "rpc": [
-    "wss://wss.testnet.avax.boba.network"
+    "wss://wss.testnet.avax.boba.network",
+    "https://testnet.avax.boba.network",
+    "https://replica.testnet.avax.boba.network"
   ],
   "faucets": [],
   "nativeCurrency": {

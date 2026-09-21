@@ -2,7 +2,9 @@
   "name": "Zytron Linea Mainnet",
   "chain": "ETH",
   "icon": "zytron",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.zypher.network/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",

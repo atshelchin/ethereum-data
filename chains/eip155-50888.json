@@ -1,7 +1,9 @@
 {
   "name": "Erbie Mainnet",
   "chain": "Erbie",
-  "rpc": [],
+  "rpc": [
+    "https://api.erbie.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ERB",

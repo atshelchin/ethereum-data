@@ -2,7 +2,9 @@
   "status": "deprecated",
   "name": "Santiment Intelligence Network DEPRECATED",
   "chain": "Santiment Intelligence Network DEPRECATED",
-  "rpc": [],
+  "rpc": [
+    "https://sanrchain-node.santiment.net"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "SANold",

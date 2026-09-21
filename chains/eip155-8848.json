@@ -2,7 +2,9 @@
   "name": "MARO Blockchain Mainnet",
   "chain": "MARO Blockchain",
   "icon": "MARO",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-mainnet.ma.ro"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "MARO",

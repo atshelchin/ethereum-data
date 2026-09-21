@@ -2,7 +2,9 @@
   "name": "PublicMint Devnet",
   "title": "Public Mint Devnet",
   "chain": "PublicMint",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.dev.publicmint.io:8545"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "USD",

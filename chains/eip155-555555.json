@@ -1,7 +1,9 @@
 {
   "name": "Pentagon Testnet",
   "chain": "Pentagon",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.pentagon.games"
+  ],
   "faucets": [
     "https://bridge-testnet.pentagon.games"
   ],

@@ -1,7 +1,9 @@
 {
   "name": "Sanko",
   "chain": "Sanko",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.sanko.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DMT",

@@ -3,7 +3,8 @@
   "chain": "Volcano",
   "icon": "volcano",
   "rpc": [
-    "wss://wss.mainnet.vchain.pro"
+    "wss://wss.mainnet.vchain.pro",
+    "https://mainnet.vchain.pro"
   ],
   "features": [
     {

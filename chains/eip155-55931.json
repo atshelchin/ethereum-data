@@ -3,7 +3,8 @@
   "chain": "datahaven-testnet",
   "icon": "datahaven-testnet",
   "rpc": [
-    "wss://services.datahaven-testnet.network/testnet"
+    "wss://services.datahaven-testnet.network/testnet",
+    "https://services.datahaven-testnet.network/testnet"
   ],
   "faucets": [
     "https://apps.datahaven.xyz/faucet"

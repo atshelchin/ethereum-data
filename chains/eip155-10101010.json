@@ -2,7 +2,9 @@
   "name": "Soverun Mainnet",
   "chain": "SVRN",
   "icon": "soverun",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc.soverun.com"
+  ],
   "faucets": [
     "https://faucet.soverun.com"
   ],

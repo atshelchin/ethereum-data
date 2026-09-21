@@ -2,7 +2,9 @@
   "name": "DM2 Verse Testnet",
   "chain": "DM2 Verse",
   "icon": "dm2verse",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.dm2verse.dmm.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",

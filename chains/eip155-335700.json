@@ -3,7 +3,8 @@
   "chain": "Scenium",
   "icon": "scenium",
   "rpc": [
-    "wss://services.tanssi-mainnet.network/tanssi-2004"
+    "wss://services.tanssi-mainnet.network/tanssi-2004",
+    "https://services.tanssi-mainnet.network/tanssi-2004"
   ],
   "faucets": [],
   "nativeCurrency": {

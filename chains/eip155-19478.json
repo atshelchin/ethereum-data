@@ -19,7 +19,9 @@
     "symbol": "TC",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": [
+    "https://rpc.trustivon.com"
+  ],
   "faucets": [
     "https://faucet.trustivon.com"
   ],

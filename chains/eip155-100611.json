@@ -1,7 +1,9 @@
 {
   "name": "Monsoon Alpha",
   "chain": "MONSOON ALPHA",
-  "rpc": [],
+  "rpc": [
+    "https://alpha.monsoon.rainfall.one"
+  ],
   "features": [
     {
       "name": "EIP155"

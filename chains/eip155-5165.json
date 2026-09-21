@@ -8,7 +8,10 @@
     "https://rpc2.bahamut.io",
     "wss://ws1.sahara.bahamutchain.com",
     "wss://ws2.sahara.bahamutchain.com",
-    "wss://bahamut-rpc.publicnode.com"
+    "wss://bahamut-rpc.publicnode.com",
+    "https://rpc1.ftnscan.io",
+    "https://rpc2.ftnscan.io",
+    "https://bahamut-rpc.publicnode.com"
   ],
   "features": [
     {

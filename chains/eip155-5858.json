@@ -1,7 +1,9 @@
 {
   "name": "Chang Chain Foundation Mainnet",
   "chain": "ChangChain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.cthscan.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Chang Coin Thailand",

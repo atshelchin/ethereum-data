@@ -1,7 +1,9 @@
 {
   "name": "Redlight Chain Mainnet",
   "chain": "REDLC",
-  "rpc": [],
+  "rpc": [
+    "https://dataseed2.redlightscan.finance"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Redlight Coin",

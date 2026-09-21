@@ -2,7 +2,9 @@
   "name": "Botanix Testnet",
   "chain": "BOTANIX",
   "icon": "botanix",
-  "rpc": [],
+  "rpc": [
+    "https://node.botanixlabs.dev"
+  ],
   "faucets": [
     "https://faucet.botanixlabs.dev"
   ],

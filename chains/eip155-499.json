@@ -1,7 +1,9 @@
 {
   "name": "Rupaya",
   "chain": "RUPX",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.rupaya.io"
+  ],
   "faucets": [
     "https://faucet.rupaya.io"
   ],

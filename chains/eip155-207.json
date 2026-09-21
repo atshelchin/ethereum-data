@@ -1,7 +1,10 @@
 {
   "name": "VinuChain Network",
   "chain": "VinuChain",
-  "rpc": ["https://vinuchain-rpc.com"],
+  "rpc": [
+    "https://vinuchain-rpc.com",
+    "https://rpc.vinuchain.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "VinuChain",

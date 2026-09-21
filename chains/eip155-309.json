@@ -1,7 +1,9 @@
 {
   "name": "Wyzth Testnet",
   "chain": "WYZ",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet3.wyzthchain.org/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Wyzth",

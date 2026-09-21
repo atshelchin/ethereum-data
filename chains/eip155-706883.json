@@ -1,7 +1,9 @@
 {
   "name": "Fidesinnova",
   "chain": "Fidesinnova",
-  "rpc": [],
+  "rpc": [
+    "https://rpc1.fidesinnova.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Fidesinnova",

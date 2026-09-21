@@ -2,7 +2,9 @@
   "name": "Evoke Testnet",
   "chain": "Evoke",
   "icon": "mthn",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.evokescan.org"
+  ],
   "faucets": [
     "https://faucet.evokescan.org"
   ],

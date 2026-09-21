@@ -1,7 +1,9 @@
 {
   "name": "Tabi Testnetv2",
   "chain": "TabiNetworkv2",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnetv2.tabichain.com"
+  ],
   "faucets": [
     "https://carnival.tabichain.com"
   ],

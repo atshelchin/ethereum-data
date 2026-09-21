@@ -1,7 +1,9 @@
 {
   "name": "Shrapnel Subnet",
   "chain": "shrapnel",
-  "rpc": [],
+  "rpc": [
+    "https://subnets.avax.network/shrapnel/mainnet/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Shrapnel Gas Token",

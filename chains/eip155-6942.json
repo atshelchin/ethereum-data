@@ -1,7 +1,9 @@
 {
   "name": "Laika Mainnet",
   "chain": "LAIKA",
-  "rpc": [],
+  "rpc": [
+    "https://mainnetrpc.laikachain.dog"
+  ],
   "faucets": [
     "https://laikachain.dog/faucets"
   ],

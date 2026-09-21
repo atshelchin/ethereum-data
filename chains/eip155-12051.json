@@ -1,7 +1,9 @@
 {
   "name": "Singularity ZERO Testnet",
   "chain": "ZERO",
-  "rpc": [],
+  "rpc": [
+    "https://betaenv.singularity.gold:18545"
+  ],
   "faucets": [
     "https://nft.singularity.gold"
   ],

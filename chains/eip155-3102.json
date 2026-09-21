@@ -2,7 +2,8 @@
   "name": "Vulture EVM Beta",
   "chain": "VFIEVMCC",
   "rpc": [
-    "wss://fraa-dancebox-3050-rpc.a.dancebox.tanssi.network"
+    "wss://fraa-dancebox-3050-rpc.a.dancebox.tanssi.network",
+    "https://fraa-dancebox-3050-rpc.a.dancebox.tanssi.network"
   ],
   "faucets": [],
   "nativeCurrency": {

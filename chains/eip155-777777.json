@@ -1,7 +1,9 @@
 {
   "name": "Winr Protocol Mainnet",
   "chain": "WINR",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.winr.games"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Winr",

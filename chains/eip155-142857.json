@@ -2,7 +2,9 @@
   "name": "ICPlaza Mainnet",
   "chain": "ICPlaza",
   "icon": "icplaza",
-  "rpc": [],
+  "rpc": [
+    "https://rpcmainnet.ic-plaza.org/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ict",

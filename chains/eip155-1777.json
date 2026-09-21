@@ -2,7 +2,9 @@
   "name": "Gauss Mainnet",
   "chain": "Gauss",
   "icon": "gauss",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.gaussgang.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GANG",

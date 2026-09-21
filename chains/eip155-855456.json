@@ -2,7 +2,8 @@
   "name": "Dodao",
   "chain": "EVMCC",
   "rpc": [
-    "wss://fraa-flashbox-4643-rpc.a.stagenet.tanssi.network"
+    "wss://fraa-flashbox-4643-rpc.a.stagenet.tanssi.network",
+    "https://fraa-flashbox-4643-rpc.a.stagenet.tanssi.network"
   ],
   "faucets": [],
   "nativeCurrency": {

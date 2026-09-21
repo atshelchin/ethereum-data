@@ -1,7 +1,9 @@
 {
   "name": "Fluent Developer Preview",
   "chain": "Fluent",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.dev.gblend.xyz"
+  ],
   "faucets": [
     "https://faucet.dev.gblend.xyz"
   ],

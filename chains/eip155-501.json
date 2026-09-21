@@ -1,7 +1,9 @@
 {
   "name": "Columbus Test Network",
   "chain": "CAM",
-  "rpc": [],
+  "rpc": [
+    "https://columbus.camino.network/ext/bc/C/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Camino",

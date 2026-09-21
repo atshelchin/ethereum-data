@@ -1,7 +1,9 @@
 {
   "name": "TOOL Global Testnet",
   "chain": "OLO",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-web3.wolot.io"
+  ],
   "faucets": [
     "https://testnet-explorer.wolot.io"
   ],

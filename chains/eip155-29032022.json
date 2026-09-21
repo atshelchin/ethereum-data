@@ -2,7 +2,9 @@
   "name": "Flachain Mainnet",
   "chain": "FLX",
   "icon": "flacoin",
-  "rpc": [],
+  "rpc": [
+    "https://flachain.flaexchange.top/"
+  ],
   "features": [
     {
       "name": "EIP155"

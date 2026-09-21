@@ -2,7 +2,10 @@
   "name": "Firechain zkEVM Ghostrider",
   "title": "Firechain zkEVM Testnet",
   "chain": "Firechain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-zkevm-ghostrider.thefirechain.com",
+    "https://rpc-zkevm-ghostrider.firestation.io"
+  ],
   "faucets": [
     "zkevm-faucet.thefirechain.com",
     "https://zkevm-faucet.firestation.io"

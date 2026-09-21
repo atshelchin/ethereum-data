@@ -3,7 +3,8 @@
   "chain": "milkAda",
   "icon": "milkomeda",
   "rpc": [
-    "wss://rpc-mainnet-cardano-evm.c1.milkomeda.com"
+    "wss://rpc-mainnet-cardano-evm.c1.milkomeda.com",
+    "https://rpc-mainnet-cardano-evm.c1.milkomeda.com"
   ],
   "faucets": [],
   "nativeCurrency": {

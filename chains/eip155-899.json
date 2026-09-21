@@ -1,7 +1,9 @@
 {
   "name": "MAXI Chain Mainnet",
   "chain": "MAXI",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.maxi.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "MAXI GAS",

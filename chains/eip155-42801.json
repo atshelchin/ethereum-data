@@ -1,7 +1,9 @@
 {
   "name": "Gesoten Verse Testnet",
   "chain": "Gesoten Verse",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.verse.gesoten.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",

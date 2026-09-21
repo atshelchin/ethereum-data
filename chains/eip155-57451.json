@@ -3,7 +3,9 @@
   "title": "COINSEC Network",
   "chain": "coinsecnetwork",
   "icon": "coinsec",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc.coinsec.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "COINSEC",

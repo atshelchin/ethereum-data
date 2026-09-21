@@ -1,7 +1,9 @@
 {
   "name": "RSS3 VSL Sepolia Testnet",
   "chain": "RSS3",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.rss3.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "RSS3",

@@ -3,7 +3,8 @@
   "chain": "Aleph Zero EVM",
   "icon": "aleph-zero",
   "rpc": [
-    "wss://ws.alephzero.raas.gelato.cloud"
+    "wss://ws.alephzero.raas.gelato.cloud",
+    "https://rpc.alephzero.raas.gelato.cloud"
   ],
   "faucets": [],
   "nativeCurrency": {

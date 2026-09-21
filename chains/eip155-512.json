@@ -1,7 +1,9 @@
 {
   "name": "Double-A Chain Mainnet",
   "chain": "AAC",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.acuteangle.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Acuteangle Native Token",

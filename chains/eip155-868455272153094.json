@@ -1,7 +1,9 @@
 {
   "name": "Godwoken Testnet (V1)",
   "chain": "GWT",
-  "rpc": [],
+  "rpc": [
+    "https://godwoken-testnet-web3-v1-rpc.ckbapp.dev"
+  ],
   "faucets": [
     "https://homura.github.io/light-godwoken"
   ],

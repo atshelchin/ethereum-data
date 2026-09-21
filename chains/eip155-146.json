@@ -7,7 +7,8 @@
     "https://sonic.api.pocket.network",
     "https://rpc.soniclabs.com",
     "https://sonic.api.onfinality.io/public",
-    "wss://sonic-rpc.publicnode.com"
+    "wss://sonic-rpc.publicnode.com",
+    "wss://sonic.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

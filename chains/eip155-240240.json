@@ -3,7 +3,8 @@
   "chain": "STO",
   "icon": "studio",
   "rpc": [
-    "wss://ws.studio-blockchain.com"
+    "wss://ws.studio-blockchain.com",
+    "https://rpc.studio-blockchain.com"
   ],
   "faucets": [],
   "nativeCurrency": {

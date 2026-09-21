@@ -1,7 +1,9 @@
 {
   "name": "R5 Network",
   "chain": "r5",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.r5.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "R5",

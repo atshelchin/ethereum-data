@@ -1,7 +1,9 @@
 {
   "name": "Polynomial Sepolia",
   "chain": "polynomialSepolia",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.sepolia.polynomial.fi"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

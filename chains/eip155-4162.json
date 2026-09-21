@@ -2,7 +2,9 @@
   "name": "SX Rollup",
   "chain": "SX",
   "icon": "SX",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.sx-rollup.gelato.digital"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "SX Network",

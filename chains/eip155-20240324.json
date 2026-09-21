@@ -1,7 +1,9 @@
 {
   "name": "DeBank Sepolia Testnet",
   "chain": "DeBank",
-  "rpc": [],
+  "rpc": [
+    "https://sepolia-rpc.testnet.debank.com"
+  ],
   "faucets": [],
   "icon": "debank",
   "nativeCurrency": {

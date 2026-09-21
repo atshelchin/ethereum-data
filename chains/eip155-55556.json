@@ -2,7 +2,9 @@
   "name": "REI Chain Testnet",
   "chain": "REI",
   "icon": "reichain",
-  "rpc": [],
+  "rpc": [
+    "https://rei-testnet-rpc.moonrhythm.io"
+  ],
   "faucets": [
     "http://kururu.finance/faucet?chainId=55556"
   ],

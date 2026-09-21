@@ -9,7 +9,8 @@
     "https://poly-amoy-testnet.api.pocket.network",
     "https://polygon-amoy-bor-rpc.publicnode.com",
     "https://polygon-amoy.api.onfinality.io/public",
-    "wss://polygon-amoy-bor-rpc.publicnode.com"
+    "wss://polygon-amoy-bor-rpc.publicnode.com",
+    "https://rpc.satelink.network/rpc/amoy"
   ],
   "faucets": [
     "https://faucet.polygon.technology/"

@@ -1,7 +1,9 @@
 {
   "name": "HOO Smart Chain Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://http-testnet.hoosmartchain.com"
+  ],
   "faucets": [
     "https://faucet-testnet.hscscan.com/"
   ],

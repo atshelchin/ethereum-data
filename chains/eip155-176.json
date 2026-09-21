@@ -3,7 +3,8 @@
   "chain": "dcchain",
   "icon": "dcchain",
   "rpc": [
-    "wss://ws.dcnetio.cloud"
+    "wss://ws.dcnetio.cloud",
+    "https://rpc.dcnetio.cloud"
   ],
   "faucets": [],
   "nativeCurrency": {

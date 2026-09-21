@@ -1,7 +1,10 @@
 {
   "name": "Imversed Testnet",
   "chain": "Imversed",
-  "rpc": [],
+  "rpc": [
+    "https://jsonrpc-test.imversed.network",
+    "https://ws-jsonrpc-test.imversed.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Imversed Token",

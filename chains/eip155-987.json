@@ -2,7 +2,9 @@
   "name": "BinaryChain Mainnet",
   "chain": "BinaryChain",
   "icon": "binary",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.binarychain.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BINARY",

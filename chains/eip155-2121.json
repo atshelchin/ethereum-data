@@ -1,7 +1,9 @@
 {
   "name": "Catena Mainnet",
   "chain": "CMCX",
-  "rpc": [],
+  "rpc": [
+    "https://rpc1.catenarpc.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Catena",

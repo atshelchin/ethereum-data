@@ -1,7 +1,9 @@
 {
   "name": "OKExChain Testnet",
   "chain": "okexchain",
-  "rpc": [],
+  "rpc": [
+    "https://exchaintestrpc.okex.org"
+  ],
   "faucets": [
     "https://www.okex.com/drawdex"
   ],

@@ -2,7 +2,9 @@
   "name": "LACHAIN Testnet",
   "chain": "TLA",
   "icon": "lachain-io",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.lachain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TLA",

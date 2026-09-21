@@ -1,7 +1,9 @@
 {
   "name": "BattleChain Mainnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.battlechain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -18,6 +20,10 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": [{ "url": "https://portal.battlechain.com/bridge" }]
+    "bridges": [
+      {
+        "url": "https://portal.battlechain.com/bridge"
+      }
+    ]
   }
 }

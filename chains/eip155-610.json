@@ -1,7 +1,9 @@
 {
   "name": "Darwin Devnet",
   "chain": "Darwin",
-  "rpc": [],
+  "rpc": [
+    "https://devnet-rpc.darwinchain.ai"
+  ],
   "faucets": [
     "https://devnet-rpc.darwinchain.ai/faucet"
   ],

@@ -2,7 +2,9 @@
   "name": "OneLedger Testnet Frankenstein",
   "chain": "OLT",
   "icon": "oneledger",
-  "rpc": [],
+  "rpc": [
+    "https://frankenstein-rpc.oneledger.network"
+  ],
   "faucets": [
     "https://frankenstein-faucet.oneledger.network"
   ],

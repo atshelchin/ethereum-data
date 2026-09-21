@@ -1,7 +1,9 @@
 {
   "name": "Humans.ai Testnet",
   "chain": "Humans Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://evm-rpc.testnet.humans.zone"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "HEART",

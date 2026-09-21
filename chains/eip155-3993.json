@@ -1,7 +1,9 @@
 {
   "name": "APEX Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.apexlayer.xyz"
+  ],
   "faucets": [
     "https://sepoliafaucet.com/"
   ],

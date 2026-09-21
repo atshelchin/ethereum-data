@@ -1,7 +1,9 @@
 {
   "name": "Htmlcoin Mainnet",
   "chain": "mainnet",
-  "rpc": [],
+  "rpc": [
+    "https://janus.htmlcoin.com/api/"
+  ],
   "faucets": [
     "https://gruvin.me/htmlcoin"
   ],

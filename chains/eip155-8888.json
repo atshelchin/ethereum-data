@@ -1,7 +1,10 @@
 {
   "name": "XANAChain",
   "chain": "XANAChain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.c8ntinuum.com",
+    "https://rpc-testnet.c8ntinuum.link"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "XETA",

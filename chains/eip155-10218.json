@@ -1,7 +1,9 @@
 {
   "name": "Tea Sepolia Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://tea-sepolia.g.alchemy.com/public"
+  ],
   "faucets": [
     "https://faucet-sepolia.tea.xyz"
   ],

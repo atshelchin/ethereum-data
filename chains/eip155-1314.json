@@ -1,7 +1,9 @@
 {
   "name": "Alyx Mainnet",
   "chain": "ALYX",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.alyxchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Alyx Chain Native Token",

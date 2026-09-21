@@ -2,7 +2,8 @@
   "name": "BSL Mainnet",
   "chain": "BSL",
   "rpc": [
-    "ws://rpc-mainnet.nftruth.io:8645"
+    "ws://rpc-mainnet.nftruth.io:8645",
+    "http://rpc-mainnet.nftruth.io:8545"
   ],
   "faucets": [],
   "nativeCurrency": {

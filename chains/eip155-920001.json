@@ -1,7 +1,9 @@
 {
   "name": "Posichain Devnet Shard 1",
   "chain": "PSC",
-  "rpc": [],
+  "rpc": [
+    "https://api.s1.d.posichain.org"
+  ],
   "faucets": [
     "https://faucet.posichain.org/"
   ],

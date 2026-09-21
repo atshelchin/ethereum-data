@@ -1,7 +1,9 @@
 {
   "name": "WebChain ETK",
   "chain": "WVM",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.webchain.e-talk.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETK",

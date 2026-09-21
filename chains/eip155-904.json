@@ -2,8 +2,17 @@
   "name": "Ault Blockchain Mainnet",
   "chain": "AULT",
   "icon": "ault",
-  "rpc": [],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://main-json-rpc.cloud.aultblockchain.xyz"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "AULT Token",

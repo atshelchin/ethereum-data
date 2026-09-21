@@ -11,7 +11,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": [
+    "https://api.sepolia-deprecated.kroma.network"
+  ],
   "faucets": [],
   "infoURL": "https://kroma.network",
   "icon": "kroma",

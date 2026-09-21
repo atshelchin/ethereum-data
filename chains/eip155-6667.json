@@ -1,7 +1,9 @@
 {
   "name": "Storchain",
   "chain": "STR",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.storchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Storchain",

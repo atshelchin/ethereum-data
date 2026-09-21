@@ -3,7 +3,9 @@
   "chain": "Cyber",
   "rpc": [
     "wss://cyber-testnet.alt.technology/ws",
-    "wss://rpc.testnet.cyber.co/"
+    "wss://rpc.testnet.cyber.co/",
+    "https://cyber-testnet.alt.technology/",
+    "https://rpc.testnet.cyber.co/"
   ],
   "faucets": [],
   "nativeCurrency": {

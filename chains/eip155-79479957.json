@@ -2,7 +2,9 @@
   "name": "SX Toronto Rollup",
   "chain": "SX",
   "icon": "SX",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.sx-rollup-testnet.t.raas.gelato.cloud"
+  ],
   "faucets": [
     "https://faucet.toronto.sx.technology"
   ],

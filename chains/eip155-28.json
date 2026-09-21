@@ -2,7 +2,9 @@
   "name": "Boba Network Rinkeby Testnet",
   "chain": "ETH",
   "status": "deprecated",
-  "rpc": [],
+  "rpc": [
+    "https://rinkeby.boba.network/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

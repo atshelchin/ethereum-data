@@ -2,7 +2,9 @@
   "name": "Aternos",
   "chain": "Aternos",
   "icon": "aternos",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.aternoschain.com"
+  ],
   "faucets": [
     "https://faucet.aternoschain.com"
   ],

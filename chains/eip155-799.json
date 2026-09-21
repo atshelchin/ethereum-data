@@ -1,7 +1,9 @@
 {
   "name": "Rupaya Testnet",
   "chain": "Rupaya Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.rupaya.io"
+  ],
   "faucets": [
     "https://faucet.testnet.rupaya.io"
   ],

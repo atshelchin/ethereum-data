@@ -2,7 +2,12 @@
   "name": "Sapphire by Unique",
   "icon": "sapphire",
   "chain": "UNQ",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-sapphire.unique.network",
+    "https://us-rpc-sapphire.unique.network",
+    "https://eu-rpc-sapphire.unique.network",
+    "https://asia-rpc-sapphire.unique.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Quartz",

@@ -7,7 +7,12 @@
     "wss://edgeware-rpc0.jelliedowl.net",
     "wss://edgeware-rpc1.jelliedowl.net",
     "wss://edgeware-rpc2.jelliedowl.net",
-    "wss://edgeware-rpc3.jelliedowl.net"
+    "wss://edgeware-rpc3.jelliedowl.net",
+    "https://edgeware-evm.jelliedowl.net",
+    "https://edgeware-evm0.jelliedowl.net",
+    "https://edgeware-evm1.jelliedowl.net",
+    "https://edgeware-evm2.jelliedowl.net",
+    "https://edgeware-evm3.jelliedowl.net"
   ],
   "features": [
     {

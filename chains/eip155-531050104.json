@@ -2,7 +2,8 @@
   "name": "Sophon Testnet",
   "chain": "Sophon Testnet",
   "rpc": [
-    "wss://rpc.testnet.sophon.xyz/ws"
+    "wss://rpc.testnet.sophon.xyz/ws",
+    "https://rpc.testnet.sophon.xyz"
   ],
   "nativeCurrency": {
     "name": "Sophon",

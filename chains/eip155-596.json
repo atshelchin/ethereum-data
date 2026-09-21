@@ -2,7 +2,8 @@
   "name": "Karura Network Testnet",
   "chain": "KAR",
   "rpc": [
-    "wss://eth-rpc-karura-testnet.aca-staging.network"
+    "wss://eth-rpc-karura-testnet.aca-staging.network",
+    "https://eth-rpc-karura-testnet.aca-staging.network"
   ],
   "faucets": [],
   "nativeCurrency": {

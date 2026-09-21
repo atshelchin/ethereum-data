@@ -4,7 +4,8 @@
   "icon": "lachain-network",
   "rpc": [
     "https://rpc2.mainnet.lachain.network",
-    "https://rpc1.mainnet.lachain.network"
+    "https://rpc1.mainnet.lachain.network",
+    "https://lachain.rpc-nodes.cedalio.dev"
   ],
   "faucets": [],
   "nativeCurrency": {

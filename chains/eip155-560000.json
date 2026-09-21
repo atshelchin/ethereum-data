@@ -1,7 +1,9 @@
 {
   "name": "Hetu Mainnet",
   "chain": "HETU",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.va.hetu.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "HETU",

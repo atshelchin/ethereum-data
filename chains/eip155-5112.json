@@ -1,7 +1,9 @@
 {
   "name": "Ham",
   "chain": "Ham",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.ham.fun"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

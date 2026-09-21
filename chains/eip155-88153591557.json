@@ -3,7 +3,8 @@
   "title": "Arbitrum Blueberry Testnet",
   "chain": "ETH",
   "rpc": [
-    "wss://ws.arb-blueberry.gelato.digital"
+    "wss://ws.arb-blueberry.gelato.digital",
+    "https://rpc.arb-blueberry.gelato.digital"
   ],
   "faucets": [],
   "nativeCurrency": {

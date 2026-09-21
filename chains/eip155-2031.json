@@ -9,7 +9,8 @@
     "wss://fullnode.centrifuge.io",
     "wss://centrifuge-parachain.api.onfinality.io/public-ws",
     "wss://centrifuge-rpc.dwellir.com",
-    "wss://rpc-centrifuge.luckyfriday.io"
+    "wss://rpc-centrifuge.luckyfriday.io",
+    "https://centrifuge-rpc.dwellir.com"
   ],
   "features": [
     {

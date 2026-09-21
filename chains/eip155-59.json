@@ -1,7 +1,9 @@
 {
   "name": "EOS EVM Legacy",
   "chain": "EOS",
-  "rpc": [],
+  "rpc": [
+    "https://api.eosargentina.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "EOS",

@@ -2,7 +2,8 @@
   "name": "Genesis Coin",
   "chain": "Genesis",
   "rpc": [
-    "wss://genesis-gn.com"
+    "wss://genesis-gn.com",
+    "https://genesis-gn.com"
   ],
   "faucets": [],
   "nativeCurrency": {

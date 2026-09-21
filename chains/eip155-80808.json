@@ -1,7 +1,9 @@
 {
   "name": "HyperX",
   "chain": "HyperX",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.hyperx.technology"
+  ],
   "faucets": [
     "https://faucet.hyperx.technology"
   ],

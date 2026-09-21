@@ -1,7 +1,9 @@
 {
   "name": "MetaLink Network",
   "chain": "MetaLink",
-  "rpc": [],
+  "rpc": [
+    "http://77.237.237.69:9933"
+  ],
   "icon": "metaLink",
   "faucets": [],
   "shortName": "mtl",

@@ -1,7 +1,9 @@
 {
   "name": "Neon EVM Devnet Rollup",
   "chain": "Solana",
-  "rpc": [],
+  "rpc": [
+    "https://devnet.rollup.neonevm.org/"
+  ],
   "faucets": [],
   "icon": "neon",
   "nativeCurrency": {

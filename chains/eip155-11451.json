@@ -3,7 +3,8 @@
   "chain": "EGC",
   "icon": "egoldchain",
   "rpc": [
-    "wss://rpc.egoldchain.com"
+    "wss://rpc.egoldchain.com",
+    "https://rpc.egoldchain.com"
   ],
   "faucets": [],
   "nativeCurrency": {

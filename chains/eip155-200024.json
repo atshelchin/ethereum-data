@@ -1,7 +1,9 @@
 {
   "name": "NitroGraph Testnet",
   "chain": "NOS",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.nitrograph.foundation"
+  ],
   "icon": "nitrograph",
   "slip44": 1,
   "faucets": [

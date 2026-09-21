@@ -2,7 +2,9 @@
   "name": "GPT Testnet",
   "chain": "Skopje Testnet",
   "icon": "skopje-gpt",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.gptprotocol.io"
+  ],
   "faucets": [
     "https://testnet-faucet.gptprotocol.io"
   ],

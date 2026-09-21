@@ -1,7 +1,9 @@
 {
   "name": "ALDChain Testnet",
   "chain": "ALD",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.aldrickb.xyz"
+  ],
   "faucets": [
     "https://faucet.aldrickb.xyz"
   ],

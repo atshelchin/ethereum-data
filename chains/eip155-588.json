@@ -1,7 +1,9 @@
 {
   "name": "Metis Stardust Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://stardust.metis.io/?owner=588"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "tMetis",

@@ -1,7 +1,9 @@
 {
   "name": "Huddle01 dRTC Chain",
   "chain": "huddle01",
-  "rpc": [],
+  "rpc": [
+    "https://huddle01.calderachain.xyz/http"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

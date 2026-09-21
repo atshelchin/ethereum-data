@@ -1,7 +1,9 @@
 {
   "name": "Lisinski",
   "chain": "CRO",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-bitfalls1.lisinski.online"
+  ],
   "faucets": [
     "https://pipa.lisinski.online"
   ],

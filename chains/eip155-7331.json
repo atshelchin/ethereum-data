@@ -1,7 +1,10 @@
 {
   "name": "KLYNTAR",
   "chain": "KLY",
-  "rpc": [],
+  "rpc": [
+    "https://evm.klyntar.org/kly_evm_rpc",
+    "https://evm.klyntarscan.org/kly_evm_rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "KLYNTAR",

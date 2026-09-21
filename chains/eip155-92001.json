@@ -1,7 +1,9 @@
 {
   "name": "Lambda Testnet",
   "chain": "Lambda",
-  "rpc": [],
+  "rpc": [
+    "https://evm.lambda.top/"
+  ],
   "faucets": [
     "https://faucet.lambda.top"
   ],

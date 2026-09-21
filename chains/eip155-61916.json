@@ -1,7 +1,11 @@
 {
   "name": "DoKEN Super Chain Mainnet",
   "chain": "DoKEN Super Chain",
-  "rpc": [],
+  "rpc": [
+    "https://sgrpc.doken.dev",
+    "https://nyrpc.doken.dev",
+    "https://ukrpc.doken.dev"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DoKEN",

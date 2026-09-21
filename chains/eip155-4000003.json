@@ -1,7 +1,9 @@
 {
   "name": "AltLayer Zero Gas Network",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://zero.alt.technology"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ZERO",

@@ -4,7 +4,9 @@
   "chain": "Bitroot",
   "chainId": 15885,
   "networkId": 15885,
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.bitroot.co"
+  ],
   "faucets": [
     "https://faucet.bitroot.co"
   ],

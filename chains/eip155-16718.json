@@ -2,7 +2,9 @@
   "name": "AirDAO Mainnet",
   "chain": "ambnet",
   "icon": "airdao",
-  "rpc": [],
+  "rpc": [
+    "https://network.ambrosus.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Amber",

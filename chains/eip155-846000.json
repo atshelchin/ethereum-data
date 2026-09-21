@@ -1,7 +1,9 @@
 {
   "name": "4GoodNetwork",
   "chain": "4GN",
-  "rpc": [],
+  "rpc": [
+    "https://chain.deptofgood.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "APTA",

@@ -3,7 +3,8 @@
   "chain": "milkALGO",
   "icon": "milkomeda",
   "rpc": [
-    "wss://rpc-mainnet-algorand-rollup.a1.milkomeda.com/ws"
+    "wss://rpc-mainnet-algorand-rollup.a1.milkomeda.com/ws",
+    "https://rpc-mainnet-algorand-rollup.a1.milkomeda.com"
   ],
   "faucets": [],
   "nativeCurrency": {

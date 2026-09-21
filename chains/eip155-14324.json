@@ -2,7 +2,9 @@
   "name": "EVOLVE Testnet",
   "chain": "EVO",
   "icon": "evolveIcon",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.evolveblockchain.io"
+  ],
   "faucets": [
     "https://faucet.evolveblockchain.io"
   ],

@@ -1,7 +1,9 @@
 {
   "name": "Sports Chain Network",
   "chain": "SCN",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.sportschainnetwork.xyz/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "SCN",

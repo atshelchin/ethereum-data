@@ -1,7 +1,9 @@
 {
   "name": "Xterio Chain (ETH)",
   "chain": "Xterio",
-  "rpc": [],
+  "rpc": [
+    "https://xterio-eth.alt.technology"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",

@@ -1,7 +1,9 @@
 {
   "name": "QuarkChain L2 Testnet",
   "chain": "QuarkChain",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-l2-ethapi.quarkchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "QKC",

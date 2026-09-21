@@ -2,7 +2,9 @@
   "name": "Kinto Testnet",
   "title": "Kinto Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "http://35.215.120.180:8545"
+  ],
   "features": [
     {
       "name": "EIP155"

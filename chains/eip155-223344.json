@@ -1,7 +1,9 @@
 {
   "name": "B20 Testnet",
   "chain": "B20",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.beonescan.com"
+  ],
   "faucets": [
     "https://faucet.beonechain.com/"
   ],

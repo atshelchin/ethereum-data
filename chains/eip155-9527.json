@@ -2,7 +2,9 @@
   "name": "Rangers Protocol Testnet Robin",
   "chain": "Rangers",
   "icon": "rangers",
-  "rpc": [],
+  "rpc": [
+    "https://robin.rangersprotocol.com/api/jsonrpc"
+  ],
   "faucets": [
     "https://robin-faucet.rangersprotocol.com"
   ],

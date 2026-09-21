@@ -1,7 +1,9 @@
 {
   "name": "Pundi AIFX Omnilayer Testnet",
   "chain": "PUNDIAI",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-fx-json-web3.functionx.io:8545"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Pundi AIFX",

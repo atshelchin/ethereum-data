@@ -1,7 +1,9 @@
 {
   "name": "Ferrum Testnet",
   "chain": "tFRM",
-  "rpc": [],
+  "rpc": [
+    "http://testnet.dev.svcs.ferrumnetwork.io:9933"
+  ],
   "faucets": [
     "https://testnet.faucet.ferrumnetwork.io"
   ],

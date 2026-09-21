@@ -2,7 +2,9 @@
   "name": "Ebi Chain",
   "title": "Ebi Chain",
   "chain": "Ebi",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.ebi.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

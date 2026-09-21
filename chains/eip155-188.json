@@ -1,7 +1,9 @@
 {
   "name": "BMC Mainnet",
   "chain": "BMC",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.bmcchain.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTM",

@@ -1,7 +1,9 @@
 {
   "name": "Rome Devnet Subura",
   "chain": "ROME",
-  "rpc": [],
+  "rpc": [
+    "https://subura.devnet.romeprotocol.xyz"
+  ],
   "faucets": [
     "https://deposit.devnet.romeprotocol.xyz"
   ],

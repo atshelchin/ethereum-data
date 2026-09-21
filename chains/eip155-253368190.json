@@ -1,7 +1,9 @@
 {
   "name": "Flame",
   "chain": "Flame",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.flame.astria.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TIA",

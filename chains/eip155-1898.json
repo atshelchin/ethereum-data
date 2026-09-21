@@ -2,7 +2,8 @@
   "name": "BON Network",
   "chain": "BON",
   "rpc": [
-    "ws://rpc.boyanet.org:8546"
+    "ws://rpc.boyanet.org:8546",
+    "http://rpc.boyanet.org:8545"
   ],
   "faucets": [],
   "nativeCurrency": {

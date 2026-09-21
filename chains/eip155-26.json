@@ -1,7 +1,9 @@
 {
   "name": "Genesis L1 testnet",
   "chain": "genesis",
-  "rpc": [],
+  "rpc": [
+    "https://testrpc.genesisl1.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "L1 testcoin",

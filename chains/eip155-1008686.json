@@ -2,7 +2,8 @@
   "name": "Naga Testnet",
   "chain": "Naga",
   "rpc": [
-    "wss://rpc.nagafintech.com"
+    "wss://rpc.nagafintech.com",
+    "https://rpc.nagafintech.com"
   ],
   "faucets": [],
   "nativeCurrency": {

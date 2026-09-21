@@ -1,7 +1,9 @@
 {
   "name": "Evanesco Testnet",
   "chain": "Evanesco Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://seed5.evanesco.org:8547"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "AVIS",

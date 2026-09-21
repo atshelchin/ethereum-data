@@ -1,7 +1,9 @@
 {
   "name": "Artela Testnet",
   "chain": "Artela",
-  "rpc": [],
+  "rpc": [
+    "https://betanet-rpc1.artela.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ART",

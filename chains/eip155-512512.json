@@ -2,7 +2,8 @@
   "name": "CMP-Testnet",
   "chain": "CMP",
   "rpc": [
-    "wss://galaxy.block.caduceus.foundation"
+    "wss://galaxy.block.caduceus.foundation",
+    "https://galaxy.block.caduceus.foundation"
   ],
   "faucets": [
     "https://dev.caduceus.foundation/testNetwork"

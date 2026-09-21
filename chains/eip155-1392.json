@@ -2,7 +2,9 @@
   "name": "Joseon Mainnet",
   "chain": "Joseon",
   "icon": "joseon",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.modchain.net/blockchain.joseon.com/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Joseon Mun",

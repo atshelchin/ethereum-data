@@ -1,7 +1,9 @@
 {
   "name": "Juneo DOGE1-Chain",
   "chain": "Juneo DOGE1-Chain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.juneo-mainnet.network/ext/bc/DOGE1/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DOGE1",

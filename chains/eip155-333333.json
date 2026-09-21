@@ -12,7 +12,8 @@
     "decimals": 18
   },
   "rpc": [
-    "wss://wstest.nativ3.network"
+    "wss://wstest.nativ3.network",
+    "https://rpctest.nativ3.network"
   ],
   "faucets": [],
   "explorers": [

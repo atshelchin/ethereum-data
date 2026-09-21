@@ -2,7 +2,9 @@
   "name": "XUSD ONE StableChain Mainnet",
   "chain": "XUSD ONE",
   "icon": "xusd",
-  "rpc": [],
+  "rpc": [
+    "https://xusd.live"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "XUSD ONE",

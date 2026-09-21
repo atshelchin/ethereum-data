@@ -1,7 +1,12 @@
 {
   "name": "1Money Sidechain Mainnet",
   "chain": "1MoneySidechain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.sidechain.mainnet.1money.network",
+    "https://rpc1.sidechain.mainnet.1money.network",
+    "https://rpc2.sidechain.mainnet.1money.network",
+    "https://rpc3.sidechain.mainnet.1money.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FREE",

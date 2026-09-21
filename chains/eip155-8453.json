@@ -9,7 +9,11 @@
     "https://mainnet.base.org/",
     "https://base.api.pocket.network",
     "wss://base.gateway.tenderly.co",
-    "wss://base-rpc.publicnode.com"
+    "wss://base-rpc.publicnode.com",
+    "https://rpcfree.com/base-rpc",
+    "https://rpc.baseazul.dev",
+    "https://rpc.satelink.network/rpc/base",
+    "https://xrpc.cl/base"
   ],
   "faucets": [],
   "nativeCurrency": {

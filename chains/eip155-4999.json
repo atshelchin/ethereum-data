@@ -1,7 +1,12 @@
 {
   "name": "BlackFort Exchange Network Deprecated",
   "chain": "BXNdpr",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.blackfort.network/rpc",
+    "https://mainnet-1.blackfort.network/rpc",
+    "https://mainnet-2.blackfort.network/rpc",
+    "https://mainnet-3.blackfort.network/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BlackFort Token",

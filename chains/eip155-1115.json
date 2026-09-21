@@ -2,7 +2,9 @@
   "name": "Core Blockchain Testnet",
   "chain": "Core",
   "icon": "core",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.test.btcs.network/"
+  ],
   "features": [
     {
       "name": "EIP155"

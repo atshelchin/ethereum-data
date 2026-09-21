@@ -2,7 +2,9 @@
   "name": "Bitindi Testnet",
   "chain": "BNI",
   "icon": "bitindiTestnet",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.bitindi.org"
+  ],
   "faucets": [
     "https://faucet.bitindi.org"
   ],

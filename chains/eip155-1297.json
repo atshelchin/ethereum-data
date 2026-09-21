@@ -4,7 +4,9 @@
   "status": "deprecated",
   "rpc": [
     "wss://wss.bobabase.boba.network",
-    "wss://replica-wss.bobabase.boba.network"
+    "wss://replica-wss.bobabase.boba.network",
+    "https://bobabase.boba.network",
+    "https://replica.bobabase.boba.network"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -2,7 +2,8 @@
   "name": "CAGA mainnet",
   "chain": "CAGA",
   "rpc": [
-    "wss://cagamainnet.com/ws"
+    "wss://cagamainnet.com/ws",
+    "https://cagamainnet.com"
   ],
   "faucets": [],
   "nativeCurrency": {

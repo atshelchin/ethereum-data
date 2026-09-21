@@ -1,7 +1,9 @@
 {
   "name": "Altcoinchain",
   "chain": "mainnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.wattxchange.app"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Altcoin",

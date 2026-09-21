@@ -3,7 +3,9 @@
   "title": "Bahamut horizon",
   "chain": "Bahamut",
   "icon": "bahamut",
-  "rpc": [],
+  "rpc": [
+    "https://horizon-fastex-testnet.zeeve.net"
+  ],
   "features": [
     {
       "name": "EIP155"

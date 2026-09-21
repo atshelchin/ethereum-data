@@ -1,7 +1,9 @@
 {
   "name": "Animechain Testnet",
   "chain": "Animechain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.kanda.animechain.ai"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Coin",

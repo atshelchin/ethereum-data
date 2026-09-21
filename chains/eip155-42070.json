@@ -2,7 +2,9 @@
   "name": "WMC Testnet",
   "chain": "WMC",
   "icon": "wmc",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet-base.worldmobile.net"
+  ],
   "faucets": [
     "https://faucet-testnet-base.worldmobile.net"
   ],

@@ -1,7 +1,9 @@
 {
   "name": "DYNO Mainnet",
   "chain": "DYNO",
-  "rpc": [],
+  "rpc": [
+    "https://api.dynoprotocol.com"
+  ],
   "faucets": [
     "https://faucet.dynoscan.io"
   ],

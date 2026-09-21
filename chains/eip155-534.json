@@ -1,7 +1,10 @@
 {
   "name": "Candle",
   "chain": "Candle",
-  "rpc": [],
+  "rpc": [
+    "https://candle-rpc.com/",
+    "https://rpc.cndlchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "CANDLE",

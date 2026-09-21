@@ -1,7 +1,9 @@
 {
   "name": "Okto Testnet",
   "chain": "Okto",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.okto-testnet.zeeve.online"
+  ],
   "faucets": [
     "https://faucet.okto-testnet.zeeve.online"
   ],

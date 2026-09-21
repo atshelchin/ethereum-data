@@ -12,7 +12,8 @@
     "decimals": 18
   },
   "rpc": [
-    "wss://alfajores-forno.celo-testnet.org/ws"
+    "wss://alfajores-forno.celo-testnet.org/ws",
+    "https://alfajores-forno.celo-testnet.org"
   ],
   "faucets": [
     "https://celo.org/developers/faucet",

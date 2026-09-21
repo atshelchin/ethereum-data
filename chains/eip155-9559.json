@@ -1,7 +1,9 @@
 {
   "name": "Neonlink Testnet",
   "chain": "Neonlink",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.neonlink.io"
+  ],
   "faucets": [
     "https://faucet.neonlink.io/"
   ],

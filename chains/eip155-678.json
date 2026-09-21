@@ -2,7 +2,8 @@
   "name": "Janction",
   "chain": "Janction",
   "rpc": [
-    "wss://rpc.janction.io"
+    "wss://rpc.janction.io",
+    "https://rpc.janction.io"
   ],
   "faucets": [],
   "nativeCurrency": {

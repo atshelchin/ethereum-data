@@ -1,7 +1,9 @@
 {
   "name": "RedeCoin",
   "chain": "REDEV2",
-  "rpc": [],
+  "rpc": [
+    "https://rpc2.redecoin.eu"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "RedeCoin",

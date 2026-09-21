@@ -5,7 +5,8 @@
   "rpc": [
     "https://42.rpc.thirdweb.com",
     "https://rpc.mainnet.lukso.network",
-    "wss://ws-rpc.mainnet.lukso.network"
+    "wss://ws-rpc.mainnet.lukso.network",
+    "https://rpc.lukso.sigmacore.io"
   ],
   "faucets": [],
   "nativeCurrency": {

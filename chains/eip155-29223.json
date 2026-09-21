@@ -1,7 +1,9 @@
 {
   "name": "Nexa MetaNet",
   "chain": "NEXA",
-  "rpc": [],
+  "rpc": [
+    "https://nexa.sh/metanet"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Nexa",

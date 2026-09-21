@@ -2,7 +2,9 @@
   "name": "AirDAO Testnet",
   "chain": "ambnet-test",
   "icon": "airdao",
-  "rpc": [],
+  "rpc": [
+    "https://network.ambrosus-test.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Amber",

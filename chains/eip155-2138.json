@@ -3,7 +3,8 @@
   "chain": "dfiometatest",
   "icon": "defioraclemeta",
   "rpc": [
-    "wss://rpc.public-2138.defi-oracle.io"
+    "wss://rpc.public-2138.defi-oracle.io",
+    "https://rpc.public-2138.defi-oracle.io"
   ],
   "features": [
     {

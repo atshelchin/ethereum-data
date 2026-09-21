@@ -1,7 +1,9 @@
 {
   "name": "GM Network Testnet",
   "chain": "GM Network Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://gmnetwork-testnet.alt.technology/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

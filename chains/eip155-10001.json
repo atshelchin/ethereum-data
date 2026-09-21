@@ -1,7 +1,10 @@
 {
   "name": "Smart Bitcoin Cash Testnet",
   "chain": "smartBCHTest",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.smartbch.org",
+    "https://smartbch.devops.cash/testnet"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin Cash Test Token",

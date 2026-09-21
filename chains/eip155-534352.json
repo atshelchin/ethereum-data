@@ -8,7 +8,9 @@
     "https://rpc.scroll.io",
     "https://scroll.api.onfinality.io/public",
     "https://scroll.api.pocket.network",
-    "wss://scroll-rpc.publicnode.com"
+    "wss://scroll-rpc.publicnode.com",
+    "https://rpc.ankr.com/scroll",
+    "https://scroll-mainnet.chainstacklabs.com"
   ],
   "faucets": [],
   "nativeCurrency": {

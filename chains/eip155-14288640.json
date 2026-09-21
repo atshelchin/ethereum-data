@@ -2,7 +2,8 @@
   "name": "Anduschain Mainnet",
   "chain": "anduschain",
   "rpc": [
-    "wss://rpc.anduschain.io/ws"
+    "wss://rpc.anduschain.io/ws",
+    "https://rpc.anduschain.io/rpc"
   ],
   "faucets": [],
   "nativeCurrency": {

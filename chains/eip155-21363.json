@@ -1,7 +1,9 @@
 {
   "name": "Lestnet",
   "chain": "LETH",
-  "rpc": [],
+  "rpc": [
+    "https://service.lestnet.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Lestnet Ether",

@@ -1,7 +1,10 @@
 {
   "name": "Carbonium Testnet Network",
   "chain": "CBR",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-dev.carbonium.network/",
+    "https://server-testnet.carbonium.network"
+  ],
   "nativeCurrency": {
     "name": "Carbonium",
     "symbol": "tCBR",

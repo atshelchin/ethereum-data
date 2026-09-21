@@ -3,7 +3,8 @@
   "title": "arena-z",
   "chain": "arena-z",
   "rpc": [
-    "wss://ws.arena-z.gg"
+    "wss://ws.arena-z.gg",
+    "https://rpc.arena-z.gg"
   ],
   "nativeCurrency": {
     "name": "Ether",

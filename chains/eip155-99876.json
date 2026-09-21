@@ -2,7 +2,9 @@
   "name": "Edge Matrix Chain Testnet",
   "chain": "EMC Testnet",
   "icon": "emctest",
-  "rpc": [],
+  "rpc": [
+    "https://rpc1-testnet.emc.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Edge Matrix Chain Token",

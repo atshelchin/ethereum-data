@@ -21,7 +21,8 @@
   "infoURL": "https://app.treasure.lol",
   "icon": "treasure",
   "rpc": [
-    "wss://rpc.treasure.lol/ws"
+    "wss://rpc.treasure.lol/ws",
+    "https://rpc.treasure.lol"
   ],
   "faucets": [
     "https://app.treasure.lol/chain/faucet",

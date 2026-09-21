@@ -1,7 +1,9 @@
 {
   "name": "Socotra JUNE-Chain",
   "chain": "Socotra JUNE-Chain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.socotra-testnet.network/ext/bc/JUNE/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Socotra JUNE",

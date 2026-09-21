@@ -2,7 +2,8 @@
   "name": "Ozean Poseidon Testnet",
   "chain": "Ozean Poseidon",
   "rpc": [
-    "wss://ozean-testnet.rpc.caldera.xyz/ws"
+    "wss://ozean-testnet.rpc.caldera.xyz/ws",
+    "https://ozean-testnet.rpc.caldera.xyz/http"
   ],
   "faucets": [
     "https://ozean-testnet.hub.caldera.xyz"

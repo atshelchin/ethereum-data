@@ -1,7 +1,9 @@
 {
   "name": "Btachain",
   "chain": "btachain",
-  "rpc": [],
+  "rpc": [
+    "https://dataseed1.btachain.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitcoin Asset",

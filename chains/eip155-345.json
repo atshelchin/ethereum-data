@@ -1,7 +1,9 @@
 {
   "name": "TSC Mainnet",
   "chain": "Trust Smart Chain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc01.trias.one"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TAS",

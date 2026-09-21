@@ -1,7 +1,9 @@
 {
   "name": "TBWG Chain",
   "chain": "TBWG",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.tbwg.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TBWG Ether",

@@ -2,7 +2,9 @@
   "name": "LiquidLayer Testnet",
   "chain": "LILA",
   "icon": "lila",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.liquidlayer.network"
+  ],
   "faucets": [
     "https://claim.liquidlayer.network"
   ],

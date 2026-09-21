@@ -1,7 +1,9 @@
 {
   "name": "Patex Sepolia Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://test-rpc.patex.io/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",

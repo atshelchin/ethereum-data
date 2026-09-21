@@ -1,7 +1,12 @@
 {
   "name": "BROChain Mainnet",
   "chain": "BRO",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.brochain.org",
+    "http://rpc.brochain.org",
+    "https://rpc.brochain.org/mainnet",
+    "http://rpc.brochain.org/mainnet"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Brother",

@@ -1,7 +1,9 @@
 {
   "name": "SJATSH",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "http://geth.free.idcfengye.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

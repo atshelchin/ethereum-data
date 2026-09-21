@@ -1,7 +1,9 @@
 {
   "name": "EthXY Testnet",
   "chain": "EthXY",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.ethxy.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Settled EthXY Token",

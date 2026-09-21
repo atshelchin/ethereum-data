@@ -2,7 +2,9 @@
   "name": "Combo Testnet",
   "chain": "Combo",
   "icon": "combo",
-  "rpc": [],
+  "rpc": [
+    "https://test-rpc.combonetwork.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",

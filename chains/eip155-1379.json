@@ -2,7 +2,9 @@
   "name": "Kalar Chain",
   "chain": "KLC",
   "icon": "kalarchain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-api.kalarchain.tech"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Kalar",

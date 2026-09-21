@@ -2,7 +2,9 @@
   "name": "Anytype EVM Chain",
   "chain": "ETH",
   "icon": "any",
-  "rpc": [],
+  "rpc": [
+    "https://geth.anytype.io"
+  ],
   "faucets": [
     "https://evm.anytype.io/faucet"
   ],

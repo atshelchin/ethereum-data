@@ -1,7 +1,9 @@
 {
   "name": "Prometheuz Testnet",
   "chain": "Prometheuz",
-  "rpc": [],
+  "rpc": [
+    "https://explorer.testnet.prometheuz.io"
+  ],
   "faucets": [
     "https://faucet.testnet.prometheuz.io"
   ],

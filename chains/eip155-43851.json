@@ -1,7 +1,9 @@
 {
   "name": "ZKFair Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.zkfair.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "USDC Token",

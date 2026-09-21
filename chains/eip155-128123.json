@@ -19,7 +19,9 @@
     "symbol": "XTZ",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": [
+    "https://node.ghostnet.etherlink.com"
+  ],
   "faucets": [
     "https://faucet.etherlink.com"
   ],

@@ -1,7 +1,9 @@
 {
   "name": "Rivalz",
   "chain": "rivalz",
-  "rpc": [],
+  "rpc": [
+    "https://rivalz.calderachain.xyz/http"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

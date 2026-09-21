@@ -2,7 +2,9 @@
   "name": "ADF Chain Testnet",
   "chain": "ADF Chain Testnet",
   "icon": "addfilltest",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.adftechnology.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ADDFILL Testnet",

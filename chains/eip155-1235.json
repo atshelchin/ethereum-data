@@ -1,7 +1,9 @@
 {
   "name": "ITX Mainnet",
   "chain": "ITX",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.itxchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ITX",

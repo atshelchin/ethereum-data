@@ -1,7 +1,9 @@
 {
   "name": "Oone Chain Testnet",
   "chain": "OONE Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.oonechain.com"
+  ],
   "faucets": [
     "https://apps-test.adigium.com/faucet"
   ],

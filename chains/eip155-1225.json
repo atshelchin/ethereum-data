@@ -3,7 +3,8 @@
   "chain": "HYB",
   "icon": "hybridIcon",
   "rpc": [
-    "wss://hybrid-testnet.rpc.caldera.xyz/ws"
+    "wss://hybrid-testnet.rpc.caldera.xyz/ws",
+    "https://hybrid-testnet.rpc.caldera.xyz/http"
   ],
   "faucets": [],
   "nativeCurrency": {

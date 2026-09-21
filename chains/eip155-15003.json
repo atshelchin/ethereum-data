@@ -1,7 +1,9 @@
 {
   "name": "Immutable zkEVM Devnet",
   "chain": "Immutable zkEVM",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.dev.immutable.com"
+  ],
   "faucets": [
     "https://docs.immutable.com/docs/zkEVM/guides/faucet"
   ],

@@ -2,7 +2,9 @@
   "name": "Debounce Subnet Testnet",
   "chain": "Debounce Network",
   "icon": "debounce",
-  "rpc": [],
+  "rpc": [
+    "https://dev-rpc.debounce.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Debounce Network",

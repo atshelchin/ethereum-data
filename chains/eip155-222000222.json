@@ -2,7 +2,9 @@
   "name": "Kanazawa",
   "title": "Meld Testnet Kanazawa",
   "chain": "Kanazawa",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.meld.com"
+  ],
   "faucets": [],
   "features": [],
   "nativeCurrency": {

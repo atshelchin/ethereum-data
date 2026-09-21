@@ -3,7 +3,10 @@
   "title": "Ruby Chain Testnet",
   "shortName": "ruby-testnet",
   "chain": "RUBY",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.ruby.testnet.finetry.win",
+    "https://rpc2.ruby.testnet.finetry.win"
+  ],
   "faucets": [
     "https://faucet.ruby.testnet.finetry.win"
   ],

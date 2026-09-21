@@ -1,7 +1,9 @@
 {
   "name": "Aerochain Testnet",
   "chain": "Aerochain",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.aerochain.id/"
+  ],
   "faucets": [
     "https://faucet.aerochain.id/"
   ],

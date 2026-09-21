@@ -1,7 +1,9 @@
 {
   "name": "Juneo SGD1-Chain",
   "chain": "Juneo SGD1-Chain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.juneo-mainnet.network/ext/bc/SGD1/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "SGD1",

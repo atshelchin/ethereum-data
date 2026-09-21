@@ -2,7 +2,9 @@
   "name": "Bloom Genesis Testnet",
   "chain": "Bloom",
   "icon": "bloom",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.bloomgenesis.com"
+  ],
   "faucets": [
     "https://faucet.bloomgenesis.com"
   ],

@@ -1,7 +1,14 @@
 {
   "name": "Zyx Mainnet",
   "chain": "ZYX",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-1.zyx.network/",
+    "https://rpc-2.zyx.network/",
+    "https://rpc-3.zyx.network/",
+    "https://rpc-4.zyx.network/",
+    "https://rpc-5.zyx.network/",
+    "https://rpc-6.zyx.network/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Zyx",

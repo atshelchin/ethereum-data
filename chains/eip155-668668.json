@@ -1,7 +1,9 @@
 {
   "name": "Conwai Mainnet",
   "chain": "CNW",
-  "rpc": [],
+  "rpc": [
+    "https://conwai.calderachain.xyz/http"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Conwai",

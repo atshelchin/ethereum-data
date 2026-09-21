@@ -2,7 +2,9 @@
   "name": "AgentLayer Testnet",
   "chain": "AgentLayer",
   "icon": "agentLayerIcon",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.agentlayer.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Agent",

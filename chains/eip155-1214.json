@@ -1,7 +1,9 @@
 {
   "name": "EnterChain Mainnet",
   "chain": "ENTER",
-  "rpc": [],
+  "rpc": [
+    "https://tapi.entercoin.net/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "EnterCoin",

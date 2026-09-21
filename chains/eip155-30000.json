@@ -1,7 +1,9 @@
 {
   "name": "qChain Mainnet",
   "chain": "qChain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.qchain.kr"
+  ],
   "faucets": [],
   "features": [
     {

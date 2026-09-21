@@ -2,7 +2,9 @@
   "name": "Nautilus Proteus Testnet",
   "chain": "ETH",
   "icon": "nautilus",
-  "rpc": [],
+  "rpc": [
+    "https://api.proteus.nautchain.xyz/solana"
+  ],
   "faucets": [
     "https://proteusfaucet.nautchain.xyz"
   ],

@@ -5,7 +5,10 @@
   "chain": "ETH",
   "icon": "astarzk",
   "rpc": [
-    "wss://astar-zkatana.drpc.org"
+    "wss://astar-zkatana.drpc.org",
+    "https://rpc.zkatana.gelato.digital",
+    "https://rpc.startale.com/zkatana",
+    "https://astar-zkatana.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

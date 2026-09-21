@@ -1,7 +1,9 @@
 {
   "name": "Inco Gentry Testnet",
   "chain": "INCO",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.inco.org"
+  ],
   "faucets": [
     "https://faucet.inco.org"
   ],

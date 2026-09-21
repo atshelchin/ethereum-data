@@ -7,7 +7,8 @@
   "slip44": 1,
   "infoURL": "https://pulsechain.com/",
   "rpc": [
-    "wss://rpc.v2.testnet.pulsechain.com/"
+    "wss://rpc.v2.testnet.pulsechain.com/",
+    "https://rpc.v2.testnet.pulsechain.com/"
   ],
   "faucets": [
     "https://faucet.v2.testnet.pulsechain.com/"

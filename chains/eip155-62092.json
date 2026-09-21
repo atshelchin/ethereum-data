@@ -2,7 +2,9 @@
   "name": "TikTrix Testnet",
   "chain": "tTTX",
   "icon": "tiktrix",
-  "rpc": [],
+  "rpc": [
+    "https://tiktrix-rpc.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "tTTX",

@@ -3,7 +3,9 @@
   "title": "Bahamut testnet Oasis",
   "icon": "bahamut",
   "chain": "Fastex Chain (Bahamut)",
-  "rpc": [],
+  "rpc": [
+    "https://rpc1.oasis.bahamutchain.com"
+  ],
   "features": [
     {
       "name": "EIP155"

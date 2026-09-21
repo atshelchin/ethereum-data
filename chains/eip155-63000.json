@@ -2,7 +2,10 @@
   "name": "eSync Network Mainnet",
   "title": "eSync Network Mainnet",
   "chain": "ECS",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.esync.network",
+    "https://rpc.ecredits.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "eCredits",

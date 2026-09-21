@@ -3,7 +3,9 @@
   "title": "King Of Legends Mainnet",
   "chain": "KCC",
   "icon": "kol",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-mainnet.kinggamer.org/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "King Of Legends",

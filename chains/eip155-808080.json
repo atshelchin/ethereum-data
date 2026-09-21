@@ -1,7 +1,9 @@
 {
   "name": "BIZ Smart Chain Testnet",
   "chain": "BIZT Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.bizex.io/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "tBIZT",

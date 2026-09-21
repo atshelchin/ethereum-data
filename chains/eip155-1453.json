@@ -3,7 +3,9 @@
   "title": "MetaChain Testnet Istanbul",
   "chain": "MTC",
   "icon": "metachain",
-  "rpc": [],
+  "rpc": [
+    "https://istanbul-rpc.metachain.dev"
+  ],
   "faucets": [
     "https://istanbul-faucet.metachain.dev"
   ],

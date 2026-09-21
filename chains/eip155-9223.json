@@ -2,7 +2,9 @@
   "name": "Codefin Mainnet",
   "chain": "COF",
   "icon": "codefin",
-  "rpc": [],
+  "rpc": [
+    "https://chain-rpc.codefin.pro"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Codefin",

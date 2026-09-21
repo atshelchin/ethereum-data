@@ -1,7 +1,9 @@
 {
   "name": "PowerGold",
   "chain": "NEAR",
-  "rpc": [],
+  "rpc": [
+    "https://powergold.aurora.dev"
+  ],
   "icon": "powergold",
   "faucets": [],
   "nativeCurrency": {

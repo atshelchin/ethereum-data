@@ -1,7 +1,9 @@
 {
   "name": "NumBlock Chain",
   "chain": "NumBlock",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-mainnet.numblock.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "NUMB Token",

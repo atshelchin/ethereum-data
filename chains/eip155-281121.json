@@ -1,7 +1,9 @@
 {
   "name": "Social Smart Chain Mainnet",
   "chain": "SoChain",
-  "rpc": [],
+  "rpc": [
+    "https://socialsmartchain.digitalnext.business"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "SoChain",

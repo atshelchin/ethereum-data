@@ -1,7 +1,9 @@
 {
   "name": "FNCY Testnet",
   "chain": "FNCY",
-  "rpc": [],
+  "rpc": [
+    "https://fncy-testnet-seed.fncy.world"
+  ],
   "faucets": [
     "https://faucet-testnet.fncy.world"
   ],

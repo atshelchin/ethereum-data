@@ -2,7 +2,9 @@
   "name": "Matchain Testnet",
   "chain": "Matchain",
   "icon": "matchain",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.matchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BNB",

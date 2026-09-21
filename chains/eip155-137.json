@@ -10,7 +10,12 @@
     "https://polygon.api.onfinality.io/public",
     "https://poly.api.pocket.network",
     "wss://polygon-bor-rpc.publicnode.com",
-    "wss://polygon.drpc.org"
+    "wss://polygon.drpc.org",
+    "wss://polygon.gateway.tenderly.co",
+    "https://rpc.satelink.network/rpc/polygon",
+    "https://rpcfree.com/polygon-rpc",
+    "wss://rpc.satelink.network/rpc/ws/polygon",
+    "https://xrpc.cl/polygon"
   ],
   "faucets": [],
   "nativeCurrency": {

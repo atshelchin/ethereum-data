@@ -1,7 +1,9 @@
 {
   "name": "Dogether Mainnet",
   "chain": "Dogether",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.dogether.dog/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Dogether",

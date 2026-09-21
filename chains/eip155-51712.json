@@ -2,7 +2,9 @@
   "name": "Sardis Mainnet",
   "chain": "SRDX",
   "icon": "sardis",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc.sardisnetwork.com"
+  ],
   "faucets": [
     "https://faucet.sardisnetwork.com"
   ],

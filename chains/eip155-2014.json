@@ -2,7 +2,9 @@
   "name": "NOW Chain Testnet",
   "chain": "NOW",
   "icon": "nowchain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.nowscan.io"
+  ],
   "faucets": [
     "https://faucet.nowchain.co"
   ],

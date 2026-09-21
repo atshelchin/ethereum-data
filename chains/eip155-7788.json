@@ -2,7 +2,9 @@
   "name": "Draw Coin",
   "chain": "DRW",
   "icon": "drawchain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.drawchain.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DRW",

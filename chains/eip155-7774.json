@@ -2,7 +2,9 @@
   "name": "GDCC MAINNET",
   "chain": "GDCC",
   "icon": "gdcc",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc-1.gdccscan.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GDCC",

@@ -2,7 +2,9 @@
   "name": "Funki Sepolia Testnet",
   "chain": "ETH",
   "icon": "funki",
-  "rpc": [],
+  "rpc": [
+    "https://funki-testnet.alt.technology"
+  ],
   "faucets": [
     "https://funkichain.com/portfolio"
   ],

@@ -1,7 +1,9 @@
 {
   "name": "PremiumBlock",
   "chain": "PBLK",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.premiumblock.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Premium Block",

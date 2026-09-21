@@ -2,7 +2,8 @@
   "name": "Memo Smart Chain Mainnet",
   "chain": "MEMO",
   "rpc": [
-    "wss://chain.metamemo.one:16801"
+    "wss://chain.metamemo.one:16801",
+    "https://chain.metamemo.one:8501"
   ],
   "faucets": [
     "https://faucet.metamemo.one/"

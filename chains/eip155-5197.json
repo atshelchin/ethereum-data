@@ -2,7 +2,10 @@
   "name": "EraSwap Mainnet",
   "chain": "ESN",
   "icon": "eraswap",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.eraswap.network",
+    "https://rpc-mumbai.mainnet.eraswap.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "EraSwap",

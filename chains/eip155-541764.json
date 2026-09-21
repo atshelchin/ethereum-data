@@ -2,7 +2,9 @@
   "name": "OverProtocol Testnet",
   "chain": "OverProtocol",
   "icon": "overIcon",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.dolphin.overprotocol.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Over",

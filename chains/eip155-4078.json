@@ -10,7 +10,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": [
+    "https://muster.alt.technology"
+  ],
   "faucets": [],
   "explorers": [
     {

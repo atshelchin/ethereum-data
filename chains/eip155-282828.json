@@ -2,7 +2,9 @@
   "name": "Zillion Sepolia Testnet",
   "status": "active",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://sepolia.zillnet.io/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",

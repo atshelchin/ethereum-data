@@ -3,7 +3,9 @@
   "title": "DCHAIN Mainnet",
   "chain": "dchainmainnet",
   "icon": "dchainmainnet",
-  "rpc": [],
+  "rpc": [
+    "https://dchain-2716446429837000-1.jsonrpc.sagarpc.io"
+  ],
   "features": [
     {
       "name": "EIP155"

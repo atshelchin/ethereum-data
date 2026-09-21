@@ -1,7 +1,9 @@
 {
   "name": "Reapchain Testnet",
   "chain": "REAP",
-  "rpc": [],
+  "rpc": [
+    "https://test-eth.reapchain.org"
+  ],
   "faucets": [
     "http://faucet.reapchain.com"
   ],

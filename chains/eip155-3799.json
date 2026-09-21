@@ -4,7 +4,9 @@
   "icon": "tangle",
   "rpc": [
     "wss://testnet-rpc.tangle.tools",
-    "wss://testnet-rpc-archive.tangle.tools"
+    "wss://testnet-rpc-archive.tangle.tools",
+    "https://testnet-rpc.tangle.tools",
+    "https://testnet-rpc-archive.tangle.tools"
   ],
   "faucets": [
     "https://faucet.tangle.tools"

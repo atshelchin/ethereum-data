@@ -1,7 +1,9 @@
 {
   "name": "BlackFort Exchange Network Testnet DEPRECATED",
   "chain": "TBXN",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.blackfort.network/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BlackFort Testnet Token",

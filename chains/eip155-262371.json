@@ -2,7 +2,9 @@
   "name": "Eclat Testnet",
   "chain": "Eclat",
   "icon": "eclat",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.eclatscan.com"
+  ],
   "faucets": [
     "https://faucet.eclatscan.com"
   ],

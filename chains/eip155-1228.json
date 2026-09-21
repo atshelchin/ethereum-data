@@ -1,7 +1,9 @@
 {
   "name": "Cycle Network Testnet Cuttlefish",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://cuttlefish-rpc-testnet.cyclenetwork.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

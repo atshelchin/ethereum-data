@@ -1,7 +1,9 @@
 {
   "name": "Odyssey Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://odyssey.ithaca.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

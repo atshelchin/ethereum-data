@@ -2,7 +2,8 @@
   "name": "Redstone",
   "chain": "ETH",
   "rpc": [
-    "wss://rpc.redstonechain.com"
+    "wss://rpc.redstonechain.com",
+    "https://rpc.redstonechain.com"
   ],
   "faucets": [],
   "nativeCurrency": {

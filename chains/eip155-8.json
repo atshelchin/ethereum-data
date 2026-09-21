@@ -1,7 +1,11 @@
 {
   "name": "Ubiq",
   "chain": "UBQ",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.c8ntinuum.com",
+    "https://rpc.c8ntinuum.io",
+    "https://rpc.c8ntinuum.link"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ubiq Ether",

@@ -2,7 +2,9 @@
   "name": "Toronet Testnet",
   "chain": "Toronet",
   "icon": "toronet",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.toronet.org/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Toroe",

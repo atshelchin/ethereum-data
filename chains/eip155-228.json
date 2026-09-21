@@ -2,7 +2,8 @@
   "name": "Mind Network Mainnet",
   "chain": "FHE",
   "rpc": [
-    "wss://rpc-mainnet.mindnetwork.xyz"
+    "wss://rpc-mainnet.mindnetwork.xyz",
+    "https://rpc-mainnet.mindnetwork.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {

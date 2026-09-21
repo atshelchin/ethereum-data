@@ -2,7 +2,11 @@
   "name": "Mammoth Mainnet",
   "title": "Mammoth Chain",
   "chain": "MMT",
-  "rpc": [],
+  "rpc": [
+    "https://dataseed.mmtscan.io",
+    "https://dataseed1.mmtscan.io",
+    "https://dataseed2.mmtscan.io"
+  ],
   "faucets": [
     "https://faucet.mmtscan.io/"
   ],

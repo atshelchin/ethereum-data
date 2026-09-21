@@ -3,7 +3,8 @@
   "chain": "TST",
   "rpc": [
     "https://testnet-rpc.thundercore.com",
-    "wss://thundercore-testnet.drpc.org"
+    "wss://thundercore-testnet.drpc.org",
+    "https://thundercore-testnet.drpc.org"
   ],
   "faucets": [
     "https://faucet-testnet.thundercore.com"

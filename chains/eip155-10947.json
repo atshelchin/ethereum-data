@@ -2,7 +2,10 @@
   "name": "Quadrans Blockchain Testnet",
   "chain": "tQDC",
   "icon": "quadrans",
-  "rpc": [],
+  "rpc": [
+    "https://rpctest.quadrans.io",
+    "https://rpctest2.quadrans.io"
+  ],
   "faucets": [
     "https://faucetpage.quadrans.io"
   ],

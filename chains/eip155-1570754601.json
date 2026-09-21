@@ -2,7 +2,9 @@
   "name": "Haust Testnet",
   "title": "Haust Testnet",
   "chain": "Haust-testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-test.haust.network"
+  ],
   "faucets": [
     "https://haust-testnet-faucet.eu-north-2.gateway.fm"
   ],

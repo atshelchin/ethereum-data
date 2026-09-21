@@ -3,7 +3,11 @@
   "chain": "Atleta Testnet Olympia",
   "rpc": [
     "https://testnet-rpc.atleta.network",
-    "wss://testnet-rpc.atleta.network"
+    "wss://testnet-rpc.atleta.network",
+    "https://rpc.ankr.com/atleta_olympia",
+    "https://atleta-testnet.htw.tech/",
+    "https://public-atleta.nownodes.io",
+    "https://public-atla-testnet.fastnode.io"
   ],
   "faucets": [
     "https://app-olympia.atleta.network/faucet"

@@ -11,7 +11,8 @@
     "https://hyperliquid.api.onfinality.io/evm/public",
     "https://rpc.hyperlend.finance",
     "https://rpc.nodeflare.app/hl/public",
-    "wss://hyperliquid.drpc.org"
+    "wss://hyperliquid.drpc.org",
+    "https://gwan-ssl.wandevs.org:46891/"
   ],
   "features": [
     {

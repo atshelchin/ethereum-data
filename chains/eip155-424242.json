@@ -2,7 +2,9 @@
   "name": "Fastex Chain testnet",
   "chain": "FTN",
   "title": "Fastex Chain testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.fastexchain.com"
+  ],
   "features": [
     {
       "name": "EIP155"

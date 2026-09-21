@@ -1,7 +1,9 @@
 {
   "name": "PandaSea Mainnet",
   "chain": "PandaSea",
-  "rpc": [],
+  "rpc": [
+    "https://rpc1.pandasea.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "PandaSea Coin",

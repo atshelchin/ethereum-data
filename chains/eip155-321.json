@@ -2,7 +2,9 @@
   "name": "KCC Mainnet",
   "chain": "KCC",
   "rpc": [
-    "https://rpc-mainnet.kcc.network"
+    "https://rpc-mainnet.kcc.network",
+    "https://kcc.mytokenpocket.vip",
+    "https://public-rpc.blockpi.io/http/kcc"
   ],
   "faucets": [],
   "nativeCurrency": {

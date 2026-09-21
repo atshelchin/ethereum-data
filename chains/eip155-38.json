@@ -1,7 +1,9 @@
 {
   "name": "Valorbit",
   "chain": "VAL",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.valorbit.com/v2"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Valorbit",

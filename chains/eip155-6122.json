@@ -1,7 +1,10 @@
 {
   "name": "Tea Mainnet",
   "chain": "TEA",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.tea.xyz",
+    "https://tea.drpc.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tea",

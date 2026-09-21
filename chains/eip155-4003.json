@@ -1,7 +1,9 @@
 {
   "name": "X1 Fastnet",
   "chain": "X1",
-  "rpc": [],
+  "rpc": [
+    "https://x1-fastnet.xen.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "XN",

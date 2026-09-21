@@ -1,7 +1,9 @@
 {
   "name": "Altblockscan Mainnet",
   "chain": "ALTB",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.altblockscan.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Altblockscan",

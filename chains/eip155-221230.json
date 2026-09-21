@@ -1,7 +1,9 @@
 {
   "name": "Reapchain Mainnet",
   "chain": "REAP",
-  "rpc": [],
+  "rpc": [
+    "https://eth.reapchain.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Reap",

@@ -1,7 +1,9 @@
 {
   "name": "Haymo Testnet",
   "chain": "tHYM",
-  "rpc": [],
+  "rpc": [
+    "https://testnet1.haymo.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "HAYMO",

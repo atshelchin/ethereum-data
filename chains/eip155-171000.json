@@ -2,7 +2,8 @@
   "name": "Fair Testnet",
   "chain": "FAIR",
   "rpc": [
-    "wss://rpc-testnet.xfair.ai"
+    "wss://rpc-testnet.xfair.ai",
+    "https://rpc-testnet.xfair.ai"
   ],
   "faucets": [],
   "nativeCurrency": {

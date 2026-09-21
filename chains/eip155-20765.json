@@ -2,7 +2,9 @@
   "name": "Jono11 Subnet",
   "chain": "JONO11",
   "icon": "jono11",
-  "rpc": [],
+  "rpc": [
+    "https://subnets.avax.network/jono11/testnet/rpc"
+  ],
   "features": [
     {
       "name": "EIP1559"

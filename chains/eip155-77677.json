@@ -1,7 +1,9 @@
 {
   "name": "Cycle Network Mainnet Sailboat",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://sailboat-rpc-mainnet.cyclenetwork.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

@@ -1,7 +1,9 @@
 {
   "name": "Zilliqa EVM Devnet",
   "chain": "ZIL",
-  "rpc": [],
+  "rpc": [
+    "https://api.devnet.zilliqa.com/"
+  ],
   "faucets": [
     "https://faucet.devnet.zilliqa.com/"
   ],

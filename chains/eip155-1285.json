@@ -15,7 +15,9 @@
     "wss://moonriver.api.onfinality.io/public-ws",
     "wss://moonriver.unitedbloc.com",
     "wss://moonriver-rpc.publicnode.com",
-    "wss://moonriver.drpc.org"
+    "wss://moonriver.drpc.org",
+    "https://moonriver.public.blastapi.io",
+    "https://moonriver-rpc.dwellir.com"
   ],
   "faucets": [],
   "nativeCurrency": {

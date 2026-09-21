@@ -1,7 +1,9 @@
 {
   "name": "TOOL Global Mainnet",
   "chain": "OLO",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-web3.wolot.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TOOL Global",

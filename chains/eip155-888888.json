@@ -1,7 +1,9 @@
 {
   "name": "Vision - Mainnet",
   "chain": "Vision",
-  "rpc": [],
+  "rpc": [
+    "https://infragrid.v.network/ethereum/compatible"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "VS",

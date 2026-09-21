@@ -1,7 +1,9 @@
 {
   "name": "Amplify Subnet",
   "chain": "AMPLIFY",
-  "rpc": [],
+  "rpc": [
+    "https://subnets.avax.network/amplify/testnet/rpc"
+  ],
   "features": [
     {
       "name": "EIP1559"

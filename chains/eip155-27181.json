@@ -4,7 +4,8 @@
   "chain": "KLAOS Nova",
   "icon": "k-laos",
   "rpc": [
-    "wss://rpc.klaosnova.laosfoundation.io"
+    "wss://rpc.klaosnova.laosfoundation.io",
+    "https://rpc.klaosnova.laosfoundation.io"
   ],
   "faucets": [],
   "nativeCurrency": {

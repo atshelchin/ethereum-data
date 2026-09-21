@@ -2,7 +2,9 @@
   "name": "Nebula Testnet",
   "chain": "NTN",
   "icon": "nebulatestnet",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.rpc.novanetwork.io"
+  ],
   "faucets": [
     "https://faucet.novanetwork.io"
   ],

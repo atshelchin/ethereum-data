@@ -2,7 +2,8 @@
   "name": "BigShortBets",
   "chain": "BIGSB",
   "rpc": [
-    "wss://market.bigsb.io"
+    "wss://market.bigsb.io",
+    "https://market.bigsb.io"
   ],
   "faucets": [],
   "nativeCurrency": {

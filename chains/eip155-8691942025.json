@@ -5,7 +5,11 @@
   "rpc": [
     "https://rpc.onfachain.com",
     "wss://ws.onfa.io",
-    "wss://ws.onfachain.com"
+    "wss://ws.onfachain.com",
+    "https://rpc-testnet.onfachain.com",
+    "https://rpc-testnet.onfachain.net",
+    "wss://ws-testnet.onfachain.com",
+    "wss://ws-testnet.onfachain.net"
   ],
   "faucets": [],
   "nativeCurrency": {

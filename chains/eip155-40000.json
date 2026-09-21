@@ -1,7 +1,9 @@
 {
   "name": "DIV Chain",
   "chain": "DIVC",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.divchain.org"
+  ],
   "faucets": [],
   "features": [
     {

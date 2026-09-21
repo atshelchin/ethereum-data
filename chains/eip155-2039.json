@@ -3,7 +3,8 @@
   "chain": "Aleph Zero",
   "icon": "aleph",
   "rpc": [
-    "wss://rpc.alephzero-testnet.gelato.digital"
+    "wss://rpc.alephzero-testnet.gelato.digital",
+    "https://rpc.alephzero-testnet.gelato.digital"
   ],
   "faucets": [],
   "nativeCurrency": {

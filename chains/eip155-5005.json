@@ -2,7 +2,12 @@
   "name": "Treasurenet Testnet",
   "chain": "Treasurenet Testnet",
   "icon": "treasurenet",
-  "rpc": [],
+  "rpc": [
+    "https://node0.testnet.treasurenet.io",
+    "https://node1.testnet.treasurenet.io",
+    "https://node2.testnet.treasurenet.io",
+    "https://node3.testnet.treasurenet.io"
+  ],
   "features": [
     {
       "name": "EIP155"

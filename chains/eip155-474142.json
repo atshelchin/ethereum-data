@@ -1,7 +1,9 @@
 {
   "name": "OpenChain Mainnet",
   "chain": "OpenChain",
-  "rpc": [],
+  "rpc": [
+    "https://baas-rpc.luniverse.io:18545?lChainId=1641349324562974539"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OpenCoin",

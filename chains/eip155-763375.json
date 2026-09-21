@@ -2,7 +2,8 @@
   "name": "Surge Testnet",
   "chain": "Surge Testnet",
   "rpc": [
-    "wss://l2-ws.hoodi.surge.wtf"
+    "wss://l2-ws.hoodi.surge.wtf",
+    "https://l2-rpc.hoodi.surge.wtf"
   ],
   "features": [
     {

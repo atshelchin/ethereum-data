@@ -5,7 +5,8 @@
     "https://rpc.gobob.xyz",
     "https://bob.drpc.org",
     "wss://rpc.gobob.xyz",
-    "wss://bob-mainnet.public.blastapi.io"
+    "wss://bob-mainnet.public.blastapi.io",
+    "https://bob-mainnet.public.blastapi.io"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -1,7 +1,9 @@
 {
   "name": "Newton Finance Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://jp-rpc-testnet-newfi.newpay.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Newton",

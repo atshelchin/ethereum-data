@@ -1,7 +1,9 @@
 {
   "name": "Dubxcoin testnet",
   "chain": "TESTDUBX",
-  "rpc": [],
+  "rpc": [
+    "https://rpctestnet.arabianchain.org"
+  ],
   "faucets": [
     "https://faucet.arabianchain.org/"
   ],

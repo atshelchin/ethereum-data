@@ -4,7 +4,9 @@
   "title": "Astar zkEVM Mainnet",
   "chain": "ETH",
   "icon": "astar",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.startale.com/astar-zkevm"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

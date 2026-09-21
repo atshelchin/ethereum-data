@@ -3,7 +3,8 @@
   "title": "LAOS Sigma Testnet",
   "chain": "LAOS Sigma Testnet",
   "rpc": [
-    "wss://rpc.laossigma.laosfoundation.io"
+    "wss://rpc.laossigma.laosfoundation.io",
+    "https://rpc.laossigma.laosfoundation.io"
   ],
   "faucets": [],
   "nativeCurrency": {

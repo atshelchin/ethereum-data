@@ -1,7 +1,9 @@
 {
   "name": "CYBERTRUST",
   "chain": "CYBER",
-  "rpc": [],
+  "rpc": [
+    "http://testnet.cybertrust.space:48501"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Cyber Trust",

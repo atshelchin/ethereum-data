@@ -2,7 +2,9 @@
   "name": "Lovely Network Mainnet",
   "chain": "Lovely",
   "icon": "lovely",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.lovely.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Lovely",

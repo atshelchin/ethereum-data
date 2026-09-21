@@ -1,7 +1,9 @@
 {
   "name": "ARTIS Testnet tau1",
   "chain": "ARTIS",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.tau1.artis.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ARTIS tau1 Ether",

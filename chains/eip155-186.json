@@ -1,7 +1,9 @@
 {
   "name": "Seele Mainnet",
   "chain": "Seele",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.seelen.pro/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Seele",

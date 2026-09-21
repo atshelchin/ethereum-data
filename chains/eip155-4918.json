@@ -1,7 +1,9 @@
 {
   "name": "Venidium Testnet",
   "chain": "XVM",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-evm-testnet.venidium.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Venidium",

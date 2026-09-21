@@ -1,7 +1,9 @@
 {
   "name": "Fhenix Helium",
   "chain": "tFHE",
-  "rpc": [],
+  "rpc": [
+    "https://api.helium.fhenix.zone"
+  ],
   "faucets": [
     "https://get-helium.fhenix.zone"
   ],

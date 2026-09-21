@@ -1,7 +1,9 @@
 {
   "name": "The Widows Mite",
   "chain": "MITE",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.twmcrypto.com/"
+  ],
   "faucets": [
     "https://faucet.twmcrypto.com/"
   ],

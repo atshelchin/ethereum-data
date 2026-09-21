@@ -3,7 +3,8 @@
   "chain": "ETH",
   "status": "deprecated",
   "rpc": [
-    "wss://wss.goerli.boba.network/"
+    "wss://wss.goerli.boba.network/",
+    "https://goerli.boba.network/"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -2,7 +2,9 @@
   "name": "BLG Testnet",
   "chain": "BLG",
   "icon": "blg",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.blgchain.com"
+  ],
   "faucets": [
     "https://faucet.blgchain.com"
   ],

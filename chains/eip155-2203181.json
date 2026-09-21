@@ -2,7 +2,8 @@
   "name": "PlatON Dev Testnet Deprecated",
   "chain": "PlatON",
   "rpc": [
-    "wss://devnetopenapi2.platon.network/ws"
+    "wss://devnetopenapi2.platon.network/ws",
+    "https://devnetopenapi2.platon.network/rpc"
   ],
   "faucets": [
     "https://devnet2faucet.platon.network/faucet"

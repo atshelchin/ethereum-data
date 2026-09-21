@@ -2,7 +2,8 @@
   "name": "The Root Network - Porcini Testnet",
   "chain": "TRN",
   "rpc": [
-    "wss://porcini.rootnet.app/archive/ws"
+    "wss://porcini.rootnet.app/archive/ws",
+    "https://porcini.rootnet.app/archive"
   ],
   "faucets": [],
   "nativeCurrency": {

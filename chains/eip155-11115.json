@@ -1,7 +1,9 @@
 {
   "name": "Astra Testnet",
   "chain": "Astra",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.astranaut.dev"
+  ],
   "faucets": [
     "https://faucet.astranaut.dev"
   ],

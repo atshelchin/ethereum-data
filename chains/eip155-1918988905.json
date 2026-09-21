@@ -1,7 +1,9 @@
 {
   "name": "RARI Chain Testnet",
   "chain": "RARI",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.rpc.rarichain.org/http"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ethereum",

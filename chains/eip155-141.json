@@ -2,7 +2,9 @@
   "name": "Openpiece Testnet",
   "chain": "OPENPIECE",
   "icon": "openpiece",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.openpiece.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Belly",

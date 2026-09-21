@@ -2,7 +2,8 @@
   "name": "Tanssi Demo",
   "chain": "TANGO",
   "rpc": [
-    "wss://services.tanssi-testnet.network/dancelight-2001"
+    "wss://services.tanssi-testnet.network/dancelight-2001",
+    "https://services.tanssi-testnet.network/dancelight-2001"
   ],
   "faucets": [
     "https://apps.tanssi.network/demo"

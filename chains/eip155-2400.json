@@ -2,7 +2,9 @@
   "name": "TCG Verse Mainnet",
   "chain": "TCG Verse",
   "icon": "tcg_verse",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.tcgverse.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",

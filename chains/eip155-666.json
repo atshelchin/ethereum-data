@@ -2,7 +2,8 @@
   "name": "Pixie Chain Testnet",
   "chain": "PixieChain",
   "rpc": [
-    "wss://ws-testnet.chain.pixie.xyz"
+    "wss://ws-testnet.chain.pixie.xyz",
+    "https://http-testnet.chain.pixie.xyz"
   ],
   "faucets": [
     "https://chain.pixie.xyz/faucet"

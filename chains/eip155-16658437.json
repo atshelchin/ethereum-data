@@ -1,7 +1,9 @@
 {
   "name": "Plian Testnet Main",
   "chain": "Plian",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.plian.io/testnet"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Plian Testnet Token",

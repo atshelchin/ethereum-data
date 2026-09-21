@@ -17,7 +17,10 @@
     "https://bsc-dataseed4.ninicoin.io",
     "https://bsc-dataseed2.defibit.io",
     "https://public-bsc.nownodes.io",
-    "wss://bsc-rpc.publicnode.com"
+    "wss://bsc-rpc.publicnode.com",
+    "https://bsc-rpc-public.chainpulse.cc",
+    "wss://bsc-ws-node.nariox.org",
+    "https://xrpc.cl/bsc"
   ],
   "faucets": [],
   "nativeCurrency": {

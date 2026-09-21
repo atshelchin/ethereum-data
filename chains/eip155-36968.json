@@ -1,7 +1,9 @@
 {
   "name": "AMA Testnet",
   "chain": "AMA",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.ama.one"
+  ],
   "faucets": [
     "https://mcp.ama.one/testnet-faucet"
   ],

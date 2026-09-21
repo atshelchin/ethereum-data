@@ -1,8 +1,14 @@
 {
   "name": "Omni Testnet (Deprecated)",
   "chain": "Omni",
-  "rpc": [],
-  "features": [{ "name": "EIP155" }],
+  "rpc": [
+    "https://rpc.fmcscan.com"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Omni",

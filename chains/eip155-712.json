@@ -3,7 +3,8 @@
   "chain": "Tucana",
   "title": "Tucana Testnet",
   "rpc": [
-    "wss://evm-ws.birdee-2.tucana.zone"
+    "wss://evm-ws.birdee-2.tucana.zone",
+    "https://evm-rpc.birdee-2.tucana.zone"
   ],
   "faucets": [],
   "nativeCurrency": {

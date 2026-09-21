@@ -4,7 +4,9 @@
   "chain": "Game7",
   "rpc": [
     "wss://mainnet-rpc.game7.io",
-    "wss://mainnet-rpc.game7.build"
+    "wss://mainnet-rpc.game7.build",
+    "https://mainnet-rpc.game7.io",
+    "https://mainnet-rpc.game7.build"
   ],
   "faucets": [],
   "nativeCurrency": {

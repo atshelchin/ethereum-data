@@ -3,7 +3,8 @@
   "chain": "ETH",
   "icon": "nal",
   "rpc": [
-    "wss://wss.nal.network"
+    "wss://wss.nal.network",
+    "https://rpc.nal.network"
   ],
   "faucets": [],
   "nativeCurrency": {

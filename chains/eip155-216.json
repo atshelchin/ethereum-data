@@ -3,7 +3,9 @@
   "chainId": 216,
   "networkId": 216,
   "chain": "Happychain Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.happy.tech/http"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Happy",

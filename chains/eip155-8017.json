@@ -2,7 +2,9 @@
   "name": "iSunCoin Mainnet",
   "chain": "iSunCoin",
   "icon": "isuncoin",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.isuncoin.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ISC",

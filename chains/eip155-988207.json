@@ -1,7 +1,9 @@
 {
   "name": "Ecrox Chain Mainnet",
   "chain": "Ecrox Chain",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc.ecroxscan.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ECROX COIN",

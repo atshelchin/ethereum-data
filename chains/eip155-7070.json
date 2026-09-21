@@ -2,7 +2,9 @@
   "name": "Planq Mainnet",
   "chain": "Planq",
   "icon": "planq",
-  "rpc": [],
+  "rpc": [
+    "https://evm-rpc.planq.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Planq",

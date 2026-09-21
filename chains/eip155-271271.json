@@ -2,7 +2,9 @@
   "name": "EgonCoin Testnet",
   "chain": "EGON",
   "icon": "egonicon",
-  "rpc": [],
+  "rpc": [
+    "https://rpctest.egonscan.com"
+  ],
   "faucets": [
     "https://faucet.egonscan.com"
   ],

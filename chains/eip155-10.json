@@ -11,7 +11,8 @@
     "https://op.api.pocket.network",
     "wss://optimism-rpc.publicnode.com",
     "wss://optimism.gateway.tenderly.co",
-    "wss://optimism.drpc.org"
+    "wss://optimism.drpc.org",
+    "https://xrpc.cl/optimism"
   ],
   "faucets": [],
   "nativeCurrency": {

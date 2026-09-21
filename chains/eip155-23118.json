@@ -1,7 +1,9 @@
 {
   "name": "Opside Testnet",
   "chain": "Opside",
-  "rpc": [],
+  "rpc": [
+    "https://testrpc.opside.network"
+  ],
   "faucets": [
     "https://faucet.opside.network"
   ],

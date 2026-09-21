@@ -3,7 +3,9 @@
   "title": "Tenet Testnet",
   "chain": "TENET",
   "icon": "tenet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.tenet.org"
+  ],
   "faucets": [
     "https://faucet.testnet.tenet.org"
   ],

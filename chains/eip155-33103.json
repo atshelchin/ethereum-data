@@ -1,7 +1,9 @@
 {
   "name": "Zilliqa 2 EVM proto-testnet",
   "chain": "ZIL",
-  "rpc": [],
+  "rpc": [
+    "https://api.zq2-prototestnet.zilliqa.com"
+  ],
   "faucets": [
     "https://faucet.zq2-prototestnet.zilliqa.com"
   ],

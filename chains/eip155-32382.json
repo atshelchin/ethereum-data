@@ -1,7 +1,9 @@
 {
   "name": "Santiment Intelligence Network",
   "chain": "Santiment Intelligence Network",
-  "rpc": [],
+  "rpc": [
+    "https://node.sanr.app"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "SANR",

@@ -2,7 +2,8 @@
   "name": "Onchain Points",
   "chain": "POP",
   "rpc": [
-    "https://rpc-onchain-points-8n0qkkpr2j.t.conduit.xyz/{CONDUIT_API_KEY}"
+    "https://rpc-onchain-points-8n0qkkpr2j.t.conduit.xyz/{CONDUIT_API_KEY}",
+    "https://rpc.onchainpoints.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {

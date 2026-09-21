@@ -2,7 +2,8 @@
   "name": "Mind Network Testnet",
   "chain": "FHET",
   "rpc": [
-    "wss://rpc-testnet.mindnetwork.xyz"
+    "wss://rpc-testnet.mindnetwork.xyz",
+    "https://rpc-testnet.mindnetwork.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {

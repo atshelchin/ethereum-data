@@ -4,7 +4,9 @@
   "chain": "DWU",
   "chainId": 124,
   "networkId": 124,
-  "rpc": [],
+  "rpc": [
+    "https://decentralized-web.tech/dw_rpc.php"
+  ],
   "faucets": [],
   "infoURL": "https://decentralized-web.tech/dw_chain.php",
   "nativeCurrency": {

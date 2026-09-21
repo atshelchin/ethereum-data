@@ -1,7 +1,9 @@
 {
   "name": "Orlando Chain",
   "chain": "ORL",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.orlchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Orlando",

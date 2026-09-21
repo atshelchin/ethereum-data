@@ -1,7 +1,9 @@
 {
   "name": "Incentiv Devnet",
   "chain": "Incentiv",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.ankr.com/incentiv_devnet"
+  ],
   "faucets": [
     "https://faucet.incentiv-dev.ankr.network"
   ],

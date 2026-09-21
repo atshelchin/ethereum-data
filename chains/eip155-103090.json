@@ -1,7 +1,10 @@
 {
   "name": "Crystaleum",
   "chain": "crystal",
-  "rpc": [],
+  "rpc": [
+    "https://evm.cryptocurrencydevs.org",
+    "https://rpc.crystaleum.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "CRFI",

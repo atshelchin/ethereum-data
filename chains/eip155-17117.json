@@ -2,7 +2,9 @@
   "name": "DeFiVerse Testnet",
   "chain": "DeFiVerse Testnet",
   "icon": "defiverse",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.defi-verse.org/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Oasys",

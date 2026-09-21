@@ -1,7 +1,9 @@
 {
   "name": "Gemchain",
   "chain": "Gemchain",
-  "rpc": [],
+  "rpc": [
+    "https://evm-rpc.gemchain.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GEM",

@@ -2,7 +2,9 @@
   "name": "ZERO Testnet (Sepolia)",
   "chain": "ETH",
   "icon": "zero-sepolia",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.zerion.io/v1/zero-sepolia"
+  ],
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",

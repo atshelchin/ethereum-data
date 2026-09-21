@@ -1,7 +1,10 @@
 {
   "name": "MathChain",
   "chain": "MATH",
-  "rpc": [],
+  "rpc": [
+    "https://mathchain-asia.maiziqianbao.net/rpc",
+    "https://mathchain-us.maiziqianbao.net/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "MathChain",

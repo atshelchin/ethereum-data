@@ -1,7 +1,9 @@
 {
   "name": "Script Testnet",
   "chain": "SPAY",
-  "rpc": [],
+  "rpc": [
+    "https://testeth-rpc-api.script.tv/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Script",

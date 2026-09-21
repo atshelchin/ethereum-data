@@ -1,7 +1,9 @@
 {
   "name": "OpTrust Testnet",
   "chain": "OpTrust",
-  "rpc": [],
+  "rpc": [
+    "https://rpctest.optrust.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TestBSC",

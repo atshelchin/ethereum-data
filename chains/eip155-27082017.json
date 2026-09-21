@@ -2,7 +2,9 @@
   "name": "Excoincial Chain Volta-Testnet",
   "chain": "TEXL",
   "icon": "exl",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.exlscan.com"
+  ],
   "faucets": [
     "https://faucet.exlscan.com"
   ],

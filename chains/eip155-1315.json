@@ -2,7 +2,8 @@
   "name": "Story Aeneid Testnet",
   "chain": "Story Aeneid Testnet",
   "rpc": [
-    "https://aeneid.storyrpc.io"
+    "https://aeneid.storyrpc.io",
+    "https://aeneid.datarpc.io"
   ],
   "faucets": [],
   "nativeCurrency": {

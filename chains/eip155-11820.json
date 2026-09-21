@@ -1,7 +1,9 @@
 {
   "name": "Artela Mainnet",
   "chain": "Artela",
-  "rpc": [],
+  "rpc": [
+    "https://node-euro.artela.network/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ART",

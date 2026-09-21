@@ -2,7 +2,10 @@
   "name": "HyperAGI Mainnet",
   "chain": "HyperAGI",
   "icon": "hyperagi",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.hyperagi.network",
+    "https://rpc.hyperagi.ai"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Hyperdust",

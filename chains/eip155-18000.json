@@ -1,7 +1,9 @@
 {
   "name": "Frontier of Dreams Testnet",
   "chain": "Game Network",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.fod.games/"
+  ],
   "nativeCurrency": {
     "name": "ZKST",
     "symbol": "ZKST",

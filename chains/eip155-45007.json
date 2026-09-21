@@ -1,7 +1,9 @@
 {
   "name": "Juneo mBTC1-Chain",
   "chain": "Juneo mBTC1-Chain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.juneo-mainnet.network/ext/bc/mBTC1/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "mBTC1",

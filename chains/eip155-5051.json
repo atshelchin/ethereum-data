@@ -1,7 +1,9 @@
 {
   "name": "Nollie Skatechain Testnet",
   "chain": "Skatechain",
-  "rpc": [],
+  "rpc": [
+    "https://nollie-rpc.skatechain.org/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

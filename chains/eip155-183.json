@@ -1,7 +1,9 @@
 {
   "name": "Ethernity",
   "chain": "Ethernity",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.ethernitychain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

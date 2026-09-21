@@ -1,7 +1,9 @@
 {
   "name": "Canto Tesnet",
   "chain": "Canto",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-archive.plexnode.wtf"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Testnet Canto",

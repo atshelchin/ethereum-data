@@ -1,7 +1,9 @@
 {
   "name": "Mint Sepolia Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://sepolia-testnet-rpc.mintchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",

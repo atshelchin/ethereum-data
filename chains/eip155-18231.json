@@ -3,7 +3,8 @@
   "title": "unreal testnet for re.al",
   "chain": "unreal",
   "rpc": [
-    "wss://ws.unreal.gelato.digital"
+    "wss://ws.unreal.gelato.digital",
+    "https://rpc.unreal.gelato.digital"
   ],
   "nativeCurrency": {
     "name": "unreal Ether",

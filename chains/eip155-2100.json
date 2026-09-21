@@ -1,7 +1,9 @@
 {
   "name": "Ecoball Mainnet",
   "chain": "ECO",
-  "rpc": [],
+  "rpc": [
+    "https://api.ecoball.org/ecoball/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ecoball Coin",

@@ -1,7 +1,9 @@
 {
   "name": "Bharat Blockchain Network",
   "chain": "BBNT",
-  "rpc": [],
+  "rpc": [
+    "https://bbnrpc.testnet.bharatblockchain.io"
+  ],
   "faucets": [
     "https://www.bon.bharatblockchain.io/faucet"
   ],

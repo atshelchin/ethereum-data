@@ -2,7 +2,9 @@
   "name": "Callisto Mainnet",
   "chain": "CLO",
   "icon": "callistonetwork",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.callistodao.org"
+  ],
   "faucets": [
     "https://faucet.callistodao.org"
   ],

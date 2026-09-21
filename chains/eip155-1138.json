@@ -2,7 +2,9 @@
   "name": "AmStar Testnet",
   "chain": "AmStar",
   "icon": "amstar",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.amstarscan.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "SINSO",

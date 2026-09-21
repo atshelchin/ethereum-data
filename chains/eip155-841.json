@@ -2,7 +2,10 @@
   "name": "Taraxa Mainnet",
   "chain": "TARA",
   "icon": "taraxa",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.mainnet.taraxa.io/",
+    "https://ws.mainnet.taraxa.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Tara",

@@ -1,7 +1,9 @@
 {
   "name": "XCHAIN Testnet",
   "chain": "XCHAIN",
-  "rpc": [],
+  "rpc": [
+    "https://xchain-testnet-rpc.kuma.bid"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

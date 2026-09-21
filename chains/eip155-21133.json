@@ -1,8 +1,13 @@
 {
   "name": "All About Healthy",
   "chain": "AAH",
-  "rpc": ["https://rpc.c4ex.net"],
-  "faucets": ["https://t.me/c4eiAirdrop"],
+  "rpc": [
+    "https://rpc.c4ex.net",
+    "https://rpc.aah.name"
+  ],
+  "faucets": [
+    "https://t.me/c4eiAirdrop"
+  ],
   "nativeCurrency": {
     "name": "AAH",
     "symbol": "AAH",

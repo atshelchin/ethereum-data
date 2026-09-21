@@ -1,7 +1,9 @@
 {
   "name": "Lydia Coin Testnet",
   "chain": "LYDIA-TESTNET",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.lydiacoins.com"
+  ],
   "faucets": [
     "https://faucet.lydiacoins.com/"
   ],

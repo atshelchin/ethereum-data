@@ -2,7 +2,8 @@
   "name": "Athene Parthenon",
   "chain": "athene-parthenon",
   "rpc": [
-    "wss://ws.parthenon.athenescan.io"
+    "wss://ws.parthenon.athenescan.io",
+    "https://rpc.parthenon.athenescan.io"
   ],
   "nativeCurrency": {
     "name": "Ether",

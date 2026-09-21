@@ -6,7 +6,9 @@
   "rpc": [
     "https://rpc.ankr.com/tenet_evm",
     "wss://tenet-evm.publicnode.com",
-    "wss://tenet-evm-rpc.publicnode.com"
+    "wss://tenet-evm-rpc.publicnode.com",
+    "https://rpc.tenet.org",
+    "https://tenet-evm.publicnode.com"
   ],
   "faucets": [],
   "nativeCurrency": {

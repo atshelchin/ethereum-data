@@ -2,7 +2,9 @@
   "name": "PublicMint Testnet",
   "title": "Public Mint Testnet",
   "chain": "PublicMint",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.tst.publicmint.io:8545"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "USD",

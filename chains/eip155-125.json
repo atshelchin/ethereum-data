@@ -1,7 +1,9 @@
 {
   "name": "OYchain Testnet",
   "chain": "OYchain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.oychain.io"
+  ],
   "faucets": [
     "https://faucet.oychain.io"
   ],

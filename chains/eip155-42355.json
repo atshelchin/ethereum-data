@@ -1,7 +1,9 @@
 {
   "name": "GoldXChain Mainnet",
   "chain": "GoldX",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc.goldxchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GoldX",

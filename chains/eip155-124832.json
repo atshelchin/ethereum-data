@@ -1,7 +1,9 @@
 {
   "name": "Mitosis Testnet",
   "chain": "Mitosis Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.mitosis.org"
+  ],
   "faucets": [
     "https://testnet.mitosis.org/faucet"
   ],

@@ -1,7 +1,9 @@
 {
   "name": "Forta Chain",
   "chain": "Forta Chain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-forta-chain-8gj1qndmfc.t.conduit.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "FORT",

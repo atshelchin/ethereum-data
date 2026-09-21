@@ -1,7 +1,9 @@
 {
   "name": "QEasyWeb3 Testnet",
   "chain": "QET",
-  "rpc": [],
+  "rpc": [
+    "https://qeasyweb3.com"
+  ],
   "faucets": [
     "http://faucet.qeasyweb3.com"
   ],

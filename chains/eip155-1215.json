@@ -2,7 +2,9 @@
   "name": "ADF Chain",
   "chain": "ADF Chain",
   "icon": "addfillmain",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.adftechnology.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ADDFILL",

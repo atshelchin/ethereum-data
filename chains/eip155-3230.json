@@ -3,7 +3,8 @@
   "chain": "C9XChain",
   "icon": "c9xchain",
   "rpc": [
-    "wss://services.tanssi-mainnet.network/tanssi-2002"
+    "wss://services.tanssi-mainnet.network/tanssi-2002",
+    "https://services.tanssi-mainnet.network/tanssi-2002"
   ],
   "faucets": [],
   "nativeCurrency": {

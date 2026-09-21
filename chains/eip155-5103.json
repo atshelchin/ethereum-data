@@ -1,7 +1,9 @@
 {
   "name": "Coordinape Testnet",
   "chain": "Coordinape Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-coordinape-testnet-vs9se3oc4v.t.conduit.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",

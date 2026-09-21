@@ -1,7 +1,9 @@
 {
   "name": "UBIT SMARTCHAIN MAINNET",
   "chain": "UBIT SMARTCHAIN",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.ubitscan.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "USC",

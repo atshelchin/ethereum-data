@@ -2,7 +2,9 @@
   "name": "Qitmeer Network Testnet",
   "chain": "MEER",
   "rpc": [
-    "https://testnet-qng.rpc.qitmeer.io"
+    "https://testnet-qng.rpc.qitmeer.io",
+    "https://testnet.meerlabs.com",
+    "https://meer.testnet.meerfans.club"
   ],
   "faucets": [
     "https://faucet.qitmeer.io"

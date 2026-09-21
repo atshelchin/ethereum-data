@@ -4,7 +4,9 @@
   "title": "Lumia Testnet",
   "chain": "ETH",
   "icon": "lumia",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.lumia.org"
+  ],
   "faucets": [
     "https://testnet-faucet.lumia.org"
   ],

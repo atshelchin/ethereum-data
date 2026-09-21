@@ -2,7 +2,9 @@
   "name": "Creator Chain Testnet",
   "chain": "creatorchain",
   "icon": "creatorchain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.creatorchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "CreatorETH",

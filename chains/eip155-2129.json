@@ -1,7 +1,9 @@
 {
   "name": "Memento Testnet",
   "chain": "Memento",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.memento.zeeve.online"
+  ],
   "faucets": [
     "https://faucet.memento.zeeve.online"
   ],

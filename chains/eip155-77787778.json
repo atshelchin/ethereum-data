@@ -2,7 +2,9 @@
   "name": "0xHash Testnet",
   "chain": "HETH",
   "icon": "ethereum",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-test.0xhash.io"
+  ],
   "features": [
     {
       "name": "EIP155"

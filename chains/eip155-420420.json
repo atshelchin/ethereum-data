@@ -1,7 +1,9 @@
 {
   "name": "Kekchain",
   "chain": "kek",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.kekchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "KEK",

@@ -2,7 +2,8 @@
   "name": "CMP-Mainnet",
   "chain": "CMP",
   "rpc": [
-    "wss://mainnet.block.caduceus.foundation"
+    "wss://mainnet.block.caduceus.foundation",
+    "https://mainnet.block.caduceus.foundation"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -1,7 +1,9 @@
 {
   "name": "SlingShot Testnet",
   "chain": "SLING",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-dependent-emerald-whippet-gh6kch3nen.t.conduit.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sling Test",

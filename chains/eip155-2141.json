@@ -1,7 +1,9 @@
 {
   "name": "Oneness TestNet",
   "chain": "Oneness-Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.onenesslabs.io/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",

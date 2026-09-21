@@ -2,7 +2,9 @@
   "name": "SiriusNet V2",
   "chain": "SIN2",
   "faucets": [],
-  "rpc": [],
+  "rpc": [
+    "https://rpc2.siriusnet.io"
+  ],
   "icon": "siriusnet",
   "nativeCurrency": {
     "name": "MCD",

@@ -1,7 +1,9 @@
 {
   "name": "Trust EVM Testnet",
   "chain": "Trust EVM Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://api.testnet-dev.trust.one"
+  ],
   "faucets": [
     "https://faucet.testnet-dev.trust.one/"
   ],

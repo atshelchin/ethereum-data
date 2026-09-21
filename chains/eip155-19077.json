@@ -1,7 +1,9 @@
 {
   "name": "BlockX Atlantis Testnet",
   "chain": "blockx",
-  "rpc": [],
+  "rpc": [
+    "https://atlantis-web3.blockxnet.com"
+  ],
   "faucets": [
     "https://ping.blockxnet.com/blockx-atlantis-testnet/faucet"
   ],

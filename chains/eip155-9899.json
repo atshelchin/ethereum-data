@@ -3,7 +3,8 @@
   "title": "Arena-Z-Testnet",
   "chain": "arena-z-testnet",
   "rpc": [
-    "wss://testnet-ws.arena-z.gg"
+    "wss://testnet-ws.arena-z.gg",
+    "https://testnet-rpc.arena-z.gg"
   ],
   "nativeCurrency": {
     "name": "Ether",

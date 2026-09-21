@@ -1,7 +1,9 @@
 {
   "name": "PlayFi Albireo Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://albireo-rpc.playfi.ai"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

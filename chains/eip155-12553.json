@@ -1,7 +1,9 @@
 {
   "name": "RSS3 VSL Mainnet",
   "chain": "RSS3",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.rss3.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "RSS3",

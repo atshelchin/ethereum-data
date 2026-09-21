@@ -1,7 +1,9 @@
 {
   "name": "XCOIN",
   "chain": "XCOIN",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-xcoin.cryptoxnetwork.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "XCOIN",

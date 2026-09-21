@@ -6,7 +6,9 @@
     "https://mainnet2.studio-scan.com",
     "https://mainnet.studio-blockchain.com",
     "https://mainnet.studio-scan.com",
-    "wss://mainnet.studio-blockchain.com:8547"
+    "wss://mainnet.studio-blockchain.com:8547",
+    "https://mainnet2.studio-blockchain.com",
+    "https://mainnet3.studio-blockchain.com"
   ],
   "faucets": [],
   "nativeCurrency": {

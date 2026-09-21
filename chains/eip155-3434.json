@@ -2,7 +2,9 @@
   "name": "SecureChain Testnet",
   "chain": "SCAI",
   "icon": "scaiIcon",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.securechain.ai"
+  ],
   "faucets": [
     "https://faucet.securechain.ai"
   ],

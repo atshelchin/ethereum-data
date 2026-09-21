@@ -3,7 +3,8 @@
   "chain": "Omni",
   "status": "active",
   "rpc": [
-    "wss://wss.omega.omni.network"
+    "wss://wss.omega.omni.network",
+    "https://omega.omni.network"
   ],
   "features": [
     {

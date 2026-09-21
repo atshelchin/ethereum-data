@@ -2,7 +2,9 @@
   "name": "Razor Skale Chain",
   "chain": "Razor Schain",
   "icon": "razornetwork",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.skalenodes.com/v1/turbulent-unique-scheat"
+  ],
   "faucets": [
     "https://faucet.razorscan.io/"
   ],

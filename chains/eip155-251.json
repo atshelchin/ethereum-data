@@ -3,7 +3,8 @@
   "chain": "GLXP",
   "icon": "glide",
   "rpc": [
-    "wss://rpc-api.glideprotocol.xyz/l1-rpc/"
+    "wss://rpc-api.glideprotocol.xyz/l1-rpc/",
+    "https://rpc-api.glideprotocol.xyz/l1-rpc/"
   ],
   "features": [
     {

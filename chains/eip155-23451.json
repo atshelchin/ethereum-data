@@ -1,7 +1,9 @@
 {
   "name": "DreyerX Mainnet",
   "chain": "DreyerX",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.dreyerx.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DreyerX",

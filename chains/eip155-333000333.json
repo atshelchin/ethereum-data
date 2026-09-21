@@ -2,7 +2,9 @@
   "name": "Meld",
   "title": "Meld Mainnet",
   "chain": "MELD",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-1.meld.com"
+  ],
   "faucets": [],
   "features": [],
   "nativeCurrency": {

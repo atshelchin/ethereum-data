@@ -3,7 +3,8 @@
   "title": "Polygon Blackberry Testnet",
   "chain": "ETH",
   "rpc": [
-    "wss://ws.polygon-blackberry.gelato.digital"
+    "wss://ws.polygon-blackberry.gelato.digital",
+    "https://rpc.polygon-blackberry.gelato.digital"
   ],
   "faucets": [],
   "nativeCurrency": {

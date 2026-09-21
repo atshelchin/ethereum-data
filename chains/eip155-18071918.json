@@ -1,7 +1,9 @@
 {
   "name": "Mande Network Mainnet",
   "chain": "Mande",
-  "rpc": [],
+  "rpc": [
+    "https://mande-mainnet.public.blastapi.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Mand",

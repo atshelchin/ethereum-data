@@ -1,7 +1,10 @@
 {
   "name": "Tritanium Testnet",
   "chain": "TRITANIUM",
-  "rpc": [],
+  "rpc": [
+    "https://nodetestnet-station-one.tritanium.network/",
+    "https://nodetestnet-station-two.tritanium.network/"
+  ],
   "faucets": [
     "https://faucet.tritanium.network"
   ],

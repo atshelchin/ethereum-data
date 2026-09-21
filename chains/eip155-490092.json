@@ -1,7 +1,9 @@
 {
   "name": "PUMPFI CHAIN TESTNET",
   "chain": "PUMPFI CHAIN TESTNET",
-  "rpc": [],
+  "rpc": [
+    "https://rpc1testnet.pumpfi.me"
+  ],
   "faucets": [
     "https://faucet.pumpfi.me"
   ],

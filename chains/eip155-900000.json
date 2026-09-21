@@ -1,7 +1,10 @@
 {
   "name": "Posichain Mainnet Shard 0",
   "chain": "PSC",
-  "rpc": [],
+  "rpc": [
+    "https://api.posichain.org",
+    "https://api.s0.posichain.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Posichain Native Token",

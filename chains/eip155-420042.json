@@ -2,7 +2,9 @@
   "name": "Vector Smart Chain",
   "chain": "VSC",
   "icon": "vectorsmartgas",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.vscblockchain.org"
+  ],
   "features": [
     {
       "name": "EIP155"

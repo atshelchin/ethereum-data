@@ -2,7 +2,9 @@
   "name": "Dogcoin Testnet",
   "chain": "DOGS",
   "icon": "dogs",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.dogcoin.me"
+  ],
   "faucets": [
     "https://faucet.dogcoin.network"
   ],

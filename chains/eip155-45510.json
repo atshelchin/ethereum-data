@@ -2,7 +2,9 @@
   "name": "Deelance Mainnet",
   "title": "Deelance Network Mainnet",
   "chain": "DEE",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.deelance.com"
+  ],
   "faucets": [
     "https://faucet.deelance.com"
   ],

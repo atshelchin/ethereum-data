@@ -1,7 +1,9 @@
 {
   "name": "Stenix Mainnet",
   "chain": "STEN",
-  "rpc": [],
+  "rpc": [
+    "https://stenix.network/pub"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Stenix",

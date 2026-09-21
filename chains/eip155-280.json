@@ -2,7 +2,9 @@
   "name": "zkSync Era Goerli Testnet (deprecated)",
   "status": "deprecated",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.era.zksync.dev"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

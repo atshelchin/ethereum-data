@@ -1,7 +1,9 @@
 {
   "name": "Worlds Caldera",
   "chain": "WCal",
-  "rpc": [],
+  "rpc": [
+    "https://worlds-test.calderachain.xyz/http"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

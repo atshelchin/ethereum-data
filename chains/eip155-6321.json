@@ -1,7 +1,9 @@
 {
   "name": "Aura Euphoria Testnet",
   "chain": "Aura",
-  "rpc": [],
+  "rpc": [
+    "https://jsonrpc.euphoria.aura.network"
+  ],
   "faucets": [
     "https://aura.faucetme.pro"
   ],

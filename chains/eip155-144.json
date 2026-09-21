@@ -1,7 +1,9 @@
 {
   "name": "PHI Network v2",
   "chain": "PHI",
-  "rpc": [],
+  "rpc": [
+    "https://connect.phi.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "PHI",

@@ -2,7 +2,9 @@
   "name": "PTCESCAN Testnet",
   "title": "PTCESCAN Testnet",
   "chain": "PTCE",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.ptcscan.io"
+  ],
   "faucets": [
     "https://faucet.ptcscan.io/"
   ],

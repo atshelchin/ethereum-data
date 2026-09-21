@@ -1,7 +1,9 @@
 {
   "name": "GitAGI Atlas Testnet",
   "chain": "GitAGI",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.gitagi.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GitAGI",

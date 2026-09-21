@@ -1,7 +1,9 @@
 {
   "name": "GDPR Mainnet",
   "chain": "GDPR",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.gdprchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GDPR",

@@ -3,7 +3,10 @@
   "chain": "FTM",
   "rpc": [
     "wss://fantom-testnet-rpc.publicnode.com",
-    "wss://fantom-testnet.drpc.org"
+    "wss://fantom-testnet.drpc.org",
+    "https://rpc.testnet.fantom.network",
+    "https://fantom-testnet-rpc.publicnode.com",
+    "https://fantom-testnet.drpc.org"
   ],
   "faucets": [
     "https://faucet.fantom.network"

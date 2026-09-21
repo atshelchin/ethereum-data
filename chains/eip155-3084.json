@@ -2,7 +2,8 @@
   "name": "XL Network Testnet",
   "chain": "XL Network Testnet",
   "rpc": [
-    "wss://subnets.avax.network/xlnetworkt/testnet/ws"
+    "wss://subnets.avax.network/xlnetworkt/testnet/ws",
+    "https://subnets.avax.network/xlnetworkt/testnet/rpc"
   ],
   "features": [
     {

@@ -1,7 +1,9 @@
 {
   "name": "Pirl",
   "chain": "PIRL",
-  "rpc": [],
+  "rpc": [
+    "https://wallrpc.pirl.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Pirl Ether",

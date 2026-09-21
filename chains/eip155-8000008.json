@@ -1,7 +1,9 @@
 {
   "name": "MAKI Chain",
   "chain": "MAKI",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.makiai.app"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

@@ -15,7 +15,9 @@
     "wss://moonbeam.api.onfinality.io/public-ws",
     "wss://moonbeam.unitedbloc.com",
     "wss://moonbeam-rpc.publicnode.com",
-    "wss://moonbeam.drpc.org"
+    "wss://moonbeam.drpc.org",
+    "https://moonbeam.public.blastapi.io",
+    "https://moonbeam-rpc.dwellir.com"
   ],
   "faucets": [],
   "nativeCurrency": {

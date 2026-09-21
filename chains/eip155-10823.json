@@ -2,7 +2,8 @@
   "name": "CryptoCoinPay",
   "chain": "CCP",
   "rpc": [
-    "ws://node106.cryptocoinpay.info:8546"
+    "ws://node106.cryptocoinpay.info:8546",
+    "http://node106.cryptocoinpay.info:8545"
   ],
   "faucets": [],
   "icon": "ccp",

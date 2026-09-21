@@ -2,7 +2,9 @@
   "name": "GTCSCAN",
   "chain": "GTC",
   "icon": "gtc",
-  "rpc": [],
+  "rpc": [
+    "https://gtc-dataseed.gtcscan.io/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GTC",

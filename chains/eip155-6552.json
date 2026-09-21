@@ -1,7 +1,9 @@
 {
   "name": "Scolcoin WeiChain Testnet",
   "chain": "SCOLWEI-testnet",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.scolcoin.com"
+  ],
   "faucets": [
     "https://faucet.scolcoin.com"
   ],

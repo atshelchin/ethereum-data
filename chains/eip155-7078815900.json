@@ -1,7 +1,9 @@
 {
   "name": "Mekong",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.mekong.ethpandaops.io"
+  ],
   "faucets": [
     "https://faucet.mekong.ethpandaops.io"
   ],

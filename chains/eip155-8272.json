@@ -2,7 +2,9 @@
   "name": "Blockton Blockchain",
   "chain": "Blockton Blockchain",
   "icon": "bton",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.blocktonscan.com/"
+  ],
   "faucets": [
     "https://faucet.blocktonscan.com/"
   ],

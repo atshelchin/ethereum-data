@@ -3,7 +3,8 @@
   "chain": "METAO",
   "icon": "metao",
   "rpc": [
-    "https://rpc.metachain.one"
+    "https://rpc.metachain.one",
+    "https://rpc2.metachain.one"
   ],
   "faucets": [],
   "nativeCurrency": {

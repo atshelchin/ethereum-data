@@ -1,7 +1,9 @@
 {
   "name": "Tetron Smart Chain",
   "chain": "Tetron Mainnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.tscscan.org"
+  ],
   "faucets": [],
   "features": [
     {

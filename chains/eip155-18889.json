@@ -1,7 +1,11 @@
 {
   "name": "Titan (TKX) Testnet",
   "chain": "Titan (TKX)",
-  "rpc": [],
+  "rpc": [
+    "https://titan-testnet-json-rpc.titanlab.io",
+    "https://titan-testnet-json-rpc-1.titanlab.io",
+    "https://titan-testnet-json-rpc-2.titanlab.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Titan tkx",

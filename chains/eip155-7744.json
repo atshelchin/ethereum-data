@@ -3,7 +3,8 @@
   "chain": "PHR",
   "icon": "phron",
   "rpc": [
-    "wss://testnet.phron.ai"
+    "wss://testnet.phron.ai",
+    "https://testnet.phron.ai"
   ],
   "features": [
     {

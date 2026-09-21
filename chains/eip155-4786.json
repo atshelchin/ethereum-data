@@ -1,7 +1,9 @@
 {
   "name": "Evnode Testnet",
   "chain": "Evnode",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.evnode.org/"
+  ],
   "faucets": [
     "https://faucet.evnode.org"
   ],

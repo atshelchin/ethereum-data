@@ -1,7 +1,9 @@
 {
   "name": "Rome Devnet Esquiline",
   "chain": "ROME",
-  "rpc": [],
+  "rpc": [
+    "https://esquiline.devnet.romeprotocol.xyz"
+  ],
   "faucets": [
     "https://deposit.devnet.romeprotocol.xyz"
   ],

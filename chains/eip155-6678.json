@@ -2,7 +2,9 @@
   "name": "Edge Matrix Chain",
   "chain": "EMC",
   "icon": "emc",
-  "rpc": [],
+  "rpc": [
+    "https://rpc1-mainnet.emc.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Edge Matrix Chain Token",

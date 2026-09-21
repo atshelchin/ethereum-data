@@ -2,7 +2,8 @@
   "name": "BIE",
   "chain": "BIE",
   "rpc": [
-    "https://rpc.bie.ai"
+    "https://rpc.bie.ai",
+    "https://api.bie.ai"
   ],
   "faucets": [
     "https://app.bie.ai/faucet"

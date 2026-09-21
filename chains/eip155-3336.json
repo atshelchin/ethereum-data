@@ -1,7 +1,9 @@
 {
   "name": "EthStorage L2 Testnet",
   "chain": "EthStorage L2",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.l2.ethstorage.io:9540"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

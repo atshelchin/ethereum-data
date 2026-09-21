@@ -6,7 +6,12 @@
     "https://rpc.mainnet.arc.io",
     "https://arc.drpc.org",
     "https://arc-rpc.publicnode.com",
-    "wss://rpc.mainnet.arc.io"
+    "wss://rpc.mainnet.arc.io",
+    "https://rpc.blockdaemon.mainnet.arc.io",
+    "https://rpc.drpc.mainnet.arc.io",
+    "https://rpc.quicknode.mainnet.arc.io",
+    "https://rpc.beamrpc.com",
+    "wss://rpc.beamrpc.com"
   ],
   "faucets": [],
   "nativeCurrency": {

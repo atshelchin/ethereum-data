@@ -1,7 +1,11 @@
 {
   "name": "Blockchain Genesis Mainnet",
   "chain": "GEN",
-  "rpc": [],
+  "rpc": [
+    "https://eu.mainnet.xixoio.com",
+    "https://us.mainnet.xixoio.com",
+    "https://asia.mainnet.xixoio.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GEN",

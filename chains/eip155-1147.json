@@ -2,7 +2,9 @@
   "name": "Flag Testnet",
   "chain": "Flag",
   "icon": "flag",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.flagscan.xyz"
+  ],
   "faucets": [
     "https://faucet.flagscan.xyz"
   ],

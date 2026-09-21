@@ -2,7 +2,9 @@
   "name": "Blast Testnet",
   "chain": "ETH",
   "icon": "blastIcon",
-  "rpc": [],
+  "rpc": [
+    "http://testnet-rpc.blastblockchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

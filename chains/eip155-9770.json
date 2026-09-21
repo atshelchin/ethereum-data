@@ -2,7 +2,10 @@
   "name": "Nepachain",
   "chain": "Nepachain",
   "faucets": [],
-  "rpc": [],
+  "rpc": [
+    "https://network.nepachain.org",
+    "https://network.nepachain.com"
+  ],
   "features": [
     {
       "name": "EIP155"

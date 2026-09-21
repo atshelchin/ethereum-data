@@ -1,7 +1,9 @@
 {
   "name": "Proton Testnet",
   "chain": "XPR",
-  "rpc": [],
+  "rpc": [
+    "https://protontestnet.greymass.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Proton",

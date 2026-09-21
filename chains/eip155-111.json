@@ -1,7 +1,9 @@
 {
   "name": "EtherLite Chain",
   "chain": "ETL",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.etherlite.org"
+  ],
   "faucets": [
     "https://etherlite.org/faucets"
   ],

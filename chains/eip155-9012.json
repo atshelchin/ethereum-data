@@ -1,7 +1,9 @@
 {
   "name": "BerylBit Mainnet",
   "chain": "BRB",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.berylbit.io"
+  ],
   "faucets": [
     "https://t.me/BerylBit"
   ],

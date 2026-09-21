@@ -1,7 +1,9 @@
 {
   "name": "Lambda Chain Mainnet",
   "chain": "Lambda Chain",
-  "rpc": [],
+  "rpc": [
+    "https://nrpc.lambda.im/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",

@@ -1,7 +1,9 @@
 {
   "name": "Bronos Testnet",
   "chain": "Bronos",
-  "rpc": [],
+  "rpc": [
+    "https://evm-testnet.bronos.org"
+  ],
   "faucets": [
     "https://faucet.bronos.org"
   ],

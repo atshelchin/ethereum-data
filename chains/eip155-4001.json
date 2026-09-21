@@ -1,7 +1,9 @@
 {
   "name": "Peperium Chain Testnet",
   "chain": "PERIUM",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.peperium.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Peperium Chain Testnet",

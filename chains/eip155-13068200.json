@@ -3,7 +3,9 @@
   "title": "COTI Devnet",
   "chain": "COTI",
   "icon": "coti",
-  "rpc": [],
+  "rpc": [
+    "https://devnet.coti.io/rpc"
+  ],
   "faucets": [
     "https://faucet.coti.io"
   ],

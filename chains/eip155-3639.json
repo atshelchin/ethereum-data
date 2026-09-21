@@ -2,7 +2,9 @@
   "name": "iChain Network",
   "chain": "iChain",
   "icon": "iChain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.ichainscan.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ISLAMICOIN",

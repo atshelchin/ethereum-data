@@ -3,7 +3,8 @@
   "chain": "Nomina",
   "status": "active",
   "rpc": [
-    "wss://wss.mainnet.nomina.io"
+    "wss://wss.mainnet.nomina.io",
+    "https://mainnet.nomina.io"
   ],
   "features": [
     {

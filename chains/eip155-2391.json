@@ -5,7 +5,8 @@
   "icon": "tactestnet",
   "rpc": [
     "https://spb.rpc.tac.build",
-    "https://rpc.ankr.com/tac_spb"
+    "https://rpc.ankr.com/tac_spb",
+    "https://spb-ws.rpc.tac.build"
   ],
   "faucets": [
     "https://spb.faucet.tac.build/"

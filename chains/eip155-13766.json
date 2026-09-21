@@ -3,7 +3,8 @@
   "chain": "Trexx",
   "icon": "trexx",
   "rpc": [
-    "wss://services.tanssi-mainnet.network/tanssi-2003"
+    "wss://services.tanssi-mainnet.network/tanssi-2003",
+    "https://services.tanssi-mainnet.network/tanssi-2003"
   ],
   "faucets": [],
   "nativeCurrency": {

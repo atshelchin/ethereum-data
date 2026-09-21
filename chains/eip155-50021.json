@@ -1,7 +1,9 @@
 {
   "name": "GTON Testnet",
   "chain": "GTON Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.gton.network/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GCD",

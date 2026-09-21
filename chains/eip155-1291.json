@@ -1,7 +1,9 @@
 {
   "name": "Swisstronik Testnet",
   "chain": "SWTR Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://json-rpc.testnet.swisstronik.com"
+  ],
   "faucets": [
     "https://faucet.testnet.swisstronik.com"
   ],

@@ -1,7 +1,9 @@
 {
   "name": "EthStorage Mainnet",
   "chain": "EthStorage",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.mainnet.ethstorage.io:9540"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

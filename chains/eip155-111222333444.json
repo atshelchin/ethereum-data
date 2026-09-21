@@ -4,7 +4,9 @@
   "icon": "alphabetnetwork",
   "rpc": [
     "wss://londonpublic.alphabetnetwork.org/ws/",
-    "wss://main-rpc.com/ws/"
+    "wss://main-rpc.com/ws/",
+    "https://londonpublic.alphabetnetwork.org",
+    "https://main-rpc.com"
   ],
   "faucets": [],
   "nativeCurrency": {

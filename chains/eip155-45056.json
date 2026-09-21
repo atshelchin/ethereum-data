@@ -4,7 +4,9 @@
   "title": "Billions",
   "chain": "Billions",
   "icon": "billions",
-  "rpc": [],
+  "rpc": [
+    "https://billions-rpc.eu-north-2.gateway.fm"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETHER",

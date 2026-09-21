@@ -1,7 +1,9 @@
 {
   "name": "Azra Testnet",
   "chain": "Azra Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-azra-testnet-6hz86owb1n.t.conduit.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",

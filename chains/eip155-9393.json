@@ -1,7 +1,9 @@
 {
   "name": "Dela Sepolia Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://sepolia-dela.deperp.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",

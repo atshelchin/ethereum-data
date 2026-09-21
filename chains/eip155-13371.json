@@ -3,7 +3,8 @@
   "chain": "Immutable zkEVM",
   "rpc": [
     "https://rpc.immutable.com",
-    "wss://immutable-zkevm.drpc.org"
+    "wss://immutable-zkevm.drpc.org",
+    "https://immutable-zkevm.drpc.org"
   ],
   "faucets": [
     "https://docs.immutable.com/docs/zkEVM/guides/faucet"

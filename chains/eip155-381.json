@@ -1,7 +1,9 @@
 {
   "name": "ZKAmoeba Mainnet",
   "chain": "FIL",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.mainnet.zkamoeba.com/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "filecoin",

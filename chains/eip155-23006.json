@@ -2,7 +2,9 @@
   "name": "Antofy Testnet",
   "chain": "ABN",
   "icon": "antofy",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.antofy.io"
+  ],
   "faucets": [
     "https://faucet.antofy.io"
   ],

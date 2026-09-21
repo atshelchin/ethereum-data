@@ -1,7 +1,9 @@
 {
   "name": "Nahmii 2 Mainnet",
   "chain": "Nahmii",
-  "rpc": [],
+  "rpc": [
+    "https://l2.nahmii.io"
+  ],
   "status": "active",
   "faucets": [],
   "nativeCurrency": {

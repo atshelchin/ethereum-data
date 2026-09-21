@@ -1,7 +1,9 @@
 {
   "name": "Eurus Mainnet",
   "chain": "EUN",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.eurus.network/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Eurus",

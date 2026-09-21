@@ -2,7 +2,9 @@
   "name": "Agung Network",
   "chain": "Agung",
   "icon": "agung",
-  "rpc": [],
+  "rpc": [
+    "https://wss-async.agung.peaq.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Agung",

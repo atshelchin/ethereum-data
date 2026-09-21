@@ -2,7 +2,9 @@
   "name": "Reddio Testnet",
   "title": "Reddio Sepolia L2 Rollup Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://reddio-dev.reddio.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Reddio",

@@ -1,7 +1,9 @@
 {
   "name": "DYNO Testnet",
   "chain": "DYNO",
-  "rpc": [],
+  "rpc": [
+    "https://tapi.dynoprotocol.com"
+  ],
   "faucets": [
     "https://faucet.dynoscan.io"
   ],

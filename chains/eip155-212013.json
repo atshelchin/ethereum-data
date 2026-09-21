@@ -4,7 +4,8 @@
   "rpc": [
     "https://rpc.heima-parachain.heima.network",
     "wss://rpc.heima-parachain.heima.network",
-    "wss://litentry-rpc.dwellir.com"
+    "wss://litentry-rpc.dwellir.com",
+    "https://litentry-rpc.dwellir.com"
   ],
   "faucets": [],
   "nativeCurrency": {

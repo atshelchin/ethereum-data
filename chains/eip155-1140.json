@@ -1,7 +1,9 @@
 {
   "name": "MathChain Testnet",
   "chain": "MATH",
-  "rpc": [],
+  "rpc": [
+    "https://galois-hk.maiziqianbao.net/rpc"
+  ],
   "faucets": [
     "https://scan.boka.network/#/Galois/faucet"
   ],

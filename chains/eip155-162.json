@@ -1,7 +1,9 @@
 {
   "name": "Lightstreams Testnet",
   "chain": "PHT",
-  "rpc": [],
+  "rpc": [
+    "https://node.sirius.lightstreams.io"
+  ],
   "faucets": [
     "https://discuss.lightstreams.network/t/request-test-tokens"
   ],

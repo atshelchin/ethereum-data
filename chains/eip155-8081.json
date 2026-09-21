@@ -2,7 +2,9 @@
   "name": "Shardeum Liberty 2.X",
   "chain": "Shardeum",
   "icon": "shardeum",
-  "rpc": [],
+  "rpc": [
+    "https://liberty20.shardeum.org/"
+  ],
   "faucets": [
     "https://faucet.liberty20.shardeum.org"
   ],

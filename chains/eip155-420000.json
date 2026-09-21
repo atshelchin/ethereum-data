@@ -1,7 +1,9 @@
 {
   "name": "Infinaeon",
   "chain": "Infinaeon",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.infinaeon.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ethereum",

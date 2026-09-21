@@ -2,7 +2,11 @@
   "name": "Condrieu",
   "title": "Ethereum Verkle Testnet Condrieu",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://cheesescan.com/rpc",
+    "https://rpc1.cheesescan.com",
+    "https://rpc2.cheesescan.com"
+  ],
   "faucets": [
     "https://faucet.condrieu.ethdevops.io"
   ],

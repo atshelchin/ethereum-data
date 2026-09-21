@@ -2,7 +2,9 @@
   "name": "Lovely Network Testnet",
   "chain": "Lovely",
   "icon": "lovely",
-  "rpc": [],
+  "rpc": [
+    "https://trpc.lovely.network"
+  ],
   "faucets": [
     "https://faucet.lovely.network"
   ],

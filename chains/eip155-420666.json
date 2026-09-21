@@ -1,7 +1,9 @@
 {
   "name": "Kekchain (kektest)",
   "chain": "kek",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.kekchain.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "tKEK",

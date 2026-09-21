@@ -2,7 +2,8 @@
   "name": "Acala Mandala Testnet TC9",
   "chain": "mACA",
   "rpc": [
-    "wss://eth-rpc-tc9.aca-staging.network"
+    "wss://eth-rpc-tc9.aca-staging.network",
+    "https://eth-rpc-tc9.aca-staging.network"
   ],
   "features": [
     {

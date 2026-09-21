@@ -2,7 +2,9 @@
   "name": "Nordek Mainnet",
   "chain": "Nordek",
   "icon": "nordek",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc.nordekscan.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "NRK",

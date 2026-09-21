@@ -2,7 +2,8 @@
   "name": "Huobi ECO Chain Mainnet",
   "chain": "Heco",
   "rpc": [
-    "wss://ws-mainnet.hecochain.com"
+    "wss://ws-mainnet.hecochain.com",
+    "https://http-mainnet.hecochain.com"
   ],
   "faucets": [],
   "nativeCurrency": {

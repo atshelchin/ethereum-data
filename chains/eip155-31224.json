@@ -2,7 +2,9 @@
   "name": "CloudTx Testnet",
   "chain": "CloudTx",
   "icon": "cloudtx",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.cloudtx.finance"
+  ],
   "faucets": [
     "https://faucet.cloudtx.finance"
   ],

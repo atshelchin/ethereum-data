@@ -2,7 +2,9 @@
   "name": "SG Verse Mainnet",
   "chain": "SG Verse",
   "icon": "sg_verse",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.sgverse.net/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OAS",

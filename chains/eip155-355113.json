@@ -9,7 +9,9 @@
       "name": "EIP1559"
     }
   ],
-  "rpc": [],
+  "rpc": [
+    "https://testnet.bitfinity.network"
+  ],
   "faucets": [
     "https://bitfinity.network/faucet"
   ],

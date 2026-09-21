@@ -1,7 +1,9 @@
 {
   "name": "C4EI",
   "chain": "C4EI",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.c4ei.net"
+  ],
   "faucets": [
     "https://play.google.com/store/apps/details?id=net.c4ei.fps2"
   ],

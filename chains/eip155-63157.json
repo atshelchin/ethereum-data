@@ -1,7 +1,9 @@
 {
   "name": "Geist Mainnet",
   "chain": "Geist",
-  "rpc": [],
+  "rpc": [
+    "https://geist-mainnet.g.alchemy.com/public"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Aavegotchi GHST Token",

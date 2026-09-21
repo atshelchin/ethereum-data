@@ -2,7 +2,9 @@
   "name": "OverProtocol Mainnet",
   "chain": "OverProtocol",
   "icon": "overIcon",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.overprotocol.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Over",

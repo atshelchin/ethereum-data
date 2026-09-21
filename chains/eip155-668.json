@@ -1,7 +1,9 @@
 {
   "name": "JuncaChain",
   "chain": "JuncaChain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.juncachain.com"
+  ],
   "nativeCurrency": {
     "name": "JuncaChain Native Token",
     "symbol": "JGC",

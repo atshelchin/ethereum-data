@@ -1,7 +1,9 @@
 {
   "name": "Haven1 Testnet",
   "chain": "haven1",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.haven1.org"
+  ],
   "faucets": [
     "https://www.haven1.org/faucet"
   ],

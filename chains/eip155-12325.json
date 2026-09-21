@@ -10,7 +10,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.l3x.com"
+  ],
   "faucets": [],
   "explorers": [
     {

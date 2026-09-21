@@ -1,7 +1,9 @@
 {
   "name": "Gobbl Testnet",
   "chain": "Gobbl Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.gobbl.io"
+  ],
   "faucets": [
     "https://faucet.gobbl.io"
   ],

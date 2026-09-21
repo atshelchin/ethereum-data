@@ -2,7 +2,9 @@
   "name": "Reactive Kopli",
   "title": "Reactive Network Testnet Kopli",
   "chain": "REACT",
-  "rpc": [],
+  "rpc": [
+    "https://kopli-rpc.rnk.dev"
+  ],
   "features": [
     {
       "name": "EIP155"

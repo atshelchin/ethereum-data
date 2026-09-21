@@ -1,7 +1,9 @@
 {
   "name": "Tatara Testnet",
   "chain": "Tatara",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.tatara.katanarpc.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

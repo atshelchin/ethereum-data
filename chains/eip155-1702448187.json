@@ -2,7 +2,9 @@
   "name": "WITNESS CHAIN",
   "title": "WITNESS CHAIN",
   "chain": "Witness-Chain",
-  "rpc": [],
+  "rpc": [
+    "https://sequencer.witnesschain.com"
+  ],
   "nativeCurrency": {
     "name": "ETHER",
     "symbol": "ETH",

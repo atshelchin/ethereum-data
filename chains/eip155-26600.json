@@ -1,7 +1,9 @@
 {
   "name": "Hertz Network Mainnet",
   "chain": "HTZ",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc.hertzscan.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Hertz",

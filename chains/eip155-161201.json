@@ -1,7 +1,9 @@
 {
   "name": "OpenLedger Testnet",
   "chain": "OpenLedger Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpctn.openledger.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Openledger",

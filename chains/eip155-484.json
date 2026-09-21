@@ -10,7 +10,9 @@
       "name": "EIP1559"
     }
   ],
-  "rpc": [],
+  "rpc": [
+    "https://rpc.camp.raas.gelato.cloud"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Camp",

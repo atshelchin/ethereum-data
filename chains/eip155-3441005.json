@@ -2,7 +2,9 @@
   "name": "Manta Pacific Testnet",
   "chain": "Manta Pacific",
   "rpc": [
-    "wss://manta-pacific-testnet.drpc.org"
+    "wss://manta-pacific-testnet.drpc.org",
+    "https://manta-testnet.calderachain.xyz/http",
+    "https://manta-pacific-testnet.drpc.org"
   ],
   "faucets": [],
   "nativeCurrency": {

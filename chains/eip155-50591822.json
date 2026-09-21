@@ -1,7 +1,9 @@
 {
   "name": "Stavanger Public Testnet",
   "chain": "stavanger",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.stavanger.gateway.fm"
+  ],
   "faucets": [
     "https://faucet.stavanger.gateway.fm"
   ],

@@ -2,7 +2,9 @@
   "name": "Garizon Testnet Stage0",
   "chain": "GAR",
   "icon": "garizon",
-  "rpc": [],
+  "rpc": [
+    "https://s0-testnet.garizon.net/rpc"
+  ],
   "faucets": [
     "https://faucet-testnet.garizon.com"
   ],

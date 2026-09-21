@@ -1,7 +1,9 @@
 {
   "name": "CMDAO BBQ Chain",
   "chain": "Underchain 1",
-  "rpc": [],
+  "rpc": [
+    "https://bbqchain-rpc.commudao.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "CommuDAO",

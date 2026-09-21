@@ -1,7 +1,9 @@
 {
   "name": "Mix",
   "chain": "MIX",
-  "rpc": [],
+  "rpc": [
+    "https://rpc2.mix-blockchain.org:8647"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Mix Ether",

@@ -1,7 +1,9 @@
 {
   "name": "EtherGem",
   "chain": "EGEM",
-  "rpc": [],
+  "rpc": [
+    "https://jsonrpc.egem.io/custom"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "EtherGem Ether",

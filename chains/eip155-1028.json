@@ -1,7 +1,9 @@
 {
   "name": "BitTorrent Chain Testnet",
   "chain": "BTTC",
-  "rpc": [],
+  "rpc": [
+    "https://testrpc.bittorrentchain.io/"
+  ],
   "faucets": [],
   "status": "deprecated",
   "nativeCurrency": {

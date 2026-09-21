@@ -3,7 +3,8 @@
   "chain": "Hubblenet",
   "icon": "hubblenet",
   "rpc": [
-    "wss://ws-rpc.hubble.exchange"
+    "wss://ws-rpc.hubble.exchange",
+    "https://rpc.hubble.exchange"
   ],
   "features": [
     {

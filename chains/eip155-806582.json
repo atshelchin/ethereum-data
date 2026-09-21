@@ -1,7 +1,9 @@
 {
   "name": "Ethpar Testnet",
   "chain": "ETP",
-  "rpc": [],
+  "rpc": [
+    "https://rpc82.testnet.ethpar.net/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ethpar",

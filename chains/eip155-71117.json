@@ -3,7 +3,9 @@
   "title": "Wadzchain Testnet",
   "chain": "Wadzchain-Testnet",
   "icon": "wadz",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.wadzchain.io"
+  ],
   "faucets": [
     "https://faucet-testnet.wadzchain.io"
   ],

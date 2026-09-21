@@ -3,7 +3,8 @@
   "chain": "POA",
   "rpc": [
     "wss://sokol.poa.network/wss",
-    "ws://sokol.poa.network:8546"
+    "ws://sokol.poa.network:8546",
+    "https://sokol.poa.network"
   ],
   "faucets": [],
   "nativeCurrency": {

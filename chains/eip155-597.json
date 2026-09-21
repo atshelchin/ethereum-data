@@ -2,7 +2,8 @@
   "name": "Acala Network Testnet",
   "chain": "ACA",
   "rpc": [
-    "wss://eth-rpc-acala-testnet.aca-staging.network"
+    "wss://eth-rpc-acala-testnet.aca-staging.network",
+    "https://eth-rpc-acala-testnet.aca-staging.network"
   ],
   "faucets": [],
   "nativeCurrency": {

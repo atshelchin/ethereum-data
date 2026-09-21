@@ -4,7 +4,8 @@
   "status": "deprecated",
   "icon": "titan",
   "rpc": [
-    "wss://staging-v3.skalenodes.com/v1/ws/staging-aware-chief-gianfar"
+    "wss://staging-v3.skalenodes.com/v1/ws/staging-aware-chief-gianfar",
+    "https://staging-v3.skalenodes.com/v1/staging-aware-chief-gianfar"
   ],
   "faucets": [
     "https://sfuel.dirtroad.dev/staging"

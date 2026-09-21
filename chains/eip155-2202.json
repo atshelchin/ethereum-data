@@ -2,7 +2,9 @@
   "name": "Antofy Mainnet",
   "chain": "ABN",
   "icon": "antofy",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.antofy.io"
+  ],
   "faucets": [
     "https://faucet.antofy.io"
   ],

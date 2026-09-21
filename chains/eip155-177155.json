@@ -1,7 +1,9 @@
 {
   "name": "mfenx",
   "chain": "MFENX",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.mfenx.com"
+  ],
   "features": [
     {
       "name": "EIP155"

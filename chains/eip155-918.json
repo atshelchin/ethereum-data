@@ -2,7 +2,9 @@
   "name": "SlerfChain Mainnet",
   "title": "SlerfChain Mainnet",
   "chain": "SLERF CHAIN",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.slerfchain.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "WSLERF",

@@ -1,7 +1,9 @@
 {
   "name": "Lumoz Quidditch Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://quidditch-rpc.lumoz.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Lumoz Quidditch Testnet Token",

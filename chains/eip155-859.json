@@ -1,7 +1,9 @@
 {
   "name": "Zeeth Chain Dev",
   "chain": "ZeethChainDev",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.dev.zeeth.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Zeeth Token",

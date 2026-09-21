@@ -4,7 +4,9 @@
   "rpc": [
     "https://rpc.ankr.com/rollux_testnet/${ANKR_API_KEY}",
     "wss://rpc-tanenbaum.rollux.com/wss",
-    "wss://rollux.rpc.tanenbaum.io/wss"
+    "wss://rollux.rpc.tanenbaum.io/wss",
+    "https://rpc-tanenbaum.rollux.com",
+    "https://rollux.rpc.tanenbaum.io"
   ],
   "faucets": [
     "https://rollux.id/faucetapp"

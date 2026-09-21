@@ -1,7 +1,9 @@
 {
   "name": "Testnet BeOne Chain",
   "chain": "tBOC",
-  "rpc": [],
+  "rpc": [
+    "https://pre-boc1.beonechain.com"
+  ],
   "faucets": [
     "https://testnet.beonescan.com/faucet"
   ],

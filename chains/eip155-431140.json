@@ -2,7 +2,9 @@
   "name": "Markr Go",
   "chain": "Unified",
   "icon": "markrgo",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.markr.io/ext/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Avalanche",

@@ -1,7 +1,9 @@
 {
   "name": "Cybria Testnet",
   "chain": "CYBA",
-  "rpc": [],
+  "rpc": [
+    "https://l2-rpc.cybascan.io"
+  ],
   "faucets": [
     "https://faucet.cybascan.io"
   ],

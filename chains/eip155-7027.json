@@ -2,7 +2,9 @@
   "name": "Ella the heart",
   "chain": "ella",
   "icon": "ella",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.ella.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ella",

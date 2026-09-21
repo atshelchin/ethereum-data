@@ -1,7 +1,9 @@
 {
   "name": "PandaSea Testnet",
   "chain": "PandaSea Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.pandasea.io"
+  ],
   "faucets": [
     "https://faucet.pandasea.io"
   ],

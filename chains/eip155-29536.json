@@ -1,7 +1,9 @@
 {
   "name": "KaiChain Testnet",
   "chain": "KaiChain",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.kaichain.net"
+  ],
   "faucets": [
     "https://faucet.kaichain.net"
   ],

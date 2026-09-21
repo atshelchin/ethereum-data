@@ -3,7 +3,9 @@
   "chain": "ETH",
   "status": "deprecated",
   "icon": "taiko",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.jolnir.taiko.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

@@ -3,7 +3,9 @@
   "title": "Karak Testnet Sepolia",
   "chain": "Karak",
   "icon": "karak",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.sepolia.karak.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

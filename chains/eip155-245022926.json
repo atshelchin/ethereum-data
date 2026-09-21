@@ -2,7 +2,9 @@
   "name": "Neon EVM Devnet",
   "chain": "Solana",
   "rpc": [
-    "wss://neon-evm-devnet.drpc.org"
+    "wss://neon-evm-devnet.drpc.org",
+    "https://devnet.neonevm.org",
+    "https://neon-evm-devnet.drpc.org"
   ],
   "faucets": [
     "https://neonfaucet.org"

@@ -1,7 +1,9 @@
 {
   "name": "Toki Testnet",
   "chain": "TOKI",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.buildwithtoki.com/v0/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Toki",

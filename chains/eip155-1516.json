@@ -1,7 +1,9 @@
 {
   "name": "Story Odyssey Testnet",
   "chain": "Story Odyssey Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://odyssey.storyrpc.io"
+  ],
   "faucets": [],
   "chainId": 1516,
   "networkId": 1516,

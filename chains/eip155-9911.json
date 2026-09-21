@@ -1,7 +1,9 @@
 {
   "name": "Espento Mainnet",
   "chain": "SPENT",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.escscan.com/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ESPENTO",

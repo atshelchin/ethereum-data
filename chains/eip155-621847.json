@@ -2,7 +2,9 @@
   "name": "DJT Testnet",
   "chain": "DJT",
   "icon": "djt",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.trumpchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TrumpChain",

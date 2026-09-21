@@ -1,7 +1,9 @@
 {
   "name": "Plian Mainnet Main",
   "chain": "Plian",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.plian.io/pchain"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Plian Token",

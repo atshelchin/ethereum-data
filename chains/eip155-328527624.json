@@ -1,7 +1,9 @@
 {
   "name": "Nal Sepolia Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.nal.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sepolia Ether",

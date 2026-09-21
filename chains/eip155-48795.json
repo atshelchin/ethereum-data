@@ -1,7 +1,9 @@
 {
   "name": "Space Subnet Testnet",
   "chain": "SPACETESTNET",
-  "rpc": [],
+  "rpc": [
+    "https://subnets.avax.network/space/testnet/rpc"
+  ],
   "features": [
     {
       "name": "EIP1559"

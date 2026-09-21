@@ -1,7 +1,9 @@
 {
   "name": "DBChain Testnet",
   "chain": "DBM",
-  "rpc": [],
+  "rpc": [
+    "http://test-rpc.dbmbp.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "DBChain Testnet",

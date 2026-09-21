@@ -2,7 +2,9 @@
   "name": "Niza Chain Testnet",
   "chain": "NIZA",
   "icon": "niza",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.nizascan.io/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Niza Global",

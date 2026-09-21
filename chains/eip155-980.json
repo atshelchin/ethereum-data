@@ -2,7 +2,9 @@
   "name": "TOP Mainnet EVM",
   "chain": "TOP",
   "icon": "top",
-  "rpc": [],
+  "rpc": [
+    "https://ethapi.topnetwork.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

@@ -2,7 +2,9 @@
   "name": "BLXq Mainnet",
   "chain": "BLXQ",
   "icon": "blxq",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.blxq.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BLXQ",

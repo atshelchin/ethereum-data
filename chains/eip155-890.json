@@ -1,8 +1,17 @@
 {
   "name": "Capital Exchange",
   "chain": "CXM",
-  "rpc": [],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "rpc": [
+    "https://rpcs.marschain.net/"
+  ],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Capital Exchange",
@@ -13,7 +22,6 @@
   "shortName": "CXM",
   "chainId": 890,
   "networkId": 890,
-  "status": "active",
-  "explorers": [],
-  "status": "deprecated"
+  "status": "deprecated",
+  "explorers": []
 }

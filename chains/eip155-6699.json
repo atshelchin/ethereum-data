@@ -2,7 +2,9 @@
   "name": "OX Chain",
   "title": "OX Chain",
   "chain": "OX",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.oxscan.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "OX",

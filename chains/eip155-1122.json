@@ -3,7 +3,9 @@
   "chain": "LXP",
   "rpc": [
     "wss://rpc.luxeports.com/ws",
-    "wss://erpc.luxeports.com/ws"
+    "wss://erpc.luxeports.com/ws",
+    "https://rpc.luxeports.com",
+    "https://erpc.luxeports.com"
   ],
   "faucets": [],
   "nativeCurrency": {

@@ -1,7 +1,9 @@
 {
   "name": "Cycle Network Testnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.cyclenetwork.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

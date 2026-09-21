@@ -1,7 +1,10 @@
 {
   "name": "Arvix Testnet",
   "chain": "Arvix",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet-market.arvix.network",
+    "https://rpc-dev-testnet.arvix.network"
+  ],
   "faucets": [
     "https://claim-faucet.arvix.network"
   ],

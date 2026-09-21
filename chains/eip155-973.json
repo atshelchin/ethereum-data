@@ -2,7 +2,9 @@
   "name": "Palm Smart Chain",
   "title": "Palm Smart Chain",
   "chain": "Palm",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.palmsmartchain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "PALM",

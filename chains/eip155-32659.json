@@ -3,7 +3,8 @@
   "chain": "FSN",
   "icon": "fusion",
   "rpc": [
-    "wss://mainnet.fusionnetwork.io"
+    "wss://mainnet.fusionnetwork.io",
+    "https://mainnet.fusionnetwork.io"
   ],
   "features": [
     {

@@ -1,7 +1,9 @@
 {
   "name": "Recall Testnet",
   "chain": "Recall Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://evm.v013.node-0.testnet.recall.network"
+  ],
   "faucets": [
     "faucet.recall.network"
   ],

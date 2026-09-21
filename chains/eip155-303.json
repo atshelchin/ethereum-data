@@ -1,7 +1,9 @@
 {
   "name": "Neurochain Testnet",
   "chain": "NCN",
-  "rpc": [],
+  "rpc": [
+    "https://nc-rpc-test1.neurochain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Neurochain",

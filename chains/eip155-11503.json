@@ -1,7 +1,9 @@
 {
   "name": "BEVM Testnet",
   "chain": "BEVM",
-  "rpc": [],
+  "rpc": [
+    "https://testnet.bevm.io/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",

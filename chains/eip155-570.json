@@ -3,7 +3,8 @@
   "chain": "SYS",
   "rpc": [
     "https://rpc.rollux.com",
-    "wss://rpc.rollux.com/wss"
+    "wss://rpc.rollux.com/wss",
+    "https://rpc.ankr.com/rollux"
   ],
   "faucets": [
     "https://rollux.id/faucet"

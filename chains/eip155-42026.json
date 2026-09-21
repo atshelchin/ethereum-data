@@ -1,7 +1,9 @@
 {
   "name": "Donatuz",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.donatuz.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",

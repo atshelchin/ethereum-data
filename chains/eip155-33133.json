@@ -2,7 +2,9 @@
   "name": "Entangle Testnet",
   "chain": "NGL",
   "icon": "ngl",
-  "rpc": [],
+  "rpc": [
+    "https://evm-testnet.entangle.fi"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Entangle",

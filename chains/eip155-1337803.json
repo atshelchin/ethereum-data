@@ -1,7 +1,9 @@
 {
   "name": "Zhejiang",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.zhejiang.ethpandaops.io"
+  ],
   "faucets": [
     "https://faucet.zhejiang.ethpandaops.io",
     "https://zhejiang-faucet.pk910.de"

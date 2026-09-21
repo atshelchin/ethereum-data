@@ -2,7 +2,9 @@
   "name": "Web3Games Devnet",
   "chain": "Web3Games",
   "icon": "web3games",
-  "rpc": [],
+  "rpc": [
+    "https://devnet.web3games.org/evm"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Web3Games",

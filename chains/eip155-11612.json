@@ -2,7 +2,9 @@
   "name": "Sardis Testnet",
   "chain": "SRDX",
   "icon": "sardisTestnet",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.sardisnetwork.com"
+  ],
   "faucets": [
     "https://faucet.sardisnetwork.com"
   ],

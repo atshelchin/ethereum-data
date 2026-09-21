@@ -3,7 +3,8 @@
   "chain": "O",
   "rpc": [
     "https://84841.rpc.thirdweb.com",
-    "wss://rpc.o.xyz"
+    "wss://rpc.o.xyz",
+    "https://rpc.o.xyz"
   ],
   "faucets": [],
   "nativeCurrency": {

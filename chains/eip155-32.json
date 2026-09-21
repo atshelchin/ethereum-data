@@ -1,7 +1,9 @@
 {
   "name": "GoodData Testnet",
   "chain": "GooD",
-  "rpc": [],
+  "rpc": [
+    "https://test2.goodata.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "GoodData Testnet Ether",

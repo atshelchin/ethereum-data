@@ -9,7 +9,13 @@
     "https://rpc.gnosis.gateway.fm",
     "https://rpc.gnosischain.com",
     "wss://rpc.gnosischain.com/wss",
-    "wss://gnosis-rpc.publicnode.com"
+    "wss://gnosis-rpc.publicnode.com",
+    "https://rpc.ankr.com/gnosis",
+    "https://gnosischain-rpc.gateway.pokt.network",
+    "https://gnosis-mainnet.public.blastapi.io",
+    "https://gnosis.api.onfinality.io/public",
+    "https://gnosis.blockpi.network/v1/rpc/public",
+    "https://web3endpoints.com/gnosischain-mainnet"
   ],
   "faucets": [
     "https://gnosisfaucet.com",

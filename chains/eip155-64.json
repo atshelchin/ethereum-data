@@ -1,7 +1,9 @@
 {
   "name": "Ellaism",
   "chain": "ELLA",
-  "rpc": [],
+  "rpc": [
+    "https://jsonrpc.ellaism.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ellaism Ether",

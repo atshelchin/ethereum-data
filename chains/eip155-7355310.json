@@ -2,7 +2,9 @@
   "name": "OpenVessel",
   "chain": "VSL",
   "icon": "vsl",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-external.openvessel.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Vessel ETH",

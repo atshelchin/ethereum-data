@@ -2,7 +2,9 @@
   "name": "Excoincial Chain Mainnet",
   "chain": "EXL",
   "icon": "exl",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.exlscan.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Exlcoin",

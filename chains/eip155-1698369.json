@@ -3,7 +3,9 @@
   "chain": "Primea Network Testnet",
   "rpc": [
     "ws://test-rpc.primeanetwork.com/rpc-ws",
-    "wss://test-rpc.primeanetwork.com/rpc-wss"
+    "wss://test-rpc.primeanetwork.com/rpc-wss",
+    "http://test-rpc.primeanetwork.com/rpc-http",
+    "https://test-rpc.primeanetwork.com/rpc-https"
   ],
   "faucets": [],
   "nativeCurrency": {

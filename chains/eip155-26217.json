@@ -1,7 +1,9 @@
 {
   "name": "Integra",
   "chain": "Integra",
-  "rpc": [],
+  "rpc": [
+    "https://evm.integralayer.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Integra",

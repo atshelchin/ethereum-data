@@ -2,7 +2,8 @@
   "name": "Shido Testnet Block",
   "chain": "Shido Testnet",
   "rpc": [
-    "wss://wss-testnet-nodes.shidoscan.com"
+    "wss://wss-testnet-nodes.shidoscan.com",
+    "https://rpc-testnet-nodes.shidoscan.com"
   ],
   "faucets": [
     "https://testnet.shidoscan.com/faucet"

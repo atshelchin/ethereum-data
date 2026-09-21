@@ -4,7 +4,8 @@
   "icon": "mantis",
   "rpc": [
     "https://mantis-rpc.phoenix-systems.io",
-    "https://mantis-rpc.kore-technologies.ch"
+    "https://mantis-rpc.kore-technologies.ch",
+    "https://mantis-rpc.switch.ch"
   ],
   "faucets": [
     "https://mantis.switch.ch/faucet",

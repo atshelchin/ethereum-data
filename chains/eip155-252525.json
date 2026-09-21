@@ -1,7 +1,9 @@
 {
   "name": "CELESTIUM Network Testnet",
   "chain": "CELESTIUM",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-private-testnet.celestium.network"
+  ],
   "faucets": [
     "https://faucet.celestium.network"
   ],

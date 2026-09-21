@@ -2,7 +2,9 @@
   "name": "Supernet Testnet",
   "title": "Supernet Testnet",
   "chain": "Supernet Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://testnet-rpc.supernet.chaingames.io/"
+  ],
   "faucets": [
     "https://faucet.chaingames.io"
   ],

@@ -1,7 +1,9 @@
 {
   "name": "Wonder Testnet",
   "chain": "WNDR",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.testnet.wonderchain.org"
+  ],
   "faucets": [
     "https://wonderchain.org/faucet"
   ],

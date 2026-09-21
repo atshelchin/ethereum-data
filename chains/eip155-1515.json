@@ -1,7 +1,9 @@
 {
   "name": "Beagle Messaging Chain",
   "chain": "BMC",
-  "rpc": [],
+  "rpc": [
+    "https://beagle.chat/eth"
+  ],
   "faucets": [
     "https://faucet.beagle.chat/"
   ],

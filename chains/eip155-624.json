@@ -1,7 +1,9 @@
 {
   "name": "Binary Mainnet",
   "chain": "The Binary Holdings",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.zero.thebinaryholdings.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Binary Token",

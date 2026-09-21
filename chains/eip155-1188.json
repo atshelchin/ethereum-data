@@ -1,7 +1,9 @@
 {
   "name": "ClubMos Mainnet",
   "chain": "MOS",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet.mosscan.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ClubMos",

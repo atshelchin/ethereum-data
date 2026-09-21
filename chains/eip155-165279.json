@@ -2,7 +2,9 @@
   "name": "Eclat Mainnet",
   "chain": "Eclat",
   "icon": "eclat",
-  "rpc": [],
+  "rpc": [
+    "https://mainnet-rpc.eclatscan.com"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Eclat",

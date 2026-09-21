@@ -4,7 +4,8 @@
   "chain": "form",
   "icon": "form",
   "rpc": [
-    "wss://rpc.form.network/ws"
+    "wss://rpc.form.network/ws",
+    "https://rpc.form.network/http"
   ],
   "features": [
     {

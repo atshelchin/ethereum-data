@@ -1,7 +1,9 @@
 {
   "name": "Hybrid Chain Network Testnet",
   "chain": "HYBRID",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.hybridchain.ai/"
+  ],
   "faucets": [
     "https://faucet-testnet.hybridchain.ai"
   ],

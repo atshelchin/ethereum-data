@@ -1,7 +1,9 @@
 {
   "name": "Lamina1 Testnet",
   "chain": "Lamina1 Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://subnets.avax.network/lamina1tes/testnet/rpc"
+  ],
   "features": [
     {
       "name": "EIP1559"

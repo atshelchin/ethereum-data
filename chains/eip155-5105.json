@@ -1,7 +1,9 @@
 {
   "name": "Superloyalty Testnet",
   "chain": "Superloyalty Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-superloyalty-testnet-1m5gwjbsv1.t.conduit.xyz"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",

@@ -2,7 +2,9 @@
   "name": "ONUS Chain Testnet",
   "title": "ONUS Chain Testnet",
   "chain": "onus",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-testnet.onuschain.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "ONUS",

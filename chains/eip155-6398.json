@@ -1,7 +1,9 @@
 {
   "name": "Connext Sepolia",
   "chain": "Connext Sepolia",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.connext-sepolia.gelato.digital/"
+  ],
   "nativeCurrency": {
     "name": "ETH",
     "symbol": "ETH",

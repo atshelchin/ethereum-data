@@ -1,7 +1,9 @@
 {
   "name": "Dexit Network",
   "chain": "DXT",
-  "rpc": [],
+  "rpc": [
+    "https://dxt.dexit.network"
+  ],
   "faucets": [
     "https://faucet.dexit.network"
   ],

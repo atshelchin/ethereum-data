@@ -1,7 +1,9 @@
 {
   "name": "Chakra Testnet",
   "chain": "Chakra Testnet",
-  "rpc": [],
+  "rpc": [
+    "https://rpcv1-dn-1.chakrachain.io/"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Chakra",

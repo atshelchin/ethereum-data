@@ -1,7 +1,9 @@
 {
   "name": "Shrapnel Testnet",
   "chain": "SHRAPNEL",
-  "rpc": [],
+  "rpc": [
+    "https://subnets.avax.network/shrapnel/testnet/rpc"
+  ],
   "features": [
     {
       "name": "EIP1559"

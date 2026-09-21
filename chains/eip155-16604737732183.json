@@ -1,7 +1,9 @@
 {
   "name": "Flame Testnet",
   "chain": "Flame",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.flame.dawn-1.astria.org"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "TIA",

@@ -2,7 +2,9 @@
   "name": "ReDeFi Layer 1",
   "chain": "ReDeFi",
   "icon": "redefi",
-  "rpc": [],
+  "rpc": [
+    "https://layer1.redefi.world"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BAX",

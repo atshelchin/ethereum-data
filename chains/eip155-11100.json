@@ -1,7 +1,9 @@
 {
   "name": "Bool Network Beta Mainnet",
   "chain": "BOOL",
-  "rpc": [],
+  "rpc": [
+    "https://beta-rpc-node-http.bool.network"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "BOL",

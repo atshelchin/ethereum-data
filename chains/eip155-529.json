@@ -1,7 +1,10 @@
 {
   "name": "Firechain Mainnet",
   "chain": "FIRE",
-  "rpc": [],
+  "rpc": [
+    "https://rpc-mainnet.thefirechain.com",
+    "https://rpc-mainnet.firestation.io"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Firechain",

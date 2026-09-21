@@ -2,7 +2,9 @@
   "name": "Masa",
   "chain": "MASA",
   "icon": "masa",
-  "rpc": [],
+  "rpc": [
+    "https://subnets.avax.network/masanetwork/mainnet/rpc"
+  ],
   "features": [
     {
       "name": "EIP1559"

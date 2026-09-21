@@ -2,7 +2,9 @@
   "name": "Playdapp Testnet",
   "chain": "PDA",
   "icon": "pda",
-  "rpc": [],
+  "rpc": [
+    "https://subnets.avax.network/playdappte/testnet/rpc"
+  ],
   "features": [
     {
       "name": "EIP1559"

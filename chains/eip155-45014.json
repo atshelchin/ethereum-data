@@ -1,7 +1,9 @@
 {
   "name": "Juneo LINK1-Chain",
   "chain": "Juneo LINK1-Chain",
-  "rpc": [],
+  "rpc": [
+    "https://rpc.juneo-mainnet.network/ext/bc/LINK1/rpc"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "LINK1",
