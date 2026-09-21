@@ -5,7 +5,6 @@
   "rpc": [
     "https://polygon-zkevm.drpc.org",
     "https://zkevm-rpc.com",
-    "https://poly-zkevm.api.pocket.network",
     "wss://polygon-zkevm.drpc.org"
   ],
   "faucets": [],

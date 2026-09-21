@@ -2,7 +2,6 @@
   "name": "Fantom Opera",
   "chain": "FTM",
   "rpc": [
-    "https://fantom-pokt.nodies.app",
     "https://fantom.api.pocket.network",
     "https://fantom.api.onfinality.io/public",
     "wss://fantom-rpc.publicnode.com",

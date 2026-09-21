@@ -3,7 +3,6 @@
   "chain": "KAIA",
   "rpc": [
     "https://public-en.node.kaia.io",
-    "https://klaytn-pokt.nodies.app",
     "https://rpc.ankr.com/kaia",
     "https://kaia.api.pocket.network",
     "https://klaytn.drpc.org",
