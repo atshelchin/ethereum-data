@@ -10,6 +10,7 @@ const CHAINS_DIR = join(ROOT_DIR, "chains");
 const CHAIN_LOGOS_DIR = join(ROOT_DIR, "chainlogos");
 const ASSETS_DIR = join(ROOT_DIR, "assets");
 const INDEX_DIR = join(ROOT_DIR, "index");
+const ERC7730_DIR = join(ROOT_DIR, "erc7730");
 const INDEX_HTML = join(ROOT_DIR, "index.html");
 
 // Original chain data with full field names (for Fuse.js)
@@ -187,6 +188,17 @@ async function generateIndex() {
     /(<div class="stat-value" id="asset-count">)([^<]*)(<\/div>)/,
     `$1${assets.length.toLocaleString()}$3`
   );
+  // Clear Signing = every ERC-7730 descriptor under erc7730/ (calldata, eip712, ercs).
+  // erc7730/ is committed, so this counts what is deployed even where the registry
+  // clone is absent and build-erc7730 skips. Left untouched if erc7730/ is missing.
+  if (existsSync(ERC7730_DIR)) {
+    const clearSigning = (await readdir(ERC7730_DIR, { recursive: true }))
+      .filter((f) => f.endsWith(".json")).length;
+    html = html.replace(
+      /(<div class="stat-value" id="clear-signing-count">)([^<]*)(<\/div>)/,
+      `$1${clearSigning.toLocaleString()}$3`
+    );
+  }
   await writeFile(INDEX_HTML, html);
 
   console.log("\nIndex generation complete!");
