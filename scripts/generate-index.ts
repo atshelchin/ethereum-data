@@ -39,6 +39,11 @@ interface FuseIndex {
   index: ReturnType<typeof Fuse.createIndex>["toJSON"] extends () => infer R ? R : never;
 }
 
+// Files that failed to parse. Reported at the end rather than dropped silently,
+// since a skipped file would otherwise shrink the index and the published counts
+// with nothing to show for it.
+const skipped: string[] = [];
+
 async function loadChains(): Promise<ChainFull[]> {
   const chains: ChainFull[] = [];
 
@@ -65,7 +70,7 @@ async function loadChains(): Promise<ChainFull[]> {
 
         chains.push(chain);
       } catch (e) {
-        // Skip invalid files
+        skipped.push(join("chains", file));
       }
     }
   } catch (e) {
@@ -95,6 +100,9 @@ async function loadAssets(): Promise<AssetFull[]> {
           const infoPath = join(chainPath, addressDir, "info.json");
           const logoPath = join(chainPath, addressDir, "logo.png");
 
+          // Not an asset (e.g. a stray .DS_Store), not a failure
+          if (!existsSync(infoPath)) continue;
+
           try {
             const content = await readFile(infoPath, "utf-8");
             const data = JSON.parse(content);
@@ -112,7 +120,7 @@ async function loadAssets(): Promise<AssetFull[]> {
 
             assets.push(asset);
           } catch {
-            // Skip if no info.json
+            skipped.push(join("assets", chainDir, addressDir, "info.json"));
           }
         }
       } catch (e) {
@@ -123,7 +131,11 @@ async function loadAssets(): Promise<AssetFull[]> {
     console.error("Error reading assets:", e);
   }
 
-  return assets;
+  // readdir order is filesystem-dependent; sort so every build host produces the
+  // same index (and Fuse breaks score ties the same way everywhere).
+  return assets.sort(
+    (a, b) => a.chainId - b.chainId || a.address.localeCompare(b.address)
+  );
 }
 
 async function generateIndex() {
@@ -205,6 +217,11 @@ async function generateIndex() {
   console.log(`  - fuse-chains.json: ${(chainSize / 1024).toFixed(0)} KB (${chains.length} chains)`);
   console.log(`  - fuse-assets.json: ${(assetSize / 1024).toFixed(0)} KB (${assets.length} assets)`);
   console.log(`  - Total: ${(totalSize / 1024 / 1024).toFixed(2)} MB`);
+
+  if (skipped.length) {
+    console.warn(`\nWARNING: ${skipped.length} file(s) failed to parse and are NOT in the index or counts:`);
+    for (const f of skipped) console.warn(`  - ${f}`);
+  }
 }
 
 generateIndex().catch(console.error);
