@@ -1,7 +1,7 @@
 {
-  "name": "Areon Network Mainnet",
-  "chain": "Areon",
-  "icon": "areon",
+  "name": "Areum Network Mainnet",
+  "chain": "Areum",
+  "icon": "areum",
   "rpc": [
     "https://mainnet-rpc.areon.network",
     "https://mainnet-rpc2.areon.network",
@@ -18,15 +18,20 @@
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Areon",
+    "name": "Areum",
     "symbol": "AREA",
     "decimals": 18
   },
-  "infoURL": "https://areon.network",
+  "infoURL": "https://areum.network",
   "shortName": "area",
   "chainId": 463,
   "networkId": 463,
   "explorers": [
+    {
+      "name": "Areum Explorer",
+      "url": "https://explorer.areum.network",
+      "standard": "none"
+    },
     {
       "name": "AreonScan",
       "url": "https://areonscan.com",

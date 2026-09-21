@@ -1,6 +1,6 @@
 {
-  "name": "Arc Network",
-  "chain": "Arc Network",
+  "name": "Arc",
+  "chain": "Arc",
   "icon": "arcnetwork",
   "rpc": [
     "https://rpc.mainnet.arc.io",
@@ -19,8 +19,8 @@
     "symbol": "USDC",
     "decimals": 18
   },
-  "infoURL": "https://arc.network",
-  "shortName": "arc",
+  "infoURL": "https://arc.io",
+  "shortName": "arc-mainnet",
   "chainId": 5042,
   "networkId": 5042,
   "explorers": [

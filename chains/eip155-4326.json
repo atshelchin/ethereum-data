@@ -1,6 +1,6 @@
 {
   "name": "MegaETH Mainnet",
-  "chain": "ETH",
+  "chain": "MegaETH",
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
@@ -16,7 +16,19 @@
     "https://megaeth.rpc.sentio.xyz"
   ],
   "faucets": [],
-  "explorers": [],
+  "explorers": [
+    {
+      "name": "MegaETH Etherscan",
+      "url": "https://mega.etherscan.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "MegaETH Blockscout",
+      "url": "https://megaeth.blockscout.com",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ],
   "infoURL": "https://megaeth.com",
   "shortName": "megaeth",
   "chainId": 4326,
@@ -52,5 +64,7 @@
     "https://rpc-megaeth-mainnet.globalstake.io": "limited",
     "wss://megaeth.drpc.org": "none",
     "https://megaeth.rpc.sentio.xyz": "limited"
-  }
+  },
+  "icon": "megaeth",
+  "status": "active"
 }
