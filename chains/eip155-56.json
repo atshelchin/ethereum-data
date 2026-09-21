@@ -3,13 +3,11 @@
   "chain": "BSC",
   "rpc": [
     "https://bsc-rpc.publicnode.com",
-    "https://bsc-pokt.nodies.app",
     "https://bsc-dataseed3.defibit.io",
     "https://bnb.api.onfinality.io/public",
     "https://bsc-dataseed2.ninicoin.io",
     "https://bsc-dataseed4.defibit.io",
     "https://bsc-dataseed1.ninicoin.io",
-    "https://bsc.api.pocket.network",
     "https://bsc-dataseed2.bnbchain.org",
     "https://bsc-dataseed1.bnbchain.org",
     "https://bsc-dataseed3.bnbchain.org",
